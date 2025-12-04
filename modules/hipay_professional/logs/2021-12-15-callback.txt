@@ -1,0 +1,259 @@
+## 2021-12-15 16:34:52 ##
+##########################
+## 2021-12-15 16:34:52 ##
+START Validation Callback
+## 2021-12-15 16:34:52 ##
+##########################
+## 2021-12-15 16:34:52 ##
+----> Treatment is locked for the id_cart = 1224
+## 2021-12-15 16:34:52 ##
+data for validation
+## 2021-12-15 16:34:52 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>cbaaccc543ec41f592ba7b4fa02e317f</md5content><result><operation>authorization</operation><status>ok</status><date>2021-12-15</date><time>15:34:50 UTC+0000</time><origAmount>76.83</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1224</idForMerchant><emailClient>direction@bwmrs.com</emailClient><idClient>19910823</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1224</_aKey_cart_id>  <_aKey_customer_id>1624</_aKey_customer_id>  <_aKey_secure_key>c79cb6e0de20e22cce6fa2fe134225c6</_aKey_secure_key>  <_aKey_token>af43e6093c608d1afc907f0e58bc8ed2</_aKey_token></merchantDatas><transid>61BA0AE72F477887</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => cbaaccc543ec41f592ba7b4fa02e317f
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-12-15
+                    [time] => 15:34:50 UTC+0000
+                    [origAmount] => 76.83
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1224
+                    [emailClient] => direction@bwmrs.com
+                    [idClient] => 19910823
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1224
+                            [_aKey_customer_id] => 1624
+                            [_aKey_secure_key] => c79cb6e0de20e22cce6fa2fe134225c6
+                            [_aKey_token] => af43e6093c608d1afc907f0e58bc8ed2
+                        )
+
+                    [transid] => 61BA0AE72F477887
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1224
+    [3] => 1624
+    [4] => c79cb6e0de20e22cce6fa2fe134225c6
+    [5] => 76.83
+)
+
+## 2021-12-15 16:34:52 ##
+----> START registerOrder()
+## 2021-12-15 16:34:52 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-15 16:34:52 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-12-15</date><time>15:34:50 UTC+0000</time><origAmount>76.83</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1224</idForMerchant><emailClient>direction@bwmrs.com</emailClient><idClient>19910823</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1224</_aKey_cart_id>  <_aKey_customer_id>1624</_aKey_customer_id>  <_aKey_secure_key>c79cb6e0de20e22cce6fa2fe134225c6</_aKey_secure_key>  <_aKey_token>af43e6093c608d1afc907f0e58bc8ed2</_aKey_token></merchantDatas><transid>61BA0AE72F477887</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-12-15 16:34:52 ##
+currency : EUR
+## 2021-12-15 16:34:52 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-15 16:34:52 ##
+callback_salt : 
+## 2021-12-15 16:34:52 ##
+md5 : cbaaccc543ec41f592ba7b4fa02e317f == md5content : cbaaccc543ec41f592ba7b4fa02e317f
+## 2021-12-15 16:34:52 ##
+Status = ok
+## 2021-12-15 16:34:52 ##
+$currency = EUR
+## 2021-12-15 16:34:52 ##
+id_order_state = 42
+## 2021-12-15 16:34:52 ##
+----> START placeOrder()
+## 2021-12-15 16:34:52 ##
+Treatment status = 42
+## 2021-12-15 16:34:52 ##
+Validate order
+## 2021-12-15 16:34:52 ##
+Array
+(
+    [0] => 1224
+    [1] => 42
+    [2] => 76.83
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"61BA0AE72F477887"}
+    [5] => Array
+        (
+            [transaction_id] => 61BA0AE72F477887
+        )
+
+    [6] => 1
+    [7] => c79cb6e0de20e22cce6fa2fe134225c6
+)
+
+## 2021-12-15 16:34:52 ##
+ID Shop = 1
+## 2021-12-15 16:34:56 ##
+Order created
+## 2021-12-15 16:34:56 ##
+----> END placeOrder()
+## 2021-12-15 16:34:56 ##
+----> END registerOrder()
+## 2021-12-15 16:34:56 ##
+----> Treatment is unlocked for the id_cart = 1224
+## 2021-12-15 16:35:01 ##
+##########################
+## 2021-12-15 16:35:01 ##
+START Validation Callback
+## 2021-12-15 16:35:01 ##
+##########################
+## 2021-12-15 16:35:01 ##
+----> Treatment is locked for the id_cart = 1224
+## 2021-12-15 16:35:01 ##
+data for validation
+## 2021-12-15 16:35:01 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>239fcd7e16eff77f6b184f1228c383d8</md5content><result><operation>capture</operation><status>ok</status><date>2021-12-15</date><time>15:34:57 UTC+0000</time><origAmount>76.83</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1224</idForMerchant><emailClient>direction@bwmrs.com</emailClient><idClient>19910823</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1224</_aKey_cart_id>  <_aKey_customer_id>1624</_aKey_customer_id>  <_aKey_secure_key>c79cb6e0de20e22cce6fa2fe134225c6</_aKey_secure_key>  <_aKey_token>af43e6093c608d1afc907f0e58bc8ed2</_aKey_token></merchantDatas><transid>61BA0AE72F477887</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 239fcd7e16eff77f6b184f1228c383d8
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-12-15
+                    [time] => 15:34:57 UTC+0000
+                    [origAmount] => 76.83
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1224
+                    [emailClient] => direction@bwmrs.com
+                    [idClient] => 19910823
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1224
+                            [_aKey_customer_id] => 1624
+                            [_aKey_secure_key] => c79cb6e0de20e22cce6fa2fe134225c6
+                            [_aKey_token] => af43e6093c608d1afc907f0e58bc8ed2
+                        )
+
+                    [transid] => 61BA0AE72F477887
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1224
+    [3] => 1624
+    [4] => c79cb6e0de20e22cce6fa2fe134225c6
+    [5] => 76.83
+)
+
+## 2021-12-15 16:35:01 ##
+----> START registerOrder()
+## 2021-12-15 16:35:01 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-15 16:35:01 ##
+<result><operation>capture</operation><status>ok</status><date>2021-12-15</date><time>15:34:57 UTC+0000</time><origAmount>76.83</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1224</idForMerchant><emailClient>direction@bwmrs.com</emailClient><idClient>19910823</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1224</_aKey_cart_id>  <_aKey_customer_id>1624</_aKey_customer_id>  <_aKey_secure_key>c79cb6e0de20e22cce6fa2fe134225c6</_aKey_secure_key>  <_aKey_token>af43e6093c608d1afc907f0e58bc8ed2</_aKey_token></merchantDatas><transid>61BA0AE72F477887</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-12-15 16:35:01 ##
+currency : EUR
+## 2021-12-15 16:35:01 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-15 16:35:01 ##
+callback_salt : 
+## 2021-12-15 16:35:01 ##
+md5 : 239fcd7e16eff77f6b184f1228c383d8 == md5content : 239fcd7e16eff77f6b184f1228c383d8
+## 2021-12-15 16:35:01 ##
+Status = ok
+## 2021-12-15 16:35:01 ##
+$currency = EUR
+## 2021-12-15 16:35:01 ##
+id_order_state = 2
+## 2021-12-15 16:35:01 ##
+----> START placeOrder()
+## 2021-12-15 16:35:01 ##
+Treatment an existing order
+## 2021-12-15 16:35:01 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-12-15 16:35:01 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-12-15
+    [time] => 15:34:57 UTC+0000
+    [origAmount] => 76.83
+    [origCurrency] => EUR
+    [idForMerchant] => 1224
+    [emailClient] => direction@bwmrs.com
+    [idClient] => 19910823
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 1224
+            [_aKey_customer_id] => 1624
+            [_aKey_secure_key] => c79cb6e0de20e22cce6fa2fe134225c6
+            [_aKey_token] => af43e6093c608d1afc907f0e58bc8ed2
+        )
+
+    [transid] => 61BA0AE72F477887
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-12-15 16:35:02 ##
+----> END placeOrder()
+## 2021-12-15 16:35:02 ##
+----> END registerOrder()
+## 2021-12-15 16:35:02 ##
+----> Treatment is unlocked for the id_cart = 1224

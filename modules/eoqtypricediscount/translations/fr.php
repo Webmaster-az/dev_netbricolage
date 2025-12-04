@@ -1,0 +1,34 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_e35d17afe37e3ddc185d8ca20c313cb4'] = 'Affichage étendu des remises sur quantités';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_f4179a9746fd4a7edcc57fb3a4cb3d93'] = 'Affiche les remises sur quantités sur la page d’accueil et les pages catégories';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_e60263ac381ae4a9ad460a5c706b9b5a'] = 'Configuration sauvegardée';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_2eaa667c55f2fbd2f74f6b2ee2c8b0e4'] = ' Affichage des prix des produits';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_17be790e13ae91c17fa020dd1485f45c'] = 'Montrer Prix le plus bas ( à partir de : )';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activé';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_b9f5c797ebbf55adccdd8539a65a0241'] = 'Désactivé';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_3ed51489f9e68e633a69d101cd3a8756'] = 'Affichage sur la page d\'accueil';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_86d83574af6cbb861abb928cea1ef89e'] = 'Merci de vider le cache après avoir changé cette configuration';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_a4dfb9ae9179d2db465009966927d5b6'] = 'Affichage sur la page catégorie';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_c9cc8cce247e49bae79f15173ce97354'] = 'Sauvegarder';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_887ee91702c962a70b87cbef07bbcaec'] = 'HT';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_e2e79605fc9450ec17957cf0e910f5c6'] = 'TTC';
+$_MODULE['<{eoqtypricediscount}prestashop>eoqtypricediscount_28069fc1769050aa61866e80c16056d8'] = 'à partir de :';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_cb08e7affde88fd131179c824dd5e660'] = '100% expertise PrestaShop';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_10d0de28911c5f66463b9c8783f8148a'] = 'Maintenance';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_75ec3e55a77288b4a132f7528619817b'] = 'Agence';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_fe388b673b3d34c48aeb5c4b1976ec66'] = 'Optimisations';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_5bb187d3181fc4b64ea0bb2ac9149722'] = 'Hébergement';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_368cef9ac0f76860a57d175c0427b11f'] = 'Partenaire Prestashop platinum';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_007c339a6163520ebf13e5da38491eb1'] = 'Découvrez nos autres modules';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_a3a916e48d23a0db3eef90f19b34a257'] = 'Voir ce module';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_13b25a462d35e563496e6b8c71397bb1'] = 'Découvrez également';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_footer_e146c3998c5a8bdb96e3f5ccf9b1de0b'] = 'Tous nos modules';
+$_MODULE['<{eoqtypricediscount}prestashop>hook_694e8d1f2ee056f98ee488bdc4982d73'] = 'Qté';
+$_MODULE['<{eoqtypricediscount}prestashop>hook_104d9898c04874d0fbac36e125fa1369'] = 'Remise';
+$_MODULE['<{eoqtypricediscount}prestashop>hook_6c957f72dc8cdacc75762f2cbdcdfaf2'] = '€';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_header_34b6cd75171affba6957e308dcbd92be'] = 'Version';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_header_78a1949268ace1fc7465c3ccd5782138'] = 'Documentation';
+$_MODULE['<{eoqtypricediscount}prestashop>cross_selling_header_ad119d5ea30f6c26b58e0af5bc43c9fe'] = 'Contacter le support';

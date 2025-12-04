@@ -1,0 +1,518 @@
+## 2024-04-28 18:04:40 ##
+##########################
+## 2024-04-28 18:04:40 ##
+START Validation Callback
+## 2024-04-28 18:04:40 ##
+##########################
+## 2024-04-28 18:04:40 ##
+----> Treatment is locked for the id_cart = 14102
+## 2024-04-28 18:04:40 ##
+data for validation
+## 2024-04-28 18:04:40 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>97352284b3c4b285397ce2f8d82dea08</md5content><result><operation>authorization</operation><status>ok</status><date>2024-04-28</date><time>16:04:37 UTC+0000</time><origAmount>319.75</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14102</idForMerchant><emailClient>sarl-dsa@orange.fr</emailClient><idClient>18390800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14102</_aKey_cart_id>  <_aKey_customer_id>1262</_aKey_customer_id>  <_aKey_secure_key>aeca0e8f4ecd0acee1fee93ac65474de</_aKey_secure_key>  <_aKey_token>e234339222728dcf1f3d28b562b665f3</_aKey_token></merchantDatas><transid>662E735EDEAC7206</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 97352284b3c4b285397ce2f8d82dea08
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-04-28
+                    [time] => 16:04:37 UTC+0000
+                    [origAmount] => 319.75
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14102
+                    [emailClient] => sarl-dsa@orange.fr
+                    [idClient] => 18390800
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14102
+                            [_aKey_customer_id] => 1262
+                            [_aKey_secure_key] => aeca0e8f4ecd0acee1fee93ac65474de
+                            [_aKey_token] => e234339222728dcf1f3d28b562b665f3
+                        )
+
+                    [transid] => 662E735EDEAC7206
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 14102
+    [3] => 1262
+    [4] => aeca0e8f4ecd0acee1fee93ac65474de
+    [5] => 319.75
+)
+
+## 2024-04-28 18:04:40 ##
+----> START registerOrder()
+## 2024-04-28 18:04:40 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-28 18:04:40 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-04-28</date><time>16:04:37 UTC+0000</time><origAmount>319.75</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14102</idForMerchant><emailClient>sarl-dsa@orange.fr</emailClient><idClient>18390800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14102</_aKey_cart_id>  <_aKey_customer_id>1262</_aKey_customer_id>  <_aKey_secure_key>aeca0e8f4ecd0acee1fee93ac65474de</_aKey_secure_key>  <_aKey_token>e234339222728dcf1f3d28b562b665f3</_aKey_token></merchantDatas><transid>662E735EDEAC7206</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-28 18:04:40 ##
+currency : EUR
+## 2024-04-28 18:04:40 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-28 18:04:40 ##
+callback_salt : 
+## 2024-04-28 18:04:40 ##
+md5 : 97352284b3c4b285397ce2f8d82dea08 == md5content : 97352284b3c4b285397ce2f8d82dea08
+## 2024-04-28 18:04:40 ##
+Status = ok
+## 2024-04-28 18:04:40 ##
+$currency = EUR
+## 2024-04-28 18:04:40 ##
+id_order_state = 42
+## 2024-04-28 18:04:40 ##
+----> START placeOrder()
+## 2024-04-28 18:04:40 ##
+Treatment status = 42
+## 2024-04-28 18:04:40 ##
+Validate order
+## 2024-04-28 18:04:40 ##
+Array
+(
+    [0] => 14102
+    [1] => 42
+    [2] => 319.75
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"662E735EDEAC7206"}
+    [5] => Array
+        (
+            [transaction_id] => 662E735EDEAC7206
+        )
+
+    [6] => 1
+    [7] => aeca0e8f4ecd0acee1fee93ac65474de
+)
+
+## 2024-04-28 18:04:40 ##
+ID Shop = 1
+## 2024-04-28 18:04:43 ##
+Order created
+## 2024-04-28 18:04:43 ##
+----> END placeOrder()
+## 2024-04-28 18:04:43 ##
+----> END registerOrder()
+## 2024-04-28 18:04:43 ##
+----> Treatment is unlocked for the id_cart = 14102
+## 2024-04-28 18:04:48 ##
+##########################
+## 2024-04-28 18:04:48 ##
+START Validation Callback
+## 2024-04-28 18:04:48 ##
+##########################
+## 2024-04-28 18:04:48 ##
+----> Treatment is locked for the id_cart = 14102
+## 2024-04-28 18:04:48 ##
+data for validation
+## 2024-04-28 18:04:48 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a46082db8c5b11caf00579c4f7ff75be</md5content><result><operation>capture</operation><status>ok</status><date>2024-04-28</date><time>16:04:44 UTC+0000</time><origAmount>319.75</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14102</idForMerchant><emailClient>sarl-dsa@orange.fr</emailClient><idClient>18390800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14102</_aKey_cart_id>  <_aKey_customer_id>1262</_aKey_customer_id>  <_aKey_secure_key>aeca0e8f4ecd0acee1fee93ac65474de</_aKey_secure_key>  <_aKey_token>e234339222728dcf1f3d28b562b665f3</_aKey_token></merchantDatas><transid>662E735EDEAC7206</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a46082db8c5b11caf00579c4f7ff75be
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-04-28
+                    [time] => 16:04:44 UTC+0000
+                    [origAmount] => 319.75
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14102
+                    [emailClient] => sarl-dsa@orange.fr
+                    [idClient] => 18390800
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14102
+                            [_aKey_customer_id] => 1262
+                            [_aKey_secure_key] => aeca0e8f4ecd0acee1fee93ac65474de
+                            [_aKey_token] => e234339222728dcf1f3d28b562b665f3
+                        )
+
+                    [transid] => 662E735EDEAC7206
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 14102
+    [3] => 1262
+    [4] => aeca0e8f4ecd0acee1fee93ac65474de
+    [5] => 319.75
+)
+
+## 2024-04-28 18:04:48 ##
+----> START registerOrder()
+## 2024-04-28 18:04:48 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-28 18:04:48 ##
+<result><operation>capture</operation><status>ok</status><date>2024-04-28</date><time>16:04:44 UTC+0000</time><origAmount>319.75</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14102</idForMerchant><emailClient>sarl-dsa@orange.fr</emailClient><idClient>18390800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14102</_aKey_cart_id>  <_aKey_customer_id>1262</_aKey_customer_id>  <_aKey_secure_key>aeca0e8f4ecd0acee1fee93ac65474de</_aKey_secure_key>  <_aKey_token>e234339222728dcf1f3d28b562b665f3</_aKey_token></merchantDatas><transid>662E735EDEAC7206</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-28 18:04:48 ##
+currency : EUR
+## 2024-04-28 18:04:48 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-28 18:04:48 ##
+callback_salt : 
+## 2024-04-28 18:04:48 ##
+md5 : a46082db8c5b11caf00579c4f7ff75be == md5content : a46082db8c5b11caf00579c4f7ff75be
+## 2024-04-28 18:04:48 ##
+Status = ok
+## 2024-04-28 18:04:48 ##
+$currency = EUR
+## 2024-04-28 18:04:48 ##
+id_order_state = 2
+## 2024-04-28 18:04:48 ##
+----> START placeOrder()
+## 2024-04-28 18:04:48 ##
+Treatment an existing order
+## 2024-04-28 18:04:48 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-04-28 18:04:48 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-04-28
+    [time] => 16:04:44 UTC+0000
+    [origAmount] => 319.75
+    [origCurrency] => EUR
+    [idForMerchant] => 14102
+    [emailClient] => sarl-dsa@orange.fr
+    [idClient] => 18390800
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 14102
+            [_aKey_customer_id] => 1262
+            [_aKey_secure_key] => aeca0e8f4ecd0acee1fee93ac65474de
+            [_aKey_token] => e234339222728dcf1f3d28b562b665f3
+        )
+
+    [transid] => 662E735EDEAC7206
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-04-28 18:04:49 ##
+----> END placeOrder()
+## 2024-04-28 18:04:49 ##
+----> END registerOrder()
+## 2024-04-28 18:04:49 ##
+----> Treatment is unlocked for the id_cart = 14102
+## 2024-04-28 20:25:03 ##
+##########################
+## 2024-04-28 20:25:03 ##
+START Validation Callback
+## 2024-04-28 20:25:03 ##
+##########################
+## 2024-04-28 20:25:03 ##
+----> Treatment is locked for the id_cart = 14104
+## 2024-04-28 20:25:03 ##
+data for validation
+## 2024-04-28 20:25:03 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a5c28e9c4d66e608e8a7015070ff5970</md5content><result><operation>authorization</operation><status>ok</status><date>2024-04-28</date><time>18:25:00 UTC+0000</time><origAmount>134.81</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14104</idForMerchant><emailClient>bekirdurkal@tahoo.fr</emailClient><idClient>23525000</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14104</_aKey_cart_id>  <_aKey_customer_id>4251</_aKey_customer_id>  <_aKey_secure_key>7023fc3b51cd9659fd2b8edd67675d71</_aKey_secure_key>  <_aKey_token>c29f1b72ded0e5b131cb6fea1c99b42c</_aKey_token></merchantDatas><transid>662E94362C616244</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a5c28e9c4d66e608e8a7015070ff5970
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-04-28
+                    [time] => 18:25:00 UTC+0000
+                    [origAmount] => 134.81
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14104
+                    [emailClient] => bekirdurkal@tahoo.fr
+                    [idClient] => 23525000
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14104
+                            [_aKey_customer_id] => 4251
+                            [_aKey_secure_key] => 7023fc3b51cd9659fd2b8edd67675d71
+                            [_aKey_token] => c29f1b72ded0e5b131cb6fea1c99b42c
+                        )
+
+                    [transid] => 662E94362C616244
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 14104
+    [3] => 4251
+    [4] => 7023fc3b51cd9659fd2b8edd67675d71
+    [5] => 134.81
+)
+
+## 2024-04-28 20:25:03 ##
+----> START registerOrder()
+## 2024-04-28 20:25:03 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-28 20:25:03 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-04-28</date><time>18:25:00 UTC+0000</time><origAmount>134.81</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14104</idForMerchant><emailClient>bekirdurkal@tahoo.fr</emailClient><idClient>23525000</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14104</_aKey_cart_id>  <_aKey_customer_id>4251</_aKey_customer_id>  <_aKey_secure_key>7023fc3b51cd9659fd2b8edd67675d71</_aKey_secure_key>  <_aKey_token>c29f1b72ded0e5b131cb6fea1c99b42c</_aKey_token></merchantDatas><transid>662E94362C616244</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-28 20:25:03 ##
+currency : EUR
+## 2024-04-28 20:25:03 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-28 20:25:03 ##
+callback_salt : 
+## 2024-04-28 20:25:03 ##
+md5 : a5c28e9c4d66e608e8a7015070ff5970 == md5content : a5c28e9c4d66e608e8a7015070ff5970
+## 2024-04-28 20:25:03 ##
+Status = ok
+## 2024-04-28 20:25:03 ##
+$currency = EUR
+## 2024-04-28 20:25:03 ##
+id_order_state = 42
+## 2024-04-28 20:25:03 ##
+----> START placeOrder()
+## 2024-04-28 20:25:03 ##
+Treatment status = 42
+## 2024-04-28 20:25:03 ##
+Validate order
+## 2024-04-28 20:25:03 ##
+Array
+(
+    [0] => 14104
+    [1] => 42
+    [2] => 134.81
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"662E94362C616244"}
+    [5] => Array
+        (
+            [transaction_id] => 662E94362C616244
+        )
+
+    [6] => 1
+    [7] => 7023fc3b51cd9659fd2b8edd67675d71
+)
+
+## 2024-04-28 20:25:03 ##
+ID Shop = 1
+## 2024-04-28 20:25:06 ##
+Order created
+## 2024-04-28 20:25:06 ##
+----> END placeOrder()
+## 2024-04-28 20:25:06 ##
+----> END registerOrder()
+## 2024-04-28 20:25:06 ##
+----> Treatment is unlocked for the id_cart = 14104
+## 2024-04-28 20:25:13 ##
+##########################
+## 2024-04-28 20:25:13 ##
+START Validation Callback
+## 2024-04-28 20:25:13 ##
+##########################
+## 2024-04-28 20:25:13 ##
+----> Treatment is locked for the id_cart = 14104
+## 2024-04-28 20:25:13 ##
+data for validation
+## 2024-04-28 20:25:13 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2c6567c290337b2715d69503672b11c5</md5content><result><operation>capture</operation><status>ok</status><date>2024-04-28</date><time>18:25:09 UTC+0000</time><origAmount>134.81</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14104</idForMerchant><emailClient>bekirdurkal@tahoo.fr</emailClient><idClient>23525000</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14104</_aKey_cart_id>  <_aKey_customer_id>4251</_aKey_customer_id>  <_aKey_secure_key>7023fc3b51cd9659fd2b8edd67675d71</_aKey_secure_key>  <_aKey_token>c29f1b72ded0e5b131cb6fea1c99b42c</_aKey_token></merchantDatas><transid>662E94362C616244</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2c6567c290337b2715d69503672b11c5
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-04-28
+                    [time] => 18:25:09 UTC+0000
+                    [origAmount] => 134.81
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14104
+                    [emailClient] => bekirdurkal@tahoo.fr
+                    [idClient] => 23525000
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14104
+                            [_aKey_customer_id] => 4251
+                            [_aKey_secure_key] => 7023fc3b51cd9659fd2b8edd67675d71
+                            [_aKey_token] => c29f1b72ded0e5b131cb6fea1c99b42c
+                        )
+
+                    [transid] => 662E94362C616244
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 14104
+    [3] => 4251
+    [4] => 7023fc3b51cd9659fd2b8edd67675d71
+    [5] => 134.81
+)
+
+## 2024-04-28 20:25:13 ##
+----> START registerOrder()
+## 2024-04-28 20:25:13 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-28 20:25:13 ##
+<result><operation>capture</operation><status>ok</status><date>2024-04-28</date><time>18:25:09 UTC+0000</time><origAmount>134.81</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14104</idForMerchant><emailClient>bekirdurkal@tahoo.fr</emailClient><idClient>23525000</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14104</_aKey_cart_id>  <_aKey_customer_id>4251</_aKey_customer_id>  <_aKey_secure_key>7023fc3b51cd9659fd2b8edd67675d71</_aKey_secure_key>  <_aKey_token>c29f1b72ded0e5b131cb6fea1c99b42c</_aKey_token></merchantDatas><transid>662E94362C616244</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-28 20:25:13 ##
+currency : EUR
+## 2024-04-28 20:25:13 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-28 20:25:13 ##
+callback_salt : 
+## 2024-04-28 20:25:13 ##
+md5 : 2c6567c290337b2715d69503672b11c5 == md5content : 2c6567c290337b2715d69503672b11c5
+## 2024-04-28 20:25:13 ##
+Status = ok
+## 2024-04-28 20:25:13 ##
+$currency = EUR
+## 2024-04-28 20:25:13 ##
+id_order_state = 2
+## 2024-04-28 20:25:13 ##
+----> START placeOrder()
+## 2024-04-28 20:25:13 ##
+Treatment an existing order
+## 2024-04-28 20:25:13 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-04-28 20:25:13 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-04-28
+    [time] => 18:25:09 UTC+0000
+    [origAmount] => 134.81
+    [origCurrency] => EUR
+    [idForMerchant] => 14104
+    [emailClient] => bekirdurkal@tahoo.fr
+    [idClient] => 23525000
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 14104
+            [_aKey_customer_id] => 4251
+            [_aKey_secure_key] => 7023fc3b51cd9659fd2b8edd67675d71
+            [_aKey_token] => c29f1b72ded0e5b131cb6fea1c99b42c
+        )
+
+    [transid] => 662E94362C616244
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-04-28 20:25:14 ##
+----> END placeOrder()
+## 2024-04-28 20:25:14 ##
+----> END registerOrder()
+## 2024-04-28 20:25:14 ##
+----> Treatment is unlocked for the id_cart = 14104

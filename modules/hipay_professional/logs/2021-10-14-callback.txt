@@ -1,0 +1,914 @@
+## 2021-10-14 13:01:00 ##
+##########################
+## 2021-10-14 13:01:00 ##
+START Validation Callback
+## 2021-10-14 13:01:00 ##
+##########################
+## 2021-10-14 13:01:00 ##
+----> Treatment is locked for the id_cart = 576
+## 2021-10-14 13:01:00 ##
+data for validation
+## 2021-10-14 13:01:00 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>7986508b5ba9f16e6b6d4829237a83b8</md5content><result><operation>authorization</operation><status>ok</status><date>2021-10-14</date><time>11:00:57 UTC+0000</time><origAmount>36.35</origAmount><origCurrency>EUR</origCurrency><idForMerchant>576</idForMerchant><emailClient>noel.riffard@hotmail.fr</emailClient><idClient>5933834</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>576</_aKey_cart_id>  <_aKey_customer_id>1535</_aKey_customer_id>  <_aKey_secure_key>9f8f4ebac92e723012fe3c0761778ca7</_aKey_secure_key>  <_aKey_token>76b5d349355567866797e298c102b42e</_aKey_token></merchantDatas><transid>61680DAB63300216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 7986508b5ba9f16e6b6d4829237a83b8
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-10-14
+                    [time] => 11:00:57 UTC+0000
+                    [origAmount] => 36.35
+                    [origCurrency] => EUR
+                    [idForMerchant] => 576
+                    [emailClient] => noel.riffard@hotmail.fr
+                    [idClient] => 5933834
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 576
+                            [_aKey_customer_id] => 1535
+                            [_aKey_secure_key] => 9f8f4ebac92e723012fe3c0761778ca7
+                            [_aKey_token] => 76b5d349355567866797e298c102b42e
+                        )
+
+                    [transid] => 61680DAB63300216
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 576
+    [3] => 1535
+    [4] => 9f8f4ebac92e723012fe3c0761778ca7
+    [5] => 36.35
+)
+
+## 2021-10-14 13:01:00 ##
+----> START registerOrder()
+## 2021-10-14 13:01:00 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:01:00 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-10-14</date><time>11:00:57 UTC+0000</time><origAmount>36.35</origAmount><origCurrency>EUR</origCurrency><idForMerchant>576</idForMerchant><emailClient>noel.riffard@hotmail.fr</emailClient><idClient>5933834</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>576</_aKey_cart_id>  <_aKey_customer_id>1535</_aKey_customer_id>  <_aKey_secure_key>9f8f4ebac92e723012fe3c0761778ca7</_aKey_secure_key>  <_aKey_token>76b5d349355567866797e298c102b42e</_aKey_token></merchantDatas><transid>61680DAB63300216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-14 13:01:00 ##
+currency : EUR
+## 2021-10-14 13:01:00 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:01:00 ##
+callback_salt : 
+## 2021-10-14 13:01:00 ##
+md5 : 7986508b5ba9f16e6b6d4829237a83b8 == md5content : 7986508b5ba9f16e6b6d4829237a83b8
+## 2021-10-14 13:01:00 ##
+Status = ok
+## 2021-10-14 13:01:00 ##
+$currency = EUR
+## 2021-10-14 13:01:00 ##
+id_order_state = 42
+## 2021-10-14 13:01:00 ##
+----> START placeOrder()
+## 2021-10-14 13:01:00 ##
+Treatment status = 42
+## 2021-10-14 13:01:00 ##
+Validate order
+## 2021-10-14 13:01:00 ##
+Array
+(
+    [0] => 576
+    [1] => 42
+    [2] => 36.35
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"61680DAB63300216"}
+    [5] => Array
+        (
+            [transaction_id] => 61680DAB63300216
+        )
+
+    [6] => 1
+    [7] => 9f8f4ebac92e723012fe3c0761778ca7
+)
+
+## 2021-10-14 13:01:00 ##
+ID Shop = 1
+## 2021-10-14 13:01:05 ##
+Order created
+## 2021-10-14 13:01:05 ##
+----> END placeOrder()
+## 2021-10-14 13:01:05 ##
+----> END registerOrder()
+## 2021-10-14 13:01:05 ##
+----> Treatment is unlocked for the id_cart = 576
+## 2021-10-14 13:01:05 ##
+##########################
+## 2021-10-14 13:01:05 ##
+START Validation Callback
+## 2021-10-14 13:01:05 ##
+##########################
+## 2021-10-14 13:01:05 ##
+----> Treatment is locked for the id_cart = 576
+## 2021-10-14 13:01:05 ##
+data for validation
+## 2021-10-14 13:01:05 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2cb7bdd645bd4bcf5f3bfee410eaf135</md5content><result><operation>capture</operation><status>ok</status><date>2021-10-14</date><time>11:01:04 UTC+0000</time><origAmount>36.35</origAmount><origCurrency>EUR</origCurrency><idForMerchant>576</idForMerchant><emailClient>noel.riffard@hotmail.fr</emailClient><idClient>5933834</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>576</_aKey_cart_id>  <_aKey_customer_id>1535</_aKey_customer_id>  <_aKey_secure_key>9f8f4ebac92e723012fe3c0761778ca7</_aKey_secure_key>  <_aKey_token>76b5d349355567866797e298c102b42e</_aKey_token></merchantDatas><transid>61680DAB63300216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2cb7bdd645bd4bcf5f3bfee410eaf135
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-10-14
+                    [time] => 11:01:04 UTC+0000
+                    [origAmount] => 36.35
+                    [origCurrency] => EUR
+                    [idForMerchant] => 576
+                    [emailClient] => noel.riffard@hotmail.fr
+                    [idClient] => 5933834
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 576
+                            [_aKey_customer_id] => 1535
+                            [_aKey_secure_key] => 9f8f4ebac92e723012fe3c0761778ca7
+                            [_aKey_token] => 76b5d349355567866797e298c102b42e
+                        )
+
+                    [transid] => 61680DAB63300216
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 576
+    [3] => 1535
+    [4] => 9f8f4ebac92e723012fe3c0761778ca7
+    [5] => 36.35
+)
+
+## 2021-10-14 13:01:05 ##
+----> START registerOrder()
+## 2021-10-14 13:01:05 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:01:05 ##
+<result><operation>capture</operation><status>ok</status><date>2021-10-14</date><time>11:01:04 UTC+0000</time><origAmount>36.35</origAmount><origCurrency>EUR</origCurrency><idForMerchant>576</idForMerchant><emailClient>noel.riffard@hotmail.fr</emailClient><idClient>5933834</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>576</_aKey_cart_id>  <_aKey_customer_id>1535</_aKey_customer_id>  <_aKey_secure_key>9f8f4ebac92e723012fe3c0761778ca7</_aKey_secure_key>  <_aKey_token>76b5d349355567866797e298c102b42e</_aKey_token></merchantDatas><transid>61680DAB63300216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-14 13:01:05 ##
+currency : EUR
+## 2021-10-14 13:01:05 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:01:05 ##
+callback_salt : 
+## 2021-10-14 13:01:05 ##
+md5 : 2cb7bdd645bd4bcf5f3bfee410eaf135 == md5content : 2cb7bdd645bd4bcf5f3bfee410eaf135
+## 2021-10-14 13:01:05 ##
+Status = ok
+## 2021-10-14 13:01:05 ##
+$currency = EUR
+## 2021-10-14 13:01:05 ##
+id_order_state = 2
+## 2021-10-14 13:01:05 ##
+----> START placeOrder()
+## 2021-10-14 13:01:05 ##
+Treatment an existing order
+## 2021-10-14 13:01:05 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-10-14 13:01:05 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-10-14
+    [time] => 11:01:04 UTC+0000
+    [origAmount] => 36.35
+    [origCurrency] => EUR
+    [idForMerchant] => 576
+    [emailClient] => noel.riffard@hotmail.fr
+    [idClient] => 5933834
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 576
+            [_aKey_customer_id] => 1535
+            [_aKey_secure_key] => 9f8f4ebac92e723012fe3c0761778ca7
+            [_aKey_token] => 76b5d349355567866797e298c102b42e
+        )
+
+    [transid] => 61680DAB63300216
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-10-14 13:01:05 ##
+----> END placeOrder()
+## 2021-10-14 13:01:05 ##
+----> END registerOrder()
+## 2021-10-14 13:01:05 ##
+----> Treatment is unlocked for the id_cart = 576
+## 2021-10-14 13:23:34 ##
+##########################
+## 2021-10-14 13:23:34 ##
+START Validation Callback
+## 2021-10-14 13:23:34 ##
+##########################
+## 2021-10-14 13:23:34 ##
+----> Treatment is locked for the id_cart = 580
+## 2021-10-14 13:23:34 ##
+data for validation
+## 2021-10-14 13:23:34 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>647b1bf31a803b85bb67fe082d61dbf0</md5content><result><operation>authorization</operation><status>ok</status><date>2021-10-14</date><time>11:23:30 UTC+0000</time><origAmount>110.41</origAmount><origCurrency>EUR</origCurrency><idForMerchant>580</idForMerchant><emailClient>scimylo@outlook.fr</emailClient><idClient>19496364</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>580</_aKey_cart_id>  <_aKey_customer_id>1536</_aKey_customer_id>  <_aKey_secure_key>9d1b463334e8a355b1bdd22a98fdb58e</_aKey_secure_key>  <_aKey_token>5bedc08dc6e3ba9825b45ca7bb3a690a</_aKey_token></merchantDatas><transid>616812D463BF8127</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 647b1bf31a803b85bb67fe082d61dbf0
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-10-14
+                    [time] => 11:23:30 UTC+0000
+                    [origAmount] => 110.41
+                    [origCurrency] => EUR
+                    [idForMerchant] => 580
+                    [emailClient] => scimylo@outlook.fr
+                    [idClient] => 19496364
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 580
+                            [_aKey_customer_id] => 1536
+                            [_aKey_secure_key] => 9d1b463334e8a355b1bdd22a98fdb58e
+                            [_aKey_token] => 5bedc08dc6e3ba9825b45ca7bb3a690a
+                        )
+
+                    [transid] => 616812D463BF8127
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 580
+    [3] => 1536
+    [4] => 9d1b463334e8a355b1bdd22a98fdb58e
+    [5] => 110.41
+)
+
+## 2021-10-14 13:23:34 ##
+----> START registerOrder()
+## 2021-10-14 13:23:34 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:23:34 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-10-14</date><time>11:23:30 UTC+0000</time><origAmount>110.41</origAmount><origCurrency>EUR</origCurrency><idForMerchant>580</idForMerchant><emailClient>scimylo@outlook.fr</emailClient><idClient>19496364</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>580</_aKey_cart_id>  <_aKey_customer_id>1536</_aKey_customer_id>  <_aKey_secure_key>9d1b463334e8a355b1bdd22a98fdb58e</_aKey_secure_key>  <_aKey_token>5bedc08dc6e3ba9825b45ca7bb3a690a</_aKey_token></merchantDatas><transid>616812D463BF8127</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-14 13:23:34 ##
+currency : EUR
+## 2021-10-14 13:23:34 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:23:34 ##
+callback_salt : 
+## 2021-10-14 13:23:34 ##
+md5 : 647b1bf31a803b85bb67fe082d61dbf0 == md5content : 647b1bf31a803b85bb67fe082d61dbf0
+## 2021-10-14 13:23:34 ##
+Status = ok
+## 2021-10-14 13:23:34 ##
+$currency = EUR
+## 2021-10-14 13:23:34 ##
+id_order_state = 42
+## 2021-10-14 13:23:34 ##
+----> START placeOrder()
+## 2021-10-14 13:23:34 ##
+Treatment status = 42
+## 2021-10-14 13:23:34 ##
+Validate order
+## 2021-10-14 13:23:34 ##
+Array
+(
+    [0] => 580
+    [1] => 42
+    [2] => 110.41
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"616812D463BF8127"}
+    [5] => Array
+        (
+            [transaction_id] => 616812D463BF8127
+        )
+
+    [6] => 1
+    [7] => 9d1b463334e8a355b1bdd22a98fdb58e
+)
+
+## 2021-10-14 13:23:34 ##
+ID Shop = 1
+## 2021-10-14 13:23:35 ##
+Order created
+## 2021-10-14 13:23:35 ##
+----> END placeOrder()
+## 2021-10-14 13:23:35 ##
+----> END registerOrder()
+## 2021-10-14 13:23:35 ##
+----> Treatment is unlocked for the id_cart = 580
+## 2021-10-14 13:23:40 ##
+##########################
+## 2021-10-14 13:23:40 ##
+START Validation Callback
+## 2021-10-14 13:23:40 ##
+##########################
+## 2021-10-14 13:23:40 ##
+----> Treatment is locked for the id_cart = 580
+## 2021-10-14 13:23:40 ##
+data for validation
+## 2021-10-14 13:23:40 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>1780a7c6692e01a4655431f1ea707ffc</md5content><result><operation>capture</operation><status>ok</status><date>2021-10-14</date><time>11:23:38 UTC+0000</time><origAmount>110.41</origAmount><origCurrency>EUR</origCurrency><idForMerchant>580</idForMerchant><emailClient>scimylo@outlook.fr</emailClient><idClient>19496364</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>580</_aKey_cart_id>  <_aKey_customer_id>1536</_aKey_customer_id>  <_aKey_secure_key>9d1b463334e8a355b1bdd22a98fdb58e</_aKey_secure_key>  <_aKey_token>5bedc08dc6e3ba9825b45ca7bb3a690a</_aKey_token></merchantDatas><transid>616812D463BF8127</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 1780a7c6692e01a4655431f1ea707ffc
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-10-14
+                    [time] => 11:23:38 UTC+0000
+                    [origAmount] => 110.41
+                    [origCurrency] => EUR
+                    [idForMerchant] => 580
+                    [emailClient] => scimylo@outlook.fr
+                    [idClient] => 19496364
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 580
+                            [_aKey_customer_id] => 1536
+                            [_aKey_secure_key] => 9d1b463334e8a355b1bdd22a98fdb58e
+                            [_aKey_token] => 5bedc08dc6e3ba9825b45ca7bb3a690a
+                        )
+
+                    [transid] => 616812D463BF8127
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 580
+    [3] => 1536
+    [4] => 9d1b463334e8a355b1bdd22a98fdb58e
+    [5] => 110.41
+)
+
+## 2021-10-14 13:23:40 ##
+----> START registerOrder()
+## 2021-10-14 13:23:40 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:23:40 ##
+<result><operation>capture</operation><status>ok</status><date>2021-10-14</date><time>11:23:38 UTC+0000</time><origAmount>110.41</origAmount><origCurrency>EUR</origCurrency><idForMerchant>580</idForMerchant><emailClient>scimylo@outlook.fr</emailClient><idClient>19496364</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>580</_aKey_cart_id>  <_aKey_customer_id>1536</_aKey_customer_id>  <_aKey_secure_key>9d1b463334e8a355b1bdd22a98fdb58e</_aKey_secure_key>  <_aKey_token>5bedc08dc6e3ba9825b45ca7bb3a690a</_aKey_token></merchantDatas><transid>616812D463BF8127</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-14 13:23:40 ##
+currency : EUR
+## 2021-10-14 13:23:40 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:23:40 ##
+callback_salt : 
+## 2021-10-14 13:23:40 ##
+md5 : 1780a7c6692e01a4655431f1ea707ffc == md5content : 1780a7c6692e01a4655431f1ea707ffc
+## 2021-10-14 13:23:40 ##
+Status = ok
+## 2021-10-14 13:23:40 ##
+$currency = EUR
+## 2021-10-14 13:23:40 ##
+id_order_state = 2
+## 2021-10-14 13:23:40 ##
+----> START placeOrder()
+## 2021-10-14 13:23:40 ##
+Treatment an existing order
+## 2021-10-14 13:23:40 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-10-14 13:23:40 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-10-14
+    [time] => 11:23:38 UTC+0000
+    [origAmount] => 110.41
+    [origCurrency] => EUR
+    [idForMerchant] => 580
+    [emailClient] => scimylo@outlook.fr
+    [idClient] => 19496364
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 580
+            [_aKey_customer_id] => 1536
+            [_aKey_secure_key] => 9d1b463334e8a355b1bdd22a98fdb58e
+            [_aKey_token] => 5bedc08dc6e3ba9825b45ca7bb3a690a
+        )
+
+    [transid] => 616812D463BF8127
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-10-14 13:23:40 ##
+----> END placeOrder()
+## 2021-10-14 13:23:40 ##
+----> END registerOrder()
+## 2021-10-14 13:23:40 ##
+----> Treatment is unlocked for the id_cart = 580
+## 2021-10-14 13:33:10 ##
+##########################
+## 2021-10-14 13:33:10 ##
+START Validation Callback
+## 2021-10-14 13:33:10 ##
+##########################
+## 2021-10-14 13:33:10 ##
+----> Treatment is locked for the id_cart = 575
+## 2021-10-14 13:33:10 ##
+data for validation
+## 2021-10-14 13:33:10 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2b4f93cdd41be46ebc8869a0ce3c8752</md5content><result><operation>authorization</operation><status>nok</status><date>2021-10-14</date><time>11:33:08 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>575</idForMerchant><emailClient>nouvel.interieur@orange.fr</emailClient><idClient>17039058</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>575</_aKey_cart_id>  <_aKey_customer_id>1122</_aKey_customer_id>  <_aKey_secure_key>4c80a1a5f12ab9fcc13c042c4c5917a6</_aKey_secure_key>  <_aKey_token>c1e46cfdffb83b4a85073c5c5dcbc55d</_aKey_token></merchantDatas><transid>616814CB87432228</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2b4f93cdd41be46ebc8869a0ce3c8752
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2021-10-14
+                    [time] => 11:33:08 UTC+0000
+                    [origAmount] => 144.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 575
+                    [emailClient] => nouvel.interieur@orange.fr
+                    [idClient] => 17039058
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 575
+                            [_aKey_customer_id] => 1122
+                            [_aKey_secure_key] => 4c80a1a5f12ab9fcc13c042c4c5917a6
+                            [_aKey_token] => c1e46cfdffb83b4a85073c5c5dcbc55d
+                        )
+
+                    [transid] => 616814CB87432228
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 575
+    [3] => 1122
+    [4] => 4c80a1a5f12ab9fcc13c042c4c5917a6
+    [5] => 144.7
+)
+
+## 2021-10-14 13:33:10 ##
+----> START registerOrder()
+## 2021-10-14 13:33:10 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:33:10 ##
+<result><operation>authorization</operation><status>nok</status><date>2021-10-14</date><time>11:33:08 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>575</idForMerchant><emailClient>nouvel.interieur@orange.fr</emailClient><idClient>17039058</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>575</_aKey_cart_id>  <_aKey_customer_id>1122</_aKey_customer_id>  <_aKey_secure_key>4c80a1a5f12ab9fcc13c042c4c5917a6</_aKey_secure_key>  <_aKey_token>c1e46cfdffb83b4a85073c5c5dcbc55d</_aKey_token></merchantDatas><transid>616814CB87432228</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-14 13:33:10 ##
+currency : EUR
+## 2021-10-14 13:33:10 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:33:10 ##
+callback_salt : 
+## 2021-10-14 13:33:10 ##
+md5 : 2b4f93cdd41be46ebc8869a0ce3c8752 == md5content : 2b4f93cdd41be46ebc8869a0ce3c8752
+## 2021-10-14 13:33:10 ##
+Status = nok
+## 2021-10-14 13:33:10 ##
+$currency = EUR
+## 2021-10-14 13:33:10 ##
+id_order_state = 8
+## 2021-10-14 13:33:10 ##
+----> START placeOrder()
+## 2021-10-14 13:33:10 ##
+Treatment status = ERROR
+## 2021-10-14 13:33:10 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2021-10-14
+    [time] =&gt; 11:33:08 UTC+0000
+    [origAmount] =&gt; 144.70
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 575
+    [emailClient] =&gt; nouvel.interieur@orange.fr
+    [idClient] =&gt; 17039058
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 575
+            [_aKey_customer_id] =&gt; 1122
+            [_aKey_secure_key] =&gt; 4c80a1a5f12ab9fcc13c042c4c5917a6
+            [_aKey_token] =&gt; c1e46cfdffb83b4a85073c5c5dcbc55d
+        )
+
+    [transid] =&gt; 616814CB87432228
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2021-10-14 13:33:10 ##
+----> END placeOrder()
+## 2021-10-14 13:33:10 ##
+----> END registerOrder()
+## 2021-10-14 13:33:10 ##
+----> Treatment is unlocked for the id_cart = 575
+## 2021-10-14 13:38:43 ##
+##########################
+## 2021-10-14 13:38:44 ##
+START Validation Callback
+## 2021-10-14 13:38:44 ##
+##########################
+## 2021-10-14 13:38:44 ##
+----> Treatment is locked for the id_cart = 575
+## 2021-10-14 13:38:44 ##
+data for validation
+## 2021-10-14 13:38:44 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>65be60ea6788c926d41c4f30036885c3</md5content><result><operation>authorization</operation><status>ok</status><date>2021-10-14</date><time>11:38:42 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>575</idForMerchant><emailClient>nouvel.interieur@orange.fr</emailClient><idClient>17039058</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>575</_aKey_cart_id>  <_aKey_customer_id>1122</_aKey_customer_id>  <_aKey_secure_key>4c80a1a5f12ab9fcc13c042c4c5917a6</_aKey_secure_key>  <_aKey_token>c1e46cfdffb83b4a85073c5c5dcbc55d</_aKey_token></merchantDatas><transid>6168165195944901</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 65be60ea6788c926d41c4f30036885c3
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-10-14
+                    [time] => 11:38:42 UTC+0000
+                    [origAmount] => 144.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 575
+                    [emailClient] => nouvel.interieur@orange.fr
+                    [idClient] => 17039058
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 575
+                            [_aKey_customer_id] => 1122
+                            [_aKey_secure_key] => 4c80a1a5f12ab9fcc13c042c4c5917a6
+                            [_aKey_token] => c1e46cfdffb83b4a85073c5c5dcbc55d
+                        )
+
+                    [transid] => 6168165195944901
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 575
+    [3] => 1122
+    [4] => 4c80a1a5f12ab9fcc13c042c4c5917a6
+    [5] => 144.7
+)
+
+## 2021-10-14 13:38:44 ##
+----> START registerOrder()
+## 2021-10-14 13:38:44 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:38:44 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-10-14</date><time>11:38:42 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>575</idForMerchant><emailClient>nouvel.interieur@orange.fr</emailClient><idClient>17039058</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>575</_aKey_cart_id>  <_aKey_customer_id>1122</_aKey_customer_id>  <_aKey_secure_key>4c80a1a5f12ab9fcc13c042c4c5917a6</_aKey_secure_key>  <_aKey_token>c1e46cfdffb83b4a85073c5c5dcbc55d</_aKey_token></merchantDatas><transid>6168165195944901</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-14 13:38:44 ##
+currency : EUR
+## 2021-10-14 13:38:44 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:38:44 ##
+callback_salt : 
+## 2021-10-14 13:38:44 ##
+md5 : 65be60ea6788c926d41c4f30036885c3 == md5content : 65be60ea6788c926d41c4f30036885c3
+## 2021-10-14 13:38:44 ##
+Status = ok
+## 2021-10-14 13:38:44 ##
+$currency = EUR
+## 2021-10-14 13:38:44 ##
+id_order_state = 42
+## 2021-10-14 13:38:44 ##
+----> START placeOrder()
+## 2021-10-14 13:38:44 ##
+Treatment status = 42
+## 2021-10-14 13:38:44 ##
+Validate order
+## 2021-10-14 13:38:44 ##
+Array
+(
+    [0] => 575
+    [1] => 42
+    [2] => 144.7
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6168165195944901"}
+    [5] => Array
+        (
+            [transaction_id] => 6168165195944901
+        )
+
+    [6] => 1
+    [7] => 4c80a1a5f12ab9fcc13c042c4c5917a6
+)
+
+## 2021-10-14 13:38:44 ##
+ID Shop = 1
+## 2021-10-14 13:38:45 ##
+Order created
+## 2021-10-14 13:38:45 ##
+----> END placeOrder()
+## 2021-10-14 13:38:45 ##
+----> END registerOrder()
+## 2021-10-14 13:38:45 ##
+----> Treatment is unlocked for the id_cart = 575
+## 2021-10-14 13:38:52 ##
+##########################
+## 2021-10-14 13:38:52 ##
+START Validation Callback
+## 2021-10-14 13:38:52 ##
+##########################
+## 2021-10-14 13:38:52 ##
+----> Treatment is locked for the id_cart = 575
+## 2021-10-14 13:38:52 ##
+data for validation
+## 2021-10-14 13:38:52 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a38cff0fc4f0f8808007cfca2377a881</md5content><result><operation>capture</operation><status>ok</status><date>2021-10-14</date><time>11:38:49 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>575</idForMerchant><emailClient>nouvel.interieur@orange.fr</emailClient><idClient>17039058</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>575</_aKey_cart_id>  <_aKey_customer_id>1122</_aKey_customer_id>  <_aKey_secure_key>4c80a1a5f12ab9fcc13c042c4c5917a6</_aKey_secure_key>  <_aKey_token>c1e46cfdffb83b4a85073c5c5dcbc55d</_aKey_token></merchantDatas><transid>6168165195944901</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a38cff0fc4f0f8808007cfca2377a881
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-10-14
+                    [time] => 11:38:49 UTC+0000
+                    [origAmount] => 144.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 575
+                    [emailClient] => nouvel.interieur@orange.fr
+                    [idClient] => 17039058
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 575
+                            [_aKey_customer_id] => 1122
+                            [_aKey_secure_key] => 4c80a1a5f12ab9fcc13c042c4c5917a6
+                            [_aKey_token] => c1e46cfdffb83b4a85073c5c5dcbc55d
+                        )
+
+                    [transid] => 6168165195944901
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 575
+    [3] => 1122
+    [4] => 4c80a1a5f12ab9fcc13c042c4c5917a6
+    [5] => 144.7
+)
+
+## 2021-10-14 13:38:52 ##
+----> START registerOrder()
+## 2021-10-14 13:38:52 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:38:52 ##
+<result><operation>capture</operation><status>ok</status><date>2021-10-14</date><time>11:38:49 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>575</idForMerchant><emailClient>nouvel.interieur@orange.fr</emailClient><idClient>17039058</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>575</_aKey_cart_id>  <_aKey_customer_id>1122</_aKey_customer_id>  <_aKey_secure_key>4c80a1a5f12ab9fcc13c042c4c5917a6</_aKey_secure_key>  <_aKey_token>c1e46cfdffb83b4a85073c5c5dcbc55d</_aKey_token></merchantDatas><transid>6168165195944901</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-14 13:38:52 ##
+currency : EUR
+## 2021-10-14 13:38:52 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-14 13:38:52 ##
+callback_salt : 
+## 2021-10-14 13:38:52 ##
+md5 : a38cff0fc4f0f8808007cfca2377a881 == md5content : a38cff0fc4f0f8808007cfca2377a881
+## 2021-10-14 13:38:52 ##
+Status = ok
+## 2021-10-14 13:38:52 ##
+$currency = EUR
+## 2021-10-14 13:38:52 ##
+id_order_state = 2
+## 2021-10-14 13:38:52 ##
+----> START placeOrder()
+## 2021-10-14 13:38:52 ##
+Treatment an existing order
+## 2021-10-14 13:38:52 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-10-14 13:38:52 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-10-14
+    [time] => 11:38:49 UTC+0000
+    [origAmount] => 144.70
+    [origCurrency] => EUR
+    [idForMerchant] => 575
+    [emailClient] => nouvel.interieur@orange.fr
+    [idClient] => 17039058
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 575
+            [_aKey_customer_id] => 1122
+            [_aKey_secure_key] => 4c80a1a5f12ab9fcc13c042c4c5917a6
+            [_aKey_token] => c1e46cfdffb83b4a85073c5c5dcbc55d
+        )
+
+    [transid] => 6168165195944901
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-10-14 13:38:52 ##
+----> END placeOrder()
+## 2021-10-14 13:38:52 ##
+----> END registerOrder()
+## 2021-10-14 13:38:52 ##
+----> Treatment is unlocked for the id_cart = 575

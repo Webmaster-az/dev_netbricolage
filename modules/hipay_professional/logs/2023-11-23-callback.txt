@@ -1,0 +1,518 @@
+## 2023-11-23 16:15:29 ##
+##########################
+## 2023-11-23 16:15:29 ##
+START Validation Callback
+## 2023-11-23 16:15:29 ##
+##########################
+## 2023-11-23 16:15:29 ##
+----> Treatment is locked for the id_cart = 12021
+## 2023-11-23 16:15:29 ##
+data for validation
+## 2023-11-23 16:15:29 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>dddc41f63d90b345e33382527b853487</md5content><result><operation>authorization</operation><status>ok</status><date>2023-11-23</date><time>15:15:27 UTC+0000</time><origAmount>74.91</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12021</idForMerchant><emailClient>aruchaud@laposte.net</emailClient><idClient>22991914</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12021</_aKey_cart_id>  <_aKey_customer_id>3923</_aKey_customer_id>  <_aKey_secure_key>7aab2e6e68ed9fdd6217d91064223b24</_aKey_secure_key>  <_aKey_token>e62e5713c7c011cb0cdc2da51e0447fb</_aKey_token></merchantDatas><transid>655F6C446816D265</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => dddc41f63d90b345e33382527b853487
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-11-23
+                    [time] => 15:15:27 UTC+0000
+                    [origAmount] => 74.91
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12021
+                    [emailClient] => aruchaud@laposte.net
+                    [idClient] => 22991914
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12021
+                            [_aKey_customer_id] => 3923
+                            [_aKey_secure_key] => 7aab2e6e68ed9fdd6217d91064223b24
+                            [_aKey_token] => e62e5713c7c011cb0cdc2da51e0447fb
+                        )
+
+                    [transid] => 655F6C446816D265
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12021
+    [3] => 3923
+    [4] => 7aab2e6e68ed9fdd6217d91064223b24
+    [5] => 74.91
+)
+
+## 2023-11-23 16:15:29 ##
+----> START registerOrder()
+## 2023-11-23 16:15:29 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-23 16:15:29 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-11-23</date><time>15:15:27 UTC+0000</time><origAmount>74.91</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12021</idForMerchant><emailClient>aruchaud@laposte.net</emailClient><idClient>22991914</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12021</_aKey_cart_id>  <_aKey_customer_id>3923</_aKey_customer_id>  <_aKey_secure_key>7aab2e6e68ed9fdd6217d91064223b24</_aKey_secure_key>  <_aKey_token>e62e5713c7c011cb0cdc2da51e0447fb</_aKey_token></merchantDatas><transid>655F6C446816D265</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-23 16:15:29 ##
+currency : EUR
+## 2023-11-23 16:15:29 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-23 16:15:29 ##
+callback_salt : 
+## 2023-11-23 16:15:29 ##
+md5 : dddc41f63d90b345e33382527b853487 == md5content : dddc41f63d90b345e33382527b853487
+## 2023-11-23 16:15:29 ##
+Status = ok
+## 2023-11-23 16:15:29 ##
+$currency = EUR
+## 2023-11-23 16:15:29 ##
+id_order_state = 42
+## 2023-11-23 16:15:29 ##
+----> START placeOrder()
+## 2023-11-23 16:15:29 ##
+Treatment status = 42
+## 2023-11-23 16:15:29 ##
+Validate order
+## 2023-11-23 16:15:29 ##
+Array
+(
+    [0] => 12021
+    [1] => 42
+    [2] => 74.91
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"655F6C446816D265"}
+    [5] => Array
+        (
+            [transaction_id] => 655F6C446816D265
+        )
+
+    [6] => 1
+    [7] => 7aab2e6e68ed9fdd6217d91064223b24
+)
+
+## 2023-11-23 16:15:29 ##
+ID Shop = 1
+## 2023-11-23 16:15:35 ##
+Order created
+## 2023-11-23 16:15:35 ##
+----> END placeOrder()
+## 2023-11-23 16:15:35 ##
+----> END registerOrder()
+## 2023-11-23 16:15:35 ##
+----> Treatment is unlocked for the id_cart = 12021
+## 2023-11-23 16:15:39 ##
+##########################
+## 2023-11-23 16:15:39 ##
+START Validation Callback
+## 2023-11-23 16:15:39 ##
+##########################
+## 2023-11-23 16:15:39 ##
+----> Treatment is locked for the id_cart = 12021
+## 2023-11-23 16:15:39 ##
+data for validation
+## 2023-11-23 16:15:39 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>d6138a877f9920609d8e7466bc6c685f</md5content><result><operation>capture</operation><status>ok</status><date>2023-11-23</date><time>15:15:34 UTC+0000</time><origAmount>74.91</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12021</idForMerchant><emailClient>aruchaud@laposte.net</emailClient><idClient>22991914</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12021</_aKey_cart_id>  <_aKey_customer_id>3923</_aKey_customer_id>  <_aKey_secure_key>7aab2e6e68ed9fdd6217d91064223b24</_aKey_secure_key>  <_aKey_token>e62e5713c7c011cb0cdc2da51e0447fb</_aKey_token></merchantDatas><transid>655F6C446816D265</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => d6138a877f9920609d8e7466bc6c685f
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-11-23
+                    [time] => 15:15:34 UTC+0000
+                    [origAmount] => 74.91
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12021
+                    [emailClient] => aruchaud@laposte.net
+                    [idClient] => 22991914
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12021
+                            [_aKey_customer_id] => 3923
+                            [_aKey_secure_key] => 7aab2e6e68ed9fdd6217d91064223b24
+                            [_aKey_token] => e62e5713c7c011cb0cdc2da51e0447fb
+                        )
+
+                    [transid] => 655F6C446816D265
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12021
+    [3] => 3923
+    [4] => 7aab2e6e68ed9fdd6217d91064223b24
+    [5] => 74.91
+)
+
+## 2023-11-23 16:15:39 ##
+----> START registerOrder()
+## 2023-11-23 16:15:39 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-23 16:15:39 ##
+<result><operation>capture</operation><status>ok</status><date>2023-11-23</date><time>15:15:34 UTC+0000</time><origAmount>74.91</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12021</idForMerchant><emailClient>aruchaud@laposte.net</emailClient><idClient>22991914</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12021</_aKey_cart_id>  <_aKey_customer_id>3923</_aKey_customer_id>  <_aKey_secure_key>7aab2e6e68ed9fdd6217d91064223b24</_aKey_secure_key>  <_aKey_token>e62e5713c7c011cb0cdc2da51e0447fb</_aKey_token></merchantDatas><transid>655F6C446816D265</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-23 16:15:39 ##
+currency : EUR
+## 2023-11-23 16:15:39 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-23 16:15:39 ##
+callback_salt : 
+## 2023-11-23 16:15:39 ##
+md5 : d6138a877f9920609d8e7466bc6c685f == md5content : d6138a877f9920609d8e7466bc6c685f
+## 2023-11-23 16:15:39 ##
+Status = ok
+## 2023-11-23 16:15:39 ##
+$currency = EUR
+## 2023-11-23 16:15:39 ##
+id_order_state = 2
+## 2023-11-23 16:15:39 ##
+----> START placeOrder()
+## 2023-11-23 16:15:39 ##
+Treatment an existing order
+## 2023-11-23 16:15:39 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-11-23 16:15:39 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-11-23
+    [time] => 15:15:34 UTC+0000
+    [origAmount] => 74.91
+    [origCurrency] => EUR
+    [idForMerchant] => 12021
+    [emailClient] => aruchaud@laposte.net
+    [idClient] => 22991914
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12021
+            [_aKey_customer_id] => 3923
+            [_aKey_secure_key] => 7aab2e6e68ed9fdd6217d91064223b24
+            [_aKey_token] => e62e5713c7c011cb0cdc2da51e0447fb
+        )
+
+    [transid] => 655F6C446816D265
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-11-23 16:15:40 ##
+----> END placeOrder()
+## 2023-11-23 16:15:40 ##
+----> END registerOrder()
+## 2023-11-23 16:15:40 ##
+----> Treatment is unlocked for the id_cart = 12021
+## 2023-11-23 16:51:49 ##
+##########################
+## 2023-11-23 16:51:49 ##
+START Validation Callback
+## 2023-11-23 16:51:49 ##
+##########################
+## 2023-11-23 16:51:49 ##
+----> Treatment is locked for the id_cart = 12012
+## 2023-11-23 16:51:49 ##
+data for validation
+## 2023-11-23 16:51:49 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>12b186aa487926bf5d9f0a615cab7232</md5content><result><operation>authorization</operation><status>ok</status><date>2023-11-23</date><time>15:51:46 UTC+0000</time><origAmount>232.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12012</idForMerchant><emailClient>haroldcohen@legtux.org</emailClient><idClient>22992027</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12012</_aKey_cart_id>  <_aKey_customer_id>3924</_aKey_customer_id>  <_aKey_secure_key>6934d0f7e2f3bb8b0dd4888c5732b202</_aKey_secure_key>  <_aKey_token>ee01ce312183a5c0410159b50c1c8e86</_aKey_token></merchantDatas><transid>655F74C90C75D265</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 12b186aa487926bf5d9f0a615cab7232
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-11-23
+                    [time] => 15:51:46 UTC+0000
+                    [origAmount] => 232.50
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12012
+                    [emailClient] => haroldcohen@legtux.org
+                    [idClient] => 22992027
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12012
+                            [_aKey_customer_id] => 3924
+                            [_aKey_secure_key] => 6934d0f7e2f3bb8b0dd4888c5732b202
+                            [_aKey_token] => ee01ce312183a5c0410159b50c1c8e86
+                        )
+
+                    [transid] => 655F74C90C75D265
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12012
+    [3] => 3924
+    [4] => 6934d0f7e2f3bb8b0dd4888c5732b202
+    [5] => 232.5
+)
+
+## 2023-11-23 16:51:49 ##
+----> START registerOrder()
+## 2023-11-23 16:51:49 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-23 16:51:49 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-11-23</date><time>15:51:46 UTC+0000</time><origAmount>232.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12012</idForMerchant><emailClient>haroldcohen@legtux.org</emailClient><idClient>22992027</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12012</_aKey_cart_id>  <_aKey_customer_id>3924</_aKey_customer_id>  <_aKey_secure_key>6934d0f7e2f3bb8b0dd4888c5732b202</_aKey_secure_key>  <_aKey_token>ee01ce312183a5c0410159b50c1c8e86</_aKey_token></merchantDatas><transid>655F74C90C75D265</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-23 16:51:49 ##
+currency : EUR
+## 2023-11-23 16:51:49 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-23 16:51:49 ##
+callback_salt : 
+## 2023-11-23 16:51:49 ##
+md5 : 12b186aa487926bf5d9f0a615cab7232 == md5content : 12b186aa487926bf5d9f0a615cab7232
+## 2023-11-23 16:51:49 ##
+Status = ok
+## 2023-11-23 16:51:49 ##
+$currency = EUR
+## 2023-11-23 16:51:49 ##
+id_order_state = 42
+## 2023-11-23 16:51:49 ##
+----> START placeOrder()
+## 2023-11-23 16:51:49 ##
+Treatment status = 42
+## 2023-11-23 16:51:49 ##
+Validate order
+## 2023-11-23 16:51:49 ##
+Array
+(
+    [0] => 12012
+    [1] => 42
+    [2] => 232.5
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"655F74C90C75D265"}
+    [5] => Array
+        (
+            [transaction_id] => 655F74C90C75D265
+        )
+
+    [6] => 1
+    [7] => 6934d0f7e2f3bb8b0dd4888c5732b202
+)
+
+## 2023-11-23 16:51:49 ##
+ID Shop = 1
+## 2023-11-23 16:51:52 ##
+Order created
+## 2023-11-23 16:51:52 ##
+----> END placeOrder()
+## 2023-11-23 16:51:52 ##
+----> END registerOrder()
+## 2023-11-23 16:51:52 ##
+----> Treatment is unlocked for the id_cart = 12012
+## 2023-11-23 16:51:58 ##
+##########################
+## 2023-11-23 16:51:58 ##
+START Validation Callback
+## 2023-11-23 16:51:58 ##
+##########################
+## 2023-11-23 16:51:58 ##
+----> Treatment is locked for the id_cart = 12012
+## 2023-11-23 16:51:58 ##
+data for validation
+## 2023-11-23 16:51:58 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ae9de3f39036ed20efbb27cca9865894</md5content><result><operation>capture</operation><status>ok</status><date>2023-11-23</date><time>15:51:54 UTC+0000</time><origAmount>232.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12012</idForMerchant><emailClient>haroldcohen@legtux.org</emailClient><idClient>22992027</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12012</_aKey_cart_id>  <_aKey_customer_id>3924</_aKey_customer_id>  <_aKey_secure_key>6934d0f7e2f3bb8b0dd4888c5732b202</_aKey_secure_key>  <_aKey_token>ee01ce312183a5c0410159b50c1c8e86</_aKey_token></merchantDatas><transid>655F74C90C75D265</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ae9de3f39036ed20efbb27cca9865894
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-11-23
+                    [time] => 15:51:54 UTC+0000
+                    [origAmount] => 232.50
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12012
+                    [emailClient] => haroldcohen@legtux.org
+                    [idClient] => 22992027
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12012
+                            [_aKey_customer_id] => 3924
+                            [_aKey_secure_key] => 6934d0f7e2f3bb8b0dd4888c5732b202
+                            [_aKey_token] => ee01ce312183a5c0410159b50c1c8e86
+                        )
+
+                    [transid] => 655F74C90C75D265
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12012
+    [3] => 3924
+    [4] => 6934d0f7e2f3bb8b0dd4888c5732b202
+    [5] => 232.5
+)
+
+## 2023-11-23 16:51:58 ##
+----> START registerOrder()
+## 2023-11-23 16:51:58 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-23 16:51:58 ##
+<result><operation>capture</operation><status>ok</status><date>2023-11-23</date><time>15:51:54 UTC+0000</time><origAmount>232.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12012</idForMerchant><emailClient>haroldcohen@legtux.org</emailClient><idClient>22992027</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12012</_aKey_cart_id>  <_aKey_customer_id>3924</_aKey_customer_id>  <_aKey_secure_key>6934d0f7e2f3bb8b0dd4888c5732b202</_aKey_secure_key>  <_aKey_token>ee01ce312183a5c0410159b50c1c8e86</_aKey_token></merchantDatas><transid>655F74C90C75D265</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-23 16:51:58 ##
+currency : EUR
+## 2023-11-23 16:51:58 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-23 16:51:58 ##
+callback_salt : 
+## 2023-11-23 16:51:58 ##
+md5 : ae9de3f39036ed20efbb27cca9865894 == md5content : ae9de3f39036ed20efbb27cca9865894
+## 2023-11-23 16:51:58 ##
+Status = ok
+## 2023-11-23 16:51:58 ##
+$currency = EUR
+## 2023-11-23 16:51:58 ##
+id_order_state = 2
+## 2023-11-23 16:51:58 ##
+----> START placeOrder()
+## 2023-11-23 16:51:58 ##
+Treatment an existing order
+## 2023-11-23 16:51:58 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-11-23 16:51:58 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-11-23
+    [time] => 15:51:54 UTC+0000
+    [origAmount] => 232.50
+    [origCurrency] => EUR
+    [idForMerchant] => 12012
+    [emailClient] => haroldcohen@legtux.org
+    [idClient] => 22992027
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12012
+            [_aKey_customer_id] => 3924
+            [_aKey_secure_key] => 6934d0f7e2f3bb8b0dd4888c5732b202
+            [_aKey_token] => ee01ce312183a5c0410159b50c1c8e86
+        )
+
+    [transid] => 655F74C90C75D265
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-11-23 16:51:59 ##
+----> END placeOrder()
+## 2023-11-23 16:51:59 ##
+----> END registerOrder()
+## 2023-11-23 16:51:59 ##
+----> Treatment is unlocked for the id_cart = 12012

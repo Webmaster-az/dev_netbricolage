@@ -1,0 +1,800 @@
+## 2022-02-08 09:20:31 ##
+##########################
+## 2022-02-08 09:20:31 ##
+START Validation Callback
+## 2022-02-08 09:20:31 ##
+##########################
+## 2022-02-08 09:20:31 ##
+----> Treatment is locked for the id_cart = 1736
+## 2022-02-08 09:20:31 ##
+data for validation
+## 2022-02-08 09:20:31 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a7dfc9251d7dde3f92253210d3a20c98</md5content><result><operation>authorization</operation><status>ok</status><date>2022-02-08</date><time>08:20:29 UTC+0000</time><origAmount>59.29</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1736</idForMerchant><emailClient>stoupak.michel@neuf.fr</emailClient><idClient>20256803</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1736</_aKey_cart_id>  <_aKey_customer_id>1762</_aKey_customer_id>  <_aKey_secure_key>55ef9c6ad249a23efcbc0eeea0c47c3a</_aKey_secure_key>  <_aKey_token>824a785204cc2e6a96ab48d97ec943d4</_aKey_token></merchantDatas><transid>6202279313619163</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a7dfc9251d7dde3f92253210d3a20c98
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-02-08
+                    [time] => 08:20:29 UTC+0000
+                    [origAmount] => 59.29
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1736
+                    [emailClient] => stoupak.michel@neuf.fr
+                    [idClient] => 20256803
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1736
+                            [_aKey_customer_id] => 1762
+                            [_aKey_secure_key] => 55ef9c6ad249a23efcbc0eeea0c47c3a
+                            [_aKey_token] => 824a785204cc2e6a96ab48d97ec943d4
+                        )
+
+                    [transid] => 6202279313619163
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1736
+    [3] => 1762
+    [4] => 55ef9c6ad249a23efcbc0eeea0c47c3a
+    [5] => 59.29
+)
+
+## 2022-02-08 09:20:31 ##
+----> START registerOrder()
+## 2022-02-08 09:20:31 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 09:20:31 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-02-08</date><time>08:20:29 UTC+0000</time><origAmount>59.29</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1736</idForMerchant><emailClient>stoupak.michel@neuf.fr</emailClient><idClient>20256803</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1736</_aKey_cart_id>  <_aKey_customer_id>1762</_aKey_customer_id>  <_aKey_secure_key>55ef9c6ad249a23efcbc0eeea0c47c3a</_aKey_secure_key>  <_aKey_token>824a785204cc2e6a96ab48d97ec943d4</_aKey_token></merchantDatas><transid>6202279313619163</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-08 09:20:31 ##
+currency : EUR
+## 2022-02-08 09:20:31 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 09:20:31 ##
+callback_salt : 
+## 2022-02-08 09:20:31 ##
+md5 : a7dfc9251d7dde3f92253210d3a20c98 == md5content : a7dfc9251d7dde3f92253210d3a20c98
+## 2022-02-08 09:20:31 ##
+Status = ok
+## 2022-02-08 09:20:31 ##
+$currency = EUR
+## 2022-02-08 09:20:31 ##
+id_order_state = 42
+## 2022-02-08 09:20:31 ##
+----> START placeOrder()
+## 2022-02-08 09:20:31 ##
+Treatment status = 42
+## 2022-02-08 09:20:31 ##
+Validate order
+## 2022-02-08 09:20:31 ##
+Array
+(
+    [0] => 1736
+    [1] => 42
+    [2] => 59.29
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6202279313619163"}
+    [5] => Array
+        (
+            [transaction_id] => 6202279313619163
+        )
+
+    [6] => 1
+    [7] => 55ef9c6ad249a23efcbc0eeea0c47c3a
+)
+
+## 2022-02-08 09:20:31 ##
+ID Shop = 1
+## 2022-02-08 09:20:36 ##
+Order created
+## 2022-02-08 09:20:36 ##
+----> END placeOrder()
+## 2022-02-08 09:20:36 ##
+----> END registerOrder()
+## 2022-02-08 09:20:36 ##
+----> Treatment is unlocked for the id_cart = 1736
+## 2022-02-08 09:20:40 ##
+##########################
+## 2022-02-08 09:20:40 ##
+START Validation Callback
+## 2022-02-08 09:20:40 ##
+##########################
+## 2022-02-08 09:20:40 ##
+----> Treatment is locked for the id_cart = 1736
+## 2022-02-08 09:20:40 ##
+data for validation
+## 2022-02-08 09:20:40 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2c2ddd06e77c0ce7505acdbedc1bda7d</md5content><result><operation>capture</operation><status>ok</status><date>2022-02-08</date><time>08:20:36 UTC+0000</time><origAmount>59.29</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1736</idForMerchant><emailClient>stoupak.michel@neuf.fr</emailClient><idClient>20256803</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1736</_aKey_cart_id>  <_aKey_customer_id>1762</_aKey_customer_id>  <_aKey_secure_key>55ef9c6ad249a23efcbc0eeea0c47c3a</_aKey_secure_key>  <_aKey_token>824a785204cc2e6a96ab48d97ec943d4</_aKey_token></merchantDatas><transid>6202279313619163</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2c2ddd06e77c0ce7505acdbedc1bda7d
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-02-08
+                    [time] => 08:20:36 UTC+0000
+                    [origAmount] => 59.29
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1736
+                    [emailClient] => stoupak.michel@neuf.fr
+                    [idClient] => 20256803
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1736
+                            [_aKey_customer_id] => 1762
+                            [_aKey_secure_key] => 55ef9c6ad249a23efcbc0eeea0c47c3a
+                            [_aKey_token] => 824a785204cc2e6a96ab48d97ec943d4
+                        )
+
+                    [transid] => 6202279313619163
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1736
+    [3] => 1762
+    [4] => 55ef9c6ad249a23efcbc0eeea0c47c3a
+    [5] => 59.29
+)
+
+## 2022-02-08 09:20:40 ##
+----> START registerOrder()
+## 2022-02-08 09:20:40 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 09:20:40 ##
+<result><operation>capture</operation><status>ok</status><date>2022-02-08</date><time>08:20:36 UTC+0000</time><origAmount>59.29</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1736</idForMerchant><emailClient>stoupak.michel@neuf.fr</emailClient><idClient>20256803</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1736</_aKey_cart_id>  <_aKey_customer_id>1762</_aKey_customer_id>  <_aKey_secure_key>55ef9c6ad249a23efcbc0eeea0c47c3a</_aKey_secure_key>  <_aKey_token>824a785204cc2e6a96ab48d97ec943d4</_aKey_token></merchantDatas><transid>6202279313619163</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-08 09:20:40 ##
+currency : EUR
+## 2022-02-08 09:20:40 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 09:20:40 ##
+callback_salt : 
+## 2022-02-08 09:20:40 ##
+md5 : 2c2ddd06e77c0ce7505acdbedc1bda7d == md5content : 2c2ddd06e77c0ce7505acdbedc1bda7d
+## 2022-02-08 09:20:40 ##
+Status = ok
+## 2022-02-08 09:20:40 ##
+$currency = EUR
+## 2022-02-08 09:20:40 ##
+id_order_state = 2
+## 2022-02-08 09:20:40 ##
+----> START placeOrder()
+## 2022-02-08 09:20:40 ##
+Treatment an existing order
+## 2022-02-08 09:20:40 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-02-08 09:20:40 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-02-08
+    [time] => 08:20:36 UTC+0000
+    [origAmount] => 59.29
+    [origCurrency] => EUR
+    [idForMerchant] => 1736
+    [emailClient] => stoupak.michel@neuf.fr
+    [idClient] => 20256803
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 1736
+            [_aKey_customer_id] => 1762
+            [_aKey_secure_key] => 55ef9c6ad249a23efcbc0eeea0c47c3a
+            [_aKey_token] => 824a785204cc2e6a96ab48d97ec943d4
+        )
+
+    [transid] => 6202279313619163
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-02-08 09:20:41 ##
+----> END placeOrder()
+## 2022-02-08 09:20:41 ##
+----> END registerOrder()
+## 2022-02-08 09:20:41 ##
+----> Treatment is unlocked for the id_cart = 1736
+## 2022-02-08 15:42:08 ##
+##########################
+## 2022-02-08 15:42:08 ##
+START Validation Callback
+## 2022-02-08 15:42:08 ##
+##########################
+## 2022-02-08 15:42:08 ##
+----> Treatment is locked for the id_cart = 1743
+## 2022-02-08 15:42:08 ##
+data for validation
+## 2022-02-08 15:42:08 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>cd8d14aaec58371d55fe7f3595385234</md5content><result><operation>authorization</operation><status>nok</status><date>2022-02-08</date><time>14:42:03 UTC+0000</time><origAmount>116.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1743</idForMerchant><emailClient>schletzer.philippe@gmail.com</emailClient><idClient>20261746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1743</_aKey_cart_id>  <_aKey_customer_id>1764</_aKey_customer_id>  <_aKey_secure_key>926ad7b994378e0a4ef92f59b9df3565</_aKey_secure_key>  <_aKey_token>647b55427b8da5c4f84059405fe35fd6</_aKey_token></merchantDatas><transid>62027FF2CF331173</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><nok-msg/><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => cd8d14aaec58371d55fe7f3595385234
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2022-02-08
+                    [time] => 14:42:03 UTC+0000
+                    [origAmount] => 116.32
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1743
+                    [emailClient] => schletzer.philippe@gmail.com
+                    [idClient] => 20261746
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1743
+                            [_aKey_customer_id] => 1764
+                            [_aKey_secure_key] => 926ad7b994378e0a4ef92f59b9df3565
+                            [_aKey_token] => 647b55427b8da5c4f84059405fe35fd6
+                        )
+
+                    [transid] => 62027FF2CF331173
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [nok-msg] => Array
+                        (
+                        )
+
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1743
+    [3] => 1764
+    [4] => 926ad7b994378e0a4ef92f59b9df3565
+    [5] => 116.32
+)
+
+## 2022-02-08 15:42:08 ##
+----> START registerOrder()
+## 2022-02-08 15:42:08 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 15:42:08 ##
+<result><operation>authorization</operation><status>nok</status><date>2022-02-08</date><time>14:42:03 UTC+0000</time><origAmount>116.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1743</idForMerchant><emailClient>schletzer.philippe@gmail.com</emailClient><idClient>20261746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1743</_aKey_cart_id>  <_aKey_customer_id>1764</_aKey_customer_id>  <_aKey_secure_key>926ad7b994378e0a4ef92f59b9df3565</_aKey_secure_key>  <_aKey_token>647b55427b8da5c4f84059405fe35fd6</_aKey_token></merchantDatas><transid>62027FF2CF331173</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><nok-msg/><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-08 15:42:08 ##
+currency : EUR
+## 2022-02-08 15:42:08 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 15:42:08 ##
+callback_salt : 
+## 2022-02-08 15:42:08 ##
+md5 : cd8d14aaec58371d55fe7f3595385234 == md5content : cd8d14aaec58371d55fe7f3595385234
+## 2022-02-08 15:42:08 ##
+Status = nok
+## 2022-02-08 15:42:08 ##
+$currency = EUR
+## 2022-02-08 15:42:08 ##
+id_order_state = 8
+## 2022-02-08 15:42:08 ##
+----> START placeOrder()
+## 2022-02-08 15:42:08 ##
+Treatment status = ERROR
+## 2022-02-08 15:42:08 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2022-02-08
+    [time] =&gt; 14:42:03 UTC+0000
+    [origAmount] =&gt; 116.32
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 1743
+    [emailClient] =&gt; schletzer.philippe@gmail.com
+    [idClient] =&gt; 20261746
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 1743
+            [_aKey_customer_id] =&gt; 1764
+            [_aKey_secure_key] =&gt; 926ad7b994378e0a4ef92f59b9df3565
+            [_aKey_token] =&gt; 647b55427b8da5c4f84059405fe35fd6
+        )
+
+    [transid] =&gt; 62027FF2CF331173
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; CB
+    [nok-msg] =&gt; Array
+        (
+        )
+
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2022-02-08 15:42:08 ##
+----> END placeOrder()
+## 2022-02-08 15:42:08 ##
+----> END registerOrder()
+## 2022-02-08 15:42:08 ##
+----> Treatment is unlocked for the id_cart = 1743
+## 2022-02-08 15:45:36 ##
+##########################
+## 2022-02-08 15:45:36 ##
+START Validation Callback
+## 2022-02-08 15:45:36 ##
+##########################
+## 2022-02-08 15:45:36 ##
+----> Treatment is locked for the id_cart = 1743
+## 2022-02-08 15:45:36 ##
+data for validation
+## 2022-02-08 15:45:36 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>34a37e5418f0e9e25064f085c9630bd0</md5content><result><operation>authorization</operation><status>nok</status><date>2022-02-08</date><time>14:45:33 UTC+0000</time><origAmount>116.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1743</idForMerchant><emailClient>schletzer.philippe@gmail.com</emailClient><idClient>20261746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1743</_aKey_cart_id>  <_aKey_customer_id>1764</_aKey_customer_id>  <_aKey_secure_key>926ad7b994378e0a4ef92f59b9df3565</_aKey_secure_key>  <_aKey_token>647b55427b8da5c4f84059405fe35fd6</_aKey_token></merchantDatas><transid>620281BB1B819171</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 34a37e5418f0e9e25064f085c9630bd0
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2022-02-08
+                    [time] => 14:45:33 UTC+0000
+                    [origAmount] => 116.32
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1743
+                    [emailClient] => schletzer.philippe@gmail.com
+                    [idClient] => 20261746
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1743
+                            [_aKey_customer_id] => 1764
+                            [_aKey_secure_key] => 926ad7b994378e0a4ef92f59b9df3565
+                            [_aKey_token] => 647b55427b8da5c4f84059405fe35fd6
+                        )
+
+                    [transid] => 620281BB1B819171
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1743
+    [3] => 1764
+    [4] => 926ad7b994378e0a4ef92f59b9df3565
+    [5] => 116.32
+)
+
+## 2022-02-08 15:45:36 ##
+----> START registerOrder()
+## 2022-02-08 15:45:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 15:45:36 ##
+<result><operation>authorization</operation><status>nok</status><date>2022-02-08</date><time>14:45:33 UTC+0000</time><origAmount>116.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1743</idForMerchant><emailClient>schletzer.philippe@gmail.com</emailClient><idClient>20261746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1743</_aKey_cart_id>  <_aKey_customer_id>1764</_aKey_customer_id>  <_aKey_secure_key>926ad7b994378e0a4ef92f59b9df3565</_aKey_secure_key>  <_aKey_token>647b55427b8da5c4f84059405fe35fd6</_aKey_token></merchantDatas><transid>620281BB1B819171</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-08 15:45:36 ##
+currency : EUR
+## 2022-02-08 15:45:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 15:45:36 ##
+callback_salt : 
+## 2022-02-08 15:45:36 ##
+md5 : 34a37e5418f0e9e25064f085c9630bd0 == md5content : 34a37e5418f0e9e25064f085c9630bd0
+## 2022-02-08 15:45:36 ##
+Status = nok
+## 2022-02-08 15:45:36 ##
+$currency = EUR
+## 2022-02-08 15:45:36 ##
+id_order_state = 8
+## 2022-02-08 15:45:36 ##
+----> START placeOrder()
+## 2022-02-08 15:45:36 ##
+Treatment status = ERROR
+## 2022-02-08 15:45:36 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2022-02-08
+    [time] =&gt; 14:45:33 UTC+0000
+    [origAmount] =&gt; 116.32
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 1743
+    [emailClient] =&gt; schletzer.philippe@gmail.com
+    [idClient] =&gt; 20261746
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 1743
+            [_aKey_customer_id] =&gt; 1764
+            [_aKey_secure_key] =&gt; 926ad7b994378e0a4ef92f59b9df3565
+            [_aKey_token] =&gt; 647b55427b8da5c4f84059405fe35fd6
+        )
+
+    [transid] =&gt; 620281BB1B819171
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2022-02-08 15:45:36 ##
+----> END placeOrder()
+## 2022-02-08 15:45:36 ##
+----> END registerOrder()
+## 2022-02-08 15:45:36 ##
+----> Treatment is unlocked for the id_cart = 1743
+## 2022-02-08 15:54:59 ##
+##########################
+## 2022-02-08 15:54:59 ##
+START Validation Callback
+## 2022-02-08 15:54:59 ##
+##########################
+## 2022-02-08 15:54:59 ##
+----> Treatment is locked for the id_cart = 1743
+## 2022-02-08 15:54:59 ##
+data for validation
+## 2022-02-08 15:54:59 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>135b6478eea5cc205ab6adc7e92ff870</md5content><result><operation>authorization</operation><status>ok</status><date>2022-02-08</date><time>14:54:57 UTC+0000</time><origAmount>116.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1743</idForMerchant><emailClient>schletzer.philippe@gmail.com</emailClient><idClient>20261746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1743</_aKey_cart_id>  <_aKey_customer_id>1764</_aKey_customer_id>  <_aKey_secure_key>926ad7b994378e0a4ef92f59b9df3565</_aKey_secure_key>  <_aKey_token>647b55427b8da5c4f84059405fe35fd6</_aKey_token></merchantDatas><transid>620284046515B173</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 135b6478eea5cc205ab6adc7e92ff870
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-02-08
+                    [time] => 14:54:57 UTC+0000
+                    [origAmount] => 116.32
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1743
+                    [emailClient] => schletzer.philippe@gmail.com
+                    [idClient] => 20261746
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1743
+                            [_aKey_customer_id] => 1764
+                            [_aKey_secure_key] => 926ad7b994378e0a4ef92f59b9df3565
+                            [_aKey_token] => 647b55427b8da5c4f84059405fe35fd6
+                        )
+
+                    [transid] => 620284046515B173
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1743
+    [3] => 1764
+    [4] => 926ad7b994378e0a4ef92f59b9df3565
+    [5] => 116.32
+)
+
+## 2022-02-08 15:54:59 ##
+----> START registerOrder()
+## 2022-02-08 15:54:59 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 15:54:59 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-02-08</date><time>14:54:57 UTC+0000</time><origAmount>116.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1743</idForMerchant><emailClient>schletzer.philippe@gmail.com</emailClient><idClient>20261746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1743</_aKey_cart_id>  <_aKey_customer_id>1764</_aKey_customer_id>  <_aKey_secure_key>926ad7b994378e0a4ef92f59b9df3565</_aKey_secure_key>  <_aKey_token>647b55427b8da5c4f84059405fe35fd6</_aKey_token></merchantDatas><transid>620284046515B173</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-08 15:54:59 ##
+currency : EUR
+## 2022-02-08 15:54:59 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 15:54:59 ##
+callback_salt : 
+## 2022-02-08 15:54:59 ##
+md5 : 135b6478eea5cc205ab6adc7e92ff870 == md5content : 135b6478eea5cc205ab6adc7e92ff870
+## 2022-02-08 15:54:59 ##
+Status = ok
+## 2022-02-08 15:54:59 ##
+$currency = EUR
+## 2022-02-08 15:54:59 ##
+id_order_state = 42
+## 2022-02-08 15:54:59 ##
+----> START placeOrder()
+## 2022-02-08 15:54:59 ##
+Treatment status = 42
+## 2022-02-08 15:54:59 ##
+Validate order
+## 2022-02-08 15:54:59 ##
+Array
+(
+    [0] => 1743
+    [1] => 42
+    [2] => 116.32
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"620284046515B173"}
+    [5] => Array
+        (
+            [transaction_id] => 620284046515B173
+        )
+
+    [6] => 1
+    [7] => 926ad7b994378e0a4ef92f59b9df3565
+)
+
+## 2022-02-08 15:54:59 ##
+ID Shop = 1
+## 2022-02-08 15:55:00 ##
+Order created
+## 2022-02-08 15:55:00 ##
+----> END placeOrder()
+## 2022-02-08 15:55:00 ##
+----> END registerOrder()
+## 2022-02-08 15:55:00 ##
+----> Treatment is unlocked for the id_cart = 1743
+## 2022-02-08 15:55:05 ##
+##########################
+## 2022-02-08 15:55:05 ##
+START Validation Callback
+## 2022-02-08 15:55:05 ##
+##########################
+## 2022-02-08 15:55:05 ##
+----> Treatment is locked for the id_cart = 1743
+## 2022-02-08 15:55:05 ##
+data for validation
+## 2022-02-08 15:55:05 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>c882f744cf783137d5947506031d0e23</md5content><result><operation>capture</operation><status>ok</status><date>2022-02-08</date><time>14:55:04 UTC+0000</time><origAmount>116.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1743</idForMerchant><emailClient>schletzer.philippe@gmail.com</emailClient><idClient>20261746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1743</_aKey_cart_id>  <_aKey_customer_id>1764</_aKey_customer_id>  <_aKey_secure_key>926ad7b994378e0a4ef92f59b9df3565</_aKey_secure_key>  <_aKey_token>647b55427b8da5c4f84059405fe35fd6</_aKey_token></merchantDatas><transid>620284046515B173</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => c882f744cf783137d5947506031d0e23
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-02-08
+                    [time] => 14:55:04 UTC+0000
+                    [origAmount] => 116.32
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1743
+                    [emailClient] => schletzer.philippe@gmail.com
+                    [idClient] => 20261746
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1743
+                            [_aKey_customer_id] => 1764
+                            [_aKey_secure_key] => 926ad7b994378e0a4ef92f59b9df3565
+                            [_aKey_token] => 647b55427b8da5c4f84059405fe35fd6
+                        )
+
+                    [transid] => 620284046515B173
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1743
+    [3] => 1764
+    [4] => 926ad7b994378e0a4ef92f59b9df3565
+    [5] => 116.32
+)
+
+## 2022-02-08 15:55:05 ##
+----> START registerOrder()
+## 2022-02-08 15:55:05 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 15:55:05 ##
+<result><operation>capture</operation><status>ok</status><date>2022-02-08</date><time>14:55:04 UTC+0000</time><origAmount>116.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1743</idForMerchant><emailClient>schletzer.philippe@gmail.com</emailClient><idClient>20261746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1743</_aKey_cart_id>  <_aKey_customer_id>1764</_aKey_customer_id>  <_aKey_secure_key>926ad7b994378e0a4ef92f59b9df3565</_aKey_secure_key>  <_aKey_token>647b55427b8da5c4f84059405fe35fd6</_aKey_token></merchantDatas><transid>620284046515B173</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-08 15:55:05 ##
+currency : EUR
+## 2022-02-08 15:55:05 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-08 15:55:05 ##
+callback_salt : 
+## 2022-02-08 15:55:05 ##
+md5 : c882f744cf783137d5947506031d0e23 == md5content : c882f744cf783137d5947506031d0e23
+## 2022-02-08 15:55:05 ##
+Status = ok
+## 2022-02-08 15:55:05 ##
+$currency = EUR
+## 2022-02-08 15:55:05 ##
+id_order_state = 2
+## 2022-02-08 15:55:05 ##
+----> START placeOrder()
+## 2022-02-08 15:55:05 ##
+Treatment an existing order
+## 2022-02-08 15:55:05 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-02-08 15:55:05 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-02-08
+    [time] => 14:55:04 UTC+0000
+    [origAmount] => 116.32
+    [origCurrency] => EUR
+    [idForMerchant] => 1743
+    [emailClient] => schletzer.philippe@gmail.com
+    [idClient] => 20261746
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 1743
+            [_aKey_customer_id] => 1764
+            [_aKey_secure_key] => 926ad7b994378e0a4ef92f59b9df3565
+            [_aKey_token] => 647b55427b8da5c4f84059405fe35fd6
+        )
+
+    [transid] => 620284046515B173
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-02-08 15:55:06 ##
+----> END placeOrder()
+## 2022-02-08 15:55:06 ##
+----> END registerOrder()
+## 2022-02-08 15:55:06 ##
+----> Treatment is unlocked for the id_cart = 1743

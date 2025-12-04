@@ -1,0 +1,259 @@
+## 2023-08-15 14:10:06 ##
+##########################
+## 2023-08-15 14:10:06 ##
+START Validation Callback
+## 2023-08-15 14:10:06 ##
+##########################
+## 2023-08-15 14:10:06 ##
+----> Treatment is locked for the id_cart = 10315
+## 2023-08-15 14:10:06 ##
+data for validation
+## 2023-08-15 14:10:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ff6914304c46a232a2ed55555e55c250</md5content><result><operation>authorization</operation><status>ok</status><date>2023-08-15</date><time>12:10:01 UTC+0000</time><origAmount>57.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10315</idForMerchant><emailClient>jm.bourgeon@laposte.net</emailClient><idClient>22640116</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10315</_aKey_cart_id>  <_aKey_customer_id>3666</_aKey_customer_id>  <_aKey_secure_key>db9acb97b1d2fe4702333a878e563be2</_aKey_secure_key>  <_aKey_token>0776a58b5bc873da780ab250d680999a</_aKey_token></merchantDatas><transid>64DB685A343D1555</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ff6914304c46a232a2ed55555e55c250
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-08-15
+                    [time] => 12:10:01 UTC+0000
+                    [origAmount] => 57.88
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10315
+                    [emailClient] => jm.bourgeon@laposte.net
+                    [idClient] => 22640116
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10315
+                            [_aKey_customer_id] => 3666
+                            [_aKey_secure_key] => db9acb97b1d2fe4702333a878e563be2
+                            [_aKey_token] => 0776a58b5bc873da780ab250d680999a
+                        )
+
+                    [transid] => 64DB685A343D1555
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10315
+    [3] => 3666
+    [4] => db9acb97b1d2fe4702333a878e563be2
+    [5] => 57.88
+)
+
+## 2023-08-15 14:10:06 ##
+----> START registerOrder()
+## 2023-08-15 14:10:06 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-15 14:10:06 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-08-15</date><time>12:10:01 UTC+0000</time><origAmount>57.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10315</idForMerchant><emailClient>jm.bourgeon@laposte.net</emailClient><idClient>22640116</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10315</_aKey_cart_id>  <_aKey_customer_id>3666</_aKey_customer_id>  <_aKey_secure_key>db9acb97b1d2fe4702333a878e563be2</_aKey_secure_key>  <_aKey_token>0776a58b5bc873da780ab250d680999a</_aKey_token></merchantDatas><transid>64DB685A343D1555</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-15 14:10:06 ##
+currency : EUR
+## 2023-08-15 14:10:06 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-15 14:10:06 ##
+callback_salt : 
+## 2023-08-15 14:10:06 ##
+md5 : ff6914304c46a232a2ed55555e55c250 == md5content : ff6914304c46a232a2ed55555e55c250
+## 2023-08-15 14:10:06 ##
+Status = ok
+## 2023-08-15 14:10:06 ##
+$currency = EUR
+## 2023-08-15 14:10:06 ##
+id_order_state = 42
+## 2023-08-15 14:10:06 ##
+----> START placeOrder()
+## 2023-08-15 14:10:06 ##
+Treatment status = 42
+## 2023-08-15 14:10:06 ##
+Validate order
+## 2023-08-15 14:10:06 ##
+Array
+(
+    [0] => 10315
+    [1] => 42
+    [2] => 57.88
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"64DB685A343D1555"}
+    [5] => Array
+        (
+            [transaction_id] => 64DB685A343D1555
+        )
+
+    [6] => 1
+    [7] => db9acb97b1d2fe4702333a878e563be2
+)
+
+## 2023-08-15 14:10:06 ##
+ID Shop = 1
+## 2023-08-15 14:10:09 ##
+Order created
+## 2023-08-15 14:10:09 ##
+----> END placeOrder()
+## 2023-08-15 14:10:09 ##
+----> END registerOrder()
+## 2023-08-15 14:10:09 ##
+----> Treatment is unlocked for the id_cart = 10315
+## 2023-08-15 14:10:12 ##
+##########################
+## 2023-08-15 14:10:12 ##
+START Validation Callback
+## 2023-08-15 14:10:12 ##
+##########################
+## 2023-08-15 14:10:12 ##
+----> Treatment is locked for the id_cart = 10315
+## 2023-08-15 14:10:12 ##
+data for validation
+## 2023-08-15 14:10:12 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>4d2b06f2a9807056eae0ce841dd5166c</md5content><result><operation>capture</operation><status>ok</status><date>2023-08-15</date><time>12:10:08 UTC+0000</time><origAmount>57.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10315</idForMerchant><emailClient>jm.bourgeon@laposte.net</emailClient><idClient>22640116</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10315</_aKey_cart_id>  <_aKey_customer_id>3666</_aKey_customer_id>  <_aKey_secure_key>db9acb97b1d2fe4702333a878e563be2</_aKey_secure_key>  <_aKey_token>0776a58b5bc873da780ab250d680999a</_aKey_token></merchantDatas><transid>64DB685A343D1555</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 4d2b06f2a9807056eae0ce841dd5166c
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-08-15
+                    [time] => 12:10:08 UTC+0000
+                    [origAmount] => 57.88
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10315
+                    [emailClient] => jm.bourgeon@laposte.net
+                    [idClient] => 22640116
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10315
+                            [_aKey_customer_id] => 3666
+                            [_aKey_secure_key] => db9acb97b1d2fe4702333a878e563be2
+                            [_aKey_token] => 0776a58b5bc873da780ab250d680999a
+                        )
+
+                    [transid] => 64DB685A343D1555
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10315
+    [3] => 3666
+    [4] => db9acb97b1d2fe4702333a878e563be2
+    [5] => 57.88
+)
+
+## 2023-08-15 14:10:12 ##
+----> START registerOrder()
+## 2023-08-15 14:10:12 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-15 14:10:12 ##
+<result><operation>capture</operation><status>ok</status><date>2023-08-15</date><time>12:10:08 UTC+0000</time><origAmount>57.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10315</idForMerchant><emailClient>jm.bourgeon@laposte.net</emailClient><idClient>22640116</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10315</_aKey_cart_id>  <_aKey_customer_id>3666</_aKey_customer_id>  <_aKey_secure_key>db9acb97b1d2fe4702333a878e563be2</_aKey_secure_key>  <_aKey_token>0776a58b5bc873da780ab250d680999a</_aKey_token></merchantDatas><transid>64DB685A343D1555</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-15 14:10:12 ##
+currency : EUR
+## 2023-08-15 14:10:12 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-15 14:10:12 ##
+callback_salt : 
+## 2023-08-15 14:10:12 ##
+md5 : 4d2b06f2a9807056eae0ce841dd5166c == md5content : 4d2b06f2a9807056eae0ce841dd5166c
+## 2023-08-15 14:10:12 ##
+Status = ok
+## 2023-08-15 14:10:12 ##
+$currency = EUR
+## 2023-08-15 14:10:12 ##
+id_order_state = 2
+## 2023-08-15 14:10:12 ##
+----> START placeOrder()
+## 2023-08-15 14:10:12 ##
+Treatment an existing order
+## 2023-08-15 14:10:12 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-08-15 14:10:12 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-08-15
+    [time] => 12:10:08 UTC+0000
+    [origAmount] => 57.88
+    [origCurrency] => EUR
+    [idForMerchant] => 10315
+    [emailClient] => jm.bourgeon@laposte.net
+    [idClient] => 22640116
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 10315
+            [_aKey_customer_id] => 3666
+            [_aKey_secure_key] => db9acb97b1d2fe4702333a878e563be2
+            [_aKey_token] => 0776a58b5bc873da780ab250d680999a
+        )
+
+    [transid] => 64DB685A343D1555
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-08-15 14:10:12 ##
+----> END placeOrder()
+## 2023-08-15 14:10:12 ##
+----> END registerOrder()
+## 2023-08-15 14:10:12 ##
+----> Treatment is unlocked for the id_cart = 10315

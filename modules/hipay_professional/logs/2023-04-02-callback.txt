@@ -1,0 +1,518 @@
+## 2023-04-02 10:59:50 ##
+##########################
+## 2023-04-02 10:59:50 ##
+START Validation Callback
+## 2023-04-02 10:59:50 ##
+##########################
+## 2023-04-02 10:59:50 ##
+----> Treatment is locked for the id_cart = 8065
+## 2023-04-02 10:59:50 ##
+data for validation
+## 2023-04-02 10:59:50 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2edf3ca2fc13ecbab0870f660389659f</md5content><result><operation>authorization</operation><status>ok</status><date>2023-04-02</date><time>08:59:48 UTC+0000</time><origAmount>80.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8065</idForMerchant><emailClient>fabrice-lecourtois@orange.fr</emailClient><idClient>22189715</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8065</_aKey_cart_id>  <_aKey_customer_id>3270</_aKey_customer_id>  <_aKey_secure_key>63947ba32ce633a86f9a0f9a58c4bd25</_aKey_secure_key>  <_aKey_token>fefc05aaf610b896ac0cbef7f36c93de</_aKey_token></merchantDatas><transid>642943C8D15E3125</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2edf3ca2fc13ecbab0870f660389659f
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-04-02
+                    [time] => 08:59:48 UTC+0000
+                    [origAmount] => 80.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 8065
+                    [emailClient] => fabrice-lecourtois@orange.fr
+                    [idClient] => 22189715
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 8065
+                            [_aKey_customer_id] => 3270
+                            [_aKey_secure_key] => 63947ba32ce633a86f9a0f9a58c4bd25
+                            [_aKey_token] => fefc05aaf610b896ac0cbef7f36c93de
+                        )
+
+                    [transid] => 642943C8D15E3125
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 8065
+    [3] => 3270
+    [4] => 63947ba32ce633a86f9a0f9a58c4bd25
+    [5] => 80.1
+)
+
+## 2023-04-02 10:59:50 ##
+----> START registerOrder()
+## 2023-04-02 10:59:50 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-02 10:59:50 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-04-02</date><time>08:59:48 UTC+0000</time><origAmount>80.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8065</idForMerchant><emailClient>fabrice-lecourtois@orange.fr</emailClient><idClient>22189715</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8065</_aKey_cart_id>  <_aKey_customer_id>3270</_aKey_customer_id>  <_aKey_secure_key>63947ba32ce633a86f9a0f9a58c4bd25</_aKey_secure_key>  <_aKey_token>fefc05aaf610b896ac0cbef7f36c93de</_aKey_token></merchantDatas><transid>642943C8D15E3125</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-04-02 10:59:50 ##
+currency : EUR
+## 2023-04-02 10:59:50 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-02 10:59:50 ##
+callback_salt : 
+## 2023-04-02 10:59:50 ##
+md5 : 2edf3ca2fc13ecbab0870f660389659f == md5content : 2edf3ca2fc13ecbab0870f660389659f
+## 2023-04-02 10:59:50 ##
+Status = ok
+## 2023-04-02 10:59:50 ##
+$currency = EUR
+## 2023-04-02 10:59:50 ##
+id_order_state = 42
+## 2023-04-02 10:59:50 ##
+----> START placeOrder()
+## 2023-04-02 10:59:50 ##
+Treatment status = 42
+## 2023-04-02 10:59:50 ##
+Validate order
+## 2023-04-02 10:59:50 ##
+Array
+(
+    [0] => 8065
+    [1] => 42
+    [2] => 80.1
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"642943C8D15E3125"}
+    [5] => Array
+        (
+            [transaction_id] => 642943C8D15E3125
+        )
+
+    [6] => 1
+    [7] => 63947ba32ce633a86f9a0f9a58c4bd25
+)
+
+## 2023-04-02 10:59:50 ##
+ID Shop = 1
+## 2023-04-02 10:59:55 ##
+Order created
+## 2023-04-02 10:59:55 ##
+----> END placeOrder()
+## 2023-04-02 10:59:55 ##
+----> END registerOrder()
+## 2023-04-02 10:59:55 ##
+----> Treatment is unlocked for the id_cart = 8065
+## 2023-04-02 10:59:59 ##
+##########################
+## 2023-04-02 10:59:59 ##
+START Validation Callback
+## 2023-04-02 10:59:59 ##
+##########################
+## 2023-04-02 10:59:59 ##
+----> Treatment is locked for the id_cart = 8065
+## 2023-04-02 10:59:59 ##
+data for validation
+## 2023-04-02 10:59:59 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>23591166e0bf582caa5f596457c11c02</md5content><result><operation>capture</operation><status>ok</status><date>2023-04-02</date><time>08:59:55 UTC+0000</time><origAmount>80.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8065</idForMerchant><emailClient>fabrice-lecourtois@orange.fr</emailClient><idClient>22189715</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8065</_aKey_cart_id>  <_aKey_customer_id>3270</_aKey_customer_id>  <_aKey_secure_key>63947ba32ce633a86f9a0f9a58c4bd25</_aKey_secure_key>  <_aKey_token>fefc05aaf610b896ac0cbef7f36c93de</_aKey_token></merchantDatas><transid>642943C8D15E3125</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 23591166e0bf582caa5f596457c11c02
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-04-02
+                    [time] => 08:59:55 UTC+0000
+                    [origAmount] => 80.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 8065
+                    [emailClient] => fabrice-lecourtois@orange.fr
+                    [idClient] => 22189715
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 8065
+                            [_aKey_customer_id] => 3270
+                            [_aKey_secure_key] => 63947ba32ce633a86f9a0f9a58c4bd25
+                            [_aKey_token] => fefc05aaf610b896ac0cbef7f36c93de
+                        )
+
+                    [transid] => 642943C8D15E3125
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 8065
+    [3] => 3270
+    [4] => 63947ba32ce633a86f9a0f9a58c4bd25
+    [5] => 80.1
+)
+
+## 2023-04-02 10:59:59 ##
+----> START registerOrder()
+## 2023-04-02 10:59:59 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-02 10:59:59 ##
+<result><operation>capture</operation><status>ok</status><date>2023-04-02</date><time>08:59:55 UTC+0000</time><origAmount>80.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8065</idForMerchant><emailClient>fabrice-lecourtois@orange.fr</emailClient><idClient>22189715</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8065</_aKey_cart_id>  <_aKey_customer_id>3270</_aKey_customer_id>  <_aKey_secure_key>63947ba32ce633a86f9a0f9a58c4bd25</_aKey_secure_key>  <_aKey_token>fefc05aaf610b896ac0cbef7f36c93de</_aKey_token></merchantDatas><transid>642943C8D15E3125</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-04-02 10:59:59 ##
+currency : EUR
+## 2023-04-02 10:59:59 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-02 10:59:59 ##
+callback_salt : 
+## 2023-04-02 10:59:59 ##
+md5 : 23591166e0bf582caa5f596457c11c02 == md5content : 23591166e0bf582caa5f596457c11c02
+## 2023-04-02 10:59:59 ##
+Status = ok
+## 2023-04-02 10:59:59 ##
+$currency = EUR
+## 2023-04-02 10:59:59 ##
+id_order_state = 2
+## 2023-04-02 10:59:59 ##
+----> START placeOrder()
+## 2023-04-02 10:59:59 ##
+Treatment an existing order
+## 2023-04-02 10:59:59 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-04-02 10:59:59 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-04-02
+    [time] => 08:59:55 UTC+0000
+    [origAmount] => 80.10
+    [origCurrency] => EUR
+    [idForMerchant] => 8065
+    [emailClient] => fabrice-lecourtois@orange.fr
+    [idClient] => 22189715
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 8065
+            [_aKey_customer_id] => 3270
+            [_aKey_secure_key] => 63947ba32ce633a86f9a0f9a58c4bd25
+            [_aKey_token] => fefc05aaf610b896ac0cbef7f36c93de
+        )
+
+    [transid] => 642943C8D15E3125
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-04-02 10:59:59 ##
+----> END placeOrder()
+## 2023-04-02 10:59:59 ##
+----> END registerOrder()
+## 2023-04-02 10:59:59 ##
+----> Treatment is unlocked for the id_cart = 8065
+## 2023-04-02 17:23:57 ##
+##########################
+## 2023-04-02 17:23:57 ##
+START Validation Callback
+## 2023-04-02 17:23:57 ##
+##########################
+## 2023-04-02 17:23:57 ##
+----> Treatment is locked for the id_cart = 8068
+## 2023-04-02 17:23:57 ##
+data for validation
+## 2023-04-02 17:23:57 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>feff18b4355ffb017ef1471c12b70b8b</md5content><result><operation>authorization</operation><status>ok</status><date>2023-04-02</date><time>15:23:55 UTC+0000</time><origAmount>90.86</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8068</idForMerchant><emailClient>calvi2002-mag@yahoo.fr</emailClient><idClient>22190906</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8068</_aKey_cart_id>  <_aKey_customer_id>3281</_aKey_customer_id>  <_aKey_secure_key>31d4f1222e449b90e06ba6da90498deb</_aKey_secure_key>  <_aKey_token>e61b04e31355bce11aed6226b2a046fb</_aKey_token></merchantDatas><transid>64299D8967941216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => feff18b4355ffb017ef1471c12b70b8b
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-04-02
+                    [time] => 15:23:55 UTC+0000
+                    [origAmount] => 90.86
+                    [origCurrency] => EUR
+                    [idForMerchant] => 8068
+                    [emailClient] => calvi2002-mag@yahoo.fr
+                    [idClient] => 22190906
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 8068
+                            [_aKey_customer_id] => 3281
+                            [_aKey_secure_key] => 31d4f1222e449b90e06ba6da90498deb
+                            [_aKey_token] => e61b04e31355bce11aed6226b2a046fb
+                        )
+
+                    [transid] => 64299D8967941216
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 8068
+    [3] => 3281
+    [4] => 31d4f1222e449b90e06ba6da90498deb
+    [5] => 90.86
+)
+
+## 2023-04-02 17:23:57 ##
+----> START registerOrder()
+## 2023-04-02 17:23:57 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-02 17:23:57 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-04-02</date><time>15:23:55 UTC+0000</time><origAmount>90.86</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8068</idForMerchant><emailClient>calvi2002-mag@yahoo.fr</emailClient><idClient>22190906</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8068</_aKey_cart_id>  <_aKey_customer_id>3281</_aKey_customer_id>  <_aKey_secure_key>31d4f1222e449b90e06ba6da90498deb</_aKey_secure_key>  <_aKey_token>e61b04e31355bce11aed6226b2a046fb</_aKey_token></merchantDatas><transid>64299D8967941216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-04-02 17:23:57 ##
+currency : EUR
+## 2023-04-02 17:23:57 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-02 17:23:57 ##
+callback_salt : 
+## 2023-04-02 17:23:57 ##
+md5 : feff18b4355ffb017ef1471c12b70b8b == md5content : feff18b4355ffb017ef1471c12b70b8b
+## 2023-04-02 17:23:57 ##
+Status = ok
+## 2023-04-02 17:23:57 ##
+$currency = EUR
+## 2023-04-02 17:23:57 ##
+id_order_state = 42
+## 2023-04-02 17:23:57 ##
+----> START placeOrder()
+## 2023-04-02 17:23:57 ##
+Treatment status = 42
+## 2023-04-02 17:23:57 ##
+Validate order
+## 2023-04-02 17:23:57 ##
+Array
+(
+    [0] => 8068
+    [1] => 42
+    [2] => 90.86
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"64299D8967941216"}
+    [5] => Array
+        (
+            [transaction_id] => 64299D8967941216
+        )
+
+    [6] => 1
+    [7] => 31d4f1222e449b90e06ba6da90498deb
+)
+
+## 2023-04-02 17:23:57 ##
+ID Shop = 1
+## 2023-04-02 17:24:00 ##
+Order created
+## 2023-04-02 17:24:00 ##
+----> END placeOrder()
+## 2023-04-02 17:24:00 ##
+----> END registerOrder()
+## 2023-04-02 17:24:00 ##
+----> Treatment is unlocked for the id_cart = 8068
+## 2023-04-02 17:24:06 ##
+##########################
+## 2023-04-02 17:24:06 ##
+START Validation Callback
+## 2023-04-02 17:24:06 ##
+##########################
+## 2023-04-02 17:24:06 ##
+----> Treatment is locked for the id_cart = 8068
+## 2023-04-02 17:24:06 ##
+data for validation
+## 2023-04-02 17:24:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>9f18fb9a695fc47351318c59d83f0c43</md5content><result><operation>capture</operation><status>ok</status><date>2023-04-02</date><time>15:24:03 UTC+0000</time><origAmount>90.86</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8068</idForMerchant><emailClient>calvi2002-mag@yahoo.fr</emailClient><idClient>22190906</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8068</_aKey_cart_id>  <_aKey_customer_id>3281</_aKey_customer_id>  <_aKey_secure_key>31d4f1222e449b90e06ba6da90498deb</_aKey_secure_key>  <_aKey_token>e61b04e31355bce11aed6226b2a046fb</_aKey_token></merchantDatas><transid>64299D8967941216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 9f18fb9a695fc47351318c59d83f0c43
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-04-02
+                    [time] => 15:24:03 UTC+0000
+                    [origAmount] => 90.86
+                    [origCurrency] => EUR
+                    [idForMerchant] => 8068
+                    [emailClient] => calvi2002-mag@yahoo.fr
+                    [idClient] => 22190906
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 8068
+                            [_aKey_customer_id] => 3281
+                            [_aKey_secure_key] => 31d4f1222e449b90e06ba6da90498deb
+                            [_aKey_token] => e61b04e31355bce11aed6226b2a046fb
+                        )
+
+                    [transid] => 64299D8967941216
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 8068
+    [3] => 3281
+    [4] => 31d4f1222e449b90e06ba6da90498deb
+    [5] => 90.86
+)
+
+## 2023-04-02 17:24:06 ##
+----> START registerOrder()
+## 2023-04-02 17:24:06 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-02 17:24:06 ##
+<result><operation>capture</operation><status>ok</status><date>2023-04-02</date><time>15:24:03 UTC+0000</time><origAmount>90.86</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8068</idForMerchant><emailClient>calvi2002-mag@yahoo.fr</emailClient><idClient>22190906</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8068</_aKey_cart_id>  <_aKey_customer_id>3281</_aKey_customer_id>  <_aKey_secure_key>31d4f1222e449b90e06ba6da90498deb</_aKey_secure_key>  <_aKey_token>e61b04e31355bce11aed6226b2a046fb</_aKey_token></merchantDatas><transid>64299D8967941216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-04-02 17:24:06 ##
+currency : EUR
+## 2023-04-02 17:24:06 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-02 17:24:06 ##
+callback_salt : 
+## 2023-04-02 17:24:06 ##
+md5 : 9f18fb9a695fc47351318c59d83f0c43 == md5content : 9f18fb9a695fc47351318c59d83f0c43
+## 2023-04-02 17:24:06 ##
+Status = ok
+## 2023-04-02 17:24:06 ##
+$currency = EUR
+## 2023-04-02 17:24:06 ##
+id_order_state = 2
+## 2023-04-02 17:24:06 ##
+----> START placeOrder()
+## 2023-04-02 17:24:06 ##
+Treatment an existing order
+## 2023-04-02 17:24:06 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-04-02 17:24:06 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-04-02
+    [time] => 15:24:03 UTC+0000
+    [origAmount] => 90.86
+    [origCurrency] => EUR
+    [idForMerchant] => 8068
+    [emailClient] => calvi2002-mag@yahoo.fr
+    [idClient] => 22190906
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 8068
+            [_aKey_customer_id] => 3281
+            [_aKey_secure_key] => 31d4f1222e449b90e06ba6da90498deb
+            [_aKey_token] => e61b04e31355bce11aed6226b2a046fb
+        )
+
+    [transid] => 64299D8967941216
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-04-02 17:24:06 ##
+----> END placeOrder()
+## 2023-04-02 17:24:06 ##
+----> END registerOrder()
+## 2023-04-02 17:24:06 ##
+----> Treatment is unlocked for the id_cart = 8068

@@ -1,0 +1,259 @@
+## 2023-07-14 09:06:12 ##
+##########################
+## 2023-07-14 09:06:12 ##
+START Validation Callback
+## 2023-07-14 09:06:12 ##
+##########################
+## 2023-07-14 09:06:12 ##
+----> Treatment is locked for the id_cart = 9820
+## 2023-07-14 09:06:12 ##
+data for validation
+## 2023-07-14 09:06:12 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>fbc2c6488d595517807bcb35befdf6d3</md5content><result><operation>authorization</operation><status>ok</status><date>2023-07-14</date><time>07:06:11 UTC+0000</time><origAmount>159.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9820</idForMerchant><emailClient>michel.bregou@wanadoo.fr</emailClient><idClient>22507492</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9820</_aKey_cart_id>  <_aKey_customer_id>3582</_aKey_customer_id>  <_aKey_secure_key>cf3154801d719b80593634e6cebcde50</_aKey_secure_key>  <_aKey_token>796395ee8be5c3fb79b106ef08b41f51</_aKey_token></merchantDatas><transid>64B0F3A72BC87245</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => fbc2c6488d595517807bcb35befdf6d3
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-07-14
+                    [time] => 07:06:11 UTC+0000
+                    [origAmount] => 159.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 9820
+                    [emailClient] => michel.bregou@wanadoo.fr
+                    [idClient] => 22507492
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 9820
+                            [_aKey_customer_id] => 3582
+                            [_aKey_secure_key] => cf3154801d719b80593634e6cebcde50
+                            [_aKey_token] => 796395ee8be5c3fb79b106ef08b41f51
+                        )
+
+                    [transid] => 64B0F3A72BC87245
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 9820
+    [3] => 3582
+    [4] => cf3154801d719b80593634e6cebcde50
+    [5] => 159.6
+)
+
+## 2023-07-14 09:06:12 ##
+----> START registerOrder()
+## 2023-07-14 09:06:12 ##
+accountID:13248407 / websiteId:417972
+## 2023-07-14 09:06:12 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-07-14</date><time>07:06:11 UTC+0000</time><origAmount>159.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9820</idForMerchant><emailClient>michel.bregou@wanadoo.fr</emailClient><idClient>22507492</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9820</_aKey_cart_id>  <_aKey_customer_id>3582</_aKey_customer_id>  <_aKey_secure_key>cf3154801d719b80593634e6cebcde50</_aKey_secure_key>  <_aKey_token>796395ee8be5c3fb79b106ef08b41f51</_aKey_token></merchantDatas><transid>64B0F3A72BC87245</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-07-14 09:06:12 ##
+currency : EUR
+## 2023-07-14 09:06:12 ##
+accountID:13248407 / websiteId:417972
+## 2023-07-14 09:06:12 ##
+callback_salt : 
+## 2023-07-14 09:06:12 ##
+md5 : fbc2c6488d595517807bcb35befdf6d3 == md5content : fbc2c6488d595517807bcb35befdf6d3
+## 2023-07-14 09:06:12 ##
+Status = ok
+## 2023-07-14 09:06:12 ##
+$currency = EUR
+## 2023-07-14 09:06:12 ##
+id_order_state = 42
+## 2023-07-14 09:06:12 ##
+----> START placeOrder()
+## 2023-07-14 09:06:12 ##
+Treatment status = 42
+## 2023-07-14 09:06:12 ##
+Validate order
+## 2023-07-14 09:06:12 ##
+Array
+(
+    [0] => 9820
+    [1] => 42
+    [2] => 159.6
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"64B0F3A72BC87245"}
+    [5] => Array
+        (
+            [transaction_id] => 64B0F3A72BC87245
+        )
+
+    [6] => 1
+    [7] => cf3154801d719b80593634e6cebcde50
+)
+
+## 2023-07-14 09:06:12 ##
+ID Shop = 1
+## 2023-07-14 09:06:21 ##
+Order created
+## 2023-07-14 09:06:21 ##
+----> END placeOrder()
+## 2023-07-14 09:06:21 ##
+----> END registerOrder()
+## 2023-07-14 09:06:21 ##
+----> Treatment is unlocked for the id_cart = 9820
+## 2023-07-14 09:06:22 ##
+##########################
+## 2023-07-14 09:06:22 ##
+START Validation Callback
+## 2023-07-14 09:06:22 ##
+##########################
+## 2023-07-14 09:06:22 ##
+----> Treatment is locked for the id_cart = 9820
+## 2023-07-14 09:06:22 ##
+data for validation
+## 2023-07-14 09:06:22 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>804cfb63768713f2066a40743d2002a9</md5content><result><operation>capture</operation><status>ok</status><date>2023-07-14</date><time>07:06:18 UTC+0000</time><origAmount>159.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9820</idForMerchant><emailClient>michel.bregou@wanadoo.fr</emailClient><idClient>22507492</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9820</_aKey_cart_id>  <_aKey_customer_id>3582</_aKey_customer_id>  <_aKey_secure_key>cf3154801d719b80593634e6cebcde50</_aKey_secure_key>  <_aKey_token>796395ee8be5c3fb79b106ef08b41f51</_aKey_token></merchantDatas><transid>64B0F3A72BC87245</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 804cfb63768713f2066a40743d2002a9
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-07-14
+                    [time] => 07:06:18 UTC+0000
+                    [origAmount] => 159.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 9820
+                    [emailClient] => michel.bregou@wanadoo.fr
+                    [idClient] => 22507492
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 9820
+                            [_aKey_customer_id] => 3582
+                            [_aKey_secure_key] => cf3154801d719b80593634e6cebcde50
+                            [_aKey_token] => 796395ee8be5c3fb79b106ef08b41f51
+                        )
+
+                    [transid] => 64B0F3A72BC87245
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 9820
+    [3] => 3582
+    [4] => cf3154801d719b80593634e6cebcde50
+    [5] => 159.6
+)
+
+## 2023-07-14 09:06:22 ##
+----> START registerOrder()
+## 2023-07-14 09:06:22 ##
+accountID:13248407 / websiteId:417972
+## 2023-07-14 09:06:22 ##
+<result><operation>capture</operation><status>ok</status><date>2023-07-14</date><time>07:06:18 UTC+0000</time><origAmount>159.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9820</idForMerchant><emailClient>michel.bregou@wanadoo.fr</emailClient><idClient>22507492</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9820</_aKey_cart_id>  <_aKey_customer_id>3582</_aKey_customer_id>  <_aKey_secure_key>cf3154801d719b80593634e6cebcde50</_aKey_secure_key>  <_aKey_token>796395ee8be5c3fb79b106ef08b41f51</_aKey_token></merchantDatas><transid>64B0F3A72BC87245</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-07-14 09:06:22 ##
+currency : EUR
+## 2023-07-14 09:06:22 ##
+accountID:13248407 / websiteId:417972
+## 2023-07-14 09:06:22 ##
+callback_salt : 
+## 2023-07-14 09:06:22 ##
+md5 : 804cfb63768713f2066a40743d2002a9 == md5content : 804cfb63768713f2066a40743d2002a9
+## 2023-07-14 09:06:22 ##
+Status = ok
+## 2023-07-14 09:06:22 ##
+$currency = EUR
+## 2023-07-14 09:06:22 ##
+id_order_state = 2
+## 2023-07-14 09:06:22 ##
+----> START placeOrder()
+## 2023-07-14 09:06:22 ##
+Treatment an existing order
+## 2023-07-14 09:06:22 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-07-14 09:06:22 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-07-14
+    [time] => 07:06:18 UTC+0000
+    [origAmount] => 159.60
+    [origCurrency] => EUR
+    [idForMerchant] => 9820
+    [emailClient] => michel.bregou@wanadoo.fr
+    [idClient] => 22507492
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 9820
+            [_aKey_customer_id] => 3582
+            [_aKey_secure_key] => cf3154801d719b80593634e6cebcde50
+            [_aKey_token] => 796395ee8be5c3fb79b106ef08b41f51
+        )
+
+    [transid] => 64B0F3A72BC87245
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-07-14 09:06:22 ##
+----> END placeOrder()
+## 2023-07-14 09:06:22 ##
+----> END registerOrder()
+## 2023-07-14 09:06:22 ##
+----> Treatment is unlocked for the id_cart = 9820

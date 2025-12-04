@@ -1,0 +1,259 @@
+## 2022-04-10 10:57:29 ##
+##########################
+## 2022-04-10 10:57:29 ##
+START Validation Callback
+## 2022-04-10 10:57:29 ##
+##########################
+## 2022-04-10 10:57:29 ##
+----> Treatment is locked for the id_cart = 2435
+## 2022-04-10 10:57:29 ##
+data for validation
+## 2022-04-10 10:57:29 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>401eaac760fd7432530a6b5e61f95a04</md5content><result><operation>authorization</operation><status>ok</status><date>2022-04-10</date><time>08:57:27 UTC+0000</time><origAmount>276.25</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2435</idForMerchant><emailClient>drotom.pl@gmail.com</emailClient><idClient>20645251</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2435</_aKey_cart_id>  <_aKey_customer_id>1582</_aKey_customer_id>  <_aKey_secure_key>f47ac0c6a2cc2dfeaa504b21c043f9c2</_aKey_secure_key>  <_aKey_token>7a10dfadc6d7b14bd41510e18b9a1647</_aKey_token></merchantDatas><transid>62529BC599F7C263</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 401eaac760fd7432530a6b5e61f95a04
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-04-10
+                    [time] => 08:57:27 UTC+0000
+                    [origAmount] => 276.25
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2435
+                    [emailClient] => drotom.pl@gmail.com
+                    [idClient] => 20645251
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2435
+                            [_aKey_customer_id] => 1582
+                            [_aKey_secure_key] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+                            [_aKey_token] => 7a10dfadc6d7b14bd41510e18b9a1647
+                        )
+
+                    [transid] => 62529BC599F7C263
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2435
+    [3] => 1582
+    [4] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+    [5] => 276.25
+)
+
+## 2022-04-10 10:57:29 ##
+----> START registerOrder()
+## 2022-04-10 10:57:29 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-10 10:57:29 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-04-10</date><time>08:57:27 UTC+0000</time><origAmount>276.25</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2435</idForMerchant><emailClient>drotom.pl@gmail.com</emailClient><idClient>20645251</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2435</_aKey_cart_id>  <_aKey_customer_id>1582</_aKey_customer_id>  <_aKey_secure_key>f47ac0c6a2cc2dfeaa504b21c043f9c2</_aKey_secure_key>  <_aKey_token>7a10dfadc6d7b14bd41510e18b9a1647</_aKey_token></merchantDatas><transid>62529BC599F7C263</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-04-10 10:57:29 ##
+currency : EUR
+## 2022-04-10 10:57:29 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-10 10:57:29 ##
+callback_salt : 
+## 2022-04-10 10:57:29 ##
+md5 : 401eaac760fd7432530a6b5e61f95a04 == md5content : 401eaac760fd7432530a6b5e61f95a04
+## 2022-04-10 10:57:29 ##
+Status = ok
+## 2022-04-10 10:57:29 ##
+$currency = EUR
+## 2022-04-10 10:57:29 ##
+id_order_state = 42
+## 2022-04-10 10:57:29 ##
+----> START placeOrder()
+## 2022-04-10 10:57:29 ##
+Treatment status = 42
+## 2022-04-10 10:57:29 ##
+Validate order
+## 2022-04-10 10:57:29 ##
+Array
+(
+    [0] => 2435
+    [1] => 42
+    [2] => 276.25
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"62529BC599F7C263"}
+    [5] => Array
+        (
+            [transaction_id] => 62529BC599F7C263
+        )
+
+    [6] => 1
+    [7] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+)
+
+## 2022-04-10 10:57:29 ##
+ID Shop = 1
+## 2022-04-10 10:57:32 ##
+Order created
+## 2022-04-10 10:57:32 ##
+----> END placeOrder()
+## 2022-04-10 10:57:32 ##
+----> END registerOrder()
+## 2022-04-10 10:57:32 ##
+----> Treatment is unlocked for the id_cart = 2435
+## 2022-04-10 10:57:37 ##
+##########################
+## 2022-04-10 10:57:37 ##
+START Validation Callback
+## 2022-04-10 10:57:37 ##
+##########################
+## 2022-04-10 10:57:37 ##
+----> Treatment is locked for the id_cart = 2435
+## 2022-04-10 10:57:37 ##
+data for validation
+## 2022-04-10 10:57:37 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>4012b806cf5ba67f9aec42d601c993fc</md5content><result><operation>capture</operation><status>ok</status><date>2022-04-10</date><time>08:57:34 UTC+0000</time><origAmount>276.25</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2435</idForMerchant><emailClient>drotom.pl@gmail.com</emailClient><idClient>20645251</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2435</_aKey_cart_id>  <_aKey_customer_id>1582</_aKey_customer_id>  <_aKey_secure_key>f47ac0c6a2cc2dfeaa504b21c043f9c2</_aKey_secure_key>  <_aKey_token>7a10dfadc6d7b14bd41510e18b9a1647</_aKey_token></merchantDatas><transid>62529BC599F7C263</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 4012b806cf5ba67f9aec42d601c993fc
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-04-10
+                    [time] => 08:57:34 UTC+0000
+                    [origAmount] => 276.25
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2435
+                    [emailClient] => drotom.pl@gmail.com
+                    [idClient] => 20645251
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2435
+                            [_aKey_customer_id] => 1582
+                            [_aKey_secure_key] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+                            [_aKey_token] => 7a10dfadc6d7b14bd41510e18b9a1647
+                        )
+
+                    [transid] => 62529BC599F7C263
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2435
+    [3] => 1582
+    [4] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+    [5] => 276.25
+)
+
+## 2022-04-10 10:57:37 ##
+----> START registerOrder()
+## 2022-04-10 10:57:37 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-10 10:57:37 ##
+<result><operation>capture</operation><status>ok</status><date>2022-04-10</date><time>08:57:34 UTC+0000</time><origAmount>276.25</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2435</idForMerchant><emailClient>drotom.pl@gmail.com</emailClient><idClient>20645251</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2435</_aKey_cart_id>  <_aKey_customer_id>1582</_aKey_customer_id>  <_aKey_secure_key>f47ac0c6a2cc2dfeaa504b21c043f9c2</_aKey_secure_key>  <_aKey_token>7a10dfadc6d7b14bd41510e18b9a1647</_aKey_token></merchantDatas><transid>62529BC599F7C263</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-04-10 10:57:37 ##
+currency : EUR
+## 2022-04-10 10:57:37 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-10 10:57:37 ##
+callback_salt : 
+## 2022-04-10 10:57:37 ##
+md5 : 4012b806cf5ba67f9aec42d601c993fc == md5content : 4012b806cf5ba67f9aec42d601c993fc
+## 2022-04-10 10:57:37 ##
+Status = ok
+## 2022-04-10 10:57:37 ##
+$currency = EUR
+## 2022-04-10 10:57:37 ##
+id_order_state = 2
+## 2022-04-10 10:57:37 ##
+----> START placeOrder()
+## 2022-04-10 10:57:37 ##
+Treatment an existing order
+## 2022-04-10 10:57:37 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-04-10 10:57:37 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-04-10
+    [time] => 08:57:34 UTC+0000
+    [origAmount] => 276.25
+    [origCurrency] => EUR
+    [idForMerchant] => 2435
+    [emailClient] => drotom.pl@gmail.com
+    [idClient] => 20645251
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 2435
+            [_aKey_customer_id] => 1582
+            [_aKey_secure_key] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+            [_aKey_token] => 7a10dfadc6d7b14bd41510e18b9a1647
+        )
+
+    [transid] => 62529BC599F7C263
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-04-10 10:57:38 ##
+----> END placeOrder()
+## 2022-04-10 10:57:38 ##
+----> END registerOrder()
+## 2022-04-10 10:57:38 ##
+----> Treatment is unlocked for the id_cart = 2435

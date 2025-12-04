@@ -1,0 +1,36 @@
+<?php
+/**
+ * NOTICE OF LICENSE
+ *
+ * This file is licenced under the Software License Agreement.
+ * With the purchase or the installation of the software in your application
+ * you accept the licence agreement.
+ *
+ * You must not modify, adapt or create derivative works of this source code
+ *
+ * @author    Musaffar Patel
+ * @copyright 2016-2021 Musaffar Patel
+ * @license   LICENSE.txt
+ */
+
+class Cart extends CartCore
+{
+    /*
+    * module: productpricebysize
+    * date: 2021-02-28 12:55:12
+    * version: 2.0.15
+    */
+    /*public function getTotalWeight($products = null)
+	{
+        include_once(_PS_MODULE_DIR_ . '/productpricebysize/lib/bootstrap.php');
+
+        if (!Module::isEnabled('ProductPriceBySize')) {
+            return parent::getTotalWeight($products);
+        }
+        if (!is_null($products)) {
+            return PPBSCartHelper::getTotalWeight($products, $this->id, true);
+        } else {
+            return parent::getTotalWeight($products);
+        }
+	}*/
+}

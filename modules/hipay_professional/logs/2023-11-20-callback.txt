@@ -1,0 +1,259 @@
+## 2023-11-20 19:09:43 ##
+##########################
+## 2023-11-20 19:09:43 ##
+START Validation Callback
+## 2023-11-20 19:09:43 ##
+##########################
+## 2023-11-20 19:09:43 ##
+----> Treatment is locked for the id_cart = 11964
+## 2023-11-20 19:09:43 ##
+data for validation
+## 2023-11-20 19:09:43 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a2b9e6ec1a59ffc6105a88995218121a</md5content><result><operation>authorization</operation><status>ok</status><date>2023-11-20</date><time>18:09:41 UTC+0000</time><origAmount>303.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11964</idForMerchant><emailClient>fourn@aquariumlocationservices.fr</emailClient><idClient>20504188</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11964</_aKey_cart_id>  <_aKey_customer_id>1714</_aKey_customer_id>  <_aKey_secure_key>bc714341494ee74326599d7b3c554d8e</_aKey_secure_key>  <_aKey_token>40193bcf131b02cff6d96b03b7b6c9fb</_aKey_token></merchantDatas><transid>655BA0A3D2430306</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a2b9e6ec1a59ffc6105a88995218121a
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-11-20
+                    [time] => 18:09:41 UTC+0000
+                    [origAmount] => 303.28
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11964
+                    [emailClient] => fourn@aquariumlocationservices.fr
+                    [idClient] => 20504188
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11964
+                            [_aKey_customer_id] => 1714
+                            [_aKey_secure_key] => bc714341494ee74326599d7b3c554d8e
+                            [_aKey_token] => 40193bcf131b02cff6d96b03b7b6c9fb
+                        )
+
+                    [transid] => 655BA0A3D2430306
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11964
+    [3] => 1714
+    [4] => bc714341494ee74326599d7b3c554d8e
+    [5] => 303.28
+)
+
+## 2023-11-20 19:09:43 ##
+----> START registerOrder()
+## 2023-11-20 19:09:43 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-20 19:09:43 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-11-20</date><time>18:09:41 UTC+0000</time><origAmount>303.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11964</idForMerchant><emailClient>fourn@aquariumlocationservices.fr</emailClient><idClient>20504188</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11964</_aKey_cart_id>  <_aKey_customer_id>1714</_aKey_customer_id>  <_aKey_secure_key>bc714341494ee74326599d7b3c554d8e</_aKey_secure_key>  <_aKey_token>40193bcf131b02cff6d96b03b7b6c9fb</_aKey_token></merchantDatas><transid>655BA0A3D2430306</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-20 19:09:43 ##
+currency : EUR
+## 2023-11-20 19:09:43 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-20 19:09:43 ##
+callback_salt : 
+## 2023-11-20 19:09:43 ##
+md5 : a2b9e6ec1a59ffc6105a88995218121a == md5content : a2b9e6ec1a59ffc6105a88995218121a
+## 2023-11-20 19:09:43 ##
+Status = ok
+## 2023-11-20 19:09:43 ##
+$currency = EUR
+## 2023-11-20 19:09:43 ##
+id_order_state = 42
+## 2023-11-20 19:09:43 ##
+----> START placeOrder()
+## 2023-11-20 19:09:43 ##
+Treatment status = 42
+## 2023-11-20 19:09:43 ##
+Validate order
+## 2023-11-20 19:09:43 ##
+Array
+(
+    [0] => 11964
+    [1] => 42
+    [2] => 303.28
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"655BA0A3D2430306"}
+    [5] => Array
+        (
+            [transaction_id] => 655BA0A3D2430306
+        )
+
+    [6] => 1
+    [7] => bc714341494ee74326599d7b3c554d8e
+)
+
+## 2023-11-20 19:09:43 ##
+ID Shop = 1
+## 2023-11-20 19:09:47 ##
+Order created
+## 2023-11-20 19:09:47 ##
+----> END placeOrder()
+## 2023-11-20 19:09:47 ##
+----> END registerOrder()
+## 2023-11-20 19:09:47 ##
+----> Treatment is unlocked for the id_cart = 11964
+## 2023-11-20 19:09:50 ##
+##########################
+## 2023-11-20 19:09:50 ##
+START Validation Callback
+## 2023-11-20 19:09:50 ##
+##########################
+## 2023-11-20 19:09:50 ##
+----> Treatment is locked for the id_cart = 11964
+## 2023-11-20 19:09:50 ##
+data for validation
+## 2023-11-20 19:09:50 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a6041fe56d53adf9debb991fd56f67ca</md5content><result><operation>capture</operation><status>ok</status><date>2023-11-20</date><time>18:09:47 UTC+0000</time><origAmount>303.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11964</idForMerchant><emailClient>fourn@aquariumlocationservices.fr</emailClient><idClient>20504188</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11964</_aKey_cart_id>  <_aKey_customer_id>1714</_aKey_customer_id>  <_aKey_secure_key>bc714341494ee74326599d7b3c554d8e</_aKey_secure_key>  <_aKey_token>40193bcf131b02cff6d96b03b7b6c9fb</_aKey_token></merchantDatas><transid>655BA0A3D2430306</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a6041fe56d53adf9debb991fd56f67ca
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-11-20
+                    [time] => 18:09:47 UTC+0000
+                    [origAmount] => 303.28
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11964
+                    [emailClient] => fourn@aquariumlocationservices.fr
+                    [idClient] => 20504188
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11964
+                            [_aKey_customer_id] => 1714
+                            [_aKey_secure_key] => bc714341494ee74326599d7b3c554d8e
+                            [_aKey_token] => 40193bcf131b02cff6d96b03b7b6c9fb
+                        )
+
+                    [transid] => 655BA0A3D2430306
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11964
+    [3] => 1714
+    [4] => bc714341494ee74326599d7b3c554d8e
+    [5] => 303.28
+)
+
+## 2023-11-20 19:09:50 ##
+----> START registerOrder()
+## 2023-11-20 19:09:50 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-20 19:09:50 ##
+<result><operation>capture</operation><status>ok</status><date>2023-11-20</date><time>18:09:47 UTC+0000</time><origAmount>303.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11964</idForMerchant><emailClient>fourn@aquariumlocationservices.fr</emailClient><idClient>20504188</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11964</_aKey_cart_id>  <_aKey_customer_id>1714</_aKey_customer_id>  <_aKey_secure_key>bc714341494ee74326599d7b3c554d8e</_aKey_secure_key>  <_aKey_token>40193bcf131b02cff6d96b03b7b6c9fb</_aKey_token></merchantDatas><transid>655BA0A3D2430306</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-20 19:09:50 ##
+currency : EUR
+## 2023-11-20 19:09:50 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-20 19:09:50 ##
+callback_salt : 
+## 2023-11-20 19:09:50 ##
+md5 : a6041fe56d53adf9debb991fd56f67ca == md5content : a6041fe56d53adf9debb991fd56f67ca
+## 2023-11-20 19:09:50 ##
+Status = ok
+## 2023-11-20 19:09:50 ##
+$currency = EUR
+## 2023-11-20 19:09:50 ##
+id_order_state = 2
+## 2023-11-20 19:09:50 ##
+----> START placeOrder()
+## 2023-11-20 19:09:50 ##
+Treatment an existing order
+## 2023-11-20 19:09:50 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-11-20 19:09:50 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-11-20
+    [time] => 18:09:47 UTC+0000
+    [origAmount] => 303.28
+    [origCurrency] => EUR
+    [idForMerchant] => 11964
+    [emailClient] => fourn@aquariumlocationservices.fr
+    [idClient] => 20504188
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 11964
+            [_aKey_customer_id] => 1714
+            [_aKey_secure_key] => bc714341494ee74326599d7b3c554d8e
+            [_aKey_token] => 40193bcf131b02cff6d96b03b7b6c9fb
+        )
+
+    [transid] => 655BA0A3D2430306
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-11-20 19:09:50 ##
+----> END placeOrder()
+## 2023-11-20 19:09:50 ##
+----> END registerOrder()
+## 2023-11-20 19:09:50 ##
+----> Treatment is unlocked for the id_cart = 11964

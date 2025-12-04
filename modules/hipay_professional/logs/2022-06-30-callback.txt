@@ -1,0 +1,518 @@
+## 2022-06-30 08:37:36 ##
+##########################
+## 2022-06-30 08:37:36 ##
+START Validation Callback
+## 2022-06-30 08:37:36 ##
+##########################
+## 2022-06-30 08:37:36 ##
+----> Treatment is locked for the id_cart = 3454
+## 2022-06-30 08:37:36 ##
+data for validation
+## 2022-06-30 08:37:36 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>641d463dfb99b018650782398417eb41</md5content><result><operation>authorization</operation><status>ok</status><date>2022-06-30</date><time>06:37:34 UTC+0000</time><origAmount>75.87</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3454</idForMerchant><emailClient>laurentleandri@gmail.com</emailClient><idClient>21177451</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3454</_aKey_cart_id>  <_aKey_customer_id>2198</_aKey_customer_id>  <_aKey_secure_key>71c0b10a435a036659ef790bce174d91</_aKey_secure_key>  <_aKey_token>7ffda82c10ec5a4e3ef6abef5994c363</_aKey_token></merchantDatas><transid>62BD446814CDB233</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 641d463dfb99b018650782398417eb41
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-06-30
+                    [time] => 06:37:34 UTC+0000
+                    [origAmount] => 75.87
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3454
+                    [emailClient] => laurentleandri@gmail.com
+                    [idClient] => 21177451
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3454
+                            [_aKey_customer_id] => 2198
+                            [_aKey_secure_key] => 71c0b10a435a036659ef790bce174d91
+                            [_aKey_token] => 7ffda82c10ec5a4e3ef6abef5994c363
+                        )
+
+                    [transid] => 62BD446814CDB233
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3454
+    [3] => 2198
+    [4] => 71c0b10a435a036659ef790bce174d91
+    [5] => 75.87
+)
+
+## 2022-06-30 08:37:36 ##
+----> START registerOrder()
+## 2022-06-30 08:37:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-30 08:37:36 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-06-30</date><time>06:37:34 UTC+0000</time><origAmount>75.87</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3454</idForMerchant><emailClient>laurentleandri@gmail.com</emailClient><idClient>21177451</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3454</_aKey_cart_id>  <_aKey_customer_id>2198</_aKey_customer_id>  <_aKey_secure_key>71c0b10a435a036659ef790bce174d91</_aKey_secure_key>  <_aKey_token>7ffda82c10ec5a4e3ef6abef5994c363</_aKey_token></merchantDatas><transid>62BD446814CDB233</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-30 08:37:36 ##
+currency : EUR
+## 2022-06-30 08:37:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-30 08:37:36 ##
+callback_salt : 
+## 2022-06-30 08:37:36 ##
+md5 : 641d463dfb99b018650782398417eb41 == md5content : 641d463dfb99b018650782398417eb41
+## 2022-06-30 08:37:36 ##
+Status = ok
+## 2022-06-30 08:37:36 ##
+$currency = EUR
+## 2022-06-30 08:37:36 ##
+id_order_state = 42
+## 2022-06-30 08:37:36 ##
+----> START placeOrder()
+## 2022-06-30 08:37:36 ##
+Treatment status = 42
+## 2022-06-30 08:37:36 ##
+Validate order
+## 2022-06-30 08:37:36 ##
+Array
+(
+    [0] => 3454
+    [1] => 42
+    [2] => 75.87
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"62BD446814CDB233"}
+    [5] => Array
+        (
+            [transaction_id] => 62BD446814CDB233
+        )
+
+    [6] => 1
+    [7] => 71c0b10a435a036659ef790bce174d91
+)
+
+## 2022-06-30 08:37:36 ##
+ID Shop = 1
+## 2022-06-30 08:37:38 ##
+Order created
+## 2022-06-30 08:37:38 ##
+----> END placeOrder()
+## 2022-06-30 08:37:38 ##
+----> END registerOrder()
+## 2022-06-30 08:37:38 ##
+----> Treatment is unlocked for the id_cart = 3454
+## 2022-06-30 08:37:46 ##
+##########################
+## 2022-06-30 08:37:46 ##
+START Validation Callback
+## 2022-06-30 08:37:46 ##
+##########################
+## 2022-06-30 08:37:46 ##
+----> Treatment is locked for the id_cart = 3454
+## 2022-06-30 08:37:46 ##
+data for validation
+## 2022-06-30 08:37:46 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>cf34981a7a0fd231a1b6748720b0fd54</md5content><result><operation>capture</operation><status>ok</status><date>2022-06-30</date><time>06:37:41 UTC+0000</time><origAmount>75.87</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3454</idForMerchant><emailClient>laurentleandri@gmail.com</emailClient><idClient>21177451</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3454</_aKey_cart_id>  <_aKey_customer_id>2198</_aKey_customer_id>  <_aKey_secure_key>71c0b10a435a036659ef790bce174d91</_aKey_secure_key>  <_aKey_token>7ffda82c10ec5a4e3ef6abef5994c363</_aKey_token></merchantDatas><transid>62BD446814CDB233</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => cf34981a7a0fd231a1b6748720b0fd54
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-06-30
+                    [time] => 06:37:41 UTC+0000
+                    [origAmount] => 75.87
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3454
+                    [emailClient] => laurentleandri@gmail.com
+                    [idClient] => 21177451
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3454
+                            [_aKey_customer_id] => 2198
+                            [_aKey_secure_key] => 71c0b10a435a036659ef790bce174d91
+                            [_aKey_token] => 7ffda82c10ec5a4e3ef6abef5994c363
+                        )
+
+                    [transid] => 62BD446814CDB233
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3454
+    [3] => 2198
+    [4] => 71c0b10a435a036659ef790bce174d91
+    [5] => 75.87
+)
+
+## 2022-06-30 08:37:46 ##
+----> START registerOrder()
+## 2022-06-30 08:37:46 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-30 08:37:46 ##
+<result><operation>capture</operation><status>ok</status><date>2022-06-30</date><time>06:37:41 UTC+0000</time><origAmount>75.87</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3454</idForMerchant><emailClient>laurentleandri@gmail.com</emailClient><idClient>21177451</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3454</_aKey_cart_id>  <_aKey_customer_id>2198</_aKey_customer_id>  <_aKey_secure_key>71c0b10a435a036659ef790bce174d91</_aKey_secure_key>  <_aKey_token>7ffda82c10ec5a4e3ef6abef5994c363</_aKey_token></merchantDatas><transid>62BD446814CDB233</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-30 08:37:46 ##
+currency : EUR
+## 2022-06-30 08:37:46 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-30 08:37:46 ##
+callback_salt : 
+## 2022-06-30 08:37:46 ##
+md5 : cf34981a7a0fd231a1b6748720b0fd54 == md5content : cf34981a7a0fd231a1b6748720b0fd54
+## 2022-06-30 08:37:46 ##
+Status = ok
+## 2022-06-30 08:37:46 ##
+$currency = EUR
+## 2022-06-30 08:37:46 ##
+id_order_state = 2
+## 2022-06-30 08:37:46 ##
+----> START placeOrder()
+## 2022-06-30 08:37:46 ##
+Treatment an existing order
+## 2022-06-30 08:37:46 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-06-30 08:37:46 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-06-30
+    [time] => 06:37:41 UTC+0000
+    [origAmount] => 75.87
+    [origCurrency] => EUR
+    [idForMerchant] => 3454
+    [emailClient] => laurentleandri@gmail.com
+    [idClient] => 21177451
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 3454
+            [_aKey_customer_id] => 2198
+            [_aKey_secure_key] => 71c0b10a435a036659ef790bce174d91
+            [_aKey_token] => 7ffda82c10ec5a4e3ef6abef5994c363
+        )
+
+    [transid] => 62BD446814CDB233
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-06-30 08:37:46 ##
+----> END placeOrder()
+## 2022-06-30 08:37:46 ##
+----> END registerOrder()
+## 2022-06-30 08:37:46 ##
+----> Treatment is unlocked for the id_cart = 3454
+## 2022-06-30 19:33:15 ##
+##########################
+## 2022-06-30 19:33:15 ##
+START Validation Callback
+## 2022-06-30 19:33:15 ##
+##########################
+## 2022-06-30 19:33:15 ##
+----> Treatment is locked for the id_cart = 3477
+## 2022-06-30 19:33:15 ##
+data for validation
+## 2022-06-30 19:33:15 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>22cc53387dca3a733ffbe26a6c3f04f9</md5content><result><operation>authorization</operation><status>ok</status><date>2022-06-30</date><time>17:33:11 UTC+0000</time><origAmount>136.15</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3477</idForMerchant><emailClient>dl.menuiserie10@gmail.com</emailClient><idClient>21180457</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3477</_aKey_cart_id>  <_aKey_customer_id>2208</_aKey_customer_id>  <_aKey_secure_key>2f1c22435ab3e16282fb8c5b85c2bf7f</_aKey_secure_key>  <_aKey_token>feabfa76159a8f3ab743ec6574b7ae9e</_aKey_token></merchantDatas><transid>62BDDE0F1E175245</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 22cc53387dca3a733ffbe26a6c3f04f9
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-06-30
+                    [time] => 17:33:11 UTC+0000
+                    [origAmount] => 136.15
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3477
+                    [emailClient] => dl.menuiserie10@gmail.com
+                    [idClient] => 21180457
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3477
+                            [_aKey_customer_id] => 2208
+                            [_aKey_secure_key] => 2f1c22435ab3e16282fb8c5b85c2bf7f
+                            [_aKey_token] => feabfa76159a8f3ab743ec6574b7ae9e
+                        )
+
+                    [transid] => 62BDDE0F1E175245
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3477
+    [3] => 2208
+    [4] => 2f1c22435ab3e16282fb8c5b85c2bf7f
+    [5] => 136.15
+)
+
+## 2022-06-30 19:33:15 ##
+----> START registerOrder()
+## 2022-06-30 19:33:15 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-30 19:33:15 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-06-30</date><time>17:33:11 UTC+0000</time><origAmount>136.15</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3477</idForMerchant><emailClient>dl.menuiserie10@gmail.com</emailClient><idClient>21180457</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3477</_aKey_cart_id>  <_aKey_customer_id>2208</_aKey_customer_id>  <_aKey_secure_key>2f1c22435ab3e16282fb8c5b85c2bf7f</_aKey_secure_key>  <_aKey_token>feabfa76159a8f3ab743ec6574b7ae9e</_aKey_token></merchantDatas><transid>62BDDE0F1E175245</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-30 19:33:15 ##
+currency : EUR
+## 2022-06-30 19:33:15 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-30 19:33:15 ##
+callback_salt : 
+## 2022-06-30 19:33:15 ##
+md5 : 22cc53387dca3a733ffbe26a6c3f04f9 == md5content : 22cc53387dca3a733ffbe26a6c3f04f9
+## 2022-06-30 19:33:15 ##
+Status = ok
+## 2022-06-30 19:33:15 ##
+$currency = EUR
+## 2022-06-30 19:33:15 ##
+id_order_state = 42
+## 2022-06-30 19:33:15 ##
+----> START placeOrder()
+## 2022-06-30 19:33:15 ##
+Treatment status = 42
+## 2022-06-30 19:33:15 ##
+Validate order
+## 2022-06-30 19:33:15 ##
+Array
+(
+    [0] => 3477
+    [1] => 42
+    [2] => 136.15
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"MASTERCARD","Transaction ID":"62BDDE0F1E175245"}
+    [5] => Array
+        (
+            [transaction_id] => 62BDDE0F1E175245
+        )
+
+    [6] => 1
+    [7] => 2f1c22435ab3e16282fb8c5b85c2bf7f
+)
+
+## 2022-06-30 19:33:15 ##
+ID Shop = 1
+## 2022-06-30 19:33:16 ##
+Order created
+## 2022-06-30 19:33:16 ##
+----> END placeOrder()
+## 2022-06-30 19:33:16 ##
+----> END registerOrder()
+## 2022-06-30 19:33:16 ##
+----> Treatment is unlocked for the id_cart = 3477
+## 2022-06-30 19:33:23 ##
+##########################
+## 2022-06-30 19:33:23 ##
+START Validation Callback
+## 2022-06-30 19:33:23 ##
+##########################
+## 2022-06-30 19:33:23 ##
+----> Treatment is locked for the id_cart = 3477
+## 2022-06-30 19:33:23 ##
+data for validation
+## 2022-06-30 19:33:23 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>02e4747ebb6db29b3f546a7f7baed23e</md5content><result><operation>capture</operation><status>ok</status><date>2022-06-30</date><time>17:33:19 UTC+0000</time><origAmount>136.15</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3477</idForMerchant><emailClient>dl.menuiserie10@gmail.com</emailClient><idClient>21180457</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3477</_aKey_cart_id>  <_aKey_customer_id>2208</_aKey_customer_id>  <_aKey_secure_key>2f1c22435ab3e16282fb8c5b85c2bf7f</_aKey_secure_key>  <_aKey_token>feabfa76159a8f3ab743ec6574b7ae9e</_aKey_token></merchantDatas><transid>62BDDE0F1E175245</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 02e4747ebb6db29b3f546a7f7baed23e
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-06-30
+                    [time] => 17:33:19 UTC+0000
+                    [origAmount] => 136.15
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3477
+                    [emailClient] => dl.menuiserie10@gmail.com
+                    [idClient] => 21180457
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3477
+                            [_aKey_customer_id] => 2208
+                            [_aKey_secure_key] => 2f1c22435ab3e16282fb8c5b85c2bf7f
+                            [_aKey_token] => feabfa76159a8f3ab743ec6574b7ae9e
+                        )
+
+                    [transid] => 62BDDE0F1E175245
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3477
+    [3] => 2208
+    [4] => 2f1c22435ab3e16282fb8c5b85c2bf7f
+    [5] => 136.15
+)
+
+## 2022-06-30 19:33:23 ##
+----> START registerOrder()
+## 2022-06-30 19:33:23 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-30 19:33:23 ##
+<result><operation>capture</operation><status>ok</status><date>2022-06-30</date><time>17:33:19 UTC+0000</time><origAmount>136.15</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3477</idForMerchant><emailClient>dl.menuiserie10@gmail.com</emailClient><idClient>21180457</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3477</_aKey_cart_id>  <_aKey_customer_id>2208</_aKey_customer_id>  <_aKey_secure_key>2f1c22435ab3e16282fb8c5b85c2bf7f</_aKey_secure_key>  <_aKey_token>feabfa76159a8f3ab743ec6574b7ae9e</_aKey_token></merchantDatas><transid>62BDDE0F1E175245</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-30 19:33:23 ##
+currency : EUR
+## 2022-06-30 19:33:23 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-30 19:33:23 ##
+callback_salt : 
+## 2022-06-30 19:33:23 ##
+md5 : 02e4747ebb6db29b3f546a7f7baed23e == md5content : 02e4747ebb6db29b3f546a7f7baed23e
+## 2022-06-30 19:33:23 ##
+Status = ok
+## 2022-06-30 19:33:23 ##
+$currency = EUR
+## 2022-06-30 19:33:23 ##
+id_order_state = 2
+## 2022-06-30 19:33:23 ##
+----> START placeOrder()
+## 2022-06-30 19:33:23 ##
+Treatment an existing order
+## 2022-06-30 19:33:23 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-06-30 19:33:23 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-06-30
+    [time] => 17:33:19 UTC+0000
+    [origAmount] => 136.15
+    [origCurrency] => EUR
+    [idForMerchant] => 3477
+    [emailClient] => dl.menuiserie10@gmail.com
+    [idClient] => 21180457
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 3477
+            [_aKey_customer_id] => 2208
+            [_aKey_secure_key] => 2f1c22435ab3e16282fb8c5b85c2bf7f
+            [_aKey_token] => feabfa76159a8f3ab743ec6574b7ae9e
+        )
+
+    [transid] => 62BDDE0F1E175245
+    [is3ds] => Yes
+    [paymentMethod] => MASTERCARD
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-06-30 19:33:23 ##
+----> END placeOrder()
+## 2022-06-30 19:33:23 ##
+----> END registerOrder()
+## 2022-06-30 19:33:23 ##
+----> Treatment is unlocked for the id_cart = 3477

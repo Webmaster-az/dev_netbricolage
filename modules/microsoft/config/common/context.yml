@@ -1,0 +1,16 @@
+services:
+  
+  Microsoft.context:
+    class: 'Context'
+    public: true
+    factory: ['PrestaShop\Module\Microsoft\Factory\ContextFactory', 'getContext']
+
+  Microsoft.currency:
+    class: 'Currency'
+    public: true
+    factory: ['PrestaShop\Module\Microsoft\Factory\ContextFactory', 'getCurrency']
+
+  Microsoft.language:
+    class: 'Language'
+    public: true
+    factory: ['PrestaShop\Module\Microsoft\Factory\ContextFactory', 'getLanguage']

@@ -1,0 +1,259 @@
+## 2022-02-21 20:21:21 ##
+##########################
+## 2022-02-21 20:21:21 ##
+START Validation Callback
+## 2022-02-21 20:21:21 ##
+##########################
+## 2022-02-21 20:21:21 ##
+----> Treatment is locked for the id_cart = 1764
+## 2022-02-21 20:21:21 ##
+data for validation
+## 2022-02-21 20:21:21 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>77af8de01c89b0a74d23d222d2ea0929</md5content><result><operation>authorization</operation><status>ok</status><date>2022-02-21</date><time>19:21:19 UTC+0000</time><origAmount>68.43</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1764</idForMerchant><emailClient>lameuseromantique@gmail.com</emailClient><idClient>20347719</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>1764</_aKey_cart_id>  <_aKey_customer_id>1801</_aKey_customer_id>  <_aKey_secure_key>99464e6250aa4787198ed994274c2432</_aKey_secure_key>  <_aKey_token>4294a2cbda879d4703c61b33e5b1d093</_aKey_token></merchantDatas><transid>6213E5E1CF924184</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 77af8de01c89b0a74d23d222d2ea0929
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-02-21
+                    [time] => 19:21:19 UTC+0000
+                    [origAmount] => 68.43
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1764
+                    [emailClient] => lameuseromantique@gmail.com
+                    [idClient] => 20347719
+                    [cardCountry] => BE
+                    [ipCountry] => BE
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1764
+                            [_aKey_customer_id] => 1801
+                            [_aKey_secure_key] => 99464e6250aa4787198ed994274c2432
+                            [_aKey_token] => 4294a2cbda879d4703c61b33e5b1d093
+                        )
+
+                    [transid] => 6213E5E1CF924184
+                    [is3ds] => Yes
+                    [paymentMethod] => BCMC
+                    [customerCountry] => BE
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1764
+    [3] => 1801
+    [4] => 99464e6250aa4787198ed994274c2432
+    [5] => 68.43
+)
+
+## 2022-02-21 20:21:21 ##
+----> START registerOrder()
+## 2022-02-21 20:21:21 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-21 20:21:21 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-02-21</date><time>19:21:19 UTC+0000</time><origAmount>68.43</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1764</idForMerchant><emailClient>lameuseromantique@gmail.com</emailClient><idClient>20347719</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>1764</_aKey_cart_id>  <_aKey_customer_id>1801</_aKey_customer_id>  <_aKey_secure_key>99464e6250aa4787198ed994274c2432</_aKey_secure_key>  <_aKey_token>4294a2cbda879d4703c61b33e5b1d093</_aKey_token></merchantDatas><transid>6213E5E1CF924184</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-21 20:21:21 ##
+currency : EUR
+## 2022-02-21 20:21:21 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-21 20:21:21 ##
+callback_salt : 
+## 2022-02-21 20:21:21 ##
+md5 : 77af8de01c89b0a74d23d222d2ea0929 == md5content : 77af8de01c89b0a74d23d222d2ea0929
+## 2022-02-21 20:21:21 ##
+Status = ok
+## 2022-02-21 20:21:21 ##
+$currency = EUR
+## 2022-02-21 20:21:21 ##
+id_order_state = 42
+## 2022-02-21 20:21:21 ##
+----> START placeOrder()
+## 2022-02-21 20:21:21 ##
+Treatment status = 42
+## 2022-02-21 20:21:21 ##
+Validate order
+## 2022-02-21 20:21:21 ##
+Array
+(
+    [0] => 1764
+    [1] => 42
+    [2] => 68.43
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"BCMC","Transaction ID":"6213E5E1CF924184"}
+    [5] => Array
+        (
+            [transaction_id] => 6213E5E1CF924184
+        )
+
+    [6] => 1
+    [7] => 99464e6250aa4787198ed994274c2432
+)
+
+## 2022-02-21 20:21:21 ##
+ID Shop = 1
+## 2022-02-21 20:21:25 ##
+Order created
+## 2022-02-21 20:21:25 ##
+----> END placeOrder()
+## 2022-02-21 20:21:25 ##
+----> END registerOrder()
+## 2022-02-21 20:21:25 ##
+----> Treatment is unlocked for the id_cart = 1764
+## 2022-02-21 20:21:30 ##
+##########################
+## 2022-02-21 20:21:30 ##
+START Validation Callback
+## 2022-02-21 20:21:30 ##
+##########################
+## 2022-02-21 20:21:30 ##
+----> Treatment is locked for the id_cart = 1764
+## 2022-02-21 20:21:30 ##
+data for validation
+## 2022-02-21 20:21:30 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>94d7ade37c1a4e9084e65320593f26df</md5content><result><operation>capture</operation><status>ok</status><date>2022-02-21</date><time>19:21:26 UTC+0000</time><origAmount>68.43</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1764</idForMerchant><emailClient>lameuseromantique@gmail.com</emailClient><idClient>20347719</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>1764</_aKey_cart_id>  <_aKey_customer_id>1801</_aKey_customer_id>  <_aKey_secure_key>99464e6250aa4787198ed994274c2432</_aKey_secure_key>  <_aKey_token>4294a2cbda879d4703c61b33e5b1d093</_aKey_token></merchantDatas><transid>6213E5E1CF924184</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 94d7ade37c1a4e9084e65320593f26df
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-02-21
+                    [time] => 19:21:26 UTC+0000
+                    [origAmount] => 68.43
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1764
+                    [emailClient] => lameuseromantique@gmail.com
+                    [idClient] => 20347719
+                    [cardCountry] => BE
+                    [ipCountry] => BE
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1764
+                            [_aKey_customer_id] => 1801
+                            [_aKey_secure_key] => 99464e6250aa4787198ed994274c2432
+                            [_aKey_token] => 4294a2cbda879d4703c61b33e5b1d093
+                        )
+
+                    [transid] => 6213E5E1CF924184
+                    [is3ds] => Yes
+                    [paymentMethod] => BCMC
+                    [customerCountry] => BE
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1764
+    [3] => 1801
+    [4] => 99464e6250aa4787198ed994274c2432
+    [5] => 68.43
+)
+
+## 2022-02-21 20:21:30 ##
+----> START registerOrder()
+## 2022-02-21 20:21:30 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-21 20:21:30 ##
+<result><operation>capture</operation><status>ok</status><date>2022-02-21</date><time>19:21:26 UTC+0000</time><origAmount>68.43</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1764</idForMerchant><emailClient>lameuseromantique@gmail.com</emailClient><idClient>20347719</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>1764</_aKey_cart_id>  <_aKey_customer_id>1801</_aKey_customer_id>  <_aKey_secure_key>99464e6250aa4787198ed994274c2432</_aKey_secure_key>  <_aKey_token>4294a2cbda879d4703c61b33e5b1d093</_aKey_token></merchantDatas><transid>6213E5E1CF924184</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-21 20:21:30 ##
+currency : EUR
+## 2022-02-21 20:21:30 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-21 20:21:30 ##
+callback_salt : 
+## 2022-02-21 20:21:30 ##
+md5 : 94d7ade37c1a4e9084e65320593f26df == md5content : 94d7ade37c1a4e9084e65320593f26df
+## 2022-02-21 20:21:30 ##
+Status = ok
+## 2022-02-21 20:21:30 ##
+$currency = EUR
+## 2022-02-21 20:21:30 ##
+id_order_state = 2
+## 2022-02-21 20:21:30 ##
+----> START placeOrder()
+## 2022-02-21 20:21:30 ##
+Treatment an existing order
+## 2022-02-21 20:21:30 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-02-21 20:21:30 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-02-21
+    [time] => 19:21:26 UTC+0000
+    [origAmount] => 68.43
+    [origCurrency] => EUR
+    [idForMerchant] => 1764
+    [emailClient] => lameuseromantique@gmail.com
+    [idClient] => 20347719
+    [cardCountry] => BE
+    [ipCountry] => BE
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 1764
+            [_aKey_customer_id] => 1801
+            [_aKey_secure_key] => 99464e6250aa4787198ed994274c2432
+            [_aKey_token] => 4294a2cbda879d4703c61b33e5b1d093
+        )
+
+    [transid] => 6213E5E1CF924184
+    [is3ds] => Yes
+    [paymentMethod] => BCMC
+    [customerCountry] => BE
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-02-21 20:21:30 ##
+----> END placeOrder()
+## 2022-02-21 20:21:30 ##
+----> END registerOrder()
+## 2022-02-21 20:21:30 ##
+----> Treatment is unlocked for the id_cart = 1764

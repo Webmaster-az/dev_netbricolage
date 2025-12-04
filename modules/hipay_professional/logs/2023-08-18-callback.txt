@@ -1,0 +1,259 @@
+## 2023-08-18 22:53:37 ##
+##########################
+## 2023-08-18 22:53:37 ##
+START Validation Callback
+## 2023-08-18 22:53:37 ##
+##########################
+## 2023-08-18 22:53:37 ##
+----> Treatment is locked for the id_cart = 10373
+## 2023-08-18 22:53:37 ##
+data for validation
+## 2023-08-18 22:53:37 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>5b4d4a7dfe6828f651a65fc1aa4f43b5</md5content><result><operation>authorization</operation><status>ok</status><date>2023-08-18</date><time>20:53:35 UTC+0000</time><origAmount>161.76</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10373</idForMerchant><emailClient>luigi.castaldo@sfr.fr</emailClient><idClient>22653198</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10373</_aKey_cart_id>  <_aKey_customer_id>3675</_aKey_customer_id>  <_aKey_secure_key>097caa19289f7a6d3996831c172cf7de</_aKey_secure_key>  <_aKey_token>fe6d218f10ef9c3f7cbc31aaa10d697d</_aKey_token></merchantDatas><transid>64DFDA02BA29F610</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 5b4d4a7dfe6828f651a65fc1aa4f43b5
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-08-18
+                    [time] => 20:53:35 UTC+0000
+                    [origAmount] => 161.76
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10373
+                    [emailClient] => luigi.castaldo@sfr.fr
+                    [idClient] => 22653198
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10373
+                            [_aKey_customer_id] => 3675
+                            [_aKey_secure_key] => 097caa19289f7a6d3996831c172cf7de
+                            [_aKey_token] => fe6d218f10ef9c3f7cbc31aaa10d697d
+                        )
+
+                    [transid] => 64DFDA02BA29F610
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10373
+    [3] => 3675
+    [4] => 097caa19289f7a6d3996831c172cf7de
+    [5] => 161.76
+)
+
+## 2023-08-18 22:53:37 ##
+----> START registerOrder()
+## 2023-08-18 22:53:37 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-18 22:53:37 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-08-18</date><time>20:53:35 UTC+0000</time><origAmount>161.76</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10373</idForMerchant><emailClient>luigi.castaldo@sfr.fr</emailClient><idClient>22653198</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10373</_aKey_cart_id>  <_aKey_customer_id>3675</_aKey_customer_id>  <_aKey_secure_key>097caa19289f7a6d3996831c172cf7de</_aKey_secure_key>  <_aKey_token>fe6d218f10ef9c3f7cbc31aaa10d697d</_aKey_token></merchantDatas><transid>64DFDA02BA29F610</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-18 22:53:37 ##
+currency : EUR
+## 2023-08-18 22:53:37 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-18 22:53:37 ##
+callback_salt : 
+## 2023-08-18 22:53:37 ##
+md5 : 5b4d4a7dfe6828f651a65fc1aa4f43b5 == md5content : 5b4d4a7dfe6828f651a65fc1aa4f43b5
+## 2023-08-18 22:53:37 ##
+Status = ok
+## 2023-08-18 22:53:37 ##
+$currency = EUR
+## 2023-08-18 22:53:37 ##
+id_order_state = 42
+## 2023-08-18 22:53:37 ##
+----> START placeOrder()
+## 2023-08-18 22:53:37 ##
+Treatment status = 42
+## 2023-08-18 22:53:37 ##
+Validate order
+## 2023-08-18 22:53:37 ##
+Array
+(
+    [0] => 10373
+    [1] => 42
+    [2] => 161.76
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"64DFDA02BA29F610"}
+    [5] => Array
+        (
+            [transaction_id] => 64DFDA02BA29F610
+        )
+
+    [6] => 1
+    [7] => 097caa19289f7a6d3996831c172cf7de
+)
+
+## 2023-08-18 22:53:37 ##
+ID Shop = 1
+## 2023-08-18 22:53:45 ##
+Order created
+## 2023-08-18 22:53:45 ##
+----> END placeOrder()
+## 2023-08-18 22:53:45 ##
+----> END registerOrder()
+## 2023-08-18 22:53:45 ##
+----> Treatment is unlocked for the id_cart = 10373
+## 2023-08-18 22:53:45 ##
+##########################
+## 2023-08-18 22:53:45 ##
+START Validation Callback
+## 2023-08-18 22:53:45 ##
+##########################
+## 2023-08-18 22:53:45 ##
+----> Treatment is locked for the id_cart = 10373
+## 2023-08-18 22:53:45 ##
+data for validation
+## 2023-08-18 22:53:45 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>17f52e5f9466fa91d47144815d3975bd</md5content><result><operation>capture</operation><status>ok</status><date>2023-08-18</date><time>20:53:42 UTC+0000</time><origAmount>161.76</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10373</idForMerchant><emailClient>luigi.castaldo@sfr.fr</emailClient><idClient>22653198</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10373</_aKey_cart_id>  <_aKey_customer_id>3675</_aKey_customer_id>  <_aKey_secure_key>097caa19289f7a6d3996831c172cf7de</_aKey_secure_key>  <_aKey_token>fe6d218f10ef9c3f7cbc31aaa10d697d</_aKey_token></merchantDatas><transid>64DFDA02BA29F610</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 17f52e5f9466fa91d47144815d3975bd
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-08-18
+                    [time] => 20:53:42 UTC+0000
+                    [origAmount] => 161.76
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10373
+                    [emailClient] => luigi.castaldo@sfr.fr
+                    [idClient] => 22653198
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10373
+                            [_aKey_customer_id] => 3675
+                            [_aKey_secure_key] => 097caa19289f7a6d3996831c172cf7de
+                            [_aKey_token] => fe6d218f10ef9c3f7cbc31aaa10d697d
+                        )
+
+                    [transid] => 64DFDA02BA29F610
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10373
+    [3] => 3675
+    [4] => 097caa19289f7a6d3996831c172cf7de
+    [5] => 161.76
+)
+
+## 2023-08-18 22:53:45 ##
+----> START registerOrder()
+## 2023-08-18 22:53:45 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-18 22:53:45 ##
+<result><operation>capture</operation><status>ok</status><date>2023-08-18</date><time>20:53:42 UTC+0000</time><origAmount>161.76</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10373</idForMerchant><emailClient>luigi.castaldo@sfr.fr</emailClient><idClient>22653198</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10373</_aKey_cart_id>  <_aKey_customer_id>3675</_aKey_customer_id>  <_aKey_secure_key>097caa19289f7a6d3996831c172cf7de</_aKey_secure_key>  <_aKey_token>fe6d218f10ef9c3f7cbc31aaa10d697d</_aKey_token></merchantDatas><transid>64DFDA02BA29F610</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-18 22:53:45 ##
+currency : EUR
+## 2023-08-18 22:53:45 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-18 22:53:45 ##
+callback_salt : 
+## 2023-08-18 22:53:45 ##
+md5 : 17f52e5f9466fa91d47144815d3975bd == md5content : 17f52e5f9466fa91d47144815d3975bd
+## 2023-08-18 22:53:45 ##
+Status = ok
+## 2023-08-18 22:53:45 ##
+$currency = EUR
+## 2023-08-18 22:53:45 ##
+id_order_state = 2
+## 2023-08-18 22:53:45 ##
+----> START placeOrder()
+## 2023-08-18 22:53:45 ##
+Treatment an existing order
+## 2023-08-18 22:53:45 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-08-18 22:53:45 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-08-18
+    [time] => 20:53:42 UTC+0000
+    [origAmount] => 161.76
+    [origCurrency] => EUR
+    [idForMerchant] => 10373
+    [emailClient] => luigi.castaldo@sfr.fr
+    [idClient] => 22653198
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 10373
+            [_aKey_customer_id] => 3675
+            [_aKey_secure_key] => 097caa19289f7a6d3996831c172cf7de
+            [_aKey_token] => fe6d218f10ef9c3f7cbc31aaa10d697d
+        )
+
+    [transid] => 64DFDA02BA29F610
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-08-18 22:53:46 ##
+----> END placeOrder()
+## 2023-08-18 22:53:46 ##
+----> END registerOrder()
+## 2023-08-18 22:53:46 ##
+----> Treatment is unlocked for the id_cart = 10373

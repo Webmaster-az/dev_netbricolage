@@ -1,0 +1,259 @@
+## 2022-08-26 18:35:31 ##
+##########################
+## 2022-08-26 18:35:31 ##
+START Validation Callback
+## 2022-08-26 18:35:31 ##
+##########################
+## 2022-08-26 18:35:31 ##
+----> Treatment is locked for the id_cart = 4114
+## 2022-08-26 18:35:31 ##
+data for validation
+## 2022-08-26 18:35:31 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>63ef6f7a52fe028fae1d6014b8517319</md5content><result><operation>authorization</operation><status>ok</status><date>2022-08-26</date><time>16:35:26 UTC+0000</time><origAmount>80.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4114</idForMerchant><emailClient>maulaz.raymond@bluewin.ch</emailClient><idClient>21374059</idClient><cardCountry>CH</cardCountry><ipCountry>CH</ipCountry><merchantDatas>  <_aKey_cart_id>4114</_aKey_cart_id>  <_aKey_customer_id>2374</_aKey_customer_id>  <_aKey_secure_key>18e05102a9bdf380b991a4007cf0ce05</_aKey_secure_key>  <_aKey_token>6deb7c2149612532f8189b681d2299f0</_aKey_token></merchantDatas><transid>6308F625E5CA8219</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 63ef6f7a52fe028fae1d6014b8517319
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-08-26
+                    [time] => 16:35:26 UTC+0000
+                    [origAmount] => 80.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 4114
+                    [emailClient] => maulaz.raymond@bluewin.ch
+                    [idClient] => 21374059
+                    [cardCountry] => CH
+                    [ipCountry] => CH
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 4114
+                            [_aKey_customer_id] => 2374
+                            [_aKey_secure_key] => 18e05102a9bdf380b991a4007cf0ce05
+                            [_aKey_token] => 6deb7c2149612532f8189b681d2299f0
+                        )
+
+                    [transid] => 6308F625E5CA8219
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 4114
+    [3] => 2374
+    [4] => 18e05102a9bdf380b991a4007cf0ce05
+    [5] => 80.1
+)
+
+## 2022-08-26 18:35:31 ##
+----> START registerOrder()
+## 2022-08-26 18:35:31 ##
+accountID:13248407 / websiteId:418801
+## 2022-08-26 18:35:31 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-08-26</date><time>16:35:26 UTC+0000</time><origAmount>80.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4114</idForMerchant><emailClient>maulaz.raymond@bluewin.ch</emailClient><idClient>21374059</idClient><cardCountry>CH</cardCountry><ipCountry>CH</ipCountry><merchantDatas>  <_aKey_cart_id>4114</_aKey_cart_id>  <_aKey_customer_id>2374</_aKey_customer_id>  <_aKey_secure_key>18e05102a9bdf380b991a4007cf0ce05</_aKey_secure_key>  <_aKey_token>6deb7c2149612532f8189b681d2299f0</_aKey_token></merchantDatas><transid>6308F625E5CA8219</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-08-26 18:35:31 ##
+currency : EUR
+## 2022-08-26 18:35:31 ##
+accountID:13248407 / websiteId:418801
+## 2022-08-26 18:35:31 ##
+callback_salt : 
+## 2022-08-26 18:35:31 ##
+md5 : 63ef6f7a52fe028fae1d6014b8517319 == md5content : 63ef6f7a52fe028fae1d6014b8517319
+## 2022-08-26 18:35:31 ##
+Status = ok
+## 2022-08-26 18:35:31 ##
+$currency = EUR
+## 2022-08-26 18:35:31 ##
+id_order_state = 42
+## 2022-08-26 18:35:31 ##
+----> START placeOrder()
+## 2022-08-26 18:35:31 ##
+Treatment status = 42
+## 2022-08-26 18:35:31 ##
+Validate order
+## 2022-08-26 18:35:31 ##
+Array
+(
+    [0] => 4114
+    [1] => 42
+    [2] => 80.1
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"MASTERCARD","Transaction ID":"6308F625E5CA8219"}
+    [5] => Array
+        (
+            [transaction_id] => 6308F625E5CA8219
+        )
+
+    [6] => 1
+    [7] => 18e05102a9bdf380b991a4007cf0ce05
+)
+
+## 2022-08-26 18:35:31 ##
+ID Shop = 1
+## 2022-08-26 18:35:34 ##
+Order created
+## 2022-08-26 18:35:34 ##
+----> END placeOrder()
+## 2022-08-26 18:35:34 ##
+----> END registerOrder()
+## 2022-08-26 18:35:34 ##
+----> Treatment is unlocked for the id_cart = 4114
+## 2022-08-26 18:35:36 ##
+##########################
+## 2022-08-26 18:35:36 ##
+START Validation Callback
+## 2022-08-26 18:35:36 ##
+##########################
+## 2022-08-26 18:35:36 ##
+----> Treatment is locked for the id_cart = 4114
+## 2022-08-26 18:35:36 ##
+data for validation
+## 2022-08-26 18:35:36 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>db56545dce59b42249593acba9ffa0fc</md5content><result><operation>capture</operation><status>ok</status><date>2022-08-26</date><time>16:35:34 UTC+0000</time><origAmount>80.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4114</idForMerchant><emailClient>maulaz.raymond@bluewin.ch</emailClient><idClient>21374059</idClient><cardCountry>CH</cardCountry><ipCountry>CH</ipCountry><merchantDatas>  <_aKey_cart_id>4114</_aKey_cart_id>  <_aKey_customer_id>2374</_aKey_customer_id>  <_aKey_secure_key>18e05102a9bdf380b991a4007cf0ce05</_aKey_secure_key>  <_aKey_token>6deb7c2149612532f8189b681d2299f0</_aKey_token></merchantDatas><transid>6308F625E5CA8219</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => db56545dce59b42249593acba9ffa0fc
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-08-26
+                    [time] => 16:35:34 UTC+0000
+                    [origAmount] => 80.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 4114
+                    [emailClient] => maulaz.raymond@bluewin.ch
+                    [idClient] => 21374059
+                    [cardCountry] => CH
+                    [ipCountry] => CH
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 4114
+                            [_aKey_customer_id] => 2374
+                            [_aKey_secure_key] => 18e05102a9bdf380b991a4007cf0ce05
+                            [_aKey_token] => 6deb7c2149612532f8189b681d2299f0
+                        )
+
+                    [transid] => 6308F625E5CA8219
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 4114
+    [3] => 2374
+    [4] => 18e05102a9bdf380b991a4007cf0ce05
+    [5] => 80.1
+)
+
+## 2022-08-26 18:35:36 ##
+----> START registerOrder()
+## 2022-08-26 18:35:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-08-26 18:35:36 ##
+<result><operation>capture</operation><status>ok</status><date>2022-08-26</date><time>16:35:34 UTC+0000</time><origAmount>80.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4114</idForMerchant><emailClient>maulaz.raymond@bluewin.ch</emailClient><idClient>21374059</idClient><cardCountry>CH</cardCountry><ipCountry>CH</ipCountry><merchantDatas>  <_aKey_cart_id>4114</_aKey_cart_id>  <_aKey_customer_id>2374</_aKey_customer_id>  <_aKey_secure_key>18e05102a9bdf380b991a4007cf0ce05</_aKey_secure_key>  <_aKey_token>6deb7c2149612532f8189b681d2299f0</_aKey_token></merchantDatas><transid>6308F625E5CA8219</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-08-26 18:35:36 ##
+currency : EUR
+## 2022-08-26 18:35:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-08-26 18:35:36 ##
+callback_salt : 
+## 2022-08-26 18:35:36 ##
+md5 : db56545dce59b42249593acba9ffa0fc == md5content : db56545dce59b42249593acba9ffa0fc
+## 2022-08-26 18:35:36 ##
+Status = ok
+## 2022-08-26 18:35:36 ##
+$currency = EUR
+## 2022-08-26 18:35:36 ##
+id_order_state = 2
+## 2022-08-26 18:35:36 ##
+----> START placeOrder()
+## 2022-08-26 18:35:36 ##
+Treatment an existing order
+## 2022-08-26 18:35:36 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-08-26 18:35:36 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-08-26
+    [time] => 16:35:34 UTC+0000
+    [origAmount] => 80.10
+    [origCurrency] => EUR
+    [idForMerchant] => 4114
+    [emailClient] => maulaz.raymond@bluewin.ch
+    [idClient] => 21374059
+    [cardCountry] => CH
+    [ipCountry] => CH
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 4114
+            [_aKey_customer_id] => 2374
+            [_aKey_secure_key] => 18e05102a9bdf380b991a4007cf0ce05
+            [_aKey_token] => 6deb7c2149612532f8189b681d2299f0
+        )
+
+    [transid] => 6308F625E5CA8219
+    [is3ds] => Yes
+    [paymentMethod] => MASTERCARD
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-08-26 18:35:37 ##
+----> END placeOrder()
+## 2022-08-26 18:35:37 ##
+----> END registerOrder()
+## 2022-08-26 18:35:37 ##
+----> Treatment is unlocked for the id_cart = 4114

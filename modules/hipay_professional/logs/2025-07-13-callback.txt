@@ -1,0 +1,518 @@
+## 2025-07-13 13:11:01 ##
+##########################
+## 2025-07-13 13:11:01 ##
+START Validation Callback
+## 2025-07-13 13:11:01 ##
+##########################
+## 2025-07-13 13:11:01 ##
+----> Treatment is locked for the id_cart = 18738
+## 2025-07-13 13:11:01 ##
+data for validation
+## 2025-07-13 13:11:01 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>38b257972c27161b4015b89e41f9f662</md5content><result><operation>authorization</operation><status>ok</status><date>2025-07-13</date><time>11:11:00 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18738</idForMerchant><emailClient>idahod23@aol.com</emailClient><idClient>24778984</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18738</_aKey_cart_id>  <_aKey_customer_id>4997</_aKey_customer_id>  <_aKey_secure_key>010c709bfbc8986ebd19e7dc691d35d4</_aKey_secure_key>  <_aKey_token>ccc40daa3dd79396eff1832fc1c182a9</_aKey_token></merchantDatas><transid>687393FAAF8C0761</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 38b257972c27161b4015b89e41f9f662
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-07-13
+                    [time] => 11:11:00 UTC+0000
+                    [origAmount] => 51.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18738
+                    [emailClient] => idahod23@aol.com
+                    [idClient] => 24778984
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18738
+                            [_aKey_customer_id] => 4997
+                            [_aKey_secure_key] => 010c709bfbc8986ebd19e7dc691d35d4
+                            [_aKey_token] => ccc40daa3dd79396eff1832fc1c182a9
+                        )
+
+                    [transid] => 687393FAAF8C0761
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18738
+    [3] => 4997
+    [4] => 010c709bfbc8986ebd19e7dc691d35d4
+    [5] => 51.6
+)
+
+## 2025-07-13 13:11:01 ##
+----> START registerOrder()
+## 2025-07-13 13:11:01 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-13 13:11:01 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-07-13</date><time>11:11:00 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18738</idForMerchant><emailClient>idahod23@aol.com</emailClient><idClient>24778984</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18738</_aKey_cart_id>  <_aKey_customer_id>4997</_aKey_customer_id>  <_aKey_secure_key>010c709bfbc8986ebd19e7dc691d35d4</_aKey_secure_key>  <_aKey_token>ccc40daa3dd79396eff1832fc1c182a9</_aKey_token></merchantDatas><transid>687393FAAF8C0761</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-13 13:11:01 ##
+currency : EUR
+## 2025-07-13 13:11:01 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-13 13:11:01 ##
+callback_salt : 
+## 2025-07-13 13:11:01 ##
+md5 : 38b257972c27161b4015b89e41f9f662 == md5content : 38b257972c27161b4015b89e41f9f662
+## 2025-07-13 13:11:01 ##
+Status = ok
+## 2025-07-13 13:11:01 ##
+$currency = EUR
+## 2025-07-13 13:11:01 ##
+id_order_state = 42
+## 2025-07-13 13:11:01 ##
+----> START placeOrder()
+## 2025-07-13 13:11:01 ##
+Treatment status = 42
+## 2025-07-13 13:11:01 ##
+Validate order
+## 2025-07-13 13:11:01 ##
+Array
+(
+    [0] => 18738
+    [1] => 42
+    [2] => 51.6
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"687393FAAF8C0761"}
+    [5] => Array
+        (
+            [transaction_id] => 687393FAAF8C0761
+        )
+
+    [6] => 1
+    [7] => 010c709bfbc8986ebd19e7dc691d35d4
+)
+
+## 2025-07-13 13:11:01 ##
+ID Shop = 1
+## 2025-07-13 13:11:03 ##
+Order created
+## 2025-07-13 13:11:03 ##
+----> END placeOrder()
+## 2025-07-13 13:11:03 ##
+----> END registerOrder()
+## 2025-07-13 13:11:03 ##
+----> Treatment is unlocked for the id_cart = 18738
+## 2025-07-13 13:11:06 ##
+##########################
+## 2025-07-13 13:11:06 ##
+START Validation Callback
+## 2025-07-13 13:11:06 ##
+##########################
+## 2025-07-13 13:11:06 ##
+----> Treatment is locked for the id_cart = 18738
+## 2025-07-13 13:11:06 ##
+data for validation
+## 2025-07-13 13:11:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>f496ca66e08f15759011558803bfb2b1</md5content><result><operation>capture</operation><status>ok</status><date>2025-07-13</date><time>11:11:07 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18738</idForMerchant><emailClient>idahod23@aol.com</emailClient><idClient>24778984</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18738</_aKey_cart_id>  <_aKey_customer_id>4997</_aKey_customer_id>  <_aKey_secure_key>010c709bfbc8986ebd19e7dc691d35d4</_aKey_secure_key>  <_aKey_token>ccc40daa3dd79396eff1832fc1c182a9</_aKey_token></merchantDatas><transid>687393FAAF8C0761</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => f496ca66e08f15759011558803bfb2b1
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-07-13
+                    [time] => 11:11:07 UTC+0000
+                    [origAmount] => 51.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18738
+                    [emailClient] => idahod23@aol.com
+                    [idClient] => 24778984
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18738
+                            [_aKey_customer_id] => 4997
+                            [_aKey_secure_key] => 010c709bfbc8986ebd19e7dc691d35d4
+                            [_aKey_token] => ccc40daa3dd79396eff1832fc1c182a9
+                        )
+
+                    [transid] => 687393FAAF8C0761
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18738
+    [3] => 4997
+    [4] => 010c709bfbc8986ebd19e7dc691d35d4
+    [5] => 51.6
+)
+
+## 2025-07-13 13:11:06 ##
+----> START registerOrder()
+## 2025-07-13 13:11:06 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-13 13:11:06 ##
+<result><operation>capture</operation><status>ok</status><date>2025-07-13</date><time>11:11:07 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18738</idForMerchant><emailClient>idahod23@aol.com</emailClient><idClient>24778984</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18738</_aKey_cart_id>  <_aKey_customer_id>4997</_aKey_customer_id>  <_aKey_secure_key>010c709bfbc8986ebd19e7dc691d35d4</_aKey_secure_key>  <_aKey_token>ccc40daa3dd79396eff1832fc1c182a9</_aKey_token></merchantDatas><transid>687393FAAF8C0761</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-13 13:11:06 ##
+currency : EUR
+## 2025-07-13 13:11:06 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-13 13:11:06 ##
+callback_salt : 
+## 2025-07-13 13:11:06 ##
+md5 : f496ca66e08f15759011558803bfb2b1 == md5content : f496ca66e08f15759011558803bfb2b1
+## 2025-07-13 13:11:06 ##
+Status = ok
+## 2025-07-13 13:11:06 ##
+$currency = EUR
+## 2025-07-13 13:11:06 ##
+id_order_state = 2
+## 2025-07-13 13:11:06 ##
+----> START placeOrder()
+## 2025-07-13 13:11:06 ##
+Treatment an existing order
+## 2025-07-13 13:11:06 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-07-13 13:11:06 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-07-13
+    [time] => 11:11:07 UTC+0000
+    [origAmount] => 51.60
+    [origCurrency] => EUR
+    [idForMerchant] => 18738
+    [emailClient] => idahod23@aol.com
+    [idClient] => 24778984
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 18738
+            [_aKey_customer_id] => 4997
+            [_aKey_secure_key] => 010c709bfbc8986ebd19e7dc691d35d4
+            [_aKey_token] => ccc40daa3dd79396eff1832fc1c182a9
+        )
+
+    [transid] => 687393FAAF8C0761
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-07-13 13:11:08 ##
+----> END placeOrder()
+## 2025-07-13 13:11:08 ##
+----> END registerOrder()
+## 2025-07-13 13:11:08 ##
+----> Treatment is unlocked for the id_cart = 18738
+## 2025-07-13 20:56:12 ##
+##########################
+## 2025-07-13 20:56:12 ##
+START Validation Callback
+## 2025-07-13 20:56:12 ##
+##########################
+## 2025-07-13 20:56:12 ##
+----> Treatment is locked for the id_cart = 18741
+## 2025-07-13 20:56:12 ##
+data for validation
+## 2025-07-13 20:56:12 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>36e69407782dd90e5d6707b4974feffa</md5content><result><operation>authorization</operation><status>ok</status><date>2025-07-13</date><time>18:56:13 UTC+0000</time><origAmount>356.40</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18741</idForMerchant><emailClient>julien@ajsolar.fr</emailClient><idClient>24779683</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18741</_aKey_cart_id>  <_aKey_customer_id>4999</_aKey_customer_id>  <_aKey_secure_key>e64aa2c7faff0636b2109808be794700</_aKey_secure_key>  <_aKey_token>d031a0595e0d08b9560bbf2842c42360</_aKey_token></merchantDatas><transid>68740123B2EE7414</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 36e69407782dd90e5d6707b4974feffa
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-07-13
+                    [time] => 18:56:13 UTC+0000
+                    [origAmount] => 356.40
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18741
+                    [emailClient] => julien@ajsolar.fr
+                    [idClient] => 24779683
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18741
+                            [_aKey_customer_id] => 4999
+                            [_aKey_secure_key] => e64aa2c7faff0636b2109808be794700
+                            [_aKey_token] => d031a0595e0d08b9560bbf2842c42360
+                        )
+
+                    [transid] => 68740123B2EE7414
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18741
+    [3] => 4999
+    [4] => e64aa2c7faff0636b2109808be794700
+    [5] => 356.4
+)
+
+## 2025-07-13 20:56:12 ##
+----> START registerOrder()
+## 2025-07-13 20:56:12 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-13 20:56:12 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-07-13</date><time>18:56:13 UTC+0000</time><origAmount>356.40</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18741</idForMerchant><emailClient>julien@ajsolar.fr</emailClient><idClient>24779683</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18741</_aKey_cart_id>  <_aKey_customer_id>4999</_aKey_customer_id>  <_aKey_secure_key>e64aa2c7faff0636b2109808be794700</_aKey_secure_key>  <_aKey_token>d031a0595e0d08b9560bbf2842c42360</_aKey_token></merchantDatas><transid>68740123B2EE7414</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-13 20:56:12 ##
+currency : EUR
+## 2025-07-13 20:56:12 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-13 20:56:12 ##
+callback_salt : 
+## 2025-07-13 20:56:12 ##
+md5 : 36e69407782dd90e5d6707b4974feffa == md5content : 36e69407782dd90e5d6707b4974feffa
+## 2025-07-13 20:56:12 ##
+Status = ok
+## 2025-07-13 20:56:12 ##
+$currency = EUR
+## 2025-07-13 20:56:12 ##
+id_order_state = 42
+## 2025-07-13 20:56:12 ##
+----> START placeOrder()
+## 2025-07-13 20:56:12 ##
+Treatment status = 42
+## 2025-07-13 20:56:12 ##
+Validate order
+## 2025-07-13 20:56:12 ##
+Array
+(
+    [0] => 18741
+    [1] => 42
+    [2] => 356.4
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"MASTERCARD","Transaction ID":"68740123B2EE7414"}
+    [5] => Array
+        (
+            [transaction_id] => 68740123B2EE7414
+        )
+
+    [6] => 1
+    [7] => e64aa2c7faff0636b2109808be794700
+)
+
+## 2025-07-13 20:56:12 ##
+ID Shop = 1
+## 2025-07-13 20:56:14 ##
+Order created
+## 2025-07-13 20:56:14 ##
+----> END placeOrder()
+## 2025-07-13 20:56:14 ##
+----> END registerOrder()
+## 2025-07-13 20:56:14 ##
+----> Treatment is unlocked for the id_cart = 18741
+## 2025-07-13 20:56:18 ##
+##########################
+## 2025-07-13 20:56:18 ##
+START Validation Callback
+## 2025-07-13 20:56:18 ##
+##########################
+## 2025-07-13 20:56:18 ##
+----> Treatment is locked for the id_cart = 18741
+## 2025-07-13 20:56:18 ##
+data for validation
+## 2025-07-13 20:56:18 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>126523a2ccbe40f997594eb9fc21a96d</md5content><result><operation>capture</operation><status>ok</status><date>2025-07-13</date><time>18:56:20 UTC+0000</time><origAmount>356.40</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18741</idForMerchant><emailClient>julien@ajsolar.fr</emailClient><idClient>24779683</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18741</_aKey_cart_id>  <_aKey_customer_id>4999</_aKey_customer_id>  <_aKey_secure_key>e64aa2c7faff0636b2109808be794700</_aKey_secure_key>  <_aKey_token>d031a0595e0d08b9560bbf2842c42360</_aKey_token></merchantDatas><transid>68740123B2EE7414</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 126523a2ccbe40f997594eb9fc21a96d
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-07-13
+                    [time] => 18:56:20 UTC+0000
+                    [origAmount] => 356.40
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18741
+                    [emailClient] => julien@ajsolar.fr
+                    [idClient] => 24779683
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18741
+                            [_aKey_customer_id] => 4999
+                            [_aKey_secure_key] => e64aa2c7faff0636b2109808be794700
+                            [_aKey_token] => d031a0595e0d08b9560bbf2842c42360
+                        )
+
+                    [transid] => 68740123B2EE7414
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18741
+    [3] => 4999
+    [4] => e64aa2c7faff0636b2109808be794700
+    [5] => 356.4
+)
+
+## 2025-07-13 20:56:18 ##
+----> START registerOrder()
+## 2025-07-13 20:56:18 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-13 20:56:18 ##
+<result><operation>capture</operation><status>ok</status><date>2025-07-13</date><time>18:56:20 UTC+0000</time><origAmount>356.40</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18741</idForMerchant><emailClient>julien@ajsolar.fr</emailClient><idClient>24779683</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18741</_aKey_cart_id>  <_aKey_customer_id>4999</_aKey_customer_id>  <_aKey_secure_key>e64aa2c7faff0636b2109808be794700</_aKey_secure_key>  <_aKey_token>d031a0595e0d08b9560bbf2842c42360</_aKey_token></merchantDatas><transid>68740123B2EE7414</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-13 20:56:18 ##
+currency : EUR
+## 2025-07-13 20:56:18 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-13 20:56:18 ##
+callback_salt : 
+## 2025-07-13 20:56:18 ##
+md5 : 126523a2ccbe40f997594eb9fc21a96d == md5content : 126523a2ccbe40f997594eb9fc21a96d
+## 2025-07-13 20:56:18 ##
+Status = ok
+## 2025-07-13 20:56:18 ##
+$currency = EUR
+## 2025-07-13 20:56:18 ##
+id_order_state = 2
+## 2025-07-13 20:56:18 ##
+----> START placeOrder()
+## 2025-07-13 20:56:18 ##
+Treatment an existing order
+## 2025-07-13 20:56:18 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-07-13 20:56:18 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-07-13
+    [time] => 18:56:20 UTC+0000
+    [origAmount] => 356.40
+    [origCurrency] => EUR
+    [idForMerchant] => 18741
+    [emailClient] => julien@ajsolar.fr
+    [idClient] => 24779683
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 18741
+            [_aKey_customer_id] => 4999
+            [_aKey_secure_key] => e64aa2c7faff0636b2109808be794700
+            [_aKey_token] => d031a0595e0d08b9560bbf2842c42360
+        )
+
+    [transid] => 68740123B2EE7414
+    [is3ds] => Yes
+    [paymentMethod] => MASTERCARD
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-07-13 20:56:19 ##
+----> END placeOrder()
+## 2025-07-13 20:56:19 ##
+----> END registerOrder()
+## 2025-07-13 20:56:19 ##
+----> Treatment is unlocked for the id_cart = 18741

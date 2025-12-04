@@ -1,0 +1,259 @@
+## 2025-12-02 12:24:24 ##
+##########################
+## 2025-12-02 12:24:24 ##
+START Validation Callback
+## 2025-12-02 12:24:24 ##
+##########################
+## 2025-12-02 12:24:24 ##
+----> Treatment is locked for the id_cart = 20222
+## 2025-12-02 12:24:24 ##
+data for validation
+## 2025-12-02 12:24:24 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>db6b6b566333d28cab068a1112416c5d</md5content><result><operation>authorization</operation><status>ok</status><date>2025-12-02</date><time>11:24:22 UTC+0000</time><origAmount>390.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>20222</idForMerchant><emailClient>contact@landart-menuiserie.com</emailClient><idClient>25077296</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>20222</_aKey_cart_id>  <_aKey_customer_id>5287</_aKey_customer_id>  <_aKey_secure_key>65b043539ffd5344e64fbfc956c49330</_aKey_secure_key>  <_aKey_token>020ef4a3542a9dd3af900060fff03557</_aKey_token></merchantDatas><transid>692ECC3AB676E409</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => db6b6b566333d28cab068a1112416c5d
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-12-02
+                    [time] => 11:24:22 UTC+0000
+                    [origAmount] => 390.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 20222
+                    [emailClient] => contact@landart-menuiserie.com
+                    [idClient] => 25077296
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 20222
+                            [_aKey_customer_id] => 5287
+                            [_aKey_secure_key] => 65b043539ffd5344e64fbfc956c49330
+                            [_aKey_token] => 020ef4a3542a9dd3af900060fff03557
+                        )
+
+                    [transid] => 692ECC3AB676E409
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 20222
+    [3] => 5287
+    [4] => 65b043539ffd5344e64fbfc956c49330
+    [5] => 390
+)
+
+## 2025-12-02 12:24:24 ##
+----> START registerOrder()
+## 2025-12-02 12:24:24 ##
+accountID:13248407 / websiteId:417972
+## 2025-12-02 12:24:24 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-12-02</date><time>11:24:22 UTC+0000</time><origAmount>390.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>20222</idForMerchant><emailClient>contact@landart-menuiserie.com</emailClient><idClient>25077296</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>20222</_aKey_cart_id>  <_aKey_customer_id>5287</_aKey_customer_id>  <_aKey_secure_key>65b043539ffd5344e64fbfc956c49330</_aKey_secure_key>  <_aKey_token>020ef4a3542a9dd3af900060fff03557</_aKey_token></merchantDatas><transid>692ECC3AB676E409</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-12-02 12:24:24 ##
+currency : EUR
+## 2025-12-02 12:24:24 ##
+accountID:13248407 / websiteId:417972
+## 2025-12-02 12:24:24 ##
+callback_salt : 
+## 2025-12-02 12:24:24 ##
+md5 : db6b6b566333d28cab068a1112416c5d == md5content : db6b6b566333d28cab068a1112416c5d
+## 2025-12-02 12:24:24 ##
+Status = ok
+## 2025-12-02 12:24:24 ##
+$currency = EUR
+## 2025-12-02 12:24:24 ##
+id_order_state = 42
+## 2025-12-02 12:24:24 ##
+----> START placeOrder()
+## 2025-12-02 12:24:24 ##
+Treatment status = 42
+## 2025-12-02 12:24:24 ##
+Validate order
+## 2025-12-02 12:24:24 ##
+Array
+(
+    [0] => 20222
+    [1] => 42
+    [2] => 390
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"692ECC3AB676E409"}
+    [5] => Array
+        (
+            [transaction_id] => 692ECC3AB676E409
+        )
+
+    [6] => 1
+    [7] => 65b043539ffd5344e64fbfc956c49330
+)
+
+## 2025-12-02 12:24:24 ##
+ID Shop = 1
+## 2025-12-02 12:24:27 ##
+Order created
+## 2025-12-02 12:24:27 ##
+----> END placeOrder()
+## 2025-12-02 12:24:27 ##
+----> END registerOrder()
+## 2025-12-02 12:24:27 ##
+----> Treatment is unlocked for the id_cart = 20222
+## 2025-12-02 12:24:30 ##
+##########################
+## 2025-12-02 12:24:30 ##
+START Validation Callback
+## 2025-12-02 12:24:30 ##
+##########################
+## 2025-12-02 12:24:30 ##
+----> Treatment is locked for the id_cart = 20222
+## 2025-12-02 12:24:30 ##
+data for validation
+## 2025-12-02 12:24:30 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>5cb56a2399e197a860177127d51c54a2</md5content><result><operation>capture</operation><status>ok</status><date>2025-12-02</date><time>11:24:29 UTC+0000</time><origAmount>390.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>20222</idForMerchant><emailClient>contact@landart-menuiserie.com</emailClient><idClient>25077296</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>20222</_aKey_cart_id>  <_aKey_customer_id>5287</_aKey_customer_id>  <_aKey_secure_key>65b043539ffd5344e64fbfc956c49330</_aKey_secure_key>  <_aKey_token>020ef4a3542a9dd3af900060fff03557</_aKey_token></merchantDatas><transid>692ECC3AB676E409</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 5cb56a2399e197a860177127d51c54a2
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-12-02
+                    [time] => 11:24:29 UTC+0000
+                    [origAmount] => 390.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 20222
+                    [emailClient] => contact@landart-menuiserie.com
+                    [idClient] => 25077296
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 20222
+                            [_aKey_customer_id] => 5287
+                            [_aKey_secure_key] => 65b043539ffd5344e64fbfc956c49330
+                            [_aKey_token] => 020ef4a3542a9dd3af900060fff03557
+                        )
+
+                    [transid] => 692ECC3AB676E409
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 20222
+    [3] => 5287
+    [4] => 65b043539ffd5344e64fbfc956c49330
+    [5] => 390
+)
+
+## 2025-12-02 12:24:30 ##
+----> START registerOrder()
+## 2025-12-02 12:24:30 ##
+accountID:13248407 / websiteId:417972
+## 2025-12-02 12:24:30 ##
+<result><operation>capture</operation><status>ok</status><date>2025-12-02</date><time>11:24:29 UTC+0000</time><origAmount>390.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>20222</idForMerchant><emailClient>contact@landart-menuiserie.com</emailClient><idClient>25077296</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>20222</_aKey_cart_id>  <_aKey_customer_id>5287</_aKey_customer_id>  <_aKey_secure_key>65b043539ffd5344e64fbfc956c49330</_aKey_secure_key>  <_aKey_token>020ef4a3542a9dd3af900060fff03557</_aKey_token></merchantDatas><transid>692ECC3AB676E409</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-12-02 12:24:30 ##
+currency : EUR
+## 2025-12-02 12:24:30 ##
+accountID:13248407 / websiteId:417972
+## 2025-12-02 12:24:30 ##
+callback_salt : 
+## 2025-12-02 12:24:30 ##
+md5 : 5cb56a2399e197a860177127d51c54a2 == md5content : 5cb56a2399e197a860177127d51c54a2
+## 2025-12-02 12:24:30 ##
+Status = ok
+## 2025-12-02 12:24:30 ##
+$currency = EUR
+## 2025-12-02 12:24:30 ##
+id_order_state = 2
+## 2025-12-02 12:24:30 ##
+----> START placeOrder()
+## 2025-12-02 12:24:30 ##
+Treatment an existing order
+## 2025-12-02 12:24:30 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-12-02 12:24:30 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-12-02
+    [time] => 11:24:29 UTC+0000
+    [origAmount] => 390.00
+    [origCurrency] => EUR
+    [idForMerchant] => 20222
+    [emailClient] => contact@landart-menuiserie.com
+    [idClient] => 25077296
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 20222
+            [_aKey_customer_id] => 5287
+            [_aKey_secure_key] => 65b043539ffd5344e64fbfc956c49330
+            [_aKey_token] => 020ef4a3542a9dd3af900060fff03557
+        )
+
+    [transid] => 692ECC3AB676E409
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-12-02 12:24:32 ##
+----> END placeOrder()
+## 2025-12-02 12:24:32 ##
+----> END registerOrder()
+## 2025-12-02 12:24:32 ##
+----> Treatment is unlocked for the id_cart = 20222

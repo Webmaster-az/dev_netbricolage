@@ -1,0 +1,259 @@
+## 2023-03-21 20:05:36 ##
+##########################
+## 2023-03-21 20:05:36 ##
+START Validation Callback
+## 2023-03-21 20:05:36 ##
+##########################
+## 2023-03-21 20:05:36 ##
+----> Treatment is locked for the id_cart = 7932
+## 2023-03-21 20:05:36 ##
+data for validation
+## 2023-03-21 20:05:36 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>46244536fc92e0da71459c685ad87218</md5content><result><operation>authorization</operation><status>ok</status><date>2023-03-21</date><time>19:05:34 UTC+0000</time><origAmount>455.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7932</idForMerchant><emailClient>contact@michel-peter.com</emailClient><idClient>22155105</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7932</_aKey_cart_id>  <_aKey_customer_id>3246</_aKey_customer_id>  <_aKey_secure_key>661fdab46ee697ce9e028960d4ae5299</_aKey_secure_key>  <_aKey_token>4d31c05c452d384e072e3bd5997c0b8d</_aKey_token></merchantDatas><transid>6419FF8BA7565911</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 46244536fc92e0da71459c685ad87218
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-03-21
+                    [time] => 19:05:34 UTC+0000
+                    [origAmount] => 455.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7932
+                    [emailClient] => contact@michel-peter.com
+                    [idClient] => 22155105
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7932
+                            [_aKey_customer_id] => 3246
+                            [_aKey_secure_key] => 661fdab46ee697ce9e028960d4ae5299
+                            [_aKey_token] => 4d31c05c452d384e072e3bd5997c0b8d
+                        )
+
+                    [transid] => 6419FF8BA7565911
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7932
+    [3] => 3246
+    [4] => 661fdab46ee697ce9e028960d4ae5299
+    [5] => 455
+)
+
+## 2023-03-21 20:05:36 ##
+----> START registerOrder()
+## 2023-03-21 20:05:36 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-21 20:05:36 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-03-21</date><time>19:05:34 UTC+0000</time><origAmount>455.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7932</idForMerchant><emailClient>contact@michel-peter.com</emailClient><idClient>22155105</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7932</_aKey_cart_id>  <_aKey_customer_id>3246</_aKey_customer_id>  <_aKey_secure_key>661fdab46ee697ce9e028960d4ae5299</_aKey_secure_key>  <_aKey_token>4d31c05c452d384e072e3bd5997c0b8d</_aKey_token></merchantDatas><transid>6419FF8BA7565911</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-21 20:05:36 ##
+currency : EUR
+## 2023-03-21 20:05:36 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-21 20:05:36 ##
+callback_salt : 
+## 2023-03-21 20:05:36 ##
+md5 : 46244536fc92e0da71459c685ad87218 == md5content : 46244536fc92e0da71459c685ad87218
+## 2023-03-21 20:05:36 ##
+Status = ok
+## 2023-03-21 20:05:36 ##
+$currency = EUR
+## 2023-03-21 20:05:36 ##
+id_order_state = 42
+## 2023-03-21 20:05:36 ##
+----> START placeOrder()
+## 2023-03-21 20:05:36 ##
+Treatment status = 42
+## 2023-03-21 20:05:36 ##
+Validate order
+## 2023-03-21 20:05:36 ##
+Array
+(
+    [0] => 7932
+    [1] => 42
+    [2] => 455
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6419FF8BA7565911"}
+    [5] => Array
+        (
+            [transaction_id] => 6419FF8BA7565911
+        )
+
+    [6] => 1
+    [7] => 661fdab46ee697ce9e028960d4ae5299
+)
+
+## 2023-03-21 20:05:36 ##
+ID Shop = 1
+## 2023-03-21 20:05:38 ##
+Order created
+## 2023-03-21 20:05:38 ##
+----> END placeOrder()
+## 2023-03-21 20:05:38 ##
+----> END registerOrder()
+## 2023-03-21 20:05:38 ##
+----> Treatment is unlocked for the id_cart = 7932
+## 2023-03-21 20:05:44 ##
+##########################
+## 2023-03-21 20:05:44 ##
+START Validation Callback
+## 2023-03-21 20:05:44 ##
+##########################
+## 2023-03-21 20:05:44 ##
+----> Treatment is locked for the id_cart = 7932
+## 2023-03-21 20:05:44 ##
+data for validation
+## 2023-03-21 20:05:44 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>06cda4d9c2283ef0f3411690086a27fb</md5content><result><operation>capture</operation><status>ok</status><date>2023-03-21</date><time>19:05:41 UTC+0000</time><origAmount>455.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7932</idForMerchant><emailClient>contact@michel-peter.com</emailClient><idClient>22155105</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7932</_aKey_cart_id>  <_aKey_customer_id>3246</_aKey_customer_id>  <_aKey_secure_key>661fdab46ee697ce9e028960d4ae5299</_aKey_secure_key>  <_aKey_token>4d31c05c452d384e072e3bd5997c0b8d</_aKey_token></merchantDatas><transid>6419FF8BA7565911</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 06cda4d9c2283ef0f3411690086a27fb
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-03-21
+                    [time] => 19:05:41 UTC+0000
+                    [origAmount] => 455.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7932
+                    [emailClient] => contact@michel-peter.com
+                    [idClient] => 22155105
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7932
+                            [_aKey_customer_id] => 3246
+                            [_aKey_secure_key] => 661fdab46ee697ce9e028960d4ae5299
+                            [_aKey_token] => 4d31c05c452d384e072e3bd5997c0b8d
+                        )
+
+                    [transid] => 6419FF8BA7565911
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7932
+    [3] => 3246
+    [4] => 661fdab46ee697ce9e028960d4ae5299
+    [5] => 455
+)
+
+## 2023-03-21 20:05:44 ##
+----> START registerOrder()
+## 2023-03-21 20:05:44 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-21 20:05:44 ##
+<result><operation>capture</operation><status>ok</status><date>2023-03-21</date><time>19:05:41 UTC+0000</time><origAmount>455.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7932</idForMerchant><emailClient>contact@michel-peter.com</emailClient><idClient>22155105</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7932</_aKey_cart_id>  <_aKey_customer_id>3246</_aKey_customer_id>  <_aKey_secure_key>661fdab46ee697ce9e028960d4ae5299</_aKey_secure_key>  <_aKey_token>4d31c05c452d384e072e3bd5997c0b8d</_aKey_token></merchantDatas><transid>6419FF8BA7565911</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-21 20:05:44 ##
+currency : EUR
+## 2023-03-21 20:05:44 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-21 20:05:44 ##
+callback_salt : 
+## 2023-03-21 20:05:44 ##
+md5 : 06cda4d9c2283ef0f3411690086a27fb == md5content : 06cda4d9c2283ef0f3411690086a27fb
+## 2023-03-21 20:05:44 ##
+Status = ok
+## 2023-03-21 20:05:44 ##
+$currency = EUR
+## 2023-03-21 20:05:44 ##
+id_order_state = 2
+## 2023-03-21 20:05:44 ##
+----> START placeOrder()
+## 2023-03-21 20:05:45 ##
+Treatment an existing order
+## 2023-03-21 20:05:45 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-03-21 20:05:45 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-03-21
+    [time] => 19:05:41 UTC+0000
+    [origAmount] => 455.00
+    [origCurrency] => EUR
+    [idForMerchant] => 7932
+    [emailClient] => contact@michel-peter.com
+    [idClient] => 22155105
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 7932
+            [_aKey_customer_id] => 3246
+            [_aKey_secure_key] => 661fdab46ee697ce9e028960d4ae5299
+            [_aKey_token] => 4d31c05c452d384e072e3bd5997c0b8d
+        )
+
+    [transid] => 6419FF8BA7565911
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-03-21 20:05:45 ##
+----> END placeOrder()
+## 2023-03-21 20:05:45 ##
+----> END registerOrder()
+## 2023-03-21 20:05:45 ##
+----> Treatment is unlocked for the id_cart = 7932

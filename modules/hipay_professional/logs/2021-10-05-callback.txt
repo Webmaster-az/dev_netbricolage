@@ -1,0 +1,518 @@
+## 2021-10-05 13:19:24 ##
+##########################
+## 2021-10-05 13:19:24 ##
+START Validation Callback
+## 2021-10-05 13:19:24 ##
+##########################
+## 2021-10-05 13:19:24 ##
+----> Treatment is locked for the id_cart = 487
+## 2021-10-05 13:19:24 ##
+data for validation
+## 2021-10-05 13:19:24 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>5800ca19c38f5805f12c3e6fcf634f28</md5content><result><operation>authorization</operation><status>ok</status><date>2021-10-05</date><time>11:19:21 UTC+0000</time><origAmount>90.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>487</idForMerchant><emailClient>laurent.ferranti@lca65.fr</emailClient><idClient>19449777</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>487</_aKey_cart_id>  <_aKey_customer_id>1517</_aKey_customer_id>  <_aKey_secure_key>512fe344ffb0d9af9adcb8ead9df8553</_aKey_secure_key>  <_aKey_token>693d71023ec97d2ccde03e7588de9d0a</_aKey_token></merchantDatas><transid>615C34A77CB30299</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 5800ca19c38f5805f12c3e6fcf634f28
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-10-05
+                    [time] => 11:19:21 UTC+0000
+                    [origAmount] => 90.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 487
+                    [emailClient] => laurent.ferranti@lca65.fr
+                    [idClient] => 19449777
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 487
+                            [_aKey_customer_id] => 1517
+                            [_aKey_secure_key] => 512fe344ffb0d9af9adcb8ead9df8553
+                            [_aKey_token] => 693d71023ec97d2ccde03e7588de9d0a
+                        )
+
+                    [transid] => 615C34A77CB30299
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 487
+    [3] => 1517
+    [4] => 512fe344ffb0d9af9adcb8ead9df8553
+    [5] => 90.6
+)
+
+## 2021-10-05 13:19:24 ##
+----> START registerOrder()
+## 2021-10-05 13:19:24 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-05 13:19:24 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-10-05</date><time>11:19:21 UTC+0000</time><origAmount>90.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>487</idForMerchant><emailClient>laurent.ferranti@lca65.fr</emailClient><idClient>19449777</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>487</_aKey_cart_id>  <_aKey_customer_id>1517</_aKey_customer_id>  <_aKey_secure_key>512fe344ffb0d9af9adcb8ead9df8553</_aKey_secure_key>  <_aKey_token>693d71023ec97d2ccde03e7588de9d0a</_aKey_token></merchantDatas><transid>615C34A77CB30299</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-05 13:19:24 ##
+currency : EUR
+## 2021-10-05 13:19:24 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-05 13:19:24 ##
+callback_salt : 
+## 2021-10-05 13:19:24 ##
+md5 : 5800ca19c38f5805f12c3e6fcf634f28 == md5content : 5800ca19c38f5805f12c3e6fcf634f28
+## 2021-10-05 13:19:24 ##
+Status = ok
+## 2021-10-05 13:19:24 ##
+$currency = EUR
+## 2021-10-05 13:19:24 ##
+id_order_state = 42
+## 2021-10-05 13:19:24 ##
+----> START placeOrder()
+## 2021-10-05 13:19:24 ##
+Treatment status = 42
+## 2021-10-05 13:19:24 ##
+Validate order
+## 2021-10-05 13:19:24 ##
+Array
+(
+    [0] => 487
+    [1] => 42
+    [2] => 90.6
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"615C34A77CB30299"}
+    [5] => Array
+        (
+            [transaction_id] => 615C34A77CB30299
+        )
+
+    [6] => 1
+    [7] => 512fe344ffb0d9af9adcb8ead9df8553
+)
+
+## 2021-10-05 13:19:24 ##
+ID Shop = 1
+## 2021-10-05 13:19:29 ##
+Order created
+## 2021-10-05 13:19:29 ##
+----> END placeOrder()
+## 2021-10-05 13:19:29 ##
+----> END registerOrder()
+## 2021-10-05 13:19:29 ##
+----> Treatment is unlocked for the id_cart = 487
+## 2021-10-05 13:19:34 ##
+##########################
+## 2021-10-05 13:19:34 ##
+START Validation Callback
+## 2021-10-05 13:19:34 ##
+##########################
+## 2021-10-05 13:19:34 ##
+----> Treatment is locked for the id_cart = 487
+## 2021-10-05 13:19:34 ##
+data for validation
+## 2021-10-05 13:19:34 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>830d9653617e87b4f8fa014462edfb3d</md5content><result><operation>capture</operation><status>ok</status><date>2021-10-05</date><time>11:19:27 UTC+0000</time><origAmount>90.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>487</idForMerchant><emailClient>laurent.ferranti@lca65.fr</emailClient><idClient>19449777</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>487</_aKey_cart_id>  <_aKey_customer_id>1517</_aKey_customer_id>  <_aKey_secure_key>512fe344ffb0d9af9adcb8ead9df8553</_aKey_secure_key>  <_aKey_token>693d71023ec97d2ccde03e7588de9d0a</_aKey_token></merchantDatas><transid>615C34A77CB30299</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 830d9653617e87b4f8fa014462edfb3d
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-10-05
+                    [time] => 11:19:27 UTC+0000
+                    [origAmount] => 90.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 487
+                    [emailClient] => laurent.ferranti@lca65.fr
+                    [idClient] => 19449777
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 487
+                            [_aKey_customer_id] => 1517
+                            [_aKey_secure_key] => 512fe344ffb0d9af9adcb8ead9df8553
+                            [_aKey_token] => 693d71023ec97d2ccde03e7588de9d0a
+                        )
+
+                    [transid] => 615C34A77CB30299
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 487
+    [3] => 1517
+    [4] => 512fe344ffb0d9af9adcb8ead9df8553
+    [5] => 90.6
+)
+
+## 2021-10-05 13:19:34 ##
+----> START registerOrder()
+## 2021-10-05 13:19:34 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-05 13:19:34 ##
+<result><operation>capture</operation><status>ok</status><date>2021-10-05</date><time>11:19:27 UTC+0000</time><origAmount>90.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>487</idForMerchant><emailClient>laurent.ferranti@lca65.fr</emailClient><idClient>19449777</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>487</_aKey_cart_id>  <_aKey_customer_id>1517</_aKey_customer_id>  <_aKey_secure_key>512fe344ffb0d9af9adcb8ead9df8553</_aKey_secure_key>  <_aKey_token>693d71023ec97d2ccde03e7588de9d0a</_aKey_token></merchantDatas><transid>615C34A77CB30299</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-05 13:19:34 ##
+currency : EUR
+## 2021-10-05 13:19:34 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-05 13:19:34 ##
+callback_salt : 
+## 2021-10-05 13:19:34 ##
+md5 : 830d9653617e87b4f8fa014462edfb3d == md5content : 830d9653617e87b4f8fa014462edfb3d
+## 2021-10-05 13:19:34 ##
+Status = ok
+## 2021-10-05 13:19:34 ##
+$currency = EUR
+## 2021-10-05 13:19:34 ##
+id_order_state = 2
+## 2021-10-05 13:19:34 ##
+----> START placeOrder()
+## 2021-10-05 13:19:34 ##
+Treatment an existing order
+## 2021-10-05 13:19:34 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-10-05 13:19:34 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-10-05
+    [time] => 11:19:27 UTC+0000
+    [origAmount] => 90.60
+    [origCurrency] => EUR
+    [idForMerchant] => 487
+    [emailClient] => laurent.ferranti@lca65.fr
+    [idClient] => 19449777
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 487
+            [_aKey_customer_id] => 1517
+            [_aKey_secure_key] => 512fe344ffb0d9af9adcb8ead9df8553
+            [_aKey_token] => 693d71023ec97d2ccde03e7588de9d0a
+        )
+
+    [transid] => 615C34A77CB30299
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-10-05 13:19:34 ##
+----> END placeOrder()
+## 2021-10-05 13:19:34 ##
+----> END registerOrder()
+## 2021-10-05 13:19:34 ##
+----> Treatment is unlocked for the id_cart = 487
+## 2021-10-05 17:05:34 ##
+##########################
+## 2021-10-05 17:05:34 ##
+START Validation Callback
+## 2021-10-05 17:05:34 ##
+##########################
+## 2021-10-05 17:05:34 ##
+----> Treatment is locked for the id_cart = 495
+## 2021-10-05 17:05:34 ##
+data for validation
+## 2021-10-05 17:05:34 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ce857d9087a49af3abc88951201f7079</md5content><result><operation>authorization</operation><status>ok</status><date>2021-10-05</date><time>15:05:32 UTC+0000</time><origAmount>216.21</origAmount><origCurrency>EUR</origCurrency><idForMerchant>495</idForMerchant><emailClient>ch2o@ch2oplomberie.fr</emailClient><idClient>19451004</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>495</_aKey_cart_id>  <_aKey_customer_id>1518</_aKey_customer_id>  <_aKey_secure_key>2a63c64542c3a46ed0aef0bb4c3cdf62</_aKey_secure_key>  <_aKey_token>45f39b9988f51cba42a402648d65f445</_aKey_token></merchantDatas><transid>615C69501CE36105</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ce857d9087a49af3abc88951201f7079
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-10-05
+                    [time] => 15:05:32 UTC+0000
+                    [origAmount] => 216.21
+                    [origCurrency] => EUR
+                    [idForMerchant] => 495
+                    [emailClient] => ch2o@ch2oplomberie.fr
+                    [idClient] => 19451004
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 495
+                            [_aKey_customer_id] => 1518
+                            [_aKey_secure_key] => 2a63c64542c3a46ed0aef0bb4c3cdf62
+                            [_aKey_token] => 45f39b9988f51cba42a402648d65f445
+                        )
+
+                    [transid] => 615C69501CE36105
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 495
+    [3] => 1518
+    [4] => 2a63c64542c3a46ed0aef0bb4c3cdf62
+    [5] => 216.21
+)
+
+## 2021-10-05 17:05:34 ##
+----> START registerOrder()
+## 2021-10-05 17:05:34 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-05 17:05:34 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-10-05</date><time>15:05:32 UTC+0000</time><origAmount>216.21</origAmount><origCurrency>EUR</origCurrency><idForMerchant>495</idForMerchant><emailClient>ch2o@ch2oplomberie.fr</emailClient><idClient>19451004</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>495</_aKey_cart_id>  <_aKey_customer_id>1518</_aKey_customer_id>  <_aKey_secure_key>2a63c64542c3a46ed0aef0bb4c3cdf62</_aKey_secure_key>  <_aKey_token>45f39b9988f51cba42a402648d65f445</_aKey_token></merchantDatas><transid>615C69501CE36105</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-05 17:05:34 ##
+currency : EUR
+## 2021-10-05 17:05:34 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-05 17:05:34 ##
+callback_salt : 
+## 2021-10-05 17:05:34 ##
+md5 : ce857d9087a49af3abc88951201f7079 == md5content : ce857d9087a49af3abc88951201f7079
+## 2021-10-05 17:05:34 ##
+Status = ok
+## 2021-10-05 17:05:34 ##
+$currency = EUR
+## 2021-10-05 17:05:34 ##
+id_order_state = 42
+## 2021-10-05 17:05:34 ##
+----> START placeOrder()
+## 2021-10-05 17:05:34 ##
+Treatment status = 42
+## 2021-10-05 17:05:34 ##
+Validate order
+## 2021-10-05 17:05:34 ##
+Array
+(
+    [0] => 495
+    [1] => 42
+    [2] => 216.21
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"615C69501CE36105"}
+    [5] => Array
+        (
+            [transaction_id] => 615C69501CE36105
+        )
+
+    [6] => 1
+    [7] => 2a63c64542c3a46ed0aef0bb4c3cdf62
+)
+
+## 2021-10-05 17:05:34 ##
+ID Shop = 1
+## 2021-10-05 17:05:37 ##
+Order created
+## 2021-10-05 17:05:37 ##
+----> END placeOrder()
+## 2021-10-05 17:05:37 ##
+----> END registerOrder()
+## 2021-10-05 17:05:37 ##
+----> Treatment is unlocked for the id_cart = 495
+## 2021-10-05 17:05:40 ##
+##########################
+## 2021-10-05 17:05:40 ##
+START Validation Callback
+## 2021-10-05 17:05:40 ##
+##########################
+## 2021-10-05 17:05:40 ##
+----> Treatment is locked for the id_cart = 495
+## 2021-10-05 17:05:40 ##
+data for validation
+## 2021-10-05 17:05:40 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>d83d903acc2bbe9fe16d421eba28f18d</md5content><result><operation>capture</operation><status>ok</status><date>2021-10-05</date><time>15:05:38 UTC+0000</time><origAmount>216.21</origAmount><origCurrency>EUR</origCurrency><idForMerchant>495</idForMerchant><emailClient>ch2o@ch2oplomberie.fr</emailClient><idClient>19451004</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>495</_aKey_cart_id>  <_aKey_customer_id>1518</_aKey_customer_id>  <_aKey_secure_key>2a63c64542c3a46ed0aef0bb4c3cdf62</_aKey_secure_key>  <_aKey_token>45f39b9988f51cba42a402648d65f445</_aKey_token></merchantDatas><transid>615C69501CE36105</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => d83d903acc2bbe9fe16d421eba28f18d
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-10-05
+                    [time] => 15:05:38 UTC+0000
+                    [origAmount] => 216.21
+                    [origCurrency] => EUR
+                    [idForMerchant] => 495
+                    [emailClient] => ch2o@ch2oplomberie.fr
+                    [idClient] => 19451004
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 495
+                            [_aKey_customer_id] => 1518
+                            [_aKey_secure_key] => 2a63c64542c3a46ed0aef0bb4c3cdf62
+                            [_aKey_token] => 45f39b9988f51cba42a402648d65f445
+                        )
+
+                    [transid] => 615C69501CE36105
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 495
+    [3] => 1518
+    [4] => 2a63c64542c3a46ed0aef0bb4c3cdf62
+    [5] => 216.21
+)
+
+## 2021-10-05 17:05:40 ##
+----> START registerOrder()
+## 2021-10-05 17:05:40 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-05 17:05:40 ##
+<result><operation>capture</operation><status>ok</status><date>2021-10-05</date><time>15:05:38 UTC+0000</time><origAmount>216.21</origAmount><origCurrency>EUR</origCurrency><idForMerchant>495</idForMerchant><emailClient>ch2o@ch2oplomberie.fr</emailClient><idClient>19451004</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>495</_aKey_cart_id>  <_aKey_customer_id>1518</_aKey_customer_id>  <_aKey_secure_key>2a63c64542c3a46ed0aef0bb4c3cdf62</_aKey_secure_key>  <_aKey_token>45f39b9988f51cba42a402648d65f445</_aKey_token></merchantDatas><transid>615C69501CE36105</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-10-05 17:05:40 ##
+currency : EUR
+## 2021-10-05 17:05:40 ##
+accountID:13248407 / websiteId:418801
+## 2021-10-05 17:05:40 ##
+callback_salt : 
+## 2021-10-05 17:05:40 ##
+md5 : d83d903acc2bbe9fe16d421eba28f18d == md5content : d83d903acc2bbe9fe16d421eba28f18d
+## 2021-10-05 17:05:40 ##
+Status = ok
+## 2021-10-05 17:05:40 ##
+$currency = EUR
+## 2021-10-05 17:05:40 ##
+id_order_state = 2
+## 2021-10-05 17:05:40 ##
+----> START placeOrder()
+## 2021-10-05 17:05:40 ##
+Treatment an existing order
+## 2021-10-05 17:05:40 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-10-05 17:05:40 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-10-05
+    [time] => 15:05:38 UTC+0000
+    [origAmount] => 216.21
+    [origCurrency] => EUR
+    [idForMerchant] => 495
+    [emailClient] => ch2o@ch2oplomberie.fr
+    [idClient] => 19451004
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 495
+            [_aKey_customer_id] => 1518
+            [_aKey_secure_key] => 2a63c64542c3a46ed0aef0bb4c3cdf62
+            [_aKey_token] => 45f39b9988f51cba42a402648d65f445
+        )
+
+    [transid] => 615C69501CE36105
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-10-05 17:05:41 ##
+----> END placeOrder()
+## 2021-10-05 17:05:41 ##
+----> END registerOrder()
+## 2021-10-05 17:05:41 ##
+----> Treatment is unlocked for the id_cart = 495

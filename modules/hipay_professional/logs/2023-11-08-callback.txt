@@ -1,0 +1,259 @@
+## 2023-11-08 10:36:33 ##
+##########################
+## 2023-11-08 10:36:33 ##
+START Validation Callback
+## 2023-11-08 10:36:33 ##
+##########################
+## 2023-11-08 10:36:33 ##
+----> Treatment is locked for the id_cart = 11721
+## 2023-11-08 10:36:33 ##
+data for validation
+## 2023-11-08 10:36:33 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>df59ac2f35b54806c41eb96dda146797</md5content><result><operation>authorization</operation><status>ok</status><date>2023-11-08</date><time>09:36:31 UTC+0000</time><origAmount>93.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11721</idForMerchant><emailClient>leduc.annabelle@hotmail.com</emailClient><idClient>21292099</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>11721</_aKey_cart_id>  <_aKey_customer_id>3878</_aKey_customer_id>  <_aKey_secure_key>f4e0e8718d561530e9baeb6c23ca5b96</_aKey_secure_key>  <_aKey_token>12d736eb8c1a6b6805d2439a96cb6985</_aKey_token></merchantDatas><transid>654B566E779BA119</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => df59ac2f35b54806c41eb96dda146797
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-11-08
+                    [time] => 09:36:31 UTC+0000
+                    [origAmount] => 93.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11721
+                    [emailClient] => leduc.annabelle@hotmail.com
+                    [idClient] => 21292099
+                    [cardCountry] => BE
+                    [ipCountry] => BE
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11721
+                            [_aKey_customer_id] => 3878
+                            [_aKey_secure_key] => f4e0e8718d561530e9baeb6c23ca5b96
+                            [_aKey_token] => 12d736eb8c1a6b6805d2439a96cb6985
+                        )
+
+                    [transid] => 654B566E779BA119
+                    [is3ds] => Yes
+                    [paymentMethod] => BCMC
+                    [customerCountry] => BE
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11721
+    [3] => 3878
+    [4] => f4e0e8718d561530e9baeb6c23ca5b96
+    [5] => 93
+)
+
+## 2023-11-08 10:36:33 ##
+----> START registerOrder()
+## 2023-11-08 10:36:33 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-08 10:36:33 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-11-08</date><time>09:36:31 UTC+0000</time><origAmount>93.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11721</idForMerchant><emailClient>leduc.annabelle@hotmail.com</emailClient><idClient>21292099</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>11721</_aKey_cart_id>  <_aKey_customer_id>3878</_aKey_customer_id>  <_aKey_secure_key>f4e0e8718d561530e9baeb6c23ca5b96</_aKey_secure_key>  <_aKey_token>12d736eb8c1a6b6805d2439a96cb6985</_aKey_token></merchantDatas><transid>654B566E779BA119</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-08 10:36:33 ##
+currency : EUR
+## 2023-11-08 10:36:33 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-08 10:36:33 ##
+callback_salt : 
+## 2023-11-08 10:36:33 ##
+md5 : df59ac2f35b54806c41eb96dda146797 == md5content : df59ac2f35b54806c41eb96dda146797
+## 2023-11-08 10:36:33 ##
+Status = ok
+## 2023-11-08 10:36:33 ##
+$currency = EUR
+## 2023-11-08 10:36:33 ##
+id_order_state = 42
+## 2023-11-08 10:36:33 ##
+----> START placeOrder()
+## 2023-11-08 10:36:33 ##
+Treatment status = 42
+## 2023-11-08 10:36:33 ##
+Validate order
+## 2023-11-08 10:36:33 ##
+Array
+(
+    [0] => 11721
+    [1] => 42
+    [2] => 93
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"BCMC","Transaction ID":"654B566E779BA119"}
+    [5] => Array
+        (
+            [transaction_id] => 654B566E779BA119
+        )
+
+    [6] => 1
+    [7] => f4e0e8718d561530e9baeb6c23ca5b96
+)
+
+## 2023-11-08 10:36:33 ##
+ID Shop = 1
+## 2023-11-08 10:36:38 ##
+Order created
+## 2023-11-08 10:36:38 ##
+----> END placeOrder()
+## 2023-11-08 10:36:38 ##
+----> END registerOrder()
+## 2023-11-08 10:36:38 ##
+----> Treatment is unlocked for the id_cart = 11721
+## 2023-11-08 10:36:43 ##
+##########################
+## 2023-11-08 10:36:43 ##
+START Validation Callback
+## 2023-11-08 10:36:43 ##
+##########################
+## 2023-11-08 10:36:43 ##
+----> Treatment is locked for the id_cart = 11721
+## 2023-11-08 10:36:43 ##
+data for validation
+## 2023-11-08 10:36:43 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>44b8d3f07c6f6df077499d6cf112f459</md5content><result><operation>capture</operation><status>ok</status><date>2023-11-08</date><time>09:36:38 UTC+0000</time><origAmount>93.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11721</idForMerchant><emailClient>leduc.annabelle@hotmail.com</emailClient><idClient>21292099</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>11721</_aKey_cart_id>  <_aKey_customer_id>3878</_aKey_customer_id>  <_aKey_secure_key>f4e0e8718d561530e9baeb6c23ca5b96</_aKey_secure_key>  <_aKey_token>12d736eb8c1a6b6805d2439a96cb6985</_aKey_token></merchantDatas><transid>654B566E779BA119</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 44b8d3f07c6f6df077499d6cf112f459
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-11-08
+                    [time] => 09:36:38 UTC+0000
+                    [origAmount] => 93.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11721
+                    [emailClient] => leduc.annabelle@hotmail.com
+                    [idClient] => 21292099
+                    [cardCountry] => BE
+                    [ipCountry] => BE
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11721
+                            [_aKey_customer_id] => 3878
+                            [_aKey_secure_key] => f4e0e8718d561530e9baeb6c23ca5b96
+                            [_aKey_token] => 12d736eb8c1a6b6805d2439a96cb6985
+                        )
+
+                    [transid] => 654B566E779BA119
+                    [is3ds] => Yes
+                    [paymentMethod] => BCMC
+                    [customerCountry] => BE
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11721
+    [3] => 3878
+    [4] => f4e0e8718d561530e9baeb6c23ca5b96
+    [5] => 93
+)
+
+## 2023-11-08 10:36:43 ##
+----> START registerOrder()
+## 2023-11-08 10:36:43 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-08 10:36:43 ##
+<result><operation>capture</operation><status>ok</status><date>2023-11-08</date><time>09:36:38 UTC+0000</time><origAmount>93.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11721</idForMerchant><emailClient>leduc.annabelle@hotmail.com</emailClient><idClient>21292099</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>11721</_aKey_cart_id>  <_aKey_customer_id>3878</_aKey_customer_id>  <_aKey_secure_key>f4e0e8718d561530e9baeb6c23ca5b96</_aKey_secure_key>  <_aKey_token>12d736eb8c1a6b6805d2439a96cb6985</_aKey_token></merchantDatas><transid>654B566E779BA119</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-08 10:36:43 ##
+currency : EUR
+## 2023-11-08 10:36:43 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-08 10:36:43 ##
+callback_salt : 
+## 2023-11-08 10:36:43 ##
+md5 : 44b8d3f07c6f6df077499d6cf112f459 == md5content : 44b8d3f07c6f6df077499d6cf112f459
+## 2023-11-08 10:36:43 ##
+Status = ok
+## 2023-11-08 10:36:43 ##
+$currency = EUR
+## 2023-11-08 10:36:43 ##
+id_order_state = 2
+## 2023-11-08 10:36:43 ##
+----> START placeOrder()
+## 2023-11-08 10:36:43 ##
+Treatment an existing order
+## 2023-11-08 10:36:43 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-11-08 10:36:43 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-11-08
+    [time] => 09:36:38 UTC+0000
+    [origAmount] => 93.00
+    [origCurrency] => EUR
+    [idForMerchant] => 11721
+    [emailClient] => leduc.annabelle@hotmail.com
+    [idClient] => 21292099
+    [cardCountry] => BE
+    [ipCountry] => BE
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 11721
+            [_aKey_customer_id] => 3878
+            [_aKey_secure_key] => f4e0e8718d561530e9baeb6c23ca5b96
+            [_aKey_token] => 12d736eb8c1a6b6805d2439a96cb6985
+        )
+
+    [transid] => 654B566E779BA119
+    [is3ds] => Yes
+    [paymentMethod] => BCMC
+    [customerCountry] => BE
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-11-08 10:36:44 ##
+----> END placeOrder()
+## 2023-11-08 10:36:44 ##
+----> END registerOrder()
+## 2023-11-08 10:36:44 ##
+----> Treatment is unlocked for the id_cart = 11721

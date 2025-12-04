@@ -1,0 +1,518 @@
+## 2024-10-14 10:30:06 ##
+##########################
+## 2024-10-14 10:30:06 ##
+START Validation Callback
+## 2024-10-14 10:30:06 ##
+##########################
+## 2024-10-14 10:30:06 ##
+----> Treatment is locked for the id_cart = 16240
+## 2024-10-14 10:30:06 ##
+data for validation
+## 2024-10-14 10:30:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>43162f166b7b8ac4818fe964968f37b4</md5content><result><operation>authorization</operation><status>ok</status><date>2024-10-14</date><time>08:30:04 UTC+0000</time><origAmount>40.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16240</idForMerchant><emailClient>brasseriedelamotte@gmail.com</emailClient><idClient>24070407</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16240</_aKey_cart_id>  <_aKey_customer_id>4559</_aKey_customer_id>  <_aKey_secure_key>5fb39bd0adc1cc8665b26bc83758df86</_aKey_secure_key>  <_aKey_token>2ac04cb6a7ed59dd40ed53b077e6db53</_aKey_token></merchantDatas><transid>670CD62D0F9BB165</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 43162f166b7b8ac4818fe964968f37b4
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-10-14
+                    [time] => 08:30:04 UTC+0000
+                    [origAmount] => 40.05
+                    [origCurrency] => EUR
+                    [idForMerchant] => 16240
+                    [emailClient] => brasseriedelamotte@gmail.com
+                    [idClient] => 24070407
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 16240
+                            [_aKey_customer_id] => 4559
+                            [_aKey_secure_key] => 5fb39bd0adc1cc8665b26bc83758df86
+                            [_aKey_token] => 2ac04cb6a7ed59dd40ed53b077e6db53
+                        )
+
+                    [transid] => 670CD62D0F9BB165
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 16240
+    [3] => 4559
+    [4] => 5fb39bd0adc1cc8665b26bc83758df86
+    [5] => 40.05
+)
+
+## 2024-10-14 10:30:06 ##
+----> START registerOrder()
+## 2024-10-14 10:30:06 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-14 10:30:06 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-10-14</date><time>08:30:04 UTC+0000</time><origAmount>40.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16240</idForMerchant><emailClient>brasseriedelamotte@gmail.com</emailClient><idClient>24070407</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16240</_aKey_cart_id>  <_aKey_customer_id>4559</_aKey_customer_id>  <_aKey_secure_key>5fb39bd0adc1cc8665b26bc83758df86</_aKey_secure_key>  <_aKey_token>2ac04cb6a7ed59dd40ed53b077e6db53</_aKey_token></merchantDatas><transid>670CD62D0F9BB165</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-10-14 10:30:06 ##
+currency : EUR
+## 2024-10-14 10:30:06 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-14 10:30:06 ##
+callback_salt : 
+## 2024-10-14 10:30:06 ##
+md5 : 43162f166b7b8ac4818fe964968f37b4 == md5content : 43162f166b7b8ac4818fe964968f37b4
+## 2024-10-14 10:30:06 ##
+Status = ok
+## 2024-10-14 10:30:06 ##
+$currency = EUR
+## 2024-10-14 10:30:06 ##
+id_order_state = 42
+## 2024-10-14 10:30:06 ##
+----> START placeOrder()
+## 2024-10-14 10:30:06 ##
+Treatment status = 42
+## 2024-10-14 10:30:06 ##
+Validate order
+## 2024-10-14 10:30:06 ##
+Array
+(
+    [0] => 16240
+    [1] => 42
+    [2] => 40.05
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"670CD62D0F9BB165"}
+    [5] => Array
+        (
+            [transaction_id] => 670CD62D0F9BB165
+        )
+
+    [6] => 1
+    [7] => 5fb39bd0adc1cc8665b26bc83758df86
+)
+
+## 2024-10-14 10:30:06 ##
+ID Shop = 1
+## 2024-10-14 10:30:07 ##
+Order created
+## 2024-10-14 10:30:07 ##
+----> END placeOrder()
+## 2024-10-14 10:30:07 ##
+----> END registerOrder()
+## 2024-10-14 10:30:07 ##
+----> Treatment is unlocked for the id_cart = 16240
+## 2024-10-14 10:30:14 ##
+##########################
+## 2024-10-14 10:30:14 ##
+START Validation Callback
+## 2024-10-14 10:30:14 ##
+##########################
+## 2024-10-14 10:30:14 ##
+----> Treatment is locked for the id_cart = 16240
+## 2024-10-14 10:30:14 ##
+data for validation
+## 2024-10-14 10:30:14 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>976992d3562c739bba69feef32924cf6</md5content><result><operation>capture</operation><status>ok</status><date>2024-10-14</date><time>08:30:11 UTC+0000</time><origAmount>40.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16240</idForMerchant><emailClient>brasseriedelamotte@gmail.com</emailClient><idClient>24070407</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16240</_aKey_cart_id>  <_aKey_customer_id>4559</_aKey_customer_id>  <_aKey_secure_key>5fb39bd0adc1cc8665b26bc83758df86</_aKey_secure_key>  <_aKey_token>2ac04cb6a7ed59dd40ed53b077e6db53</_aKey_token></merchantDatas><transid>670CD62D0F9BB165</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 976992d3562c739bba69feef32924cf6
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-10-14
+                    [time] => 08:30:11 UTC+0000
+                    [origAmount] => 40.05
+                    [origCurrency] => EUR
+                    [idForMerchant] => 16240
+                    [emailClient] => brasseriedelamotte@gmail.com
+                    [idClient] => 24070407
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 16240
+                            [_aKey_customer_id] => 4559
+                            [_aKey_secure_key] => 5fb39bd0adc1cc8665b26bc83758df86
+                            [_aKey_token] => 2ac04cb6a7ed59dd40ed53b077e6db53
+                        )
+
+                    [transid] => 670CD62D0F9BB165
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 16240
+    [3] => 4559
+    [4] => 5fb39bd0adc1cc8665b26bc83758df86
+    [5] => 40.05
+)
+
+## 2024-10-14 10:30:14 ##
+----> START registerOrder()
+## 2024-10-14 10:30:14 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-14 10:30:14 ##
+<result><operation>capture</operation><status>ok</status><date>2024-10-14</date><time>08:30:11 UTC+0000</time><origAmount>40.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16240</idForMerchant><emailClient>brasseriedelamotte@gmail.com</emailClient><idClient>24070407</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16240</_aKey_cart_id>  <_aKey_customer_id>4559</_aKey_customer_id>  <_aKey_secure_key>5fb39bd0adc1cc8665b26bc83758df86</_aKey_secure_key>  <_aKey_token>2ac04cb6a7ed59dd40ed53b077e6db53</_aKey_token></merchantDatas><transid>670CD62D0F9BB165</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-10-14 10:30:14 ##
+currency : EUR
+## 2024-10-14 10:30:14 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-14 10:30:14 ##
+callback_salt : 
+## 2024-10-14 10:30:14 ##
+md5 : 976992d3562c739bba69feef32924cf6 == md5content : 976992d3562c739bba69feef32924cf6
+## 2024-10-14 10:30:14 ##
+Status = ok
+## 2024-10-14 10:30:14 ##
+$currency = EUR
+## 2024-10-14 10:30:14 ##
+id_order_state = 2
+## 2024-10-14 10:30:14 ##
+----> START placeOrder()
+## 2024-10-14 10:30:14 ##
+Treatment an existing order
+## 2024-10-14 10:30:14 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-10-14 10:30:14 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-10-14
+    [time] => 08:30:11 UTC+0000
+    [origAmount] => 40.05
+    [origCurrency] => EUR
+    [idForMerchant] => 16240
+    [emailClient] => brasseriedelamotte@gmail.com
+    [idClient] => 24070407
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 16240
+            [_aKey_customer_id] => 4559
+            [_aKey_secure_key] => 5fb39bd0adc1cc8665b26bc83758df86
+            [_aKey_token] => 2ac04cb6a7ed59dd40ed53b077e6db53
+        )
+
+    [transid] => 670CD62D0F9BB165
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-10-14 10:30:15 ##
+----> END placeOrder()
+## 2024-10-14 10:30:15 ##
+----> END registerOrder()
+## 2024-10-14 10:30:15 ##
+----> Treatment is unlocked for the id_cart = 16240
+## 2024-10-14 22:27:51 ##
+##########################
+## 2024-10-14 22:27:51 ##
+START Validation Callback
+## 2024-10-14 22:27:51 ##
+##########################
+## 2024-10-14 22:27:51 ##
+----> Treatment is locked for the id_cart = 16247
+## 2024-10-14 22:27:51 ##
+data for validation
+## 2024-10-14 22:27:51 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>887b10d4d9b721222c31461695d5f6ca</md5content><result><operation>authorization</operation><status>ok</status><date>2024-10-14</date><time>20:27:54 UTC+0000</time><origAmount>91.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16247</idForMerchant><emailClient>wilpicot@gmail.com</emailClient><idClient>24072101</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16247</_aKey_cart_id>  <_aKey_customer_id>4560</_aKey_customer_id>  <_aKey_secure_key>afaff516f12de72a93e18094a4a12927</_aKey_secure_key>  <_aKey_token>37f28f3533692fce8f9a05fbab6dd52d</_aKey_token></merchantDatas><transid>670D7E913B7B7216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 887b10d4d9b721222c31461695d5f6ca
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-10-14
+                    [time] => 20:27:54 UTC+0000
+                    [origAmount] => 91.02
+                    [origCurrency] => EUR
+                    [idForMerchant] => 16247
+                    [emailClient] => wilpicot@gmail.com
+                    [idClient] => 24072101
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 16247
+                            [_aKey_customer_id] => 4560
+                            [_aKey_secure_key] => afaff516f12de72a93e18094a4a12927
+                            [_aKey_token] => 37f28f3533692fce8f9a05fbab6dd52d
+                        )
+
+                    [transid] => 670D7E913B7B7216
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 16247
+    [3] => 4560
+    [4] => afaff516f12de72a93e18094a4a12927
+    [5] => 91.02
+)
+
+## 2024-10-14 22:27:51 ##
+----> START registerOrder()
+## 2024-10-14 22:27:51 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-14 22:27:51 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-10-14</date><time>20:27:54 UTC+0000</time><origAmount>91.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16247</idForMerchant><emailClient>wilpicot@gmail.com</emailClient><idClient>24072101</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16247</_aKey_cart_id>  <_aKey_customer_id>4560</_aKey_customer_id>  <_aKey_secure_key>afaff516f12de72a93e18094a4a12927</_aKey_secure_key>  <_aKey_token>37f28f3533692fce8f9a05fbab6dd52d</_aKey_token></merchantDatas><transid>670D7E913B7B7216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-10-14 22:27:51 ##
+currency : EUR
+## 2024-10-14 22:27:51 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-14 22:27:51 ##
+callback_salt : 
+## 2024-10-14 22:27:51 ##
+md5 : 887b10d4d9b721222c31461695d5f6ca == md5content : 887b10d4d9b721222c31461695d5f6ca
+## 2024-10-14 22:27:51 ##
+Status = ok
+## 2024-10-14 22:27:51 ##
+$currency = EUR
+## 2024-10-14 22:27:51 ##
+id_order_state = 42
+## 2024-10-14 22:27:51 ##
+----> START placeOrder()
+## 2024-10-14 22:27:51 ##
+Treatment status = 42
+## 2024-10-14 22:27:51 ##
+Validate order
+## 2024-10-14 22:27:51 ##
+Array
+(
+    [0] => 16247
+    [1] => 42
+    [2] => 91.02
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"670D7E913B7B7216"}
+    [5] => Array
+        (
+            [transaction_id] => 670D7E913B7B7216
+        )
+
+    [6] => 1
+    [7] => afaff516f12de72a93e18094a4a12927
+)
+
+## 2024-10-14 22:27:51 ##
+ID Shop = 1
+## 2024-10-14 22:27:52 ##
+Order created
+## 2024-10-14 22:27:52 ##
+----> END placeOrder()
+## 2024-10-14 22:27:52 ##
+----> END registerOrder()
+## 2024-10-14 22:27:52 ##
+----> Treatment is unlocked for the id_cart = 16247
+## 2024-10-14 22:28:00 ##
+##########################
+## 2024-10-14 22:28:00 ##
+START Validation Callback
+## 2024-10-14 22:28:00 ##
+##########################
+## 2024-10-14 22:28:00 ##
+----> Treatment is locked for the id_cart = 16247
+## 2024-10-14 22:28:00 ##
+data for validation
+## 2024-10-14 22:28:00 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>7016e058a9f917cb60d6147aa1a1158a</md5content><result><operation>capture</operation><status>ok</status><date>2024-10-14</date><time>20:28:01 UTC+0000</time><origAmount>91.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16247</idForMerchant><emailClient>wilpicot@gmail.com</emailClient><idClient>24072101</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16247</_aKey_cart_id>  <_aKey_customer_id>4560</_aKey_customer_id>  <_aKey_secure_key>afaff516f12de72a93e18094a4a12927</_aKey_secure_key>  <_aKey_token>37f28f3533692fce8f9a05fbab6dd52d</_aKey_token></merchantDatas><transid>670D7E913B7B7216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 7016e058a9f917cb60d6147aa1a1158a
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-10-14
+                    [time] => 20:28:01 UTC+0000
+                    [origAmount] => 91.02
+                    [origCurrency] => EUR
+                    [idForMerchant] => 16247
+                    [emailClient] => wilpicot@gmail.com
+                    [idClient] => 24072101
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 16247
+                            [_aKey_customer_id] => 4560
+                            [_aKey_secure_key] => afaff516f12de72a93e18094a4a12927
+                            [_aKey_token] => 37f28f3533692fce8f9a05fbab6dd52d
+                        )
+
+                    [transid] => 670D7E913B7B7216
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 16247
+    [3] => 4560
+    [4] => afaff516f12de72a93e18094a4a12927
+    [5] => 91.02
+)
+
+## 2024-10-14 22:28:00 ##
+----> START registerOrder()
+## 2024-10-14 22:28:00 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-14 22:28:00 ##
+<result><operation>capture</operation><status>ok</status><date>2024-10-14</date><time>20:28:01 UTC+0000</time><origAmount>91.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16247</idForMerchant><emailClient>wilpicot@gmail.com</emailClient><idClient>24072101</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16247</_aKey_cart_id>  <_aKey_customer_id>4560</_aKey_customer_id>  <_aKey_secure_key>afaff516f12de72a93e18094a4a12927</_aKey_secure_key>  <_aKey_token>37f28f3533692fce8f9a05fbab6dd52d</_aKey_token></merchantDatas><transid>670D7E913B7B7216</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-10-14 22:28:00 ##
+currency : EUR
+## 2024-10-14 22:28:00 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-14 22:28:00 ##
+callback_salt : 
+## 2024-10-14 22:28:00 ##
+md5 : 7016e058a9f917cb60d6147aa1a1158a == md5content : 7016e058a9f917cb60d6147aa1a1158a
+## 2024-10-14 22:28:00 ##
+Status = ok
+## 2024-10-14 22:28:00 ##
+$currency = EUR
+## 2024-10-14 22:28:00 ##
+id_order_state = 2
+## 2024-10-14 22:28:00 ##
+----> START placeOrder()
+## 2024-10-14 22:28:00 ##
+Treatment an existing order
+## 2024-10-14 22:28:00 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-10-14 22:28:00 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-10-14
+    [time] => 20:28:01 UTC+0000
+    [origAmount] => 91.02
+    [origCurrency] => EUR
+    [idForMerchant] => 16247
+    [emailClient] => wilpicot@gmail.com
+    [idClient] => 24072101
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 16247
+            [_aKey_customer_id] => 4560
+            [_aKey_secure_key] => afaff516f12de72a93e18094a4a12927
+            [_aKey_token] => 37f28f3533692fce8f9a05fbab6dd52d
+        )
+
+    [transid] => 670D7E913B7B7216
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-10-14 22:28:01 ##
+----> END placeOrder()
+## 2024-10-14 22:28:01 ##
+----> END registerOrder()
+## 2024-10-14 22:28:01 ##
+----> Treatment is unlocked for the id_cart = 16247

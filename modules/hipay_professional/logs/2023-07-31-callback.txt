@@ -1,0 +1,259 @@
+## 2023-07-31 10:44:29 ##
+##########################
+## 2023-07-31 10:44:29 ##
+START Validation Callback
+## 2023-07-31 10:44:29 ##
+##########################
+## 2023-07-31 10:44:29 ##
+----> Treatment is locked for the id_cart = 10064
+## 2023-07-31 10:44:29 ##
+data for validation
+## 2023-07-31 10:44:29 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>5a45b896feb691ecf851633cfde2106e</md5content><result><operation>authorization</operation><status>ok</status><date>2023-07-31</date><time>08:44:26 UTC+0000</time><origAmount>87.64</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10064</idForMerchant><emailClient>luc.glesener@gmail.com</emailClient><idClient>22583240</idClient><cardCountry>LU</cardCountry><ipCountry>LU</ipCountry><merchantDatas>  <_aKey_cart_id>10064</_aKey_cart_id>  <_aKey_customer_id>3623</_aKey_customer_id>  <_aKey_secure_key>678f85cbc31c84157b03008ffa2d1af9</_aKey_secure_key>  <_aKey_token>e5f82d9b611606cdfe31eeb5f6c76341</_aKey_token></merchantDatas><transid>64C77413D3C12638</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>LU</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 5a45b896feb691ecf851633cfde2106e
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-07-31
+                    [time] => 08:44:26 UTC+0000
+                    [origAmount] => 87.64
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10064
+                    [emailClient] => luc.glesener@gmail.com
+                    [idClient] => 22583240
+                    [cardCountry] => LU
+                    [ipCountry] => LU
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10064
+                            [_aKey_customer_id] => 3623
+                            [_aKey_secure_key] => 678f85cbc31c84157b03008ffa2d1af9
+                            [_aKey_token] => e5f82d9b611606cdfe31eeb5f6c76341
+                        )
+
+                    [transid] => 64C77413D3C12638
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => LU
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10064
+    [3] => 3623
+    [4] => 678f85cbc31c84157b03008ffa2d1af9
+    [5] => 87.64
+)
+
+## 2023-07-31 10:44:29 ##
+----> START registerOrder()
+## 2023-07-31 10:44:29 ##
+accountID:13248407 / websiteId:417972
+## 2023-07-31 10:44:29 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-07-31</date><time>08:44:26 UTC+0000</time><origAmount>87.64</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10064</idForMerchant><emailClient>luc.glesener@gmail.com</emailClient><idClient>22583240</idClient><cardCountry>LU</cardCountry><ipCountry>LU</ipCountry><merchantDatas>  <_aKey_cart_id>10064</_aKey_cart_id>  <_aKey_customer_id>3623</_aKey_customer_id>  <_aKey_secure_key>678f85cbc31c84157b03008ffa2d1af9</_aKey_secure_key>  <_aKey_token>e5f82d9b611606cdfe31eeb5f6c76341</_aKey_token></merchantDatas><transid>64C77413D3C12638</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>LU</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-07-31 10:44:29 ##
+currency : EUR
+## 2023-07-31 10:44:29 ##
+accountID:13248407 / websiteId:417972
+## 2023-07-31 10:44:29 ##
+callback_salt : 
+## 2023-07-31 10:44:29 ##
+md5 : 5a45b896feb691ecf851633cfde2106e == md5content : 5a45b896feb691ecf851633cfde2106e
+## 2023-07-31 10:44:29 ##
+Status = ok
+## 2023-07-31 10:44:29 ##
+$currency = EUR
+## 2023-07-31 10:44:29 ##
+id_order_state = 42
+## 2023-07-31 10:44:29 ##
+----> START placeOrder()
+## 2023-07-31 10:44:29 ##
+Treatment status = 42
+## 2023-07-31 10:44:29 ##
+Validate order
+## 2023-07-31 10:44:29 ##
+Array
+(
+    [0] => 10064
+    [1] => 42
+    [2] => 87.64
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"64C77413D3C12638"}
+    [5] => Array
+        (
+            [transaction_id] => 64C77413D3C12638
+        )
+
+    [6] => 1
+    [7] => 678f85cbc31c84157b03008ffa2d1af9
+)
+
+## 2023-07-31 10:44:29 ##
+ID Shop = 1
+## 2023-07-31 10:44:32 ##
+Order created
+## 2023-07-31 10:44:32 ##
+----> END placeOrder()
+## 2023-07-31 10:44:32 ##
+----> END registerOrder()
+## 2023-07-31 10:44:32 ##
+----> Treatment is unlocked for the id_cart = 10064
+## 2023-07-31 10:44:38 ##
+##########################
+## 2023-07-31 10:44:38 ##
+START Validation Callback
+## 2023-07-31 10:44:38 ##
+##########################
+## 2023-07-31 10:44:38 ##
+----> Treatment is locked for the id_cart = 10064
+## 2023-07-31 10:44:38 ##
+data for validation
+## 2023-07-31 10:44:38 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>b00e9424f46fdd9f72493dc7ce105770</md5content><result><operation>capture</operation><status>ok</status><date>2023-07-31</date><time>08:44:34 UTC+0000</time><origAmount>87.64</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10064</idForMerchant><emailClient>luc.glesener@gmail.com</emailClient><idClient>22583240</idClient><cardCountry>LU</cardCountry><ipCountry>LU</ipCountry><merchantDatas>  <_aKey_cart_id>10064</_aKey_cart_id>  <_aKey_customer_id>3623</_aKey_customer_id>  <_aKey_secure_key>678f85cbc31c84157b03008ffa2d1af9</_aKey_secure_key>  <_aKey_token>e5f82d9b611606cdfe31eeb5f6c76341</_aKey_token></merchantDatas><transid>64C77413D3C12638</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>LU</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => b00e9424f46fdd9f72493dc7ce105770
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-07-31
+                    [time] => 08:44:34 UTC+0000
+                    [origAmount] => 87.64
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10064
+                    [emailClient] => luc.glesener@gmail.com
+                    [idClient] => 22583240
+                    [cardCountry] => LU
+                    [ipCountry] => LU
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10064
+                            [_aKey_customer_id] => 3623
+                            [_aKey_secure_key] => 678f85cbc31c84157b03008ffa2d1af9
+                            [_aKey_token] => e5f82d9b611606cdfe31eeb5f6c76341
+                        )
+
+                    [transid] => 64C77413D3C12638
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => LU
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10064
+    [3] => 3623
+    [4] => 678f85cbc31c84157b03008ffa2d1af9
+    [5] => 87.64
+)
+
+## 2023-07-31 10:44:38 ##
+----> START registerOrder()
+## 2023-07-31 10:44:38 ##
+accountID:13248407 / websiteId:417972
+## 2023-07-31 10:44:38 ##
+<result><operation>capture</operation><status>ok</status><date>2023-07-31</date><time>08:44:34 UTC+0000</time><origAmount>87.64</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10064</idForMerchant><emailClient>luc.glesener@gmail.com</emailClient><idClient>22583240</idClient><cardCountry>LU</cardCountry><ipCountry>LU</ipCountry><merchantDatas>  <_aKey_cart_id>10064</_aKey_cart_id>  <_aKey_customer_id>3623</_aKey_customer_id>  <_aKey_secure_key>678f85cbc31c84157b03008ffa2d1af9</_aKey_secure_key>  <_aKey_token>e5f82d9b611606cdfe31eeb5f6c76341</_aKey_token></merchantDatas><transid>64C77413D3C12638</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>LU</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-07-31 10:44:38 ##
+currency : EUR
+## 2023-07-31 10:44:38 ##
+accountID:13248407 / websiteId:417972
+## 2023-07-31 10:44:38 ##
+callback_salt : 
+## 2023-07-31 10:44:38 ##
+md5 : b00e9424f46fdd9f72493dc7ce105770 == md5content : b00e9424f46fdd9f72493dc7ce105770
+## 2023-07-31 10:44:38 ##
+Status = ok
+## 2023-07-31 10:44:38 ##
+$currency = EUR
+## 2023-07-31 10:44:38 ##
+id_order_state = 2
+## 2023-07-31 10:44:38 ##
+----> START placeOrder()
+## 2023-07-31 10:44:38 ##
+Treatment an existing order
+## 2023-07-31 10:44:38 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-07-31 10:44:38 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-07-31
+    [time] => 08:44:34 UTC+0000
+    [origAmount] => 87.64
+    [origCurrency] => EUR
+    [idForMerchant] => 10064
+    [emailClient] => luc.glesener@gmail.com
+    [idClient] => 22583240
+    [cardCountry] => LU
+    [ipCountry] => LU
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 10064
+            [_aKey_customer_id] => 3623
+            [_aKey_secure_key] => 678f85cbc31c84157b03008ffa2d1af9
+            [_aKey_token] => e5f82d9b611606cdfe31eeb5f6c76341
+        )
+
+    [transid] => 64C77413D3C12638
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => LU
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-07-31 10:44:38 ##
+----> END placeOrder()
+## 2023-07-31 10:44:38 ##
+----> END registerOrder()
+## 2023-07-31 10:44:38 ##
+----> Treatment is unlocked for the id_cart = 10064

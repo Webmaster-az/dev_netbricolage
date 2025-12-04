@@ -1,0 +1,259 @@
+## 2024-05-04 09:48:33 ##
+##########################
+## 2024-05-04 09:48:33 ##
+START Validation Callback
+## 2024-05-04 09:48:33 ##
+##########################
+## 2024-05-04 09:48:33 ##
+----> Treatment is locked for the id_cart = 14170
+## 2024-05-04 09:48:33 ##
+data for validation
+## 2024-05-04 09:48:33 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>32662863fc69fb3c53ab0798805b34e1</md5content><result><operation>authorization</operation><status>ok</status><date>2024-05-04</date><time>07:48:30 UTC+0000</time><origAmount>140.12</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14170</idForMerchant><emailClient>arnaud.jacquet.02@gmail.com</emailClient><idClient>23543566</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14170</_aKey_cart_id>  <_aKey_customer_id>4262</_aKey_customer_id>  <_aKey_secure_key>042ebe41788bbf7a67c8ea9874b60a6e</_aKey_secure_key>  <_aKey_token>c2de18115e9d9daf0a5aadfc9a5718c4</_aKey_token></merchantDatas><transid>6635E80BAAF7E109</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 32662863fc69fb3c53ab0798805b34e1
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-05-04
+                    [time] => 07:48:30 UTC+0000
+                    [origAmount] => 140.12
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14170
+                    [emailClient] => arnaud.jacquet.02@gmail.com
+                    [idClient] => 23543566
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14170
+                            [_aKey_customer_id] => 4262
+                            [_aKey_secure_key] => 042ebe41788bbf7a67c8ea9874b60a6e
+                            [_aKey_token] => c2de18115e9d9daf0a5aadfc9a5718c4
+                        )
+
+                    [transid] => 6635E80BAAF7E109
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 14170
+    [3] => 4262
+    [4] => 042ebe41788bbf7a67c8ea9874b60a6e
+    [5] => 140.12
+)
+
+## 2024-05-04 09:48:33 ##
+----> START registerOrder()
+## 2024-05-04 09:48:33 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-04 09:48:33 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-05-04</date><time>07:48:30 UTC+0000</time><origAmount>140.12</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14170</idForMerchant><emailClient>arnaud.jacquet.02@gmail.com</emailClient><idClient>23543566</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14170</_aKey_cart_id>  <_aKey_customer_id>4262</_aKey_customer_id>  <_aKey_secure_key>042ebe41788bbf7a67c8ea9874b60a6e</_aKey_secure_key>  <_aKey_token>c2de18115e9d9daf0a5aadfc9a5718c4</_aKey_token></merchantDatas><transid>6635E80BAAF7E109</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-05-04 09:48:33 ##
+currency : EUR
+## 2024-05-04 09:48:33 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-04 09:48:33 ##
+callback_salt : 
+## 2024-05-04 09:48:33 ##
+md5 : 32662863fc69fb3c53ab0798805b34e1 == md5content : 32662863fc69fb3c53ab0798805b34e1
+## 2024-05-04 09:48:33 ##
+Status = ok
+## 2024-05-04 09:48:33 ##
+$currency = EUR
+## 2024-05-04 09:48:33 ##
+id_order_state = 42
+## 2024-05-04 09:48:33 ##
+----> START placeOrder()
+## 2024-05-04 09:48:33 ##
+Treatment status = 42
+## 2024-05-04 09:48:33 ##
+Validate order
+## 2024-05-04 09:48:33 ##
+Array
+(
+    [0] => 14170
+    [1] => 42
+    [2] => 140.12
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"6635E80BAAF7E109"}
+    [5] => Array
+        (
+            [transaction_id] => 6635E80BAAF7E109
+        )
+
+    [6] => 1
+    [7] => 042ebe41788bbf7a67c8ea9874b60a6e
+)
+
+## 2024-05-04 09:48:33 ##
+ID Shop = 1
+## 2024-05-04 09:48:36 ##
+Order created
+## 2024-05-04 09:48:36 ##
+----> END placeOrder()
+## 2024-05-04 09:48:36 ##
+----> END registerOrder()
+## 2024-05-04 09:48:36 ##
+----> Treatment is unlocked for the id_cart = 14170
+## 2024-05-04 09:48:39 ##
+##########################
+## 2024-05-04 09:48:39 ##
+START Validation Callback
+## 2024-05-04 09:48:39 ##
+##########################
+## 2024-05-04 09:48:39 ##
+----> Treatment is locked for the id_cart = 14170
+## 2024-05-04 09:48:39 ##
+data for validation
+## 2024-05-04 09:48:39 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ae8e92163068cba98d9c30718aa4221c</md5content><result><operation>capture</operation><status>ok</status><date>2024-05-04</date><time>07:48:37 UTC+0000</time><origAmount>140.12</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14170</idForMerchant><emailClient>arnaud.jacquet.02@gmail.com</emailClient><idClient>23543566</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14170</_aKey_cart_id>  <_aKey_customer_id>4262</_aKey_customer_id>  <_aKey_secure_key>042ebe41788bbf7a67c8ea9874b60a6e</_aKey_secure_key>  <_aKey_token>c2de18115e9d9daf0a5aadfc9a5718c4</_aKey_token></merchantDatas><transid>6635E80BAAF7E109</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ae8e92163068cba98d9c30718aa4221c
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-05-04
+                    [time] => 07:48:37 UTC+0000
+                    [origAmount] => 140.12
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14170
+                    [emailClient] => arnaud.jacquet.02@gmail.com
+                    [idClient] => 23543566
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14170
+                            [_aKey_customer_id] => 4262
+                            [_aKey_secure_key] => 042ebe41788bbf7a67c8ea9874b60a6e
+                            [_aKey_token] => c2de18115e9d9daf0a5aadfc9a5718c4
+                        )
+
+                    [transid] => 6635E80BAAF7E109
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 14170
+    [3] => 4262
+    [4] => 042ebe41788bbf7a67c8ea9874b60a6e
+    [5] => 140.12
+)
+
+## 2024-05-04 09:48:39 ##
+----> START registerOrder()
+## 2024-05-04 09:48:39 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-04 09:48:39 ##
+<result><operation>capture</operation><status>ok</status><date>2024-05-04</date><time>07:48:37 UTC+0000</time><origAmount>140.12</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14170</idForMerchant><emailClient>arnaud.jacquet.02@gmail.com</emailClient><idClient>23543566</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14170</_aKey_cart_id>  <_aKey_customer_id>4262</_aKey_customer_id>  <_aKey_secure_key>042ebe41788bbf7a67c8ea9874b60a6e</_aKey_secure_key>  <_aKey_token>c2de18115e9d9daf0a5aadfc9a5718c4</_aKey_token></merchantDatas><transid>6635E80BAAF7E109</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-05-04 09:48:39 ##
+currency : EUR
+## 2024-05-04 09:48:39 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-04 09:48:39 ##
+callback_salt : 
+## 2024-05-04 09:48:39 ##
+md5 : ae8e92163068cba98d9c30718aa4221c == md5content : ae8e92163068cba98d9c30718aa4221c
+## 2024-05-04 09:48:39 ##
+Status = ok
+## 2024-05-04 09:48:39 ##
+$currency = EUR
+## 2024-05-04 09:48:39 ##
+id_order_state = 2
+## 2024-05-04 09:48:39 ##
+----> START placeOrder()
+## 2024-05-04 09:48:39 ##
+Treatment an existing order
+## 2024-05-04 09:48:39 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-05-04 09:48:39 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-05-04
+    [time] => 07:48:37 UTC+0000
+    [origAmount] => 140.12
+    [origCurrency] => EUR
+    [idForMerchant] => 14170
+    [emailClient] => arnaud.jacquet.02@gmail.com
+    [idClient] => 23543566
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 14170
+            [_aKey_customer_id] => 4262
+            [_aKey_secure_key] => 042ebe41788bbf7a67c8ea9874b60a6e
+            [_aKey_token] => c2de18115e9d9daf0a5aadfc9a5718c4
+        )
+
+    [transid] => 6635E80BAAF7E109
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-05-04 09:48:40 ##
+----> END placeOrder()
+## 2024-05-04 09:48:40 ##
+----> END registerOrder()
+## 2024-05-04 09:48:40 ##
+----> Treatment is unlocked for the id_cart = 14170

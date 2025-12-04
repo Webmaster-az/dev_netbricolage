@@ -1,0 +1,518 @@
+## 2023-02-27 13:48:11 ##
+##########################
+## 2023-02-27 13:48:11 ##
+START Validation Callback
+## 2023-02-27 13:48:11 ##
+##########################
+## 2023-02-27 13:48:11 ##
+----> Treatment is locked for the id_cart = 7549
+## 2023-02-27 13:48:11 ##
+data for validation
+## 2023-02-27 13:48:11 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>6f4012f2d54452f17f231045b2d2b7fb</md5content><result><operation>authorization</operation><status>ok</status><date>2023-02-27</date><time>12:48:09 UTC+0000</time><origAmount>339.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7549</idForMerchant><emailClient>q.monnie1@libertysurf.fr</emailClient><idClient>22082751</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7549</_aKey_cart_id>  <_aKey_customer_id>3163</_aKey_customer_id>  <_aKey_secure_key>6c684676b6eda117734f4552564829d1</_aKey_secure_key>  <_aKey_token>41b140febab4dcc9bb2aabdcd35f2dde</_aKey_token></merchantDatas><transid>63FCA64960902224</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 6f4012f2d54452f17f231045b2d2b7fb
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-02-27
+                    [time] => 12:48:09 UTC+0000
+                    [origAmount] => 339.58
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7549
+                    [emailClient] => q.monnie1@libertysurf.fr
+                    [idClient] => 22082751
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7549
+                            [_aKey_customer_id] => 3163
+                            [_aKey_secure_key] => 6c684676b6eda117734f4552564829d1
+                            [_aKey_token] => 41b140febab4dcc9bb2aabdcd35f2dde
+                        )
+
+                    [transid] => 63FCA64960902224
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7549
+    [3] => 3163
+    [4] => 6c684676b6eda117734f4552564829d1
+    [5] => 339.58
+)
+
+## 2023-02-27 13:48:11 ##
+----> START registerOrder()
+## 2023-02-27 13:48:11 ##
+accountID:13248407 / websiteId:418801
+## 2023-02-27 13:48:11 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-02-27</date><time>12:48:09 UTC+0000</time><origAmount>339.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7549</idForMerchant><emailClient>q.monnie1@libertysurf.fr</emailClient><idClient>22082751</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7549</_aKey_cart_id>  <_aKey_customer_id>3163</_aKey_customer_id>  <_aKey_secure_key>6c684676b6eda117734f4552564829d1</_aKey_secure_key>  <_aKey_token>41b140febab4dcc9bb2aabdcd35f2dde</_aKey_token></merchantDatas><transid>63FCA64960902224</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-02-27 13:48:11 ##
+currency : EUR
+## 2023-02-27 13:48:11 ##
+accountID:13248407 / websiteId:418801
+## 2023-02-27 13:48:11 ##
+callback_salt : 
+## 2023-02-27 13:48:11 ##
+md5 : 6f4012f2d54452f17f231045b2d2b7fb == md5content : 6f4012f2d54452f17f231045b2d2b7fb
+## 2023-02-27 13:48:11 ##
+Status = ok
+## 2023-02-27 13:48:11 ##
+$currency = EUR
+## 2023-02-27 13:48:11 ##
+id_order_state = 42
+## 2023-02-27 13:48:11 ##
+----> START placeOrder()
+## 2023-02-27 13:48:11 ##
+Treatment status = 42
+## 2023-02-27 13:48:11 ##
+Validate order
+## 2023-02-27 13:48:11 ##
+Array
+(
+    [0] => 7549
+    [1] => 42
+    [2] => 339.58
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"63FCA64960902224"}
+    [5] => Array
+        (
+            [transaction_id] => 63FCA64960902224
+        )
+
+    [6] => 1
+    [7] => 6c684676b6eda117734f4552564829d1
+)
+
+## 2023-02-27 13:48:11 ##
+ID Shop = 1
+## 2023-02-27 13:48:19 ##
+Order created
+## 2023-02-27 13:48:19 ##
+----> END placeOrder()
+## 2023-02-27 13:48:19 ##
+----> END registerOrder()
+## 2023-02-27 13:48:19 ##
+----> Treatment is unlocked for the id_cart = 7549
+## 2023-02-27 13:48:21 ##
+##########################
+## 2023-02-27 13:48:21 ##
+START Validation Callback
+## 2023-02-27 13:48:21 ##
+##########################
+## 2023-02-27 13:48:21 ##
+----> Treatment is locked for the id_cart = 7549
+## 2023-02-27 13:48:21 ##
+data for validation
+## 2023-02-27 13:48:21 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>d81493a94a0bec1bb8be1a79f0ea8d33</md5content><result><operation>capture</operation><status>ok</status><date>2023-02-27</date><time>12:48:17 UTC+0000</time><origAmount>339.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7549</idForMerchant><emailClient>q.monnie1@libertysurf.fr</emailClient><idClient>22082751</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7549</_aKey_cart_id>  <_aKey_customer_id>3163</_aKey_customer_id>  <_aKey_secure_key>6c684676b6eda117734f4552564829d1</_aKey_secure_key>  <_aKey_token>41b140febab4dcc9bb2aabdcd35f2dde</_aKey_token></merchantDatas><transid>63FCA64960902224</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => d81493a94a0bec1bb8be1a79f0ea8d33
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-02-27
+                    [time] => 12:48:17 UTC+0000
+                    [origAmount] => 339.58
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7549
+                    [emailClient] => q.monnie1@libertysurf.fr
+                    [idClient] => 22082751
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7549
+                            [_aKey_customer_id] => 3163
+                            [_aKey_secure_key] => 6c684676b6eda117734f4552564829d1
+                            [_aKey_token] => 41b140febab4dcc9bb2aabdcd35f2dde
+                        )
+
+                    [transid] => 63FCA64960902224
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7549
+    [3] => 3163
+    [4] => 6c684676b6eda117734f4552564829d1
+    [5] => 339.58
+)
+
+## 2023-02-27 13:48:21 ##
+----> START registerOrder()
+## 2023-02-27 13:48:21 ##
+accountID:13248407 / websiteId:418801
+## 2023-02-27 13:48:21 ##
+<result><operation>capture</operation><status>ok</status><date>2023-02-27</date><time>12:48:17 UTC+0000</time><origAmount>339.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7549</idForMerchant><emailClient>q.monnie1@libertysurf.fr</emailClient><idClient>22082751</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7549</_aKey_cart_id>  <_aKey_customer_id>3163</_aKey_customer_id>  <_aKey_secure_key>6c684676b6eda117734f4552564829d1</_aKey_secure_key>  <_aKey_token>41b140febab4dcc9bb2aabdcd35f2dde</_aKey_token></merchantDatas><transid>63FCA64960902224</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-02-27 13:48:21 ##
+currency : EUR
+## 2023-02-27 13:48:21 ##
+accountID:13248407 / websiteId:418801
+## 2023-02-27 13:48:21 ##
+callback_salt : 
+## 2023-02-27 13:48:21 ##
+md5 : d81493a94a0bec1bb8be1a79f0ea8d33 == md5content : d81493a94a0bec1bb8be1a79f0ea8d33
+## 2023-02-27 13:48:21 ##
+Status = ok
+## 2023-02-27 13:48:21 ##
+$currency = EUR
+## 2023-02-27 13:48:21 ##
+id_order_state = 2
+## 2023-02-27 13:48:21 ##
+----> START placeOrder()
+## 2023-02-27 13:48:21 ##
+Treatment an existing order
+## 2023-02-27 13:48:21 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-02-27 13:48:21 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-02-27
+    [time] => 12:48:17 UTC+0000
+    [origAmount] => 339.58
+    [origCurrency] => EUR
+    [idForMerchant] => 7549
+    [emailClient] => q.monnie1@libertysurf.fr
+    [idClient] => 22082751
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 7549
+            [_aKey_customer_id] => 3163
+            [_aKey_secure_key] => 6c684676b6eda117734f4552564829d1
+            [_aKey_token] => 41b140febab4dcc9bb2aabdcd35f2dde
+        )
+
+    [transid] => 63FCA64960902224
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-02-27 13:48:21 ##
+----> END placeOrder()
+## 2023-02-27 13:48:21 ##
+----> END registerOrder()
+## 2023-02-27 13:48:21 ##
+----> Treatment is unlocked for the id_cart = 7549
+## 2023-02-27 23:47:08 ##
+##########################
+## 2023-02-27 23:47:08 ##
+START Validation Callback
+## 2023-02-27 23:47:08 ##
+##########################
+## 2023-02-27 23:47:08 ##
+----> Treatment is locked for the id_cart = 7562
+## 2023-02-27 23:47:08 ##
+data for validation
+## 2023-02-27 23:47:08 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>f8b12bb62fe88dbb5d55722af48d2373</md5content><result><operation>authorization</operation><status>ok</status><date>2023-02-27</date><time>22:47:06 UTC+0000</time><origAmount>363.42</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7562</idForMerchant><emailClient>ppintoelectricite@gmail.com</emailClient><idClient>22085043</idClient><cardCountry>FR</cardCountry><ipCountry>AD</ipCountry><merchantDatas>  <_aKey_cart_id>7562</_aKey_cart_id>  <_aKey_customer_id>3167</_aKey_customer_id>  <_aKey_secure_key>6e002d1b7eef507ea710b0ab68b720ab</_aKey_secure_key>  <_aKey_token>b6e71a7ae3eff308be566e1ea55c8856</_aKey_token></merchantDatas><transid>63FD32C15CE20224</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => f8b12bb62fe88dbb5d55722af48d2373
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-02-27
+                    [time] => 22:47:06 UTC+0000
+                    [origAmount] => 363.42
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7562
+                    [emailClient] => ppintoelectricite@gmail.com
+                    [idClient] => 22085043
+                    [cardCountry] => FR
+                    [ipCountry] => AD
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7562
+                            [_aKey_customer_id] => 3167
+                            [_aKey_secure_key] => 6e002d1b7eef507ea710b0ab68b720ab
+                            [_aKey_token] => b6e71a7ae3eff308be566e1ea55c8856
+                        )
+
+                    [transid] => 63FD32C15CE20224
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7562
+    [3] => 3167
+    [4] => 6e002d1b7eef507ea710b0ab68b720ab
+    [5] => 363.42
+)
+
+## 2023-02-27 23:47:08 ##
+----> START registerOrder()
+## 2023-02-27 23:47:08 ##
+accountID:13248407 / websiteId:418801
+## 2023-02-27 23:47:08 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-02-27</date><time>22:47:06 UTC+0000</time><origAmount>363.42</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7562</idForMerchant><emailClient>ppintoelectricite@gmail.com</emailClient><idClient>22085043</idClient><cardCountry>FR</cardCountry><ipCountry>AD</ipCountry><merchantDatas>  <_aKey_cart_id>7562</_aKey_cart_id>  <_aKey_customer_id>3167</_aKey_customer_id>  <_aKey_secure_key>6e002d1b7eef507ea710b0ab68b720ab</_aKey_secure_key>  <_aKey_token>b6e71a7ae3eff308be566e1ea55c8856</_aKey_token></merchantDatas><transid>63FD32C15CE20224</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-02-27 23:47:08 ##
+currency : EUR
+## 2023-02-27 23:47:08 ##
+accountID:13248407 / websiteId:418801
+## 2023-02-27 23:47:08 ##
+callback_salt : 
+## 2023-02-27 23:47:08 ##
+md5 : f8b12bb62fe88dbb5d55722af48d2373 == md5content : f8b12bb62fe88dbb5d55722af48d2373
+## 2023-02-27 23:47:08 ##
+Status = ok
+## 2023-02-27 23:47:08 ##
+$currency = EUR
+## 2023-02-27 23:47:08 ##
+id_order_state = 42
+## 2023-02-27 23:47:08 ##
+----> START placeOrder()
+## 2023-02-27 23:47:08 ##
+Treatment status = 42
+## 2023-02-27 23:47:08 ##
+Validate order
+## 2023-02-27 23:47:08 ##
+Array
+(
+    [0] => 7562
+    [1] => 42
+    [2] => 363.42
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"63FD32C15CE20224"}
+    [5] => Array
+        (
+            [transaction_id] => 63FD32C15CE20224
+        )
+
+    [6] => 1
+    [7] => 6e002d1b7eef507ea710b0ab68b720ab
+)
+
+## 2023-02-27 23:47:08 ##
+ID Shop = 1
+## 2023-02-27 23:47:14 ##
+Order created
+## 2023-02-27 23:47:14 ##
+----> END placeOrder()
+## 2023-02-27 23:47:14 ##
+----> END registerOrder()
+## 2023-02-27 23:47:14 ##
+----> Treatment is unlocked for the id_cart = 7562
+## 2023-02-27 23:47:18 ##
+##########################
+## 2023-02-27 23:47:18 ##
+START Validation Callback
+## 2023-02-27 23:47:18 ##
+##########################
+## 2023-02-27 23:47:18 ##
+----> Treatment is locked for the id_cart = 7562
+## 2023-02-27 23:47:18 ##
+data for validation
+## 2023-02-27 23:47:18 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>6f049b353bebe7bb7eeecabc0077727e</md5content><result><operation>capture</operation><status>ok</status><date>2023-02-27</date><time>22:47:13 UTC+0000</time><origAmount>363.42</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7562</idForMerchant><emailClient>ppintoelectricite@gmail.com</emailClient><idClient>22085043</idClient><cardCountry>FR</cardCountry><ipCountry>AD</ipCountry><merchantDatas>  <_aKey_cart_id>7562</_aKey_cart_id>  <_aKey_customer_id>3167</_aKey_customer_id>  <_aKey_secure_key>6e002d1b7eef507ea710b0ab68b720ab</_aKey_secure_key>  <_aKey_token>b6e71a7ae3eff308be566e1ea55c8856</_aKey_token></merchantDatas><transid>63FD32C15CE20224</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 6f049b353bebe7bb7eeecabc0077727e
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-02-27
+                    [time] => 22:47:13 UTC+0000
+                    [origAmount] => 363.42
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7562
+                    [emailClient] => ppintoelectricite@gmail.com
+                    [idClient] => 22085043
+                    [cardCountry] => FR
+                    [ipCountry] => AD
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7562
+                            [_aKey_customer_id] => 3167
+                            [_aKey_secure_key] => 6e002d1b7eef507ea710b0ab68b720ab
+                            [_aKey_token] => b6e71a7ae3eff308be566e1ea55c8856
+                        )
+
+                    [transid] => 63FD32C15CE20224
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7562
+    [3] => 3167
+    [4] => 6e002d1b7eef507ea710b0ab68b720ab
+    [5] => 363.42
+)
+
+## 2023-02-27 23:47:18 ##
+----> START registerOrder()
+## 2023-02-27 23:47:18 ##
+accountID:13248407 / websiteId:418801
+## 2023-02-27 23:47:18 ##
+<result><operation>capture</operation><status>ok</status><date>2023-02-27</date><time>22:47:13 UTC+0000</time><origAmount>363.42</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7562</idForMerchant><emailClient>ppintoelectricite@gmail.com</emailClient><idClient>22085043</idClient><cardCountry>FR</cardCountry><ipCountry>AD</ipCountry><merchantDatas>  <_aKey_cart_id>7562</_aKey_cart_id>  <_aKey_customer_id>3167</_aKey_customer_id>  <_aKey_secure_key>6e002d1b7eef507ea710b0ab68b720ab</_aKey_secure_key>  <_aKey_token>b6e71a7ae3eff308be566e1ea55c8856</_aKey_token></merchantDatas><transid>63FD32C15CE20224</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-02-27 23:47:18 ##
+currency : EUR
+## 2023-02-27 23:47:18 ##
+accountID:13248407 / websiteId:418801
+## 2023-02-27 23:47:18 ##
+callback_salt : 
+## 2023-02-27 23:47:18 ##
+md5 : 6f049b353bebe7bb7eeecabc0077727e == md5content : 6f049b353bebe7bb7eeecabc0077727e
+## 2023-02-27 23:47:18 ##
+Status = ok
+## 2023-02-27 23:47:18 ##
+$currency = EUR
+## 2023-02-27 23:47:18 ##
+id_order_state = 2
+## 2023-02-27 23:47:18 ##
+----> START placeOrder()
+## 2023-02-27 23:47:18 ##
+Treatment an existing order
+## 2023-02-27 23:47:18 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-02-27 23:47:18 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-02-27
+    [time] => 22:47:13 UTC+0000
+    [origAmount] => 363.42
+    [origCurrency] => EUR
+    [idForMerchant] => 7562
+    [emailClient] => ppintoelectricite@gmail.com
+    [idClient] => 22085043
+    [cardCountry] => FR
+    [ipCountry] => AD
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 7562
+            [_aKey_customer_id] => 3167
+            [_aKey_secure_key] => 6e002d1b7eef507ea710b0ab68b720ab
+            [_aKey_token] => b6e71a7ae3eff308be566e1ea55c8856
+        )
+
+    [transid] => 63FD32C15CE20224
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-02-27 23:47:18 ##
+----> END placeOrder()
+## 2023-02-27 23:47:18 ##
+----> END registerOrder()
+## 2023-02-27 23:47:18 ##
+----> Treatment is unlocked for the id_cart = 7562

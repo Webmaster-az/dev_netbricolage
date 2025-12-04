@@ -1,0 +1,259 @@
+## 2022-07-18 13:26:17 ##
+##########################
+## 2022-07-18 13:26:17 ##
+START Validation Callback
+## 2022-07-18 13:26:17 ##
+##########################
+## 2022-07-18 13:26:17 ##
+----> Treatment is locked for the id_cart = 3680
+## 2022-07-18 13:26:17 ##
+data for validation
+## 2022-07-18 13:26:17 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>e1e379b0767ef7377d4b760034627e67</md5content><result><operation>authorization</operation><status>ok</status><date>2022-07-18</date><time>11:26:14 UTC+0000</time><origAmount>234.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3680</idForMerchant><emailClient>dennis@sommetholdings.com</emailClient><idClient>21246302</idClient><cardCountry>BE</cardCountry><ipCountry>GB</ipCountry><merchantDatas>  <_aKey_cart_id>3680</_aKey_cart_id>  <_aKey_customer_id>2266</_aKey_customer_id>  <_aKey_secure_key>7ebfc1a28bd38c047d66010c40437584</_aKey_secure_key>  <_aKey_token>3bce47e6029e7e1ce0a5e23e76bd8975</_aKey_token></merchantDatas><transid>62D543334AAA8125</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => e1e379b0767ef7377d4b760034627e67
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-07-18
+                    [time] => 11:26:14 UTC+0000
+                    [origAmount] => 234.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3680
+                    [emailClient] => dennis@sommetholdings.com
+                    [idClient] => 21246302
+                    [cardCountry] => BE
+                    [ipCountry] => GB
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3680
+                            [_aKey_customer_id] => 2266
+                            [_aKey_secure_key] => 7ebfc1a28bd38c047d66010c40437584
+                            [_aKey_token] => 3bce47e6029e7e1ce0a5e23e76bd8975
+                        )
+
+                    [transid] => 62D543334AAA8125
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3680
+    [3] => 2266
+    [4] => 7ebfc1a28bd38c047d66010c40437584
+    [5] => 234.6
+)
+
+## 2022-07-18 13:26:17 ##
+----> START registerOrder()
+## 2022-07-18 13:26:17 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-18 13:26:17 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-07-18</date><time>11:26:14 UTC+0000</time><origAmount>234.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3680</idForMerchant><emailClient>dennis@sommetholdings.com</emailClient><idClient>21246302</idClient><cardCountry>BE</cardCountry><ipCountry>GB</ipCountry><merchantDatas>  <_aKey_cart_id>3680</_aKey_cart_id>  <_aKey_customer_id>2266</_aKey_customer_id>  <_aKey_secure_key>7ebfc1a28bd38c047d66010c40437584</_aKey_secure_key>  <_aKey_token>3bce47e6029e7e1ce0a5e23e76bd8975</_aKey_token></merchantDatas><transid>62D543334AAA8125</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-07-18 13:26:17 ##
+currency : EUR
+## 2022-07-18 13:26:17 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-18 13:26:17 ##
+callback_salt : 
+## 2022-07-18 13:26:17 ##
+md5 : e1e379b0767ef7377d4b760034627e67 == md5content : e1e379b0767ef7377d4b760034627e67
+## 2022-07-18 13:26:17 ##
+Status = ok
+## 2022-07-18 13:26:17 ##
+$currency = EUR
+## 2022-07-18 13:26:17 ##
+id_order_state = 42
+## 2022-07-18 13:26:17 ##
+----> START placeOrder()
+## 2022-07-18 13:26:17 ##
+Treatment status = 42
+## 2022-07-18 13:26:17 ##
+Validate order
+## 2022-07-18 13:26:17 ##
+Array
+(
+    [0] => 3680
+    [1] => 42
+    [2] => 234.6
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"62D543334AAA8125"}
+    [5] => Array
+        (
+            [transaction_id] => 62D543334AAA8125
+        )
+
+    [6] => 1
+    [7] => 7ebfc1a28bd38c047d66010c40437584
+)
+
+## 2022-07-18 13:26:17 ##
+ID Shop = 1
+## 2022-07-18 13:26:18 ##
+Order created
+## 2022-07-18 13:26:18 ##
+----> END placeOrder()
+## 2022-07-18 13:26:18 ##
+----> END registerOrder()
+## 2022-07-18 13:26:18 ##
+----> Treatment is unlocked for the id_cart = 3680
+## 2022-07-18 13:26:22 ##
+##########################
+## 2022-07-18 13:26:22 ##
+START Validation Callback
+## 2022-07-18 13:26:22 ##
+##########################
+## 2022-07-18 13:26:22 ##
+----> Treatment is locked for the id_cart = 3680
+## 2022-07-18 13:26:22 ##
+data for validation
+## 2022-07-18 13:26:22 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ad32b8eac616996389f644123b5d0065</md5content><result><operation>capture</operation><status>ok</status><date>2022-07-18</date><time>11:26:21 UTC+0000</time><origAmount>234.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3680</idForMerchant><emailClient>dennis@sommetholdings.com</emailClient><idClient>21246302</idClient><cardCountry>BE</cardCountry><ipCountry>GB</ipCountry><merchantDatas>  <_aKey_cart_id>3680</_aKey_cart_id>  <_aKey_customer_id>2266</_aKey_customer_id>  <_aKey_secure_key>7ebfc1a28bd38c047d66010c40437584</_aKey_secure_key>  <_aKey_token>3bce47e6029e7e1ce0a5e23e76bd8975</_aKey_token></merchantDatas><transid>62D543334AAA8125</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ad32b8eac616996389f644123b5d0065
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-07-18
+                    [time] => 11:26:21 UTC+0000
+                    [origAmount] => 234.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3680
+                    [emailClient] => dennis@sommetholdings.com
+                    [idClient] => 21246302
+                    [cardCountry] => BE
+                    [ipCountry] => GB
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3680
+                            [_aKey_customer_id] => 2266
+                            [_aKey_secure_key] => 7ebfc1a28bd38c047d66010c40437584
+                            [_aKey_token] => 3bce47e6029e7e1ce0a5e23e76bd8975
+                        )
+
+                    [transid] => 62D543334AAA8125
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3680
+    [3] => 2266
+    [4] => 7ebfc1a28bd38c047d66010c40437584
+    [5] => 234.6
+)
+
+## 2022-07-18 13:26:22 ##
+----> START registerOrder()
+## 2022-07-18 13:26:22 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-18 13:26:22 ##
+<result><operation>capture</operation><status>ok</status><date>2022-07-18</date><time>11:26:21 UTC+0000</time><origAmount>234.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3680</idForMerchant><emailClient>dennis@sommetholdings.com</emailClient><idClient>21246302</idClient><cardCountry>BE</cardCountry><ipCountry>GB</ipCountry><merchantDatas>  <_aKey_cart_id>3680</_aKey_cart_id>  <_aKey_customer_id>2266</_aKey_customer_id>  <_aKey_secure_key>7ebfc1a28bd38c047d66010c40437584</_aKey_secure_key>  <_aKey_token>3bce47e6029e7e1ce0a5e23e76bd8975</_aKey_token></merchantDatas><transid>62D543334AAA8125</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-07-18 13:26:22 ##
+currency : EUR
+## 2022-07-18 13:26:22 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-18 13:26:22 ##
+callback_salt : 
+## 2022-07-18 13:26:22 ##
+md5 : ad32b8eac616996389f644123b5d0065 == md5content : ad32b8eac616996389f644123b5d0065
+## 2022-07-18 13:26:22 ##
+Status = ok
+## 2022-07-18 13:26:22 ##
+$currency = EUR
+## 2022-07-18 13:26:22 ##
+id_order_state = 2
+## 2022-07-18 13:26:22 ##
+----> START placeOrder()
+## 2022-07-18 13:26:22 ##
+Treatment an existing order
+## 2022-07-18 13:26:22 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-07-18 13:26:22 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-07-18
+    [time] => 11:26:21 UTC+0000
+    [origAmount] => 234.60
+    [origCurrency] => EUR
+    [idForMerchant] => 3680
+    [emailClient] => dennis@sommetholdings.com
+    [idClient] => 21246302
+    [cardCountry] => BE
+    [ipCountry] => GB
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 3680
+            [_aKey_customer_id] => 2266
+            [_aKey_secure_key] => 7ebfc1a28bd38c047d66010c40437584
+            [_aKey_token] => 3bce47e6029e7e1ce0a5e23e76bd8975
+        )
+
+    [transid] => 62D543334AAA8125
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-07-18 13:26:23 ##
+----> END placeOrder()
+## 2022-07-18 13:26:23 ##
+----> END registerOrder()
+## 2022-07-18 13:26:23 ##
+----> Treatment is unlocked for the id_cart = 3680

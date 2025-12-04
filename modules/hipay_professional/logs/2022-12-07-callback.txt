@@ -1,0 +1,777 @@
+## 2022-12-07 14:07:14 ##
+##########################
+## 2022-12-07 14:07:14 ##
+START Validation Callback
+## 2022-12-07 14:07:14 ##
+##########################
+## 2022-12-07 14:07:14 ##
+----> Treatment is locked for the id_cart = 6284
+## 2022-12-07 14:07:14 ##
+data for validation
+## 2022-12-07 14:07:14 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>9c85cc106acac58e94b4ecd57971adb8</md5content><result><operation>authorization</operation><status>ok</status><date>2022-12-07</date><time>13:07:12 UTC+0000</time><origAmount>102.46</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6284</idForMerchant><emailClient>fagueret.romain@orange.fr</emailClient><idClient>21783796</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6284</_aKey_cart_id>  <_aKey_customer_id>2890</_aKey_customer_id>  <_aKey_secure_key>215cccb58d3bd7f0e1a855d39ef2e938</_aKey_secure_key>  <_aKey_token>1e7afd9c4e2205aede15e77935fa89f3</_aKey_token></merchantDatas><transid>63908FC318745898</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 9c85cc106acac58e94b4ecd57971adb8
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-12-07
+                    [time] => 13:07:12 UTC+0000
+                    [origAmount] => 102.46
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6284
+                    [emailClient] => fagueret.romain@orange.fr
+                    [idClient] => 21783796
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6284
+                            [_aKey_customer_id] => 2890
+                            [_aKey_secure_key] => 215cccb58d3bd7f0e1a855d39ef2e938
+                            [_aKey_token] => 1e7afd9c4e2205aede15e77935fa89f3
+                        )
+
+                    [transid] => 63908FC318745898
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6284
+    [3] => 2890
+    [4] => 215cccb58d3bd7f0e1a855d39ef2e938
+    [5] => 102.46
+)
+
+## 2022-12-07 14:07:14 ##
+----> START registerOrder()
+## 2022-12-07 14:07:14 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 14:07:14 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-12-07</date><time>13:07:12 UTC+0000</time><origAmount>102.46</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6284</idForMerchant><emailClient>fagueret.romain@orange.fr</emailClient><idClient>21783796</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6284</_aKey_cart_id>  <_aKey_customer_id>2890</_aKey_customer_id>  <_aKey_secure_key>215cccb58d3bd7f0e1a855d39ef2e938</_aKey_secure_key>  <_aKey_token>1e7afd9c4e2205aede15e77935fa89f3</_aKey_token></merchantDatas><transid>63908FC318745898</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-07 14:07:14 ##
+currency : EUR
+## 2022-12-07 14:07:14 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 14:07:14 ##
+callback_salt : 
+## 2022-12-07 14:07:14 ##
+md5 : 9c85cc106acac58e94b4ecd57971adb8 == md5content : 9c85cc106acac58e94b4ecd57971adb8
+## 2022-12-07 14:07:14 ##
+Status = ok
+## 2022-12-07 14:07:14 ##
+$currency = EUR
+## 2022-12-07 14:07:14 ##
+id_order_state = 42
+## 2022-12-07 14:07:14 ##
+----> START placeOrder()
+## 2022-12-07 14:07:14 ##
+Treatment status = 42
+## 2022-12-07 14:07:14 ##
+Validate order
+## 2022-12-07 14:07:14 ##
+Array
+(
+    [0] => 6284
+    [1] => 42
+    [2] => 102.46
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"63908FC318745898"}
+    [5] => Array
+        (
+            [transaction_id] => 63908FC318745898
+        )
+
+    [6] => 1
+    [7] => 215cccb58d3bd7f0e1a855d39ef2e938
+)
+
+## 2022-12-07 14:07:14 ##
+ID Shop = 1
+## 2022-12-07 14:07:17 ##
+Order created
+## 2022-12-07 14:07:17 ##
+----> END placeOrder()
+## 2022-12-07 14:07:17 ##
+----> END registerOrder()
+## 2022-12-07 14:07:17 ##
+----> Treatment is unlocked for the id_cart = 6284
+## 2022-12-07 14:07:23 ##
+##########################
+## 2022-12-07 14:07:23 ##
+START Validation Callback
+## 2022-12-07 14:07:23 ##
+##########################
+## 2022-12-07 14:07:23 ##
+----> Treatment is locked for the id_cart = 6284
+## 2022-12-07 14:07:23 ##
+data for validation
+## 2022-12-07 14:07:23 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>68539e23cd57a6291ca961ad383658ab</md5content><result><operation>capture</operation><status>ok</status><date>2022-12-07</date><time>13:07:19 UTC+0000</time><origAmount>102.46</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6284</idForMerchant><emailClient>fagueret.romain@orange.fr</emailClient><idClient>21783796</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6284</_aKey_cart_id>  <_aKey_customer_id>2890</_aKey_customer_id>  <_aKey_secure_key>215cccb58d3bd7f0e1a855d39ef2e938</_aKey_secure_key>  <_aKey_token>1e7afd9c4e2205aede15e77935fa89f3</_aKey_token></merchantDatas><transid>63908FC318745898</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 68539e23cd57a6291ca961ad383658ab
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-12-07
+                    [time] => 13:07:19 UTC+0000
+                    [origAmount] => 102.46
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6284
+                    [emailClient] => fagueret.romain@orange.fr
+                    [idClient] => 21783796
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6284
+                            [_aKey_customer_id] => 2890
+                            [_aKey_secure_key] => 215cccb58d3bd7f0e1a855d39ef2e938
+                            [_aKey_token] => 1e7afd9c4e2205aede15e77935fa89f3
+                        )
+
+                    [transid] => 63908FC318745898
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6284
+    [3] => 2890
+    [4] => 215cccb58d3bd7f0e1a855d39ef2e938
+    [5] => 102.46
+)
+
+## 2022-12-07 14:07:23 ##
+----> START registerOrder()
+## 2022-12-07 14:07:23 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 14:07:23 ##
+<result><operation>capture</operation><status>ok</status><date>2022-12-07</date><time>13:07:19 UTC+0000</time><origAmount>102.46</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6284</idForMerchant><emailClient>fagueret.romain@orange.fr</emailClient><idClient>21783796</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6284</_aKey_cart_id>  <_aKey_customer_id>2890</_aKey_customer_id>  <_aKey_secure_key>215cccb58d3bd7f0e1a855d39ef2e938</_aKey_secure_key>  <_aKey_token>1e7afd9c4e2205aede15e77935fa89f3</_aKey_token></merchantDatas><transid>63908FC318745898</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-07 14:07:23 ##
+currency : EUR
+## 2022-12-07 14:07:23 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 14:07:23 ##
+callback_salt : 
+## 2022-12-07 14:07:23 ##
+md5 : 68539e23cd57a6291ca961ad383658ab == md5content : 68539e23cd57a6291ca961ad383658ab
+## 2022-12-07 14:07:23 ##
+Status = ok
+## 2022-12-07 14:07:23 ##
+$currency = EUR
+## 2022-12-07 14:07:23 ##
+id_order_state = 2
+## 2022-12-07 14:07:23 ##
+----> START placeOrder()
+## 2022-12-07 14:07:23 ##
+Treatment an existing order
+## 2022-12-07 14:07:23 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-12-07 14:07:23 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-12-07
+    [time] => 13:07:19 UTC+0000
+    [origAmount] => 102.46
+    [origCurrency] => EUR
+    [idForMerchant] => 6284
+    [emailClient] => fagueret.romain@orange.fr
+    [idClient] => 21783796
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 6284
+            [_aKey_customer_id] => 2890
+            [_aKey_secure_key] => 215cccb58d3bd7f0e1a855d39ef2e938
+            [_aKey_token] => 1e7afd9c4e2205aede15e77935fa89f3
+        )
+
+    [transid] => 63908FC318745898
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-12-07 14:07:23 ##
+----> END placeOrder()
+## 2022-12-07 14:07:23 ##
+----> END registerOrder()
+## 2022-12-07 14:07:23 ##
+----> Treatment is unlocked for the id_cart = 6284
+## 2022-12-07 19:41:33 ##
+##########################
+## 2022-12-07 19:41:33 ##
+START Validation Callback
+## 2022-12-07 19:41:33 ##
+##########################
+## 2022-12-07 19:41:33 ##
+----> Treatment is locked for the id_cart = 6359
+## 2022-12-07 19:41:33 ##
+data for validation
+## 2022-12-07 19:41:33 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8fd90552754afc966b104eed60e930a5</md5content><result><operation>authorization</operation><status>ok</status><date>2022-12-07</date><time>18:41:32 UTC+0000</time><origAmount>750.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6359</idForMerchant><emailClient>fab.chauvel@protonmail.com</emailClient><idClient>21785424</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6359</_aKey_cart_id>  <_aKey_customer_id>2892</_aKey_customer_id>  <_aKey_secure_key>ad526a04ab2fb0aed85ef9ff810f257f</_aKey_secure_key>  <_aKey_token>632a00909985c779f10b4686b10309b7</_aKey_token></merchantDatas><transid>6390DE24A8B6B210</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8fd90552754afc966b104eed60e930a5
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-12-07
+                    [time] => 18:41:32 UTC+0000
+                    [origAmount] => 750.58
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6359
+                    [emailClient] => fab.chauvel@protonmail.com
+                    [idClient] => 21785424
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6359
+                            [_aKey_customer_id] => 2892
+                            [_aKey_secure_key] => ad526a04ab2fb0aed85ef9ff810f257f
+                            [_aKey_token] => 632a00909985c779f10b4686b10309b7
+                        )
+
+                    [transid] => 6390DE24A8B6B210
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6359
+    [3] => 2892
+    [4] => ad526a04ab2fb0aed85ef9ff810f257f
+    [5] => 750.58
+)
+
+## 2022-12-07 19:41:33 ##
+----> START registerOrder()
+## 2022-12-07 19:41:33 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 19:41:33 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-12-07</date><time>18:41:32 UTC+0000</time><origAmount>750.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6359</idForMerchant><emailClient>fab.chauvel@protonmail.com</emailClient><idClient>21785424</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6359</_aKey_cart_id>  <_aKey_customer_id>2892</_aKey_customer_id>  <_aKey_secure_key>ad526a04ab2fb0aed85ef9ff810f257f</_aKey_secure_key>  <_aKey_token>632a00909985c779f10b4686b10309b7</_aKey_token></merchantDatas><transid>6390DE24A8B6B210</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-07 19:41:33 ##
+currency : EUR
+## 2022-12-07 19:41:33 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 19:41:33 ##
+callback_salt : 
+## 2022-12-07 19:41:33 ##
+md5 : 8fd90552754afc966b104eed60e930a5 == md5content : 8fd90552754afc966b104eed60e930a5
+## 2022-12-07 19:41:33 ##
+Status = ok
+## 2022-12-07 19:41:33 ##
+$currency = EUR
+## 2022-12-07 19:41:33 ##
+id_order_state = 42
+## 2022-12-07 19:41:33 ##
+----> START placeOrder()
+## 2022-12-07 19:41:33 ##
+Treatment status = 42
+## 2022-12-07 19:41:33 ##
+Validate order
+## 2022-12-07 19:41:33 ##
+Array
+(
+    [0] => 6359
+    [1] => 42
+    [2] => 750.58
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6390DE24A8B6B210"}
+    [5] => Array
+        (
+            [transaction_id] => 6390DE24A8B6B210
+        )
+
+    [6] => 1
+    [7] => ad526a04ab2fb0aed85ef9ff810f257f
+)
+
+## 2022-12-07 19:41:33 ##
+ID Shop = 1
+## 2022-12-07 19:41:38 ##
+Order created
+## 2022-12-07 19:41:38 ##
+----> END placeOrder()
+## 2022-12-07 19:41:38 ##
+----> END registerOrder()
+## 2022-12-07 19:41:38 ##
+----> Treatment is unlocked for the id_cart = 6359
+## 2022-12-07 19:41:42 ##
+##########################
+## 2022-12-07 19:41:42 ##
+START Validation Callback
+## 2022-12-07 19:41:42 ##
+##########################
+## 2022-12-07 19:41:42 ##
+----> Treatment is locked for the id_cart = 6359
+## 2022-12-07 19:41:42 ##
+data for validation
+## 2022-12-07 19:41:42 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>26e928fa2a763ee3acef50a2f63969a0</md5content><result><operation>capture</operation><status>ok</status><date>2022-12-07</date><time>18:41:39 UTC+0000</time><origAmount>750.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6359</idForMerchant><emailClient>fab.chauvel@protonmail.com</emailClient><idClient>21785424</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6359</_aKey_cart_id>  <_aKey_customer_id>2892</_aKey_customer_id>  <_aKey_secure_key>ad526a04ab2fb0aed85ef9ff810f257f</_aKey_secure_key>  <_aKey_token>632a00909985c779f10b4686b10309b7</_aKey_token></merchantDatas><transid>6390DE24A8B6B210</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 26e928fa2a763ee3acef50a2f63969a0
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-12-07
+                    [time] => 18:41:39 UTC+0000
+                    [origAmount] => 750.58
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6359
+                    [emailClient] => fab.chauvel@protonmail.com
+                    [idClient] => 21785424
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6359
+                            [_aKey_customer_id] => 2892
+                            [_aKey_secure_key] => ad526a04ab2fb0aed85ef9ff810f257f
+                            [_aKey_token] => 632a00909985c779f10b4686b10309b7
+                        )
+
+                    [transid] => 6390DE24A8B6B210
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6359
+    [3] => 2892
+    [4] => ad526a04ab2fb0aed85ef9ff810f257f
+    [5] => 750.58
+)
+
+## 2022-12-07 19:41:42 ##
+----> START registerOrder()
+## 2022-12-07 19:41:42 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 19:41:42 ##
+<result><operation>capture</operation><status>ok</status><date>2022-12-07</date><time>18:41:39 UTC+0000</time><origAmount>750.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6359</idForMerchant><emailClient>fab.chauvel@protonmail.com</emailClient><idClient>21785424</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6359</_aKey_cart_id>  <_aKey_customer_id>2892</_aKey_customer_id>  <_aKey_secure_key>ad526a04ab2fb0aed85ef9ff810f257f</_aKey_secure_key>  <_aKey_token>632a00909985c779f10b4686b10309b7</_aKey_token></merchantDatas><transid>6390DE24A8B6B210</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-07 19:41:42 ##
+currency : EUR
+## 2022-12-07 19:41:42 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 19:41:42 ##
+callback_salt : 
+## 2022-12-07 19:41:42 ##
+md5 : 26e928fa2a763ee3acef50a2f63969a0 == md5content : 26e928fa2a763ee3acef50a2f63969a0
+## 2022-12-07 19:41:42 ##
+Status = ok
+## 2022-12-07 19:41:42 ##
+$currency = EUR
+## 2022-12-07 19:41:42 ##
+id_order_state = 2
+## 2022-12-07 19:41:42 ##
+----> START placeOrder()
+## 2022-12-07 19:41:42 ##
+Treatment an existing order
+## 2022-12-07 19:41:42 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-12-07 19:41:42 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-12-07
+    [time] => 18:41:39 UTC+0000
+    [origAmount] => 750.58
+    [origCurrency] => EUR
+    [idForMerchant] => 6359
+    [emailClient] => fab.chauvel@protonmail.com
+    [idClient] => 21785424
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 6359
+            [_aKey_customer_id] => 2892
+            [_aKey_secure_key] => ad526a04ab2fb0aed85ef9ff810f257f
+            [_aKey_token] => 632a00909985c779f10b4686b10309b7
+        )
+
+    [transid] => 6390DE24A8B6B210
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-12-07 19:41:43 ##
+----> END placeOrder()
+## 2022-12-07 19:41:43 ##
+----> END registerOrder()
+## 2022-12-07 19:41:43 ##
+----> Treatment is unlocked for the id_cart = 6359
+## 2022-12-07 22:32:06 ##
+##########################
+## 2022-12-07 22:32:06 ##
+START Validation Callback
+## 2022-12-07 22:32:06 ##
+##########################
+## 2022-12-07 22:32:06 ##
+----> Treatment is locked for the id_cart = 6365
+## 2022-12-07 22:32:06 ##
+data for validation
+## 2022-12-07 22:32:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>9f68036fb895e005ce4c036e35acc132</md5content><result><operation>authorization</operation><status>ok</status><date>2022-12-07</date><time>21:32:04 UTC+0000</time><origAmount>53.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6365</idForMerchant><emailClient>daniel.tracoulat@gmail.com</emailClient><idClient>21786266</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6365</_aKey_cart_id>  <_aKey_customer_id>2894</_aKey_customer_id>  <_aKey_secure_key>fdd41202c817484b9d62f529f55a5f92</_aKey_secure_key>  <_aKey_token>1a5530ec14378fbe639e354728612e59</_aKey_token></merchantDatas><transid>6391060971B19149</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 9f68036fb895e005ce4c036e35acc132
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-12-07
+                    [time] => 21:32:04 UTC+0000
+                    [origAmount] => 53.26
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6365
+                    [emailClient] => daniel.tracoulat@gmail.com
+                    [idClient] => 21786266
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6365
+                            [_aKey_customer_id] => 2894
+                            [_aKey_secure_key] => fdd41202c817484b9d62f529f55a5f92
+                            [_aKey_token] => 1a5530ec14378fbe639e354728612e59
+                        )
+
+                    [transid] => 6391060971B19149
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6365
+    [3] => 2894
+    [4] => fdd41202c817484b9d62f529f55a5f92
+    [5] => 53.26
+)
+
+## 2022-12-07 22:32:06 ##
+----> START registerOrder()
+## 2022-12-07 22:32:06 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 22:32:06 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-12-07</date><time>21:32:04 UTC+0000</time><origAmount>53.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6365</idForMerchant><emailClient>daniel.tracoulat@gmail.com</emailClient><idClient>21786266</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6365</_aKey_cart_id>  <_aKey_customer_id>2894</_aKey_customer_id>  <_aKey_secure_key>fdd41202c817484b9d62f529f55a5f92</_aKey_secure_key>  <_aKey_token>1a5530ec14378fbe639e354728612e59</_aKey_token></merchantDatas><transid>6391060971B19149</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-07 22:32:06 ##
+currency : EUR
+## 2022-12-07 22:32:06 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 22:32:06 ##
+callback_salt : 
+## 2022-12-07 22:32:06 ##
+md5 : 9f68036fb895e005ce4c036e35acc132 == md5content : 9f68036fb895e005ce4c036e35acc132
+## 2022-12-07 22:32:06 ##
+Status = ok
+## 2022-12-07 22:32:06 ##
+$currency = EUR
+## 2022-12-07 22:32:06 ##
+id_order_state = 42
+## 2022-12-07 22:32:06 ##
+----> START placeOrder()
+## 2022-12-07 22:32:06 ##
+Treatment status = 42
+## 2022-12-07 22:32:06 ##
+Validate order
+## 2022-12-07 22:32:06 ##
+Array
+(
+    [0] => 6365
+    [1] => 42
+    [2] => 53.26
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6391060971B19149"}
+    [5] => Array
+        (
+            [transaction_id] => 6391060971B19149
+        )
+
+    [6] => 1
+    [7] => fdd41202c817484b9d62f529f55a5f92
+)
+
+## 2022-12-07 22:32:06 ##
+ID Shop = 1
+## 2022-12-07 22:32:09 ##
+Order created
+## 2022-12-07 22:32:09 ##
+----> END placeOrder()
+## 2022-12-07 22:32:09 ##
+----> END registerOrder()
+## 2022-12-07 22:32:09 ##
+----> Treatment is unlocked for the id_cart = 6365
+## 2022-12-07 22:32:14 ##
+##########################
+## 2022-12-07 22:32:14 ##
+START Validation Callback
+## 2022-12-07 22:32:14 ##
+##########################
+## 2022-12-07 22:32:14 ##
+----> Treatment is locked for the id_cart = 6365
+## 2022-12-07 22:32:14 ##
+data for validation
+## 2022-12-07 22:32:14 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>6722e6113f869242ffab050dde56cd2d</md5content><result><operation>capture</operation><status>ok</status><date>2022-12-07</date><time>21:32:11 UTC+0000</time><origAmount>53.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6365</idForMerchant><emailClient>daniel.tracoulat@gmail.com</emailClient><idClient>21786266</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6365</_aKey_cart_id>  <_aKey_customer_id>2894</_aKey_customer_id>  <_aKey_secure_key>fdd41202c817484b9d62f529f55a5f92</_aKey_secure_key>  <_aKey_token>1a5530ec14378fbe639e354728612e59</_aKey_token></merchantDatas><transid>6391060971B19149</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 6722e6113f869242ffab050dde56cd2d
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-12-07
+                    [time] => 21:32:11 UTC+0000
+                    [origAmount] => 53.26
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6365
+                    [emailClient] => daniel.tracoulat@gmail.com
+                    [idClient] => 21786266
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6365
+                            [_aKey_customer_id] => 2894
+                            [_aKey_secure_key] => fdd41202c817484b9d62f529f55a5f92
+                            [_aKey_token] => 1a5530ec14378fbe639e354728612e59
+                        )
+
+                    [transid] => 6391060971B19149
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6365
+    [3] => 2894
+    [4] => fdd41202c817484b9d62f529f55a5f92
+    [5] => 53.26
+)
+
+## 2022-12-07 22:32:14 ##
+----> START registerOrder()
+## 2022-12-07 22:32:14 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 22:32:14 ##
+<result><operation>capture</operation><status>ok</status><date>2022-12-07</date><time>21:32:11 UTC+0000</time><origAmount>53.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6365</idForMerchant><emailClient>daniel.tracoulat@gmail.com</emailClient><idClient>21786266</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6365</_aKey_cart_id>  <_aKey_customer_id>2894</_aKey_customer_id>  <_aKey_secure_key>fdd41202c817484b9d62f529f55a5f92</_aKey_secure_key>  <_aKey_token>1a5530ec14378fbe639e354728612e59</_aKey_token></merchantDatas><transid>6391060971B19149</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-07 22:32:14 ##
+currency : EUR
+## 2022-12-07 22:32:14 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-07 22:32:14 ##
+callback_salt : 
+## 2022-12-07 22:32:14 ##
+md5 : 6722e6113f869242ffab050dde56cd2d == md5content : 6722e6113f869242ffab050dde56cd2d
+## 2022-12-07 22:32:14 ##
+Status = ok
+## 2022-12-07 22:32:14 ##
+$currency = EUR
+## 2022-12-07 22:32:14 ##
+id_order_state = 2
+## 2022-12-07 22:32:14 ##
+----> START placeOrder()
+## 2022-12-07 22:32:14 ##
+Treatment an existing order
+## 2022-12-07 22:32:14 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-12-07 22:32:14 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-12-07
+    [time] => 21:32:11 UTC+0000
+    [origAmount] => 53.26
+    [origCurrency] => EUR
+    [idForMerchant] => 6365
+    [emailClient] => daniel.tracoulat@gmail.com
+    [idClient] => 21786266
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 6365
+            [_aKey_customer_id] => 2894
+            [_aKey_secure_key] => fdd41202c817484b9d62f529f55a5f92
+            [_aKey_token] => 1a5530ec14378fbe639e354728612e59
+        )
+
+    [transid] => 6391060971B19149
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-12-07 22:32:14 ##
+----> END placeOrder()
+## 2022-12-07 22:32:14 ##
+----> END registerOrder()
+## 2022-12-07 22:32:14 ##
+----> Treatment is unlocked for the id_cart = 6365

@@ -1,0 +1,259 @@
+## 2021-09-04 11:30:12 ##
+##########################
+## 2021-09-04 11:30:12 ##
+START Validation Callback
+## 2021-09-04 11:30:12 ##
+##########################
+## 2021-09-04 11:30:12 ##
+----> Treatment is locked for the id_cart = 288
+## 2021-09-04 11:30:12 ##
+data for validation
+## 2021-09-04 11:30:12 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>e820ed8871948edfdf6496439e9a3975</md5content><result><operation>authorization</operation><status>ok</status><date>2021-09-04</date><time>09:30:10 UTC+0000</time><origAmount>215.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>288</idForMerchant><emailClient>tonyguti@sfr.fr</emailClient><idClient>19288596</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>288</_aKey_cart_id>  <_aKey_customer_id>1487</_aKey_customer_id>  <_aKey_secure_key>e427f6d7a95653add5424c6c226f5804</_aKey_secure_key>  <_aKey_token>dba67961fbdf18d5586614c8751298cd</_aKey_token></merchantDatas><transid>61333C3CA7CCE692</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => e820ed8871948edfdf6496439e9a3975
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-09-04
+                    [time] => 09:30:10 UTC+0000
+                    [origAmount] => 215.99
+                    [origCurrency] => EUR
+                    [idForMerchant] => 288
+                    [emailClient] => tonyguti@sfr.fr
+                    [idClient] => 19288596
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 288
+                            [_aKey_customer_id] => 1487
+                            [_aKey_secure_key] => e427f6d7a95653add5424c6c226f5804
+                            [_aKey_token] => dba67961fbdf18d5586614c8751298cd
+                        )
+
+                    [transid] => 61333C3CA7CCE692
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 288
+    [3] => 1487
+    [4] => e427f6d7a95653add5424c6c226f5804
+    [5] => 215.99
+)
+
+## 2021-09-04 11:30:12 ##
+----> START registerOrder()
+## 2021-09-04 11:30:12 ##
+accountID:13248407 / websiteId:418801
+## 2021-09-04 11:30:12 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-09-04</date><time>09:30:10 UTC+0000</time><origAmount>215.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>288</idForMerchant><emailClient>tonyguti@sfr.fr</emailClient><idClient>19288596</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>288</_aKey_cart_id>  <_aKey_customer_id>1487</_aKey_customer_id>  <_aKey_secure_key>e427f6d7a95653add5424c6c226f5804</_aKey_secure_key>  <_aKey_token>dba67961fbdf18d5586614c8751298cd</_aKey_token></merchantDatas><transid>61333C3CA7CCE692</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-09-04 11:30:12 ##
+currency : EUR
+## 2021-09-04 11:30:12 ##
+accountID:13248407 / websiteId:418801
+## 2021-09-04 11:30:12 ##
+callback_salt : 
+## 2021-09-04 11:30:12 ##
+md5 : e820ed8871948edfdf6496439e9a3975 == md5content : e820ed8871948edfdf6496439e9a3975
+## 2021-09-04 11:30:12 ##
+Status = ok
+## 2021-09-04 11:30:12 ##
+$currency = EUR
+## 2021-09-04 11:30:12 ##
+id_order_state = 42
+## 2021-09-04 11:30:12 ##
+----> START placeOrder()
+## 2021-09-04 11:30:12 ##
+Treatment status = 42
+## 2021-09-04 11:30:12 ##
+Validate order
+## 2021-09-04 11:30:12 ##
+Array
+(
+    [0] => 288
+    [1] => 42
+    [2] => 215.99
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"61333C3CA7CCE692"}
+    [5] => Array
+        (
+            [transaction_id] => 61333C3CA7CCE692
+        )
+
+    [6] => 1
+    [7] => e427f6d7a95653add5424c6c226f5804
+)
+
+## 2021-09-04 11:30:12 ##
+ID Shop = 1
+## 2021-09-04 11:30:16 ##
+Order created
+## 2021-09-04 11:30:16 ##
+----> END placeOrder()
+## 2021-09-04 11:30:16 ##
+----> END registerOrder()
+## 2021-09-04 11:30:16 ##
+----> Treatment is unlocked for the id_cart = 288
+## 2021-09-04 11:30:21 ##
+##########################
+## 2021-09-04 11:30:21 ##
+START Validation Callback
+## 2021-09-04 11:30:21 ##
+##########################
+## 2021-09-04 11:30:21 ##
+----> Treatment is locked for the id_cart = 288
+## 2021-09-04 11:30:21 ##
+data for validation
+## 2021-09-04 11:30:21 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>c7c7c91f72341da9c1159975ff4d361a</md5content><result><operation>capture</operation><status>ok</status><date>2021-09-04</date><time>09:30:17 UTC+0000</time><origAmount>215.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>288</idForMerchant><emailClient>tonyguti@sfr.fr</emailClient><idClient>19288596</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>288</_aKey_cart_id>  <_aKey_customer_id>1487</_aKey_customer_id>  <_aKey_secure_key>e427f6d7a95653add5424c6c226f5804</_aKey_secure_key>  <_aKey_token>dba67961fbdf18d5586614c8751298cd</_aKey_token></merchantDatas><transid>61333C3CA7CCE692</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => c7c7c91f72341da9c1159975ff4d361a
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-09-04
+                    [time] => 09:30:17 UTC+0000
+                    [origAmount] => 215.99
+                    [origCurrency] => EUR
+                    [idForMerchant] => 288
+                    [emailClient] => tonyguti@sfr.fr
+                    [idClient] => 19288596
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 288
+                            [_aKey_customer_id] => 1487
+                            [_aKey_secure_key] => e427f6d7a95653add5424c6c226f5804
+                            [_aKey_token] => dba67961fbdf18d5586614c8751298cd
+                        )
+
+                    [transid] => 61333C3CA7CCE692
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 288
+    [3] => 1487
+    [4] => e427f6d7a95653add5424c6c226f5804
+    [5] => 215.99
+)
+
+## 2021-09-04 11:30:21 ##
+----> START registerOrder()
+## 2021-09-04 11:30:21 ##
+accountID:13248407 / websiteId:418801
+## 2021-09-04 11:30:21 ##
+<result><operation>capture</operation><status>ok</status><date>2021-09-04</date><time>09:30:17 UTC+0000</time><origAmount>215.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>288</idForMerchant><emailClient>tonyguti@sfr.fr</emailClient><idClient>19288596</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>288</_aKey_cart_id>  <_aKey_customer_id>1487</_aKey_customer_id>  <_aKey_secure_key>e427f6d7a95653add5424c6c226f5804</_aKey_secure_key>  <_aKey_token>dba67961fbdf18d5586614c8751298cd</_aKey_token></merchantDatas><transid>61333C3CA7CCE692</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-09-04 11:30:21 ##
+currency : EUR
+## 2021-09-04 11:30:21 ##
+accountID:13248407 / websiteId:418801
+## 2021-09-04 11:30:21 ##
+callback_salt : 
+## 2021-09-04 11:30:21 ##
+md5 : c7c7c91f72341da9c1159975ff4d361a == md5content : c7c7c91f72341da9c1159975ff4d361a
+## 2021-09-04 11:30:21 ##
+Status = ok
+## 2021-09-04 11:30:21 ##
+$currency = EUR
+## 2021-09-04 11:30:21 ##
+id_order_state = 2
+## 2021-09-04 11:30:21 ##
+----> START placeOrder()
+## 2021-09-04 11:30:21 ##
+Treatment an existing order
+## 2021-09-04 11:30:21 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-09-04 11:30:21 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-09-04
+    [time] => 09:30:17 UTC+0000
+    [origAmount] => 215.99
+    [origCurrency] => EUR
+    [idForMerchant] => 288
+    [emailClient] => tonyguti@sfr.fr
+    [idClient] => 19288596
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 288
+            [_aKey_customer_id] => 1487
+            [_aKey_secure_key] => e427f6d7a95653add5424c6c226f5804
+            [_aKey_token] => dba67961fbdf18d5586614c8751298cd
+        )
+
+    [transid] => 61333C3CA7CCE692
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-09-04 11:30:21 ##
+----> END placeOrder()
+## 2021-09-04 11:30:21 ##
+----> END registerOrder()
+## 2021-09-04 11:30:21 ##
+----> Treatment is unlocked for the id_cart = 288

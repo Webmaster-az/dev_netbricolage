@@ -1,0 +1,36 @@
+<?php
+/**
+ * Page Cache powered by Jpresta (jpresta . com)
+ *
+ *    @author    Jpresta
+ *    @copyright Jpresta
+ *    @license   You are just allowed to modify this copy for your own use. You must not redistribute it. License
+ *               is permitted for one Prestashop instance only but you can install it on your test instances.
+ */
+abstract class ProductListingFrontController extends ProductListingFrontControllerCore
+{
+    /*
+    * module: pagecache
+    * date: 2021-07-26 17:22:02
+    * version: 4.44
+    */
+    protected function getAjaxProductSearchVariables()
+    {
+        require_once _PS_MODULE_DIR_ . 'pagecache/pagecache.php';
+        if (!Tools::getIsset('page_cache_dynamics_modules')) {
+            return parent::getAjaxProductSearchVariables();
+        }
+        $this->assignGeneralPurposeVariables();
+        $result = PageCache::execDynamicHooks($this);
+        if (Tools::version_compare(_PS_VERSION_,'1.6','>')) {
+            $this->context->smarty->assign(array(
+                'js_def' => PageCache::getJsDef($this),
+            ));
+            $result['js'] = $this->context->smarty->fetch(_PS_ALL_THEMES_DIR_.'javascript.tpl');
+        }
+        $this->context->cookie->write();
+        header('Cache-Control: no-cache');
+        header('X-Robots-Tag: noindex');
+        return $result;
+    }
+}

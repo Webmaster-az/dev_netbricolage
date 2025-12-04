@@ -1,0 +1,518 @@
+## 2022-11-14 07:10:23 ##
+##########################
+## 2022-11-14 07:10:23 ##
+START Validation Callback
+## 2022-11-14 07:10:23 ##
+##########################
+## 2022-11-14 07:10:23 ##
+----> Treatment is locked for the id_cart = 5897
+## 2022-11-14 07:10:23 ##
+data for validation
+## 2022-11-14 07:10:23 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>e4ba9d0ba2e05f80c89f7fb65da5bfb7</md5content><result><operation>authorization</operation><status>ok</status><date>2022-11-14</date><time>06:10:21 UTC+0000</time><origAmount>138.22</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5897</idForMerchant><emailClient>aiellofabrice@gmail.com</emailClient><idClient>21665456</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5897</_aKey_cart_id>  <_aKey_customer_id>2795</_aKey_customer_id>  <_aKey_secure_key>5cc271bcaedf904e2e6c4132b2451692</_aKey_secure_key>  <_aKey_token>af21f04492e00e3a6b69ae7b0b1e70c2</_aKey_token></merchantDatas><transid>6371DB99F1DDC123</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => e4ba9d0ba2e05f80c89f7fb65da5bfb7
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-11-14
+                    [time] => 06:10:21 UTC+0000
+                    [origAmount] => 138.22
+                    [origCurrency] => EUR
+                    [idForMerchant] => 5897
+                    [emailClient] => aiellofabrice@gmail.com
+                    [idClient] => 21665456
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 5897
+                            [_aKey_customer_id] => 2795
+                            [_aKey_secure_key] => 5cc271bcaedf904e2e6c4132b2451692
+                            [_aKey_token] => af21f04492e00e3a6b69ae7b0b1e70c2
+                        )
+
+                    [transid] => 6371DB99F1DDC123
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 5897
+    [3] => 2795
+    [4] => 5cc271bcaedf904e2e6c4132b2451692
+    [5] => 138.22
+)
+
+## 2022-11-14 07:10:23 ##
+----> START registerOrder()
+## 2022-11-14 07:10:23 ##
+accountID:13248407 / websiteId:418801
+## 2022-11-14 07:10:23 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-11-14</date><time>06:10:21 UTC+0000</time><origAmount>138.22</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5897</idForMerchant><emailClient>aiellofabrice@gmail.com</emailClient><idClient>21665456</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5897</_aKey_cart_id>  <_aKey_customer_id>2795</_aKey_customer_id>  <_aKey_secure_key>5cc271bcaedf904e2e6c4132b2451692</_aKey_secure_key>  <_aKey_token>af21f04492e00e3a6b69ae7b0b1e70c2</_aKey_token></merchantDatas><transid>6371DB99F1DDC123</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-11-14 07:10:23 ##
+currency : EUR
+## 2022-11-14 07:10:23 ##
+accountID:13248407 / websiteId:418801
+## 2022-11-14 07:10:23 ##
+callback_salt : 
+## 2022-11-14 07:10:23 ##
+md5 : e4ba9d0ba2e05f80c89f7fb65da5bfb7 == md5content : e4ba9d0ba2e05f80c89f7fb65da5bfb7
+## 2022-11-14 07:10:23 ##
+Status = ok
+## 2022-11-14 07:10:23 ##
+$currency = EUR
+## 2022-11-14 07:10:23 ##
+id_order_state = 42
+## 2022-11-14 07:10:23 ##
+----> START placeOrder()
+## 2022-11-14 07:10:23 ##
+Treatment status = 42
+## 2022-11-14 07:10:23 ##
+Validate order
+## 2022-11-14 07:10:23 ##
+Array
+(
+    [0] => 5897
+    [1] => 42
+    [2] => 138.22
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"6371DB99F1DDC123"}
+    [5] => Array
+        (
+            [transaction_id] => 6371DB99F1DDC123
+        )
+
+    [6] => 1
+    [7] => 5cc271bcaedf904e2e6c4132b2451692
+)
+
+## 2022-11-14 07:10:23 ##
+ID Shop = 1
+## 2022-11-14 07:10:25 ##
+Order created
+## 2022-11-14 07:10:25 ##
+----> END placeOrder()
+## 2022-11-14 07:10:25 ##
+----> END registerOrder()
+## 2022-11-14 07:10:25 ##
+----> Treatment is unlocked for the id_cart = 5897
+## 2022-11-14 07:10:32 ##
+##########################
+## 2022-11-14 07:10:32 ##
+START Validation Callback
+## 2022-11-14 07:10:32 ##
+##########################
+## 2022-11-14 07:10:32 ##
+----> Treatment is locked for the id_cart = 5897
+## 2022-11-14 07:10:32 ##
+data for validation
+## 2022-11-14 07:10:32 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>6d671e9177878127023361176fc29c48</md5content><result><operation>capture</operation><status>ok</status><date>2022-11-14</date><time>06:10:28 UTC+0000</time><origAmount>138.22</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5897</idForMerchant><emailClient>aiellofabrice@gmail.com</emailClient><idClient>21665456</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5897</_aKey_cart_id>  <_aKey_customer_id>2795</_aKey_customer_id>  <_aKey_secure_key>5cc271bcaedf904e2e6c4132b2451692</_aKey_secure_key>  <_aKey_token>af21f04492e00e3a6b69ae7b0b1e70c2</_aKey_token></merchantDatas><transid>6371DB99F1DDC123</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 6d671e9177878127023361176fc29c48
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-11-14
+                    [time] => 06:10:28 UTC+0000
+                    [origAmount] => 138.22
+                    [origCurrency] => EUR
+                    [idForMerchant] => 5897
+                    [emailClient] => aiellofabrice@gmail.com
+                    [idClient] => 21665456
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 5897
+                            [_aKey_customer_id] => 2795
+                            [_aKey_secure_key] => 5cc271bcaedf904e2e6c4132b2451692
+                            [_aKey_token] => af21f04492e00e3a6b69ae7b0b1e70c2
+                        )
+
+                    [transid] => 6371DB99F1DDC123
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 5897
+    [3] => 2795
+    [4] => 5cc271bcaedf904e2e6c4132b2451692
+    [5] => 138.22
+)
+
+## 2022-11-14 07:10:32 ##
+----> START registerOrder()
+## 2022-11-14 07:10:32 ##
+accountID:13248407 / websiteId:418801
+## 2022-11-14 07:10:32 ##
+<result><operation>capture</operation><status>ok</status><date>2022-11-14</date><time>06:10:28 UTC+0000</time><origAmount>138.22</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5897</idForMerchant><emailClient>aiellofabrice@gmail.com</emailClient><idClient>21665456</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5897</_aKey_cart_id>  <_aKey_customer_id>2795</_aKey_customer_id>  <_aKey_secure_key>5cc271bcaedf904e2e6c4132b2451692</_aKey_secure_key>  <_aKey_token>af21f04492e00e3a6b69ae7b0b1e70c2</_aKey_token></merchantDatas><transid>6371DB99F1DDC123</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-11-14 07:10:32 ##
+currency : EUR
+## 2022-11-14 07:10:32 ##
+accountID:13248407 / websiteId:418801
+## 2022-11-14 07:10:32 ##
+callback_salt : 
+## 2022-11-14 07:10:32 ##
+md5 : 6d671e9177878127023361176fc29c48 == md5content : 6d671e9177878127023361176fc29c48
+## 2022-11-14 07:10:32 ##
+Status = ok
+## 2022-11-14 07:10:32 ##
+$currency = EUR
+## 2022-11-14 07:10:32 ##
+id_order_state = 2
+## 2022-11-14 07:10:32 ##
+----> START placeOrder()
+## 2022-11-14 07:10:32 ##
+Treatment an existing order
+## 2022-11-14 07:10:32 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-11-14 07:10:32 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-11-14
+    [time] => 06:10:28 UTC+0000
+    [origAmount] => 138.22
+    [origCurrency] => EUR
+    [idForMerchant] => 5897
+    [emailClient] => aiellofabrice@gmail.com
+    [idClient] => 21665456
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 5897
+            [_aKey_customer_id] => 2795
+            [_aKey_secure_key] => 5cc271bcaedf904e2e6c4132b2451692
+            [_aKey_token] => af21f04492e00e3a6b69ae7b0b1e70c2
+        )
+
+    [transid] => 6371DB99F1DDC123
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-11-14 07:10:32 ##
+----> END placeOrder()
+## 2022-11-14 07:10:32 ##
+----> END registerOrder()
+## 2022-11-14 07:10:32 ##
+----> Treatment is unlocked for the id_cart = 5897
+## 2022-11-14 12:45:29 ##
+##########################
+## 2022-11-14 12:45:29 ##
+START Validation Callback
+## 2022-11-14 12:45:29 ##
+##########################
+## 2022-11-14 12:45:29 ##
+----> Treatment is locked for the id_cart = 5770
+## 2022-11-14 12:45:29 ##
+data for validation
+## 2022-11-14 12:45:29 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>18fb9d43fc7d0a0ce5c861af7e6803e4</md5content><result><operation>authorization</operation><status>ok</status><date>2022-11-14</date><time>11:45:26 UTC+0000</time><origAmount>136.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5770</idForMerchant><emailClient>francis.barreyat@yahoo.fr</emailClient><idClient>21664022</idClient><cardCountry>GB</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5770</_aKey_cart_id>  <_aKey_customer_id>2793</_aKey_customer_id>  <_aKey_secure_key>0f60ea2aea232f2a58518f26be19ab86</_aKey_secure_key>  <_aKey_token>a1bf3ae705d2945f1672cb47d5674b56</_aKey_token></merchantDatas><transid>63722A276E061187</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 18fb9d43fc7d0a0ce5c861af7e6803e4
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-11-14
+                    [time] => 11:45:26 UTC+0000
+                    [origAmount] => 136.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 5770
+                    [emailClient] => francis.barreyat@yahoo.fr
+                    [idClient] => 21664022
+                    [cardCountry] => GB
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 5770
+                            [_aKey_customer_id] => 2793
+                            [_aKey_secure_key] => 0f60ea2aea232f2a58518f26be19ab86
+                            [_aKey_token] => a1bf3ae705d2945f1672cb47d5674b56
+                        )
+
+                    [transid] => 63722A276E061187
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 5770
+    [3] => 2793
+    [4] => 0f60ea2aea232f2a58518f26be19ab86
+    [5] => 136.7
+)
+
+## 2022-11-14 12:45:29 ##
+----> START registerOrder()
+## 2022-11-14 12:45:29 ##
+accountID:13248407 / websiteId:418801
+## 2022-11-14 12:45:29 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-11-14</date><time>11:45:26 UTC+0000</time><origAmount>136.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5770</idForMerchant><emailClient>francis.barreyat@yahoo.fr</emailClient><idClient>21664022</idClient><cardCountry>GB</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5770</_aKey_cart_id>  <_aKey_customer_id>2793</_aKey_customer_id>  <_aKey_secure_key>0f60ea2aea232f2a58518f26be19ab86</_aKey_secure_key>  <_aKey_token>a1bf3ae705d2945f1672cb47d5674b56</_aKey_token></merchantDatas><transid>63722A276E061187</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-11-14 12:45:29 ##
+currency : EUR
+## 2022-11-14 12:45:29 ##
+accountID:13248407 / websiteId:418801
+## 2022-11-14 12:45:29 ##
+callback_salt : 
+## 2022-11-14 12:45:29 ##
+md5 : 18fb9d43fc7d0a0ce5c861af7e6803e4 == md5content : 18fb9d43fc7d0a0ce5c861af7e6803e4
+## 2022-11-14 12:45:29 ##
+Status = ok
+## 2022-11-14 12:45:29 ##
+$currency = EUR
+## 2022-11-14 12:45:29 ##
+id_order_state = 42
+## 2022-11-14 12:45:29 ##
+----> START placeOrder()
+## 2022-11-14 12:45:29 ##
+Treatment status = 42
+## 2022-11-14 12:45:29 ##
+Validate order
+## 2022-11-14 12:45:29 ##
+Array
+(
+    [0] => 5770
+    [1] => 42
+    [2] => 136.7
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"63722A276E061187"}
+    [5] => Array
+        (
+            [transaction_id] => 63722A276E061187
+        )
+
+    [6] => 1
+    [7] => 0f60ea2aea232f2a58518f26be19ab86
+)
+
+## 2022-11-14 12:45:29 ##
+ID Shop = 1
+## 2022-11-14 12:45:30 ##
+Order created
+## 2022-11-14 12:45:30 ##
+----> END placeOrder()
+## 2022-11-14 12:45:30 ##
+----> END registerOrder()
+## 2022-11-14 12:45:30 ##
+----> Treatment is unlocked for the id_cart = 5770
+## 2022-11-14 12:45:35 ##
+##########################
+## 2022-11-14 12:45:35 ##
+START Validation Callback
+## 2022-11-14 12:45:35 ##
+##########################
+## 2022-11-14 12:45:35 ##
+----> Treatment is locked for the id_cart = 5770
+## 2022-11-14 12:45:35 ##
+data for validation
+## 2022-11-14 12:45:35 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8f3899e1dc89a0ab4b96af9ab2041d9b</md5content><result><operation>capture</operation><status>ok</status><date>2022-11-14</date><time>11:45:33 UTC+0000</time><origAmount>136.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5770</idForMerchant><emailClient>francis.barreyat@yahoo.fr</emailClient><idClient>21664022</idClient><cardCountry>GB</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5770</_aKey_cart_id>  <_aKey_customer_id>2793</_aKey_customer_id>  <_aKey_secure_key>0f60ea2aea232f2a58518f26be19ab86</_aKey_secure_key>  <_aKey_token>a1bf3ae705d2945f1672cb47d5674b56</_aKey_token></merchantDatas><transid>63722A276E061187</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8f3899e1dc89a0ab4b96af9ab2041d9b
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-11-14
+                    [time] => 11:45:33 UTC+0000
+                    [origAmount] => 136.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 5770
+                    [emailClient] => francis.barreyat@yahoo.fr
+                    [idClient] => 21664022
+                    [cardCountry] => GB
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 5770
+                            [_aKey_customer_id] => 2793
+                            [_aKey_secure_key] => 0f60ea2aea232f2a58518f26be19ab86
+                            [_aKey_token] => a1bf3ae705d2945f1672cb47d5674b56
+                        )
+
+                    [transid] => 63722A276E061187
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 5770
+    [3] => 2793
+    [4] => 0f60ea2aea232f2a58518f26be19ab86
+    [5] => 136.7
+)
+
+## 2022-11-14 12:45:35 ##
+----> START registerOrder()
+## 2022-11-14 12:45:35 ##
+accountID:13248407 / websiteId:418801
+## 2022-11-14 12:45:35 ##
+<result><operation>capture</operation><status>ok</status><date>2022-11-14</date><time>11:45:33 UTC+0000</time><origAmount>136.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5770</idForMerchant><emailClient>francis.barreyat@yahoo.fr</emailClient><idClient>21664022</idClient><cardCountry>GB</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5770</_aKey_cart_id>  <_aKey_customer_id>2793</_aKey_customer_id>  <_aKey_secure_key>0f60ea2aea232f2a58518f26be19ab86</_aKey_secure_key>  <_aKey_token>a1bf3ae705d2945f1672cb47d5674b56</_aKey_token></merchantDatas><transid>63722A276E061187</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-11-14 12:45:35 ##
+currency : EUR
+## 2022-11-14 12:45:35 ##
+accountID:13248407 / websiteId:418801
+## 2022-11-14 12:45:35 ##
+callback_salt : 
+## 2022-11-14 12:45:35 ##
+md5 : 8f3899e1dc89a0ab4b96af9ab2041d9b == md5content : 8f3899e1dc89a0ab4b96af9ab2041d9b
+## 2022-11-14 12:45:35 ##
+Status = ok
+## 2022-11-14 12:45:35 ##
+$currency = EUR
+## 2022-11-14 12:45:35 ##
+id_order_state = 2
+## 2022-11-14 12:45:35 ##
+----> START placeOrder()
+## 2022-11-14 12:45:35 ##
+Treatment an existing order
+## 2022-11-14 12:45:35 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-11-14 12:45:35 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-11-14
+    [time] => 11:45:33 UTC+0000
+    [origAmount] => 136.70
+    [origCurrency] => EUR
+    [idForMerchant] => 5770
+    [emailClient] => francis.barreyat@yahoo.fr
+    [idClient] => 21664022
+    [cardCountry] => GB
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 5770
+            [_aKey_customer_id] => 2793
+            [_aKey_secure_key] => 0f60ea2aea232f2a58518f26be19ab86
+            [_aKey_token] => a1bf3ae705d2945f1672cb47d5674b56
+        )
+
+    [transid] => 63722A276E061187
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-11-14 12:45:35 ##
+----> END placeOrder()
+## 2022-11-14 12:45:35 ##
+----> END registerOrder()
+## 2022-11-14 12:45:35 ##
+----> Treatment is unlocked for the id_cart = 5770

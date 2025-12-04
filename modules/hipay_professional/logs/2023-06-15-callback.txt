@@ -1,0 +1,259 @@
+## 2023-06-15 09:46:06 ##
+##########################
+## 2023-06-15 09:46:06 ##
+START Validation Callback
+## 2023-06-15 09:46:06 ##
+##########################
+## 2023-06-15 09:46:06 ##
+----> Treatment is locked for the id_cart = 9379
+## 2023-06-15 09:46:06 ##
+data for validation
+## 2023-06-15 09:46:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>f8dd83f2c881117891ad362a9b6c5890</md5content><result><operation>authorization</operation><status>ok</status><date>2023-06-15</date><time>07:46:03 UTC+0000</time><origAmount>48.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9379</idForMerchant><emailClient>info@gratchat.com</emailClient><idClient>22402262</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9379</_aKey_cart_id>  <_aKey_customer_id>3516</_aKey_customer_id>  <_aKey_secure_key>18a2fe2e0bcb1c15ef188037ce9dfd27</_aKey_secure_key>  <_aKey_token>8cdc9dc4fca7d90c3fd1191560d552d5</_aKey_token></merchantDatas><transid>648AC19531E2F120</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => f8dd83f2c881117891ad362a9b6c5890
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-06-15
+                    [time] => 07:46:03 UTC+0000
+                    [origAmount] => 48.23
+                    [origCurrency] => EUR
+                    [idForMerchant] => 9379
+                    [emailClient] => info@gratchat.com
+                    [idClient] => 22402262
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 9379
+                            [_aKey_customer_id] => 3516
+                            [_aKey_secure_key] => 18a2fe2e0bcb1c15ef188037ce9dfd27
+                            [_aKey_token] => 8cdc9dc4fca7d90c3fd1191560d552d5
+                        )
+
+                    [transid] => 648AC19531E2F120
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 9379
+    [3] => 3516
+    [4] => 18a2fe2e0bcb1c15ef188037ce9dfd27
+    [5] => 48.23
+)
+
+## 2023-06-15 09:46:06 ##
+----> START registerOrder()
+## 2023-06-15 09:46:06 ##
+accountID:4054280 / websiteId:352698
+## 2023-06-15 09:46:06 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-06-15</date><time>07:46:03 UTC+0000</time><origAmount>48.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9379</idForMerchant><emailClient>info@gratchat.com</emailClient><idClient>22402262</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9379</_aKey_cart_id>  <_aKey_customer_id>3516</_aKey_customer_id>  <_aKey_secure_key>18a2fe2e0bcb1c15ef188037ce9dfd27</_aKey_secure_key>  <_aKey_token>8cdc9dc4fca7d90c3fd1191560d552d5</_aKey_token></merchantDatas><transid>648AC19531E2F120</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-06-15 09:46:06 ##
+currency : EUR
+## 2023-06-15 09:46:06 ##
+accountID:4054280 / websiteId:352698
+## 2023-06-15 09:46:06 ##
+callback_salt : 
+## 2023-06-15 09:46:06 ##
+md5 : f8dd83f2c881117891ad362a9b6c5890 == md5content : f8dd83f2c881117891ad362a9b6c5890
+## 2023-06-15 09:46:06 ##
+Status = ok
+## 2023-06-15 09:46:06 ##
+$currency = EUR
+## 2023-06-15 09:46:06 ##
+id_order_state = 42
+## 2023-06-15 09:46:06 ##
+----> START placeOrder()
+## 2023-06-15 09:46:06 ##
+Treatment status = 42
+## 2023-06-15 09:46:06 ##
+Validate order
+## 2023-06-15 09:46:06 ##
+Array
+(
+    [0] => 9379
+    [1] => 42
+    [2] => 48.23
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"648AC19531E2F120"}
+    [5] => Array
+        (
+            [transaction_id] => 648AC19531E2F120
+        )
+
+    [6] => 1
+    [7] => 18a2fe2e0bcb1c15ef188037ce9dfd27
+)
+
+## 2023-06-15 09:46:06 ##
+ID Shop = 1
+## 2023-06-15 09:46:10 ##
+Order created
+## 2023-06-15 09:46:10 ##
+----> END placeOrder()
+## 2023-06-15 09:46:10 ##
+----> END registerOrder()
+## 2023-06-15 09:46:10 ##
+----> Treatment is unlocked for the id_cart = 9379
+## 2023-06-15 09:46:14 ##
+##########################
+## 2023-06-15 09:46:14 ##
+START Validation Callback
+## 2023-06-15 09:46:14 ##
+##########################
+## 2023-06-15 09:46:14 ##
+----> Treatment is locked for the id_cart = 9379
+## 2023-06-15 09:46:14 ##
+data for validation
+## 2023-06-15 09:46:14 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8535ee07eccbfcba655548ff6b4c2dbe</md5content><result><operation>capture</operation><status>ok</status><date>2023-06-15</date><time>07:46:10 UTC+0000</time><origAmount>48.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9379</idForMerchant><emailClient>info@gratchat.com</emailClient><idClient>22402262</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9379</_aKey_cart_id>  <_aKey_customer_id>3516</_aKey_customer_id>  <_aKey_secure_key>18a2fe2e0bcb1c15ef188037ce9dfd27</_aKey_secure_key>  <_aKey_token>8cdc9dc4fca7d90c3fd1191560d552d5</_aKey_token></merchantDatas><transid>648AC19531E2F120</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8535ee07eccbfcba655548ff6b4c2dbe
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-06-15
+                    [time] => 07:46:10 UTC+0000
+                    [origAmount] => 48.23
+                    [origCurrency] => EUR
+                    [idForMerchant] => 9379
+                    [emailClient] => info@gratchat.com
+                    [idClient] => 22402262
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 9379
+                            [_aKey_customer_id] => 3516
+                            [_aKey_secure_key] => 18a2fe2e0bcb1c15ef188037ce9dfd27
+                            [_aKey_token] => 8cdc9dc4fca7d90c3fd1191560d552d5
+                        )
+
+                    [transid] => 648AC19531E2F120
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 9379
+    [3] => 3516
+    [4] => 18a2fe2e0bcb1c15ef188037ce9dfd27
+    [5] => 48.23
+)
+
+## 2023-06-15 09:46:14 ##
+----> START registerOrder()
+## 2023-06-15 09:46:14 ##
+accountID:4054280 / websiteId:352698
+## 2023-06-15 09:46:14 ##
+<result><operation>capture</operation><status>ok</status><date>2023-06-15</date><time>07:46:10 UTC+0000</time><origAmount>48.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9379</idForMerchant><emailClient>info@gratchat.com</emailClient><idClient>22402262</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9379</_aKey_cart_id>  <_aKey_customer_id>3516</_aKey_customer_id>  <_aKey_secure_key>18a2fe2e0bcb1c15ef188037ce9dfd27</_aKey_secure_key>  <_aKey_token>8cdc9dc4fca7d90c3fd1191560d552d5</_aKey_token></merchantDatas><transid>648AC19531E2F120</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-06-15 09:46:14 ##
+currency : EUR
+## 2023-06-15 09:46:14 ##
+accountID:4054280 / websiteId:352698
+## 2023-06-15 09:46:14 ##
+callback_salt : 
+## 2023-06-15 09:46:14 ##
+md5 : 8535ee07eccbfcba655548ff6b4c2dbe == md5content : 8535ee07eccbfcba655548ff6b4c2dbe
+## 2023-06-15 09:46:14 ##
+Status = ok
+## 2023-06-15 09:46:14 ##
+$currency = EUR
+## 2023-06-15 09:46:14 ##
+id_order_state = 2
+## 2023-06-15 09:46:14 ##
+----> START placeOrder()
+## 2023-06-15 09:46:14 ##
+Treatment an existing order
+## 2023-06-15 09:46:14 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-06-15 09:46:14 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-06-15
+    [time] => 07:46:10 UTC+0000
+    [origAmount] => 48.23
+    [origCurrency] => EUR
+    [idForMerchant] => 9379
+    [emailClient] => info@gratchat.com
+    [idClient] => 22402262
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 9379
+            [_aKey_customer_id] => 3516
+            [_aKey_secure_key] => 18a2fe2e0bcb1c15ef188037ce9dfd27
+            [_aKey_token] => 8cdc9dc4fca7d90c3fd1191560d552d5
+        )
+
+    [transid] => 648AC19531E2F120
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-06-15 09:46:15 ##
+----> END placeOrder()
+## 2023-06-15 09:46:15 ##
+----> END registerOrder()
+## 2023-06-15 09:46:15 ##
+----> Treatment is unlocked for the id_cart = 9379

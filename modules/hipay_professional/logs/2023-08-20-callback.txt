@@ -1,0 +1,518 @@
+## 2023-08-20 10:07:06 ##
+##########################
+## 2023-08-20 10:07:06 ##
+START Validation Callback
+## 2023-08-20 10:07:06 ##
+##########################
+## 2023-08-20 10:07:06 ##
+----> Treatment is locked for the id_cart = 10386
+## 2023-08-20 10:07:06 ##
+data for validation
+## 2023-08-20 10:07:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>f4c3a0777afb4deaa2d29c431399e86e</md5content><result><operation>authorization</operation><status>ok</status><date>2023-08-20</date><time>08:07:04 UTC+0000</time><origAmount>121.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10386</idForMerchant><emailClient>francoise.chappis-peron@laposte.net</emailClient><idClient>22656802</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10386</_aKey_cart_id>  <_aKey_customer_id>3676</_aKey_customer_id>  <_aKey_secure_key>e35246d663eef278746d42ce13ad990c</_aKey_secure_key>  <_aKey_token>3183477870bb9930d2939120487ea005</_aKey_token></merchantDatas><transid>64E1C99D730B2757</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => f4c3a0777afb4deaa2d29c431399e86e
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-08-20
+                    [time] => 08:07:04 UTC+0000
+                    [origAmount] => 121.28
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10386
+                    [emailClient] => francoise.chappis-peron@laposte.net
+                    [idClient] => 22656802
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10386
+                            [_aKey_customer_id] => 3676
+                            [_aKey_secure_key] => e35246d663eef278746d42ce13ad990c
+                            [_aKey_token] => 3183477870bb9930d2939120487ea005
+                        )
+
+                    [transid] => 64E1C99D730B2757
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10386
+    [3] => 3676
+    [4] => e35246d663eef278746d42ce13ad990c
+    [5] => 121.28
+)
+
+## 2023-08-20 10:07:06 ##
+----> START registerOrder()
+## 2023-08-20 10:07:06 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-20 10:07:06 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-08-20</date><time>08:07:04 UTC+0000</time><origAmount>121.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10386</idForMerchant><emailClient>francoise.chappis-peron@laposte.net</emailClient><idClient>22656802</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10386</_aKey_cart_id>  <_aKey_customer_id>3676</_aKey_customer_id>  <_aKey_secure_key>e35246d663eef278746d42ce13ad990c</_aKey_secure_key>  <_aKey_token>3183477870bb9930d2939120487ea005</_aKey_token></merchantDatas><transid>64E1C99D730B2757</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-20 10:07:06 ##
+currency : EUR
+## 2023-08-20 10:07:06 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-20 10:07:06 ##
+callback_salt : 
+## 2023-08-20 10:07:06 ##
+md5 : f4c3a0777afb4deaa2d29c431399e86e == md5content : f4c3a0777afb4deaa2d29c431399e86e
+## 2023-08-20 10:07:06 ##
+Status = ok
+## 2023-08-20 10:07:06 ##
+$currency = EUR
+## 2023-08-20 10:07:06 ##
+id_order_state = 42
+## 2023-08-20 10:07:06 ##
+----> START placeOrder()
+## 2023-08-20 10:07:06 ##
+Treatment status = 42
+## 2023-08-20 10:07:06 ##
+Validate order
+## 2023-08-20 10:07:06 ##
+Array
+(
+    [0] => 10386
+    [1] => 42
+    [2] => 121.28
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"64E1C99D730B2757"}
+    [5] => Array
+        (
+            [transaction_id] => 64E1C99D730B2757
+        )
+
+    [6] => 1
+    [7] => e35246d663eef278746d42ce13ad990c
+)
+
+## 2023-08-20 10:07:06 ##
+ID Shop = 1
+## 2023-08-20 10:07:13 ##
+Order created
+## 2023-08-20 10:07:13 ##
+----> END placeOrder()
+## 2023-08-20 10:07:13 ##
+----> END registerOrder()
+## 2023-08-20 10:07:13 ##
+----> Treatment is unlocked for the id_cart = 10386
+## 2023-08-20 10:07:15 ##
+##########################
+## 2023-08-20 10:07:15 ##
+START Validation Callback
+## 2023-08-20 10:07:15 ##
+##########################
+## 2023-08-20 10:07:15 ##
+----> Treatment is locked for the id_cart = 10386
+## 2023-08-20 10:07:15 ##
+data for validation
+## 2023-08-20 10:07:15 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>f0cbebe819bf796d263012c498a1a06e</md5content><result><operation>capture</operation><status>ok</status><date>2023-08-20</date><time>08:07:11 UTC+0000</time><origAmount>121.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10386</idForMerchant><emailClient>francoise.chappis-peron@laposte.net</emailClient><idClient>22656802</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10386</_aKey_cart_id>  <_aKey_customer_id>3676</_aKey_customer_id>  <_aKey_secure_key>e35246d663eef278746d42ce13ad990c</_aKey_secure_key>  <_aKey_token>3183477870bb9930d2939120487ea005</_aKey_token></merchantDatas><transid>64E1C99D730B2757</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => f0cbebe819bf796d263012c498a1a06e
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-08-20
+                    [time] => 08:07:11 UTC+0000
+                    [origAmount] => 121.28
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10386
+                    [emailClient] => francoise.chappis-peron@laposte.net
+                    [idClient] => 22656802
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10386
+                            [_aKey_customer_id] => 3676
+                            [_aKey_secure_key] => e35246d663eef278746d42ce13ad990c
+                            [_aKey_token] => 3183477870bb9930d2939120487ea005
+                        )
+
+                    [transid] => 64E1C99D730B2757
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10386
+    [3] => 3676
+    [4] => e35246d663eef278746d42ce13ad990c
+    [5] => 121.28
+)
+
+## 2023-08-20 10:07:15 ##
+----> START registerOrder()
+## 2023-08-20 10:07:15 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-20 10:07:15 ##
+<result><operation>capture</operation><status>ok</status><date>2023-08-20</date><time>08:07:11 UTC+0000</time><origAmount>121.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10386</idForMerchant><emailClient>francoise.chappis-peron@laposte.net</emailClient><idClient>22656802</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10386</_aKey_cart_id>  <_aKey_customer_id>3676</_aKey_customer_id>  <_aKey_secure_key>e35246d663eef278746d42ce13ad990c</_aKey_secure_key>  <_aKey_token>3183477870bb9930d2939120487ea005</_aKey_token></merchantDatas><transid>64E1C99D730B2757</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-20 10:07:15 ##
+currency : EUR
+## 2023-08-20 10:07:15 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-20 10:07:15 ##
+callback_salt : 
+## 2023-08-20 10:07:15 ##
+md5 : f0cbebe819bf796d263012c498a1a06e == md5content : f0cbebe819bf796d263012c498a1a06e
+## 2023-08-20 10:07:15 ##
+Status = ok
+## 2023-08-20 10:07:15 ##
+$currency = EUR
+## 2023-08-20 10:07:15 ##
+id_order_state = 2
+## 2023-08-20 10:07:15 ##
+----> START placeOrder()
+## 2023-08-20 10:07:15 ##
+Treatment an existing order
+## 2023-08-20 10:07:15 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-08-20 10:07:15 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-08-20
+    [time] => 08:07:11 UTC+0000
+    [origAmount] => 121.28
+    [origCurrency] => EUR
+    [idForMerchant] => 10386
+    [emailClient] => francoise.chappis-peron@laposte.net
+    [idClient] => 22656802
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 10386
+            [_aKey_customer_id] => 3676
+            [_aKey_secure_key] => e35246d663eef278746d42ce13ad990c
+            [_aKey_token] => 3183477870bb9930d2939120487ea005
+        )
+
+    [transid] => 64E1C99D730B2757
+    [is3ds] => No
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-08-20 10:07:15 ##
+----> END placeOrder()
+## 2023-08-20 10:07:15 ##
+----> END registerOrder()
+## 2023-08-20 10:07:16 ##
+----> Treatment is unlocked for the id_cart = 10386
+## 2023-08-20 10:57:37 ##
+##########################
+## 2023-08-20 10:57:37 ##
+START Validation Callback
+## 2023-08-20 10:57:37 ##
+##########################
+## 2023-08-20 10:57:37 ##
+----> Treatment is locked for the id_cart = 10392
+## 2023-08-20 10:57:38 ##
+data for validation
+## 2023-08-20 10:57:38 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>73123992ebcd8f6d3eb37c33b84f5455</md5content><result><operation>authorization</operation><status>ok</status><date>2023-08-20</date><time>08:57:36 UTC+0000</time><origAmount>59.29</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10392</idForMerchant><emailClient>contact@robsurfboard.com</emailClient><idClient>22502697</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10392</_aKey_cart_id>  <_aKey_customer_id>3677</_aKey_customer_id>  <_aKey_secure_key>b66ff51bbbfa4525f4da7d3e3f229a58</_aKey_secure_key>  <_aKey_token>e02de7c9caa74c4b68f46433614bbb91</_aKey_token></merchantDatas><transid>64E1D54D14756497</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 73123992ebcd8f6d3eb37c33b84f5455
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-08-20
+                    [time] => 08:57:36 UTC+0000
+                    [origAmount] => 59.29
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10392
+                    [emailClient] => contact@robsurfboard.com
+                    [idClient] => 22502697
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10392
+                            [_aKey_customer_id] => 3677
+                            [_aKey_secure_key] => b66ff51bbbfa4525f4da7d3e3f229a58
+                            [_aKey_token] => e02de7c9caa74c4b68f46433614bbb91
+                        )
+
+                    [transid] => 64E1D54D14756497
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10392
+    [3] => 3677
+    [4] => b66ff51bbbfa4525f4da7d3e3f229a58
+    [5] => 59.29
+)
+
+## 2023-08-20 10:57:38 ##
+----> START registerOrder()
+## 2023-08-20 10:57:38 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-20 10:57:38 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-08-20</date><time>08:57:36 UTC+0000</time><origAmount>59.29</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10392</idForMerchant><emailClient>contact@robsurfboard.com</emailClient><idClient>22502697</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10392</_aKey_cart_id>  <_aKey_customer_id>3677</_aKey_customer_id>  <_aKey_secure_key>b66ff51bbbfa4525f4da7d3e3f229a58</_aKey_secure_key>  <_aKey_token>e02de7c9caa74c4b68f46433614bbb91</_aKey_token></merchantDatas><transid>64E1D54D14756497</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-20 10:57:38 ##
+currency : EUR
+## 2023-08-20 10:57:38 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-20 10:57:38 ##
+callback_salt : 
+## 2023-08-20 10:57:38 ##
+md5 : 73123992ebcd8f6d3eb37c33b84f5455 == md5content : 73123992ebcd8f6d3eb37c33b84f5455
+## 2023-08-20 10:57:38 ##
+Status = ok
+## 2023-08-20 10:57:38 ##
+$currency = EUR
+## 2023-08-20 10:57:38 ##
+id_order_state = 42
+## 2023-08-20 10:57:38 ##
+----> START placeOrder()
+## 2023-08-20 10:57:38 ##
+Treatment status = 42
+## 2023-08-20 10:57:38 ##
+Validate order
+## 2023-08-20 10:57:38 ##
+Array
+(
+    [0] => 10392
+    [1] => 42
+    [2] => 59.29
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"64E1D54D14756497"}
+    [5] => Array
+        (
+            [transaction_id] => 64E1D54D14756497
+        )
+
+    [6] => 1
+    [7] => b66ff51bbbfa4525f4da7d3e3f229a58
+)
+
+## 2023-08-20 10:57:38 ##
+ID Shop = 1
+## 2023-08-20 10:57:39 ##
+Order created
+## 2023-08-20 10:57:39 ##
+----> END placeOrder()
+## 2023-08-20 10:57:39 ##
+----> END registerOrder()
+## 2023-08-20 10:57:39 ##
+----> Treatment is unlocked for the id_cart = 10392
+## 2023-08-20 10:57:46 ##
+##########################
+## 2023-08-20 10:57:46 ##
+START Validation Callback
+## 2023-08-20 10:57:47 ##
+##########################
+## 2023-08-20 10:57:47 ##
+----> Treatment is locked for the id_cart = 10392
+## 2023-08-20 10:57:47 ##
+data for validation
+## 2023-08-20 10:57:47 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>1c694c020febf1d6536686e8d41e4a70</md5content><result><operation>capture</operation><status>ok</status><date>2023-08-20</date><time>08:57:43 UTC+0000</time><origAmount>59.29</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10392</idForMerchant><emailClient>contact@robsurfboard.com</emailClient><idClient>22502697</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10392</_aKey_cart_id>  <_aKey_customer_id>3677</_aKey_customer_id>  <_aKey_secure_key>b66ff51bbbfa4525f4da7d3e3f229a58</_aKey_secure_key>  <_aKey_token>e02de7c9caa74c4b68f46433614bbb91</_aKey_token></merchantDatas><transid>64E1D54D14756497</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 1c694c020febf1d6536686e8d41e4a70
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-08-20
+                    [time] => 08:57:43 UTC+0000
+                    [origAmount] => 59.29
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10392
+                    [emailClient] => contact@robsurfboard.com
+                    [idClient] => 22502697
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10392
+                            [_aKey_customer_id] => 3677
+                            [_aKey_secure_key] => b66ff51bbbfa4525f4da7d3e3f229a58
+                            [_aKey_token] => e02de7c9caa74c4b68f46433614bbb91
+                        )
+
+                    [transid] => 64E1D54D14756497
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10392
+    [3] => 3677
+    [4] => b66ff51bbbfa4525f4da7d3e3f229a58
+    [5] => 59.29
+)
+
+## 2023-08-20 10:57:47 ##
+----> START registerOrder()
+## 2023-08-20 10:57:47 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-20 10:57:47 ##
+<result><operation>capture</operation><status>ok</status><date>2023-08-20</date><time>08:57:43 UTC+0000</time><origAmount>59.29</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10392</idForMerchant><emailClient>contact@robsurfboard.com</emailClient><idClient>22502697</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10392</_aKey_cart_id>  <_aKey_customer_id>3677</_aKey_customer_id>  <_aKey_secure_key>b66ff51bbbfa4525f4da7d3e3f229a58</_aKey_secure_key>  <_aKey_token>e02de7c9caa74c4b68f46433614bbb91</_aKey_token></merchantDatas><transid>64E1D54D14756497</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-20 10:57:47 ##
+currency : EUR
+## 2023-08-20 10:57:47 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-20 10:57:47 ##
+callback_salt : 
+## 2023-08-20 10:57:47 ##
+md5 : 1c694c020febf1d6536686e8d41e4a70 == md5content : 1c694c020febf1d6536686e8d41e4a70
+## 2023-08-20 10:57:47 ##
+Status = ok
+## 2023-08-20 10:57:47 ##
+$currency = EUR
+## 2023-08-20 10:57:47 ##
+id_order_state = 2
+## 2023-08-20 10:57:47 ##
+----> START placeOrder()
+## 2023-08-20 10:57:47 ##
+Treatment an existing order
+## 2023-08-20 10:57:47 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-08-20 10:57:47 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-08-20
+    [time] => 08:57:43 UTC+0000
+    [origAmount] => 59.29
+    [origCurrency] => EUR
+    [idForMerchant] => 10392
+    [emailClient] => contact@robsurfboard.com
+    [idClient] => 22502697
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 10392
+            [_aKey_customer_id] => 3677
+            [_aKey_secure_key] => b66ff51bbbfa4525f4da7d3e3f229a58
+            [_aKey_token] => e02de7c9caa74c4b68f46433614bbb91
+        )
+
+    [transid] => 64E1D54D14756497
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-08-20 10:57:47 ##
+----> END placeOrder()
+## 2023-08-20 10:57:47 ##
+----> END registerOrder()
+## 2023-08-20 10:57:47 ##
+----> Treatment is unlocked for the id_cart = 10392

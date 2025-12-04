@@ -1,0 +1,259 @@
+## 2023-09-15 17:12:00 ##
+##########################
+## 2023-09-15 17:12:00 ##
+START Validation Callback
+## 2023-09-15 17:12:00 ##
+##########################
+## 2023-09-15 17:12:00 ##
+----> Treatment is locked for the id_cart = 10884
+## 2023-09-15 17:12:00 ##
+data for validation
+## 2023-09-15 17:12:00 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>161020db3e6e5c38ae0d9ee433e775c4</md5content><result><operation>authorization</operation><status>ok</status><date>2023-09-15</date><time>15:11:57 UTC+0000</time><origAmount>141.13</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10884</idForMerchant><emailClient>marol.dal@free.fr</emailClient><idClient>22755370</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10884</_aKey_cart_id>  <_aKey_customer_id>3719</_aKey_customer_id>  <_aKey_secure_key>1162f15d240b5bc544bcd9611e6d4c78</_aKey_secure_key>  <_aKey_token>7108b394bb31ee6019f86b45b21c2889</_aKey_token></merchantDatas><transid>650473EE99E50317</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 161020db3e6e5c38ae0d9ee433e775c4
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-09-15
+                    [time] => 15:11:57 UTC+0000
+                    [origAmount] => 141.13
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10884
+                    [emailClient] => marol.dal@free.fr
+                    [idClient] => 22755370
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10884
+                            [_aKey_customer_id] => 3719
+                            [_aKey_secure_key] => 1162f15d240b5bc544bcd9611e6d4c78
+                            [_aKey_token] => 7108b394bb31ee6019f86b45b21c2889
+                        )
+
+                    [transid] => 650473EE99E50317
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10884
+    [3] => 3719
+    [4] => 1162f15d240b5bc544bcd9611e6d4c78
+    [5] => 141.13
+)
+
+## 2023-09-15 17:12:00 ##
+----> START registerOrder()
+## 2023-09-15 17:12:00 ##
+accountID:13248407 / websiteId:417972
+## 2023-09-15 17:12:00 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-09-15</date><time>15:11:57 UTC+0000</time><origAmount>141.13</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10884</idForMerchant><emailClient>marol.dal@free.fr</emailClient><idClient>22755370</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10884</_aKey_cart_id>  <_aKey_customer_id>3719</_aKey_customer_id>  <_aKey_secure_key>1162f15d240b5bc544bcd9611e6d4c78</_aKey_secure_key>  <_aKey_token>7108b394bb31ee6019f86b45b21c2889</_aKey_token></merchantDatas><transid>650473EE99E50317</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-09-15 17:12:00 ##
+currency : EUR
+## 2023-09-15 17:12:00 ##
+accountID:13248407 / websiteId:417972
+## 2023-09-15 17:12:00 ##
+callback_salt : 
+## 2023-09-15 17:12:00 ##
+md5 : 161020db3e6e5c38ae0d9ee433e775c4 == md5content : 161020db3e6e5c38ae0d9ee433e775c4
+## 2023-09-15 17:12:00 ##
+Status = ok
+## 2023-09-15 17:12:00 ##
+$currency = EUR
+## 2023-09-15 17:12:00 ##
+id_order_state = 42
+## 2023-09-15 17:12:00 ##
+----> START placeOrder()
+## 2023-09-15 17:12:00 ##
+Treatment status = 42
+## 2023-09-15 17:12:00 ##
+Validate order
+## 2023-09-15 17:12:00 ##
+Array
+(
+    [0] => 10884
+    [1] => 42
+    [2] => 141.13
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"650473EE99E50317"}
+    [5] => Array
+        (
+            [transaction_id] => 650473EE99E50317
+        )
+
+    [6] => 1
+    [7] => 1162f15d240b5bc544bcd9611e6d4c78
+)
+
+## 2023-09-15 17:12:00 ##
+ID Shop = 1
+## 2023-09-15 17:12:03 ##
+Order created
+## 2023-09-15 17:12:03 ##
+----> END placeOrder()
+## 2023-09-15 17:12:03 ##
+----> END registerOrder()
+## 2023-09-15 17:12:03 ##
+----> Treatment is unlocked for the id_cart = 10884
+## 2023-09-15 17:12:06 ##
+##########################
+## 2023-09-15 17:12:06 ##
+START Validation Callback
+## 2023-09-15 17:12:06 ##
+##########################
+## 2023-09-15 17:12:06 ##
+----> Treatment is locked for the id_cart = 10884
+## 2023-09-15 17:12:06 ##
+data for validation
+## 2023-09-15 17:12:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ed9354aee39af849b7cbab157bd2ffa8</md5content><result><operation>capture</operation><status>ok</status><date>2023-09-15</date><time>15:12:04 UTC+0000</time><origAmount>141.13</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10884</idForMerchant><emailClient>marol.dal@free.fr</emailClient><idClient>22755370</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10884</_aKey_cart_id>  <_aKey_customer_id>3719</_aKey_customer_id>  <_aKey_secure_key>1162f15d240b5bc544bcd9611e6d4c78</_aKey_secure_key>  <_aKey_token>7108b394bb31ee6019f86b45b21c2889</_aKey_token></merchantDatas><transid>650473EE99E50317</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ed9354aee39af849b7cbab157bd2ffa8
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-09-15
+                    [time] => 15:12:04 UTC+0000
+                    [origAmount] => 141.13
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10884
+                    [emailClient] => marol.dal@free.fr
+                    [idClient] => 22755370
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10884
+                            [_aKey_customer_id] => 3719
+                            [_aKey_secure_key] => 1162f15d240b5bc544bcd9611e6d4c78
+                            [_aKey_token] => 7108b394bb31ee6019f86b45b21c2889
+                        )
+
+                    [transid] => 650473EE99E50317
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10884
+    [3] => 3719
+    [4] => 1162f15d240b5bc544bcd9611e6d4c78
+    [5] => 141.13
+)
+
+## 2023-09-15 17:12:06 ##
+----> START registerOrder()
+## 2023-09-15 17:12:06 ##
+accountID:13248407 / websiteId:417972
+## 2023-09-15 17:12:06 ##
+<result><operation>capture</operation><status>ok</status><date>2023-09-15</date><time>15:12:04 UTC+0000</time><origAmount>141.13</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10884</idForMerchant><emailClient>marol.dal@free.fr</emailClient><idClient>22755370</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10884</_aKey_cart_id>  <_aKey_customer_id>3719</_aKey_customer_id>  <_aKey_secure_key>1162f15d240b5bc544bcd9611e6d4c78</_aKey_secure_key>  <_aKey_token>7108b394bb31ee6019f86b45b21c2889</_aKey_token></merchantDatas><transid>650473EE99E50317</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-09-15 17:12:06 ##
+currency : EUR
+## 2023-09-15 17:12:06 ##
+accountID:13248407 / websiteId:417972
+## 2023-09-15 17:12:06 ##
+callback_salt : 
+## 2023-09-15 17:12:06 ##
+md5 : ed9354aee39af849b7cbab157bd2ffa8 == md5content : ed9354aee39af849b7cbab157bd2ffa8
+## 2023-09-15 17:12:06 ##
+Status = ok
+## 2023-09-15 17:12:06 ##
+$currency = EUR
+## 2023-09-15 17:12:06 ##
+id_order_state = 2
+## 2023-09-15 17:12:06 ##
+----> START placeOrder()
+## 2023-09-15 17:12:06 ##
+Treatment an existing order
+## 2023-09-15 17:12:06 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-09-15 17:12:06 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-09-15
+    [time] => 15:12:04 UTC+0000
+    [origAmount] => 141.13
+    [origCurrency] => EUR
+    [idForMerchant] => 10884
+    [emailClient] => marol.dal@free.fr
+    [idClient] => 22755370
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 10884
+            [_aKey_customer_id] => 3719
+            [_aKey_secure_key] => 1162f15d240b5bc544bcd9611e6d4c78
+            [_aKey_token] => 7108b394bb31ee6019f86b45b21c2889
+        )
+
+    [transid] => 650473EE99E50317
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-09-15 17:12:06 ##
+----> END placeOrder()
+## 2023-09-15 17:12:06 ##
+----> END registerOrder()
+## 2023-09-15 17:12:06 ##
+----> Treatment is unlocked for the id_cart = 10884

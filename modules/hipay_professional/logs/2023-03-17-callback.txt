@@ -1,0 +1,259 @@
+## 2023-03-17 12:02:07 ##
+##########################
+## 2023-03-17 12:02:07 ##
+START Validation Callback
+## 2023-03-17 12:02:07 ##
+##########################
+## 2023-03-17 12:02:07 ##
+----> Treatment is locked for the id_cart = 7874
+## 2023-03-17 12:02:07 ##
+data for validation
+## 2023-03-17 12:02:07 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>d9b570350f03ea0c1c2aad49823dbfb1</md5content><result><operation>authorization</operation><status>ok</status><date>2023-03-17</date><time>11:02:04 UTC+0000</time><origAmount>905.76</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7874</idForMerchant><emailClient>clement.roussel@titrafilm.com</emailClient><idClient>22141952</idClient><cardCountry>BE</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7874</_aKey_cart_id>  <_aKey_customer_id>3229</_aKey_customer_id>  <_aKey_secure_key>dcb79f3f4f86628adcde9b31d72b1648</_aKey_secure_key>  <_aKey_token>c12f513013f799a8ee92815c63b86980</_aKey_token></merchantDatas><transid>641448817D6B3276</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => d9b570350f03ea0c1c2aad49823dbfb1
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-03-17
+                    [time] => 11:02:04 UTC+0000
+                    [origAmount] => 905.76
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7874
+                    [emailClient] => clement.roussel@titrafilm.com
+                    [idClient] => 22141952
+                    [cardCountry] => BE
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7874
+                            [_aKey_customer_id] => 3229
+                            [_aKey_secure_key] => dcb79f3f4f86628adcde9b31d72b1648
+                            [_aKey_token] => c12f513013f799a8ee92815c63b86980
+                        )
+
+                    [transid] => 641448817D6B3276
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7874
+    [3] => 3229
+    [4] => dcb79f3f4f86628adcde9b31d72b1648
+    [5] => 905.76
+)
+
+## 2023-03-17 12:02:07 ##
+----> START registerOrder()
+## 2023-03-17 12:02:07 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-17 12:02:07 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-03-17</date><time>11:02:04 UTC+0000</time><origAmount>905.76</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7874</idForMerchant><emailClient>clement.roussel@titrafilm.com</emailClient><idClient>22141952</idClient><cardCountry>BE</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7874</_aKey_cart_id>  <_aKey_customer_id>3229</_aKey_customer_id>  <_aKey_secure_key>dcb79f3f4f86628adcde9b31d72b1648</_aKey_secure_key>  <_aKey_token>c12f513013f799a8ee92815c63b86980</_aKey_token></merchantDatas><transid>641448817D6B3276</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-17 12:02:07 ##
+currency : EUR
+## 2023-03-17 12:02:07 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-17 12:02:07 ##
+callback_salt : 
+## 2023-03-17 12:02:07 ##
+md5 : d9b570350f03ea0c1c2aad49823dbfb1 == md5content : d9b570350f03ea0c1c2aad49823dbfb1
+## 2023-03-17 12:02:07 ##
+Status = ok
+## 2023-03-17 12:02:07 ##
+$currency = EUR
+## 2023-03-17 12:02:07 ##
+id_order_state = 42
+## 2023-03-17 12:02:07 ##
+----> START placeOrder()
+## 2023-03-17 12:02:07 ##
+Treatment status = 42
+## 2023-03-17 12:02:07 ##
+Validate order
+## 2023-03-17 12:02:07 ##
+Array
+(
+    [0] => 7874
+    [1] => 42
+    [2] => 905.76
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"641448817D6B3276"}
+    [5] => Array
+        (
+            [transaction_id] => 641448817D6B3276
+        )
+
+    [6] => 1
+    [7] => dcb79f3f4f86628adcde9b31d72b1648
+)
+
+## 2023-03-17 12:02:07 ##
+ID Shop = 1
+## 2023-03-17 12:02:09 ##
+Order created
+## 2023-03-17 12:02:09 ##
+----> END placeOrder()
+## 2023-03-17 12:02:09 ##
+----> END registerOrder()
+## 2023-03-17 12:02:09 ##
+----> Treatment is unlocked for the id_cart = 7874
+## 2023-03-17 12:02:16 ##
+##########################
+## 2023-03-17 12:02:16 ##
+START Validation Callback
+## 2023-03-17 12:02:16 ##
+##########################
+## 2023-03-17 12:02:16 ##
+----> Treatment is locked for the id_cart = 7874
+## 2023-03-17 12:02:16 ##
+data for validation
+## 2023-03-17 12:02:16 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>1676a06b8872c86707776365a600ce20</md5content><result><operation>capture</operation><status>ok</status><date>2023-03-17</date><time>11:02:11 UTC+0000</time><origAmount>905.76</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7874</idForMerchant><emailClient>clement.roussel@titrafilm.com</emailClient><idClient>22141952</idClient><cardCountry>BE</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7874</_aKey_cart_id>  <_aKey_customer_id>3229</_aKey_customer_id>  <_aKey_secure_key>dcb79f3f4f86628adcde9b31d72b1648</_aKey_secure_key>  <_aKey_token>c12f513013f799a8ee92815c63b86980</_aKey_token></merchantDatas><transid>641448817D6B3276</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 1676a06b8872c86707776365a600ce20
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-03-17
+                    [time] => 11:02:11 UTC+0000
+                    [origAmount] => 905.76
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7874
+                    [emailClient] => clement.roussel@titrafilm.com
+                    [idClient] => 22141952
+                    [cardCountry] => BE
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7874
+                            [_aKey_customer_id] => 3229
+                            [_aKey_secure_key] => dcb79f3f4f86628adcde9b31d72b1648
+                            [_aKey_token] => c12f513013f799a8ee92815c63b86980
+                        )
+
+                    [transid] => 641448817D6B3276
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7874
+    [3] => 3229
+    [4] => dcb79f3f4f86628adcde9b31d72b1648
+    [5] => 905.76
+)
+
+## 2023-03-17 12:02:16 ##
+----> START registerOrder()
+## 2023-03-17 12:02:16 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-17 12:02:16 ##
+<result><operation>capture</operation><status>ok</status><date>2023-03-17</date><time>11:02:11 UTC+0000</time><origAmount>905.76</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7874</idForMerchant><emailClient>clement.roussel@titrafilm.com</emailClient><idClient>22141952</idClient><cardCountry>BE</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7874</_aKey_cart_id>  <_aKey_customer_id>3229</_aKey_customer_id>  <_aKey_secure_key>dcb79f3f4f86628adcde9b31d72b1648</_aKey_secure_key>  <_aKey_token>c12f513013f799a8ee92815c63b86980</_aKey_token></merchantDatas><transid>641448817D6B3276</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-17 12:02:16 ##
+currency : EUR
+## 2023-03-17 12:02:16 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-17 12:02:16 ##
+callback_salt : 
+## 2023-03-17 12:02:16 ##
+md5 : 1676a06b8872c86707776365a600ce20 == md5content : 1676a06b8872c86707776365a600ce20
+## 2023-03-17 12:02:16 ##
+Status = ok
+## 2023-03-17 12:02:16 ##
+$currency = EUR
+## 2023-03-17 12:02:16 ##
+id_order_state = 2
+## 2023-03-17 12:02:16 ##
+----> START placeOrder()
+## 2023-03-17 12:02:16 ##
+Treatment an existing order
+## 2023-03-17 12:02:16 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-03-17 12:02:16 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-03-17
+    [time] => 11:02:11 UTC+0000
+    [origAmount] => 905.76
+    [origCurrency] => EUR
+    [idForMerchant] => 7874
+    [emailClient] => clement.roussel@titrafilm.com
+    [idClient] => 22141952
+    [cardCountry] => BE
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 7874
+            [_aKey_customer_id] => 3229
+            [_aKey_secure_key] => dcb79f3f4f86628adcde9b31d72b1648
+            [_aKey_token] => c12f513013f799a8ee92815c63b86980
+        )
+
+    [transid] => 641448817D6B3276
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-03-17 12:02:17 ##
+----> END placeOrder()
+## 2023-03-17 12:02:17 ##
+----> END registerOrder()
+## 2023-03-17 12:02:17 ##
+----> Treatment is unlocked for the id_cart = 7874

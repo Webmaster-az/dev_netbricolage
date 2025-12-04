@@ -1,0 +1,100 @@
+## 2023-09-04 10:44:19 ##
+##########################
+## 2023-09-04 10:44:19 ##
+START Validation Callback
+## 2023-09-04 10:44:19 ##
+##########################
+## 2023-09-04 10:44:19 ##
+----> Treatment is locked for the id_cart = 10265
+## 2023-09-04 10:44:19 ##
+data for validation
+## 2023-09-04 10:44:19 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>b7c341a4d103cb670d5af86315f11967</md5content><result><operation>refund</operation><status>ok</status><date>2023-09-04</date><time>08:44:17 UTC+0000</time><origAmount>118.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10265</idForMerchant><emailClient>vinceplomberie33@gmail.com</emailClient><idClient>22629941</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10265</_aKey_cart_id>  <_aKey_customer_id>3660</_aKey_customer_id>  <_aKey_secure_key>e8596b5212aa437113a97977d592bfa7</_aKey_secure_key>  <_aKey_token>524c4f65b80ef86cf31e8cf2ffdaffd5</_aKey_token></merchantDatas><transid>64D750A2B443F104</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><refundedAmount>118.02</refundedAmount><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => b7c341a4d103cb670d5af86315f11967
+            [result] => Array
+                (
+                    [operation] => refund
+                    [status] => ok
+                    [date] => 2023-09-04
+                    [time] => 08:44:17 UTC+0000
+                    [origAmount] => 118.02
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10265
+                    [emailClient] => vinceplomberie33@gmail.com
+                    [idClient] => 22629941
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10265
+                            [_aKey_customer_id] => 3660
+                            [_aKey_secure_key] => e8596b5212aa437113a97977d592bfa7
+                            [_aKey_token] => 524c4f65b80ef86cf31e8cf2ffdaffd5
+                        )
+
+                    [transid] => 64D750A2B443F104
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [refundedAmount] => 118.02
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10265
+    [3] => 3660
+    [4] => e8596b5212aa437113a97977d592bfa7
+    [5] => 118.02
+)
+
+## 2023-09-04 10:44:19 ##
+----> START registerOrder()
+## 2023-09-04 10:44:19 ##
+accountID:13248407 / websiteId:417972
+## 2023-09-04 10:44:19 ##
+<result><operation>refund</operation><status>ok</status><date>2023-09-04</date><time>08:44:17 UTC+0000</time><origAmount>118.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10265</idForMerchant><emailClient>vinceplomberie33@gmail.com</emailClient><idClient>22629941</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10265</_aKey_cart_id>  <_aKey_customer_id>3660</_aKey_customer_id>  <_aKey_secure_key>e8596b5212aa437113a97977d592bfa7</_aKey_secure_key>  <_aKey_token>524c4f65b80ef86cf31e8cf2ffdaffd5</_aKey_token></merchantDatas><transid>64D750A2B443F104</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><refundedAmount>118.02</refundedAmount><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-09-04 10:44:19 ##
+currency : EUR
+## 2023-09-04 10:44:19 ##
+accountID:13248407 / websiteId:417972
+## 2023-09-04 10:44:19 ##
+callback_salt : 
+## 2023-09-04 10:44:19 ##
+md5 : b7c341a4d103cb670d5af86315f11967 == md5content : b7c341a4d103cb670d5af86315f11967
+## 2023-09-04 10:44:19 ##
+Status = ok
+## 2023-09-04 10:44:19 ##
+$currency = EUR
+## 2023-09-04 10:44:19 ##
+id_order_state = 2
+## 2023-09-04 10:44:19 ##
+----> START placeOrder()
+## 2023-09-04 10:44:19 ##
+Treatment an existing order
+## 2023-09-04 10:44:19 ##
+getCurrentState 7 != HIPAY_OS_WAITING 42
+## 2023-09-04 10:44:19 ##
+----> END placeOrder()
+## 2023-09-04 10:44:19 ##
+----> END registerOrder()
+## 2023-09-04 10:44:19 ##
+----> Treatment is unlocked for the id_cart = 10265

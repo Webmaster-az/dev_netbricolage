@@ -1,0 +1,259 @@
+## 2022-01-05 16:01:48 ##
+##########################
+## 2022-01-05 16:01:48 ##
+START Validation Callback
+## 2022-01-05 16:01:48 ##
+##########################
+## 2022-01-05 16:01:48 ##
+----> Treatment is locked for the id_cart = 1383
+## 2022-01-05 16:01:48 ##
+data for validation
+## 2022-01-05 16:01:48 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>cac945046b45f8df7905ab8cc5ee48fe</md5content><result><operation>authorization</operation><status>ok</status><date>2022-01-05</date><time>15:01:47 UTC+0000</time><origAmount>105.39</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1383</idForMerchant><emailClient>fred.courmes@gmail.com</emailClient><idClient>20027544</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1383</_aKey_cart_id>  <_aKey_customer_id>1667</_aKey_customer_id>  <_aKey_secure_key>682009ee01a8d47f1a5d4b1409d86ee8</_aKey_secure_key>  <_aKey_token>eeedc2a7080b80f8ec9096eedc9a47f6</_aKey_token></merchantDatas><transid>61D5B2B6736CD217</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => cac945046b45f8df7905ab8cc5ee48fe
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-01-05
+                    [time] => 15:01:47 UTC+0000
+                    [origAmount] => 105.39
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1383
+                    [emailClient] => fred.courmes@gmail.com
+                    [idClient] => 20027544
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1383
+                            [_aKey_customer_id] => 1667
+                            [_aKey_secure_key] => 682009ee01a8d47f1a5d4b1409d86ee8
+                            [_aKey_token] => eeedc2a7080b80f8ec9096eedc9a47f6
+                        )
+
+                    [transid] => 61D5B2B6736CD217
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1383
+    [3] => 1667
+    [4] => 682009ee01a8d47f1a5d4b1409d86ee8
+    [5] => 105.39
+)
+
+## 2022-01-05 16:01:48 ##
+----> START registerOrder()
+## 2022-01-05 16:01:48 ##
+accountID:4054280 / websiteId:377676
+## 2022-01-05 16:01:48 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-01-05</date><time>15:01:47 UTC+0000</time><origAmount>105.39</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1383</idForMerchant><emailClient>fred.courmes@gmail.com</emailClient><idClient>20027544</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1383</_aKey_cart_id>  <_aKey_customer_id>1667</_aKey_customer_id>  <_aKey_secure_key>682009ee01a8d47f1a5d4b1409d86ee8</_aKey_secure_key>  <_aKey_token>eeedc2a7080b80f8ec9096eedc9a47f6</_aKey_token></merchantDatas><transid>61D5B2B6736CD217</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-01-05 16:01:48 ##
+currency : EUR
+## 2022-01-05 16:01:48 ##
+accountID:4054280 / websiteId:377676
+## 2022-01-05 16:01:48 ##
+callback_salt : 
+## 2022-01-05 16:01:48 ##
+md5 : cac945046b45f8df7905ab8cc5ee48fe == md5content : cac945046b45f8df7905ab8cc5ee48fe
+## 2022-01-05 16:01:48 ##
+Status = ok
+## 2022-01-05 16:01:48 ##
+$currency = EUR
+## 2022-01-05 16:01:48 ##
+id_order_state = 42
+## 2022-01-05 16:01:48 ##
+----> START placeOrder()
+## 2022-01-05 16:01:48 ##
+Treatment status = 42
+## 2022-01-05 16:01:48 ##
+Validate order
+## 2022-01-05 16:01:48 ##
+Array
+(
+    [0] => 1383
+    [1] => 42
+    [2] => 105.39
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"MASTERCARD","Transaction ID":"61D5B2B6736CD217"}
+    [5] => Array
+        (
+            [transaction_id] => 61D5B2B6736CD217
+        )
+
+    [6] => 1
+    [7] => 682009ee01a8d47f1a5d4b1409d86ee8
+)
+
+## 2022-01-05 16:01:48 ##
+ID Shop = 1
+## 2022-01-05 16:01:53 ##
+Order created
+## 2022-01-05 16:01:53 ##
+----> END placeOrder()
+## 2022-01-05 16:01:53 ##
+----> END registerOrder()
+## 2022-01-05 16:01:53 ##
+----> Treatment is unlocked for the id_cart = 1383
+## 2022-01-05 16:01:58 ##
+##########################
+## 2022-01-05 16:01:58 ##
+START Validation Callback
+## 2022-01-05 16:01:58 ##
+##########################
+## 2022-01-05 16:01:58 ##
+----> Treatment is locked for the id_cart = 1383
+## 2022-01-05 16:01:58 ##
+data for validation
+## 2022-01-05 16:01:58 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>afdbda75fbc23e5da55c624564a31d9a</md5content><result><operation>capture</operation><status>ok</status><date>2022-01-05</date><time>15:01:54 UTC+0000</time><origAmount>105.39</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1383</idForMerchant><emailClient>fred.courmes@gmail.com</emailClient><idClient>20027544</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1383</_aKey_cart_id>  <_aKey_customer_id>1667</_aKey_customer_id>  <_aKey_secure_key>682009ee01a8d47f1a5d4b1409d86ee8</_aKey_secure_key>  <_aKey_token>eeedc2a7080b80f8ec9096eedc9a47f6</_aKey_token></merchantDatas><transid>61D5B2B6736CD217</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => afdbda75fbc23e5da55c624564a31d9a
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-01-05
+                    [time] => 15:01:54 UTC+0000
+                    [origAmount] => 105.39
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1383
+                    [emailClient] => fred.courmes@gmail.com
+                    [idClient] => 20027544
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1383
+                            [_aKey_customer_id] => 1667
+                            [_aKey_secure_key] => 682009ee01a8d47f1a5d4b1409d86ee8
+                            [_aKey_token] => eeedc2a7080b80f8ec9096eedc9a47f6
+                        )
+
+                    [transid] => 61D5B2B6736CD217
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1383
+    [3] => 1667
+    [4] => 682009ee01a8d47f1a5d4b1409d86ee8
+    [5] => 105.39
+)
+
+## 2022-01-05 16:01:58 ##
+----> START registerOrder()
+## 2022-01-05 16:01:58 ##
+accountID:4054280 / websiteId:377676
+## 2022-01-05 16:01:58 ##
+<result><operation>capture</operation><status>ok</status><date>2022-01-05</date><time>15:01:54 UTC+0000</time><origAmount>105.39</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1383</idForMerchant><emailClient>fred.courmes@gmail.com</emailClient><idClient>20027544</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1383</_aKey_cart_id>  <_aKey_customer_id>1667</_aKey_customer_id>  <_aKey_secure_key>682009ee01a8d47f1a5d4b1409d86ee8</_aKey_secure_key>  <_aKey_token>eeedc2a7080b80f8ec9096eedc9a47f6</_aKey_token></merchantDatas><transid>61D5B2B6736CD217</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-01-05 16:01:58 ##
+currency : EUR
+## 2022-01-05 16:01:58 ##
+accountID:4054280 / websiteId:377676
+## 2022-01-05 16:01:58 ##
+callback_salt : 
+## 2022-01-05 16:01:58 ##
+md5 : afdbda75fbc23e5da55c624564a31d9a == md5content : afdbda75fbc23e5da55c624564a31d9a
+## 2022-01-05 16:01:58 ##
+Status = ok
+## 2022-01-05 16:01:58 ##
+$currency = EUR
+## 2022-01-05 16:01:58 ##
+id_order_state = 2
+## 2022-01-05 16:01:58 ##
+----> START placeOrder()
+## 2022-01-05 16:01:58 ##
+Treatment an existing order
+## 2022-01-05 16:01:58 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-01-05 16:01:58 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-01-05
+    [time] => 15:01:54 UTC+0000
+    [origAmount] => 105.39
+    [origCurrency] => EUR
+    [idForMerchant] => 1383
+    [emailClient] => fred.courmes@gmail.com
+    [idClient] => 20027544
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 1383
+            [_aKey_customer_id] => 1667
+            [_aKey_secure_key] => 682009ee01a8d47f1a5d4b1409d86ee8
+            [_aKey_token] => eeedc2a7080b80f8ec9096eedc9a47f6
+        )
+
+    [transid] => 61D5B2B6736CD217
+    [is3ds] => Yes
+    [paymentMethod] => MASTERCARD
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-01-05 16:01:58 ##
+----> END placeOrder()
+## 2022-01-05 16:01:58 ##
+----> END registerOrder()
+## 2022-01-05 16:01:58 ##
+----> Treatment is unlocked for the id_cart = 1383

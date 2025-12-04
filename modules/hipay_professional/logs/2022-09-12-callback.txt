@@ -1,0 +1,518 @@
+## 2022-09-12 10:27:18 ##
+##########################
+## 2022-09-12 10:27:18 ##
+START Validation Callback
+## 2022-09-12 10:27:18 ##
+##########################
+## 2022-09-12 10:27:18 ##
+----> Treatment is locked for the id_cart = 4181
+## 2022-09-12 10:27:18 ##
+data for validation
+## 2022-09-12 10:27:18 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>4006e6df8a2c4c3aa892569479ac7dd6</md5content><result><operation>authorization</operation><status>ok</status><date>2022-09-12</date><time>08:27:16 UTC+0000</time><origAmount>141.15</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4181</idForMerchant><emailClient>jean.pineau56@orange.fr</emailClient><idClient>21433474</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>4181</_aKey_cart_id>  <_aKey_customer_id>2450</_aKey_customer_id>  <_aKey_secure_key>1a92eaab848461ea83667cb26828c1b6</_aKey_secure_key>  <_aKey_token>25fb769cf619df723e3bdfde08edb72f</_aKey_token></merchantDatas><transid>631EECED1882B218</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 4006e6df8a2c4c3aa892569479ac7dd6
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-09-12
+                    [time] => 08:27:16 UTC+0000
+                    [origAmount] => 141.15
+                    [origCurrency] => EUR
+                    [idForMerchant] => 4181
+                    [emailClient] => jean.pineau56@orange.fr
+                    [idClient] => 21433474
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 4181
+                            [_aKey_customer_id] => 2450
+                            [_aKey_secure_key] => 1a92eaab848461ea83667cb26828c1b6
+                            [_aKey_token] => 25fb769cf619df723e3bdfde08edb72f
+                        )
+
+                    [transid] => 631EECED1882B218
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 4181
+    [3] => 2450
+    [4] => 1a92eaab848461ea83667cb26828c1b6
+    [5] => 141.15
+)
+
+## 2022-09-12 10:27:18 ##
+----> START registerOrder()
+## 2022-09-12 10:27:18 ##
+accountID:13248407 / websiteId:418801
+## 2022-09-12 10:27:18 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-09-12</date><time>08:27:16 UTC+0000</time><origAmount>141.15</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4181</idForMerchant><emailClient>jean.pineau56@orange.fr</emailClient><idClient>21433474</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>4181</_aKey_cart_id>  <_aKey_customer_id>2450</_aKey_customer_id>  <_aKey_secure_key>1a92eaab848461ea83667cb26828c1b6</_aKey_secure_key>  <_aKey_token>25fb769cf619df723e3bdfde08edb72f</_aKey_token></merchantDatas><transid>631EECED1882B218</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-09-12 10:27:18 ##
+currency : EUR
+## 2022-09-12 10:27:18 ##
+accountID:13248407 / websiteId:418801
+## 2022-09-12 10:27:18 ##
+callback_salt : 
+## 2022-09-12 10:27:18 ##
+md5 : 4006e6df8a2c4c3aa892569479ac7dd6 == md5content : 4006e6df8a2c4c3aa892569479ac7dd6
+## 2022-09-12 10:27:18 ##
+Status = ok
+## 2022-09-12 10:27:18 ##
+$currency = EUR
+## 2022-09-12 10:27:18 ##
+id_order_state = 42
+## 2022-09-12 10:27:18 ##
+----> START placeOrder()
+## 2022-09-12 10:27:18 ##
+Treatment status = 42
+## 2022-09-12 10:27:18 ##
+Validate order
+## 2022-09-12 10:27:18 ##
+Array
+(
+    [0] => 4181
+    [1] => 42
+    [2] => 141.15
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"631EECED1882B218"}
+    [5] => Array
+        (
+            [transaction_id] => 631EECED1882B218
+        )
+
+    [6] => 1
+    [7] => 1a92eaab848461ea83667cb26828c1b6
+)
+
+## 2022-09-12 10:27:18 ##
+ID Shop = 1
+## 2022-09-12 10:27:20 ##
+Order created
+## 2022-09-12 10:27:20 ##
+----> END placeOrder()
+## 2022-09-12 10:27:20 ##
+----> END registerOrder()
+## 2022-09-12 10:27:20 ##
+----> Treatment is unlocked for the id_cart = 4181
+## 2022-09-12 10:27:27 ##
+##########################
+## 2022-09-12 10:27:27 ##
+START Validation Callback
+## 2022-09-12 10:27:27 ##
+##########################
+## 2022-09-12 10:27:27 ##
+----> Treatment is locked for the id_cart = 4181
+## 2022-09-12 10:27:27 ##
+data for validation
+## 2022-09-12 10:27:27 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>7a4360132bec39ee85818417c768be1d</md5content><result><operation>capture</operation><status>ok</status><date>2022-09-12</date><time>08:27:26 UTC+0000</time><origAmount>141.15</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4181</idForMerchant><emailClient>jean.pineau56@orange.fr</emailClient><idClient>21433474</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>4181</_aKey_cart_id>  <_aKey_customer_id>2450</_aKey_customer_id>  <_aKey_secure_key>1a92eaab848461ea83667cb26828c1b6</_aKey_secure_key>  <_aKey_token>25fb769cf619df723e3bdfde08edb72f</_aKey_token></merchantDatas><transid>631EECED1882B218</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 7a4360132bec39ee85818417c768be1d
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-09-12
+                    [time] => 08:27:26 UTC+0000
+                    [origAmount] => 141.15
+                    [origCurrency] => EUR
+                    [idForMerchant] => 4181
+                    [emailClient] => jean.pineau56@orange.fr
+                    [idClient] => 21433474
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 4181
+                            [_aKey_customer_id] => 2450
+                            [_aKey_secure_key] => 1a92eaab848461ea83667cb26828c1b6
+                            [_aKey_token] => 25fb769cf619df723e3bdfde08edb72f
+                        )
+
+                    [transid] => 631EECED1882B218
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 4181
+    [3] => 2450
+    [4] => 1a92eaab848461ea83667cb26828c1b6
+    [5] => 141.15
+)
+
+## 2022-09-12 10:27:27 ##
+----> START registerOrder()
+## 2022-09-12 10:27:27 ##
+accountID:13248407 / websiteId:418801
+## 2022-09-12 10:27:27 ##
+<result><operation>capture</operation><status>ok</status><date>2022-09-12</date><time>08:27:26 UTC+0000</time><origAmount>141.15</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4181</idForMerchant><emailClient>jean.pineau56@orange.fr</emailClient><idClient>21433474</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>4181</_aKey_cart_id>  <_aKey_customer_id>2450</_aKey_customer_id>  <_aKey_secure_key>1a92eaab848461ea83667cb26828c1b6</_aKey_secure_key>  <_aKey_token>25fb769cf619df723e3bdfde08edb72f</_aKey_token></merchantDatas><transid>631EECED1882B218</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-09-12 10:27:27 ##
+currency : EUR
+## 2022-09-12 10:27:27 ##
+accountID:13248407 / websiteId:418801
+## 2022-09-12 10:27:27 ##
+callback_salt : 
+## 2022-09-12 10:27:27 ##
+md5 : 7a4360132bec39ee85818417c768be1d == md5content : 7a4360132bec39ee85818417c768be1d
+## 2022-09-12 10:27:27 ##
+Status = ok
+## 2022-09-12 10:27:27 ##
+$currency = EUR
+## 2022-09-12 10:27:27 ##
+id_order_state = 2
+## 2022-09-12 10:27:27 ##
+----> START placeOrder()
+## 2022-09-12 10:27:27 ##
+Treatment an existing order
+## 2022-09-12 10:27:27 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-09-12 10:27:27 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-09-12
+    [time] => 08:27:26 UTC+0000
+    [origAmount] => 141.15
+    [origCurrency] => EUR
+    [idForMerchant] => 4181
+    [emailClient] => jean.pineau56@orange.fr
+    [idClient] => 21433474
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 4181
+            [_aKey_customer_id] => 2450
+            [_aKey_secure_key] => 1a92eaab848461ea83667cb26828c1b6
+            [_aKey_token] => 25fb769cf619df723e3bdfde08edb72f
+        )
+
+    [transid] => 631EECED1882B218
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-09-12 10:27:27 ##
+----> END placeOrder()
+## 2022-09-12 10:27:27 ##
+----> END registerOrder()
+## 2022-09-12 10:27:27 ##
+----> Treatment is unlocked for the id_cart = 4181
+## 2022-09-12 17:14:38 ##
+##########################
+## 2022-09-12 17:14:38 ##
+START Validation Callback
+## 2022-09-12 17:14:38 ##
+##########################
+## 2022-09-12 17:14:38 ##
+----> Treatment is locked for the id_cart = 4424
+## 2022-09-12 17:14:38 ##
+data for validation
+## 2022-09-12 17:14:38 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>27999301f43b2594294e8938a10014c8</md5content><result><operation>authorization</operation><status>ok</status><date>2022-09-12</date><time>15:14:35 UTC+0000</time><origAmount>112.25</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4424</idForMerchant><emailClient>b.charraud@futur-hotels.com</emailClient><idClient>21435057</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>4424</_aKey_cart_id>  <_aKey_customer_id>2454</_aKey_customer_id>  <_aKey_secure_key>fd211c248223fa707afacd6976848a4b</_aKey_secure_key>  <_aKey_token>f9cb751cb035e3370ee4f9766fa795e6</_aKey_token></merchantDatas><transid>631F4C8F4B3A0211</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 27999301f43b2594294e8938a10014c8
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-09-12
+                    [time] => 15:14:35 UTC+0000
+                    [origAmount] => 112.25
+                    [origCurrency] => EUR
+                    [idForMerchant] => 4424
+                    [emailClient] => b.charraud@futur-hotels.com
+                    [idClient] => 21435057
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 4424
+                            [_aKey_customer_id] => 2454
+                            [_aKey_secure_key] => fd211c248223fa707afacd6976848a4b
+                            [_aKey_token] => f9cb751cb035e3370ee4f9766fa795e6
+                        )
+
+                    [transid] => 631F4C8F4B3A0211
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 4424
+    [3] => 2454
+    [4] => fd211c248223fa707afacd6976848a4b
+    [5] => 112.25
+)
+
+## 2022-09-12 17:14:38 ##
+----> START registerOrder()
+## 2022-09-12 17:14:38 ##
+accountID:13248407 / websiteId:418801
+## 2022-09-12 17:14:38 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-09-12</date><time>15:14:35 UTC+0000</time><origAmount>112.25</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4424</idForMerchant><emailClient>b.charraud@futur-hotels.com</emailClient><idClient>21435057</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>4424</_aKey_cart_id>  <_aKey_customer_id>2454</_aKey_customer_id>  <_aKey_secure_key>fd211c248223fa707afacd6976848a4b</_aKey_secure_key>  <_aKey_token>f9cb751cb035e3370ee4f9766fa795e6</_aKey_token></merchantDatas><transid>631F4C8F4B3A0211</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-09-12 17:14:38 ##
+currency : EUR
+## 2022-09-12 17:14:38 ##
+accountID:13248407 / websiteId:418801
+## 2022-09-12 17:14:38 ##
+callback_salt : 
+## 2022-09-12 17:14:38 ##
+md5 : 27999301f43b2594294e8938a10014c8 == md5content : 27999301f43b2594294e8938a10014c8
+## 2022-09-12 17:14:38 ##
+Status = ok
+## 2022-09-12 17:14:38 ##
+$currency = EUR
+## 2022-09-12 17:14:38 ##
+id_order_state = 42
+## 2022-09-12 17:14:38 ##
+----> START placeOrder()
+## 2022-09-12 17:14:38 ##
+Treatment status = 42
+## 2022-09-12 17:14:38 ##
+Validate order
+## 2022-09-12 17:14:38 ##
+Array
+(
+    [0] => 4424
+    [1] => 42
+    [2] => 112.25
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"631F4C8F4B3A0211"}
+    [5] => Array
+        (
+            [transaction_id] => 631F4C8F4B3A0211
+        )
+
+    [6] => 1
+    [7] => fd211c248223fa707afacd6976848a4b
+)
+
+## 2022-09-12 17:14:38 ##
+ID Shop = 1
+## 2022-09-12 17:14:39 ##
+Order created
+## 2022-09-12 17:14:39 ##
+----> END placeOrder()
+## 2022-09-12 17:14:39 ##
+----> END registerOrder()
+## 2022-09-12 17:14:39 ##
+----> Treatment is unlocked for the id_cart = 4424
+## 2022-09-12 17:14:44 ##
+##########################
+## 2022-09-12 17:14:44 ##
+START Validation Callback
+## 2022-09-12 17:14:44 ##
+##########################
+## 2022-09-12 17:14:44 ##
+----> Treatment is locked for the id_cart = 4424
+## 2022-09-12 17:14:44 ##
+data for validation
+## 2022-09-12 17:14:44 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>4c056952b72a35e79bc0964a2166f0ff</md5content><result><operation>capture</operation><status>ok</status><date>2022-09-12</date><time>15:14:42 UTC+0000</time><origAmount>112.25</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4424</idForMerchant><emailClient>b.charraud@futur-hotels.com</emailClient><idClient>21435057</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>4424</_aKey_cart_id>  <_aKey_customer_id>2454</_aKey_customer_id>  <_aKey_secure_key>fd211c248223fa707afacd6976848a4b</_aKey_secure_key>  <_aKey_token>f9cb751cb035e3370ee4f9766fa795e6</_aKey_token></merchantDatas><transid>631F4C8F4B3A0211</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 4c056952b72a35e79bc0964a2166f0ff
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-09-12
+                    [time] => 15:14:42 UTC+0000
+                    [origAmount] => 112.25
+                    [origCurrency] => EUR
+                    [idForMerchant] => 4424
+                    [emailClient] => b.charraud@futur-hotels.com
+                    [idClient] => 21435057
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 4424
+                            [_aKey_customer_id] => 2454
+                            [_aKey_secure_key] => fd211c248223fa707afacd6976848a4b
+                            [_aKey_token] => f9cb751cb035e3370ee4f9766fa795e6
+                        )
+
+                    [transid] => 631F4C8F4B3A0211
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 4424
+    [3] => 2454
+    [4] => fd211c248223fa707afacd6976848a4b
+    [5] => 112.25
+)
+
+## 2022-09-12 17:14:44 ##
+----> START registerOrder()
+## 2022-09-12 17:14:44 ##
+accountID:13248407 / websiteId:418801
+## 2022-09-12 17:14:44 ##
+<result><operation>capture</operation><status>ok</status><date>2022-09-12</date><time>15:14:42 UTC+0000</time><origAmount>112.25</origAmount><origCurrency>EUR</origCurrency><idForMerchant>4424</idForMerchant><emailClient>b.charraud@futur-hotels.com</emailClient><idClient>21435057</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>4424</_aKey_cart_id>  <_aKey_customer_id>2454</_aKey_customer_id>  <_aKey_secure_key>fd211c248223fa707afacd6976848a4b</_aKey_secure_key>  <_aKey_token>f9cb751cb035e3370ee4f9766fa795e6</_aKey_token></merchantDatas><transid>631F4C8F4B3A0211</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-09-12 17:14:44 ##
+currency : EUR
+## 2022-09-12 17:14:44 ##
+accountID:13248407 / websiteId:418801
+## 2022-09-12 17:14:44 ##
+callback_salt : 
+## 2022-09-12 17:14:44 ##
+md5 : 4c056952b72a35e79bc0964a2166f0ff == md5content : 4c056952b72a35e79bc0964a2166f0ff
+## 2022-09-12 17:14:44 ##
+Status = ok
+## 2022-09-12 17:14:44 ##
+$currency = EUR
+## 2022-09-12 17:14:44 ##
+id_order_state = 2
+## 2022-09-12 17:14:44 ##
+----> START placeOrder()
+## 2022-09-12 17:14:44 ##
+Treatment an existing order
+## 2022-09-12 17:14:44 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-09-12 17:14:44 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-09-12
+    [time] => 15:14:42 UTC+0000
+    [origAmount] => 112.25
+    [origCurrency] => EUR
+    [idForMerchant] => 4424
+    [emailClient] => b.charraud@futur-hotels.com
+    [idClient] => 21435057
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 4424
+            [_aKey_customer_id] => 2454
+            [_aKey_secure_key] => fd211c248223fa707afacd6976848a4b
+            [_aKey_token] => f9cb751cb035e3370ee4f9766fa795e6
+        )
+
+    [transid] => 631F4C8F4B3A0211
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-09-12 17:14:44 ##
+----> END placeOrder()
+## 2022-09-12 17:14:44 ##
+----> END registerOrder()
+## 2022-09-12 17:14:44 ##
+----> Treatment is unlocked for the id_cart = 4424

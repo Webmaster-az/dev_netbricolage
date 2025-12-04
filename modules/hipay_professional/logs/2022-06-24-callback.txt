@@ -1,0 +1,792 @@
+## 2022-06-24 11:00:18 ##
+##########################
+## 2022-06-24 11:00:18 ##
+START Validation Callback
+## 2022-06-24 11:00:18 ##
+##########################
+## 2022-06-24 11:00:18 ##
+----> Treatment is locked for the id_cart = 3185
+## 2022-06-24 11:00:18 ##
+data for validation
+## 2022-06-24 11:00:18 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>bb139fcee802c23a6039f8c68e6bd57a</md5content><result><operation>authorization</operation><status>ok</status><date>2022-06-24</date><time>09:00:22 UTC+0000</time><origAmount>102.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3185</idForMerchant><emailClient>s.daunas@gmail.com</emailClient><idClient>21156014</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3185</_aKey_cart_id>  <_aKey_customer_id>2183</_aKey_customer_id>  <_aKey_secure_key>d3709d629749972b35d9c059a518f0f3</_aKey_secure_key>  <_aKey_token>aea614c9aef2c851bddefd5b541a2dc9</_aKey_token></merchantDatas><transid>62B57D19D1549170</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => bb139fcee802c23a6039f8c68e6bd57a
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-06-24
+                    [time] => 09:00:22 UTC+0000
+                    [origAmount] => 102.09
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3185
+                    [emailClient] => s.daunas@gmail.com
+                    [idClient] => 21156014
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3185
+                            [_aKey_customer_id] => 2183
+                            [_aKey_secure_key] => d3709d629749972b35d9c059a518f0f3
+                            [_aKey_token] => aea614c9aef2c851bddefd5b541a2dc9
+                        )
+
+                    [transid] => 62B57D19D1549170
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3185
+    [3] => 2183
+    [4] => d3709d629749972b35d9c059a518f0f3
+    [5] => 102.09
+)
+
+## 2022-06-24 11:00:18 ##
+----> START registerOrder()
+## 2022-06-24 11:00:18 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 11:00:18 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-06-24</date><time>09:00:22 UTC+0000</time><origAmount>102.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3185</idForMerchant><emailClient>s.daunas@gmail.com</emailClient><idClient>21156014</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3185</_aKey_cart_id>  <_aKey_customer_id>2183</_aKey_customer_id>  <_aKey_secure_key>d3709d629749972b35d9c059a518f0f3</_aKey_secure_key>  <_aKey_token>aea614c9aef2c851bddefd5b541a2dc9</_aKey_token></merchantDatas><transid>62B57D19D1549170</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-24 11:00:18 ##
+currency : EUR
+## 2022-06-24 11:00:18 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 11:00:18 ##
+callback_salt : 
+## 2022-06-24 11:00:18 ##
+md5 : bb139fcee802c23a6039f8c68e6bd57a == md5content : bb139fcee802c23a6039f8c68e6bd57a
+## 2022-06-24 11:00:18 ##
+Status = ok
+## 2022-06-24 11:00:18 ##
+$currency = EUR
+## 2022-06-24 11:00:18 ##
+id_order_state = 42
+## 2022-06-24 11:00:18 ##
+----> START placeOrder()
+## 2022-06-24 11:00:18 ##
+Treatment status = 42
+## 2022-06-24 11:00:18 ##
+Validate order
+## 2022-06-24 11:00:18 ##
+Array
+(
+    [0] => 3185
+    [1] => 42
+    [2] => 102.09
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"62B57D19D1549170"}
+    [5] => Array
+        (
+            [transaction_id] => 62B57D19D1549170
+        )
+
+    [6] => 1
+    [7] => d3709d629749972b35d9c059a518f0f3
+)
+
+## 2022-06-24 11:00:18 ##
+ID Shop = 1
+## 2022-06-24 11:00:21 ##
+Order created
+## 2022-06-24 11:00:21 ##
+----> END placeOrder()
+## 2022-06-24 11:00:21 ##
+----> END registerOrder()
+## 2022-06-24 11:00:21 ##
+----> Treatment is unlocked for the id_cart = 3185
+## 2022-06-24 11:00:27 ##
+##########################
+## 2022-06-24 11:00:27 ##
+START Validation Callback
+## 2022-06-24 11:00:27 ##
+##########################
+## 2022-06-24 11:00:27 ##
+----> Treatment is locked for the id_cart = 3185
+## 2022-06-24 11:00:27 ##
+data for validation
+## 2022-06-24 11:00:27 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>5334ba8badf39022add61e0b6050e0aa</md5content><result><operation>capture</operation><status>ok</status><date>2022-06-24</date><time>09:00:30 UTC+0000</time><origAmount>102.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3185</idForMerchant><emailClient>s.daunas@gmail.com</emailClient><idClient>21156014</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3185</_aKey_cart_id>  <_aKey_customer_id>2183</_aKey_customer_id>  <_aKey_secure_key>d3709d629749972b35d9c059a518f0f3</_aKey_secure_key>  <_aKey_token>aea614c9aef2c851bddefd5b541a2dc9</_aKey_token></merchantDatas><transid>62B57D19D1549170</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 5334ba8badf39022add61e0b6050e0aa
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-06-24
+                    [time] => 09:00:30 UTC+0000
+                    [origAmount] => 102.09
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3185
+                    [emailClient] => s.daunas@gmail.com
+                    [idClient] => 21156014
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3185
+                            [_aKey_customer_id] => 2183
+                            [_aKey_secure_key] => d3709d629749972b35d9c059a518f0f3
+                            [_aKey_token] => aea614c9aef2c851bddefd5b541a2dc9
+                        )
+
+                    [transid] => 62B57D19D1549170
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3185
+    [3] => 2183
+    [4] => d3709d629749972b35d9c059a518f0f3
+    [5] => 102.09
+)
+
+## 2022-06-24 11:00:27 ##
+----> START registerOrder()
+## 2022-06-24 11:00:27 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 11:00:27 ##
+<result><operation>capture</operation><status>ok</status><date>2022-06-24</date><time>09:00:30 UTC+0000</time><origAmount>102.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3185</idForMerchant><emailClient>s.daunas@gmail.com</emailClient><idClient>21156014</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3185</_aKey_cart_id>  <_aKey_customer_id>2183</_aKey_customer_id>  <_aKey_secure_key>d3709d629749972b35d9c059a518f0f3</_aKey_secure_key>  <_aKey_token>aea614c9aef2c851bddefd5b541a2dc9</_aKey_token></merchantDatas><transid>62B57D19D1549170</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-24 11:00:27 ##
+currency : EUR
+## 2022-06-24 11:00:27 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 11:00:27 ##
+callback_salt : 
+## 2022-06-24 11:00:27 ##
+md5 : 5334ba8badf39022add61e0b6050e0aa == md5content : 5334ba8badf39022add61e0b6050e0aa
+## 2022-06-24 11:00:27 ##
+Status = ok
+## 2022-06-24 11:00:27 ##
+$currency = EUR
+## 2022-06-24 11:00:27 ##
+id_order_state = 2
+## 2022-06-24 11:00:27 ##
+----> START placeOrder()
+## 2022-06-24 11:00:28 ##
+Treatment an existing order
+## 2022-06-24 11:00:28 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-06-24 11:00:28 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-06-24
+    [time] => 09:00:30 UTC+0000
+    [origAmount] => 102.09
+    [origCurrency] => EUR
+    [idForMerchant] => 3185
+    [emailClient] => s.daunas@gmail.com
+    [idClient] => 21156014
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 3185
+            [_aKey_customer_id] => 2183
+            [_aKey_secure_key] => d3709d629749972b35d9c059a518f0f3
+            [_aKey_token] => aea614c9aef2c851bddefd5b541a2dc9
+        )
+
+    [transid] => 62B57D19D1549170
+    [is3ds] => No
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-06-24 11:00:28 ##
+----> END placeOrder()
+## 2022-06-24 11:00:28 ##
+----> END registerOrder()
+## 2022-06-24 11:00:28 ##
+----> Treatment is unlocked for the id_cart = 3185
+## 2022-06-24 12:10:35 ##
+##########################
+## 2022-06-24 12:10:35 ##
+START Validation Callback
+## 2022-06-24 12:10:35 ##
+##########################
+## 2022-06-24 12:10:35 ##
+----> Treatment is locked for the id_cart = 3387
+## 2022-06-24 12:10:35 ##
+data for validation
+## 2022-06-24 12:10:35 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>53b65e9d62d40327a666ce73bae5fe05</md5content><result><operation>authorization</operation><status>nok</status><date>2022-06-24</date><time>10:10:39 UTC+0000</time><origAmount>136.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3387</idForMerchant><emailClient>penemen@gmail.com</emailClient><idClient>21156232</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3387</_aKey_cart_id>  <_aKey_customer_id>2185</_aKey_customer_id>  <_aKey_secure_key>4791085d21182ac7e635b23376493793</_aKey_secure_key>  <_aKey_token>5da9970bd79ba6896dd53000c299f56d</_aKey_token></merchantDatas><transid>62B58CBA340C0170</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 53b65e9d62d40327a666ce73bae5fe05
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2022-06-24
+                    [time] => 10:10:39 UTC+0000
+                    [origAmount] => 136.88
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3387
+                    [emailClient] => penemen@gmail.com
+                    [idClient] => 21156232
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3387
+                            [_aKey_customer_id] => 2185
+                            [_aKey_secure_key] => 4791085d21182ac7e635b23376493793
+                            [_aKey_token] => 5da9970bd79ba6896dd53000c299f56d
+                        )
+
+                    [transid] => 62B58CBA340C0170
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3387
+    [3] => 2185
+    [4] => 4791085d21182ac7e635b23376493793
+    [5] => 136.88
+)
+
+## 2022-06-24 12:10:35 ##
+----> START registerOrder()
+## 2022-06-24 12:10:35 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 12:10:35 ##
+<result><operation>authorization</operation><status>nok</status><date>2022-06-24</date><time>10:10:39 UTC+0000</time><origAmount>136.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3387</idForMerchant><emailClient>penemen@gmail.com</emailClient><idClient>21156232</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3387</_aKey_cart_id>  <_aKey_customer_id>2185</_aKey_customer_id>  <_aKey_secure_key>4791085d21182ac7e635b23376493793</_aKey_secure_key>  <_aKey_token>5da9970bd79ba6896dd53000c299f56d</_aKey_token></merchantDatas><transid>62B58CBA340C0170</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-24 12:10:35 ##
+currency : EUR
+## 2022-06-24 12:10:35 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 12:10:35 ##
+callback_salt : 
+## 2022-06-24 12:10:35 ##
+md5 : 53b65e9d62d40327a666ce73bae5fe05 == md5content : 53b65e9d62d40327a666ce73bae5fe05
+## 2022-06-24 12:10:35 ##
+Status = nok
+## 2022-06-24 12:10:35 ##
+$currency = EUR
+## 2022-06-24 12:10:35 ##
+id_order_state = 8
+## 2022-06-24 12:10:35 ##
+----> START placeOrder()
+## 2022-06-24 12:10:35 ##
+Treatment status = ERROR
+## 2022-06-24 12:10:35 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2022-06-24
+    [time] =&gt; 10:10:39 UTC+0000
+    [origAmount] =&gt; 136.88
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 3387
+    [emailClient] =&gt; penemen@gmail.com
+    [idClient] =&gt; 21156232
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 3387
+            [_aKey_customer_id] =&gt; 2185
+            [_aKey_secure_key] =&gt; 4791085d21182ac7e635b23376493793
+            [_aKey_token] =&gt; 5da9970bd79ba6896dd53000c299f56d
+        )
+
+    [transid] =&gt; 62B58CBA340C0170
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; VISA
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2022-06-24 12:10:35 ##
+----> END placeOrder()
+## 2022-06-24 12:10:35 ##
+----> END registerOrder()
+## 2022-06-24 12:10:35 ##
+----> Treatment is unlocked for the id_cart = 3387
+## 2022-06-24 12:12:17 ##
+##########################
+## 2022-06-24 12:12:17 ##
+START Validation Callback
+## 2022-06-24 12:12:17 ##
+##########################
+## 2022-06-24 12:12:17 ##
+----> Treatment is locked for the id_cart = 3387
+## 2022-06-24 12:12:17 ##
+data for validation
+## 2022-06-24 12:12:17 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ffc572dba9fd965e723798fbffe1bd3c</md5content><result><operation>authorization</operation><status>nok</status><date>2022-06-24</date><time>10:12:21 UTC+0000</time><origAmount>136.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3387</idForMerchant><emailClient>penemen@gmail.com</emailClient><idClient>21156232</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3387</_aKey_cart_id>  <_aKey_customer_id>2185</_aKey_customer_id>  <_aKey_secure_key>4791085d21182ac7e635b23376493793</_aKey_secure_key>  <_aKey_token>5da9970bd79ba6896dd53000c299f56d</_aKey_token></merchantDatas><transid>62B58DD50097D170</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ffc572dba9fd965e723798fbffe1bd3c
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2022-06-24
+                    [time] => 10:12:21 UTC+0000
+                    [origAmount] => 136.88
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3387
+                    [emailClient] => penemen@gmail.com
+                    [idClient] => 21156232
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3387
+                            [_aKey_customer_id] => 2185
+                            [_aKey_secure_key] => 4791085d21182ac7e635b23376493793
+                            [_aKey_token] => 5da9970bd79ba6896dd53000c299f56d
+                        )
+
+                    [transid] => 62B58DD50097D170
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3387
+    [3] => 2185
+    [4] => 4791085d21182ac7e635b23376493793
+    [5] => 136.88
+)
+
+## 2022-06-24 12:12:17 ##
+----> START registerOrder()
+## 2022-06-24 12:12:17 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 12:12:17 ##
+<result><operation>authorization</operation><status>nok</status><date>2022-06-24</date><time>10:12:21 UTC+0000</time><origAmount>136.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3387</idForMerchant><emailClient>penemen@gmail.com</emailClient><idClient>21156232</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3387</_aKey_cart_id>  <_aKey_customer_id>2185</_aKey_customer_id>  <_aKey_secure_key>4791085d21182ac7e635b23376493793</_aKey_secure_key>  <_aKey_token>5da9970bd79ba6896dd53000c299f56d</_aKey_token></merchantDatas><transid>62B58DD50097D170</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-24 12:12:17 ##
+currency : EUR
+## 2022-06-24 12:12:17 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 12:12:17 ##
+callback_salt : 
+## 2022-06-24 12:12:17 ##
+md5 : ffc572dba9fd965e723798fbffe1bd3c == md5content : ffc572dba9fd965e723798fbffe1bd3c
+## 2022-06-24 12:12:17 ##
+Status = nok
+## 2022-06-24 12:12:17 ##
+$currency = EUR
+## 2022-06-24 12:12:17 ##
+id_order_state = 8
+## 2022-06-24 12:12:17 ##
+----> START placeOrder()
+## 2022-06-24 12:12:17 ##
+Treatment status = ERROR
+## 2022-06-24 12:12:17 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2022-06-24
+    [time] =&gt; 10:12:21 UTC+0000
+    [origAmount] =&gt; 136.88
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 3387
+    [emailClient] =&gt; penemen@gmail.com
+    [idClient] =&gt; 21156232
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 3387
+            [_aKey_customer_id] =&gt; 2185
+            [_aKey_secure_key] =&gt; 4791085d21182ac7e635b23376493793
+            [_aKey_token] =&gt; 5da9970bd79ba6896dd53000c299f56d
+        )
+
+    [transid] =&gt; 62B58DD50097D170
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; VISA
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2022-06-24 12:12:17 ##
+----> END placeOrder()
+## 2022-06-24 12:12:17 ##
+----> END registerOrder()
+## 2022-06-24 12:12:17 ##
+----> Treatment is unlocked for the id_cart = 3387
+## 2022-06-24 12:13:48 ##
+##########################
+## 2022-06-24 12:13:48 ##
+START Validation Callback
+## 2022-06-24 12:13:48 ##
+##########################
+## 2022-06-24 12:13:48 ##
+----> Treatment is locked for the id_cart = 3387
+## 2022-06-24 12:13:48 ##
+data for validation
+## 2022-06-24 12:13:48 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8d87f91251726010d60e5b8f7fa23037</md5content><result><operation>authorization</operation><status>ok</status><date>2022-06-24</date><time>10:13:51 UTC+0000</time><origAmount>136.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3387</idForMerchant><emailClient>penemen@gmail.com</emailClient><idClient>21156232</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3387</_aKey_cart_id>  <_aKey_customer_id>2185</_aKey_customer_id>  <_aKey_secure_key>4791085d21182ac7e635b23376493793</_aKey_secure_key>  <_aKey_token>5da9970bd79ba6896dd53000c299f56d</_aKey_token></merchantDatas><transid>62B58E2E3E4B7170</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8d87f91251726010d60e5b8f7fa23037
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-06-24
+                    [time] => 10:13:51 UTC+0000
+                    [origAmount] => 136.88
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3387
+                    [emailClient] => penemen@gmail.com
+                    [idClient] => 21156232
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3387
+                            [_aKey_customer_id] => 2185
+                            [_aKey_secure_key] => 4791085d21182ac7e635b23376493793
+                            [_aKey_token] => 5da9970bd79ba6896dd53000c299f56d
+                        )
+
+                    [transid] => 62B58E2E3E4B7170
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3387
+    [3] => 2185
+    [4] => 4791085d21182ac7e635b23376493793
+    [5] => 136.88
+)
+
+## 2022-06-24 12:13:48 ##
+----> START registerOrder()
+## 2022-06-24 12:13:48 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 12:13:48 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-06-24</date><time>10:13:51 UTC+0000</time><origAmount>136.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3387</idForMerchant><emailClient>penemen@gmail.com</emailClient><idClient>21156232</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3387</_aKey_cart_id>  <_aKey_customer_id>2185</_aKey_customer_id>  <_aKey_secure_key>4791085d21182ac7e635b23376493793</_aKey_secure_key>  <_aKey_token>5da9970bd79ba6896dd53000c299f56d</_aKey_token></merchantDatas><transid>62B58E2E3E4B7170</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-24 12:13:48 ##
+currency : EUR
+## 2022-06-24 12:13:48 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 12:13:48 ##
+callback_salt : 
+## 2022-06-24 12:13:48 ##
+md5 : 8d87f91251726010d60e5b8f7fa23037 == md5content : 8d87f91251726010d60e5b8f7fa23037
+## 2022-06-24 12:13:48 ##
+Status = ok
+## 2022-06-24 12:13:48 ##
+$currency = EUR
+## 2022-06-24 12:13:48 ##
+id_order_state = 42
+## 2022-06-24 12:13:48 ##
+----> START placeOrder()
+## 2022-06-24 12:13:48 ##
+Treatment status = 42
+## 2022-06-24 12:13:48 ##
+Validate order
+## 2022-06-24 12:13:48 ##
+Array
+(
+    [0] => 3387
+    [1] => 42
+    [2] => 136.88
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"62B58E2E3E4B7170"}
+    [5] => Array
+        (
+            [transaction_id] => 62B58E2E3E4B7170
+        )
+
+    [6] => 1
+    [7] => 4791085d21182ac7e635b23376493793
+)
+
+## 2022-06-24 12:13:48 ##
+ID Shop = 1
+## 2022-06-24 12:13:50 ##
+Order created
+## 2022-06-24 12:13:50 ##
+----> END placeOrder()
+## 2022-06-24 12:13:50 ##
+----> END registerOrder()
+## 2022-06-24 12:13:50 ##
+----> Treatment is unlocked for the id_cart = 3387
+## 2022-06-24 12:13:57 ##
+##########################
+## 2022-06-24 12:13:57 ##
+START Validation Callback
+## 2022-06-24 12:13:57 ##
+##########################
+## 2022-06-24 12:13:57 ##
+----> Treatment is locked for the id_cart = 3387
+## 2022-06-24 12:13:57 ##
+data for validation
+## 2022-06-24 12:13:57 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>f0a974812982ff7f74323ad740b5b461</md5content><result><operation>capture</operation><status>ok</status><date>2022-06-24</date><time>10:13:59 UTC+0000</time><origAmount>136.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3387</idForMerchant><emailClient>penemen@gmail.com</emailClient><idClient>21156232</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3387</_aKey_cart_id>  <_aKey_customer_id>2185</_aKey_customer_id>  <_aKey_secure_key>4791085d21182ac7e635b23376493793</_aKey_secure_key>  <_aKey_token>5da9970bd79ba6896dd53000c299f56d</_aKey_token></merchantDatas><transid>62B58E2E3E4B7170</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => f0a974812982ff7f74323ad740b5b461
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-06-24
+                    [time] => 10:13:59 UTC+0000
+                    [origAmount] => 136.88
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3387
+                    [emailClient] => penemen@gmail.com
+                    [idClient] => 21156232
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3387
+                            [_aKey_customer_id] => 2185
+                            [_aKey_secure_key] => 4791085d21182ac7e635b23376493793
+                            [_aKey_token] => 5da9970bd79ba6896dd53000c299f56d
+                        )
+
+                    [transid] => 62B58E2E3E4B7170
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3387
+    [3] => 2185
+    [4] => 4791085d21182ac7e635b23376493793
+    [5] => 136.88
+)
+
+## 2022-06-24 12:13:57 ##
+----> START registerOrder()
+## 2022-06-24 12:13:57 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 12:13:57 ##
+<result><operation>capture</operation><status>ok</status><date>2022-06-24</date><time>10:13:59 UTC+0000</time><origAmount>136.88</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3387</idForMerchant><emailClient>penemen@gmail.com</emailClient><idClient>21156232</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3387</_aKey_cart_id>  <_aKey_customer_id>2185</_aKey_customer_id>  <_aKey_secure_key>4791085d21182ac7e635b23376493793</_aKey_secure_key>  <_aKey_token>5da9970bd79ba6896dd53000c299f56d</_aKey_token></merchantDatas><transid>62B58E2E3E4B7170</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-24 12:13:57 ##
+currency : EUR
+## 2022-06-24 12:13:57 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-24 12:13:57 ##
+callback_salt : 
+## 2022-06-24 12:13:57 ##
+md5 : f0a974812982ff7f74323ad740b5b461 == md5content : f0a974812982ff7f74323ad740b5b461
+## 2022-06-24 12:13:57 ##
+Status = ok
+## 2022-06-24 12:13:57 ##
+$currency = EUR
+## 2022-06-24 12:13:57 ##
+id_order_state = 2
+## 2022-06-24 12:13:57 ##
+----> START placeOrder()
+## 2022-06-24 12:13:57 ##
+Treatment an existing order
+## 2022-06-24 12:13:57 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-06-24 12:13:57 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-06-24
+    [time] => 10:13:59 UTC+0000
+    [origAmount] => 136.88
+    [origCurrency] => EUR
+    [idForMerchant] => 3387
+    [emailClient] => penemen@gmail.com
+    [idClient] => 21156232
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 3387
+            [_aKey_customer_id] => 2185
+            [_aKey_secure_key] => 4791085d21182ac7e635b23376493793
+            [_aKey_token] => 5da9970bd79ba6896dd53000c299f56d
+        )
+
+    [transid] => 62B58E2E3E4B7170
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-06-24 12:13:57 ##
+----> END placeOrder()
+## 2022-06-24 12:13:57 ##
+----> END registerOrder()
+## 2022-06-24 12:13:57 ##
+----> Treatment is unlocked for the id_cart = 3387

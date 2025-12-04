@@ -1,0 +1,189 @@
+
+
+@media print {
+    html * {
+        visibility: hidden;
+    }
+
+    #start_products {
+        display:none;
+    }
+
+    .print, .print * {
+        visibility: visible !important;
+    }    
+    
+    form  {
+        display: none;
+    }
+
+    @page{
+        margin: 1px;
+        max-height: 300px;
+    }
+
+    #page {
+        page-break-after: auto;
+        height: 566.92px;
+        float:left;
+    }
+
+
+    .botao{
+        display: none;
+    }
+
+    .botao1{
+        display: none
+    }
+
+    .form_buttons {
+        display:none;
+    }
+
+    #content .col-lg-12:first-child {
+        max-width:580px;
+    }
+
+    .print,
+    #page {
+        font-family: Helvetica;
+        width:396.85px;
+        float:left;
+        display: block;
+    }
+
+    .transportadora{
+        width:365px;
+        border-bottom: 1px solid black;
+        font-weight: bold;
+        font-size: 15px;
+        padding:5px ;
+        float:left;
+    }
+
+    #area {
+        height: 0px;
+    }
+
+    .a {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .b {
+        font-size: 12px;
+        top: 0;
+    }
+
+    .c{
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .header{
+        display: block;
+        width:369px;
+        float:left;
+        padding: 0px 5px 5px 5px;
+        border-bottom: 1px solid black;
+    }
+
+    .header-dados{
+        float: left;
+        border-right: 1px solid black;
+        padding-right: 20px;
+    }
+
+    .header-volume{
+        font-size:  60px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+
+    .email{
+        font-size: 13px;
+    }
+
+    .body{
+        width:375px;
+        border-bottom: 1px solid black;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .body-dimensoes{
+        display: block;
+        width:345px;
+        border-bottom: 1px solid black;
+        padding: 15px;
+    } 
+
+    .body-dimensoes-text{
+        display: flex;
+        font-size: 18px;
+        width:365px;
+    }
+
+    .body-dimensoes-text p {
+        font-size: 12px;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .body-dimensoes-text span {
+        font-size: 20px;
+        padding-left: 24px;
+        margin-left: 10px;
+    }
+
+    .obs{
+        float:left;
+        margin-left: 20px;
+        width: 90%;
+        height: 90px;
+        padding-top: 15px;
+    }
+
+    .footer{
+        display: block;
+        width:375px;
+        border-top: 1px solid black;
+        /* margin-top: 0px; */
+        float:left;
+    }
+
+    .footer-img{
+        float: left;
+        width: 50%;
+    }
+
+    .footer-txt{
+        float: right;
+        width: 50%;
+        margin-left: 118px;
+        font-size:11px;
+        line-height: 0.5;
+    }
+
+    .footer-footer{
+        width:365px;
+        float:left;
+        font-size:11px;
+        text-align: center;
+        color: black;
+    }
+
+    .row .col-lg-12 .row:nth-child(1),
+    .row .col-lg-12 .row:nth-child(2),
+    .row .col-lg-12 .row:nth-child(3),
+    .row .col-lg-12 .row:nth-child(4),
+    .row .col-lg-12 .row:nth-child(5){
+        display:none !important;
+    }
+}

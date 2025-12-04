@@ -1,0 +1,259 @@
+## 2023-03-20 15:55:38 ##
+##########################
+## 2023-03-20 15:55:38 ##
+START Validation Callback
+## 2023-03-20 15:55:38 ##
+##########################
+## 2023-03-20 15:55:38 ##
+----> Treatment is locked for the id_cart = 7907
+## 2023-03-20 15:55:38 ##
+data for validation
+## 2023-03-20 15:55:38 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ce834521f9538bddd87d848ddd11965b</md5content><result><operation>authorization</operation><status>ok</status><date>2023-03-20</date><time>14:55:37 UTC+0000</time><origAmount>144.77</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7907</idForMerchant><emailClient>gveillet@orange.fr</emailClient><idClient>22151070</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7907</_aKey_cart_id>  <_aKey_customer_id>3238</_aKey_customer_id>  <_aKey_secure_key>439aff29d95b3851fc780c561a8c180e</_aKey_secure_key>  <_aKey_token>c62bc83c256404c494b8728ce602098e</_aKey_token></merchantDatas><transid>6418733B71FC6100</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ce834521f9538bddd87d848ddd11965b
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-03-20
+                    [time] => 14:55:37 UTC+0000
+                    [origAmount] => 144.77
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7907
+                    [emailClient] => gveillet@orange.fr
+                    [idClient] => 22151070
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7907
+                            [_aKey_customer_id] => 3238
+                            [_aKey_secure_key] => 439aff29d95b3851fc780c561a8c180e
+                            [_aKey_token] => c62bc83c256404c494b8728ce602098e
+                        )
+
+                    [transid] => 6418733B71FC6100
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7907
+    [3] => 3238
+    [4] => 439aff29d95b3851fc780c561a8c180e
+    [5] => 144.77
+)
+
+## 2023-03-20 15:55:38 ##
+----> START registerOrder()
+## 2023-03-20 15:55:38 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-20 15:55:38 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-03-20</date><time>14:55:37 UTC+0000</time><origAmount>144.77</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7907</idForMerchant><emailClient>gveillet@orange.fr</emailClient><idClient>22151070</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7907</_aKey_cart_id>  <_aKey_customer_id>3238</_aKey_customer_id>  <_aKey_secure_key>439aff29d95b3851fc780c561a8c180e</_aKey_secure_key>  <_aKey_token>c62bc83c256404c494b8728ce602098e</_aKey_token></merchantDatas><transid>6418733B71FC6100</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-20 15:55:38 ##
+currency : EUR
+## 2023-03-20 15:55:38 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-20 15:55:38 ##
+callback_salt : 
+## 2023-03-20 15:55:38 ##
+md5 : ce834521f9538bddd87d848ddd11965b == md5content : ce834521f9538bddd87d848ddd11965b
+## 2023-03-20 15:55:38 ##
+Status = ok
+## 2023-03-20 15:55:38 ##
+$currency = EUR
+## 2023-03-20 15:55:38 ##
+id_order_state = 42
+## 2023-03-20 15:55:38 ##
+----> START placeOrder()
+## 2023-03-20 15:55:38 ##
+Treatment status = 42
+## 2023-03-20 15:55:38 ##
+Validate order
+## 2023-03-20 15:55:38 ##
+Array
+(
+    [0] => 7907
+    [1] => 42
+    [2] => 144.77
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6418733B71FC6100"}
+    [5] => Array
+        (
+            [transaction_id] => 6418733B71FC6100
+        )
+
+    [6] => 1
+    [7] => 439aff29d95b3851fc780c561a8c180e
+)
+
+## 2023-03-20 15:55:38 ##
+ID Shop = 1
+## 2023-03-20 15:55:42 ##
+Order created
+## 2023-03-20 15:55:42 ##
+----> END placeOrder()
+## 2023-03-20 15:55:42 ##
+----> END registerOrder()
+## 2023-03-20 15:55:42 ##
+----> Treatment is unlocked for the id_cart = 7907
+## 2023-03-20 15:55:45 ##
+##########################
+## 2023-03-20 15:55:45 ##
+START Validation Callback
+## 2023-03-20 15:55:45 ##
+##########################
+## 2023-03-20 15:55:45 ##
+----> Treatment is locked for the id_cart = 7907
+## 2023-03-20 15:55:45 ##
+data for validation
+## 2023-03-20 15:55:45 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ea88fe8b15219460f785a4bf972cf2ea</md5content><result><operation>capture</operation><status>ok</status><date>2023-03-20</date><time>14:55:43 UTC+0000</time><origAmount>144.77</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7907</idForMerchant><emailClient>gveillet@orange.fr</emailClient><idClient>22151070</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7907</_aKey_cart_id>  <_aKey_customer_id>3238</_aKey_customer_id>  <_aKey_secure_key>439aff29d95b3851fc780c561a8c180e</_aKey_secure_key>  <_aKey_token>c62bc83c256404c494b8728ce602098e</_aKey_token></merchantDatas><transid>6418733B71FC6100</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ea88fe8b15219460f785a4bf972cf2ea
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-03-20
+                    [time] => 14:55:43 UTC+0000
+                    [origAmount] => 144.77
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7907
+                    [emailClient] => gveillet@orange.fr
+                    [idClient] => 22151070
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7907
+                            [_aKey_customer_id] => 3238
+                            [_aKey_secure_key] => 439aff29d95b3851fc780c561a8c180e
+                            [_aKey_token] => c62bc83c256404c494b8728ce602098e
+                        )
+
+                    [transid] => 6418733B71FC6100
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7907
+    [3] => 3238
+    [4] => 439aff29d95b3851fc780c561a8c180e
+    [5] => 144.77
+)
+
+## 2023-03-20 15:55:45 ##
+----> START registerOrder()
+## 2023-03-20 15:55:45 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-20 15:55:45 ##
+<result><operation>capture</operation><status>ok</status><date>2023-03-20</date><time>14:55:43 UTC+0000</time><origAmount>144.77</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7907</idForMerchant><emailClient>gveillet@orange.fr</emailClient><idClient>22151070</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7907</_aKey_cart_id>  <_aKey_customer_id>3238</_aKey_customer_id>  <_aKey_secure_key>439aff29d95b3851fc780c561a8c180e</_aKey_secure_key>  <_aKey_token>c62bc83c256404c494b8728ce602098e</_aKey_token></merchantDatas><transid>6418733B71FC6100</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-20 15:55:45 ##
+currency : EUR
+## 2023-03-20 15:55:45 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-20 15:55:45 ##
+callback_salt : 
+## 2023-03-20 15:55:45 ##
+md5 : ea88fe8b15219460f785a4bf972cf2ea == md5content : ea88fe8b15219460f785a4bf972cf2ea
+## 2023-03-20 15:55:45 ##
+Status = ok
+## 2023-03-20 15:55:45 ##
+$currency = EUR
+## 2023-03-20 15:55:45 ##
+id_order_state = 2
+## 2023-03-20 15:55:45 ##
+----> START placeOrder()
+## 2023-03-20 15:55:45 ##
+Treatment an existing order
+## 2023-03-20 15:55:45 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-03-20 15:55:45 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-03-20
+    [time] => 14:55:43 UTC+0000
+    [origAmount] => 144.77
+    [origCurrency] => EUR
+    [idForMerchant] => 7907
+    [emailClient] => gveillet@orange.fr
+    [idClient] => 22151070
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 7907
+            [_aKey_customer_id] => 3238
+            [_aKey_secure_key] => 439aff29d95b3851fc780c561a8c180e
+            [_aKey_token] => c62bc83c256404c494b8728ce602098e
+        )
+
+    [transid] => 6418733B71FC6100
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-03-20 15:55:45 ##
+----> END placeOrder()
+## 2023-03-20 15:55:45 ##
+----> END registerOrder()
+## 2023-03-20 15:55:45 ##
+----> Treatment is unlocked for the id_cart = 7907

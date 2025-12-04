@@ -1,0 +1,518 @@
+## 2023-11-25 10:43:42 ##
+##########################
+## 2023-11-25 10:43:42 ##
+START Validation Callback
+## 2023-11-25 10:43:42 ##
+##########################
+## 2023-11-25 10:43:42 ##
+----> Treatment is locked for the id_cart = 12050
+## 2023-11-25 10:43:42 ##
+data for validation
+## 2023-11-25 10:43:42 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>f41104a9e3f05975b9c6a35c7c116e02</md5content><result><operation>authorization</operation><status>ok</status><date>2023-11-25</date><time>09:43:39 UTC+0000</time><origAmount>93.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12050</idForMerchant><emailClient>dfurlan@francehygieneventilation.fr</emailClient><idClient>23003435</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12050</_aKey_cart_id>  <_aKey_customer_id>3926</_aKey_customer_id>  <_aKey_secure_key>9f2b538dbfc88d344c3654a1733ea154</_aKey_secure_key>  <_aKey_token>d25ded62a78ac3998df49503cdacc485</_aKey_token></merchantDatas><transid>6561C1951AD5E304</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => f41104a9e3f05975b9c6a35c7c116e02
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-11-25
+                    [time] => 09:43:39 UTC+0000
+                    [origAmount] => 93.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12050
+                    [emailClient] => dfurlan@francehygieneventilation.fr
+                    [idClient] => 23003435
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12050
+                            [_aKey_customer_id] => 3926
+                            [_aKey_secure_key] => 9f2b538dbfc88d344c3654a1733ea154
+                            [_aKey_token] => d25ded62a78ac3998df49503cdacc485
+                        )
+
+                    [transid] => 6561C1951AD5E304
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12050
+    [3] => 3926
+    [4] => 9f2b538dbfc88d344c3654a1733ea154
+    [5] => 93
+)
+
+## 2023-11-25 10:43:42 ##
+----> START registerOrder()
+## 2023-11-25 10:43:42 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-25 10:43:42 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-11-25</date><time>09:43:39 UTC+0000</time><origAmount>93.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12050</idForMerchant><emailClient>dfurlan@francehygieneventilation.fr</emailClient><idClient>23003435</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12050</_aKey_cart_id>  <_aKey_customer_id>3926</_aKey_customer_id>  <_aKey_secure_key>9f2b538dbfc88d344c3654a1733ea154</_aKey_secure_key>  <_aKey_token>d25ded62a78ac3998df49503cdacc485</_aKey_token></merchantDatas><transid>6561C1951AD5E304</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-25 10:43:42 ##
+currency : EUR
+## 2023-11-25 10:43:42 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-25 10:43:42 ##
+callback_salt : 
+## 2023-11-25 10:43:42 ##
+md5 : f41104a9e3f05975b9c6a35c7c116e02 == md5content : f41104a9e3f05975b9c6a35c7c116e02
+## 2023-11-25 10:43:42 ##
+Status = ok
+## 2023-11-25 10:43:42 ##
+$currency = EUR
+## 2023-11-25 10:43:42 ##
+id_order_state = 42
+## 2023-11-25 10:43:42 ##
+----> START placeOrder()
+## 2023-11-25 10:43:42 ##
+Treatment status = 42
+## 2023-11-25 10:43:42 ##
+Validate order
+## 2023-11-25 10:43:42 ##
+Array
+(
+    [0] => 12050
+    [1] => 42
+    [2] => 93
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6561C1951AD5E304"}
+    [5] => Array
+        (
+            [transaction_id] => 6561C1951AD5E304
+        )
+
+    [6] => 1
+    [7] => 9f2b538dbfc88d344c3654a1733ea154
+)
+
+## 2023-11-25 10:43:42 ##
+ID Shop = 1
+## 2023-11-25 10:43:46 ##
+Order created
+## 2023-11-25 10:43:46 ##
+----> END placeOrder()
+## 2023-11-25 10:43:46 ##
+----> END registerOrder()
+## 2023-11-25 10:43:46 ##
+----> Treatment is unlocked for the id_cart = 12050
+## 2023-11-25 10:43:51 ##
+##########################
+## 2023-11-25 10:43:51 ##
+START Validation Callback
+## 2023-11-25 10:43:51 ##
+##########################
+## 2023-11-25 10:43:51 ##
+----> Treatment is locked for the id_cart = 12050
+## 2023-11-25 10:43:51 ##
+data for validation
+## 2023-11-25 10:43:51 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>11897c399c9cfcbfc5cf166a2e3cd1a8</md5content><result><operation>capture</operation><status>ok</status><date>2023-11-25</date><time>09:43:47 UTC+0000</time><origAmount>93.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12050</idForMerchant><emailClient>dfurlan@francehygieneventilation.fr</emailClient><idClient>23003435</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12050</_aKey_cart_id>  <_aKey_customer_id>3926</_aKey_customer_id>  <_aKey_secure_key>9f2b538dbfc88d344c3654a1733ea154</_aKey_secure_key>  <_aKey_token>d25ded62a78ac3998df49503cdacc485</_aKey_token></merchantDatas><transid>6561C1951AD5E304</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 11897c399c9cfcbfc5cf166a2e3cd1a8
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-11-25
+                    [time] => 09:43:47 UTC+0000
+                    [origAmount] => 93.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12050
+                    [emailClient] => dfurlan@francehygieneventilation.fr
+                    [idClient] => 23003435
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12050
+                            [_aKey_customer_id] => 3926
+                            [_aKey_secure_key] => 9f2b538dbfc88d344c3654a1733ea154
+                            [_aKey_token] => d25ded62a78ac3998df49503cdacc485
+                        )
+
+                    [transid] => 6561C1951AD5E304
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12050
+    [3] => 3926
+    [4] => 9f2b538dbfc88d344c3654a1733ea154
+    [5] => 93
+)
+
+## 2023-11-25 10:43:51 ##
+----> START registerOrder()
+## 2023-11-25 10:43:51 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-25 10:43:51 ##
+<result><operation>capture</operation><status>ok</status><date>2023-11-25</date><time>09:43:47 UTC+0000</time><origAmount>93.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12050</idForMerchant><emailClient>dfurlan@francehygieneventilation.fr</emailClient><idClient>23003435</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12050</_aKey_cart_id>  <_aKey_customer_id>3926</_aKey_customer_id>  <_aKey_secure_key>9f2b538dbfc88d344c3654a1733ea154</_aKey_secure_key>  <_aKey_token>d25ded62a78ac3998df49503cdacc485</_aKey_token></merchantDatas><transid>6561C1951AD5E304</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-25 10:43:51 ##
+currency : EUR
+## 2023-11-25 10:43:51 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-25 10:43:51 ##
+callback_salt : 
+## 2023-11-25 10:43:51 ##
+md5 : 11897c399c9cfcbfc5cf166a2e3cd1a8 == md5content : 11897c399c9cfcbfc5cf166a2e3cd1a8
+## 2023-11-25 10:43:51 ##
+Status = ok
+## 2023-11-25 10:43:51 ##
+$currency = EUR
+## 2023-11-25 10:43:51 ##
+id_order_state = 2
+## 2023-11-25 10:43:51 ##
+----> START placeOrder()
+## 2023-11-25 10:43:51 ##
+Treatment an existing order
+## 2023-11-25 10:43:51 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-11-25 10:43:51 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-11-25
+    [time] => 09:43:47 UTC+0000
+    [origAmount] => 93.00
+    [origCurrency] => EUR
+    [idForMerchant] => 12050
+    [emailClient] => dfurlan@francehygieneventilation.fr
+    [idClient] => 23003435
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12050
+            [_aKey_customer_id] => 3926
+            [_aKey_secure_key] => 9f2b538dbfc88d344c3654a1733ea154
+            [_aKey_token] => d25ded62a78ac3998df49503cdacc485
+        )
+
+    [transid] => 6561C1951AD5E304
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-11-25 10:43:52 ##
+----> END placeOrder()
+## 2023-11-25 10:43:52 ##
+----> END registerOrder()
+## 2023-11-25 10:43:52 ##
+----> Treatment is unlocked for the id_cart = 12050
+## 2023-11-25 16:22:21 ##
+##########################
+## 2023-11-25 16:22:21 ##
+START Validation Callback
+## 2023-11-25 16:22:21 ##
+##########################
+## 2023-11-25 16:22:21 ##
+----> Treatment is locked for the id_cart = 12053
+## 2023-11-25 16:22:21 ##
+data for validation
+## 2023-11-25 16:22:21 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>e70dc25383dedade49f36ab9d837baa7</md5content><result><operation>authorization</operation><status>ok</status><date>2023-11-25</date><time>15:22:18 UTC+0000</time><origAmount>114.39</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12053</idForMerchant><emailClient>pmalferiol@gmail.com</emailClient><idClient>23004681</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12053</_aKey_cart_id>  <_aKey_customer_id>3927</_aKey_customer_id>  <_aKey_secure_key>b3076cb4f979df6fbd9a970822f6dc79</_aKey_secure_key>  <_aKey_token>9c0049b9b4c9ebedb1776d753d7cf6ed</_aKey_token></merchantDatas><transid>656210B3B6BE8234</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => e70dc25383dedade49f36ab9d837baa7
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-11-25
+                    [time] => 15:22:18 UTC+0000
+                    [origAmount] => 114.39
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12053
+                    [emailClient] => pmalferiol@gmail.com
+                    [idClient] => 23004681
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12053
+                            [_aKey_customer_id] => 3927
+                            [_aKey_secure_key] => b3076cb4f979df6fbd9a970822f6dc79
+                            [_aKey_token] => 9c0049b9b4c9ebedb1776d753d7cf6ed
+                        )
+
+                    [transid] => 656210B3B6BE8234
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12053
+    [3] => 3927
+    [4] => b3076cb4f979df6fbd9a970822f6dc79
+    [5] => 114.39
+)
+
+## 2023-11-25 16:22:21 ##
+----> START registerOrder()
+## 2023-11-25 16:22:21 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-25 16:22:21 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-11-25</date><time>15:22:18 UTC+0000</time><origAmount>114.39</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12053</idForMerchant><emailClient>pmalferiol@gmail.com</emailClient><idClient>23004681</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12053</_aKey_cart_id>  <_aKey_customer_id>3927</_aKey_customer_id>  <_aKey_secure_key>b3076cb4f979df6fbd9a970822f6dc79</_aKey_secure_key>  <_aKey_token>9c0049b9b4c9ebedb1776d753d7cf6ed</_aKey_token></merchantDatas><transid>656210B3B6BE8234</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-25 16:22:21 ##
+currency : EUR
+## 2023-11-25 16:22:21 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-25 16:22:21 ##
+callback_salt : 
+## 2023-11-25 16:22:21 ##
+md5 : e70dc25383dedade49f36ab9d837baa7 == md5content : e70dc25383dedade49f36ab9d837baa7
+## 2023-11-25 16:22:21 ##
+Status = ok
+## 2023-11-25 16:22:21 ##
+$currency = EUR
+## 2023-11-25 16:22:21 ##
+id_order_state = 42
+## 2023-11-25 16:22:21 ##
+----> START placeOrder()
+## 2023-11-25 16:22:21 ##
+Treatment status = 42
+## 2023-11-25 16:22:21 ##
+Validate order
+## 2023-11-25 16:22:21 ##
+Array
+(
+    [0] => 12053
+    [1] => 42
+    [2] => 114.39
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"656210B3B6BE8234"}
+    [5] => Array
+        (
+            [transaction_id] => 656210B3B6BE8234
+        )
+
+    [6] => 1
+    [7] => b3076cb4f979df6fbd9a970822f6dc79
+)
+
+## 2023-11-25 16:22:21 ##
+ID Shop = 1
+## 2023-11-25 16:22:24 ##
+Order created
+## 2023-11-25 16:22:24 ##
+----> END placeOrder()
+## 2023-11-25 16:22:24 ##
+----> END registerOrder()
+## 2023-11-25 16:22:24 ##
+----> Treatment is unlocked for the id_cart = 12053
+## 2023-11-25 16:22:30 ##
+##########################
+## 2023-11-25 16:22:30 ##
+START Validation Callback
+## 2023-11-25 16:22:30 ##
+##########################
+## 2023-11-25 16:22:30 ##
+----> Treatment is locked for the id_cart = 12053
+## 2023-11-25 16:22:30 ##
+data for validation
+## 2023-11-25 16:22:30 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>50ecaf1194853c79859ffdc3c26ddc6e</md5content><result><operation>capture</operation><status>ok</status><date>2023-11-25</date><time>15:22:25 UTC+0000</time><origAmount>114.39</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12053</idForMerchant><emailClient>pmalferiol@gmail.com</emailClient><idClient>23004681</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12053</_aKey_cart_id>  <_aKey_customer_id>3927</_aKey_customer_id>  <_aKey_secure_key>b3076cb4f979df6fbd9a970822f6dc79</_aKey_secure_key>  <_aKey_token>9c0049b9b4c9ebedb1776d753d7cf6ed</_aKey_token></merchantDatas><transid>656210B3B6BE8234</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 50ecaf1194853c79859ffdc3c26ddc6e
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-11-25
+                    [time] => 15:22:25 UTC+0000
+                    [origAmount] => 114.39
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12053
+                    [emailClient] => pmalferiol@gmail.com
+                    [idClient] => 23004681
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12053
+                            [_aKey_customer_id] => 3927
+                            [_aKey_secure_key] => b3076cb4f979df6fbd9a970822f6dc79
+                            [_aKey_token] => 9c0049b9b4c9ebedb1776d753d7cf6ed
+                        )
+
+                    [transid] => 656210B3B6BE8234
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12053
+    [3] => 3927
+    [4] => b3076cb4f979df6fbd9a970822f6dc79
+    [5] => 114.39
+)
+
+## 2023-11-25 16:22:30 ##
+----> START registerOrder()
+## 2023-11-25 16:22:30 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-25 16:22:30 ##
+<result><operation>capture</operation><status>ok</status><date>2023-11-25</date><time>15:22:25 UTC+0000</time><origAmount>114.39</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12053</idForMerchant><emailClient>pmalferiol@gmail.com</emailClient><idClient>23004681</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12053</_aKey_cart_id>  <_aKey_customer_id>3927</_aKey_customer_id>  <_aKey_secure_key>b3076cb4f979df6fbd9a970822f6dc79</_aKey_secure_key>  <_aKey_token>9c0049b9b4c9ebedb1776d753d7cf6ed</_aKey_token></merchantDatas><transid>656210B3B6BE8234</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-11-25 16:22:30 ##
+currency : EUR
+## 2023-11-25 16:22:30 ##
+accountID:13248407 / websiteId:417972
+## 2023-11-25 16:22:30 ##
+callback_salt : 
+## 2023-11-25 16:22:30 ##
+md5 : 50ecaf1194853c79859ffdc3c26ddc6e == md5content : 50ecaf1194853c79859ffdc3c26ddc6e
+## 2023-11-25 16:22:30 ##
+Status = ok
+## 2023-11-25 16:22:30 ##
+$currency = EUR
+## 2023-11-25 16:22:30 ##
+id_order_state = 2
+## 2023-11-25 16:22:30 ##
+----> START placeOrder()
+## 2023-11-25 16:22:30 ##
+Treatment an existing order
+## 2023-11-25 16:22:30 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-11-25 16:22:30 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-11-25
+    [time] => 15:22:25 UTC+0000
+    [origAmount] => 114.39
+    [origCurrency] => EUR
+    [idForMerchant] => 12053
+    [emailClient] => pmalferiol@gmail.com
+    [idClient] => 23004681
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12053
+            [_aKey_customer_id] => 3927
+            [_aKey_secure_key] => b3076cb4f979df6fbd9a970822f6dc79
+            [_aKey_token] => 9c0049b9b4c9ebedb1776d753d7cf6ed
+        )
+
+    [transid] => 656210B3B6BE8234
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-11-25 16:22:31 ##
+----> END placeOrder()
+## 2023-11-25 16:22:31 ##
+----> END registerOrder()
+## 2023-11-25 16:22:31 ##
+----> Treatment is unlocked for the id_cart = 12053

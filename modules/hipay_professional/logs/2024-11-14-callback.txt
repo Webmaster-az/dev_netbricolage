@@ -1,0 +1,259 @@
+## 2024-11-14 14:50:21 ##
+##########################
+## 2024-11-14 14:50:21 ##
+START Validation Callback
+## 2024-11-14 14:50:21 ##
+##########################
+## 2024-11-14 14:50:21 ##
+----> Treatment is locked for the id_cart = 16498
+## 2024-11-14 14:50:21 ##
+data for validation
+## 2024-11-14 14:50:21 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2382f83b008f27776122005a3f1a90b7</md5content><result><operation>authorization</operation><status>ok</status><date>2024-11-14</date><time>13:50:22 UTC+0000</time><origAmount>69.34</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16498</idForMerchant><emailClient>lilian@brutele.be</emailClient><idClient>24164700</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>16498</_aKey_cart_id>  <_aKey_customer_id>4606</_aKey_customer_id>  <_aKey_secure_key>fe1592ef3d19462362a72a717d9ad9ea</_aKey_secure_key>  <_aKey_token>a9e2e8e075b10ec27f230854e4a98941</_aKey_token></merchantDatas><transid>6735FFCE4BCF4272</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2382f83b008f27776122005a3f1a90b7
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-11-14
+                    [time] => 13:50:22 UTC+0000
+                    [origAmount] => 69.34
+                    [origCurrency] => EUR
+                    [idForMerchant] => 16498
+                    [emailClient] => lilian@brutele.be
+                    [idClient] => 24164700
+                    [cardCountry] => BE
+                    [ipCountry] => BE
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 16498
+                            [_aKey_customer_id] => 4606
+                            [_aKey_secure_key] => fe1592ef3d19462362a72a717d9ad9ea
+                            [_aKey_token] => a9e2e8e075b10ec27f230854e4a98941
+                        )
+
+                    [transid] => 6735FFCE4BCF4272
+                    [is3ds] => Yes
+                    [paymentMethod] => BCMC
+                    [customerCountry] => BE
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 16498
+    [3] => 4606
+    [4] => fe1592ef3d19462362a72a717d9ad9ea
+    [5] => 69.34
+)
+
+## 2024-11-14 14:50:21 ##
+----> START registerOrder()
+## 2024-11-14 14:50:21 ##
+accountID:13248407 / websiteId:417972
+## 2024-11-14 14:50:21 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-11-14</date><time>13:50:22 UTC+0000</time><origAmount>69.34</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16498</idForMerchant><emailClient>lilian@brutele.be</emailClient><idClient>24164700</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>16498</_aKey_cart_id>  <_aKey_customer_id>4606</_aKey_customer_id>  <_aKey_secure_key>fe1592ef3d19462362a72a717d9ad9ea</_aKey_secure_key>  <_aKey_token>a9e2e8e075b10ec27f230854e4a98941</_aKey_token></merchantDatas><transid>6735FFCE4BCF4272</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-11-14 14:50:21 ##
+currency : EUR
+## 2024-11-14 14:50:21 ##
+accountID:13248407 / websiteId:417972
+## 2024-11-14 14:50:21 ##
+callback_salt : 
+## 2024-11-14 14:50:21 ##
+md5 : 2382f83b008f27776122005a3f1a90b7 == md5content : 2382f83b008f27776122005a3f1a90b7
+## 2024-11-14 14:50:21 ##
+Status = ok
+## 2024-11-14 14:50:21 ##
+$currency = EUR
+## 2024-11-14 14:50:21 ##
+id_order_state = 42
+## 2024-11-14 14:50:21 ##
+----> START placeOrder()
+## 2024-11-14 14:50:21 ##
+Treatment status = 42
+## 2024-11-14 14:50:21 ##
+Validate order
+## 2024-11-14 14:50:21 ##
+Array
+(
+    [0] => 16498
+    [1] => 42
+    [2] => 69.34
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"BCMC","Transaction ID":"6735FFCE4BCF4272"}
+    [5] => Array
+        (
+            [transaction_id] => 6735FFCE4BCF4272
+        )
+
+    [6] => 1
+    [7] => fe1592ef3d19462362a72a717d9ad9ea
+)
+
+## 2024-11-14 14:50:21 ##
+ID Shop = 1
+## 2024-11-14 14:50:23 ##
+Order created
+## 2024-11-14 14:50:23 ##
+----> END placeOrder()
+## 2024-11-14 14:50:23 ##
+----> END registerOrder()
+## 2024-11-14 14:50:23 ##
+----> Treatment is unlocked for the id_cart = 16498
+## 2024-11-14 14:50:27 ##
+##########################
+## 2024-11-14 14:50:27 ##
+START Validation Callback
+## 2024-11-14 14:50:27 ##
+##########################
+## 2024-11-14 14:50:27 ##
+----> Treatment is locked for the id_cart = 16498
+## 2024-11-14 14:50:27 ##
+data for validation
+## 2024-11-14 14:50:27 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>605a5a6051415b54e00e5389369589d0</md5content><result><operation>capture</operation><status>ok</status><date>2024-11-14</date><time>13:50:29 UTC+0000</time><origAmount>69.34</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16498</idForMerchant><emailClient>lilian@brutele.be</emailClient><idClient>24164700</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>16498</_aKey_cart_id>  <_aKey_customer_id>4606</_aKey_customer_id>  <_aKey_secure_key>fe1592ef3d19462362a72a717d9ad9ea</_aKey_secure_key>  <_aKey_token>a9e2e8e075b10ec27f230854e4a98941</_aKey_token></merchantDatas><transid>6735FFCE4BCF4272</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 605a5a6051415b54e00e5389369589d0
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-11-14
+                    [time] => 13:50:29 UTC+0000
+                    [origAmount] => 69.34
+                    [origCurrency] => EUR
+                    [idForMerchant] => 16498
+                    [emailClient] => lilian@brutele.be
+                    [idClient] => 24164700
+                    [cardCountry] => BE
+                    [ipCountry] => BE
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 16498
+                            [_aKey_customer_id] => 4606
+                            [_aKey_secure_key] => fe1592ef3d19462362a72a717d9ad9ea
+                            [_aKey_token] => a9e2e8e075b10ec27f230854e4a98941
+                        )
+
+                    [transid] => 6735FFCE4BCF4272
+                    [is3ds] => Yes
+                    [paymentMethod] => BCMC
+                    [customerCountry] => BE
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 16498
+    [3] => 4606
+    [4] => fe1592ef3d19462362a72a717d9ad9ea
+    [5] => 69.34
+)
+
+## 2024-11-14 14:50:27 ##
+----> START registerOrder()
+## 2024-11-14 14:50:27 ##
+accountID:13248407 / websiteId:417972
+## 2024-11-14 14:50:27 ##
+<result><operation>capture</operation><status>ok</status><date>2024-11-14</date><time>13:50:29 UTC+0000</time><origAmount>69.34</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16498</idForMerchant><emailClient>lilian@brutele.be</emailClient><idClient>24164700</idClient><cardCountry>BE</cardCountry><ipCountry>BE</ipCountry><merchantDatas>  <_aKey_cart_id>16498</_aKey_cart_id>  <_aKey_customer_id>4606</_aKey_customer_id>  <_aKey_secure_key>fe1592ef3d19462362a72a717d9ad9ea</_aKey_secure_key>  <_aKey_token>a9e2e8e075b10ec27f230854e4a98941</_aKey_token></merchantDatas><transid>6735FFCE4BCF4272</transid><is3ds>Yes</is3ds><paymentMethod>BCMC</paymentMethod><customerCountry>BE</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-11-14 14:50:27 ##
+currency : EUR
+## 2024-11-14 14:50:27 ##
+accountID:13248407 / websiteId:417972
+## 2024-11-14 14:50:27 ##
+callback_salt : 
+## 2024-11-14 14:50:27 ##
+md5 : 605a5a6051415b54e00e5389369589d0 == md5content : 605a5a6051415b54e00e5389369589d0
+## 2024-11-14 14:50:27 ##
+Status = ok
+## 2024-11-14 14:50:27 ##
+$currency = EUR
+## 2024-11-14 14:50:27 ##
+id_order_state = 2
+## 2024-11-14 14:50:27 ##
+----> START placeOrder()
+## 2024-11-14 14:50:27 ##
+Treatment an existing order
+## 2024-11-14 14:50:27 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-11-14 14:50:27 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-11-14
+    [time] => 13:50:29 UTC+0000
+    [origAmount] => 69.34
+    [origCurrency] => EUR
+    [idForMerchant] => 16498
+    [emailClient] => lilian@brutele.be
+    [idClient] => 24164700
+    [cardCountry] => BE
+    [ipCountry] => BE
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 16498
+            [_aKey_customer_id] => 4606
+            [_aKey_secure_key] => fe1592ef3d19462362a72a717d9ad9ea
+            [_aKey_token] => a9e2e8e075b10ec27f230854e4a98941
+        )
+
+    [transid] => 6735FFCE4BCF4272
+    [is3ds] => Yes
+    [paymentMethod] => BCMC
+    [customerCountry] => BE
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-11-14 14:50:28 ##
+----> END placeOrder()
+## 2024-11-14 14:50:28 ##
+----> END registerOrder()
+## 2024-11-14 14:50:28 ##
+----> Treatment is unlocked for the id_cart = 16498

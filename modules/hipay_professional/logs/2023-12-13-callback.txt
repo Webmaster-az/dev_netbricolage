@@ -1,0 +1,259 @@
+## 2023-12-13 15:57:20 ##
+##########################
+## 2023-12-13 15:57:20 ##
+START Validation Callback
+## 2023-12-13 15:57:20 ##
+##########################
+## 2023-12-13 15:57:20 ##
+----> Treatment is locked for the id_cart = 12341
+## 2023-12-13 15:57:20 ##
+data for validation
+## 2023-12-13 15:57:20 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>34fce4e4ca1f1e78a26be576d9b0d9cd</md5content><result><operation>authorization</operation><status>ok</status><date>2023-12-13</date><time>14:57:18 UTC+0000</time><origAmount>445.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12341</idForMerchant><emailClient>cb@grele.net</emailClient><idClient>23049581</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12341</_aKey_cart_id>  <_aKey_customer_id>3959</_aKey_customer_id>  <_aKey_secure_key>a59ceb7cc0df02c1aea2953f082439a6</_aKey_secure_key>  <_aKey_token>d4fb352ea8a624950f7c37ad8ddd5994</_aKey_token></merchantDatas><transid>6579C6231F025323</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 34fce4e4ca1f1e78a26be576d9b0d9cd
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-12-13
+                    [time] => 14:57:18 UTC+0000
+                    [origAmount] => 445.50
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12341
+                    [emailClient] => cb@grele.net
+                    [idClient] => 23049581
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12341
+                            [_aKey_customer_id] => 3959
+                            [_aKey_secure_key] => a59ceb7cc0df02c1aea2953f082439a6
+                            [_aKey_token] => d4fb352ea8a624950f7c37ad8ddd5994
+                        )
+
+                    [transid] => 6579C6231F025323
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12341
+    [3] => 3959
+    [4] => a59ceb7cc0df02c1aea2953f082439a6
+    [5] => 445.5
+)
+
+## 2023-12-13 15:57:20 ##
+----> START registerOrder()
+## 2023-12-13 15:57:20 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-13 15:57:20 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-12-13</date><time>14:57:18 UTC+0000</time><origAmount>445.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12341</idForMerchant><emailClient>cb@grele.net</emailClient><idClient>23049581</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12341</_aKey_cart_id>  <_aKey_customer_id>3959</_aKey_customer_id>  <_aKey_secure_key>a59ceb7cc0df02c1aea2953f082439a6</_aKey_secure_key>  <_aKey_token>d4fb352ea8a624950f7c37ad8ddd5994</_aKey_token></merchantDatas><transid>6579C6231F025323</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-12-13 15:57:20 ##
+currency : EUR
+## 2023-12-13 15:57:20 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-13 15:57:20 ##
+callback_salt : 
+## 2023-12-13 15:57:20 ##
+md5 : 34fce4e4ca1f1e78a26be576d9b0d9cd == md5content : 34fce4e4ca1f1e78a26be576d9b0d9cd
+## 2023-12-13 15:57:20 ##
+Status = ok
+## 2023-12-13 15:57:20 ##
+$currency = EUR
+## 2023-12-13 15:57:20 ##
+id_order_state = 42
+## 2023-12-13 15:57:20 ##
+----> START placeOrder()
+## 2023-12-13 15:57:20 ##
+Treatment status = 42
+## 2023-12-13 15:57:20 ##
+Validate order
+## 2023-12-13 15:57:20 ##
+Array
+(
+    [0] => 12341
+    [1] => 42
+    [2] => 445.5
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6579C6231F025323"}
+    [5] => Array
+        (
+            [transaction_id] => 6579C6231F025323
+        )
+
+    [6] => 1
+    [7] => a59ceb7cc0df02c1aea2953f082439a6
+)
+
+## 2023-12-13 15:57:20 ##
+ID Shop = 1
+## 2023-12-13 15:57:25 ##
+Order created
+## 2023-12-13 15:57:25 ##
+----> END placeOrder()
+## 2023-12-13 15:57:25 ##
+----> END registerOrder()
+## 2023-12-13 15:57:25 ##
+----> Treatment is unlocked for the id_cart = 12341
+## 2023-12-13 15:57:30 ##
+##########################
+## 2023-12-13 15:57:30 ##
+START Validation Callback
+## 2023-12-13 15:57:30 ##
+##########################
+## 2023-12-13 15:57:30 ##
+----> Treatment is locked for the id_cart = 12341
+## 2023-12-13 15:57:30 ##
+data for validation
+## 2023-12-13 15:57:30 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>d5f3769d344f223a27cb0d9a33da78ea</md5content><result><operation>capture</operation><status>ok</status><date>2023-12-13</date><time>14:57:25 UTC+0000</time><origAmount>445.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12341</idForMerchant><emailClient>cb@grele.net</emailClient><idClient>23049581</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12341</_aKey_cart_id>  <_aKey_customer_id>3959</_aKey_customer_id>  <_aKey_secure_key>a59ceb7cc0df02c1aea2953f082439a6</_aKey_secure_key>  <_aKey_token>d4fb352ea8a624950f7c37ad8ddd5994</_aKey_token></merchantDatas><transid>6579C6231F025323</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => d5f3769d344f223a27cb0d9a33da78ea
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-12-13
+                    [time] => 14:57:25 UTC+0000
+                    [origAmount] => 445.50
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12341
+                    [emailClient] => cb@grele.net
+                    [idClient] => 23049581
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12341
+                            [_aKey_customer_id] => 3959
+                            [_aKey_secure_key] => a59ceb7cc0df02c1aea2953f082439a6
+                            [_aKey_token] => d4fb352ea8a624950f7c37ad8ddd5994
+                        )
+
+                    [transid] => 6579C6231F025323
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12341
+    [3] => 3959
+    [4] => a59ceb7cc0df02c1aea2953f082439a6
+    [5] => 445.5
+)
+
+## 2023-12-13 15:57:30 ##
+----> START registerOrder()
+## 2023-12-13 15:57:30 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-13 15:57:30 ##
+<result><operation>capture</operation><status>ok</status><date>2023-12-13</date><time>14:57:25 UTC+0000</time><origAmount>445.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12341</idForMerchant><emailClient>cb@grele.net</emailClient><idClient>23049581</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12341</_aKey_cart_id>  <_aKey_customer_id>3959</_aKey_customer_id>  <_aKey_secure_key>a59ceb7cc0df02c1aea2953f082439a6</_aKey_secure_key>  <_aKey_token>d4fb352ea8a624950f7c37ad8ddd5994</_aKey_token></merchantDatas><transid>6579C6231F025323</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-12-13 15:57:30 ##
+currency : EUR
+## 2023-12-13 15:57:30 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-13 15:57:30 ##
+callback_salt : 
+## 2023-12-13 15:57:30 ##
+md5 : d5f3769d344f223a27cb0d9a33da78ea == md5content : d5f3769d344f223a27cb0d9a33da78ea
+## 2023-12-13 15:57:30 ##
+Status = ok
+## 2023-12-13 15:57:30 ##
+$currency = EUR
+## 2023-12-13 15:57:30 ##
+id_order_state = 2
+## 2023-12-13 15:57:30 ##
+----> START placeOrder()
+## 2023-12-13 15:57:30 ##
+Treatment an existing order
+## 2023-12-13 15:57:30 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-12-13 15:57:30 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-12-13
+    [time] => 14:57:25 UTC+0000
+    [origAmount] => 445.50
+    [origCurrency] => EUR
+    [idForMerchant] => 12341
+    [emailClient] => cb@grele.net
+    [idClient] => 23049581
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12341
+            [_aKey_customer_id] => 3959
+            [_aKey_secure_key] => a59ceb7cc0df02c1aea2953f082439a6
+            [_aKey_token] => d4fb352ea8a624950f7c37ad8ddd5994
+        )
+
+    [transid] => 6579C6231F025323
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-12-13 15:57:31 ##
+----> END placeOrder()
+## 2023-12-13 15:57:31 ##
+----> END registerOrder()
+## 2023-12-13 15:57:31 ##
+----> Treatment is unlocked for the id_cart = 12341

@@ -1,0 +1,259 @@
+## 2023-10-15 22:49:12 ##
+##########################
+## 2023-10-15 22:49:12 ##
+START Validation Callback
+## 2023-10-15 22:49:12 ##
+##########################
+## 2023-10-15 22:49:12 ##
+----> Treatment is locked for the id_cart = 11384
+## 2023-10-15 22:49:12 ##
+data for validation
+## 2023-10-15 22:49:12 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>b1833b41be57e3f09100d3c1201d4ed4</md5content><result><operation>authorization</operation><status>ok</status><date>2023-10-15</date><time>20:49:10 UTC+0000</time><origAmount>155.04</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11384</idForMerchant><emailClient>marsault.david@orange.fr</emailClient><idClient>22859116</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11384</_aKey_cart_id>  <_aKey_customer_id>3810</_aKey_customer_id>  <_aKey_secure_key>665a1462059835a37fae3587ccbf060c</_aKey_secure_key>  <_aKey_token>abfe32fd5471860c9816f3dd27a0e9b7</_aKey_token></merchantDatas><transid>652C5008B7B5E221</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => b1833b41be57e3f09100d3c1201d4ed4
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-10-15
+                    [time] => 20:49:10 UTC+0000
+                    [origAmount] => 155.04
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11384
+                    [emailClient] => marsault.david@orange.fr
+                    [idClient] => 22859116
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11384
+                            [_aKey_customer_id] => 3810
+                            [_aKey_secure_key] => 665a1462059835a37fae3587ccbf060c
+                            [_aKey_token] => abfe32fd5471860c9816f3dd27a0e9b7
+                        )
+
+                    [transid] => 652C5008B7B5E221
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11384
+    [3] => 3810
+    [4] => 665a1462059835a37fae3587ccbf060c
+    [5] => 155.04
+)
+
+## 2023-10-15 22:49:12 ##
+----> START registerOrder()
+## 2023-10-15 22:49:12 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-15 22:49:12 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-10-15</date><time>20:49:10 UTC+0000</time><origAmount>155.04</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11384</idForMerchant><emailClient>marsault.david@orange.fr</emailClient><idClient>22859116</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11384</_aKey_cart_id>  <_aKey_customer_id>3810</_aKey_customer_id>  <_aKey_secure_key>665a1462059835a37fae3587ccbf060c</_aKey_secure_key>  <_aKey_token>abfe32fd5471860c9816f3dd27a0e9b7</_aKey_token></merchantDatas><transid>652C5008B7B5E221</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-15 22:49:12 ##
+currency : EUR
+## 2023-10-15 22:49:12 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-15 22:49:12 ##
+callback_salt : 
+## 2023-10-15 22:49:12 ##
+md5 : b1833b41be57e3f09100d3c1201d4ed4 == md5content : b1833b41be57e3f09100d3c1201d4ed4
+## 2023-10-15 22:49:12 ##
+Status = ok
+## 2023-10-15 22:49:12 ##
+$currency = EUR
+## 2023-10-15 22:49:12 ##
+id_order_state = 42
+## 2023-10-15 22:49:12 ##
+----> START placeOrder()
+## 2023-10-15 22:49:12 ##
+Treatment status = 42
+## 2023-10-15 22:49:12 ##
+Validate order
+## 2023-10-15 22:49:12 ##
+Array
+(
+    [0] => 11384
+    [1] => 42
+    [2] => 155.04
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"652C5008B7B5E221"}
+    [5] => Array
+        (
+            [transaction_id] => 652C5008B7B5E221
+        )
+
+    [6] => 1
+    [7] => 665a1462059835a37fae3587ccbf060c
+)
+
+## 2023-10-15 22:49:12 ##
+ID Shop = 1
+## 2023-10-15 22:49:15 ##
+Order created
+## 2023-10-15 22:49:15 ##
+----> END placeOrder()
+## 2023-10-15 22:49:15 ##
+----> END registerOrder()
+## 2023-10-15 22:49:15 ##
+----> Treatment is unlocked for the id_cart = 11384
+## 2023-10-15 22:49:21 ##
+##########################
+## 2023-10-15 22:49:21 ##
+START Validation Callback
+## 2023-10-15 22:49:21 ##
+##########################
+## 2023-10-15 22:49:21 ##
+----> Treatment is locked for the id_cart = 11384
+## 2023-10-15 22:49:21 ##
+data for validation
+## 2023-10-15 22:49:21 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>93d3477f60507cba9233db95542c4504</md5content><result><operation>capture</operation><status>ok</status><date>2023-10-15</date><time>20:49:17 UTC+0000</time><origAmount>155.04</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11384</idForMerchant><emailClient>marsault.david@orange.fr</emailClient><idClient>22859116</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11384</_aKey_cart_id>  <_aKey_customer_id>3810</_aKey_customer_id>  <_aKey_secure_key>665a1462059835a37fae3587ccbf060c</_aKey_secure_key>  <_aKey_token>abfe32fd5471860c9816f3dd27a0e9b7</_aKey_token></merchantDatas><transid>652C5008B7B5E221</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 93d3477f60507cba9233db95542c4504
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-10-15
+                    [time] => 20:49:17 UTC+0000
+                    [origAmount] => 155.04
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11384
+                    [emailClient] => marsault.david@orange.fr
+                    [idClient] => 22859116
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11384
+                            [_aKey_customer_id] => 3810
+                            [_aKey_secure_key] => 665a1462059835a37fae3587ccbf060c
+                            [_aKey_token] => abfe32fd5471860c9816f3dd27a0e9b7
+                        )
+
+                    [transid] => 652C5008B7B5E221
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11384
+    [3] => 3810
+    [4] => 665a1462059835a37fae3587ccbf060c
+    [5] => 155.04
+)
+
+## 2023-10-15 22:49:21 ##
+----> START registerOrder()
+## 2023-10-15 22:49:21 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-15 22:49:21 ##
+<result><operation>capture</operation><status>ok</status><date>2023-10-15</date><time>20:49:17 UTC+0000</time><origAmount>155.04</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11384</idForMerchant><emailClient>marsault.david@orange.fr</emailClient><idClient>22859116</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11384</_aKey_cart_id>  <_aKey_customer_id>3810</_aKey_customer_id>  <_aKey_secure_key>665a1462059835a37fae3587ccbf060c</_aKey_secure_key>  <_aKey_token>abfe32fd5471860c9816f3dd27a0e9b7</_aKey_token></merchantDatas><transid>652C5008B7B5E221</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-15 22:49:21 ##
+currency : EUR
+## 2023-10-15 22:49:21 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-15 22:49:21 ##
+callback_salt : 
+## 2023-10-15 22:49:21 ##
+md5 : 93d3477f60507cba9233db95542c4504 == md5content : 93d3477f60507cba9233db95542c4504
+## 2023-10-15 22:49:21 ##
+Status = ok
+## 2023-10-15 22:49:21 ##
+$currency = EUR
+## 2023-10-15 22:49:21 ##
+id_order_state = 2
+## 2023-10-15 22:49:21 ##
+----> START placeOrder()
+## 2023-10-15 22:49:21 ##
+Treatment an existing order
+## 2023-10-15 22:49:21 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-10-15 22:49:21 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-10-15
+    [time] => 20:49:17 UTC+0000
+    [origAmount] => 155.04
+    [origCurrency] => EUR
+    [idForMerchant] => 11384
+    [emailClient] => marsault.david@orange.fr
+    [idClient] => 22859116
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 11384
+            [_aKey_customer_id] => 3810
+            [_aKey_secure_key] => 665a1462059835a37fae3587ccbf060c
+            [_aKey_token] => abfe32fd5471860c9816f3dd27a0e9b7
+        )
+
+    [transid] => 652C5008B7B5E221
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-10-15 22:49:22 ##
+----> END placeOrder()
+## 2023-10-15 22:49:22 ##
+----> END registerOrder()
+## 2023-10-15 22:49:22 ##
+----> Treatment is unlocked for the id_cart = 11384

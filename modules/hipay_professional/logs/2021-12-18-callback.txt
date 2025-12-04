@@ -1,0 +1,518 @@
+## 2021-12-18 10:27:36 ##
+##########################
+## 2021-12-18 10:27:36 ##
+START Validation Callback
+## 2021-12-18 10:27:36 ##
+##########################
+## 2021-12-18 10:27:36 ##
+----> Treatment is locked for the id_cart = 1252
+## 2021-12-18 10:27:36 ##
+data for validation
+## 2021-12-18 10:27:36 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>78ee667d623a302171c7c3312e07aa8a</md5content><result><operation>authorization</operation><status>ok</status><date>2021-12-18</date><time>09:27:34 UTC+0000</time><origAmount>74.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1252</idForMerchant><emailClient>yassinekr@free.fr</emailClient><idClient>19929212</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1252</_aKey_cart_id>  <_aKey_customer_id>1631</_aKey_customer_id>  <_aKey_secure_key>4016cf3e45fbc2a4e5122368c51dded4</_aKey_secure_key>  <_aKey_token>f9fe8f6ecf1650cc2fba217d77c90d7e</_aKey_token></merchantDatas><transid>61BDA94F87566632</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 78ee667d623a302171c7c3312e07aa8a
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-12-18
+                    [time] => 09:27:34 UTC+0000
+                    [origAmount] => 74.23
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1252
+                    [emailClient] => yassinekr@free.fr
+                    [idClient] => 19929212
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1252
+                            [_aKey_customer_id] => 1631
+                            [_aKey_secure_key] => 4016cf3e45fbc2a4e5122368c51dded4
+                            [_aKey_token] => f9fe8f6ecf1650cc2fba217d77c90d7e
+                        )
+
+                    [transid] => 61BDA94F87566632
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1252
+    [3] => 1631
+    [4] => 4016cf3e45fbc2a4e5122368c51dded4
+    [5] => 74.23
+)
+
+## 2021-12-18 10:27:36 ##
+----> START registerOrder()
+## 2021-12-18 10:27:36 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-18 10:27:36 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-12-18</date><time>09:27:34 UTC+0000</time><origAmount>74.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1252</idForMerchant><emailClient>yassinekr@free.fr</emailClient><idClient>19929212</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1252</_aKey_cart_id>  <_aKey_customer_id>1631</_aKey_customer_id>  <_aKey_secure_key>4016cf3e45fbc2a4e5122368c51dded4</_aKey_secure_key>  <_aKey_token>f9fe8f6ecf1650cc2fba217d77c90d7e</_aKey_token></merchantDatas><transid>61BDA94F87566632</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-12-18 10:27:36 ##
+currency : EUR
+## 2021-12-18 10:27:36 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-18 10:27:36 ##
+callback_salt : 
+## 2021-12-18 10:27:36 ##
+md5 : 78ee667d623a302171c7c3312e07aa8a == md5content : 78ee667d623a302171c7c3312e07aa8a
+## 2021-12-18 10:27:36 ##
+Status = ok
+## 2021-12-18 10:27:36 ##
+$currency = EUR
+## 2021-12-18 10:27:36 ##
+id_order_state = 42
+## 2021-12-18 10:27:36 ##
+----> START placeOrder()
+## 2021-12-18 10:27:36 ##
+Treatment status = 42
+## 2021-12-18 10:27:36 ##
+Validate order
+## 2021-12-18 10:27:36 ##
+Array
+(
+    [0] => 1252
+    [1] => 42
+    [2] => 74.23
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"61BDA94F87566632"}
+    [5] => Array
+        (
+            [transaction_id] => 61BDA94F87566632
+        )
+
+    [6] => 1
+    [7] => 4016cf3e45fbc2a4e5122368c51dded4
+)
+
+## 2021-12-18 10:27:36 ##
+ID Shop = 1
+## 2021-12-18 10:27:42 ##
+Order created
+## 2021-12-18 10:27:42 ##
+----> END placeOrder()
+## 2021-12-18 10:27:42 ##
+----> END registerOrder()
+## 2021-12-18 10:27:42 ##
+----> Treatment is unlocked for the id_cart = 1252
+## 2021-12-18 10:27:45 ##
+##########################
+## 2021-12-18 10:27:45 ##
+START Validation Callback
+## 2021-12-18 10:27:45 ##
+##########################
+## 2021-12-18 10:27:45 ##
+----> Treatment is locked for the id_cart = 1252
+## 2021-12-18 10:27:45 ##
+data for validation
+## 2021-12-18 10:27:45 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>efa09d1d6c7ee70a20d71297f397a763</md5content><result><operation>capture</operation><status>ok</status><date>2021-12-18</date><time>09:27:41 UTC+0000</time><origAmount>74.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1252</idForMerchant><emailClient>yassinekr@free.fr</emailClient><idClient>19929212</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1252</_aKey_cart_id>  <_aKey_customer_id>1631</_aKey_customer_id>  <_aKey_secure_key>4016cf3e45fbc2a4e5122368c51dded4</_aKey_secure_key>  <_aKey_token>f9fe8f6ecf1650cc2fba217d77c90d7e</_aKey_token></merchantDatas><transid>61BDA94F87566632</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => efa09d1d6c7ee70a20d71297f397a763
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-12-18
+                    [time] => 09:27:41 UTC+0000
+                    [origAmount] => 74.23
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1252
+                    [emailClient] => yassinekr@free.fr
+                    [idClient] => 19929212
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1252
+                            [_aKey_customer_id] => 1631
+                            [_aKey_secure_key] => 4016cf3e45fbc2a4e5122368c51dded4
+                            [_aKey_token] => f9fe8f6ecf1650cc2fba217d77c90d7e
+                        )
+
+                    [transid] => 61BDA94F87566632
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1252
+    [3] => 1631
+    [4] => 4016cf3e45fbc2a4e5122368c51dded4
+    [5] => 74.23
+)
+
+## 2021-12-18 10:27:45 ##
+----> START registerOrder()
+## 2021-12-18 10:27:45 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-18 10:27:45 ##
+<result><operation>capture</operation><status>ok</status><date>2021-12-18</date><time>09:27:41 UTC+0000</time><origAmount>74.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1252</idForMerchant><emailClient>yassinekr@free.fr</emailClient><idClient>19929212</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1252</_aKey_cart_id>  <_aKey_customer_id>1631</_aKey_customer_id>  <_aKey_secure_key>4016cf3e45fbc2a4e5122368c51dded4</_aKey_secure_key>  <_aKey_token>f9fe8f6ecf1650cc2fba217d77c90d7e</_aKey_token></merchantDatas><transid>61BDA94F87566632</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-12-18 10:27:45 ##
+currency : EUR
+## 2021-12-18 10:27:45 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-18 10:27:45 ##
+callback_salt : 
+## 2021-12-18 10:27:45 ##
+md5 : efa09d1d6c7ee70a20d71297f397a763 == md5content : efa09d1d6c7ee70a20d71297f397a763
+## 2021-12-18 10:27:45 ##
+Status = ok
+## 2021-12-18 10:27:45 ##
+$currency = EUR
+## 2021-12-18 10:27:45 ##
+id_order_state = 2
+## 2021-12-18 10:27:45 ##
+----> START placeOrder()
+## 2021-12-18 10:27:45 ##
+Treatment an existing order
+## 2021-12-18 10:27:45 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-12-18 10:27:45 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-12-18
+    [time] => 09:27:41 UTC+0000
+    [origAmount] => 74.23
+    [origCurrency] => EUR
+    [idForMerchant] => 1252
+    [emailClient] => yassinekr@free.fr
+    [idClient] => 19929212
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 1252
+            [_aKey_customer_id] => 1631
+            [_aKey_secure_key] => 4016cf3e45fbc2a4e5122368c51dded4
+            [_aKey_token] => f9fe8f6ecf1650cc2fba217d77c90d7e
+        )
+
+    [transid] => 61BDA94F87566632
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-12-18 10:27:45 ##
+----> END placeOrder()
+## 2021-12-18 10:27:45 ##
+----> END registerOrder()
+## 2021-12-18 10:27:45 ##
+----> Treatment is unlocked for the id_cart = 1252
+## 2021-12-18 22:43:31 ##
+##########################
+## 2021-12-18 22:43:31 ##
+START Validation Callback
+## 2021-12-18 22:43:31 ##
+##########################
+## 2021-12-18 22:43:31 ##
+----> Treatment is locked for the id_cart = 1254
+## 2021-12-18 22:43:31 ##
+data for validation
+## 2021-12-18 22:43:31 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8edcb324f697691ec2b0e86f05547992</md5content><result><operation>authorization</operation><status>ok</status><date>2021-12-18</date><time>21:43:29 UTC+0000</time><origAmount>266.44</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1254</idForMerchant><emailClient>kim@lamaisonniere.fr</emailClient><idClient>19932938</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1254</_aKey_cart_id>  <_aKey_customer_id>1632</_aKey_customer_id>  <_aKey_secure_key>35b85cef779a6cf57f89da160760f5e8</_aKey_secure_key>  <_aKey_token>e1749a4fb4b5fb510215290500aa130b</_aKey_token></merchantDatas><transid>61BE555E5CFD8629</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8edcb324f697691ec2b0e86f05547992
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-12-18
+                    [time] => 21:43:29 UTC+0000
+                    [origAmount] => 266.44
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1254
+                    [emailClient] => kim@lamaisonniere.fr
+                    [idClient] => 19932938
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1254
+                            [_aKey_customer_id] => 1632
+                            [_aKey_secure_key] => 35b85cef779a6cf57f89da160760f5e8
+                            [_aKey_token] => e1749a4fb4b5fb510215290500aa130b
+                        )
+
+                    [transid] => 61BE555E5CFD8629
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1254
+    [3] => 1632
+    [4] => 35b85cef779a6cf57f89da160760f5e8
+    [5] => 266.44
+)
+
+## 2021-12-18 22:43:31 ##
+----> START registerOrder()
+## 2021-12-18 22:43:31 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-18 22:43:31 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-12-18</date><time>21:43:29 UTC+0000</time><origAmount>266.44</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1254</idForMerchant><emailClient>kim@lamaisonniere.fr</emailClient><idClient>19932938</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1254</_aKey_cart_id>  <_aKey_customer_id>1632</_aKey_customer_id>  <_aKey_secure_key>35b85cef779a6cf57f89da160760f5e8</_aKey_secure_key>  <_aKey_token>e1749a4fb4b5fb510215290500aa130b</_aKey_token></merchantDatas><transid>61BE555E5CFD8629</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-12-18 22:43:31 ##
+currency : EUR
+## 2021-12-18 22:43:31 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-18 22:43:31 ##
+callback_salt : 
+## 2021-12-18 22:43:31 ##
+md5 : 8edcb324f697691ec2b0e86f05547992 == md5content : 8edcb324f697691ec2b0e86f05547992
+## 2021-12-18 22:43:31 ##
+Status = ok
+## 2021-12-18 22:43:31 ##
+$currency = EUR
+## 2021-12-18 22:43:31 ##
+id_order_state = 42
+## 2021-12-18 22:43:31 ##
+----> START placeOrder()
+## 2021-12-18 22:43:31 ##
+Treatment status = 42
+## 2021-12-18 22:43:31 ##
+Validate order
+## 2021-12-18 22:43:31 ##
+Array
+(
+    [0] => 1254
+    [1] => 42
+    [2] => 266.44
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"61BE555E5CFD8629"}
+    [5] => Array
+        (
+            [transaction_id] => 61BE555E5CFD8629
+        )
+
+    [6] => 1
+    [7] => 35b85cef779a6cf57f89da160760f5e8
+)
+
+## 2021-12-18 22:43:31 ##
+ID Shop = 1
+## 2021-12-18 22:43:37 ##
+##########################
+## 2021-12-18 22:43:37 ##
+START Validation Callback
+## 2021-12-18 22:43:37 ##
+##########################
+## 2021-12-18 22:43:38 ##
+Order created
+## 2021-12-18 22:43:38 ##
+----> END placeOrder()
+## 2021-12-18 22:43:38 ##
+----> END registerOrder()
+## 2021-12-18 22:43:38 ##
+----> Treatment is locked for the id_cart = 1254
+## 2021-12-18 22:43:38 ##
+data for validation
+## 2021-12-18 22:43:38 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>9ff0ab81c2de34ee36d844b04c399517</md5content><result><operation>capture</operation><status>ok</status><date>2021-12-18</date><time>21:43:36 UTC+0000</time><origAmount>266.44</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1254</idForMerchant><emailClient>kim@lamaisonniere.fr</emailClient><idClient>19932938</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1254</_aKey_cart_id>  <_aKey_customer_id>1632</_aKey_customer_id>  <_aKey_secure_key>35b85cef779a6cf57f89da160760f5e8</_aKey_secure_key>  <_aKey_token>e1749a4fb4b5fb510215290500aa130b</_aKey_token></merchantDatas><transid>61BE555E5CFD8629</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 9ff0ab81c2de34ee36d844b04c399517
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-12-18
+                    [time] => 21:43:36 UTC+0000
+                    [origAmount] => 266.44
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1254
+                    [emailClient] => kim@lamaisonniere.fr
+                    [idClient] => 19932938
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1254
+                            [_aKey_customer_id] => 1632
+                            [_aKey_secure_key] => 35b85cef779a6cf57f89da160760f5e8
+                            [_aKey_token] => e1749a4fb4b5fb510215290500aa130b
+                        )
+
+                    [transid] => 61BE555E5CFD8629
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1254
+    [3] => 1632
+    [4] => 35b85cef779a6cf57f89da160760f5e8
+    [5] => 266.44
+)
+
+## 2021-12-18 22:43:38 ##
+----> Treatment is unlocked for the id_cart = 1254
+## 2021-12-18 22:43:38 ##
+----> START registerOrder()
+## 2021-12-18 22:43:38 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-18 22:43:38 ##
+<result><operation>capture</operation><status>ok</status><date>2021-12-18</date><time>21:43:36 UTC+0000</time><origAmount>266.44</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1254</idForMerchant><emailClient>kim@lamaisonniere.fr</emailClient><idClient>19932938</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1254</_aKey_cart_id>  <_aKey_customer_id>1632</_aKey_customer_id>  <_aKey_secure_key>35b85cef779a6cf57f89da160760f5e8</_aKey_secure_key>  <_aKey_token>e1749a4fb4b5fb510215290500aa130b</_aKey_token></merchantDatas><transid>61BE555E5CFD8629</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-12-18 22:43:38 ##
+currency : EUR
+## 2021-12-18 22:43:38 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-18 22:43:38 ##
+callback_salt : 
+## 2021-12-18 22:43:38 ##
+md5 : 9ff0ab81c2de34ee36d844b04c399517 == md5content : 9ff0ab81c2de34ee36d844b04c399517
+## 2021-12-18 22:43:38 ##
+Status = ok
+## 2021-12-18 22:43:38 ##
+$currency = EUR
+## 2021-12-18 22:43:38 ##
+id_order_state = 2
+## 2021-12-18 22:43:38 ##
+----> START placeOrder()
+## 2021-12-18 22:43:38 ##
+Treatment an existing order
+## 2021-12-18 22:43:38 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-12-18 22:43:38 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-12-18
+    [time] => 21:43:36 UTC+0000
+    [origAmount] => 266.44
+    [origCurrency] => EUR
+    [idForMerchant] => 1254
+    [emailClient] => kim@lamaisonniere.fr
+    [idClient] => 19932938
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 1254
+            [_aKey_customer_id] => 1632
+            [_aKey_secure_key] => 35b85cef779a6cf57f89da160760f5e8
+            [_aKey_token] => e1749a4fb4b5fb510215290500aa130b
+        )
+
+    [transid] => 61BE555E5CFD8629
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-12-18 22:43:39 ##
+----> END placeOrder()
+## 2021-12-18 22:43:39 ##
+----> END registerOrder()
+## 2021-12-18 22:43:39 ##
+----> Treatment is unlocked for the id_cart = 1254

@@ -1,0 +1,39 @@
+# prestashop core cache
+/var/cache/
+/var/logs/
+/app/cache/
+/cache/
+/log/
+
+# compiled templates
+/themes/*/assets/cache/
+/themes/*/cache/
+
+# uploads
+/img/p/
+/img/tmp/
+/download/
+/upload/
+
+# vendor libraries (if using composer overrides)
+vendor/
+
+# cpanel/server/system files
+*.zip
+*.tar.gz
+*.bak
+*.log
+.htpasswds/
+error_log
+
+# prestashop specific temp stuff
+/admin*/autoupgrade/tmp/
+*/content/cache/
+modules/*/cache/
+
+# do not track settings that differ in dev/prod
+/app/config/parameters.php
+/config/settings.inc.php
+
+# geoip database
+# *.mmdb

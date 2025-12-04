@@ -1,0 +1,777 @@
+## 2022-04-26 15:44:11 ##
+##########################
+## 2022-04-26 15:44:11 ##
+START Validation Callback
+## 2022-04-26 15:44:11 ##
+##########################
+## 2022-04-26 15:44:11 ##
+----> Treatment is locked for the id_cart = 2634
+## 2022-04-26 15:44:11 ##
+data for validation
+## 2022-04-26 15:44:11 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>82c08d696bbc2b6f236a0e6b69250feb</md5content><result><operation>authorization</operation><status>ok</status><date>2022-04-26</date><time>13:44:05 UTC+0000</time><origAmount>100.01</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2634</idForMerchant><emailClient>tracy@caramel-batiment.com</emailClient><idClient>20741746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2634</_aKey_cart_id>  <_aKey_customer_id>1999</_aKey_customer_id>  <_aKey_secure_key>ab30bc4ee9fefcfaa4d69ce0b880b961</_aKey_secure_key>  <_aKey_token>0633609a351f513c01c42a215dab3f5f</_aKey_token></merchantDatas><transid>6267F6EAD9DE6144</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 82c08d696bbc2b6f236a0e6b69250feb
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-04-26
+                    [time] => 13:44:05 UTC+0000
+                    [origAmount] => 100.01
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2634
+                    [emailClient] => tracy@caramel-batiment.com
+                    [idClient] => 20741746
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2634
+                            [_aKey_customer_id] => 1999
+                            [_aKey_secure_key] => ab30bc4ee9fefcfaa4d69ce0b880b961
+                            [_aKey_token] => 0633609a351f513c01c42a215dab3f5f
+                        )
+
+                    [transid] => 6267F6EAD9DE6144
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2634
+    [3] => 1999
+    [4] => ab30bc4ee9fefcfaa4d69ce0b880b961
+    [5] => 100.01
+)
+
+## 2022-04-26 15:44:11 ##
+----> START registerOrder()
+## 2022-04-26 15:44:11 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 15:44:11 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-04-26</date><time>13:44:05 UTC+0000</time><origAmount>100.01</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2634</idForMerchant><emailClient>tracy@caramel-batiment.com</emailClient><idClient>20741746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2634</_aKey_cart_id>  <_aKey_customer_id>1999</_aKey_customer_id>  <_aKey_secure_key>ab30bc4ee9fefcfaa4d69ce0b880b961</_aKey_secure_key>  <_aKey_token>0633609a351f513c01c42a215dab3f5f</_aKey_token></merchantDatas><transid>6267F6EAD9DE6144</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-04-26 15:44:11 ##
+currency : EUR
+## 2022-04-26 15:44:11 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 15:44:11 ##
+callback_salt : 
+## 2022-04-26 15:44:11 ##
+md5 : 82c08d696bbc2b6f236a0e6b69250feb == md5content : 82c08d696bbc2b6f236a0e6b69250feb
+## 2022-04-26 15:44:11 ##
+Status = ok
+## 2022-04-26 15:44:11 ##
+$currency = EUR
+## 2022-04-26 15:44:11 ##
+id_order_state = 42
+## 2022-04-26 15:44:11 ##
+----> START placeOrder()
+## 2022-04-26 15:44:11 ##
+Treatment status = 42
+## 2022-04-26 15:44:11 ##
+Validate order
+## 2022-04-26 15:44:11 ##
+Array
+(
+    [0] => 2634
+    [1] => 42
+    [2] => 100.01
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6267F6EAD9DE6144"}
+    [5] => Array
+        (
+            [transaction_id] => 6267F6EAD9DE6144
+        )
+
+    [6] => 1
+    [7] => ab30bc4ee9fefcfaa4d69ce0b880b961
+)
+
+## 2022-04-26 15:44:11 ##
+ID Shop = 1
+## 2022-04-26 15:44:12 ##
+Order created
+## 2022-04-26 15:44:12 ##
+----> END placeOrder()
+## 2022-04-26 15:44:12 ##
+----> END registerOrder()
+## 2022-04-26 15:44:12 ##
+----> Treatment is unlocked for the id_cart = 2634
+## 2022-04-26 15:44:15 ##
+##########################
+## 2022-04-26 15:44:15 ##
+START Validation Callback
+## 2022-04-26 15:44:15 ##
+##########################
+## 2022-04-26 15:44:15 ##
+----> Treatment is locked for the id_cart = 2634
+## 2022-04-26 15:44:15 ##
+data for validation
+## 2022-04-26 15:44:15 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>3fbc359265124b4e38d17c134353f8e0</md5content><result><operation>capture</operation><status>ok</status><date>2022-04-26</date><time>13:44:11 UTC+0000</time><origAmount>100.01</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2634</idForMerchant><emailClient>tracy@caramel-batiment.com</emailClient><idClient>20741746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2634</_aKey_cart_id>  <_aKey_customer_id>1999</_aKey_customer_id>  <_aKey_secure_key>ab30bc4ee9fefcfaa4d69ce0b880b961</_aKey_secure_key>  <_aKey_token>0633609a351f513c01c42a215dab3f5f</_aKey_token></merchantDatas><transid>6267F6EAD9DE6144</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 3fbc359265124b4e38d17c134353f8e0
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-04-26
+                    [time] => 13:44:11 UTC+0000
+                    [origAmount] => 100.01
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2634
+                    [emailClient] => tracy@caramel-batiment.com
+                    [idClient] => 20741746
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2634
+                            [_aKey_customer_id] => 1999
+                            [_aKey_secure_key] => ab30bc4ee9fefcfaa4d69ce0b880b961
+                            [_aKey_token] => 0633609a351f513c01c42a215dab3f5f
+                        )
+
+                    [transid] => 6267F6EAD9DE6144
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2634
+    [3] => 1999
+    [4] => ab30bc4ee9fefcfaa4d69ce0b880b961
+    [5] => 100.01
+)
+
+## 2022-04-26 15:44:15 ##
+----> START registerOrder()
+## 2022-04-26 15:44:15 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 15:44:15 ##
+<result><operation>capture</operation><status>ok</status><date>2022-04-26</date><time>13:44:11 UTC+0000</time><origAmount>100.01</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2634</idForMerchant><emailClient>tracy@caramel-batiment.com</emailClient><idClient>20741746</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2634</_aKey_cart_id>  <_aKey_customer_id>1999</_aKey_customer_id>  <_aKey_secure_key>ab30bc4ee9fefcfaa4d69ce0b880b961</_aKey_secure_key>  <_aKey_token>0633609a351f513c01c42a215dab3f5f</_aKey_token></merchantDatas><transid>6267F6EAD9DE6144</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-04-26 15:44:15 ##
+currency : EUR
+## 2022-04-26 15:44:15 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 15:44:15 ##
+callback_salt : 
+## 2022-04-26 15:44:15 ##
+md5 : 3fbc359265124b4e38d17c134353f8e0 == md5content : 3fbc359265124b4e38d17c134353f8e0
+## 2022-04-26 15:44:15 ##
+Status = ok
+## 2022-04-26 15:44:15 ##
+$currency = EUR
+## 2022-04-26 15:44:15 ##
+id_order_state = 2
+## 2022-04-26 15:44:15 ##
+----> START placeOrder()
+## 2022-04-26 15:44:15 ##
+Treatment an existing order
+## 2022-04-26 15:44:15 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-04-26 15:44:15 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-04-26
+    [time] => 13:44:11 UTC+0000
+    [origAmount] => 100.01
+    [origCurrency] => EUR
+    [idForMerchant] => 2634
+    [emailClient] => tracy@caramel-batiment.com
+    [idClient] => 20741746
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 2634
+            [_aKey_customer_id] => 1999
+            [_aKey_secure_key] => ab30bc4ee9fefcfaa4d69ce0b880b961
+            [_aKey_token] => 0633609a351f513c01c42a215dab3f5f
+        )
+
+    [transid] => 6267F6EAD9DE6144
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-04-26 15:44:15 ##
+----> END placeOrder()
+## 2022-04-26 15:44:15 ##
+----> END registerOrder()
+## 2022-04-26 15:44:15 ##
+----> Treatment is unlocked for the id_cart = 2634
+## 2022-04-26 17:42:32 ##
+##########################
+## 2022-04-26 17:42:32 ##
+START Validation Callback
+## 2022-04-26 17:42:32 ##
+##########################
+## 2022-04-26 17:42:32 ##
+----> Treatment is locked for the id_cart = 2638
+## 2022-04-26 17:42:32 ##
+data for validation
+## 2022-04-26 17:42:32 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>d893f8a23fa6d7b5c4c18f30913ae1b4</md5content><result><operation>authorization</operation><status>ok</status><date>2022-04-26</date><time>15:42:30 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2638</idForMerchant><emailClient>comptabilite@quark-energies.fr</emailClient><idClient>20742778</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2638</_aKey_cart_id>  <_aKey_customer_id>2001</_aKey_customer_id>  <_aKey_secure_key>a8f8c80911585824fb16a60193868bac</_aKey_secure_key>  <_aKey_token>a813d2b04b4c0632f35e50ed8ea79d67</_aKey_token></merchantDatas><transid>626812B275C7E144</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => d893f8a23fa6d7b5c4c18f30913ae1b4
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-04-26
+                    [time] => 15:42:30 UTC+0000
+                    [origAmount] => 144.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2638
+                    [emailClient] => comptabilite@quark-energies.fr
+                    [idClient] => 20742778
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2638
+                            [_aKey_customer_id] => 2001
+                            [_aKey_secure_key] => a8f8c80911585824fb16a60193868bac
+                            [_aKey_token] => a813d2b04b4c0632f35e50ed8ea79d67
+                        )
+
+                    [transid] => 626812B275C7E144
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2638
+    [3] => 2001
+    [4] => a8f8c80911585824fb16a60193868bac
+    [5] => 144.7
+)
+
+## 2022-04-26 17:42:32 ##
+----> START registerOrder()
+## 2022-04-26 17:42:32 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 17:42:32 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-04-26</date><time>15:42:30 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2638</idForMerchant><emailClient>comptabilite@quark-energies.fr</emailClient><idClient>20742778</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2638</_aKey_cart_id>  <_aKey_customer_id>2001</_aKey_customer_id>  <_aKey_secure_key>a8f8c80911585824fb16a60193868bac</_aKey_secure_key>  <_aKey_token>a813d2b04b4c0632f35e50ed8ea79d67</_aKey_token></merchantDatas><transid>626812B275C7E144</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-04-26 17:42:32 ##
+currency : EUR
+## 2022-04-26 17:42:32 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 17:42:32 ##
+callback_salt : 
+## 2022-04-26 17:42:32 ##
+md5 : d893f8a23fa6d7b5c4c18f30913ae1b4 == md5content : d893f8a23fa6d7b5c4c18f30913ae1b4
+## 2022-04-26 17:42:32 ##
+Status = ok
+## 2022-04-26 17:42:32 ##
+$currency = EUR
+## 2022-04-26 17:42:32 ##
+id_order_state = 42
+## 2022-04-26 17:42:32 ##
+----> START placeOrder()
+## 2022-04-26 17:42:32 ##
+Treatment status = 42
+## 2022-04-26 17:42:32 ##
+Validate order
+## 2022-04-26 17:42:32 ##
+Array
+(
+    [0] => 2638
+    [1] => 42
+    [2] => 144.7
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"626812B275C7E144"}
+    [5] => Array
+        (
+            [transaction_id] => 626812B275C7E144
+        )
+
+    [6] => 1
+    [7] => a8f8c80911585824fb16a60193868bac
+)
+
+## 2022-04-26 17:42:32 ##
+ID Shop = 1
+## 2022-04-26 17:42:33 ##
+Order created
+## 2022-04-26 17:42:33 ##
+----> END placeOrder()
+## 2022-04-26 17:42:33 ##
+----> END registerOrder()
+## 2022-04-26 17:42:33 ##
+----> Treatment is unlocked for the id_cart = 2638
+## 2022-04-26 17:42:39 ##
+##########################
+## 2022-04-26 17:42:39 ##
+START Validation Callback
+## 2022-04-26 17:42:39 ##
+##########################
+## 2022-04-26 17:42:39 ##
+----> Treatment is locked for the id_cart = 2638
+## 2022-04-26 17:42:39 ##
+data for validation
+## 2022-04-26 17:42:39 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8f75564d88400589377c20e489680b7a</md5content><result><operation>capture</operation><status>ok</status><date>2022-04-26</date><time>15:42:37 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2638</idForMerchant><emailClient>comptabilite@quark-energies.fr</emailClient><idClient>20742778</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2638</_aKey_cart_id>  <_aKey_customer_id>2001</_aKey_customer_id>  <_aKey_secure_key>a8f8c80911585824fb16a60193868bac</_aKey_secure_key>  <_aKey_token>a813d2b04b4c0632f35e50ed8ea79d67</_aKey_token></merchantDatas><transid>626812B275C7E144</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8f75564d88400589377c20e489680b7a
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-04-26
+                    [time] => 15:42:37 UTC+0000
+                    [origAmount] => 144.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2638
+                    [emailClient] => comptabilite@quark-energies.fr
+                    [idClient] => 20742778
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2638
+                            [_aKey_customer_id] => 2001
+                            [_aKey_secure_key] => a8f8c80911585824fb16a60193868bac
+                            [_aKey_token] => a813d2b04b4c0632f35e50ed8ea79d67
+                        )
+
+                    [transid] => 626812B275C7E144
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2638
+    [3] => 2001
+    [4] => a8f8c80911585824fb16a60193868bac
+    [5] => 144.7
+)
+
+## 2022-04-26 17:42:39 ##
+----> START registerOrder()
+## 2022-04-26 17:42:39 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 17:42:39 ##
+<result><operation>capture</operation><status>ok</status><date>2022-04-26</date><time>15:42:37 UTC+0000</time><origAmount>144.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2638</idForMerchant><emailClient>comptabilite@quark-energies.fr</emailClient><idClient>20742778</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2638</_aKey_cart_id>  <_aKey_customer_id>2001</_aKey_customer_id>  <_aKey_secure_key>a8f8c80911585824fb16a60193868bac</_aKey_secure_key>  <_aKey_token>a813d2b04b4c0632f35e50ed8ea79d67</_aKey_token></merchantDatas><transid>626812B275C7E144</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-04-26 17:42:39 ##
+currency : EUR
+## 2022-04-26 17:42:39 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 17:42:39 ##
+callback_salt : 
+## 2022-04-26 17:42:39 ##
+md5 : 8f75564d88400589377c20e489680b7a == md5content : 8f75564d88400589377c20e489680b7a
+## 2022-04-26 17:42:39 ##
+Status = ok
+## 2022-04-26 17:42:39 ##
+$currency = EUR
+## 2022-04-26 17:42:39 ##
+id_order_state = 2
+## 2022-04-26 17:42:39 ##
+----> START placeOrder()
+## 2022-04-26 17:42:39 ##
+Treatment an existing order
+## 2022-04-26 17:42:39 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-04-26 17:42:39 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-04-26
+    [time] => 15:42:37 UTC+0000
+    [origAmount] => 144.70
+    [origCurrency] => EUR
+    [idForMerchant] => 2638
+    [emailClient] => comptabilite@quark-energies.fr
+    [idClient] => 20742778
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 2638
+            [_aKey_customer_id] => 2001
+            [_aKey_secure_key] => a8f8c80911585824fb16a60193868bac
+            [_aKey_token] => a813d2b04b4c0632f35e50ed8ea79d67
+        )
+
+    [transid] => 626812B275C7E144
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-04-26 17:42:39 ##
+----> END placeOrder()
+## 2022-04-26 17:42:39 ##
+----> END registerOrder()
+## 2022-04-26 17:42:39 ##
+----> Treatment is unlocked for the id_cart = 2638
+## 2022-04-26 22:45:12 ##
+##########################
+## 2022-04-26 22:45:12 ##
+START Validation Callback
+## 2022-04-26 22:45:12 ##
+##########################
+## 2022-04-26 22:45:12 ##
+----> Treatment is locked for the id_cart = 2644
+## 2022-04-26 22:45:12 ##
+data for validation
+## 2022-04-26 22:45:12 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>1b2101f5ac096caab8bbd53801c03be0</md5content><result><operation>authorization</operation><status>ok</status><date>2022-04-26</date><time>20:45:07 UTC+0000</time><origAmount>884.40</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2644</idForMerchant><emailClient>sarlpomesetfils@hotmail.com</emailClient><idClient>19572957</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2644</_aKey_cart_id>  <_aKey_customer_id>1553</_aKey_customer_id>  <_aKey_secure_key>2a01f01594f7f38b1da4ef8826485bf3</_aKey_secure_key>  <_aKey_token>39771234e861153a1af5ab2755e0a945</_aKey_token></merchantDatas><transid>626859A676BBE145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 1b2101f5ac096caab8bbd53801c03be0
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-04-26
+                    [time] => 20:45:07 UTC+0000
+                    [origAmount] => 884.40
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2644
+                    [emailClient] => sarlpomesetfils@hotmail.com
+                    [idClient] => 19572957
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2644
+                            [_aKey_customer_id] => 1553
+                            [_aKey_secure_key] => 2a01f01594f7f38b1da4ef8826485bf3
+                            [_aKey_token] => 39771234e861153a1af5ab2755e0a945
+                        )
+
+                    [transid] => 626859A676BBE145
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2644
+    [3] => 1553
+    [4] => 2a01f01594f7f38b1da4ef8826485bf3
+    [5] => 884.4
+)
+
+## 2022-04-26 22:45:12 ##
+----> START registerOrder()
+## 2022-04-26 22:45:12 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 22:45:12 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-04-26</date><time>20:45:07 UTC+0000</time><origAmount>884.40</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2644</idForMerchant><emailClient>sarlpomesetfils@hotmail.com</emailClient><idClient>19572957</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2644</_aKey_cart_id>  <_aKey_customer_id>1553</_aKey_customer_id>  <_aKey_secure_key>2a01f01594f7f38b1da4ef8826485bf3</_aKey_secure_key>  <_aKey_token>39771234e861153a1af5ab2755e0a945</_aKey_token></merchantDatas><transid>626859A676BBE145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-04-26 22:45:12 ##
+currency : EUR
+## 2022-04-26 22:45:12 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 22:45:12 ##
+callback_salt : 
+## 2022-04-26 22:45:12 ##
+md5 : 1b2101f5ac096caab8bbd53801c03be0 == md5content : 1b2101f5ac096caab8bbd53801c03be0
+## 2022-04-26 22:45:12 ##
+Status = ok
+## 2022-04-26 22:45:12 ##
+$currency = EUR
+## 2022-04-26 22:45:12 ##
+id_order_state = 42
+## 2022-04-26 22:45:12 ##
+----> START placeOrder()
+## 2022-04-26 22:45:12 ##
+Treatment status = 42
+## 2022-04-26 22:45:12 ##
+Validate order
+## 2022-04-26 22:45:12 ##
+Array
+(
+    [0] => 2644
+    [1] => 42
+    [2] => 884.4
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"626859A676BBE145"}
+    [5] => Array
+        (
+            [transaction_id] => 626859A676BBE145
+        )
+
+    [6] => 1
+    [7] => 2a01f01594f7f38b1da4ef8826485bf3
+)
+
+## 2022-04-26 22:45:12 ##
+ID Shop = 1
+## 2022-04-26 22:45:15 ##
+Order created
+## 2022-04-26 22:45:15 ##
+----> END placeOrder()
+## 2022-04-26 22:45:15 ##
+----> END registerOrder()
+## 2022-04-26 22:45:15 ##
+----> Treatment is unlocked for the id_cart = 2644
+## 2022-04-26 22:45:18 ##
+##########################
+## 2022-04-26 22:45:18 ##
+START Validation Callback
+## 2022-04-26 22:45:18 ##
+##########################
+## 2022-04-26 22:45:18 ##
+----> Treatment is locked for the id_cart = 2644
+## 2022-04-26 22:45:18 ##
+data for validation
+## 2022-04-26 22:45:18 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>e9aa6cb4784cfaf1b435cca56cd4867a</md5content><result><operation>capture</operation><status>ok</status><date>2022-04-26</date><time>20:45:14 UTC+0000</time><origAmount>884.40</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2644</idForMerchant><emailClient>sarlpomesetfils@hotmail.com</emailClient><idClient>19572957</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2644</_aKey_cart_id>  <_aKey_customer_id>1553</_aKey_customer_id>  <_aKey_secure_key>2a01f01594f7f38b1da4ef8826485bf3</_aKey_secure_key>  <_aKey_token>39771234e861153a1af5ab2755e0a945</_aKey_token></merchantDatas><transid>626859A676BBE145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => e9aa6cb4784cfaf1b435cca56cd4867a
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-04-26
+                    [time] => 20:45:14 UTC+0000
+                    [origAmount] => 884.40
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2644
+                    [emailClient] => sarlpomesetfils@hotmail.com
+                    [idClient] => 19572957
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2644
+                            [_aKey_customer_id] => 1553
+                            [_aKey_secure_key] => 2a01f01594f7f38b1da4ef8826485bf3
+                            [_aKey_token] => 39771234e861153a1af5ab2755e0a945
+                        )
+
+                    [transid] => 626859A676BBE145
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2644
+    [3] => 1553
+    [4] => 2a01f01594f7f38b1da4ef8826485bf3
+    [5] => 884.4
+)
+
+## 2022-04-26 22:45:18 ##
+----> START registerOrder()
+## 2022-04-26 22:45:18 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 22:45:18 ##
+<result><operation>capture</operation><status>ok</status><date>2022-04-26</date><time>20:45:14 UTC+0000</time><origAmount>884.40</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2644</idForMerchant><emailClient>sarlpomesetfils@hotmail.com</emailClient><idClient>19572957</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2644</_aKey_cart_id>  <_aKey_customer_id>1553</_aKey_customer_id>  <_aKey_secure_key>2a01f01594f7f38b1da4ef8826485bf3</_aKey_secure_key>  <_aKey_token>39771234e861153a1af5ab2755e0a945</_aKey_token></merchantDatas><transid>626859A676BBE145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-04-26 22:45:18 ##
+currency : EUR
+## 2022-04-26 22:45:18 ##
+accountID:13248407 / websiteId:418801
+## 2022-04-26 22:45:18 ##
+callback_salt : 
+## 2022-04-26 22:45:18 ##
+md5 : e9aa6cb4784cfaf1b435cca56cd4867a == md5content : e9aa6cb4784cfaf1b435cca56cd4867a
+## 2022-04-26 22:45:18 ##
+Status = ok
+## 2022-04-26 22:45:18 ##
+$currency = EUR
+## 2022-04-26 22:45:18 ##
+id_order_state = 2
+## 2022-04-26 22:45:18 ##
+----> START placeOrder()
+## 2022-04-26 22:45:18 ##
+Treatment an existing order
+## 2022-04-26 22:45:18 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-04-26 22:45:18 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-04-26
+    [time] => 20:45:14 UTC+0000
+    [origAmount] => 884.40
+    [origCurrency] => EUR
+    [idForMerchant] => 2644
+    [emailClient] => sarlpomesetfils@hotmail.com
+    [idClient] => 19572957
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 2644
+            [_aKey_customer_id] => 1553
+            [_aKey_secure_key] => 2a01f01594f7f38b1da4ef8826485bf3
+            [_aKey_token] => 39771234e861153a1af5ab2755e0a945
+        )
+
+    [transid] => 626859A676BBE145
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-04-26 22:45:18 ##
+----> END placeOrder()
+## 2022-04-26 22:45:18 ##
+----> END registerOrder()
+## 2022-04-26 22:45:18 ##
+----> Treatment is unlocked for the id_cart = 2644

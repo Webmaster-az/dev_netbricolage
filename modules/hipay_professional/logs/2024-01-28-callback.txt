@@ -1,0 +1,259 @@
+## 2024-01-28 15:12:09 ##
+##########################
+## 2024-01-28 15:12:09 ##
+START Validation Callback
+## 2024-01-28 15:12:09 ##
+##########################
+## 2024-01-28 15:12:09 ##
+----> Treatment is locked for the id_cart = 12867
+## 2024-01-28 15:12:09 ##
+data for validation
+## 2024-01-28 15:12:09 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>dd6a1a9bed9e824603b01a84408ed928</md5content><result><operation>authorization</operation><status>ok</status><date>2024-01-28</date><time>14:12:07 UTC+0000</time><origAmount>77.47</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12867</idForMerchant><emailClient>adsdna@proton.me</emailClient><idClient>23238306</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12867</_aKey_cart_id>  <_aKey_customer_id>4071</_aKey_customer_id>  <_aKey_secure_key>7e9cb14d4dce349e3590640bcbbceebe</_aKey_secure_key>  <_aKey_token>25608ba298227853e26115f1f994443c</_aKey_token></merchantDatas><transid>65B6608784623149</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => dd6a1a9bed9e824603b01a84408ed928
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-01-28
+                    [time] => 14:12:07 UTC+0000
+                    [origAmount] => 77.47
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12867
+                    [emailClient] => adsdna@proton.me
+                    [idClient] => 23238306
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12867
+                            [_aKey_customer_id] => 4071
+                            [_aKey_secure_key] => 7e9cb14d4dce349e3590640bcbbceebe
+                            [_aKey_token] => 25608ba298227853e26115f1f994443c
+                        )
+
+                    [transid] => 65B6608784623149
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12867
+    [3] => 4071
+    [4] => 7e9cb14d4dce349e3590640bcbbceebe
+    [5] => 77.47
+)
+
+## 2024-01-28 15:12:09 ##
+----> START registerOrder()
+## 2024-01-28 15:12:09 ##
+accountID:13248407 / websiteId:417972
+## 2024-01-28 15:12:09 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-01-28</date><time>14:12:07 UTC+0000</time><origAmount>77.47</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12867</idForMerchant><emailClient>adsdna@proton.me</emailClient><idClient>23238306</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12867</_aKey_cart_id>  <_aKey_customer_id>4071</_aKey_customer_id>  <_aKey_secure_key>7e9cb14d4dce349e3590640bcbbceebe</_aKey_secure_key>  <_aKey_token>25608ba298227853e26115f1f994443c</_aKey_token></merchantDatas><transid>65B6608784623149</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-01-28 15:12:09 ##
+currency : EUR
+## 2024-01-28 15:12:09 ##
+accountID:13248407 / websiteId:417972
+## 2024-01-28 15:12:09 ##
+callback_salt : 
+## 2024-01-28 15:12:09 ##
+md5 : dd6a1a9bed9e824603b01a84408ed928 == md5content : dd6a1a9bed9e824603b01a84408ed928
+## 2024-01-28 15:12:09 ##
+Status = ok
+## 2024-01-28 15:12:09 ##
+$currency = EUR
+## 2024-01-28 15:12:09 ##
+id_order_state = 42
+## 2024-01-28 15:12:09 ##
+----> START placeOrder()
+## 2024-01-28 15:12:09 ##
+Treatment status = 42
+## 2024-01-28 15:12:09 ##
+Validate order
+## 2024-01-28 15:12:09 ##
+Array
+(
+    [0] => 12867
+    [1] => 42
+    [2] => 77.47
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"65B6608784623149"}
+    [5] => Array
+        (
+            [transaction_id] => 65B6608784623149
+        )
+
+    [6] => 1
+    [7] => 7e9cb14d4dce349e3590640bcbbceebe
+)
+
+## 2024-01-28 15:12:09 ##
+ID Shop = 1
+## 2024-01-28 15:12:13 ##
+Order created
+## 2024-01-28 15:12:13 ##
+----> END placeOrder()
+## 2024-01-28 15:12:13 ##
+----> END registerOrder()
+## 2024-01-28 15:12:13 ##
+----> Treatment is unlocked for the id_cart = 12867
+## 2024-01-28 15:12:19 ##
+##########################
+## 2024-01-28 15:12:19 ##
+START Validation Callback
+## 2024-01-28 15:12:19 ##
+##########################
+## 2024-01-28 15:12:19 ##
+----> Treatment is locked for the id_cart = 12867
+## 2024-01-28 15:12:19 ##
+data for validation
+## 2024-01-28 15:12:19 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>c1dc97d63781c1952eeba6888a1d6724</md5content><result><operation>capture</operation><status>ok</status><date>2024-01-28</date><time>14:12:15 UTC+0000</time><origAmount>77.47</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12867</idForMerchant><emailClient>adsdna@proton.me</emailClient><idClient>23238306</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12867</_aKey_cart_id>  <_aKey_customer_id>4071</_aKey_customer_id>  <_aKey_secure_key>7e9cb14d4dce349e3590640bcbbceebe</_aKey_secure_key>  <_aKey_token>25608ba298227853e26115f1f994443c</_aKey_token></merchantDatas><transid>65B6608784623149</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => c1dc97d63781c1952eeba6888a1d6724
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-01-28
+                    [time] => 14:12:15 UTC+0000
+                    [origAmount] => 77.47
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12867
+                    [emailClient] => adsdna@proton.me
+                    [idClient] => 23238306
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12867
+                            [_aKey_customer_id] => 4071
+                            [_aKey_secure_key] => 7e9cb14d4dce349e3590640bcbbceebe
+                            [_aKey_token] => 25608ba298227853e26115f1f994443c
+                        )
+
+                    [transid] => 65B6608784623149
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12867
+    [3] => 4071
+    [4] => 7e9cb14d4dce349e3590640bcbbceebe
+    [5] => 77.47
+)
+
+## 2024-01-28 15:12:19 ##
+----> START registerOrder()
+## 2024-01-28 15:12:19 ##
+accountID:13248407 / websiteId:417972
+## 2024-01-28 15:12:19 ##
+<result><operation>capture</operation><status>ok</status><date>2024-01-28</date><time>14:12:15 UTC+0000</time><origAmount>77.47</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12867</idForMerchant><emailClient>adsdna@proton.me</emailClient><idClient>23238306</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12867</_aKey_cart_id>  <_aKey_customer_id>4071</_aKey_customer_id>  <_aKey_secure_key>7e9cb14d4dce349e3590640bcbbceebe</_aKey_secure_key>  <_aKey_token>25608ba298227853e26115f1f994443c</_aKey_token></merchantDatas><transid>65B6608784623149</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-01-28 15:12:19 ##
+currency : EUR
+## 2024-01-28 15:12:19 ##
+accountID:13248407 / websiteId:417972
+## 2024-01-28 15:12:19 ##
+callback_salt : 
+## 2024-01-28 15:12:19 ##
+md5 : c1dc97d63781c1952eeba6888a1d6724 == md5content : c1dc97d63781c1952eeba6888a1d6724
+## 2024-01-28 15:12:19 ##
+Status = ok
+## 2024-01-28 15:12:19 ##
+$currency = EUR
+## 2024-01-28 15:12:19 ##
+id_order_state = 2
+## 2024-01-28 15:12:19 ##
+----> START placeOrder()
+## 2024-01-28 15:12:19 ##
+Treatment an existing order
+## 2024-01-28 15:12:19 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-01-28 15:12:19 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-01-28
+    [time] => 14:12:15 UTC+0000
+    [origAmount] => 77.47
+    [origCurrency] => EUR
+    [idForMerchant] => 12867
+    [emailClient] => adsdna@proton.me
+    [idClient] => 23238306
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12867
+            [_aKey_customer_id] => 4071
+            [_aKey_secure_key] => 7e9cb14d4dce349e3590640bcbbceebe
+            [_aKey_token] => 25608ba298227853e26115f1f994443c
+        )
+
+    [transid] => 65B6608784623149
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-01-28 15:12:20 ##
+----> END placeOrder()
+## 2024-01-28 15:12:20 ##
+----> END registerOrder()
+## 2024-01-28 15:12:20 ##
+----> Treatment is unlocked for the id_cart = 12867

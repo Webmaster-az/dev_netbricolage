@@ -1,0 +1,259 @@
+## 2023-12-11 18:52:05 ##
+##########################
+## 2023-12-11 18:52:05 ##
+START Validation Callback
+## 2023-12-11 18:52:05 ##
+##########################
+## 2023-12-11 18:52:05 ##
+----> Treatment is locked for the id_cart = 12319
+## 2023-12-11 18:52:05 ##
+data for validation
+## 2023-12-11 18:52:05 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>059402e0c6f5ebf363b540f189a49327</md5content><result><operation>authorization</operation><status>ok</status><date>2023-12-11</date><time>17:52:03 UTC+0000</time><origAmount>96.16</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12319</idForMerchant><emailClient>laurent.harbonnier@cegetel.net</emailClient><idClient>23077928</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12319</_aKey_cart_id>  <_aKey_customer_id>3976</_aKey_customer_id>  <_aKey_secure_key>e78560920764fb7afd9aac8e551d11c6</_aKey_secure_key>  <_aKey_token>d7b0e9a3c73839ac04a94388305907b5</_aKey_token></merchantDatas><transid>65774BEDC9B5C187</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 059402e0c6f5ebf363b540f189a49327
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-12-11
+                    [time] => 17:52:03 UTC+0000
+                    [origAmount] => 96.16
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12319
+                    [emailClient] => laurent.harbonnier@cegetel.net
+                    [idClient] => 23077928
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12319
+                            [_aKey_customer_id] => 3976
+                            [_aKey_secure_key] => e78560920764fb7afd9aac8e551d11c6
+                            [_aKey_token] => d7b0e9a3c73839ac04a94388305907b5
+                        )
+
+                    [transid] => 65774BEDC9B5C187
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12319
+    [3] => 3976
+    [4] => e78560920764fb7afd9aac8e551d11c6
+    [5] => 96.16
+)
+
+## 2023-12-11 18:52:05 ##
+----> START registerOrder()
+## 2023-12-11 18:52:05 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-11 18:52:06 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-12-11</date><time>17:52:03 UTC+0000</time><origAmount>96.16</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12319</idForMerchant><emailClient>laurent.harbonnier@cegetel.net</emailClient><idClient>23077928</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12319</_aKey_cart_id>  <_aKey_customer_id>3976</_aKey_customer_id>  <_aKey_secure_key>e78560920764fb7afd9aac8e551d11c6</_aKey_secure_key>  <_aKey_token>d7b0e9a3c73839ac04a94388305907b5</_aKey_token></merchantDatas><transid>65774BEDC9B5C187</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-12-11 18:52:06 ##
+currency : EUR
+## 2023-12-11 18:52:06 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-11 18:52:06 ##
+callback_salt : 
+## 2023-12-11 18:52:06 ##
+md5 : 059402e0c6f5ebf363b540f189a49327 == md5content : 059402e0c6f5ebf363b540f189a49327
+## 2023-12-11 18:52:06 ##
+Status = ok
+## 2023-12-11 18:52:06 ##
+$currency = EUR
+## 2023-12-11 18:52:06 ##
+id_order_state = 42
+## 2023-12-11 18:52:06 ##
+----> START placeOrder()
+## 2023-12-11 18:52:06 ##
+Treatment status = 42
+## 2023-12-11 18:52:06 ##
+Validate order
+## 2023-12-11 18:52:06 ##
+Array
+(
+    [0] => 12319
+    [1] => 42
+    [2] => 96.16
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"65774BEDC9B5C187"}
+    [5] => Array
+        (
+            [transaction_id] => 65774BEDC9B5C187
+        )
+
+    [6] => 1
+    [7] => e78560920764fb7afd9aac8e551d11c6
+)
+
+## 2023-12-11 18:52:06 ##
+ID Shop = 1
+## 2023-12-11 18:52:13 ##
+Order created
+## 2023-12-11 18:52:13 ##
+----> END placeOrder()
+## 2023-12-11 18:52:13 ##
+----> END registerOrder()
+## 2023-12-11 18:52:13 ##
+----> Treatment is unlocked for the id_cart = 12319
+## 2023-12-11 18:52:14 ##
+##########################
+## 2023-12-11 18:52:14 ##
+START Validation Callback
+## 2023-12-11 18:52:14 ##
+##########################
+## 2023-12-11 18:52:14 ##
+----> Treatment is locked for the id_cart = 12319
+## 2023-12-11 18:52:14 ##
+data for validation
+## 2023-12-11 18:52:14 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>d9c1447a8a4f27c16a7d71aa94faf05b</md5content><result><operation>capture</operation><status>ok</status><date>2023-12-11</date><time>17:52:10 UTC+0000</time><origAmount>96.16</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12319</idForMerchant><emailClient>laurent.harbonnier@cegetel.net</emailClient><idClient>23077928</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12319</_aKey_cart_id>  <_aKey_customer_id>3976</_aKey_customer_id>  <_aKey_secure_key>e78560920764fb7afd9aac8e551d11c6</_aKey_secure_key>  <_aKey_token>d7b0e9a3c73839ac04a94388305907b5</_aKey_token></merchantDatas><transid>65774BEDC9B5C187</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => d9c1447a8a4f27c16a7d71aa94faf05b
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-12-11
+                    [time] => 17:52:10 UTC+0000
+                    [origAmount] => 96.16
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12319
+                    [emailClient] => laurent.harbonnier@cegetel.net
+                    [idClient] => 23077928
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12319
+                            [_aKey_customer_id] => 3976
+                            [_aKey_secure_key] => e78560920764fb7afd9aac8e551d11c6
+                            [_aKey_token] => d7b0e9a3c73839ac04a94388305907b5
+                        )
+
+                    [transid] => 65774BEDC9B5C187
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12319
+    [3] => 3976
+    [4] => e78560920764fb7afd9aac8e551d11c6
+    [5] => 96.16
+)
+
+## 2023-12-11 18:52:14 ##
+----> START registerOrder()
+## 2023-12-11 18:52:14 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-11 18:52:14 ##
+<result><operation>capture</operation><status>ok</status><date>2023-12-11</date><time>17:52:10 UTC+0000</time><origAmount>96.16</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12319</idForMerchant><emailClient>laurent.harbonnier@cegetel.net</emailClient><idClient>23077928</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12319</_aKey_cart_id>  <_aKey_customer_id>3976</_aKey_customer_id>  <_aKey_secure_key>e78560920764fb7afd9aac8e551d11c6</_aKey_secure_key>  <_aKey_token>d7b0e9a3c73839ac04a94388305907b5</_aKey_token></merchantDatas><transid>65774BEDC9B5C187</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-12-11 18:52:14 ##
+currency : EUR
+## 2023-12-11 18:52:14 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-11 18:52:14 ##
+callback_salt : 
+## 2023-12-11 18:52:14 ##
+md5 : d9c1447a8a4f27c16a7d71aa94faf05b == md5content : d9c1447a8a4f27c16a7d71aa94faf05b
+## 2023-12-11 18:52:14 ##
+Status = ok
+## 2023-12-11 18:52:14 ##
+$currency = EUR
+## 2023-12-11 18:52:14 ##
+id_order_state = 2
+## 2023-12-11 18:52:14 ##
+----> START placeOrder()
+## 2023-12-11 18:52:14 ##
+Treatment an existing order
+## 2023-12-11 18:52:14 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-12-11 18:52:14 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-12-11
+    [time] => 17:52:10 UTC+0000
+    [origAmount] => 96.16
+    [origCurrency] => EUR
+    [idForMerchant] => 12319
+    [emailClient] => laurent.harbonnier@cegetel.net
+    [idClient] => 23077928
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12319
+            [_aKey_customer_id] => 3976
+            [_aKey_secure_key] => e78560920764fb7afd9aac8e551d11c6
+            [_aKey_token] => d7b0e9a3c73839ac04a94388305907b5
+        )
+
+    [transid] => 65774BEDC9B5C187
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-12-11 18:52:16 ##
+----> END placeOrder()
+## 2023-12-11 18:52:16 ##
+----> END registerOrder()
+## 2023-12-11 18:52:16 ##
+----> Treatment is unlocked for the id_cart = 12319

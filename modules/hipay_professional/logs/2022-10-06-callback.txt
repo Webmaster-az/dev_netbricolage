@@ -1,0 +1,259 @@
+## 2022-10-06 15:47:36 ##
+##########################
+## 2022-10-06 15:47:36 ##
+START Validation Callback
+## 2022-10-06 15:47:36 ##
+##########################
+## 2022-10-06 15:47:36 ##
+----> Treatment is locked for the id_cart = 5063
+## 2022-10-06 15:47:36 ##
+data for validation
+## 2022-10-06 15:47:36 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>1edd5ac1eacff647fd61526bbdc4fefd</md5content><result><operation>authorization</operation><status>ok</status><date>2022-10-06</date><time>13:47:34 UTC+0000</time><origAmount>107.44</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5063</idForMerchant><emailClient>pigault-.jimmy@orange.fr</emailClient><idClient>21517522</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5063</_aKey_cart_id>  <_aKey_customer_id>1543</_aKey_customer_id>  <_aKey_secure_key>806bacd39c16d8b68d1ed2267ec7acd5</_aKey_secure_key>  <_aKey_token>084709a3a4ae70409ed3f8659fdbd803</_aKey_token></merchantDatas><transid>633EDC48D1D26103</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 1edd5ac1eacff647fd61526bbdc4fefd
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-10-06
+                    [time] => 13:47:34 UTC+0000
+                    [origAmount] => 107.44
+                    [origCurrency] => EUR
+                    [idForMerchant] => 5063
+                    [emailClient] => pigault-.jimmy@orange.fr
+                    [idClient] => 21517522
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 5063
+                            [_aKey_customer_id] => 1543
+                            [_aKey_secure_key] => 806bacd39c16d8b68d1ed2267ec7acd5
+                            [_aKey_token] => 084709a3a4ae70409ed3f8659fdbd803
+                        )
+
+                    [transid] => 633EDC48D1D26103
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 5063
+    [3] => 1543
+    [4] => 806bacd39c16d8b68d1ed2267ec7acd5
+    [5] => 107.44
+)
+
+## 2022-10-06 15:47:36 ##
+----> START registerOrder()
+## 2022-10-06 15:47:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-10-06 15:47:36 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-10-06</date><time>13:47:34 UTC+0000</time><origAmount>107.44</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5063</idForMerchant><emailClient>pigault-.jimmy@orange.fr</emailClient><idClient>21517522</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5063</_aKey_cart_id>  <_aKey_customer_id>1543</_aKey_customer_id>  <_aKey_secure_key>806bacd39c16d8b68d1ed2267ec7acd5</_aKey_secure_key>  <_aKey_token>084709a3a4ae70409ed3f8659fdbd803</_aKey_token></merchantDatas><transid>633EDC48D1D26103</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-10-06 15:47:36 ##
+currency : EUR
+## 2022-10-06 15:47:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-10-06 15:47:36 ##
+callback_salt : 
+## 2022-10-06 15:47:36 ##
+md5 : 1edd5ac1eacff647fd61526bbdc4fefd == md5content : 1edd5ac1eacff647fd61526bbdc4fefd
+## 2022-10-06 15:47:36 ##
+Status = ok
+## 2022-10-06 15:47:36 ##
+$currency = EUR
+## 2022-10-06 15:47:36 ##
+id_order_state = 42
+## 2022-10-06 15:47:36 ##
+----> START placeOrder()
+## 2022-10-06 15:47:36 ##
+Treatment status = 42
+## 2022-10-06 15:47:36 ##
+Validate order
+## 2022-10-06 15:47:36 ##
+Array
+(
+    [0] => 5063
+    [1] => 42
+    [2] => 107.44
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"MASTERCARD","Transaction ID":"633EDC48D1D26103"}
+    [5] => Array
+        (
+            [transaction_id] => 633EDC48D1D26103
+        )
+
+    [6] => 1
+    [7] => 806bacd39c16d8b68d1ed2267ec7acd5
+)
+
+## 2022-10-06 15:47:36 ##
+ID Shop = 1
+## 2022-10-06 15:47:37 ##
+Order created
+## 2022-10-06 15:47:37 ##
+----> END placeOrder()
+## 2022-10-06 15:47:37 ##
+----> END registerOrder()
+## 2022-10-06 15:47:37 ##
+----> Treatment is unlocked for the id_cart = 5063
+## 2022-10-06 15:47:44 ##
+##########################
+## 2022-10-06 15:47:44 ##
+START Validation Callback
+## 2022-10-06 15:47:44 ##
+##########################
+## 2022-10-06 15:47:44 ##
+----> Treatment is locked for the id_cart = 5063
+## 2022-10-06 15:47:44 ##
+data for validation
+## 2022-10-06 15:47:44 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>e851f317a668bb02b04031359e459066</md5content><result><operation>capture</operation><status>ok</status><date>2022-10-06</date><time>13:47:41 UTC+0000</time><origAmount>107.44</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5063</idForMerchant><emailClient>pigault-.jimmy@orange.fr</emailClient><idClient>21517522</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5063</_aKey_cart_id>  <_aKey_customer_id>1543</_aKey_customer_id>  <_aKey_secure_key>806bacd39c16d8b68d1ed2267ec7acd5</_aKey_secure_key>  <_aKey_token>084709a3a4ae70409ed3f8659fdbd803</_aKey_token></merchantDatas><transid>633EDC48D1D26103</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => e851f317a668bb02b04031359e459066
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-10-06
+                    [time] => 13:47:41 UTC+0000
+                    [origAmount] => 107.44
+                    [origCurrency] => EUR
+                    [idForMerchant] => 5063
+                    [emailClient] => pigault-.jimmy@orange.fr
+                    [idClient] => 21517522
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 5063
+                            [_aKey_customer_id] => 1543
+                            [_aKey_secure_key] => 806bacd39c16d8b68d1ed2267ec7acd5
+                            [_aKey_token] => 084709a3a4ae70409ed3f8659fdbd803
+                        )
+
+                    [transid] => 633EDC48D1D26103
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 5063
+    [3] => 1543
+    [4] => 806bacd39c16d8b68d1ed2267ec7acd5
+    [5] => 107.44
+)
+
+## 2022-10-06 15:47:44 ##
+----> START registerOrder()
+## 2022-10-06 15:47:44 ##
+accountID:13248407 / websiteId:418801
+## 2022-10-06 15:47:44 ##
+<result><operation>capture</operation><status>ok</status><date>2022-10-06</date><time>13:47:41 UTC+0000</time><origAmount>107.44</origAmount><origCurrency>EUR</origCurrency><idForMerchant>5063</idForMerchant><emailClient>pigault-.jimmy@orange.fr</emailClient><idClient>21517522</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>5063</_aKey_cart_id>  <_aKey_customer_id>1543</_aKey_customer_id>  <_aKey_secure_key>806bacd39c16d8b68d1ed2267ec7acd5</_aKey_secure_key>  <_aKey_token>084709a3a4ae70409ed3f8659fdbd803</_aKey_token></merchantDatas><transid>633EDC48D1D26103</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-10-06 15:47:44 ##
+currency : EUR
+## 2022-10-06 15:47:44 ##
+accountID:13248407 / websiteId:418801
+## 2022-10-06 15:47:44 ##
+callback_salt : 
+## 2022-10-06 15:47:44 ##
+md5 : e851f317a668bb02b04031359e459066 == md5content : e851f317a668bb02b04031359e459066
+## 2022-10-06 15:47:44 ##
+Status = ok
+## 2022-10-06 15:47:44 ##
+$currency = EUR
+## 2022-10-06 15:47:44 ##
+id_order_state = 2
+## 2022-10-06 15:47:44 ##
+----> START placeOrder()
+## 2022-10-06 15:47:44 ##
+Treatment an existing order
+## 2022-10-06 15:47:44 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-10-06 15:47:44 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-10-06
+    [time] => 13:47:41 UTC+0000
+    [origAmount] => 107.44
+    [origCurrency] => EUR
+    [idForMerchant] => 5063
+    [emailClient] => pigault-.jimmy@orange.fr
+    [idClient] => 21517522
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 5063
+            [_aKey_customer_id] => 1543
+            [_aKey_secure_key] => 806bacd39c16d8b68d1ed2267ec7acd5
+            [_aKey_token] => 084709a3a4ae70409ed3f8659fdbd803
+        )
+
+    [transid] => 633EDC48D1D26103
+    [is3ds] => Yes
+    [paymentMethod] => MASTERCARD
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-10-06 15:47:44 ##
+----> END placeOrder()
+## 2022-10-06 15:47:44 ##
+----> END registerOrder()
+## 2022-10-06 15:47:44 ##
+----> Treatment is unlocked for the id_cart = 5063

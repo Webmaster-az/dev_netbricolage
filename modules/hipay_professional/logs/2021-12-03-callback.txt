@@ -1,0 +1,100 @@
+## 2021-12-03 20:05:31 ##
+##########################
+## 2021-12-03 20:05:31 ##
+START Validation Callback
+## 2021-12-03 20:05:31 ##
+##########################
+## 2021-12-03 20:05:32 ##
+----> Treatment is locked for the id_cart = 890
+## 2021-12-03 20:05:32 ##
+data for validation
+## 2021-12-03 20:05:32 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>27b0d441dc79c1e40152b364c85d1786</md5content><result><operation>refund</operation><status>ok</status><date>2021-12-03</date><time>19:05:29 UTC+0000</time><origAmount>286.27</origAmount><origCurrency>EUR</origCurrency><idForMerchant>890</idForMerchant><emailClient>danh@ldtr.fr</emailClient><idClient>19676082</idClient><cardCountry>FR</cardCountry><ipCountry>RE</ipCountry><merchantDatas>  <_aKey_cart_id>890</_aKey_cart_id>  <_aKey_customer_id>1583</_aKey_customer_id>  <_aKey_secure_key>6f6e72bd2260440ce720d4e0b48842cf</_aKey_secure_key>  <_aKey_token>4f8b7dfcb5afdc177120887a3a14734f</_aKey_token></merchantDatas><transid>6191F7C51F097292</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><refundedAmount>286.27</refundedAmount><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 27b0d441dc79c1e40152b364c85d1786
+            [result] => Array
+                (
+                    [operation] => refund
+                    [status] => ok
+                    [date] => 2021-12-03
+                    [time] => 19:05:29 UTC+0000
+                    [origAmount] => 286.27
+                    [origCurrency] => EUR
+                    [idForMerchant] => 890
+                    [emailClient] => danh@ldtr.fr
+                    [idClient] => 19676082
+                    [cardCountry] => FR
+                    [ipCountry] => RE
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 890
+                            [_aKey_customer_id] => 1583
+                            [_aKey_secure_key] => 6f6e72bd2260440ce720d4e0b48842cf
+                            [_aKey_token] => 4f8b7dfcb5afdc177120887a3a14734f
+                        )
+
+                    [transid] => 6191F7C51F097292
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [refundedAmount] => 286.27
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 890
+    [3] => 1583
+    [4] => 6f6e72bd2260440ce720d4e0b48842cf
+    [5] => 286.27
+)
+
+## 2021-12-03 20:05:32 ##
+----> START registerOrder()
+## 2021-12-03 20:05:32 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-03 20:05:32 ##
+<result><operation>refund</operation><status>ok</status><date>2021-12-03</date><time>19:05:29 UTC+0000</time><origAmount>286.27</origAmount><origCurrency>EUR</origCurrency><idForMerchant>890</idForMerchant><emailClient>danh@ldtr.fr</emailClient><idClient>19676082</idClient><cardCountry>FR</cardCountry><ipCountry>RE</ipCountry><merchantDatas>  <_aKey_cart_id>890</_aKey_cart_id>  <_aKey_customer_id>1583</_aKey_customer_id>  <_aKey_secure_key>6f6e72bd2260440ce720d4e0b48842cf</_aKey_secure_key>  <_aKey_token>4f8b7dfcb5afdc177120887a3a14734f</_aKey_token></merchantDatas><transid>6191F7C51F097292</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><refundedAmount>286.27</refundedAmount><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-12-03 20:05:32 ##
+currency : EUR
+## 2021-12-03 20:05:32 ##
+accountID:13248407 / websiteId:418801
+## 2021-12-03 20:05:32 ##
+callback_salt : 
+## 2021-12-03 20:05:32 ##
+md5 : 27b0d441dc79c1e40152b364c85d1786 == md5content : 27b0d441dc79c1e40152b364c85d1786
+## 2021-12-03 20:05:32 ##
+Status = ok
+## 2021-12-03 20:05:32 ##
+$currency = EUR
+## 2021-12-03 20:05:32 ##
+id_order_state = 2
+## 2021-12-03 20:05:32 ##
+----> START placeOrder()
+## 2021-12-03 20:05:32 ##
+Treatment an existing order
+## 2021-12-03 20:05:32 ##
+getCurrentState 44 != HIPAY_OS_WAITING 42
+## 2021-12-03 20:05:32 ##
+----> END placeOrder()
+## 2021-12-03 20:05:32 ##
+----> END registerOrder()
+## 2021-12-03 20:05:32 ##
+----> Treatment is unlocked for the id_cart = 890

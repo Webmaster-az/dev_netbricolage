@@ -1,0 +1,533 @@
+## 2024-03-29 07:30:47 ##
+##########################
+## 2024-03-29 07:30:47 ##
+START Validation Callback
+## 2024-03-29 07:30:47 ##
+##########################
+## 2024-03-29 07:30:47 ##
+----> Treatment is locked for the id_cart = 13673
+## 2024-03-29 07:30:47 ##
+data for validation
+## 2024-03-29 07:30:47 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>9ed72bf800a39cf8120804f4a0218329</md5content><result><operation>authorization</operation><status>ok</status><date>2024-03-29</date><time>06:30:44 UTC+0000</time><origAmount>102.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13673</idForMerchant><emailClient>ph.marchand@kass.fr</emailClient><idClient>23433188</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13673</_aKey_cart_id>  <_aKey_customer_id>4189</_aKey_customer_id>  <_aKey_secure_key>9464cf56f6f1c31933575459a5d03533</_aKey_secure_key>  <_aKey_token>8d709d021ab70d0f68b46aebc237d58f</_aKey_token></merchantDatas><transid>66065FD7B86F1238</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 9ed72bf800a39cf8120804f4a0218329
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-03-29
+                    [time] => 06:30:44 UTC+0000
+                    [origAmount] => 102.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13673
+                    [emailClient] => ph.marchand@kass.fr
+                    [idClient] => 23433188
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13673
+                            [_aKey_customer_id] => 4189
+                            [_aKey_secure_key] => 9464cf56f6f1c31933575459a5d03533
+                            [_aKey_token] => 8d709d021ab70d0f68b46aebc237d58f
+                        )
+
+                    [transid] => 66065FD7B86F1238
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13673
+    [3] => 4189
+    [4] => 9464cf56f6f1c31933575459a5d03533
+    [5] => 102.7
+)
+
+## 2024-03-29 07:30:47 ##
+----> START registerOrder()
+## 2024-03-29 07:30:47 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-29 07:30:47 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-03-29</date><time>06:30:44 UTC+0000</time><origAmount>102.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13673</idForMerchant><emailClient>ph.marchand@kass.fr</emailClient><idClient>23433188</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13673</_aKey_cart_id>  <_aKey_customer_id>4189</_aKey_customer_id>  <_aKey_secure_key>9464cf56f6f1c31933575459a5d03533</_aKey_secure_key>  <_aKey_token>8d709d021ab70d0f68b46aebc237d58f</_aKey_token></merchantDatas><transid>66065FD7B86F1238</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-03-29 07:30:47 ##
+currency : EUR
+## 2024-03-29 07:30:47 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-29 07:30:47 ##
+callback_salt : 
+## 2024-03-29 07:30:47 ##
+md5 : 9ed72bf800a39cf8120804f4a0218329 == md5content : 9ed72bf800a39cf8120804f4a0218329
+## 2024-03-29 07:30:47 ##
+Status = ok
+## 2024-03-29 07:30:47 ##
+$currency = EUR
+## 2024-03-29 07:30:47 ##
+id_order_state = 42
+## 2024-03-29 07:30:47 ##
+----> START placeOrder()
+## 2024-03-29 07:30:47 ##
+Treatment status = 42
+## 2024-03-29 07:30:47 ##
+Validate order
+## 2024-03-29 07:30:47 ##
+Array
+(
+    [0] => 13673
+    [1] => 42
+    [2] => 102.7
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"66065FD7B86F1238"}
+    [5] => Array
+        (
+            [transaction_id] => 66065FD7B86F1238
+        )
+
+    [6] => 1
+    [7] => 9464cf56f6f1c31933575459a5d03533
+)
+
+## 2024-03-29 07:30:47 ##
+ID Shop = 1
+## 2024-03-29 07:30:50 ##
+Order created
+## 2024-03-29 07:30:50 ##
+----> END placeOrder()
+## 2024-03-29 07:30:50 ##
+----> END registerOrder()
+## 2024-03-29 07:30:50 ##
+----> Treatment is unlocked for the id_cart = 13673
+## 2024-03-29 07:30:55 ##
+##########################
+## 2024-03-29 07:30:55 ##
+START Validation Callback
+## 2024-03-29 07:30:55 ##
+##########################
+## 2024-03-29 07:30:55 ##
+----> Treatment is locked for the id_cart = 13673
+## 2024-03-29 07:30:55 ##
+data for validation
+## 2024-03-29 07:30:55 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>77c3721b2380b9b545ea667113a5b5e0</md5content><result><operation>capture</operation><status>ok</status><date>2024-03-29</date><time>06:30:51 UTC+0000</time><origAmount>102.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13673</idForMerchant><emailClient>ph.marchand@kass.fr</emailClient><idClient>23433188</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13673</_aKey_cart_id>  <_aKey_customer_id>4189</_aKey_customer_id>  <_aKey_secure_key>9464cf56f6f1c31933575459a5d03533</_aKey_secure_key>  <_aKey_token>8d709d021ab70d0f68b46aebc237d58f</_aKey_token></merchantDatas><transid>66065FD7B86F1238</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 77c3721b2380b9b545ea667113a5b5e0
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-03-29
+                    [time] => 06:30:51 UTC+0000
+                    [origAmount] => 102.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13673
+                    [emailClient] => ph.marchand@kass.fr
+                    [idClient] => 23433188
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13673
+                            [_aKey_customer_id] => 4189
+                            [_aKey_secure_key] => 9464cf56f6f1c31933575459a5d03533
+                            [_aKey_token] => 8d709d021ab70d0f68b46aebc237d58f
+                        )
+
+                    [transid] => 66065FD7B86F1238
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13673
+    [3] => 4189
+    [4] => 9464cf56f6f1c31933575459a5d03533
+    [5] => 102.7
+)
+
+## 2024-03-29 07:30:55 ##
+----> START registerOrder()
+## 2024-03-29 07:30:55 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-29 07:30:55 ##
+<result><operation>capture</operation><status>ok</status><date>2024-03-29</date><time>06:30:51 UTC+0000</time><origAmount>102.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13673</idForMerchant><emailClient>ph.marchand@kass.fr</emailClient><idClient>23433188</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13673</_aKey_cart_id>  <_aKey_customer_id>4189</_aKey_customer_id>  <_aKey_secure_key>9464cf56f6f1c31933575459a5d03533</_aKey_secure_key>  <_aKey_token>8d709d021ab70d0f68b46aebc237d58f</_aKey_token></merchantDatas><transid>66065FD7B86F1238</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-03-29 07:30:55 ##
+currency : EUR
+## 2024-03-29 07:30:55 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-29 07:30:55 ##
+callback_salt : 
+## 2024-03-29 07:30:55 ##
+md5 : 77c3721b2380b9b545ea667113a5b5e0 == md5content : 77c3721b2380b9b545ea667113a5b5e0
+## 2024-03-29 07:30:55 ##
+Status = ok
+## 2024-03-29 07:30:55 ##
+$currency = EUR
+## 2024-03-29 07:30:55 ##
+id_order_state = 2
+## 2024-03-29 07:30:55 ##
+----> START placeOrder()
+## 2024-03-29 07:30:55 ##
+Treatment an existing order
+## 2024-03-29 07:30:55 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-03-29 07:30:55 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-03-29
+    [time] => 06:30:51 UTC+0000
+    [origAmount] => 102.70
+    [origCurrency] => EUR
+    [idForMerchant] => 13673
+    [emailClient] => ph.marchand@kass.fr
+    [idClient] => 23433188
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 13673
+            [_aKey_customer_id] => 4189
+            [_aKey_secure_key] => 9464cf56f6f1c31933575459a5d03533
+            [_aKey_token] => 8d709d021ab70d0f68b46aebc237d58f
+        )
+
+    [transid] => 66065FD7B86F1238
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-03-29 07:30:55 ##
+----> END placeOrder()
+## 2024-03-29 07:30:55 ##
+----> END registerOrder()
+## 2024-03-29 07:30:55 ##
+----> Treatment is unlocked for the id_cart = 13673
+## 2024-03-29 12:50:14 ##
+##########################
+## 2024-03-29 12:50:14 ##
+START Validation Callback
+## 2024-03-29 12:50:14 ##
+##########################
+## 2024-03-29 12:50:14 ##
+----> Treatment is locked for the id_cart = 13676
+## 2024-03-29 12:50:14 ##
+data for validation
+## 2024-03-29 12:50:14 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>0a1aba91843370aa2486f0335087ec0d</md5content><result><operation>authorization</operation><status>nok</status><date>2024-03-29</date><time>11:50:12 UTC+0000</time><origAmount>583.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13676</idForMerchant><emailClient>drotom.pl@gmail.com</emailClient><idClient>20645251</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13676</_aKey_cart_id>  <_aKey_customer_id>1582</_aKey_customer_id>  <_aKey_secure_key>f47ac0c6a2cc2dfeaa504b21c043f9c2</_aKey_secure_key>  <_aKey_token>9baefa145237955d81dea9598a8703b5</_aKey_token></merchantDatas><transid>6606AAC923A0D157</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 0a1aba91843370aa2486f0335087ec0d
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-03-29
+                    [time] => 11:50:12 UTC+0000
+                    [origAmount] => 583.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13676
+                    [emailClient] => drotom.pl@gmail.com
+                    [idClient] => 20645251
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13676
+                            [_aKey_customer_id] => 1582
+                            [_aKey_secure_key] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+                            [_aKey_token] => 9baefa145237955d81dea9598a8703b5
+                        )
+
+                    [transid] => 6606AAC923A0D157
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13676
+    [3] => 1582
+    [4] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+    [5] => 583
+)
+
+## 2024-03-29 12:50:14 ##
+----> START registerOrder()
+## 2024-03-29 12:50:14 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-29 12:50:14 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-03-29</date><time>11:50:12 UTC+0000</time><origAmount>583.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13676</idForMerchant><emailClient>drotom.pl@gmail.com</emailClient><idClient>20645251</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13676</_aKey_cart_id>  <_aKey_customer_id>1582</_aKey_customer_id>  <_aKey_secure_key>f47ac0c6a2cc2dfeaa504b21c043f9c2</_aKey_secure_key>  <_aKey_token>9baefa145237955d81dea9598a8703b5</_aKey_token></merchantDatas><transid>6606AAC923A0D157</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-03-29 12:50:14 ##
+currency : EUR
+## 2024-03-29 12:50:14 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-29 12:50:14 ##
+callback_salt : 
+## 2024-03-29 12:50:14 ##
+md5 : 0a1aba91843370aa2486f0335087ec0d == md5content : 0a1aba91843370aa2486f0335087ec0d
+## 2024-03-29 12:50:14 ##
+Status = nok
+## 2024-03-29 12:50:14 ##
+$currency = EUR
+## 2024-03-29 12:50:14 ##
+id_order_state = 8
+## 2024-03-29 12:50:14 ##
+----> START placeOrder()
+## 2024-03-29 12:50:14 ##
+Treatment status = ERROR
+## 2024-03-29 12:50:14 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-03-29
+    [time] =&gt; 11:50:12 UTC+0000
+    [origAmount] =&gt; 583.00
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 13676
+    [emailClient] =&gt; drotom.pl@gmail.com
+    [idClient] =&gt; 20645251
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 13676
+            [_aKey_customer_id] =&gt; 1582
+            [_aKey_secure_key] =&gt; f47ac0c6a2cc2dfeaa504b21c043f9c2
+            [_aKey_token] =&gt; 9baefa145237955d81dea9598a8703b5
+        )
+
+    [transid] =&gt; 6606AAC923A0D157
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-03-29 12:50:14 ##
+----> END placeOrder()
+## 2024-03-29 12:50:14 ##
+----> END registerOrder()
+## 2024-03-29 12:50:14 ##
+----> Treatment is unlocked for the id_cart = 13676
+## 2024-03-29 12:50:24 ##
+##########################
+## 2024-03-29 12:50:24 ##
+START Validation Callback
+## 2024-03-29 12:50:24 ##
+##########################
+## 2024-03-29 12:50:24 ##
+----> Treatment is locked for the id_cart = 13676
+## 2024-03-29 12:50:24 ##
+data for validation
+## 2024-03-29 12:50:24 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>45df45d79b034f12ffd4644994d3eeb1</md5content><result><operation>capture</operation><status>nok</status><date>2024-03-29</date><time>11:50:22 UTC+0000</time><origAmount>583.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13676</idForMerchant><emailClient>drotom.pl@gmail.com</emailClient><idClient>20645251</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13676</_aKey_cart_id>  <_aKey_customer_id>1582</_aKey_customer_id>  <_aKey_secure_key>f47ac0c6a2cc2dfeaa504b21c043f9c2</_aKey_secure_key>  <_aKey_token>9baefa145237955d81dea9598a8703b5</_aKey_token></merchantDatas><transid>6606AAC923A0D157</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 45df45d79b034f12ffd4644994d3eeb1
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => nok
+                    [date] => 2024-03-29
+                    [time] => 11:50:22 UTC+0000
+                    [origAmount] => 583.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13676
+                    [emailClient] => drotom.pl@gmail.com
+                    [idClient] => 20645251
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13676
+                            [_aKey_customer_id] => 1582
+                            [_aKey_secure_key] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+                            [_aKey_token] => 9baefa145237955d81dea9598a8703b5
+                        )
+
+                    [transid] => 6606AAC923A0D157
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13676
+    [3] => 1582
+    [4] => f47ac0c6a2cc2dfeaa504b21c043f9c2
+    [5] => 583
+)
+
+## 2024-03-29 12:50:24 ##
+----> START registerOrder()
+## 2024-03-29 12:50:24 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-29 12:50:24 ##
+<result><operation>capture</operation><status>nok</status><date>2024-03-29</date><time>11:50:22 UTC+0000</time><origAmount>583.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13676</idForMerchant><emailClient>drotom.pl@gmail.com</emailClient><idClient>20645251</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13676</_aKey_cart_id>  <_aKey_customer_id>1582</_aKey_customer_id>  <_aKey_secure_key>f47ac0c6a2cc2dfeaa504b21c043f9c2</_aKey_secure_key>  <_aKey_token>9baefa145237955d81dea9598a8703b5</_aKey_token></merchantDatas><transid>6606AAC923A0D157</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-03-29 12:50:24 ##
+currency : EUR
+## 2024-03-29 12:50:24 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-29 12:50:24 ##
+callback_salt : 
+## 2024-03-29 12:50:24 ##
+md5 : 45df45d79b034f12ffd4644994d3eeb1 == md5content : 45df45d79b034f12ffd4644994d3eeb1
+## 2024-03-29 12:50:24 ##
+Status = nok
+## 2024-03-29 12:50:24 ##
+$currency = EUR
+## 2024-03-29 12:50:24 ##
+id_order_state = 8
+## 2024-03-29 12:50:24 ##
+----> START placeOrder()
+## 2024-03-29 12:50:24 ##
+Treatment status = ERROR
+## 2024-03-29 12:50:24 ##
+Array
+(
+    [operation] =&gt; capture
+    [status] =&gt; nok
+    [date] =&gt; 2024-03-29
+    [time] =&gt; 11:50:22 UTC+0000
+    [origAmount] =&gt; 583.00
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 13676
+    [emailClient] =&gt; drotom.pl@gmail.com
+    [idClient] =&gt; 20645251
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 13676
+            [_aKey_customer_id] =&gt; 1582
+            [_aKey_secure_key] =&gt; f47ac0c6a2cc2dfeaa504b21c043f9c2
+            [_aKey_token] =&gt; 9baefa145237955d81dea9598a8703b5
+        )
+
+    [transid] =&gt; 6606AAC923A0D157
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-03-29 12:50:24 ##
+----> END placeOrder()
+## 2024-03-29 12:50:24 ##
+----> END registerOrder()
+## 2024-03-29 12:50:24 ##
+----> Treatment is unlocked for the id_cart = 13676

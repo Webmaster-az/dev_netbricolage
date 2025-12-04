@@ -1,0 +1,518 @@
+## 2025-07-06 20:14:43 ##
+##########################
+## 2025-07-06 20:14:43 ##
+START Validation Callback
+## 2025-07-06 20:14:43 ##
+##########################
+## 2025-07-06 20:14:43 ##
+----> Treatment is locked for the id_cart = 18654
+## 2025-07-06 20:14:43 ##
+data for validation
+## 2025-07-06 20:14:43 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>51b2d4e63d23d1e84c9a796f60d13cd8</md5content><result><operation>authorization</operation><status>ok</status><date>2025-07-06</date><time>18:14:46 UTC+0000</time><origAmount>234.17</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18654</idForMerchant><emailClient>pascal-revel@laposte.net</emailClient><idClient>24761601</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18654</_aKey_cart_id>  <_aKey_customer_id>4985</_aKey_customer_id>  <_aKey_secure_key>586f7c04521d8bb6b5e800ee8667fe43</_aKey_secure_key>  <_aKey_token>46cd4e8cf31c2083959a509b380eac69</_aKey_token></merchantDatas><transid>686ABCDF757A8208</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 51b2d4e63d23d1e84c9a796f60d13cd8
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-07-06
+                    [time] => 18:14:46 UTC+0000
+                    [origAmount] => 234.17
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18654
+                    [emailClient] => pascal-revel@laposte.net
+                    [idClient] => 24761601
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18654
+                            [_aKey_customer_id] => 4985
+                            [_aKey_secure_key] => 586f7c04521d8bb6b5e800ee8667fe43
+                            [_aKey_token] => 46cd4e8cf31c2083959a509b380eac69
+                        )
+
+                    [transid] => 686ABCDF757A8208
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18654
+    [3] => 4985
+    [4] => 586f7c04521d8bb6b5e800ee8667fe43
+    [5] => 234.17
+)
+
+## 2025-07-06 20:14:43 ##
+----> START registerOrder()
+## 2025-07-06 20:14:43 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-06 20:14:43 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-07-06</date><time>18:14:46 UTC+0000</time><origAmount>234.17</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18654</idForMerchant><emailClient>pascal-revel@laposte.net</emailClient><idClient>24761601</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18654</_aKey_cart_id>  <_aKey_customer_id>4985</_aKey_customer_id>  <_aKey_secure_key>586f7c04521d8bb6b5e800ee8667fe43</_aKey_secure_key>  <_aKey_token>46cd4e8cf31c2083959a509b380eac69</_aKey_token></merchantDatas><transid>686ABCDF757A8208</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-06 20:14:43 ##
+currency : EUR
+## 2025-07-06 20:14:43 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-06 20:14:43 ##
+callback_salt : 
+## 2025-07-06 20:14:43 ##
+md5 : 51b2d4e63d23d1e84c9a796f60d13cd8 == md5content : 51b2d4e63d23d1e84c9a796f60d13cd8
+## 2025-07-06 20:14:43 ##
+Status = ok
+## 2025-07-06 20:14:43 ##
+$currency = EUR
+## 2025-07-06 20:14:43 ##
+id_order_state = 42
+## 2025-07-06 20:14:43 ##
+----> START placeOrder()
+## 2025-07-06 20:14:43 ##
+Treatment status = 42
+## 2025-07-06 20:14:43 ##
+Validate order
+## 2025-07-06 20:14:43 ##
+Array
+(
+    [0] => 18654
+    [1] => 42
+    [2] => 234.17
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"686ABCDF757A8208"}
+    [5] => Array
+        (
+            [transaction_id] => 686ABCDF757A8208
+        )
+
+    [6] => 1
+    [7] => 586f7c04521d8bb6b5e800ee8667fe43
+)
+
+## 2025-07-06 20:14:43 ##
+ID Shop = 1
+## 2025-07-06 20:14:46 ##
+Order created
+## 2025-07-06 20:14:46 ##
+----> END placeOrder()
+## 2025-07-06 20:14:46 ##
+----> END registerOrder()
+## 2025-07-06 20:14:46 ##
+----> Treatment is unlocked for the id_cart = 18654
+## 2025-07-06 20:14:49 ##
+##########################
+## 2025-07-06 20:14:49 ##
+START Validation Callback
+## 2025-07-06 20:14:49 ##
+##########################
+## 2025-07-06 20:14:49 ##
+----> Treatment is locked for the id_cart = 18654
+## 2025-07-06 20:14:49 ##
+data for validation
+## 2025-07-06 20:14:49 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>7786d9f61a76096adfa85a5f3505bde3</md5content><result><operation>capture</operation><status>ok</status><date>2025-07-06</date><time>18:14:52 UTC+0000</time><origAmount>234.17</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18654</idForMerchant><emailClient>pascal-revel@laposte.net</emailClient><idClient>24761601</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18654</_aKey_cart_id>  <_aKey_customer_id>4985</_aKey_customer_id>  <_aKey_secure_key>586f7c04521d8bb6b5e800ee8667fe43</_aKey_secure_key>  <_aKey_token>46cd4e8cf31c2083959a509b380eac69</_aKey_token></merchantDatas><transid>686ABCDF757A8208</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 7786d9f61a76096adfa85a5f3505bde3
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-07-06
+                    [time] => 18:14:52 UTC+0000
+                    [origAmount] => 234.17
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18654
+                    [emailClient] => pascal-revel@laposte.net
+                    [idClient] => 24761601
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18654
+                            [_aKey_customer_id] => 4985
+                            [_aKey_secure_key] => 586f7c04521d8bb6b5e800ee8667fe43
+                            [_aKey_token] => 46cd4e8cf31c2083959a509b380eac69
+                        )
+
+                    [transid] => 686ABCDF757A8208
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18654
+    [3] => 4985
+    [4] => 586f7c04521d8bb6b5e800ee8667fe43
+    [5] => 234.17
+)
+
+## 2025-07-06 20:14:49 ##
+----> START registerOrder()
+## 2025-07-06 20:14:49 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-06 20:14:49 ##
+<result><operation>capture</operation><status>ok</status><date>2025-07-06</date><time>18:14:52 UTC+0000</time><origAmount>234.17</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18654</idForMerchant><emailClient>pascal-revel@laposte.net</emailClient><idClient>24761601</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18654</_aKey_cart_id>  <_aKey_customer_id>4985</_aKey_customer_id>  <_aKey_secure_key>586f7c04521d8bb6b5e800ee8667fe43</_aKey_secure_key>  <_aKey_token>46cd4e8cf31c2083959a509b380eac69</_aKey_token></merchantDatas><transid>686ABCDF757A8208</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-06 20:14:49 ##
+currency : EUR
+## 2025-07-06 20:14:49 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-06 20:14:49 ##
+callback_salt : 
+## 2025-07-06 20:14:49 ##
+md5 : 7786d9f61a76096adfa85a5f3505bde3 == md5content : 7786d9f61a76096adfa85a5f3505bde3
+## 2025-07-06 20:14:49 ##
+Status = ok
+## 2025-07-06 20:14:49 ##
+$currency = EUR
+## 2025-07-06 20:14:49 ##
+id_order_state = 2
+## 2025-07-06 20:14:49 ##
+----> START placeOrder()
+## 2025-07-06 20:14:49 ##
+Treatment an existing order
+## 2025-07-06 20:14:49 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-07-06 20:14:49 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-07-06
+    [time] => 18:14:52 UTC+0000
+    [origAmount] => 234.17
+    [origCurrency] => EUR
+    [idForMerchant] => 18654
+    [emailClient] => pascal-revel@laposte.net
+    [idClient] => 24761601
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 18654
+            [_aKey_customer_id] => 4985
+            [_aKey_secure_key] => 586f7c04521d8bb6b5e800ee8667fe43
+            [_aKey_token] => 46cd4e8cf31c2083959a509b380eac69
+        )
+
+    [transid] => 686ABCDF757A8208
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-07-06 20:14:50 ##
+----> END placeOrder()
+## 2025-07-06 20:14:50 ##
+----> END registerOrder()
+## 2025-07-06 20:14:50 ##
+----> Treatment is unlocked for the id_cart = 18654
+## 2025-07-06 21:28:12 ##
+##########################
+## 2025-07-06 21:28:12 ##
+START Validation Callback
+## 2025-07-06 21:28:12 ##
+##########################
+## 2025-07-06 21:28:12 ##
+----> Treatment is locked for the id_cart = 18659
+## 2025-07-06 21:28:12 ##
+data for validation
+## 2025-07-06 21:28:12 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>468da0d8c28e24af6aed6b74986d437d</md5content><result><operation>authorization</operation><status>ok</status><date>2025-07-06</date><time>19:28:16 UTC+0000</time><origAmount>234.17</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18659</idForMerchant><emailClient>pascal-revel@laposte.net</emailClient><idClient>24761601</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18659</_aKey_cart_id>  <_aKey_customer_id>4985</_aKey_customer_id>  <_aKey_secure_key>586f7c04521d8bb6b5e800ee8667fe43</_aKey_secure_key>  <_aKey_token>160fda49bb6d171e24c81deec5bb752c</_aKey_token></merchantDatas><transid>686ACE236115C217</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 468da0d8c28e24af6aed6b74986d437d
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-07-06
+                    [time] => 19:28:16 UTC+0000
+                    [origAmount] => 234.17
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18659
+                    [emailClient] => pascal-revel@laposte.net
+                    [idClient] => 24761601
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18659
+                            [_aKey_customer_id] => 4985
+                            [_aKey_secure_key] => 586f7c04521d8bb6b5e800ee8667fe43
+                            [_aKey_token] => 160fda49bb6d171e24c81deec5bb752c
+                        )
+
+                    [transid] => 686ACE236115C217
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18659
+    [3] => 4985
+    [4] => 586f7c04521d8bb6b5e800ee8667fe43
+    [5] => 234.17
+)
+
+## 2025-07-06 21:28:12 ##
+----> START registerOrder()
+## 2025-07-06 21:28:12 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-06 21:28:12 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-07-06</date><time>19:28:16 UTC+0000</time><origAmount>234.17</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18659</idForMerchant><emailClient>pascal-revel@laposte.net</emailClient><idClient>24761601</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18659</_aKey_cart_id>  <_aKey_customer_id>4985</_aKey_customer_id>  <_aKey_secure_key>586f7c04521d8bb6b5e800ee8667fe43</_aKey_secure_key>  <_aKey_token>160fda49bb6d171e24c81deec5bb752c</_aKey_token></merchantDatas><transid>686ACE236115C217</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-06 21:28:12 ##
+currency : EUR
+## 2025-07-06 21:28:12 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-06 21:28:12 ##
+callback_salt : 
+## 2025-07-06 21:28:12 ##
+md5 : 468da0d8c28e24af6aed6b74986d437d == md5content : 468da0d8c28e24af6aed6b74986d437d
+## 2025-07-06 21:28:12 ##
+Status = ok
+## 2025-07-06 21:28:12 ##
+$currency = EUR
+## 2025-07-06 21:28:12 ##
+id_order_state = 42
+## 2025-07-06 21:28:12 ##
+----> START placeOrder()
+## 2025-07-06 21:28:12 ##
+Treatment status = 42
+## 2025-07-06 21:28:12 ##
+Validate order
+## 2025-07-06 21:28:12 ##
+Array
+(
+    [0] => 18659
+    [1] => 42
+    [2] => 234.17
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"686ACE236115C217"}
+    [5] => Array
+        (
+            [transaction_id] => 686ACE236115C217
+        )
+
+    [6] => 1
+    [7] => 586f7c04521d8bb6b5e800ee8667fe43
+)
+
+## 2025-07-06 21:28:12 ##
+ID Shop = 1
+## 2025-07-06 21:28:14 ##
+Order created
+## 2025-07-06 21:28:14 ##
+----> END placeOrder()
+## 2025-07-06 21:28:14 ##
+----> END registerOrder()
+## 2025-07-06 21:28:14 ##
+----> Treatment is unlocked for the id_cart = 18659
+## 2025-07-06 21:28:22 ##
+##########################
+## 2025-07-06 21:28:22 ##
+START Validation Callback
+## 2025-07-06 21:28:22 ##
+##########################
+## 2025-07-06 21:28:22 ##
+----> Treatment is locked for the id_cart = 18659
+## 2025-07-06 21:28:22 ##
+data for validation
+## 2025-07-06 21:28:22 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>824660f9e456227fa384fc48d0b24cb2</md5content><result><operation>capture</operation><status>ok</status><date>2025-07-06</date><time>19:28:22 UTC+0000</time><origAmount>234.17</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18659</idForMerchant><emailClient>pascal-revel@laposte.net</emailClient><idClient>24761601</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18659</_aKey_cart_id>  <_aKey_customer_id>4985</_aKey_customer_id>  <_aKey_secure_key>586f7c04521d8bb6b5e800ee8667fe43</_aKey_secure_key>  <_aKey_token>160fda49bb6d171e24c81deec5bb752c</_aKey_token></merchantDatas><transid>686ACE236115C217</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 824660f9e456227fa384fc48d0b24cb2
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-07-06
+                    [time] => 19:28:22 UTC+0000
+                    [origAmount] => 234.17
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18659
+                    [emailClient] => pascal-revel@laposte.net
+                    [idClient] => 24761601
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18659
+                            [_aKey_customer_id] => 4985
+                            [_aKey_secure_key] => 586f7c04521d8bb6b5e800ee8667fe43
+                            [_aKey_token] => 160fda49bb6d171e24c81deec5bb752c
+                        )
+
+                    [transid] => 686ACE236115C217
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18659
+    [3] => 4985
+    [4] => 586f7c04521d8bb6b5e800ee8667fe43
+    [5] => 234.17
+)
+
+## 2025-07-06 21:28:22 ##
+----> START registerOrder()
+## 2025-07-06 21:28:22 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-06 21:28:22 ##
+<result><operation>capture</operation><status>ok</status><date>2025-07-06</date><time>19:28:22 UTC+0000</time><origAmount>234.17</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18659</idForMerchant><emailClient>pascal-revel@laposte.net</emailClient><idClient>24761601</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18659</_aKey_cart_id>  <_aKey_customer_id>4985</_aKey_customer_id>  <_aKey_secure_key>586f7c04521d8bb6b5e800ee8667fe43</_aKey_secure_key>  <_aKey_token>160fda49bb6d171e24c81deec5bb752c</_aKey_token></merchantDatas><transid>686ACE236115C217</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-06 21:28:22 ##
+currency : EUR
+## 2025-07-06 21:28:22 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-06 21:28:22 ##
+callback_salt : 
+## 2025-07-06 21:28:22 ##
+md5 : 824660f9e456227fa384fc48d0b24cb2 == md5content : 824660f9e456227fa384fc48d0b24cb2
+## 2025-07-06 21:28:22 ##
+Status = ok
+## 2025-07-06 21:28:22 ##
+$currency = EUR
+## 2025-07-06 21:28:22 ##
+id_order_state = 2
+## 2025-07-06 21:28:22 ##
+----> START placeOrder()
+## 2025-07-06 21:28:22 ##
+Treatment an existing order
+## 2025-07-06 21:28:22 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-07-06 21:28:22 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-07-06
+    [time] => 19:28:22 UTC+0000
+    [origAmount] => 234.17
+    [origCurrency] => EUR
+    [idForMerchant] => 18659
+    [emailClient] => pascal-revel@laposte.net
+    [idClient] => 24761601
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 18659
+            [_aKey_customer_id] => 4985
+            [_aKey_secure_key] => 586f7c04521d8bb6b5e800ee8667fe43
+            [_aKey_token] => 160fda49bb6d171e24c81deec5bb752c
+        )
+
+    [transid] => 686ACE236115C217
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-07-06 21:28:24 ##
+----> END placeOrder()
+## 2025-07-06 21:28:24 ##
+----> END registerOrder()
+## 2025-07-06 21:28:24 ##
+----> Treatment is unlocked for the id_cart = 18659

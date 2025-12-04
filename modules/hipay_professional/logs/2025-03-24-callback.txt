@@ -1,0 +1,259 @@
+## 2025-03-24 13:45:58 ##
+##########################
+## 2025-03-24 13:45:58 ##
+START Validation Callback
+## 2025-03-24 13:45:58 ##
+##########################
+## 2025-03-24 13:45:58 ##
+----> Treatment is locked for the id_cart = 17631
+## 2025-03-24 13:45:58 ##
+data for validation
+## 2025-03-24 13:45:58 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ddc4c55f4565142342e8843c28041412</md5content><result><operation>authorization</operation><status>ok</status><date>2025-03-24</date><time>12:45:58 UTC+0000</time><origAmount>102.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>17631</idForMerchant><emailClient>c.dufraigne@dufraigne-batiment.com</emailClient><idClient>24526444</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>17631</_aKey_cart_id>  <_aKey_customer_id>4791</_aKey_customer_id>  <_aKey_secure_key>bd2c80bd627400fe7860c4e5d180a2af</_aKey_secure_key>  <_aKey_token>04daa3faff1176bba6122567449af6f8</_aKey_token></merchantDatas><transid>67E153EC889C0847</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ddc4c55f4565142342e8843c28041412
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-03-24
+                    [time] => 12:45:58 UTC+0000
+                    [origAmount] => 102.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 17631
+                    [emailClient] => c.dufraigne@dufraigne-batiment.com
+                    [idClient] => 24526444
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 17631
+                            [_aKey_customer_id] => 4791
+                            [_aKey_secure_key] => bd2c80bd627400fe7860c4e5d180a2af
+                            [_aKey_token] => 04daa3faff1176bba6122567449af6f8
+                        )
+
+                    [transid] => 67E153EC889C0847
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 17631
+    [3] => 4791
+    [4] => bd2c80bd627400fe7860c4e5d180a2af
+    [5] => 102
+)
+
+## 2025-03-24 13:45:58 ##
+----> START registerOrder()
+## 2025-03-24 13:45:58 ##
+accountID:13248407 / websiteId:417972
+## 2025-03-24 13:45:58 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-03-24</date><time>12:45:58 UTC+0000</time><origAmount>102.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>17631</idForMerchant><emailClient>c.dufraigne@dufraigne-batiment.com</emailClient><idClient>24526444</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>17631</_aKey_cart_id>  <_aKey_customer_id>4791</_aKey_customer_id>  <_aKey_secure_key>bd2c80bd627400fe7860c4e5d180a2af</_aKey_secure_key>  <_aKey_token>04daa3faff1176bba6122567449af6f8</_aKey_token></merchantDatas><transid>67E153EC889C0847</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-03-24 13:45:58 ##
+currency : EUR
+## 2025-03-24 13:45:58 ##
+accountID:13248407 / websiteId:417972
+## 2025-03-24 13:45:58 ##
+callback_salt : 
+## 2025-03-24 13:45:58 ##
+md5 : ddc4c55f4565142342e8843c28041412 == md5content : ddc4c55f4565142342e8843c28041412
+## 2025-03-24 13:45:58 ##
+Status = ok
+## 2025-03-24 13:45:58 ##
+$currency = EUR
+## 2025-03-24 13:45:58 ##
+id_order_state = 42
+## 2025-03-24 13:45:58 ##
+----> START placeOrder()
+## 2025-03-24 13:45:58 ##
+Treatment status = 42
+## 2025-03-24 13:45:58 ##
+Validate order
+## 2025-03-24 13:45:58 ##
+Array
+(
+    [0] => 17631
+    [1] => 42
+    [2] => 102
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"67E153EC889C0847"}
+    [5] => Array
+        (
+            [transaction_id] => 67E153EC889C0847
+        )
+
+    [6] => 1
+    [7] => bd2c80bd627400fe7860c4e5d180a2af
+)
+
+## 2025-03-24 13:45:58 ##
+ID Shop = 1
+## 2025-03-24 13:45:59 ##
+Order created
+## 2025-03-24 13:45:59 ##
+----> END placeOrder()
+## 2025-03-24 13:45:59 ##
+----> END registerOrder()
+## 2025-03-24 13:45:59 ##
+----> Treatment is unlocked for the id_cart = 17631
+## 2025-03-24 13:46:04 ##
+##########################
+## 2025-03-24 13:46:04 ##
+START Validation Callback
+## 2025-03-24 13:46:04 ##
+##########################
+## 2025-03-24 13:46:04 ##
+----> Treatment is locked for the id_cart = 17631
+## 2025-03-24 13:46:04 ##
+data for validation
+## 2025-03-24 13:46:04 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>7e605298b8f04c17691c46f0ffb80c3d</md5content><result><operation>capture</operation><status>ok</status><date>2025-03-24</date><time>12:46:05 UTC+0000</time><origAmount>102.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>17631</idForMerchant><emailClient>c.dufraigne@dufraigne-batiment.com</emailClient><idClient>24526444</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>17631</_aKey_cart_id>  <_aKey_customer_id>4791</_aKey_customer_id>  <_aKey_secure_key>bd2c80bd627400fe7860c4e5d180a2af</_aKey_secure_key>  <_aKey_token>04daa3faff1176bba6122567449af6f8</_aKey_token></merchantDatas><transid>67E153EC889C0847</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 7e605298b8f04c17691c46f0ffb80c3d
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-03-24
+                    [time] => 12:46:05 UTC+0000
+                    [origAmount] => 102.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 17631
+                    [emailClient] => c.dufraigne@dufraigne-batiment.com
+                    [idClient] => 24526444
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 17631
+                            [_aKey_customer_id] => 4791
+                            [_aKey_secure_key] => bd2c80bd627400fe7860c4e5d180a2af
+                            [_aKey_token] => 04daa3faff1176bba6122567449af6f8
+                        )
+
+                    [transid] => 67E153EC889C0847
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 17631
+    [3] => 4791
+    [4] => bd2c80bd627400fe7860c4e5d180a2af
+    [5] => 102
+)
+
+## 2025-03-24 13:46:04 ##
+----> START registerOrder()
+## 2025-03-24 13:46:04 ##
+accountID:13248407 / websiteId:417972
+## 2025-03-24 13:46:04 ##
+<result><operation>capture</operation><status>ok</status><date>2025-03-24</date><time>12:46:05 UTC+0000</time><origAmount>102.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>17631</idForMerchant><emailClient>c.dufraigne@dufraigne-batiment.com</emailClient><idClient>24526444</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>17631</_aKey_cart_id>  <_aKey_customer_id>4791</_aKey_customer_id>  <_aKey_secure_key>bd2c80bd627400fe7860c4e5d180a2af</_aKey_secure_key>  <_aKey_token>04daa3faff1176bba6122567449af6f8</_aKey_token></merchantDatas><transid>67E153EC889C0847</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-03-24 13:46:04 ##
+currency : EUR
+## 2025-03-24 13:46:04 ##
+accountID:13248407 / websiteId:417972
+## 2025-03-24 13:46:04 ##
+callback_salt : 
+## 2025-03-24 13:46:04 ##
+md5 : 7e605298b8f04c17691c46f0ffb80c3d == md5content : 7e605298b8f04c17691c46f0ffb80c3d
+## 2025-03-24 13:46:04 ##
+Status = ok
+## 2025-03-24 13:46:04 ##
+$currency = EUR
+## 2025-03-24 13:46:04 ##
+id_order_state = 2
+## 2025-03-24 13:46:04 ##
+----> START placeOrder()
+## 2025-03-24 13:46:04 ##
+Treatment an existing order
+## 2025-03-24 13:46:04 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-03-24 13:46:04 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-03-24
+    [time] => 12:46:05 UTC+0000
+    [origAmount] => 102.00
+    [origCurrency] => EUR
+    [idForMerchant] => 17631
+    [emailClient] => c.dufraigne@dufraigne-batiment.com
+    [idClient] => 24526444
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 17631
+            [_aKey_customer_id] => 4791
+            [_aKey_secure_key] => bd2c80bd627400fe7860c4e5d180a2af
+            [_aKey_token] => 04daa3faff1176bba6122567449af6f8
+        )
+
+    [transid] => 67E153EC889C0847
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-03-24 13:46:06 ##
+----> END placeOrder()
+## 2025-03-24 13:46:06 ##
+----> END registerOrder()
+## 2025-03-24 13:46:06 ##
+----> Treatment is unlocked for the id_cart = 17631

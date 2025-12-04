@@ -1,0 +1,359 @@
+## 2023-06-28 09:32:56 ##
+##########################
+## 2023-06-28 09:32:56 ##
+START Validation Callback
+## 2023-06-28 09:32:56 ##
+##########################
+## 2023-06-28 09:32:56 ##
+----> Treatment is locked for the id_cart = 9595
+## 2023-06-28 09:32:56 ##
+data for validation
+## 2023-06-28 09:32:56 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>b1edcf75f820d45b13e4aca486b95e2a</md5content><result><operation>authorization</operation><status>ok</status><date>2023-06-28</date><time>07:32:54 UTC+0000</time><origAmount>159.90</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9595</idForMerchant><emailClient>magasin@valentegrue.com</emailClient><idClient>16404360</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9595</_aKey_cart_id>  <_aKey_customer_id>3547</_aKey_customer_id>  <_aKey_secure_key>5ea5df9fb71a556c5244d587b4c84167</_aKey_secure_key>  <_aKey_token>497bdc699f7bb794a117e2dd54649897</_aKey_token></merchantDatas><transid>649BE1F21A473705</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => b1edcf75f820d45b13e4aca486b95e2a
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-06-28
+                    [time] => 07:32:54 UTC+0000
+                    [origAmount] => 159.90
+                    [origCurrency] => EUR
+                    [idForMerchant] => 9595
+                    [emailClient] => magasin@valentegrue.com
+                    [idClient] => 16404360
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 9595
+                            [_aKey_customer_id] => 3547
+                            [_aKey_secure_key] => 5ea5df9fb71a556c5244d587b4c84167
+                            [_aKey_token] => 497bdc699f7bb794a117e2dd54649897
+                        )
+
+                    [transid] => 649BE1F21A473705
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 9595
+    [3] => 3547
+    [4] => 5ea5df9fb71a556c5244d587b4c84167
+    [5] => 159.9
+)
+
+## 2023-06-28 09:32:56 ##
+----> START registerOrder()
+## 2023-06-28 09:32:56 ##
+accountID:13248407 / websiteId:417972
+## 2023-06-28 09:32:56 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-06-28</date><time>07:32:54 UTC+0000</time><origAmount>159.90</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9595</idForMerchant><emailClient>magasin@valentegrue.com</emailClient><idClient>16404360</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9595</_aKey_cart_id>  <_aKey_customer_id>3547</_aKey_customer_id>  <_aKey_secure_key>5ea5df9fb71a556c5244d587b4c84167</_aKey_secure_key>  <_aKey_token>497bdc699f7bb794a117e2dd54649897</_aKey_token></merchantDatas><transid>649BE1F21A473705</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-06-28 09:32:56 ##
+currency : EUR
+## 2023-06-28 09:32:56 ##
+accountID:13248407 / websiteId:417972
+## 2023-06-28 09:32:56 ##
+callback_salt : 
+## 2023-06-28 09:32:56 ##
+md5 : b1edcf75f820d45b13e4aca486b95e2a == md5content : b1edcf75f820d45b13e4aca486b95e2a
+## 2023-06-28 09:32:56 ##
+Status = ok
+## 2023-06-28 09:32:56 ##
+$currency = EUR
+## 2023-06-28 09:32:56 ##
+id_order_state = 42
+## 2023-06-28 09:32:56 ##
+----> START placeOrder()
+## 2023-06-28 09:32:56 ##
+Treatment status = 42
+## 2023-06-28 09:32:56 ##
+Validate order
+## 2023-06-28 09:32:56 ##
+Array
+(
+    [0] => 9595
+    [1] => 42
+    [2] => 159.9
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"649BE1F21A473705"}
+    [5] => Array
+        (
+            [transaction_id] => 649BE1F21A473705
+        )
+
+    [6] => 1
+    [7] => 5ea5df9fb71a556c5244d587b4c84167
+)
+
+## 2023-06-28 09:32:56 ##
+ID Shop = 1
+## 2023-06-28 09:33:04 ##
+Order created
+## 2023-06-28 09:33:04 ##
+----> END placeOrder()
+## 2023-06-28 09:33:04 ##
+----> END registerOrder()
+## 2023-06-28 09:33:04 ##
+----> Treatment is unlocked for the id_cart = 9595
+## 2023-06-28 09:33:06 ##
+##########################
+## 2023-06-28 09:33:06 ##
+START Validation Callback
+## 2023-06-28 09:33:06 ##
+##########################
+## 2023-06-28 09:33:06 ##
+----> Treatment is locked for the id_cart = 9595
+## 2023-06-28 09:33:06 ##
+data for validation
+## 2023-06-28 09:33:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>5f5c0dd7c6f399a2fc56067a6dd3aded</md5content><result><operation>capture</operation><status>ok</status><date>2023-06-28</date><time>07:33:02 UTC+0000</time><origAmount>159.90</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9595</idForMerchant><emailClient>magasin@valentegrue.com</emailClient><idClient>16404360</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9595</_aKey_cart_id>  <_aKey_customer_id>3547</_aKey_customer_id>  <_aKey_secure_key>5ea5df9fb71a556c5244d587b4c84167</_aKey_secure_key>  <_aKey_token>497bdc699f7bb794a117e2dd54649897</_aKey_token></merchantDatas><transid>649BE1F21A473705</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 5f5c0dd7c6f399a2fc56067a6dd3aded
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-06-28
+                    [time] => 07:33:02 UTC+0000
+                    [origAmount] => 159.90
+                    [origCurrency] => EUR
+                    [idForMerchant] => 9595
+                    [emailClient] => magasin@valentegrue.com
+                    [idClient] => 16404360
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 9595
+                            [_aKey_customer_id] => 3547
+                            [_aKey_secure_key] => 5ea5df9fb71a556c5244d587b4c84167
+                            [_aKey_token] => 497bdc699f7bb794a117e2dd54649897
+                        )
+
+                    [transid] => 649BE1F21A473705
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 9595
+    [3] => 3547
+    [4] => 5ea5df9fb71a556c5244d587b4c84167
+    [5] => 159.9
+)
+
+## 2023-06-28 09:33:06 ##
+----> START registerOrder()
+## 2023-06-28 09:33:06 ##
+accountID:13248407 / websiteId:417972
+## 2023-06-28 09:33:06 ##
+<result><operation>capture</operation><status>ok</status><date>2023-06-28</date><time>07:33:02 UTC+0000</time><origAmount>159.90</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9595</idForMerchant><emailClient>magasin@valentegrue.com</emailClient><idClient>16404360</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9595</_aKey_cart_id>  <_aKey_customer_id>3547</_aKey_customer_id>  <_aKey_secure_key>5ea5df9fb71a556c5244d587b4c84167</_aKey_secure_key>  <_aKey_token>497bdc699f7bb794a117e2dd54649897</_aKey_token></merchantDatas><transid>649BE1F21A473705</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-06-28 09:33:06 ##
+currency : EUR
+## 2023-06-28 09:33:06 ##
+accountID:13248407 / websiteId:417972
+## 2023-06-28 09:33:06 ##
+callback_salt : 
+## 2023-06-28 09:33:06 ##
+md5 : 5f5c0dd7c6f399a2fc56067a6dd3aded == md5content : 5f5c0dd7c6f399a2fc56067a6dd3aded
+## 2023-06-28 09:33:06 ##
+Status = ok
+## 2023-06-28 09:33:06 ##
+$currency = EUR
+## 2023-06-28 09:33:06 ##
+id_order_state = 2
+## 2023-06-28 09:33:06 ##
+----> START placeOrder()
+## 2023-06-28 09:33:06 ##
+Treatment an existing order
+## 2023-06-28 09:33:06 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-06-28 09:33:06 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-06-28
+    [time] => 07:33:02 UTC+0000
+    [origAmount] => 159.90
+    [origCurrency] => EUR
+    [idForMerchant] => 9595
+    [emailClient] => magasin@valentegrue.com
+    [idClient] => 16404360
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 9595
+            [_aKey_customer_id] => 3547
+            [_aKey_secure_key] => 5ea5df9fb71a556c5244d587b4c84167
+            [_aKey_token] => 497bdc699f7bb794a117e2dd54649897
+        )
+
+    [transid] => 649BE1F21A473705
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-06-28 09:33:06 ##
+----> END placeOrder()
+## 2023-06-28 09:33:06 ##
+----> END registerOrder()
+## 2023-06-28 09:33:06 ##
+----> Treatment is unlocked for the id_cart = 9595
+## 2023-06-28 10:36:18 ##
+##########################
+## 2023-06-28 10:36:18 ##
+START Validation Callback
+## 2023-06-28 10:36:18 ##
+##########################
+## 2023-06-28 10:36:18 ##
+----> Treatment is locked for the id_cart = 9320
+## 2023-06-28 10:36:18 ##
+data for validation
+## 2023-06-28 10:36:18 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>d1aeeffa4daea34788a6ef26c3ef77fb</md5content><result><operation>refund</operation><status>ok</status><date>2023-06-28</date><time>08:36:16 UTC+0000</time><origAmount>146.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9320</idForMerchant><emailClient>labussiere86@orange.fr</emailClient><idClient>22393564</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9320</_aKey_cart_id>  <_aKey_customer_id>3504</_aKey_customer_id>  <_aKey_secure_key>375bbf68070a3c03d73b4f78866201e7</_aKey_secure_key>  <_aKey_token>34df020d2a601236c547adda5575b1ac</_aKey_token></merchantDatas><transid>6486DB6C0A258126</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><refundedAmount>146.99</refundedAmount><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => d1aeeffa4daea34788a6ef26c3ef77fb
+            [result] => Array
+                (
+                    [operation] => refund
+                    [status] => ok
+                    [date] => 2023-06-28
+                    [time] => 08:36:16 UTC+0000
+                    [origAmount] => 146.99
+                    [origCurrency] => EUR
+                    [idForMerchant] => 9320
+                    [emailClient] => labussiere86@orange.fr
+                    [idClient] => 22393564
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 9320
+                            [_aKey_customer_id] => 3504
+                            [_aKey_secure_key] => 375bbf68070a3c03d73b4f78866201e7
+                            [_aKey_token] => 34df020d2a601236c547adda5575b1ac
+                        )
+
+                    [transid] => 6486DB6C0A258126
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [refundedAmount] => 146.99
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 9320
+    [3] => 3504
+    [4] => 375bbf68070a3c03d73b4f78866201e7
+    [5] => 146.99
+)
+
+## 2023-06-28 10:36:18 ##
+----> START registerOrder()
+## 2023-06-28 10:36:18 ##
+accountID:13248407 / websiteId:417972
+## 2023-06-28 10:36:18 ##
+<result><operation>refund</operation><status>ok</status><date>2023-06-28</date><time>08:36:16 UTC+0000</time><origAmount>146.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>9320</idForMerchant><emailClient>labussiere86@orange.fr</emailClient><idClient>22393564</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>9320</_aKey_cart_id>  <_aKey_customer_id>3504</_aKey_customer_id>  <_aKey_secure_key>375bbf68070a3c03d73b4f78866201e7</_aKey_secure_key>  <_aKey_token>34df020d2a601236c547adda5575b1ac</_aKey_token></merchantDatas><transid>6486DB6C0A258126</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><refundedAmount>146.99</refundedAmount><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-06-28 10:36:18 ##
+currency : EUR
+## 2023-06-28 10:36:18 ##
+accountID:13248407 / websiteId:417972
+## 2023-06-28 10:36:18 ##
+callback_salt : 
+## 2023-06-28 10:36:18 ##
+md5 : d1aeeffa4daea34788a6ef26c3ef77fb == md5content : d1aeeffa4daea34788a6ef26c3ef77fb
+## 2023-06-28 10:36:18 ##
+Status = ok
+## 2023-06-28 10:36:18 ##
+$currency = EUR
+## 2023-06-28 10:36:18 ##
+id_order_state = 2
+## 2023-06-28 10:36:18 ##
+----> START placeOrder()
+## 2023-06-28 10:36:18 ##
+Treatment an existing order
+## 2023-06-28 10:36:18 ##
+getCurrentState 7 != HIPAY_OS_WAITING 42
+## 2023-06-28 10:36:18 ##
+----> END placeOrder()
+## 2023-06-28 10:36:18 ##
+----> END registerOrder()
+## 2023-06-28 10:36:18 ##
+----> Treatment is unlocked for the id_cart = 9320

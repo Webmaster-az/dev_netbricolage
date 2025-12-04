@@ -1,0 +1,259 @@
+## 2024-04-05 10:55:46 ##
+##########################
+## 2024-04-05 10:55:46 ##
+START Validation Callback
+## 2024-04-05 10:55:46 ##
+##########################
+## 2024-04-05 10:55:46 ##
+----> Treatment is locked for the id_cart = 13764
+## 2024-04-05 10:55:46 ##
+data for validation
+## 2024-04-05 10:55:46 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>c8f0c727aa2fce7ea679cf005f82285d</md5content><result><operation>authorization</operation><status>ok</status><date>2024-04-05</date><time>08:55:44 UTC+0000</time><origAmount>48.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13764</idForMerchant><emailClient>marc-thibaut@bluewin.ch</emailClient><idClient>23455476</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13764</_aKey_cart_id>  <_aKey_customer_id>4198</_aKey_customer_id>  <_aKey_secure_key>800c1bd66114df629e4b89d3d76f27a1</_aKey_secure_key>  <_aKey_token>4d4575fc9c1c26d5d89170386c921fd4</_aKey_token></merchantDatas><transid>660FBC20BF762250</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => c8f0c727aa2fce7ea679cf005f82285d
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-04-05
+                    [time] => 08:55:44 UTC+0000
+                    [origAmount] => 48.23
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13764
+                    [emailClient] => marc-thibaut@bluewin.ch
+                    [idClient] => 23455476
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13764
+                            [_aKey_customer_id] => 4198
+                            [_aKey_secure_key] => 800c1bd66114df629e4b89d3d76f27a1
+                            [_aKey_token] => 4d4575fc9c1c26d5d89170386c921fd4
+                        )
+
+                    [transid] => 660FBC20BF762250
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13764
+    [3] => 4198
+    [4] => 800c1bd66114df629e4b89d3d76f27a1
+    [5] => 48.23
+)
+
+## 2024-04-05 10:55:46 ##
+----> START registerOrder()
+## 2024-04-05 10:55:46 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-05 10:55:46 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-04-05</date><time>08:55:44 UTC+0000</time><origAmount>48.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13764</idForMerchant><emailClient>marc-thibaut@bluewin.ch</emailClient><idClient>23455476</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13764</_aKey_cart_id>  <_aKey_customer_id>4198</_aKey_customer_id>  <_aKey_secure_key>800c1bd66114df629e4b89d3d76f27a1</_aKey_secure_key>  <_aKey_token>4d4575fc9c1c26d5d89170386c921fd4</_aKey_token></merchantDatas><transid>660FBC20BF762250</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-05 10:55:46 ##
+currency : EUR
+## 2024-04-05 10:55:46 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-05 10:55:46 ##
+callback_salt : 
+## 2024-04-05 10:55:46 ##
+md5 : c8f0c727aa2fce7ea679cf005f82285d == md5content : c8f0c727aa2fce7ea679cf005f82285d
+## 2024-04-05 10:55:46 ##
+Status = ok
+## 2024-04-05 10:55:46 ##
+$currency = EUR
+## 2024-04-05 10:55:46 ##
+id_order_state = 42
+## 2024-04-05 10:55:46 ##
+----> START placeOrder()
+## 2024-04-05 10:55:46 ##
+Treatment status = 42
+## 2024-04-05 10:55:46 ##
+Validate order
+## 2024-04-05 10:55:46 ##
+Array
+(
+    [0] => 13764
+    [1] => 42
+    [2] => 48.23
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"660FBC20BF762250"}
+    [5] => Array
+        (
+            [transaction_id] => 660FBC20BF762250
+        )
+
+    [6] => 1
+    [7] => 800c1bd66114df629e4b89d3d76f27a1
+)
+
+## 2024-04-05 10:55:46 ##
+ID Shop = 1
+## 2024-04-05 10:55:50 ##
+Order created
+## 2024-04-05 10:55:50 ##
+----> END placeOrder()
+## 2024-04-05 10:55:50 ##
+----> END registerOrder()
+## 2024-04-05 10:55:50 ##
+----> Treatment is unlocked for the id_cart = 13764
+## 2024-04-05 10:55:56 ##
+##########################
+## 2024-04-05 10:55:56 ##
+START Validation Callback
+## 2024-04-05 10:55:56 ##
+##########################
+## 2024-04-05 10:55:56 ##
+----> Treatment is locked for the id_cart = 13764
+## 2024-04-05 10:55:56 ##
+data for validation
+## 2024-04-05 10:55:56 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>235aa3cde47807435f07986709980c07</md5content><result><operation>capture</operation><status>ok</status><date>2024-04-05</date><time>08:55:51 UTC+0000</time><origAmount>48.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13764</idForMerchant><emailClient>marc-thibaut@bluewin.ch</emailClient><idClient>23455476</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13764</_aKey_cart_id>  <_aKey_customer_id>4198</_aKey_customer_id>  <_aKey_secure_key>800c1bd66114df629e4b89d3d76f27a1</_aKey_secure_key>  <_aKey_token>4d4575fc9c1c26d5d89170386c921fd4</_aKey_token></merchantDatas><transid>660FBC20BF762250</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 235aa3cde47807435f07986709980c07
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-04-05
+                    [time] => 08:55:51 UTC+0000
+                    [origAmount] => 48.23
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13764
+                    [emailClient] => marc-thibaut@bluewin.ch
+                    [idClient] => 23455476
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13764
+                            [_aKey_customer_id] => 4198
+                            [_aKey_secure_key] => 800c1bd66114df629e4b89d3d76f27a1
+                            [_aKey_token] => 4d4575fc9c1c26d5d89170386c921fd4
+                        )
+
+                    [transid] => 660FBC20BF762250
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13764
+    [3] => 4198
+    [4] => 800c1bd66114df629e4b89d3d76f27a1
+    [5] => 48.23
+)
+
+## 2024-04-05 10:55:56 ##
+----> START registerOrder()
+## 2024-04-05 10:55:56 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-05 10:55:56 ##
+<result><operation>capture</operation><status>ok</status><date>2024-04-05</date><time>08:55:51 UTC+0000</time><origAmount>48.23</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13764</idForMerchant><emailClient>marc-thibaut@bluewin.ch</emailClient><idClient>23455476</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13764</_aKey_cart_id>  <_aKey_customer_id>4198</_aKey_customer_id>  <_aKey_secure_key>800c1bd66114df629e4b89d3d76f27a1</_aKey_secure_key>  <_aKey_token>4d4575fc9c1c26d5d89170386c921fd4</_aKey_token></merchantDatas><transid>660FBC20BF762250</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-05 10:55:56 ##
+currency : EUR
+## 2024-04-05 10:55:56 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-05 10:55:56 ##
+callback_salt : 
+## 2024-04-05 10:55:56 ##
+md5 : 235aa3cde47807435f07986709980c07 == md5content : 235aa3cde47807435f07986709980c07
+## 2024-04-05 10:55:56 ##
+Status = ok
+## 2024-04-05 10:55:56 ##
+$currency = EUR
+## 2024-04-05 10:55:56 ##
+id_order_state = 2
+## 2024-04-05 10:55:56 ##
+----> START placeOrder()
+## 2024-04-05 10:55:56 ##
+Treatment an existing order
+## 2024-04-05 10:55:56 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-04-05 10:55:56 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-04-05
+    [time] => 08:55:51 UTC+0000
+    [origAmount] => 48.23
+    [origCurrency] => EUR
+    [idForMerchant] => 13764
+    [emailClient] => marc-thibaut@bluewin.ch
+    [idClient] => 23455476
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 13764
+            [_aKey_customer_id] => 4198
+            [_aKey_secure_key] => 800c1bd66114df629e4b89d3d76f27a1
+            [_aKey_token] => 4d4575fc9c1c26d5d89170386c921fd4
+        )
+
+    [transid] => 660FBC20BF762250
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-04-05 10:55:57 ##
+----> END placeOrder()
+## 2024-04-05 10:55:57 ##
+----> END registerOrder()
+## 2024-04-05 10:55:57 ##
+----> Treatment is unlocked for the id_cart = 13764

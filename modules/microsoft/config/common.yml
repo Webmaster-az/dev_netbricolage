@@ -1,0 +1,11 @@
+imports:
+  - { resource: common/repository.yml }
+  - { resource: common/context.yml }
+
+services:
+  Microsoft:
+    class: 'Microsoft'
+    public: true
+    factory: ['Module', 'getInstanceByName']
+    arguments:
+      - 'Microsoft'

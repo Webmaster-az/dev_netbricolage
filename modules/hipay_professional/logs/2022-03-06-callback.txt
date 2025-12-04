@@ -1,0 +1,259 @@
+## 2022-03-06 16:44:31 ##
+##########################
+## 2022-03-06 16:44:31 ##
+START Validation Callback
+## 2022-03-06 16:44:31 ##
+##########################
+## 2022-03-06 16:44:31 ##
+----> Treatment is locked for the id_cart = 2011
+## 2022-03-06 16:44:31 ##
+data for validation
+## 2022-03-06 16:44:31 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>4537b5964af668e3af0e7f69a058f5e0</md5content><result><operation>authorization</operation><status>ok</status><date>2022-03-06</date><time>15:44:27 UTC+0000</time><origAmount>480.51</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2011</idForMerchant><emailClient>sarl-dsa@orange.fr</emailClient><idClient>18390800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2011</_aKey_cart_id>  <_aKey_customer_id>1262</_aKey_customer_id>  <_aKey_secure_key>aeca0e8f4ecd0acee1fee93ac65474de</_aKey_secure_key>  <_aKey_token>2e567517e4a9625095ecf59fb44fe01a</_aKey_token></merchantDatas><transid>6224D697BAEA7232</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 4537b5964af668e3af0e7f69a058f5e0
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-03-06
+                    [time] => 15:44:27 UTC+0000
+                    [origAmount] => 480.51
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2011
+                    [emailClient] => sarl-dsa@orange.fr
+                    [idClient] => 18390800
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2011
+                            [_aKey_customer_id] => 1262
+                            [_aKey_secure_key] => aeca0e8f4ecd0acee1fee93ac65474de
+                            [_aKey_token] => 2e567517e4a9625095ecf59fb44fe01a
+                        )
+
+                    [transid] => 6224D697BAEA7232
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2011
+    [3] => 1262
+    [4] => aeca0e8f4ecd0acee1fee93ac65474de
+    [5] => 480.51
+)
+
+## 2022-03-06 16:44:31 ##
+----> START registerOrder()
+## 2022-03-06 16:44:31 ##
+accountID:13248407 / websiteId:418801
+## 2022-03-06 16:44:31 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-03-06</date><time>15:44:27 UTC+0000</time><origAmount>480.51</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2011</idForMerchant><emailClient>sarl-dsa@orange.fr</emailClient><idClient>18390800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2011</_aKey_cart_id>  <_aKey_customer_id>1262</_aKey_customer_id>  <_aKey_secure_key>aeca0e8f4ecd0acee1fee93ac65474de</_aKey_secure_key>  <_aKey_token>2e567517e4a9625095ecf59fb44fe01a</_aKey_token></merchantDatas><transid>6224D697BAEA7232</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-03-06 16:44:31 ##
+currency : EUR
+## 2022-03-06 16:44:31 ##
+accountID:13248407 / websiteId:418801
+## 2022-03-06 16:44:31 ##
+callback_salt : 
+## 2022-03-06 16:44:31 ##
+md5 : 4537b5964af668e3af0e7f69a058f5e0 == md5content : 4537b5964af668e3af0e7f69a058f5e0
+## 2022-03-06 16:44:31 ##
+Status = ok
+## 2022-03-06 16:44:31 ##
+$currency = EUR
+## 2022-03-06 16:44:31 ##
+id_order_state = 42
+## 2022-03-06 16:44:31 ##
+----> START placeOrder()
+## 2022-03-06 16:44:31 ##
+Treatment status = 42
+## 2022-03-06 16:44:31 ##
+Validate order
+## 2022-03-06 16:44:31 ##
+Array
+(
+    [0] => 2011
+    [1] => 42
+    [2] => 480.51
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6224D697BAEA7232"}
+    [5] => Array
+        (
+            [transaction_id] => 6224D697BAEA7232
+        )
+
+    [6] => 1
+    [7] => aeca0e8f4ecd0acee1fee93ac65474de
+)
+
+## 2022-03-06 16:44:31 ##
+ID Shop = 1
+## 2022-03-06 16:44:35 ##
+Order created
+## 2022-03-06 16:44:35 ##
+----> END placeOrder()
+## 2022-03-06 16:44:35 ##
+----> END registerOrder()
+## 2022-03-06 16:44:35 ##
+----> Treatment is unlocked for the id_cart = 2011
+## 2022-03-06 16:44:37 ##
+##########################
+## 2022-03-06 16:44:37 ##
+START Validation Callback
+## 2022-03-06 16:44:37 ##
+##########################
+## 2022-03-06 16:44:37 ##
+----> Treatment is locked for the id_cart = 2011
+## 2022-03-06 16:44:37 ##
+data for validation
+## 2022-03-06 16:44:37 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>4a2de7ec4a8bd899aa8779273dec6539</md5content><result><operation>capture</operation><status>ok</status><date>2022-03-06</date><time>15:44:34 UTC+0000</time><origAmount>480.51</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2011</idForMerchant><emailClient>sarl-dsa@orange.fr</emailClient><idClient>18390800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2011</_aKey_cart_id>  <_aKey_customer_id>1262</_aKey_customer_id>  <_aKey_secure_key>aeca0e8f4ecd0acee1fee93ac65474de</_aKey_secure_key>  <_aKey_token>2e567517e4a9625095ecf59fb44fe01a</_aKey_token></merchantDatas><transid>6224D697BAEA7232</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 4a2de7ec4a8bd899aa8779273dec6539
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-03-06
+                    [time] => 15:44:34 UTC+0000
+                    [origAmount] => 480.51
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2011
+                    [emailClient] => sarl-dsa@orange.fr
+                    [idClient] => 18390800
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2011
+                            [_aKey_customer_id] => 1262
+                            [_aKey_secure_key] => aeca0e8f4ecd0acee1fee93ac65474de
+                            [_aKey_token] => 2e567517e4a9625095ecf59fb44fe01a
+                        )
+
+                    [transid] => 6224D697BAEA7232
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2011
+    [3] => 1262
+    [4] => aeca0e8f4ecd0acee1fee93ac65474de
+    [5] => 480.51
+)
+
+## 2022-03-06 16:44:37 ##
+----> START registerOrder()
+## 2022-03-06 16:44:37 ##
+accountID:13248407 / websiteId:418801
+## 2022-03-06 16:44:37 ##
+<result><operation>capture</operation><status>ok</status><date>2022-03-06</date><time>15:44:34 UTC+0000</time><origAmount>480.51</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2011</idForMerchant><emailClient>sarl-dsa@orange.fr</emailClient><idClient>18390800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2011</_aKey_cart_id>  <_aKey_customer_id>1262</_aKey_customer_id>  <_aKey_secure_key>aeca0e8f4ecd0acee1fee93ac65474de</_aKey_secure_key>  <_aKey_token>2e567517e4a9625095ecf59fb44fe01a</_aKey_token></merchantDatas><transid>6224D697BAEA7232</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-03-06 16:44:37 ##
+currency : EUR
+## 2022-03-06 16:44:37 ##
+accountID:13248407 / websiteId:418801
+## 2022-03-06 16:44:37 ##
+callback_salt : 
+## 2022-03-06 16:44:37 ##
+md5 : 4a2de7ec4a8bd899aa8779273dec6539 == md5content : 4a2de7ec4a8bd899aa8779273dec6539
+## 2022-03-06 16:44:37 ##
+Status = ok
+## 2022-03-06 16:44:37 ##
+$currency = EUR
+## 2022-03-06 16:44:37 ##
+id_order_state = 2
+## 2022-03-06 16:44:37 ##
+----> START placeOrder()
+## 2022-03-06 16:44:37 ##
+Treatment an existing order
+## 2022-03-06 16:44:37 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-03-06 16:44:37 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-03-06
+    [time] => 15:44:34 UTC+0000
+    [origAmount] => 480.51
+    [origCurrency] => EUR
+    [idForMerchant] => 2011
+    [emailClient] => sarl-dsa@orange.fr
+    [idClient] => 18390800
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 2011
+            [_aKey_customer_id] => 1262
+            [_aKey_secure_key] => aeca0e8f4ecd0acee1fee93ac65474de
+            [_aKey_token] => 2e567517e4a9625095ecf59fb44fe01a
+        )
+
+    [transid] => 6224D697BAEA7232
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-03-06 16:44:37 ##
+----> END placeOrder()
+## 2022-03-06 16:44:37 ##
+----> END registerOrder()
+## 2022-03-06 16:44:37 ##
+----> Treatment is unlocked for the id_cart = 2011

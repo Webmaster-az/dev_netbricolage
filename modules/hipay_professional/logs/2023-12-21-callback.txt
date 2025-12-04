@@ -1,0 +1,259 @@
+## 2023-12-21 18:53:18 ##
+##########################
+## 2023-12-21 18:53:18 ##
+START Validation Callback
+## 2023-12-21 18:53:18 ##
+##########################
+## 2023-12-21 18:53:18 ##
+----> Treatment is locked for the id_cart = 12435
+## 2023-12-21 18:53:18 ##
+data for validation
+## 2023-12-21 18:53:18 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>410948501349c8caa6d88472c01fde46</md5content><result><operation>authorization</operation><status>ok</status><date>2023-12-21</date><time>17:53:14 UTC+0000</time><origAmount>119.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12435</idForMerchant><emailClient>ecrire@geante.fr</emailClient><idClient>23117988</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12435</_aKey_cart_id>  <_aKey_customer_id>3994</_aKey_customer_id>  <_aKey_secure_key>c39daccb14ab27c31c36b5494a28ba7f</_aKey_secure_key>  <_aKey_token>8b7c6ba263357102ab4d767f881d681e</_aKey_token></merchantDatas><transid>65847B57D5DB8189</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 410948501349c8caa6d88472c01fde46
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-12-21
+                    [time] => 17:53:14 UTC+0000
+                    [origAmount] => 119.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12435
+                    [emailClient] => ecrire@geante.fr
+                    [idClient] => 23117988
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12435
+                            [_aKey_customer_id] => 3994
+                            [_aKey_secure_key] => c39daccb14ab27c31c36b5494a28ba7f
+                            [_aKey_token] => 8b7c6ba263357102ab4d767f881d681e
+                        )
+
+                    [transid] => 65847B57D5DB8189
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12435
+    [3] => 3994
+    [4] => c39daccb14ab27c31c36b5494a28ba7f
+    [5] => 119
+)
+
+## 2023-12-21 18:53:18 ##
+----> START registerOrder()
+## 2023-12-21 18:53:18 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-21 18:53:18 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-12-21</date><time>17:53:14 UTC+0000</time><origAmount>119.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12435</idForMerchant><emailClient>ecrire@geante.fr</emailClient><idClient>23117988</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12435</_aKey_cart_id>  <_aKey_customer_id>3994</_aKey_customer_id>  <_aKey_secure_key>c39daccb14ab27c31c36b5494a28ba7f</_aKey_secure_key>  <_aKey_token>8b7c6ba263357102ab4d767f881d681e</_aKey_token></merchantDatas><transid>65847B57D5DB8189</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-12-21 18:53:18 ##
+currency : EUR
+## 2023-12-21 18:53:18 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-21 18:53:18 ##
+callback_salt : 
+## 2023-12-21 18:53:18 ##
+md5 : 410948501349c8caa6d88472c01fde46 == md5content : 410948501349c8caa6d88472c01fde46
+## 2023-12-21 18:53:18 ##
+Status = ok
+## 2023-12-21 18:53:18 ##
+$currency = EUR
+## 2023-12-21 18:53:18 ##
+id_order_state = 42
+## 2023-12-21 18:53:18 ##
+----> START placeOrder()
+## 2023-12-21 18:53:18 ##
+Treatment status = 42
+## 2023-12-21 18:53:18 ##
+Validate order
+## 2023-12-21 18:53:18 ##
+Array
+(
+    [0] => 12435
+    [1] => 42
+    [2] => 119
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"65847B57D5DB8189"}
+    [5] => Array
+        (
+            [transaction_id] => 65847B57D5DB8189
+        )
+
+    [6] => 1
+    [7] => c39daccb14ab27c31c36b5494a28ba7f
+)
+
+## 2023-12-21 18:53:18 ##
+ID Shop = 1
+## 2023-12-21 18:53:22 ##
+Order created
+## 2023-12-21 18:53:22 ##
+----> END placeOrder()
+## 2023-12-21 18:53:22 ##
+----> END registerOrder()
+## 2023-12-21 18:53:22 ##
+----> Treatment is unlocked for the id_cart = 12435
+## 2023-12-21 18:53:25 ##
+##########################
+## 2023-12-21 18:53:25 ##
+START Validation Callback
+## 2023-12-21 18:53:25 ##
+##########################
+## 2023-12-21 18:53:25 ##
+----> Treatment is locked for the id_cart = 12435
+## 2023-12-21 18:53:25 ##
+data for validation
+## 2023-12-21 18:53:25 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>447f3157970ca2cd65a671b9290a5b47</md5content><result><operation>capture</operation><status>ok</status><date>2023-12-21</date><time>17:53:22 UTC+0000</time><origAmount>119.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12435</idForMerchant><emailClient>ecrire@geante.fr</emailClient><idClient>23117988</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12435</_aKey_cart_id>  <_aKey_customer_id>3994</_aKey_customer_id>  <_aKey_secure_key>c39daccb14ab27c31c36b5494a28ba7f</_aKey_secure_key>  <_aKey_token>8b7c6ba263357102ab4d767f881d681e</_aKey_token></merchantDatas><transid>65847B57D5DB8189</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 447f3157970ca2cd65a671b9290a5b47
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-12-21
+                    [time] => 17:53:22 UTC+0000
+                    [origAmount] => 119.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12435
+                    [emailClient] => ecrire@geante.fr
+                    [idClient] => 23117988
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12435
+                            [_aKey_customer_id] => 3994
+                            [_aKey_secure_key] => c39daccb14ab27c31c36b5494a28ba7f
+                            [_aKey_token] => 8b7c6ba263357102ab4d767f881d681e
+                        )
+
+                    [transid] => 65847B57D5DB8189
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12435
+    [3] => 3994
+    [4] => c39daccb14ab27c31c36b5494a28ba7f
+    [5] => 119
+)
+
+## 2023-12-21 18:53:25 ##
+----> START registerOrder()
+## 2023-12-21 18:53:25 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-21 18:53:25 ##
+<result><operation>capture</operation><status>ok</status><date>2023-12-21</date><time>17:53:22 UTC+0000</time><origAmount>119.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12435</idForMerchant><emailClient>ecrire@geante.fr</emailClient><idClient>23117988</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12435</_aKey_cart_id>  <_aKey_customer_id>3994</_aKey_customer_id>  <_aKey_secure_key>c39daccb14ab27c31c36b5494a28ba7f</_aKey_secure_key>  <_aKey_token>8b7c6ba263357102ab4d767f881d681e</_aKey_token></merchantDatas><transid>65847B57D5DB8189</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-12-21 18:53:25 ##
+currency : EUR
+## 2023-12-21 18:53:25 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-21 18:53:25 ##
+callback_salt : 
+## 2023-12-21 18:53:25 ##
+md5 : 447f3157970ca2cd65a671b9290a5b47 == md5content : 447f3157970ca2cd65a671b9290a5b47
+## 2023-12-21 18:53:25 ##
+Status = ok
+## 2023-12-21 18:53:25 ##
+$currency = EUR
+## 2023-12-21 18:53:25 ##
+id_order_state = 2
+## 2023-12-21 18:53:25 ##
+----> START placeOrder()
+## 2023-12-21 18:53:25 ##
+Treatment an existing order
+## 2023-12-21 18:53:25 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-12-21 18:53:25 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-12-21
+    [time] => 17:53:22 UTC+0000
+    [origAmount] => 119.00
+    [origCurrency] => EUR
+    [idForMerchant] => 12435
+    [emailClient] => ecrire@geante.fr
+    [idClient] => 23117988
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12435
+            [_aKey_customer_id] => 3994
+            [_aKey_secure_key] => c39daccb14ab27c31c36b5494a28ba7f
+            [_aKey_token] => 8b7c6ba263357102ab4d767f881d681e
+        )
+
+    [transid] => 65847B57D5DB8189
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-12-21 18:53:26 ##
+----> END placeOrder()
+## 2023-12-21 18:53:26 ##
+----> END registerOrder()
+## 2023-12-21 18:53:26 ##
+----> Treatment is unlocked for the id_cart = 12435

@@ -1,0 +1,631 @@
+## 2022-12-03 16:34:57 ##
+##########################
+## 2022-12-03 16:34:57 ##
+START Validation Callback
+## 2022-12-03 16:34:57 ##
+##########################
+## 2022-12-03 16:34:57 ##
+----> Treatment is locked for the id_cart = 6296
+## 2022-12-03 16:34:57 ##
+data for validation
+## 2022-12-03 16:34:57 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>faee52f5852beb5eb0d04f0713255913</md5content><result><operation>authorization</operation><status>ok</status><date>2022-12-03</date><time>15:34:55 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6296</idForMerchant><emailClient>gindrat.jp.j@orange.fr</emailClient><idClient>13475690</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6296</_aKey_cart_id>  <_aKey_customer_id>2877</_aKey_customer_id>  <_aKey_secure_key>19c8b3af0bc711e15bef4249960ad56e</_aKey_secure_key>  <_aKey_token>4d7ad6cca97fd2fe10fb46e65ea83a72</_aKey_token></merchantDatas><transid>638B6C6978730102</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => faee52f5852beb5eb0d04f0713255913
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-12-03
+                    [time] => 15:34:55 UTC+0000
+                    [origAmount] => 51.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6296
+                    [emailClient] => gindrat.jp.j@orange.fr
+                    [idClient] => 13475690
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6296
+                            [_aKey_customer_id] => 2877
+                            [_aKey_secure_key] => 19c8b3af0bc711e15bef4249960ad56e
+                            [_aKey_token] => 4d7ad6cca97fd2fe10fb46e65ea83a72
+                        )
+
+                    [transid] => 638B6C6978730102
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6296
+    [3] => 2877
+    [4] => 19c8b3af0bc711e15bef4249960ad56e
+    [5] => 51.6
+)
+
+## 2022-12-03 16:34:57 ##
+----> START registerOrder()
+## 2022-12-03 16:34:57 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 16:34:57 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-12-03</date><time>15:34:55 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6296</idForMerchant><emailClient>gindrat.jp.j@orange.fr</emailClient><idClient>13475690</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6296</_aKey_cart_id>  <_aKey_customer_id>2877</_aKey_customer_id>  <_aKey_secure_key>19c8b3af0bc711e15bef4249960ad56e</_aKey_secure_key>  <_aKey_token>4d7ad6cca97fd2fe10fb46e65ea83a72</_aKey_token></merchantDatas><transid>638B6C6978730102</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-03 16:34:57 ##
+currency : EUR
+## 2022-12-03 16:34:57 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 16:34:57 ##
+callback_salt : 
+## 2022-12-03 16:34:57 ##
+md5 : faee52f5852beb5eb0d04f0713255913 == md5content : faee52f5852beb5eb0d04f0713255913
+## 2022-12-03 16:34:57 ##
+Status = ok
+## 2022-12-03 16:34:57 ##
+$currency = EUR
+## 2022-12-03 16:34:57 ##
+id_order_state = 42
+## 2022-12-03 16:34:57 ##
+----> START placeOrder()
+## 2022-12-03 16:34:57 ##
+Treatment status = 42
+## 2022-12-03 16:34:57 ##
+Validate order
+## 2022-12-03 16:34:57 ##
+Array
+(
+    [0] => 6296
+    [1] => 42
+    [2] => 51.6
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"638B6C6978730102"}
+    [5] => Array
+        (
+            [transaction_id] => 638B6C6978730102
+        )
+
+    [6] => 1
+    [7] => 19c8b3af0bc711e15bef4249960ad56e
+)
+
+## 2022-12-03 16:34:57 ##
+ID Shop = 1
+## 2022-12-03 16:34:59 ##
+Order created
+## 2022-12-03 16:34:59 ##
+----> END placeOrder()
+## 2022-12-03 16:34:59 ##
+----> END registerOrder()
+## 2022-12-03 16:34:59 ##
+----> Treatment is unlocked for the id_cart = 6296
+## 2022-12-03 16:35:06 ##
+##########################
+## 2022-12-03 16:35:06 ##
+START Validation Callback
+## 2022-12-03 16:35:06 ##
+##########################
+## 2022-12-03 16:35:06 ##
+----> Treatment is locked for the id_cart = 6296
+## 2022-12-03 16:35:06 ##
+data for validation
+## 2022-12-03 16:35:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>38c80ae203f8ac3a47aed22afce6d3dd</md5content><result><operation>capture</operation><status>ok</status><date>2022-12-03</date><time>15:35:02 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6296</idForMerchant><emailClient>gindrat.jp.j@orange.fr</emailClient><idClient>13475690</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6296</_aKey_cart_id>  <_aKey_customer_id>2877</_aKey_customer_id>  <_aKey_secure_key>19c8b3af0bc711e15bef4249960ad56e</_aKey_secure_key>  <_aKey_token>4d7ad6cca97fd2fe10fb46e65ea83a72</_aKey_token></merchantDatas><transid>638B6C6978730102</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 38c80ae203f8ac3a47aed22afce6d3dd
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-12-03
+                    [time] => 15:35:02 UTC+0000
+                    [origAmount] => 51.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6296
+                    [emailClient] => gindrat.jp.j@orange.fr
+                    [idClient] => 13475690
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6296
+                            [_aKey_customer_id] => 2877
+                            [_aKey_secure_key] => 19c8b3af0bc711e15bef4249960ad56e
+                            [_aKey_token] => 4d7ad6cca97fd2fe10fb46e65ea83a72
+                        )
+
+                    [transid] => 638B6C6978730102
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6296
+    [3] => 2877
+    [4] => 19c8b3af0bc711e15bef4249960ad56e
+    [5] => 51.6
+)
+
+## 2022-12-03 16:35:06 ##
+----> START registerOrder()
+## 2022-12-03 16:35:06 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 16:35:06 ##
+<result><operation>capture</operation><status>ok</status><date>2022-12-03</date><time>15:35:02 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6296</idForMerchant><emailClient>gindrat.jp.j@orange.fr</emailClient><idClient>13475690</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6296</_aKey_cart_id>  <_aKey_customer_id>2877</_aKey_customer_id>  <_aKey_secure_key>19c8b3af0bc711e15bef4249960ad56e</_aKey_secure_key>  <_aKey_token>4d7ad6cca97fd2fe10fb46e65ea83a72</_aKey_token></merchantDatas><transid>638B6C6978730102</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-03 16:35:06 ##
+currency : EUR
+## 2022-12-03 16:35:06 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 16:35:06 ##
+callback_salt : 
+## 2022-12-03 16:35:06 ##
+md5 : 38c80ae203f8ac3a47aed22afce6d3dd == md5content : 38c80ae203f8ac3a47aed22afce6d3dd
+## 2022-12-03 16:35:06 ##
+Status = ok
+## 2022-12-03 16:35:06 ##
+$currency = EUR
+## 2022-12-03 16:35:06 ##
+id_order_state = 2
+## 2022-12-03 16:35:06 ##
+----> START placeOrder()
+## 2022-12-03 16:35:06 ##
+Treatment an existing order
+## 2022-12-03 16:35:06 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-12-03 16:35:06 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-12-03
+    [time] => 15:35:02 UTC+0000
+    [origAmount] => 51.60
+    [origCurrency] => EUR
+    [idForMerchant] => 6296
+    [emailClient] => gindrat.jp.j@orange.fr
+    [idClient] => 13475690
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 6296
+            [_aKey_customer_id] => 2877
+            [_aKey_secure_key] => 19c8b3af0bc711e15bef4249960ad56e
+            [_aKey_token] => 4d7ad6cca97fd2fe10fb46e65ea83a72
+        )
+
+    [transid] => 638B6C6978730102
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-12-03 16:35:07 ##
+----> END placeOrder()
+## 2022-12-03 16:35:07 ##
+----> END registerOrder()
+## 2022-12-03 16:35:07 ##
+----> Treatment is unlocked for the id_cart = 6296
+## 2022-12-03 17:08:18 ##
+##########################
+## 2022-12-03 17:08:18 ##
+START Validation Callback
+## 2022-12-03 17:08:18 ##
+##########################
+## 2022-12-03 17:08:18 ##
+----> Treatment is locked for the id_cart = 6290
+## 2022-12-03 17:08:18 ##
+data for validation
+## 2022-12-03 17:08:18 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>fb3c2f45f77c96458f4c7c5a08f595bb</md5content><result><operation>authorization</operation><status>ok</status><date>2022-12-03</date><time>16:08:15 UTC+0000</time><origAmount>201.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6290</idForMerchant><emailClient>contact@recifathome.com</emailClient><idClient>21765674</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6290</_aKey_cart_id>  <_aKey_customer_id>2878</_aKey_customer_id>  <_aKey_secure_key>8679e4bca2c083419252ce9a7ae23ab0</_aKey_secure_key>  <_aKey_token>79c5b8d4c988a6513ae0fa3a6ceff490</_aKey_token></merchantDatas><transid>638B743A8DA76236</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => fb3c2f45f77c96458f4c7c5a08f595bb
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-12-03
+                    [time] => 16:08:15 UTC+0000
+                    [origAmount] => 201.26
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6290
+                    [emailClient] => contact@recifathome.com
+                    [idClient] => 21765674
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6290
+                            [_aKey_customer_id] => 2878
+                            [_aKey_secure_key] => 8679e4bca2c083419252ce9a7ae23ab0
+                            [_aKey_token] => 79c5b8d4c988a6513ae0fa3a6ceff490
+                        )
+
+                    [transid] => 638B743A8DA76236
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6290
+    [3] => 2878
+    [4] => 8679e4bca2c083419252ce9a7ae23ab0
+    [5] => 201.26
+)
+
+## 2022-12-03 17:08:18 ##
+----> START registerOrder()
+## 2022-12-03 17:08:18 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 17:08:18 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-12-03</date><time>16:08:15 UTC+0000</time><origAmount>201.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6290</idForMerchant><emailClient>contact@recifathome.com</emailClient><idClient>21765674</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6290</_aKey_cart_id>  <_aKey_customer_id>2878</_aKey_customer_id>  <_aKey_secure_key>8679e4bca2c083419252ce9a7ae23ab0</_aKey_secure_key>  <_aKey_token>79c5b8d4c988a6513ae0fa3a6ceff490</_aKey_token></merchantDatas><transid>638B743A8DA76236</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-03 17:08:18 ##
+currency : EUR
+## 2022-12-03 17:08:18 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 17:08:18 ##
+callback_salt : 
+## 2022-12-03 17:08:18 ##
+md5 : fb3c2f45f77c96458f4c7c5a08f595bb == md5content : fb3c2f45f77c96458f4c7c5a08f595bb
+## 2022-12-03 17:08:18 ##
+Status = ok
+## 2022-12-03 17:08:18 ##
+$currency = EUR
+## 2022-12-03 17:08:18 ##
+id_order_state = 42
+## 2022-12-03 17:08:18 ##
+----> START placeOrder()
+## 2022-12-03 17:08:18 ##
+Treatment status = 42
+## 2022-12-03 17:08:18 ##
+Validate order
+## 2022-12-03 17:08:18 ##
+Array
+(
+    [0] => 6290
+    [1] => 42
+    [2] => 201.26
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"638B743A8DA76236"}
+    [5] => Array
+        (
+            [transaction_id] => 638B743A8DA76236
+        )
+
+    [6] => 1
+    [7] => 8679e4bca2c083419252ce9a7ae23ab0
+)
+
+## 2022-12-03 17:08:18 ##
+ID Shop = 1
+## 2022-12-03 17:08:19 ##
+Order created
+## 2022-12-03 17:08:19 ##
+----> END placeOrder()
+## 2022-12-03 17:08:19 ##
+----> END registerOrder()
+## 2022-12-03 17:08:19 ##
+----> Treatment is unlocked for the id_cart = 6290
+## 2022-12-03 17:08:23 ##
+##########################
+## 2022-12-03 17:08:23 ##
+START Validation Callback
+## 2022-12-03 17:08:23 ##
+##########################
+## 2022-12-03 17:08:23 ##
+----> Treatment is locked for the id_cart = 6290
+## 2022-12-03 17:08:23 ##
+data for validation
+## 2022-12-03 17:08:23 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>00cd7626186e6a88869725ecfb9c3fd7</md5content><result><operation>capture</operation><status>ok</status><date>2022-12-03</date><time>16:08:21 UTC+0000</time><origAmount>201.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6290</idForMerchant><emailClient>contact@recifathome.com</emailClient><idClient>21765674</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6290</_aKey_cart_id>  <_aKey_customer_id>2878</_aKey_customer_id>  <_aKey_secure_key>8679e4bca2c083419252ce9a7ae23ab0</_aKey_secure_key>  <_aKey_token>79c5b8d4c988a6513ae0fa3a6ceff490</_aKey_token></merchantDatas><transid>638B743A8DA76236</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 00cd7626186e6a88869725ecfb9c3fd7
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-12-03
+                    [time] => 16:08:21 UTC+0000
+                    [origAmount] => 201.26
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6290
+                    [emailClient] => contact@recifathome.com
+                    [idClient] => 21765674
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6290
+                            [_aKey_customer_id] => 2878
+                            [_aKey_secure_key] => 8679e4bca2c083419252ce9a7ae23ab0
+                            [_aKey_token] => 79c5b8d4c988a6513ae0fa3a6ceff490
+                        )
+
+                    [transid] => 638B743A8DA76236
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6290
+    [3] => 2878
+    [4] => 8679e4bca2c083419252ce9a7ae23ab0
+    [5] => 201.26
+)
+
+## 2022-12-03 17:08:23 ##
+----> START registerOrder()
+## 2022-12-03 17:08:23 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 17:08:23 ##
+<result><operation>capture</operation><status>ok</status><date>2022-12-03</date><time>16:08:21 UTC+0000</time><origAmount>201.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6290</idForMerchant><emailClient>contact@recifathome.com</emailClient><idClient>21765674</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6290</_aKey_cart_id>  <_aKey_customer_id>2878</_aKey_customer_id>  <_aKey_secure_key>8679e4bca2c083419252ce9a7ae23ab0</_aKey_secure_key>  <_aKey_token>79c5b8d4c988a6513ae0fa3a6ceff490</_aKey_token></merchantDatas><transid>638B743A8DA76236</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-03 17:08:23 ##
+currency : EUR
+## 2022-12-03 17:08:23 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 17:08:23 ##
+callback_salt : 
+## 2022-12-03 17:08:23 ##
+md5 : 00cd7626186e6a88869725ecfb9c3fd7 == md5content : 00cd7626186e6a88869725ecfb9c3fd7
+## 2022-12-03 17:08:23 ##
+Status = ok
+## 2022-12-03 17:08:23 ##
+$currency = EUR
+## 2022-12-03 17:08:23 ##
+id_order_state = 2
+## 2022-12-03 17:08:23 ##
+----> START placeOrder()
+## 2022-12-03 17:08:23 ##
+Treatment an existing order
+## 2022-12-03 17:08:23 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-12-03 17:08:23 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-12-03
+    [time] => 16:08:21 UTC+0000
+    [origAmount] => 201.26
+    [origCurrency] => EUR
+    [idForMerchant] => 6290
+    [emailClient] => contact@recifathome.com
+    [idClient] => 21765674
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 6290
+            [_aKey_customer_id] => 2878
+            [_aKey_secure_key] => 8679e4bca2c083419252ce9a7ae23ab0
+            [_aKey_token] => 79c5b8d4c988a6513ae0fa3a6ceff490
+        )
+
+    [transid] => 638B743A8DA76236
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-12-03 17:08:23 ##
+----> END placeOrder()
+## 2022-12-03 17:08:23 ##
+----> END registerOrder()
+## 2022-12-03 17:08:23 ##
+----> Treatment is unlocked for the id_cart = 6290
+## 2022-12-03 19:11:42 ##
+##########################
+## 2022-12-03 19:11:42 ##
+START Validation Callback
+## 2022-12-03 19:11:42 ##
+##########################
+## 2022-12-03 19:11:42 ##
+----> Treatment is locked for the id_cart = 6300
+## 2022-12-03 19:11:42 ##
+data for validation
+## 2022-12-03 19:11:42 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>7cb4b54953d5455f6e41c938a7f0d174</md5content><result><operation>authorization</operation><status>nok</status><date>2022-12-03</date><time>18:11:41 UTC+0000</time><origAmount>26.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6300</idForMerchant><emailClient>bg@sillsandsketch.com</emailClient><idClient>21766302</idClient><cardCountry>MA</cardCountry><ipCountry>MA</ipCountry><merchantDatas>  <_aKey_cart_id>6300</_aKey_cart_id>  <_aKey_customer_id>2879</_aKey_customer_id>  <_aKey_secure_key>367930187f20ed9f9a596e2e3f106f8b</_aKey_secure_key>  <_aKey_token>5d8ceaa87fe4b096363d592adee3e0a0</_aKey_token></merchantDatas><transid>638B915C40401578</transid><is3ds>No</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 7cb4b54953d5455f6e41c938a7f0d174
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2022-12-03
+                    [time] => 18:11:41 UTC+0000
+                    [origAmount] => 26.05
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6300
+                    [emailClient] => bg@sillsandsketch.com
+                    [idClient] => 21766302
+                    [cardCountry] => MA
+                    [ipCountry] => MA
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6300
+                            [_aKey_customer_id] => 2879
+                            [_aKey_secure_key] => 367930187f20ed9f9a596e2e3f106f8b
+                            [_aKey_token] => 5d8ceaa87fe4b096363d592adee3e0a0
+                        )
+
+                    [transid] => 638B915C40401578
+                    [is3ds] => No
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                )
+
+        )
+
+    [2] => 6300
+    [3] => 2879
+    [4] => 367930187f20ed9f9a596e2e3f106f8b
+    [5] => 26.05
+)
+
+## 2022-12-03 19:11:42 ##
+----> START registerOrder()
+## 2022-12-03 19:11:42 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 19:11:42 ##
+<result><operation>authorization</operation><status>nok</status><date>2022-12-03</date><time>18:11:41 UTC+0000</time><origAmount>26.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6300</idForMerchant><emailClient>bg@sillsandsketch.com</emailClient><idClient>21766302</idClient><cardCountry>MA</cardCountry><ipCountry>MA</ipCountry><merchantDatas>  <_aKey_cart_id>6300</_aKey_cart_id>  <_aKey_customer_id>2879</_aKey_customer_id>  <_aKey_secure_key>367930187f20ed9f9a596e2e3f106f8b</_aKey_secure_key>  <_aKey_token>5d8ceaa87fe4b096363d592adee3e0a0</_aKey_token></merchantDatas><transid>638B915C40401578</transid><is3ds>No</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry></result>
+## 2022-12-03 19:11:42 ##
+currency : EUR
+## 2022-12-03 19:11:42 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-03 19:11:42 ##
+callback_salt : 
+## 2022-12-03 19:11:42 ##
+md5 : 7cb4b54953d5455f6e41c938a7f0d174 == md5content : 7cb4b54953d5455f6e41c938a7f0d174
+## 2022-12-03 19:11:42 ##
+Status = nok
+## 2022-12-03 19:11:42 ##
+$currency = EUR
+## 2022-12-03 19:11:42 ##
+id_order_state = 8
+## 2022-12-03 19:11:42 ##
+----> START placeOrder()
+## 2022-12-03 19:11:42 ##
+Treatment status = ERROR
+## 2022-12-03 19:11:42 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2022-12-03
+    [time] =&gt; 18:11:41 UTC+0000
+    [origAmount] =&gt; 26.05
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 6300
+    [emailClient] =&gt; bg@sillsandsketch.com
+    [idClient] =&gt; 21766302
+    [cardCountry] =&gt; MA
+    [ipCountry] =&gt; MA
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 6300
+            [_aKey_customer_id] =&gt; 2879
+            [_aKey_secure_key] =&gt; 367930187f20ed9f9a596e2e3f106f8b
+            [_aKey_token] =&gt; 5d8ceaa87fe4b096363d592adee3e0a0
+        )
+
+    [transid] =&gt; 638B915C40401578
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; VISA
+    [customerCountry] =&gt; FR
+)
+
+## 2022-12-03 19:11:42 ##
+----> END placeOrder()
+## 2022-12-03 19:11:42 ##
+----> END registerOrder()
+## 2022-12-03 19:11:42 ##
+----> Treatment is unlocked for the id_cart = 6300

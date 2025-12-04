@@ -1,0 +1,259 @@
+## 2023-01-22 17:57:59 ##
+##########################
+## 2023-01-22 17:57:59 ##
+START Validation Callback
+## 2023-01-22 17:57:59 ##
+##########################
+## 2023-01-22 17:57:59 ##
+----> Treatment is locked for the id_cart = 6988
+## 2023-01-22 17:57:59 ##
+data for validation
+## 2023-01-22 17:57:59 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>abd176b5a4812ecad9e2bcce14c28fa0</md5content><result><operation>authorization</operation><status>ok</status><date>2023-01-22</date><time>16:57:55 UTC+0000</time><origAmount>193.95</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6988</idForMerchant><emailClient>perigault.pierre@wanadoo.fr</emailClient><idClient>21962088</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6988</_aKey_cart_id>  <_aKey_customer_id>3038</_aKey_customer_id>  <_aKey_secure_key>8c82601fed8beb01970ed84c2005a67f</_aKey_secure_key>  <_aKey_token>1594ced779d7102ac912ad88bb987f8c</_aKey_token></merchantDatas><transid>63CD6AD73A74B112</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => abd176b5a4812ecad9e2bcce14c28fa0
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-01-22
+                    [time] => 16:57:55 UTC+0000
+                    [origAmount] => 193.95
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6988
+                    [emailClient] => perigault.pierre@wanadoo.fr
+                    [idClient] => 21962088
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6988
+                            [_aKey_customer_id] => 3038
+                            [_aKey_secure_key] => 8c82601fed8beb01970ed84c2005a67f
+                            [_aKey_token] => 1594ced779d7102ac912ad88bb987f8c
+                        )
+
+                    [transid] => 63CD6AD73A74B112
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6988
+    [3] => 3038
+    [4] => 8c82601fed8beb01970ed84c2005a67f
+    [5] => 193.95
+)
+
+## 2023-01-22 17:57:59 ##
+----> START registerOrder()
+## 2023-01-22 17:57:59 ##
+accountID:13248407 / websiteId:418801
+## 2023-01-22 17:57:59 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-01-22</date><time>16:57:55 UTC+0000</time><origAmount>193.95</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6988</idForMerchant><emailClient>perigault.pierre@wanadoo.fr</emailClient><idClient>21962088</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6988</_aKey_cart_id>  <_aKey_customer_id>3038</_aKey_customer_id>  <_aKey_secure_key>8c82601fed8beb01970ed84c2005a67f</_aKey_secure_key>  <_aKey_token>1594ced779d7102ac912ad88bb987f8c</_aKey_token></merchantDatas><transid>63CD6AD73A74B112</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-01-22 17:57:59 ##
+currency : EUR
+## 2023-01-22 17:57:59 ##
+accountID:13248407 / websiteId:418801
+## 2023-01-22 17:57:59 ##
+callback_salt : 
+## 2023-01-22 17:57:59 ##
+md5 : abd176b5a4812ecad9e2bcce14c28fa0 == md5content : abd176b5a4812ecad9e2bcce14c28fa0
+## 2023-01-22 17:57:59 ##
+Status = ok
+## 2023-01-22 17:57:59 ##
+$currency = EUR
+## 2023-01-22 17:57:59 ##
+id_order_state = 42
+## 2023-01-22 17:57:59 ##
+----> START placeOrder()
+## 2023-01-22 17:57:59 ##
+Treatment status = 42
+## 2023-01-22 17:57:59 ##
+Validate order
+## 2023-01-22 17:57:59 ##
+Array
+(
+    [0] => 6988
+    [1] => 42
+    [2] => 193.95
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"63CD6AD73A74B112"}
+    [5] => Array
+        (
+            [transaction_id] => 63CD6AD73A74B112
+        )
+
+    [6] => 1
+    [7] => 8c82601fed8beb01970ed84c2005a67f
+)
+
+## 2023-01-22 17:57:59 ##
+ID Shop = 1
+## 2023-01-22 17:58:04 ##
+Order created
+## 2023-01-22 17:58:04 ##
+----> END placeOrder()
+## 2023-01-22 17:58:04 ##
+----> END registerOrder()
+## 2023-01-22 17:58:04 ##
+----> Treatment is unlocked for the id_cart = 6988
+## 2023-01-22 17:58:05 ##
+##########################
+## 2023-01-22 17:58:05 ##
+START Validation Callback
+## 2023-01-22 17:58:05 ##
+##########################
+## 2023-01-22 17:58:05 ##
+----> Treatment is locked for the id_cart = 6988
+## 2023-01-22 17:58:05 ##
+data for validation
+## 2023-01-22 17:58:05 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>67ece30456d02bb28513704c5ede8cd9</md5content><result><operation>capture</operation><status>ok</status><date>2023-01-22</date><time>16:58:02 UTC+0000</time><origAmount>193.95</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6988</idForMerchant><emailClient>perigault.pierre@wanadoo.fr</emailClient><idClient>21962088</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6988</_aKey_cart_id>  <_aKey_customer_id>3038</_aKey_customer_id>  <_aKey_secure_key>8c82601fed8beb01970ed84c2005a67f</_aKey_secure_key>  <_aKey_token>1594ced779d7102ac912ad88bb987f8c</_aKey_token></merchantDatas><transid>63CD6AD73A74B112</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 67ece30456d02bb28513704c5ede8cd9
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-01-22
+                    [time] => 16:58:02 UTC+0000
+                    [origAmount] => 193.95
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6988
+                    [emailClient] => perigault.pierre@wanadoo.fr
+                    [idClient] => 21962088
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6988
+                            [_aKey_customer_id] => 3038
+                            [_aKey_secure_key] => 8c82601fed8beb01970ed84c2005a67f
+                            [_aKey_token] => 1594ced779d7102ac912ad88bb987f8c
+                        )
+
+                    [transid] => 63CD6AD73A74B112
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6988
+    [3] => 3038
+    [4] => 8c82601fed8beb01970ed84c2005a67f
+    [5] => 193.95
+)
+
+## 2023-01-22 17:58:05 ##
+----> START registerOrder()
+## 2023-01-22 17:58:05 ##
+accountID:13248407 / websiteId:418801
+## 2023-01-22 17:58:05 ##
+<result><operation>capture</operation><status>ok</status><date>2023-01-22</date><time>16:58:02 UTC+0000</time><origAmount>193.95</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6988</idForMerchant><emailClient>perigault.pierre@wanadoo.fr</emailClient><idClient>21962088</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6988</_aKey_cart_id>  <_aKey_customer_id>3038</_aKey_customer_id>  <_aKey_secure_key>8c82601fed8beb01970ed84c2005a67f</_aKey_secure_key>  <_aKey_token>1594ced779d7102ac912ad88bb987f8c</_aKey_token></merchantDatas><transid>63CD6AD73A74B112</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-01-22 17:58:05 ##
+currency : EUR
+## 2023-01-22 17:58:05 ##
+accountID:13248407 / websiteId:418801
+## 2023-01-22 17:58:05 ##
+callback_salt : 
+## 2023-01-22 17:58:05 ##
+md5 : 67ece30456d02bb28513704c5ede8cd9 == md5content : 67ece30456d02bb28513704c5ede8cd9
+## 2023-01-22 17:58:05 ##
+Status = ok
+## 2023-01-22 17:58:05 ##
+$currency = EUR
+## 2023-01-22 17:58:05 ##
+id_order_state = 2
+## 2023-01-22 17:58:05 ##
+----> START placeOrder()
+## 2023-01-22 17:58:05 ##
+Treatment an existing order
+## 2023-01-22 17:58:05 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-01-22 17:58:05 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-01-22
+    [time] => 16:58:02 UTC+0000
+    [origAmount] => 193.95
+    [origCurrency] => EUR
+    [idForMerchant] => 6988
+    [emailClient] => perigault.pierre@wanadoo.fr
+    [idClient] => 21962088
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 6988
+            [_aKey_customer_id] => 3038
+            [_aKey_secure_key] => 8c82601fed8beb01970ed84c2005a67f
+            [_aKey_token] => 1594ced779d7102ac912ad88bb987f8c
+        )
+
+    [transid] => 63CD6AD73A74B112
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-01-22 17:58:05 ##
+----> END placeOrder()
+## 2023-01-22 17:58:05 ##
+----> END registerOrder()
+## 2023-01-22 17:58:05 ##
+----> Treatment is unlocked for the id_cart = 6988

@@ -1,0 +1,259 @@
+## 2024-03-08 18:13:27 ##
+##########################
+## 2024-03-08 18:13:27 ##
+START Validation Callback
+## 2024-03-08 18:13:27 ##
+##########################
+## 2024-03-08 18:13:27 ##
+----> Treatment is locked for the id_cart = 13324
+## 2024-03-08 18:13:27 ##
+data for validation
+## 2024-03-08 18:13:27 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>36ab99c6899e51f103df8ae1d3f1385e</md5content><result><operation>authorization</operation><status>ok</status><date>2024-03-08</date><time>17:13:23 UTC+0000</time><origAmount>319.12</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13324</idForMerchant><emailClient>g-ehret@sfr.fr</emailClient><idClient>23369890</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13324</_aKey_cart_id>  <_aKey_customer_id>4144</_aKey_customer_id>  <_aKey_secure_key>75f95dfe2d2c04153f7c76240d16fe64</_aKey_secure_key>  <_aKey_token>a27fdd64fb1653867ff5d5f799638540</_aKey_token></merchantDatas><transid>65EB46FA2FE60305</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 36ab99c6899e51f103df8ae1d3f1385e
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-03-08
+                    [time] => 17:13:23 UTC+0000
+                    [origAmount] => 319.12
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13324
+                    [emailClient] => g-ehret@sfr.fr
+                    [idClient] => 23369890
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13324
+                            [_aKey_customer_id] => 4144
+                            [_aKey_secure_key] => 75f95dfe2d2c04153f7c76240d16fe64
+                            [_aKey_token] => a27fdd64fb1653867ff5d5f799638540
+                        )
+
+                    [transid] => 65EB46FA2FE60305
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13324
+    [3] => 4144
+    [4] => 75f95dfe2d2c04153f7c76240d16fe64
+    [5] => 319.12
+)
+
+## 2024-03-08 18:13:27 ##
+----> START registerOrder()
+## 2024-03-08 18:13:27 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-08 18:13:27 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-03-08</date><time>17:13:23 UTC+0000</time><origAmount>319.12</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13324</idForMerchant><emailClient>g-ehret@sfr.fr</emailClient><idClient>23369890</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13324</_aKey_cart_id>  <_aKey_customer_id>4144</_aKey_customer_id>  <_aKey_secure_key>75f95dfe2d2c04153f7c76240d16fe64</_aKey_secure_key>  <_aKey_token>a27fdd64fb1653867ff5d5f799638540</_aKey_token></merchantDatas><transid>65EB46FA2FE60305</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-03-08 18:13:27 ##
+currency : EUR
+## 2024-03-08 18:13:27 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-08 18:13:27 ##
+callback_salt : 
+## 2024-03-08 18:13:27 ##
+md5 : 36ab99c6899e51f103df8ae1d3f1385e == md5content : 36ab99c6899e51f103df8ae1d3f1385e
+## 2024-03-08 18:13:27 ##
+Status = ok
+## 2024-03-08 18:13:27 ##
+$currency = EUR
+## 2024-03-08 18:13:27 ##
+id_order_state = 42
+## 2024-03-08 18:13:27 ##
+----> START placeOrder()
+## 2024-03-08 18:13:27 ##
+Treatment status = 42
+## 2024-03-08 18:13:27 ##
+Validate order
+## 2024-03-08 18:13:27 ##
+Array
+(
+    [0] => 13324
+    [1] => 42
+    [2] => 319.12
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"65EB46FA2FE60305"}
+    [5] => Array
+        (
+            [transaction_id] => 65EB46FA2FE60305
+        )
+
+    [6] => 1
+    [7] => 75f95dfe2d2c04153f7c76240d16fe64
+)
+
+## 2024-03-08 18:13:27 ##
+ID Shop = 1
+## 2024-03-08 18:13:30 ##
+Order created
+## 2024-03-08 18:13:30 ##
+----> END placeOrder()
+## 2024-03-08 18:13:30 ##
+----> END registerOrder()
+## 2024-03-08 18:13:30 ##
+----> Treatment is unlocked for the id_cart = 13324
+## 2024-03-08 18:13:32 ##
+##########################
+## 2024-03-08 18:13:32 ##
+START Validation Callback
+## 2024-03-08 18:13:32 ##
+##########################
+## 2024-03-08 18:13:32 ##
+----> Treatment is locked for the id_cart = 13324
+## 2024-03-08 18:13:32 ##
+data for validation
+## 2024-03-08 18:13:32 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>74ac6b13d6a61ddcce73b21e8121bb00</md5content><result><operation>capture</operation><status>ok</status><date>2024-03-08</date><time>17:13:30 UTC+0000</time><origAmount>319.12</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13324</idForMerchant><emailClient>g-ehret@sfr.fr</emailClient><idClient>23369890</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13324</_aKey_cart_id>  <_aKey_customer_id>4144</_aKey_customer_id>  <_aKey_secure_key>75f95dfe2d2c04153f7c76240d16fe64</_aKey_secure_key>  <_aKey_token>a27fdd64fb1653867ff5d5f799638540</_aKey_token></merchantDatas><transid>65EB46FA2FE60305</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 74ac6b13d6a61ddcce73b21e8121bb00
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-03-08
+                    [time] => 17:13:30 UTC+0000
+                    [origAmount] => 319.12
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13324
+                    [emailClient] => g-ehret@sfr.fr
+                    [idClient] => 23369890
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13324
+                            [_aKey_customer_id] => 4144
+                            [_aKey_secure_key] => 75f95dfe2d2c04153f7c76240d16fe64
+                            [_aKey_token] => a27fdd64fb1653867ff5d5f799638540
+                        )
+
+                    [transid] => 65EB46FA2FE60305
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13324
+    [3] => 4144
+    [4] => 75f95dfe2d2c04153f7c76240d16fe64
+    [5] => 319.12
+)
+
+## 2024-03-08 18:13:32 ##
+----> START registerOrder()
+## 2024-03-08 18:13:32 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-08 18:13:32 ##
+<result><operation>capture</operation><status>ok</status><date>2024-03-08</date><time>17:13:30 UTC+0000</time><origAmount>319.12</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13324</idForMerchant><emailClient>g-ehret@sfr.fr</emailClient><idClient>23369890</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13324</_aKey_cart_id>  <_aKey_customer_id>4144</_aKey_customer_id>  <_aKey_secure_key>75f95dfe2d2c04153f7c76240d16fe64</_aKey_secure_key>  <_aKey_token>a27fdd64fb1653867ff5d5f799638540</_aKey_token></merchantDatas><transid>65EB46FA2FE60305</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-03-08 18:13:32 ##
+currency : EUR
+## 2024-03-08 18:13:32 ##
+accountID:13248407 / websiteId:417972
+## 2024-03-08 18:13:32 ##
+callback_salt : 
+## 2024-03-08 18:13:32 ##
+md5 : 74ac6b13d6a61ddcce73b21e8121bb00 == md5content : 74ac6b13d6a61ddcce73b21e8121bb00
+## 2024-03-08 18:13:32 ##
+Status = ok
+## 2024-03-08 18:13:32 ##
+$currency = EUR
+## 2024-03-08 18:13:32 ##
+id_order_state = 2
+## 2024-03-08 18:13:32 ##
+----> START placeOrder()
+## 2024-03-08 18:13:32 ##
+Treatment an existing order
+## 2024-03-08 18:13:32 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-03-08 18:13:32 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-03-08
+    [time] => 17:13:30 UTC+0000
+    [origAmount] => 319.12
+    [origCurrency] => EUR
+    [idForMerchant] => 13324
+    [emailClient] => g-ehret@sfr.fr
+    [idClient] => 23369890
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 13324
+            [_aKey_customer_id] => 4144
+            [_aKey_secure_key] => 75f95dfe2d2c04153f7c76240d16fe64
+            [_aKey_token] => a27fdd64fb1653867ff5d5f799638540
+        )
+
+    [transid] => 65EB46FA2FE60305
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-03-08 18:13:33 ##
+----> END placeOrder()
+## 2024-03-08 18:13:33 ##
+----> END registerOrder()
+## 2024-03-08 18:13:33 ##
+----> Treatment is unlocked for the id_cart = 13324

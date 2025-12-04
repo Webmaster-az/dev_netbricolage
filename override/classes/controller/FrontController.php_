@@ -1,0 +1,116 @@
+<?php
+
+class FrontController extends FrontControllerCore
+{
+    
+    /*
+    * module: faktiva_cleanurls
+    * date: 2021-07-15 10:50:41
+    * version: 1.2.3
+    */
+    protected function canonicalRedirection($canonical_url = '')
+    {
+        $_unfiltered_GET = $_GET;
+        $_GET = array_filter($_GET, function ($v) {
+            return '_rewrite' === substr($v, -8);
+        });
+        parent::canonicalRedirection($canonical_url);
+        $_GET = $_unfiltered_GET;
+    }
+    /*
+    * module: pagecache
+    * date: 2021-07-26 17:22:03
+    * version: 4.44
+    */
+    protected function smartyOutputContent($content)
+    {
+        if (Module::isEnabled('pagecache') && !($this instanceof ModuleFrontControllerCore)) {
+            $pagecacheInstance = Module::getInstanceByName('pagecache');
+            if ($pagecacheInstance && $pagecacheInstance->canBeCached()) {
+                $this->context->cookie->write();
+                $html = '';
+                $js_tag = 'js_def';
+                $this->context->smarty->assign($js_tag, $js_tag);
+                if (is_array($content)) {
+                    foreach ($content as $tpl) {
+                        $html .= $this->context->smarty->fetch($tpl, null, $this->getLayout());
+                    }
+                } else {
+                    $html = $this->context->smarty->fetch($content, null, $this->getLayout());
+                }
+                $html = trim($html);
+                $pagecacheInstance->cacheThis($html, $this->getLayout());
+                echo $html;
+            } else {
+                return parent::smartyOutputContent($content);
+            }
+        } else {
+            return parent::smartyOutputContent($content);
+        }
+    }
+    /*
+    * module: pagecache
+    * date: 2021-07-26 17:22:03
+    * version: 4.44
+    */
+    public function geolocationManagementPublic($default_country)
+    {
+        if (!in_array(Tools::getRemoteAddr(), array('localhost', '127.0.0.1'))) {
+            if (@filemtime(_PS_GEOIP_DIR_._PS_GEOIP_CITY_FILE_)) {
+                if (!isset($this->context->cookie->iso_code_country) || (isset($this->context->cookie->iso_code_country) && !in_array(Tools::strtoupper($this->context->cookie->iso_code_country), explode(';', Configuration::get('PS_ALLOWED_COUNTRIES'))))) {
+                    $reader = new GeoIp2\Database\Reader(_PS_GEOIP_DIR_._PS_GEOIP_CITY_FILE_);
+                    try {
+                        $record = $reader->city(Tools::getRemoteAddr());
+                    } catch (\GeoIp2\Exception\AddressNotFoundException $e) {
+                        $record = null;
+                    }
+                    if (is_object($record) && Validate::isLanguageIsoCode($record->country->isoCode) && (int)Country::getByIso(Tools::strtoupper($record->country->isoCode)) != 0) {
+                        $id_country = (int)Country::getByIso(Tools::strtoupper($record->country->isoCode));
+                        return new Country($id_country);
+                    }
+                }
+            }
+        }
+        return $default_country;
+    }
+    /*
+    * module: pagecache
+    * date: 2021-07-26 17:22:03
+    * version: 4.44
+    */
+    public function isRestrictedCountry()
+    {
+        return $this->restrictedCountry;
+    }
+    /*
+    * module: pagecache
+    * date: 2021-07-26 17:22:03
+    * version: 4.44
+    */
+    public static function getCurrentCustomerGroups()
+    {
+        if (!is_array(self::$currentCustomerGroups))
+        {
+            if (!Group::isFeatureActive())
+            {
+                self::$currentCustomerGroups = array();
+            }
+            else
+            {
+                $context = Context::getContext();
+                if (!isset($context->customer) || !$context->customer->id)
+                {
+                    self::$currentCustomerGroups = Customer::getGroupsStatic(null);
+                }
+                else
+                {
+                    self::$currentCustomerGroups = array();
+                    $result = Db::getInstance()->executeS('SELECT id_group FROM '._DB_PREFIX_.'customer_group WHERE id_customer = '.(int)$context->customer->id);
+                    foreach ($result as $row)
+                        self::$currentCustomerGroups[] = $row['id_group'];
+                }
+            }
+        }
+        return self::$currentCustomerGroups;
+    }
+}

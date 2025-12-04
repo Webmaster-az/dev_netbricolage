@@ -1,0 +1,72 @@
+.wkLoader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+    background: url('../img/wk-loader.svg') 50% 50% no-repeat rgba(249,249,249, .7);
+}
+
+#wk-site-connection {
+	display: none;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	z-index: 8888;
+}
+#wk-connection-msg {
+	margin: 0;
+	padding: 1px 0px 3px;
+	text-align: center;
+	font-size: 10px;
+}
+.wk-msgOnline-typography {
+	background-color: #22b967;
+	color: #fff;
+}
+.wk-msgOffline-typography {
+	background-color: #444444;
+	color: #fff;
+}
+
+#wk-addToHomeScreen-banner {
+	display: none;
+	position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 9999;
+    background-color: #333;
+    padding: 10px 10px;
+	color: #fff;
+	cursor: pointer;
+}
+#wk-addToHomeScreen-banner img {
+	max-height: 36px;
+    margin-right: 5px;
+}
+#wk-addToHomeScreen-banner p {
+	display: inline-block;
+	margin-bottom: 0px;
+}
+#wk-addToHomeScreen-banner i {
+	float: right;
+	margin-top: 6px;
+	font-size: 26px;
+}
+.wkhide {
+    display:none;
+}
+
+.wk-top-btn {
+	display: inline-block;
+}
+@media only screen and (min-width: 600px) {
+	.wk-top-btn {
+		display: none !important;
+	}
+}

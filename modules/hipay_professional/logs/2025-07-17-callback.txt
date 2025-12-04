@@ -1,0 +1,259 @@
+## 2025-07-17 18:05:52 ##
+##########################
+## 2025-07-17 18:05:52 ##
+START Validation Callback
+## 2025-07-17 18:05:52 ##
+##########################
+## 2025-07-17 18:05:52 ##
+----> Treatment is locked for the id_cart = 18706
+## 2025-07-17 18:05:52 ##
+data for validation
+## 2025-07-17 18:05:52 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>bd4a8c7fb64de8c8fa77317a9301322d</md5content><result><operation>authorization</operation><status>ok</status><date>2025-07-17</date><time>16:05:54 UTC+0000</time><origAmount>261.84</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18706</idForMerchant><emailClient>letailleur.michael@aliceadsl.fr</emailClient><idClient>24789891</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18706</_aKey_cart_id>  <_aKey_customer_id>5005</_aKey_customer_id>  <_aKey_secure_key>abbd55f3dbe09df1b5d48da9e48381b2</_aKey_secure_key>  <_aKey_token>4a4e4328c9561fbea06a416ddde5254c</_aKey_token></merchantDatas><transid>68791F300D3B2145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => bd4a8c7fb64de8c8fa77317a9301322d
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-07-17
+                    [time] => 16:05:54 UTC+0000
+                    [origAmount] => 261.84
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18706
+                    [emailClient] => letailleur.michael@aliceadsl.fr
+                    [idClient] => 24789891
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18706
+                            [_aKey_customer_id] => 5005
+                            [_aKey_secure_key] => abbd55f3dbe09df1b5d48da9e48381b2
+                            [_aKey_token] => 4a4e4328c9561fbea06a416ddde5254c
+                        )
+
+                    [transid] => 68791F300D3B2145
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18706
+    [3] => 5005
+    [4] => abbd55f3dbe09df1b5d48da9e48381b2
+    [5] => 261.84
+)
+
+## 2025-07-17 18:05:52 ##
+----> START registerOrder()
+## 2025-07-17 18:05:52 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-17 18:05:52 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-07-17</date><time>16:05:54 UTC+0000</time><origAmount>261.84</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18706</idForMerchant><emailClient>letailleur.michael@aliceadsl.fr</emailClient><idClient>24789891</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18706</_aKey_cart_id>  <_aKey_customer_id>5005</_aKey_customer_id>  <_aKey_secure_key>abbd55f3dbe09df1b5d48da9e48381b2</_aKey_secure_key>  <_aKey_token>4a4e4328c9561fbea06a416ddde5254c</_aKey_token></merchantDatas><transid>68791F300D3B2145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-17 18:05:52 ##
+currency : EUR
+## 2025-07-17 18:05:52 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-17 18:05:52 ##
+callback_salt : 
+## 2025-07-17 18:05:52 ##
+md5 : bd4a8c7fb64de8c8fa77317a9301322d == md5content : bd4a8c7fb64de8c8fa77317a9301322d
+## 2025-07-17 18:05:52 ##
+Status = ok
+## 2025-07-17 18:05:52 ##
+$currency = EUR
+## 2025-07-17 18:05:52 ##
+id_order_state = 42
+## 2025-07-17 18:05:52 ##
+----> START placeOrder()
+## 2025-07-17 18:05:52 ##
+Treatment status = 42
+## 2025-07-17 18:05:52 ##
+Validate order
+## 2025-07-17 18:05:52 ##
+Array
+(
+    [0] => 18706
+    [1] => 42
+    [2] => 261.84
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"68791F300D3B2145"}
+    [5] => Array
+        (
+            [transaction_id] => 68791F300D3B2145
+        )
+
+    [6] => 1
+    [7] => abbd55f3dbe09df1b5d48da9e48381b2
+)
+
+## 2025-07-17 18:05:52 ##
+ID Shop = 1
+## 2025-07-17 18:05:54 ##
+Order created
+## 2025-07-17 18:05:54 ##
+----> END placeOrder()
+## 2025-07-17 18:05:54 ##
+----> END registerOrder()
+## 2025-07-17 18:05:54 ##
+----> Treatment is unlocked for the id_cart = 18706
+## 2025-07-17 18:06:01 ##
+##########################
+## 2025-07-17 18:06:01 ##
+START Validation Callback
+## 2025-07-17 18:06:01 ##
+##########################
+## 2025-07-17 18:06:01 ##
+----> Treatment is locked for the id_cart = 18706
+## 2025-07-17 18:06:01 ##
+data for validation
+## 2025-07-17 18:06:01 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>fd2f799ab25ceb5c79b34d9413f5618f</md5content><result><operation>capture</operation><status>ok</status><date>2025-07-17</date><time>16:06:01 UTC+0000</time><origAmount>261.84</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18706</idForMerchant><emailClient>letailleur.michael@aliceadsl.fr</emailClient><idClient>24789891</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18706</_aKey_cart_id>  <_aKey_customer_id>5005</_aKey_customer_id>  <_aKey_secure_key>abbd55f3dbe09df1b5d48da9e48381b2</_aKey_secure_key>  <_aKey_token>4a4e4328c9561fbea06a416ddde5254c</_aKey_token></merchantDatas><transid>68791F300D3B2145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => fd2f799ab25ceb5c79b34d9413f5618f
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-07-17
+                    [time] => 16:06:01 UTC+0000
+                    [origAmount] => 261.84
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18706
+                    [emailClient] => letailleur.michael@aliceadsl.fr
+                    [idClient] => 24789891
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18706
+                            [_aKey_customer_id] => 5005
+                            [_aKey_secure_key] => abbd55f3dbe09df1b5d48da9e48381b2
+                            [_aKey_token] => 4a4e4328c9561fbea06a416ddde5254c
+                        )
+
+                    [transid] => 68791F300D3B2145
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18706
+    [3] => 5005
+    [4] => abbd55f3dbe09df1b5d48da9e48381b2
+    [5] => 261.84
+)
+
+## 2025-07-17 18:06:01 ##
+----> START registerOrder()
+## 2025-07-17 18:06:01 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-17 18:06:01 ##
+<result><operation>capture</operation><status>ok</status><date>2025-07-17</date><time>16:06:01 UTC+0000</time><origAmount>261.84</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18706</idForMerchant><emailClient>letailleur.michael@aliceadsl.fr</emailClient><idClient>24789891</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18706</_aKey_cart_id>  <_aKey_customer_id>5005</_aKey_customer_id>  <_aKey_secure_key>abbd55f3dbe09df1b5d48da9e48381b2</_aKey_secure_key>  <_aKey_token>4a4e4328c9561fbea06a416ddde5254c</_aKey_token></merchantDatas><transid>68791F300D3B2145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-17 18:06:01 ##
+currency : EUR
+## 2025-07-17 18:06:01 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-17 18:06:01 ##
+callback_salt : 
+## 2025-07-17 18:06:01 ##
+md5 : fd2f799ab25ceb5c79b34d9413f5618f == md5content : fd2f799ab25ceb5c79b34d9413f5618f
+## 2025-07-17 18:06:01 ##
+Status = ok
+## 2025-07-17 18:06:01 ##
+$currency = EUR
+## 2025-07-17 18:06:01 ##
+id_order_state = 2
+## 2025-07-17 18:06:01 ##
+----> START placeOrder()
+## 2025-07-17 18:06:01 ##
+Treatment an existing order
+## 2025-07-17 18:06:01 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-07-17 18:06:01 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-07-17
+    [time] => 16:06:01 UTC+0000
+    [origAmount] => 261.84
+    [origCurrency] => EUR
+    [idForMerchant] => 18706
+    [emailClient] => letailleur.michael@aliceadsl.fr
+    [idClient] => 24789891
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 18706
+            [_aKey_customer_id] => 5005
+            [_aKey_secure_key] => abbd55f3dbe09df1b5d48da9e48381b2
+            [_aKey_token] => 4a4e4328c9561fbea06a416ddde5254c
+        )
+
+    [transid] => 68791F300D3B2145
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-07-17 18:06:02 ##
+----> END placeOrder()
+## 2025-07-17 18:06:02 ##
+----> END registerOrder()
+## 2025-07-17 18:06:02 ##
+----> Treatment is unlocked for the id_cart = 18706

@@ -1,0 +1,518 @@
+## 2023-08-17 12:34:58 ##
+##########################
+## 2023-08-17 12:34:58 ##
+START Validation Callback
+## 2023-08-17 12:34:58 ##
+##########################
+## 2023-08-17 12:34:58 ##
+----> Treatment is locked for the id_cart = 10350
+## 2023-08-17 12:34:58 ##
+data for validation
+## 2023-08-17 12:34:58 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>5a6d715e2da9f152ef733d7cdc376110</md5content><result><operation>authorization</operation><status>ok</status><date>2023-08-17</date><time>10:34:57 UTC+0000</time><origAmount>273.90</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10350</idForMerchant><emailClient>pima86@hotmail.fr</emailClient><idClient>22647193</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10350</_aKey_cart_id>  <_aKey_customer_id>3670</_aKey_customer_id>  <_aKey_secure_key>c35bb5a5aafadbaae933a0a280ab3f56</_aKey_secure_key>  <_aKey_token>d57da7b068411ad5796e7761427cacfc</_aKey_token></merchantDatas><transid>64DDF77443BB3274</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 5a6d715e2da9f152ef733d7cdc376110
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-08-17
+                    [time] => 10:34:57 UTC+0000
+                    [origAmount] => 273.90
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10350
+                    [emailClient] => pima86@hotmail.fr
+                    [idClient] => 22647193
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10350
+                            [_aKey_customer_id] => 3670
+                            [_aKey_secure_key] => c35bb5a5aafadbaae933a0a280ab3f56
+                            [_aKey_token] => d57da7b068411ad5796e7761427cacfc
+                        )
+
+                    [transid] => 64DDF77443BB3274
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10350
+    [3] => 3670
+    [4] => c35bb5a5aafadbaae933a0a280ab3f56
+    [5] => 273.9
+)
+
+## 2023-08-17 12:34:58 ##
+----> START registerOrder()
+## 2023-08-17 12:34:58 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-17 12:34:58 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-08-17</date><time>10:34:57 UTC+0000</time><origAmount>273.90</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10350</idForMerchant><emailClient>pima86@hotmail.fr</emailClient><idClient>22647193</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10350</_aKey_cart_id>  <_aKey_customer_id>3670</_aKey_customer_id>  <_aKey_secure_key>c35bb5a5aafadbaae933a0a280ab3f56</_aKey_secure_key>  <_aKey_token>d57da7b068411ad5796e7761427cacfc</_aKey_token></merchantDatas><transid>64DDF77443BB3274</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-17 12:34:58 ##
+currency : EUR
+## 2023-08-17 12:34:58 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-17 12:34:58 ##
+callback_salt : 
+## 2023-08-17 12:34:58 ##
+md5 : 5a6d715e2da9f152ef733d7cdc376110 == md5content : 5a6d715e2da9f152ef733d7cdc376110
+## 2023-08-17 12:34:58 ##
+Status = ok
+## 2023-08-17 12:34:58 ##
+$currency = EUR
+## 2023-08-17 12:34:58 ##
+id_order_state = 42
+## 2023-08-17 12:34:58 ##
+----> START placeOrder()
+## 2023-08-17 12:34:58 ##
+Treatment status = 42
+## 2023-08-17 12:34:58 ##
+Validate order
+## 2023-08-17 12:34:58 ##
+Array
+(
+    [0] => 10350
+    [1] => 42
+    [2] => 273.9
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"64DDF77443BB3274"}
+    [5] => Array
+        (
+            [transaction_id] => 64DDF77443BB3274
+        )
+
+    [6] => 1
+    [7] => c35bb5a5aafadbaae933a0a280ab3f56
+)
+
+## 2023-08-17 12:34:58 ##
+ID Shop = 1
+## 2023-08-17 12:35:03 ##
+Order created
+## 2023-08-17 12:35:03 ##
+----> END placeOrder()
+## 2023-08-17 12:35:03 ##
+----> END registerOrder()
+## 2023-08-17 12:35:03 ##
+----> Treatment is unlocked for the id_cart = 10350
+## 2023-08-17 12:35:05 ##
+##########################
+## 2023-08-17 12:35:05 ##
+START Validation Callback
+## 2023-08-17 12:35:05 ##
+##########################
+## 2023-08-17 12:35:05 ##
+----> Treatment is locked for the id_cart = 10350
+## 2023-08-17 12:35:05 ##
+data for validation
+## 2023-08-17 12:35:05 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>67a50da58d2bb7b2d5cd50fbd738caad</md5content><result><operation>capture</operation><status>ok</status><date>2023-08-17</date><time>10:35:03 UTC+0000</time><origAmount>273.90</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10350</idForMerchant><emailClient>pima86@hotmail.fr</emailClient><idClient>22647193</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10350</_aKey_cart_id>  <_aKey_customer_id>3670</_aKey_customer_id>  <_aKey_secure_key>c35bb5a5aafadbaae933a0a280ab3f56</_aKey_secure_key>  <_aKey_token>d57da7b068411ad5796e7761427cacfc</_aKey_token></merchantDatas><transid>64DDF77443BB3274</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 67a50da58d2bb7b2d5cd50fbd738caad
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-08-17
+                    [time] => 10:35:03 UTC+0000
+                    [origAmount] => 273.90
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10350
+                    [emailClient] => pima86@hotmail.fr
+                    [idClient] => 22647193
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10350
+                            [_aKey_customer_id] => 3670
+                            [_aKey_secure_key] => c35bb5a5aafadbaae933a0a280ab3f56
+                            [_aKey_token] => d57da7b068411ad5796e7761427cacfc
+                        )
+
+                    [transid] => 64DDF77443BB3274
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10350
+    [3] => 3670
+    [4] => c35bb5a5aafadbaae933a0a280ab3f56
+    [5] => 273.9
+)
+
+## 2023-08-17 12:35:05 ##
+----> START registerOrder()
+## 2023-08-17 12:35:05 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-17 12:35:05 ##
+<result><operation>capture</operation><status>ok</status><date>2023-08-17</date><time>10:35:03 UTC+0000</time><origAmount>273.90</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10350</idForMerchant><emailClient>pima86@hotmail.fr</emailClient><idClient>22647193</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10350</_aKey_cart_id>  <_aKey_customer_id>3670</_aKey_customer_id>  <_aKey_secure_key>c35bb5a5aafadbaae933a0a280ab3f56</_aKey_secure_key>  <_aKey_token>d57da7b068411ad5796e7761427cacfc</_aKey_token></merchantDatas><transid>64DDF77443BB3274</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-17 12:35:05 ##
+currency : EUR
+## 2023-08-17 12:35:05 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-17 12:35:05 ##
+callback_salt : 
+## 2023-08-17 12:35:05 ##
+md5 : 67a50da58d2bb7b2d5cd50fbd738caad == md5content : 67a50da58d2bb7b2d5cd50fbd738caad
+## 2023-08-17 12:35:05 ##
+Status = ok
+## 2023-08-17 12:35:05 ##
+$currency = EUR
+## 2023-08-17 12:35:05 ##
+id_order_state = 2
+## 2023-08-17 12:35:05 ##
+----> START placeOrder()
+## 2023-08-17 12:35:05 ##
+Treatment an existing order
+## 2023-08-17 12:35:05 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-08-17 12:35:05 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-08-17
+    [time] => 10:35:03 UTC+0000
+    [origAmount] => 273.90
+    [origCurrency] => EUR
+    [idForMerchant] => 10350
+    [emailClient] => pima86@hotmail.fr
+    [idClient] => 22647193
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 10350
+            [_aKey_customer_id] => 3670
+            [_aKey_secure_key] => c35bb5a5aafadbaae933a0a280ab3f56
+            [_aKey_token] => d57da7b068411ad5796e7761427cacfc
+        )
+
+    [transid] => 64DDF77443BB3274
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-08-17 12:35:05 ##
+----> END placeOrder()
+## 2023-08-17 12:35:05 ##
+----> END registerOrder()
+## 2023-08-17 12:35:05 ##
+----> Treatment is unlocked for the id_cart = 10350
+## 2023-08-17 12:36:23 ##
+##########################
+## 2023-08-17 12:36:23 ##
+START Validation Callback
+## 2023-08-17 12:36:23 ##
+##########################
+## 2023-08-17 12:36:23 ##
+----> Treatment is locked for the id_cart = 10349
+## 2023-08-17 12:36:23 ##
+data for validation
+## 2023-08-17 12:36:23 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ba67f89115e03a5c1eb137d759cd15a5</md5content><result><operation>authorization</operation><status>ok</status><date>2023-08-17</date><time>10:36:21 UTC+0000</time><origAmount>41.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10349</idForMerchant><emailClient>clement.savalle@lefeuetleau.fr</emailClient><idClient>22647192</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10349</_aKey_cart_id>  <_aKey_customer_id>3669</_aKey_customer_id>  <_aKey_secure_key>763e09e48c8395ef84420ab8f5484f73</_aKey_secure_key>  <_aKey_token>541a5e7b8b794a25f2be65e9da42285e</_aKey_token></merchantDatas><transid>64DDF75E37139180</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ba67f89115e03a5c1eb137d759cd15a5
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-08-17
+                    [time] => 10:36:21 UTC+0000
+                    [origAmount] => 41.50
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10349
+                    [emailClient] => clement.savalle@lefeuetleau.fr
+                    [idClient] => 22647192
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10349
+                            [_aKey_customer_id] => 3669
+                            [_aKey_secure_key] => 763e09e48c8395ef84420ab8f5484f73
+                            [_aKey_token] => 541a5e7b8b794a25f2be65e9da42285e
+                        )
+
+                    [transid] => 64DDF75E37139180
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10349
+    [3] => 3669
+    [4] => 763e09e48c8395ef84420ab8f5484f73
+    [5] => 41.5
+)
+
+## 2023-08-17 12:36:23 ##
+----> START registerOrder()
+## 2023-08-17 12:36:23 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-17 12:36:23 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-08-17</date><time>10:36:21 UTC+0000</time><origAmount>41.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10349</idForMerchant><emailClient>clement.savalle@lefeuetleau.fr</emailClient><idClient>22647192</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10349</_aKey_cart_id>  <_aKey_customer_id>3669</_aKey_customer_id>  <_aKey_secure_key>763e09e48c8395ef84420ab8f5484f73</_aKey_secure_key>  <_aKey_token>541a5e7b8b794a25f2be65e9da42285e</_aKey_token></merchantDatas><transid>64DDF75E37139180</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-17 12:36:23 ##
+currency : EUR
+## 2023-08-17 12:36:23 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-17 12:36:23 ##
+callback_salt : 
+## 2023-08-17 12:36:23 ##
+md5 : ba67f89115e03a5c1eb137d759cd15a5 == md5content : ba67f89115e03a5c1eb137d759cd15a5
+## 2023-08-17 12:36:23 ##
+Status = ok
+## 2023-08-17 12:36:23 ##
+$currency = EUR
+## 2023-08-17 12:36:23 ##
+id_order_state = 42
+## 2023-08-17 12:36:23 ##
+----> START placeOrder()
+## 2023-08-17 12:36:23 ##
+Treatment status = 42
+## 2023-08-17 12:36:23 ##
+Validate order
+## 2023-08-17 12:36:23 ##
+Array
+(
+    [0] => 10349
+    [1] => 42
+    [2] => 41.5
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"MASTERCARD","Transaction ID":"64DDF75E37139180"}
+    [5] => Array
+        (
+            [transaction_id] => 64DDF75E37139180
+        )
+
+    [6] => 1
+    [7] => 763e09e48c8395ef84420ab8f5484f73
+)
+
+## 2023-08-17 12:36:23 ##
+ID Shop = 1
+## 2023-08-17 12:36:25 ##
+Order created
+## 2023-08-17 12:36:25 ##
+----> END placeOrder()
+## 2023-08-17 12:36:25 ##
+----> END registerOrder()
+## 2023-08-17 12:36:25 ##
+----> Treatment is unlocked for the id_cart = 10349
+## 2023-08-17 12:36:31 ##
+##########################
+## 2023-08-17 12:36:31 ##
+START Validation Callback
+## 2023-08-17 12:36:31 ##
+##########################
+## 2023-08-17 12:36:31 ##
+----> Treatment is locked for the id_cart = 10349
+## 2023-08-17 12:36:31 ##
+data for validation
+## 2023-08-17 12:36:31 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>9363804a59787cfb1ddd5a554513b641</md5content><result><operation>capture</operation><status>ok</status><date>2023-08-17</date><time>10:36:28 UTC+0000</time><origAmount>41.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10349</idForMerchant><emailClient>clement.savalle@lefeuetleau.fr</emailClient><idClient>22647192</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10349</_aKey_cart_id>  <_aKey_customer_id>3669</_aKey_customer_id>  <_aKey_secure_key>763e09e48c8395ef84420ab8f5484f73</_aKey_secure_key>  <_aKey_token>541a5e7b8b794a25f2be65e9da42285e</_aKey_token></merchantDatas><transid>64DDF75E37139180</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 9363804a59787cfb1ddd5a554513b641
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-08-17
+                    [time] => 10:36:28 UTC+0000
+                    [origAmount] => 41.50
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10349
+                    [emailClient] => clement.savalle@lefeuetleau.fr
+                    [idClient] => 22647192
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10349
+                            [_aKey_customer_id] => 3669
+                            [_aKey_secure_key] => 763e09e48c8395ef84420ab8f5484f73
+                            [_aKey_token] => 541a5e7b8b794a25f2be65e9da42285e
+                        )
+
+                    [transid] => 64DDF75E37139180
+                    [is3ds] => Yes
+                    [paymentMethod] => MASTERCARD
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10349
+    [3] => 3669
+    [4] => 763e09e48c8395ef84420ab8f5484f73
+    [5] => 41.5
+)
+
+## 2023-08-17 12:36:31 ##
+----> START registerOrder()
+## 2023-08-17 12:36:31 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-17 12:36:31 ##
+<result><operation>capture</operation><status>ok</status><date>2023-08-17</date><time>10:36:28 UTC+0000</time><origAmount>41.50</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10349</idForMerchant><emailClient>clement.savalle@lefeuetleau.fr</emailClient><idClient>22647192</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10349</_aKey_cart_id>  <_aKey_customer_id>3669</_aKey_customer_id>  <_aKey_secure_key>763e09e48c8395ef84420ab8f5484f73</_aKey_secure_key>  <_aKey_token>541a5e7b8b794a25f2be65e9da42285e</_aKey_token></merchantDatas><transid>64DDF75E37139180</transid><is3ds>Yes</is3ds><paymentMethod>MASTERCARD</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-17 12:36:31 ##
+currency : EUR
+## 2023-08-17 12:36:31 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-17 12:36:31 ##
+callback_salt : 
+## 2023-08-17 12:36:31 ##
+md5 : 9363804a59787cfb1ddd5a554513b641 == md5content : 9363804a59787cfb1ddd5a554513b641
+## 2023-08-17 12:36:31 ##
+Status = ok
+## 2023-08-17 12:36:31 ##
+$currency = EUR
+## 2023-08-17 12:36:31 ##
+id_order_state = 2
+## 2023-08-17 12:36:31 ##
+----> START placeOrder()
+## 2023-08-17 12:36:31 ##
+Treatment an existing order
+## 2023-08-17 12:36:31 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-08-17 12:36:31 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-08-17
+    [time] => 10:36:28 UTC+0000
+    [origAmount] => 41.50
+    [origCurrency] => EUR
+    [idForMerchant] => 10349
+    [emailClient] => clement.savalle@lefeuetleau.fr
+    [idClient] => 22647192
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 10349
+            [_aKey_customer_id] => 3669
+            [_aKey_secure_key] => 763e09e48c8395ef84420ab8f5484f73
+            [_aKey_token] => 541a5e7b8b794a25f2be65e9da42285e
+        )
+
+    [transid] => 64DDF75E37139180
+    [is3ds] => Yes
+    [paymentMethod] => MASTERCARD
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-08-17 12:36:32 ##
+----> END placeOrder()
+## 2023-08-17 12:36:32 ##
+----> END registerOrder()
+## 2023-08-17 12:36:32 ##
+----> Treatment is unlocked for the id_cart = 10349

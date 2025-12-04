@@ -1,0 +1,259 @@
+## 2023-03-25 15:05:59 ##
+##########################
+## 2023-03-25 15:05:59 ##
+START Validation Callback
+## 2023-03-25 15:05:59 ##
+##########################
+## 2023-03-25 15:05:59 ##
+----> Treatment is locked for the id_cart = 7939
+## 2023-03-25 15:05:59 ##
+data for validation
+## 2023-03-25 15:05:59 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>049b66a6041b0ae855b6caadf416bfd9</md5content><result><operation>authorization</operation><status>ok</status><date>2023-03-25</date><time>14:05:56 UTC+0000</time><origAmount>53.78</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7939</idForMerchant><emailClient>jeanmarc.leconte@orange.fr</emailClient><idClient>22166765</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7939</_aKey_cart_id>  <_aKey_customer_id>3248</_aKey_customer_id>  <_aKey_secure_key>87a3ce3396c7c8cf1e6a77196ecd3f16</_aKey_secure_key>  <_aKey_token>7b7c642c0289bf8569620c19a8e4c2f2</_aKey_token></merchantDatas><transid>641EFF83A06CC232</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 049b66a6041b0ae855b6caadf416bfd9
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-03-25
+                    [time] => 14:05:56 UTC+0000
+                    [origAmount] => 53.78
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7939
+                    [emailClient] => jeanmarc.leconte@orange.fr
+                    [idClient] => 22166765
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7939
+                            [_aKey_customer_id] => 3248
+                            [_aKey_secure_key] => 87a3ce3396c7c8cf1e6a77196ecd3f16
+                            [_aKey_token] => 7b7c642c0289bf8569620c19a8e4c2f2
+                        )
+
+                    [transid] => 641EFF83A06CC232
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7939
+    [3] => 3248
+    [4] => 87a3ce3396c7c8cf1e6a77196ecd3f16
+    [5] => 53.78
+)
+
+## 2023-03-25 15:05:59 ##
+----> START registerOrder()
+## 2023-03-25 15:05:59 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-25 15:05:59 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-03-25</date><time>14:05:56 UTC+0000</time><origAmount>53.78</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7939</idForMerchant><emailClient>jeanmarc.leconte@orange.fr</emailClient><idClient>22166765</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7939</_aKey_cart_id>  <_aKey_customer_id>3248</_aKey_customer_id>  <_aKey_secure_key>87a3ce3396c7c8cf1e6a77196ecd3f16</_aKey_secure_key>  <_aKey_token>7b7c642c0289bf8569620c19a8e4c2f2</_aKey_token></merchantDatas><transid>641EFF83A06CC232</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-25 15:05:59 ##
+currency : EUR
+## 2023-03-25 15:05:59 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-25 15:05:59 ##
+callback_salt : 
+## 2023-03-25 15:05:59 ##
+md5 : 049b66a6041b0ae855b6caadf416bfd9 == md5content : 049b66a6041b0ae855b6caadf416bfd9
+## 2023-03-25 15:05:59 ##
+Status = ok
+## 2023-03-25 15:05:59 ##
+$currency = EUR
+## 2023-03-25 15:05:59 ##
+id_order_state = 42
+## 2023-03-25 15:05:59 ##
+----> START placeOrder()
+## 2023-03-25 15:05:59 ##
+Treatment status = 42
+## 2023-03-25 15:05:59 ##
+Validate order
+## 2023-03-25 15:05:59 ##
+Array
+(
+    [0] => 7939
+    [1] => 42
+    [2] => 53.78
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"641EFF83A06CC232"}
+    [5] => Array
+        (
+            [transaction_id] => 641EFF83A06CC232
+        )
+
+    [6] => 1
+    [7] => 87a3ce3396c7c8cf1e6a77196ecd3f16
+)
+
+## 2023-03-25 15:05:59 ##
+ID Shop = 1
+## 2023-03-25 15:06:03 ##
+Order created
+## 2023-03-25 15:06:03 ##
+----> END placeOrder()
+## 2023-03-25 15:06:03 ##
+----> END registerOrder()
+## 2023-03-25 15:06:03 ##
+----> Treatment is unlocked for the id_cart = 7939
+## 2023-03-25 15:06:08 ##
+##########################
+## 2023-03-25 15:06:08 ##
+START Validation Callback
+## 2023-03-25 15:06:08 ##
+##########################
+## 2023-03-25 15:06:08 ##
+----> Treatment is locked for the id_cart = 7939
+## 2023-03-25 15:06:08 ##
+data for validation
+## 2023-03-25 15:06:08 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>db6ce5c2f152996f8fbb1d78655a5eb1</md5content><result><operation>capture</operation><status>ok</status><date>2023-03-25</date><time>14:06:04 UTC+0000</time><origAmount>53.78</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7939</idForMerchant><emailClient>jeanmarc.leconte@orange.fr</emailClient><idClient>22166765</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7939</_aKey_cart_id>  <_aKey_customer_id>3248</_aKey_customer_id>  <_aKey_secure_key>87a3ce3396c7c8cf1e6a77196ecd3f16</_aKey_secure_key>  <_aKey_token>7b7c642c0289bf8569620c19a8e4c2f2</_aKey_token></merchantDatas><transid>641EFF83A06CC232</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => db6ce5c2f152996f8fbb1d78655a5eb1
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-03-25
+                    [time] => 14:06:04 UTC+0000
+                    [origAmount] => 53.78
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7939
+                    [emailClient] => jeanmarc.leconte@orange.fr
+                    [idClient] => 22166765
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7939
+                            [_aKey_customer_id] => 3248
+                            [_aKey_secure_key] => 87a3ce3396c7c8cf1e6a77196ecd3f16
+                            [_aKey_token] => 7b7c642c0289bf8569620c19a8e4c2f2
+                        )
+
+                    [transid] => 641EFF83A06CC232
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7939
+    [3] => 3248
+    [4] => 87a3ce3396c7c8cf1e6a77196ecd3f16
+    [5] => 53.78
+)
+
+## 2023-03-25 15:06:08 ##
+----> START registerOrder()
+## 2023-03-25 15:06:08 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-25 15:06:08 ##
+<result><operation>capture</operation><status>ok</status><date>2023-03-25</date><time>14:06:04 UTC+0000</time><origAmount>53.78</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7939</idForMerchant><emailClient>jeanmarc.leconte@orange.fr</emailClient><idClient>22166765</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7939</_aKey_cart_id>  <_aKey_customer_id>3248</_aKey_customer_id>  <_aKey_secure_key>87a3ce3396c7c8cf1e6a77196ecd3f16</_aKey_secure_key>  <_aKey_token>7b7c642c0289bf8569620c19a8e4c2f2</_aKey_token></merchantDatas><transid>641EFF83A06CC232</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-25 15:06:08 ##
+currency : EUR
+## 2023-03-25 15:06:08 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-25 15:06:08 ##
+callback_salt : 
+## 2023-03-25 15:06:08 ##
+md5 : db6ce5c2f152996f8fbb1d78655a5eb1 == md5content : db6ce5c2f152996f8fbb1d78655a5eb1
+## 2023-03-25 15:06:08 ##
+Status = ok
+## 2023-03-25 15:06:08 ##
+$currency = EUR
+## 2023-03-25 15:06:08 ##
+id_order_state = 2
+## 2023-03-25 15:06:08 ##
+----> START placeOrder()
+## 2023-03-25 15:06:08 ##
+Treatment an existing order
+## 2023-03-25 15:06:08 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-03-25 15:06:08 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-03-25
+    [time] => 14:06:04 UTC+0000
+    [origAmount] => 53.78
+    [origCurrency] => EUR
+    [idForMerchant] => 7939
+    [emailClient] => jeanmarc.leconte@orange.fr
+    [idClient] => 22166765
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 7939
+            [_aKey_customer_id] => 3248
+            [_aKey_secure_key] => 87a3ce3396c7c8cf1e6a77196ecd3f16
+            [_aKey_token] => 7b7c642c0289bf8569620c19a8e4c2f2
+        )
+
+    [transid] => 641EFF83A06CC232
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-03-25 15:06:08 ##
+----> END placeOrder()
+## 2023-03-25 15:06:08 ##
+----> END registerOrder()
+## 2023-03-25 15:06:08 ##
+----> Treatment is unlocked for the id_cart = 7939

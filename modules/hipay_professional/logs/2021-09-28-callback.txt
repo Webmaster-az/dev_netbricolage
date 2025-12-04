@@ -1,0 +1,259 @@
+## 2021-09-28 14:03:33 ##
+##########################
+## 2021-09-28 14:03:33 ##
+START Validation Callback
+## 2021-09-28 14:03:33 ##
+##########################
+## 2021-09-28 14:03:33 ##
+----> Treatment is locked for the id_cart = 431
+## 2021-09-28 14:03:33 ##
+data for validation
+## 2021-09-28 14:03:33 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>18df26834a4efa1cf7f5b8a8120e5e45</md5content><result><operation>authorization</operation><status>ok</status><date>2021-09-28</date><time>12:03:32 UTC+0000</time><origAmount>58.35</origAmount><origCurrency>EUR</origCurrency><idForMerchant>431</idForMerchant><emailClient>accueil@robitaille-energie.fr</emailClient><idClient>19406137</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>431</_aKey_cart_id>  <_aKey_customer_id>1508</_aKey_customer_id>  <_aKey_secure_key>3fcc4fb5d0fbe713981efa6b64fcb768</_aKey_secure_key>  <_aKey_token>0cee0cf8d368b05f7c463d3172d10ce7</_aKey_token></merchantDatas><transid>6153044F3F5A8862</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 18df26834a4efa1cf7f5b8a8120e5e45
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-09-28
+                    [time] => 12:03:32 UTC+0000
+                    [origAmount] => 58.35
+                    [origCurrency] => EUR
+                    [idForMerchant] => 431
+                    [emailClient] => accueil@robitaille-energie.fr
+                    [idClient] => 19406137
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 431
+                            [_aKey_customer_id] => 1508
+                            [_aKey_secure_key] => 3fcc4fb5d0fbe713981efa6b64fcb768
+                            [_aKey_token] => 0cee0cf8d368b05f7c463d3172d10ce7
+                        )
+
+                    [transid] => 6153044F3F5A8862
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 431
+    [3] => 1508
+    [4] => 3fcc4fb5d0fbe713981efa6b64fcb768
+    [5] => 58.35
+)
+
+## 2021-09-28 14:03:33 ##
+----> START registerOrder()
+## 2021-09-28 14:03:33 ##
+accountID:13248407 / websiteId:418801
+## 2021-09-28 14:03:33 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-09-28</date><time>12:03:32 UTC+0000</time><origAmount>58.35</origAmount><origCurrency>EUR</origCurrency><idForMerchant>431</idForMerchant><emailClient>accueil@robitaille-energie.fr</emailClient><idClient>19406137</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>431</_aKey_cart_id>  <_aKey_customer_id>1508</_aKey_customer_id>  <_aKey_secure_key>3fcc4fb5d0fbe713981efa6b64fcb768</_aKey_secure_key>  <_aKey_token>0cee0cf8d368b05f7c463d3172d10ce7</_aKey_token></merchantDatas><transid>6153044F3F5A8862</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-09-28 14:03:33 ##
+currency : EUR
+## 2021-09-28 14:03:33 ##
+accountID:13248407 / websiteId:418801
+## 2021-09-28 14:03:33 ##
+callback_salt : 
+## 2021-09-28 14:03:33 ##
+md5 : 18df26834a4efa1cf7f5b8a8120e5e45 == md5content : 18df26834a4efa1cf7f5b8a8120e5e45
+## 2021-09-28 14:03:33 ##
+Status = ok
+## 2021-09-28 14:03:33 ##
+$currency = EUR
+## 2021-09-28 14:03:33 ##
+id_order_state = 42
+## 2021-09-28 14:03:33 ##
+----> START placeOrder()
+## 2021-09-28 14:03:33 ##
+Treatment status = 42
+## 2021-09-28 14:03:33 ##
+Validate order
+## 2021-09-28 14:03:33 ##
+Array
+(
+    [0] => 431
+    [1] => 42
+    [2] => 58.35
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6153044F3F5A8862"}
+    [5] => Array
+        (
+            [transaction_id] => 6153044F3F5A8862
+        )
+
+    [6] => 1
+    [7] => 3fcc4fb5d0fbe713981efa6b64fcb768
+)
+
+## 2021-09-28 14:03:33 ##
+ID Shop = 1
+## 2021-09-28 14:03:35 ##
+Order created
+## 2021-09-28 14:03:35 ##
+----> END placeOrder()
+## 2021-09-28 14:03:35 ##
+----> END registerOrder()
+## 2021-09-28 14:03:35 ##
+----> Treatment is unlocked for the id_cart = 431
+## 2021-09-28 14:03:43 ##
+##########################
+## 2021-09-28 14:03:43 ##
+START Validation Callback
+## 2021-09-28 14:03:43 ##
+##########################
+## 2021-09-28 14:03:43 ##
+----> Treatment is locked for the id_cart = 431
+## 2021-09-28 14:03:43 ##
+data for validation
+## 2021-09-28 14:03:43 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>6415e306c2a29d3bbc95e47251271a4f</md5content><result><operation>capture</operation><status>ok</status><date>2021-09-28</date><time>12:03:39 UTC+0000</time><origAmount>58.35</origAmount><origCurrency>EUR</origCurrency><idForMerchant>431</idForMerchant><emailClient>accueil@robitaille-energie.fr</emailClient><idClient>19406137</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>431</_aKey_cart_id>  <_aKey_customer_id>1508</_aKey_customer_id>  <_aKey_secure_key>3fcc4fb5d0fbe713981efa6b64fcb768</_aKey_secure_key>  <_aKey_token>0cee0cf8d368b05f7c463d3172d10ce7</_aKey_token></merchantDatas><transid>6153044F3F5A8862</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 6415e306c2a29d3bbc95e47251271a4f
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-09-28
+                    [time] => 12:03:39 UTC+0000
+                    [origAmount] => 58.35
+                    [origCurrency] => EUR
+                    [idForMerchant] => 431
+                    [emailClient] => accueil@robitaille-energie.fr
+                    [idClient] => 19406137
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 431
+                            [_aKey_customer_id] => 1508
+                            [_aKey_secure_key] => 3fcc4fb5d0fbe713981efa6b64fcb768
+                            [_aKey_token] => 0cee0cf8d368b05f7c463d3172d10ce7
+                        )
+
+                    [transid] => 6153044F3F5A8862
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 431
+    [3] => 1508
+    [4] => 3fcc4fb5d0fbe713981efa6b64fcb768
+    [5] => 58.35
+)
+
+## 2021-09-28 14:03:43 ##
+----> START registerOrder()
+## 2021-09-28 14:03:43 ##
+accountID:13248407 / websiteId:418801
+## 2021-09-28 14:03:43 ##
+<result><operation>capture</operation><status>ok</status><date>2021-09-28</date><time>12:03:39 UTC+0000</time><origAmount>58.35</origAmount><origCurrency>EUR</origCurrency><idForMerchant>431</idForMerchant><emailClient>accueil@robitaille-energie.fr</emailClient><idClient>19406137</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>431</_aKey_cart_id>  <_aKey_customer_id>1508</_aKey_customer_id>  <_aKey_secure_key>3fcc4fb5d0fbe713981efa6b64fcb768</_aKey_secure_key>  <_aKey_token>0cee0cf8d368b05f7c463d3172d10ce7</_aKey_token></merchantDatas><transid>6153044F3F5A8862</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-09-28 14:03:43 ##
+currency : EUR
+## 2021-09-28 14:03:43 ##
+accountID:13248407 / websiteId:418801
+## 2021-09-28 14:03:43 ##
+callback_salt : 
+## 2021-09-28 14:03:43 ##
+md5 : 6415e306c2a29d3bbc95e47251271a4f == md5content : 6415e306c2a29d3bbc95e47251271a4f
+## 2021-09-28 14:03:43 ##
+Status = ok
+## 2021-09-28 14:03:43 ##
+$currency = EUR
+## 2021-09-28 14:03:43 ##
+id_order_state = 2
+## 2021-09-28 14:03:43 ##
+----> START placeOrder()
+## 2021-09-28 14:03:43 ##
+Treatment an existing order
+## 2021-09-28 14:03:43 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-09-28 14:03:43 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-09-28
+    [time] => 12:03:39 UTC+0000
+    [origAmount] => 58.35
+    [origCurrency] => EUR
+    [idForMerchant] => 431
+    [emailClient] => accueil@robitaille-energie.fr
+    [idClient] => 19406137
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 431
+            [_aKey_customer_id] => 1508
+            [_aKey_secure_key] => 3fcc4fb5d0fbe713981efa6b64fcb768
+            [_aKey_token] => 0cee0cf8d368b05f7c463d3172d10ce7
+        )
+
+    [transid] => 6153044F3F5A8862
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-09-28 14:03:43 ##
+----> END placeOrder()
+## 2021-09-28 14:03:43 ##
+----> END registerOrder()
+## 2021-09-28 14:03:43 ##
+----> Treatment is unlocked for the id_cart = 431

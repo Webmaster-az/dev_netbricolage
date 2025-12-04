@@ -1,0 +1,518 @@
+## 2023-10-10 14:40:43 ##
+##########################
+## 2023-10-10 14:40:43 ##
+START Validation Callback
+## 2023-10-10 14:40:43 ##
+##########################
+## 2023-10-10 14:40:43 ##
+----> Treatment is locked for the id_cart = 11268
+## 2023-10-10 14:40:43 ##
+data for validation
+## 2023-10-10 14:40:43 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a16eaa0f28080cf5d3a4cede5e141737</md5content><result><operation>authorization</operation><status>ok</status><date>2023-10-10</date><time>12:40:40 UTC+0000</time><origAmount>81.18</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11268</idForMerchant><emailClient>paddlevik@hotmail.com</emailClient><idClient>22842629</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11268</_aKey_cart_id>  <_aKey_customer_id>3790</_aKey_customer_id>  <_aKey_secure_key>1c345d7db5d0f8bd9c26e8514561da63</_aKey_secure_key>  <_aKey_token>9868538d9cc2e64c3277f7e4c00fd6be</_aKey_token></merchantDatas><transid>652545CD71CC3110</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a16eaa0f28080cf5d3a4cede5e141737
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-10-10
+                    [time] => 12:40:40 UTC+0000
+                    [origAmount] => 81.18
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11268
+                    [emailClient] => paddlevik@hotmail.com
+                    [idClient] => 22842629
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11268
+                            [_aKey_customer_id] => 3790
+                            [_aKey_secure_key] => 1c345d7db5d0f8bd9c26e8514561da63
+                            [_aKey_token] => 9868538d9cc2e64c3277f7e4c00fd6be
+                        )
+
+                    [transid] => 652545CD71CC3110
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11268
+    [3] => 3790
+    [4] => 1c345d7db5d0f8bd9c26e8514561da63
+    [5] => 81.18
+)
+
+## 2023-10-10 14:40:43 ##
+----> START registerOrder()
+## 2023-10-10 14:40:43 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-10 14:40:43 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-10-10</date><time>12:40:40 UTC+0000</time><origAmount>81.18</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11268</idForMerchant><emailClient>paddlevik@hotmail.com</emailClient><idClient>22842629</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11268</_aKey_cart_id>  <_aKey_customer_id>3790</_aKey_customer_id>  <_aKey_secure_key>1c345d7db5d0f8bd9c26e8514561da63</_aKey_secure_key>  <_aKey_token>9868538d9cc2e64c3277f7e4c00fd6be</_aKey_token></merchantDatas><transid>652545CD71CC3110</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-10 14:40:43 ##
+currency : EUR
+## 2023-10-10 14:40:43 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-10 14:40:43 ##
+callback_salt : 
+## 2023-10-10 14:40:43 ##
+md5 : a16eaa0f28080cf5d3a4cede5e141737 == md5content : a16eaa0f28080cf5d3a4cede5e141737
+## 2023-10-10 14:40:43 ##
+Status = ok
+## 2023-10-10 14:40:43 ##
+$currency = EUR
+## 2023-10-10 14:40:43 ##
+id_order_state = 42
+## 2023-10-10 14:40:43 ##
+----> START placeOrder()
+## 2023-10-10 14:40:43 ##
+Treatment status = 42
+## 2023-10-10 14:40:43 ##
+Validate order
+## 2023-10-10 14:40:43 ##
+Array
+(
+    [0] => 11268
+    [1] => 42
+    [2] => 81.18
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"652545CD71CC3110"}
+    [5] => Array
+        (
+            [transaction_id] => 652545CD71CC3110
+        )
+
+    [6] => 1
+    [7] => 1c345d7db5d0f8bd9c26e8514561da63
+)
+
+## 2023-10-10 14:40:43 ##
+ID Shop = 1
+## 2023-10-10 14:40:46 ##
+Order created
+## 2023-10-10 14:40:46 ##
+----> END placeOrder()
+## 2023-10-10 14:40:46 ##
+----> END registerOrder()
+## 2023-10-10 14:40:46 ##
+----> Treatment is unlocked for the id_cart = 11268
+## 2023-10-10 14:40:48 ##
+##########################
+## 2023-10-10 14:40:48 ##
+START Validation Callback
+## 2023-10-10 14:40:48 ##
+##########################
+## 2023-10-10 14:40:48 ##
+----> Treatment is locked for the id_cart = 11268
+## 2023-10-10 14:40:48 ##
+data for validation
+## 2023-10-10 14:40:48 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>3e52471ef106e9be9be642309cd2b811</md5content><result><operation>capture</operation><status>ok</status><date>2023-10-10</date><time>12:40:46 UTC+0000</time><origAmount>81.18</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11268</idForMerchant><emailClient>paddlevik@hotmail.com</emailClient><idClient>22842629</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11268</_aKey_cart_id>  <_aKey_customer_id>3790</_aKey_customer_id>  <_aKey_secure_key>1c345d7db5d0f8bd9c26e8514561da63</_aKey_secure_key>  <_aKey_token>9868538d9cc2e64c3277f7e4c00fd6be</_aKey_token></merchantDatas><transid>652545CD71CC3110</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 3e52471ef106e9be9be642309cd2b811
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-10-10
+                    [time] => 12:40:46 UTC+0000
+                    [origAmount] => 81.18
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11268
+                    [emailClient] => paddlevik@hotmail.com
+                    [idClient] => 22842629
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11268
+                            [_aKey_customer_id] => 3790
+                            [_aKey_secure_key] => 1c345d7db5d0f8bd9c26e8514561da63
+                            [_aKey_token] => 9868538d9cc2e64c3277f7e4c00fd6be
+                        )
+
+                    [transid] => 652545CD71CC3110
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11268
+    [3] => 3790
+    [4] => 1c345d7db5d0f8bd9c26e8514561da63
+    [5] => 81.18
+)
+
+## 2023-10-10 14:40:48 ##
+----> START registerOrder()
+## 2023-10-10 14:40:48 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-10 14:40:48 ##
+<result><operation>capture</operation><status>ok</status><date>2023-10-10</date><time>12:40:46 UTC+0000</time><origAmount>81.18</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11268</idForMerchant><emailClient>paddlevik@hotmail.com</emailClient><idClient>22842629</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11268</_aKey_cart_id>  <_aKey_customer_id>3790</_aKey_customer_id>  <_aKey_secure_key>1c345d7db5d0f8bd9c26e8514561da63</_aKey_secure_key>  <_aKey_token>9868538d9cc2e64c3277f7e4c00fd6be</_aKey_token></merchantDatas><transid>652545CD71CC3110</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-10 14:40:48 ##
+currency : EUR
+## 2023-10-10 14:40:48 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-10 14:40:48 ##
+callback_salt : 
+## 2023-10-10 14:40:48 ##
+md5 : 3e52471ef106e9be9be642309cd2b811 == md5content : 3e52471ef106e9be9be642309cd2b811
+## 2023-10-10 14:40:48 ##
+Status = ok
+## 2023-10-10 14:40:48 ##
+$currency = EUR
+## 2023-10-10 14:40:48 ##
+id_order_state = 2
+## 2023-10-10 14:40:48 ##
+----> START placeOrder()
+## 2023-10-10 14:40:48 ##
+Treatment an existing order
+## 2023-10-10 14:40:48 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-10-10 14:40:48 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-10-10
+    [time] => 12:40:46 UTC+0000
+    [origAmount] => 81.18
+    [origCurrency] => EUR
+    [idForMerchant] => 11268
+    [emailClient] => paddlevik@hotmail.com
+    [idClient] => 22842629
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 11268
+            [_aKey_customer_id] => 3790
+            [_aKey_secure_key] => 1c345d7db5d0f8bd9c26e8514561da63
+            [_aKey_token] => 9868538d9cc2e64c3277f7e4c00fd6be
+        )
+
+    [transid] => 652545CD71CC3110
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-10-10 14:40:49 ##
+----> END placeOrder()
+## 2023-10-10 14:40:49 ##
+----> END registerOrder()
+## 2023-10-10 14:40:49 ##
+----> Treatment is unlocked for the id_cart = 11268
+## 2023-10-10 14:57:38 ##
+##########################
+## 2023-10-10 14:57:38 ##
+START Validation Callback
+## 2023-10-10 14:57:38 ##
+##########################
+## 2023-10-10 14:57:38 ##
+----> Treatment is locked for the id_cart = 11266
+## 2023-10-10 14:57:38 ##
+data for validation
+## 2023-10-10 14:57:38 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2b80d05fb674fcba456ee6136e41e7bc</md5content><result><operation>authorization</operation><status>ok</status><date>2023-10-10</date><time>12:57:35 UTC+0000</time><origAmount>78.04</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11266</idForMerchant><emailClient>olivier.ciribilli@free.fr</emailClient><idClient>22842710</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11266</_aKey_cart_id>  <_aKey_customer_id>3792</_aKey_customer_id>  <_aKey_secure_key>e567b1b195c4a6e5aa4db31c223f8aae</_aKey_secure_key>  <_aKey_token>0f679a42095d62d4a7729245a729213f</_aKey_token></merchantDatas><transid>652549E49A794567</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2b80d05fb674fcba456ee6136e41e7bc
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-10-10
+                    [time] => 12:57:35 UTC+0000
+                    [origAmount] => 78.04
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11266
+                    [emailClient] => olivier.ciribilli@free.fr
+                    [idClient] => 22842710
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11266
+                            [_aKey_customer_id] => 3792
+                            [_aKey_secure_key] => e567b1b195c4a6e5aa4db31c223f8aae
+                            [_aKey_token] => 0f679a42095d62d4a7729245a729213f
+                        )
+
+                    [transid] => 652549E49A794567
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11266
+    [3] => 3792
+    [4] => e567b1b195c4a6e5aa4db31c223f8aae
+    [5] => 78.04
+)
+
+## 2023-10-10 14:57:38 ##
+----> START registerOrder()
+## 2023-10-10 14:57:38 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-10 14:57:38 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-10-10</date><time>12:57:35 UTC+0000</time><origAmount>78.04</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11266</idForMerchant><emailClient>olivier.ciribilli@free.fr</emailClient><idClient>22842710</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11266</_aKey_cart_id>  <_aKey_customer_id>3792</_aKey_customer_id>  <_aKey_secure_key>e567b1b195c4a6e5aa4db31c223f8aae</_aKey_secure_key>  <_aKey_token>0f679a42095d62d4a7729245a729213f</_aKey_token></merchantDatas><transid>652549E49A794567</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-10 14:57:38 ##
+currency : EUR
+## 2023-10-10 14:57:38 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-10 14:57:38 ##
+callback_salt : 
+## 2023-10-10 14:57:38 ##
+md5 : 2b80d05fb674fcba456ee6136e41e7bc == md5content : 2b80d05fb674fcba456ee6136e41e7bc
+## 2023-10-10 14:57:38 ##
+Status = ok
+## 2023-10-10 14:57:38 ##
+$currency = EUR
+## 2023-10-10 14:57:38 ##
+id_order_state = 42
+## 2023-10-10 14:57:38 ##
+----> START placeOrder()
+## 2023-10-10 14:57:38 ##
+Treatment status = 42
+## 2023-10-10 14:57:38 ##
+Validate order
+## 2023-10-10 14:57:38 ##
+Array
+(
+    [0] => 11266
+    [1] => 42
+    [2] => 78.04
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"652549E49A794567"}
+    [5] => Array
+        (
+            [transaction_id] => 652549E49A794567
+        )
+
+    [6] => 1
+    [7] => e567b1b195c4a6e5aa4db31c223f8aae
+)
+
+## 2023-10-10 14:57:38 ##
+ID Shop = 1
+## 2023-10-10 14:57:42 ##
+Order created
+## 2023-10-10 14:57:42 ##
+----> END placeOrder()
+## 2023-10-10 14:57:42 ##
+----> END registerOrder()
+## 2023-10-10 14:57:42 ##
+----> Treatment is unlocked for the id_cart = 11266
+## 2023-10-10 14:57:44 ##
+##########################
+## 2023-10-10 14:57:44 ##
+START Validation Callback
+## 2023-10-10 14:57:44 ##
+##########################
+## 2023-10-10 14:57:44 ##
+----> Treatment is locked for the id_cart = 11266
+## 2023-10-10 14:57:44 ##
+data for validation
+## 2023-10-10 14:57:44 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ff83f36684be7a68acdbbb27d61baf50</md5content><result><operation>capture</operation><status>ok</status><date>2023-10-10</date><time>12:57:41 UTC+0000</time><origAmount>78.04</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11266</idForMerchant><emailClient>olivier.ciribilli@free.fr</emailClient><idClient>22842710</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11266</_aKey_cart_id>  <_aKey_customer_id>3792</_aKey_customer_id>  <_aKey_secure_key>e567b1b195c4a6e5aa4db31c223f8aae</_aKey_secure_key>  <_aKey_token>0f679a42095d62d4a7729245a729213f</_aKey_token></merchantDatas><transid>652549E49A794567</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ff83f36684be7a68acdbbb27d61baf50
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-10-10
+                    [time] => 12:57:41 UTC+0000
+                    [origAmount] => 78.04
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11266
+                    [emailClient] => olivier.ciribilli@free.fr
+                    [idClient] => 22842710
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11266
+                            [_aKey_customer_id] => 3792
+                            [_aKey_secure_key] => e567b1b195c4a6e5aa4db31c223f8aae
+                            [_aKey_token] => 0f679a42095d62d4a7729245a729213f
+                        )
+
+                    [transid] => 652549E49A794567
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11266
+    [3] => 3792
+    [4] => e567b1b195c4a6e5aa4db31c223f8aae
+    [5] => 78.04
+)
+
+## 2023-10-10 14:57:44 ##
+----> START registerOrder()
+## 2023-10-10 14:57:44 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-10 14:57:44 ##
+<result><operation>capture</operation><status>ok</status><date>2023-10-10</date><time>12:57:41 UTC+0000</time><origAmount>78.04</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11266</idForMerchant><emailClient>olivier.ciribilli@free.fr</emailClient><idClient>22842710</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11266</_aKey_cart_id>  <_aKey_customer_id>3792</_aKey_customer_id>  <_aKey_secure_key>e567b1b195c4a6e5aa4db31c223f8aae</_aKey_secure_key>  <_aKey_token>0f679a42095d62d4a7729245a729213f</_aKey_token></merchantDatas><transid>652549E49A794567</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-10 14:57:44 ##
+currency : EUR
+## 2023-10-10 14:57:44 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-10 14:57:44 ##
+callback_salt : 
+## 2023-10-10 14:57:44 ##
+md5 : ff83f36684be7a68acdbbb27d61baf50 == md5content : ff83f36684be7a68acdbbb27d61baf50
+## 2023-10-10 14:57:44 ##
+Status = ok
+## 2023-10-10 14:57:44 ##
+$currency = EUR
+## 2023-10-10 14:57:44 ##
+id_order_state = 2
+## 2023-10-10 14:57:44 ##
+----> START placeOrder()
+## 2023-10-10 14:57:44 ##
+Treatment an existing order
+## 2023-10-10 14:57:44 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-10-10 14:57:44 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-10-10
+    [time] => 12:57:41 UTC+0000
+    [origAmount] => 78.04
+    [origCurrency] => EUR
+    [idForMerchant] => 11266
+    [emailClient] => olivier.ciribilli@free.fr
+    [idClient] => 22842710
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 11266
+            [_aKey_customer_id] => 3792
+            [_aKey_secure_key] => e567b1b195c4a6e5aa4db31c223f8aae
+            [_aKey_token] => 0f679a42095d62d4a7729245a729213f
+        )
+
+    [transid] => 652549E49A794567
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-10-10 14:57:45 ##
+----> END placeOrder()
+## 2023-10-10 14:57:45 ##
+----> END registerOrder()
+## 2023-10-10 14:57:45 ##
+----> Treatment is unlocked for the id_cart = 11266

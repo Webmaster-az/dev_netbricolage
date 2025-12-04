@@ -1,0 +1,828 @@
+Facebook Product Ad
+
+Contact: Business Tech
+
+
+Change history for Facebook Product Ad
+-----------------------------------------
+===========================
+Version 1.5.7 (12/06/2024)|
+===========================
+- Improve security
+- Fix bad FAQ link in reporting box
+- Fix for pixel on deleted product
+- Allow third-party modules to disable Pixel only if module has consent mode activated
+- Fix for step on exclusion rules based on words
+- Update conversion API Version
+- Minor fix on undefined var for conversion API ajax call
+
+===========================
+Version 1.5.6 (18/04/2024)|
+===========================
+- Handle additional shipping cost from product page and carrier tax
+- Handle case when product price is 0 and use combination to have the final price
+- Fix for thousand separator
+- Fix for consent coookie var name
+- Fix for product title with &
+
+===========================
+Version 1.5.5 (23/02/2024)|
+===========================
+- Fix missing isset to prevent warning when new language is added
+- Optimize id by reference when product and combination as same reference or EAN
+- Fix for missing use on ExclusionTools class
+- Handle additonnal shipping cost from product page
+- Use order reference as event_id for purchase event
+
+===========================
+Version 1.5.4 (06/12/2023)|
+===========================
+- Send fbc and fbc with customer data during conversion API call
+- Optimize compliancy with AP5
+- Fix for g:size and g:color multiple values
+- Fix for Tools::ConvertPrice call with float cast
+- Apply some recommandation for security with array map with IN SQL clause
+
+===========================
+Version 1.5.3 (15/11/2023)|
+===========================
+- Update for Prestashop prerequisites security check
+- Handle Initiatecheckout with conversion API
+- Handle AddPaymentInfo with conversion API
+- Handle addToCart with conversion API
+- Prefer use id_carrier reference to prevent bad shipping cost when shipping is updated on Prestashop
+- Compatibilty with Axeptio
+- Fix for 404 on CRON loop
+- Handle trackcustom for viewCategory and viewHomepage
+- Handle Initiatecheckout fir supercheckout module
+
+===========================
+Version 1.5.2 (07/09/2023)|
+===========================
+- Updated content_ids to be unique for each product on the cart and purchase event. This will prevent duplicate products from being added to the cart or purchased.
+- Added security to unserialize calls to prevent malicious code from being executed.
+- Forced the use of the internal getSupplierReference DAO. Previously, the getSupplierReference function could be called by either the internal DAO or an import module. This could lead to problems if the import module did not correctly fill out the data. By forcing the use of the internal DAO, we can ensure that the data is always correctly filled out.
+- Optimized the getProductCombination function. The getProductCombination function was previously not optimized for handling shared stock with multishop. This could lead to performance problems in some cases. By optimizing the function, we can improve its performance when handling shared stock with multishop.
+- Fixed the use case where an installed language with ID = 1 is deleted. Previously, deleting an installed language with ID = 1 would cause errors. This has now been fixed.
+- Added support for sending fbc and fbp parameters to the Conversions API. This will allow businesses to track conversions more accurately.
+
+===========================
+Version 1.5.1 (25/07/2023)|
+===========================
+- Fix for save on second consent HTML element
+- New way to handle send API with async ajax to prevent bad TTFB
+- Fix for save on PageView api option
+- Fix on regression on PageView api event
+
+===========================
+Version 1.5.0 (31/05/2023)| => MAJOR
+===========================
+- Some fix for pixel
+- Modernize back-office
+- Added option to change the id feed and pixel building
+- Refactor getUserApiData
+- Handle ISBN
+- Best management for combination on pixel
+- Refactor product url building
+- Added option for send PageView via Conversion API
+- Added some option for shipping cost handle (can remove tax, free shipping, free shipping for min product price)
+- New way to handle the taxonomy and tag for products
+- Some fix for exclusion rules
+- Added option for build feed g:id and pixel id with EAN or product reference
+- Added feature to import taxonomies from other feed modules
+- Added option to use product feature for tag adulf, gender, age_group
+- Added option to removed custom feed + add visual badge to identify it
+- New way to handle the custom label ad
+- Added option to activate anchor on product url in data feed
+
+===========================
+Version 1.4.4 (17/11/2022)|
+===========================
+- Fix for subcategories restriction
+- Fix for pixel view content_ids build when we don't export combo as a product, but if the product has combo
+- Some fix around php notice on bestsales and promotion tag building
+
+===========================
+Version 1.4.3 (19/10/2022)|
+===========================
+- JS fix for pixel on cart event (addToCart on page list and delete product on cart)
+- JS fix case when product id can't be get on page list
+- JS fix case to handle simple id option on updateProduct combination
+- CORE fix case for multishop when product id_shop_default isn't set correctly
+- BO modernize
+- JS added pixel event Contact
+- JS optimize addPayment event
+- FIX API call for Search event
+- Fix for reporting counter
+- Fix for addToCart and Initiatecheckout process
+
+
+===========================
+Version 1.4.2 (15/09/2022)|
+===========================
+- Fix for conversion API event and improvement
+- Fix for Pixel Initiatecheckout
+
+
+===========================
+Version 1.4.1 (24/08/2022)|
+===========================
+- BO fix for FAQ link about new data feed feature
+- CORE fix missing \ on datetime with namespace
+- JS fix pixel on homepage
+
+
+===========================
+Version 1.4.0 (16/08/2022)| => MAJOR
+===========================
+- Module migration to use namespace
+- Module migration to use models
+- Module migration of tools function to use native PS function
+- Module migration to use data base for reporting instead if json in txt files
+- Use modal of reporting feed to prevent bas performance of Jquery Fancybox
+- Removed code for PS 1.2->1.6
+- Fix around custom labels
+- Use Prestashop event to detect addToCart and make the pixel more accurate
+- Added option for advanced matching data with pixel
+- Added tag on XML to handle the lanugages feeds
+- Added option to let the merchand hide some data on conversion API to hide warning
+- Fix for eventID
+- Let merchant add his own data feed
+- Added option to removed data for title and prevent errors on Facebook
+- Added information about the way to handle multiple language on Facebook
+- Handle tag building with current selected combination
+
+
+===========================
+Version 1.3.23 (26/04/2022)|
+===========================
+- BO fix for bad warning message about facebookproductad.xml.php this file isn't used
+- JS fix undefined value for Pixel
+- CORE fix for purchase order event amount with voucher code
+- CORE fix for bundle tag
+- CORE fix to prevent duplicate event on conversion API
+- ADDED form control on HTML element for cookie banner when we don't use ACB
+
+===========================
+Version 1.3.22 (02/02/2022)|
+===========================
+- Fix use case for 404 link on data feed and CRON urls
+- Fix warning on pixel about iso_code
+
+===========================
+Version 1.3.21 (17/01/2022)|
+===========================
+- Optimize constent event
+- Added Facebook conversion API
+- Optimize detection for purchase event
+
+===========================
+Version 1.3.20 (07/10/2021)|
+===========================
+- Fix for Initiatecheckout
+- Fix for currency with quote on pixel
+- Fix to detect cart id if context doesn't return the value
+- Fix for avaibilty tag and pre-order value for Facebook
+- Fix order amount calulcation for purchase tag
+- Fix duplicate data with multishop
+- Added use case to detect the order id from controller->id_order
+- Added using of link->getProductLink instead of our module DAO function
+
+===========================
+Version 1.3.19 (29/06/2021)|
+===========================
+- Added tabs for FCN
+- Added important shortcut for section on Facebook business Manager
+- Added preorder tag
+- Handle MPN for PS 1.7.7.+
+- Optimize front-office js code
+- Some fix for custom labels
+
+===========================
+Version 1.3.18 (10/02/2021)|
+===========================
+- Rollback update around facebook_product_category, only available for Facebook e-commerce  (not available yet), and this tag made poduct rejected during product validation
+
+===========================
+Version 1.3.17 (29/01/2021)|
+===========================
+- Fix for custom label
+- Fix for error message when data feed aren't created well
+- Some minor fix
+- Added custom label on product in promotion
+- Added option for combo séparator
+- Added auto assign of dynamic CL during data feed update
+- Added controller to handle cron and fly output
+- Added QC entry for datafeed
+- Refactor code for custom label
+
+
+===========================
+Version 1.3.16 (02/11/2020)|
+===========================
+- Fix for getProductIds function
+- Handle the case when the order_id ins't provided on the order confirmation page for PS 1.7
+
+
+===========================
+Version 1.3.15 (08/10/2020)|
+===========================
+- Added a tab Facebook Shops
+- Added a tab for Advanced pixel Tools
+- Added an option to handle tracking activation on cart page
+- Added custom label on lastest product ordered
+- Added bulk actions on Exclusion rules
+- Fix for product exclistion
+- Fix for multiple checkout excecution
+- Some minor fix in CORE / JS / BO
+
+===========================
+Version 1.3.14 (03/07/2020)|
+===========================
+- New handle for content_ids with Facebook update
+
+
+===========================
+Version 1.3.13 (09/06/2020)|
+===========================
+- Fix for product availabilty tag
+
+
+===========================
+Version 1.3.12 (01/06/2020)|
+===========================
+- Handle the case for dropshipping with the inventory tag
+- Fix bad template call
+- Added new currencies
+
+===========================
+Version 1.3.11 (14/02/2020)|
+===========================
+- Handle the inventory tag
+- Added tax exclusion option for the pixel
+- Added tax exlusion option for data feeds
+
+===========================
+Version 1.3.10 (02/12/2019)|
+===========================
+- Added new countries
+
+===========================
+Version 1.3.9 (13/11/2019)|
+===========================
+- Added new option to manage bad product URL rewriting
+- Fix for exclusion rule with product combo
+
+===========================
+Version 1.3.8 (28/10/2019)|
+===========================
+- FIX some visual Bug
+- FIX bug on the material switch button
+- FIX on pop save for advanced tag
+- Added new countries
+- FIX bad url building for multiple currencies shop
+- FIX removed control on active Country in getLangCurrencyCountry to manage the case when a merchant deactivate the country and would like to see the data feed to prepare it
+
+===========================
+Version 1.3.7 (03/10/2019)|
+===========================
+- Fix for duplicate url with combo export
+
+
+===========================
+Version 1.3.6 (24/09/2019)|
+===========================
+- Optimization for product with combination on PIXEL code
+- Fix for exclusion rules on specific combination
+- Fix for exclusion rules deactivation from the list
+- Fix for tracking product on the homepage
+- Optimization for page list when product are splitted
+- Fix for global CRON url
+- Force homecat value field
+- Fix for click event for pixel
+- Fix for multiple currencies + combo link
+- Added Greece
+
+
+===========================
+Version 1.3.5 (18/06/2019)|
+===========================
+- Optimize the new way to manage lang / country / currencies entries
+
+===========================
+Version 1.3.4 (13/05/2019)|
+===========================
+- New way to manage lang / country / currencies entries
+- Fix for CRON url with excluded product
+
+===========================
+Version 1.3.3(04/04/2019)|
+===========================
+- Fix syntax error on update in BO
+
+
+===========================
+Version 1.3.2(18/03/2019)|
+===========================
+- Fix greek language package
+- Fix coma is now forbidden on the purchase event
+
+
+===========================
+Version 1.3.1(04/03/2019)|
+===========================
+- Fix for PHP 5.4
+- Fix on 1 empty condition
+
+===========================
+Version 1.3.0(11/02/2019)| ==> MAJOR
+===========================
+Added
+-----
+-- NEW FT --
+> Advanced exclusion rules
+> Advanced custom label
+> Export only cover feature
+> Export on combination
+> Advanced option for URL's when we export by combination
+> Use attribute and or feature for color and size
+> Simple ID feature for data feed and pixel
+> Selector management on the BO
+
+-- BO --
+> Reworked
+> Step by step configuration
+> Footer FAQ link
+
+-- FO --
+> Pixel event : AddPaymentInfo
+> Pixel event : CompleteRegistration
+> Pixel event : Initiate checkout
+> Pixel event : Subscribe ( with Advanced Subscription module )
+-
+-- CORE OPTIM --
+> Optimize GTIN export value
+> Optimize description and title export when is an array
+> GetProdcuctDescription
+> AddToCart
+
+-- MODULE INTEGRATION --
+> With Instant Search on result page with layer mode
+> With Advanced Subscription
+> With Paybox
+
+
+
+===========================
+Version 1.2.19 (17/12/2018)|
+===========================
+Added
+-----
+- fix for hook header use
+
+===========================
+Version 1.2.18 (10/12/2018)|
+===========================
+Added
+-----
+- Use now the header to place the pixel code, to stop support case when the default footer hook is removed
+
+===========================
+Version 1.2.17 (14/09/2018)|
+===========================
+Fix
+-----
+- Remove simple quote for addToCart click event due to Facebook update on the best seller and new products page
+
+===========================
+Version 1.2.16 (30/08/2018)|
+===========================
+Fix
+-----
+- Bug for export without combination with the new getImages function
+
+===========================
+Version 1.2.14 (28/08/2018)|
+===========================
+Added
+-----
+- Better management for getProductDesc
+- Updated FAQ link for the new website
+
+Fixed
+-----
+- Remove simple quote for addToCart click event due to Facebook update
+- Bad image matching for export per combination with PS 1.7
+
+Files
+-----
+- many files
+
+===========================
+Version 1.2.13 (16/03/2018)|
+===========================
+Added
+-----
+- New prerequisites for simple cote instead of ""
+
+Fixed
+-----
+- Remove call API
+
+Files
+-----
+- many files
+
+===========================
+Version 1.2.12 (26/02/2018)|
+===========================
+Added
+-----
+- Add the price for add to cart pixel code on click
+
+Fixed
+-----
+-
+
+Files
+-----
+- many files
+
+
+===========================
+Version 1.2.11 (19/01/2018)|
+===========================
+Added
+-----
+- Compatibilty for PS 1.7.3.0
+
+Fixed
+-----
+-
+
+Files
+-----
+- many files
+
+
+
+===========================
+Version 1.2.10 (03/01/2018)|
+===========================
+Added
+-----
+- Update the default values for exclusion to YES NO NO
+
+Fixed
+-----
+- The content ids use now the iso_code from the language for the data feed
+
+Files
+-----
+- many files
+
+
+===========================
+Version 1.2.9 (11/12/2017)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- The content ids use now the iso_code
+
+Files
+-----
+- many files
+
+
+===========================
+Version 1.2.8 (27/11/2017)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Use the price with discount on the pixel on the product page
+
+Files
+-----
+- many files
+
+
+===========================
+Version 1.2.7 (18/10/2017)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Purchase tag content ids when 2 combinations of the same product is added
+- Compatibilty for PHP 7
+
+Files
+-----
+- many files
+
+
+===========================
+Version 1.2.6 (31/07/2017)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Link for product configuration in the reporting box
+
+Files
+-----
+- many files
+
+
+===========================
+Version 1.2.5 (29/05/2017)|
+===========================
+Added
+-----
+- New reporting interface
+- New custom label interface
+
+Fixed
+-----
+- Search page pixel to manage context for the module
+
+Files
+-----
+- many files
+
+===========================
+Version 1.2.4 (06/05/2017)|
+===========================
+Added
+-----
+- Force the default image to be large_default, this is the best size for Facebook
+- Force the default description to be both ( to help merchants who sometimes fill out the short and not the long description  or the long and not the short )
+- Remove the API CSS call
+
+Fixed
+-----
+-
+
+Files
+-----
+- many files
+
+===========================
+Version 1.2.3 (05/05/2017)|
+===========================
+Added
+-----
+- Bug fix for add_to_cart event when 2 combinations from the same product is added
+
+Fixed
+-----
+-
+
+Files
+-----
+- lib/pixel/pixel-cart-tags_class.php
+
+===========================
+Version 1.2.2 (27/02/2017)|
+===========================
+Added
+-----
+- New module translation for IT / ES / DE
+
+Fixed
+-----
+-
+
+Files
+-----
+-
+
+
+===========================
+Version 1.2.1 (16/01/2017)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Feed generator ( it couldn't create new feed due to an error in the module update for CUSTOM_FEED, we used the bad key )
+- Removed dump function
+
+Files
+-----
+-
+
+===========================
+Version 1.2.0 (19/12/2016)|
+===========================
+Added
+-----
+- Tools to add a custom lang/ country / association
+- New export method interface
+- New reporting interface
+- Cron URL per feed
+
+Fixed
+-----
+-
+
+Files
+-----
+-
+
+===========================
+Version 1.1.1 (03/10/2016)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Purchase tag value was empty,
+
+Files
+-----
+- lib/pixel/pixel-purchase-tags_class.php
+
+
+
+===========================
+Version 1.1.0 (03/10/2016)|
+===========================
+Added
+-----
+- Prepare module for PS 1.7
+
+Fixed
+-----
+-
+
+Files
+-----
+-
+
+
+===========================
+Version 1.0.7 (26/09/2016)|
+===========================
+Added
+-----
+- Optimisation for Pixel tag
+
+Fixed
+-----
+-
+
+Files
+-----
+- /views/templates/hook/facebook-pixel-js.tpl
+-
+
+===========================
+Version 1.0.6 (23/09/2016)|
+===========================
+Added
+-----
+- New way to init the pixel code
+-
+
+Fixed
+-----
+-
+
+Files
+-----
+- /views/templates/hook/facebook-pixel-js.tpl
+
+===========================
+Version 1.0.5 (19/09/2016)|
+===========================
+Added
+-----
+-
+-
+
+Fixed
+-----
+- Case for homepage without products
+
+Files
+-----
+- lib/pixel/pixel-product-tags_class.php
+- lib/pixel/pixel-home-tags_class.php
+
+
+===========================
+Version 1.0.4 (19/08/2016)|
+===========================
+Added
+-----
+-
+-
+
+Fixed
+-----
+- Improve the pagination handle for page with product list
+
+Files
+-----
+- lib/pixel/pixel-search-tags_class.php
+- lib/pixel/pixel-bestsales-tags_class.php
+- lib/pixel/pixel-category-tags_class.php
+- lib/pixel/pixel-manufacturer-tags_class.php
+- lib/pixel/pixel-newproducts-tags_class.php
+- lib/pixel/pixel-promotion-tags_class.php
+
+
+===========================
+Version 1.0.3 (11/08/2016)|
+===========================
+Added
+-----
+- Egypt
+- Finland
+
+Fixed
+-----
+- Pixel product tag and search tag when a search is done and it returns nothing as product list, it makes a PHP error. We added new test structure to verify if it exists a real products list returned by the search results.
+- Pixel category tag makes a PHP error when the current category has no products related to. We added new test structure to verify if it exists a real products list returned by the category page.
+- Pixel Js code updated with new prerequisites
+
+Files
+-----
+- lib/pixel/basePixel.php
+- lib/pixel/pixel-product-tags_class.php
+- lib/pixel/pixel-cart-tags_class.php
+- lib/pixel/pixel-search-tags_class.php
+- lib/pixel/pixel-bestsales-tags_class.php
+- lib/pixel/pixel-category-tags_class.php
+- lib/pixel/pixel-home-tags_class.php
+- lib/pixel/pixel-manufacturer-tags_class.php
+- lib/pixel/pixel-newproducts-tags_class.php
+- lib/pixel/pixel-promotion-tags_class.php
+- lib/pixel/pixel-purchase-tags_class.php
+
+
+===========================
+Version 1.0.2 (26/07/2016)|
+===========================
+Added
+-----
+- N.A
+
+Fixed
+-----
+- Pixel tag for homage without products
+
+Files
+-----
+- lib/pixel/pixel-home-tags_class.php
+
+
+===========================
+Version 1.0.1 (13/07/2016)|
+===========================
+Added
+-----
+- N.A
+
+Fixed
+-----
+- $this->data->step->ean becomes $this->data->step->upc
+
+Files
+-----
+- base-xml_class.php
+
+
+===========================
+Version 1.0.0 (23/06/2016)|
+===========================
+Added
+-----
+- Original release
+- N.A
+
+Fixed
+-----
+- N.A
+
+Files
+-----
+- N.A

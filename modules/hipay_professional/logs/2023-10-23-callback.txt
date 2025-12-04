@@ -1,0 +1,807 @@
+## 2023-10-23 14:36:16 ##
+##########################
+## 2023-10-23 14:36:16 ##
+START Validation Callback
+## 2023-10-23 14:36:16 ##
+##########################
+## 2023-10-23 14:36:16 ##
+----> Treatment is locked for the id_cart = 11525
+## 2023-10-23 14:36:16 ##
+data for validation
+## 2023-10-23 14:36:16 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>fe999986a16a2e73048f73124205eac5</md5content><result><operation>authorization</operation><status>ok</status><date>2023-10-23</date><time>12:36:14 UTC+0000</time><origAmount>110.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11525</idForMerchant><emailClient>igeo@gmx.fr</emailClient><idClient>22883614</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11525</_aKey_cart_id>  <_aKey_customer_id>3833</_aKey_customer_id>  <_aKey_secure_key>8d816afe6728fda3c2889e28bab3ba01</_aKey_secure_key>  <_aKey_token>e7a521d90488db91509142328a355dae</_aKey_token></merchantDatas><transid>6536686870D6D258</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => fe999986a16a2e73048f73124205eac5
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-10-23
+                    [time] => 12:36:14 UTC+0000
+                    [origAmount] => 110.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11525
+                    [emailClient] => igeo@gmx.fr
+                    [idClient] => 22883614
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11525
+                            [_aKey_customer_id] => 3833
+                            [_aKey_secure_key] => 8d816afe6728fda3c2889e28bab3ba01
+                            [_aKey_token] => e7a521d90488db91509142328a355dae
+                        )
+
+                    [transid] => 6536686870D6D258
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11525
+    [3] => 3833
+    [4] => 8d816afe6728fda3c2889e28bab3ba01
+    [5] => 110.7
+)
+
+## 2023-10-23 14:36:16 ##
+----> START registerOrder()
+## 2023-10-23 14:36:16 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 14:36:16 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-10-23</date><time>12:36:14 UTC+0000</time><origAmount>110.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11525</idForMerchant><emailClient>igeo@gmx.fr</emailClient><idClient>22883614</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11525</_aKey_cart_id>  <_aKey_customer_id>3833</_aKey_customer_id>  <_aKey_secure_key>8d816afe6728fda3c2889e28bab3ba01</_aKey_secure_key>  <_aKey_token>e7a521d90488db91509142328a355dae</_aKey_token></merchantDatas><transid>6536686870D6D258</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-23 14:36:16 ##
+currency : EUR
+## 2023-10-23 14:36:16 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 14:36:16 ##
+callback_salt : 
+## 2023-10-23 14:36:16 ##
+md5 : fe999986a16a2e73048f73124205eac5 == md5content : fe999986a16a2e73048f73124205eac5
+## 2023-10-23 14:36:16 ##
+Status = ok
+## 2023-10-23 14:36:16 ##
+$currency = EUR
+## 2023-10-23 14:36:16 ##
+id_order_state = 42
+## 2023-10-23 14:36:16 ##
+----> START placeOrder()
+## 2023-10-23 14:36:16 ##
+Treatment status = 42
+## 2023-10-23 14:36:16 ##
+Validate order
+## 2023-10-23 14:36:16 ##
+Array
+(
+    [0] => 11525
+    [1] => 42
+    [2] => 110.7
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"6536686870D6D258"}
+    [5] => Array
+        (
+            [transaction_id] => 6536686870D6D258
+        )
+
+    [6] => 1
+    [7] => 8d816afe6728fda3c2889e28bab3ba01
+)
+
+## 2023-10-23 14:36:16 ##
+ID Shop = 1
+## 2023-10-23 14:36:20 ##
+Order created
+## 2023-10-23 14:36:20 ##
+----> END placeOrder()
+## 2023-10-23 14:36:20 ##
+----> END registerOrder()
+## 2023-10-23 14:36:20 ##
+----> Treatment is unlocked for the id_cart = 11525
+## 2023-10-23 14:36:22 ##
+##########################
+## 2023-10-23 14:36:22 ##
+START Validation Callback
+## 2023-10-23 14:36:22 ##
+##########################
+## 2023-10-23 14:36:22 ##
+----> Treatment is locked for the id_cart = 11525
+## 2023-10-23 14:36:22 ##
+data for validation
+## 2023-10-23 14:36:22 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>6e5b120cb91ae3d0572bc499e4edc97c</md5content><result><operation>capture</operation><status>ok</status><date>2023-10-23</date><time>12:36:21 UTC+0000</time><origAmount>110.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11525</idForMerchant><emailClient>igeo@gmx.fr</emailClient><idClient>22883614</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11525</_aKey_cart_id>  <_aKey_customer_id>3833</_aKey_customer_id>  <_aKey_secure_key>8d816afe6728fda3c2889e28bab3ba01</_aKey_secure_key>  <_aKey_token>e7a521d90488db91509142328a355dae</_aKey_token></merchantDatas><transid>6536686870D6D258</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 6e5b120cb91ae3d0572bc499e4edc97c
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-10-23
+                    [time] => 12:36:21 UTC+0000
+                    [origAmount] => 110.70
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11525
+                    [emailClient] => igeo@gmx.fr
+                    [idClient] => 22883614
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11525
+                            [_aKey_customer_id] => 3833
+                            [_aKey_secure_key] => 8d816afe6728fda3c2889e28bab3ba01
+                            [_aKey_token] => e7a521d90488db91509142328a355dae
+                        )
+
+                    [transid] => 6536686870D6D258
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11525
+    [3] => 3833
+    [4] => 8d816afe6728fda3c2889e28bab3ba01
+    [5] => 110.7
+)
+
+## 2023-10-23 14:36:22 ##
+----> START registerOrder()
+## 2023-10-23 14:36:22 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 14:36:22 ##
+<result><operation>capture</operation><status>ok</status><date>2023-10-23</date><time>12:36:21 UTC+0000</time><origAmount>110.70</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11525</idForMerchant><emailClient>igeo@gmx.fr</emailClient><idClient>22883614</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11525</_aKey_cart_id>  <_aKey_customer_id>3833</_aKey_customer_id>  <_aKey_secure_key>8d816afe6728fda3c2889e28bab3ba01</_aKey_secure_key>  <_aKey_token>e7a521d90488db91509142328a355dae</_aKey_token></merchantDatas><transid>6536686870D6D258</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-23 14:36:22 ##
+currency : EUR
+## 2023-10-23 14:36:22 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 14:36:22 ##
+callback_salt : 
+## 2023-10-23 14:36:22 ##
+md5 : 6e5b120cb91ae3d0572bc499e4edc97c == md5content : 6e5b120cb91ae3d0572bc499e4edc97c
+## 2023-10-23 14:36:22 ##
+Status = ok
+## 2023-10-23 14:36:22 ##
+$currency = EUR
+## 2023-10-23 14:36:22 ##
+id_order_state = 2
+## 2023-10-23 14:36:22 ##
+----> START placeOrder()
+## 2023-10-23 14:36:22 ##
+Treatment an existing order
+## 2023-10-23 14:36:22 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-10-23 14:36:22 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-10-23
+    [time] => 12:36:21 UTC+0000
+    [origAmount] => 110.70
+    [origCurrency] => EUR
+    [idForMerchant] => 11525
+    [emailClient] => igeo@gmx.fr
+    [idClient] => 22883614
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 11525
+            [_aKey_customer_id] => 3833
+            [_aKey_secure_key] => 8d816afe6728fda3c2889e28bab3ba01
+            [_aKey_token] => e7a521d90488db91509142328a355dae
+        )
+
+    [transid] => 6536686870D6D258
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-10-23 14:36:23 ##
+----> END placeOrder()
+## 2023-10-23 14:36:23 ##
+----> END registerOrder()
+## 2023-10-23 14:36:23 ##
+----> Treatment is unlocked for the id_cart = 11525
+## 2023-10-23 16:44:13 ##
+##########################
+## 2023-10-23 16:44:13 ##
+START Validation Callback
+## 2023-10-23 16:44:13 ##
+##########################
+## 2023-10-23 16:44:13 ##
+----> Treatment is locked for the id_cart = 11523
+## 2023-10-23 16:44:13 ##
+data for validation
+## 2023-10-23 16:44:13 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>9250f52a8f19ecdc81e2ed031d808430</md5content><result><operation>authorization</operation><status>nok</status><date>2023-10-23</date><time>14:44:11 UTC+0000</time><origAmount>107.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11523</idForMerchant><emailClient>cinemaya.a@gmail.com</emailClient><idClient>22884051</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11523</_aKey_cart_id>  <_aKey_customer_id>3834</_aKey_customer_id>  <_aKey_secure_key>f9b35f9de600787c9b362a43ee1dac01</_aKey_secure_key>  <_aKey_token>c3c9f0a65ba37d0027d947fa399ad523</_aKey_token></merchantDatas><transid>6536868C04DAA258</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 9250f52a8f19ecdc81e2ed031d808430
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2023-10-23
+                    [time] => 14:44:11 UTC+0000
+                    [origAmount] => 107.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11523
+                    [emailClient] => cinemaya.a@gmail.com
+                    [idClient] => 22884051
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11523
+                            [_aKey_customer_id] => 3834
+                            [_aKey_secure_key] => f9b35f9de600787c9b362a43ee1dac01
+                            [_aKey_token] => c3c9f0a65ba37d0027d947fa399ad523
+                        )
+
+                    [transid] => 6536868C04DAA258
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11523
+    [3] => 3834
+    [4] => f9b35f9de600787c9b362a43ee1dac01
+    [5] => 107.1
+)
+
+## 2023-10-23 16:44:13 ##
+----> START registerOrder()
+## 2023-10-23 16:44:13 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 16:44:13 ##
+<result><operation>authorization</operation><status>nok</status><date>2023-10-23</date><time>14:44:11 UTC+0000</time><origAmount>107.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11523</idForMerchant><emailClient>cinemaya.a@gmail.com</emailClient><idClient>22884051</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11523</_aKey_cart_id>  <_aKey_customer_id>3834</_aKey_customer_id>  <_aKey_secure_key>f9b35f9de600787c9b362a43ee1dac01</_aKey_secure_key>  <_aKey_token>c3c9f0a65ba37d0027d947fa399ad523</_aKey_token></merchantDatas><transid>6536868C04DAA258</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-23 16:44:13 ##
+currency : EUR
+## 2023-10-23 16:44:13 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 16:44:13 ##
+callback_salt : 
+## 2023-10-23 16:44:13 ##
+md5 : 9250f52a8f19ecdc81e2ed031d808430 == md5content : 9250f52a8f19ecdc81e2ed031d808430
+## 2023-10-23 16:44:13 ##
+Status = nok
+## 2023-10-23 16:44:13 ##
+$currency = EUR
+## 2023-10-23 16:44:13 ##
+id_order_state = 8
+## 2023-10-23 16:44:13 ##
+----> START placeOrder()
+## 2023-10-23 16:44:13 ##
+Treatment status = ERROR
+## 2023-10-23 16:44:13 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2023-10-23
+    [time] =&gt; 14:44:11 UTC+0000
+    [origAmount] =&gt; 107.10
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 11523
+    [emailClient] =&gt; cinemaya.a@gmail.com
+    [idClient] =&gt; 22884051
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 11523
+            [_aKey_customer_id] =&gt; 3834
+            [_aKey_secure_key] =&gt; f9b35f9de600787c9b362a43ee1dac01
+            [_aKey_token] =&gt; c3c9f0a65ba37d0027d947fa399ad523
+        )
+
+    [transid] =&gt; 6536868C04DAA258
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2023-10-23 16:44:13 ##
+----> END placeOrder()
+## 2023-10-23 16:44:13 ##
+----> END registerOrder()
+## 2023-10-23 16:44:13 ##
+----> Treatment is unlocked for the id_cart = 11523
+## 2023-10-23 16:44:16 ##
+##########################
+## 2023-10-23 16:44:16 ##
+START Validation Callback
+## 2023-10-23 16:44:16 ##
+##########################
+## 2023-10-23 16:44:16 ##
+----> Treatment is locked for the id_cart = 11523
+## 2023-10-23 16:44:16 ##
+data for validation
+## 2023-10-23 16:44:16 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8bc755ee17080f5ee3a49fad20cc5c88</md5content><result><operation>capture</operation><status>nok</status><date>2023-10-23</date><time>14:44:15 UTC+0000</time><origAmount>107.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11523</idForMerchant><emailClient>cinemaya.a@gmail.com</emailClient><idClient>22884051</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11523</_aKey_cart_id>  <_aKey_customer_id>3834</_aKey_customer_id>  <_aKey_secure_key>f9b35f9de600787c9b362a43ee1dac01</_aKey_secure_key>  <_aKey_token>c3c9f0a65ba37d0027d947fa399ad523</_aKey_token></merchantDatas><transid>6536868C04DAA258</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8bc755ee17080f5ee3a49fad20cc5c88
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => nok
+                    [date] => 2023-10-23
+                    [time] => 14:44:15 UTC+0000
+                    [origAmount] => 107.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11523
+                    [emailClient] => cinemaya.a@gmail.com
+                    [idClient] => 22884051
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11523
+                            [_aKey_customer_id] => 3834
+                            [_aKey_secure_key] => f9b35f9de600787c9b362a43ee1dac01
+                            [_aKey_token] => c3c9f0a65ba37d0027d947fa399ad523
+                        )
+
+                    [transid] => 6536868C04DAA258
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11523
+    [3] => 3834
+    [4] => f9b35f9de600787c9b362a43ee1dac01
+    [5] => 107.1
+)
+
+## 2023-10-23 16:44:16 ##
+----> START registerOrder()
+## 2023-10-23 16:44:16 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 16:44:16 ##
+<result><operation>capture</operation><status>nok</status><date>2023-10-23</date><time>14:44:15 UTC+0000</time><origAmount>107.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11523</idForMerchant><emailClient>cinemaya.a@gmail.com</emailClient><idClient>22884051</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11523</_aKey_cart_id>  <_aKey_customer_id>3834</_aKey_customer_id>  <_aKey_secure_key>f9b35f9de600787c9b362a43ee1dac01</_aKey_secure_key>  <_aKey_token>c3c9f0a65ba37d0027d947fa399ad523</_aKey_token></merchantDatas><transid>6536868C04DAA258</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-23 16:44:16 ##
+currency : EUR
+## 2023-10-23 16:44:16 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 16:44:16 ##
+callback_salt : 
+## 2023-10-23 16:44:16 ##
+md5 : 8bc755ee17080f5ee3a49fad20cc5c88 == md5content : 8bc755ee17080f5ee3a49fad20cc5c88
+## 2023-10-23 16:44:16 ##
+Status = nok
+## 2023-10-23 16:44:16 ##
+$currency = EUR
+## 2023-10-23 16:44:16 ##
+id_order_state = 8
+## 2023-10-23 16:44:16 ##
+----> START placeOrder()
+## 2023-10-23 16:44:16 ##
+Treatment status = ERROR
+## 2023-10-23 16:44:16 ##
+Array
+(
+    [operation] =&gt; capture
+    [status] =&gt; nok
+    [date] =&gt; 2023-10-23
+    [time] =&gt; 14:44:15 UTC+0000
+    [origAmount] =&gt; 107.10
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 11523
+    [emailClient] =&gt; cinemaya.a@gmail.com
+    [idClient] =&gt; 22884051
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 11523
+            [_aKey_customer_id] =&gt; 3834
+            [_aKey_secure_key] =&gt; f9b35f9de600787c9b362a43ee1dac01
+            [_aKey_token] =&gt; c3c9f0a65ba37d0027d947fa399ad523
+        )
+
+    [transid] =&gt; 6536868C04DAA258
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2023-10-23 16:44:16 ##
+----> END placeOrder()
+## 2023-10-23 16:44:16 ##
+----> END registerOrder()
+## 2023-10-23 16:44:16 ##
+----> Treatment is unlocked for the id_cart = 11523
+## 2023-10-23 16:46:31 ##
+##########################
+## 2023-10-23 16:46:32 ##
+START Validation Callback
+## 2023-10-23 16:46:32 ##
+##########################
+## 2023-10-23 16:46:32 ##
+----> Treatment is locked for the id_cart = 11523
+## 2023-10-23 16:46:32 ##
+data for validation
+## 2023-10-23 16:46:32 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>737c4dac03199c3ea7abdc6d42fdd282</md5content><result><operation>authorization</operation><status>nok</status><date>2023-10-23</date><time>14:46:29 UTC+0000</time><origAmount>107.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11523</idForMerchant><emailClient>cinemaya.a@gmail.com</emailClient><idClient>22884051</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11523</_aKey_cart_id>  <_aKey_customer_id>3834</_aKey_customer_id>  <_aKey_secure_key>f9b35f9de600787c9b362a43ee1dac01</_aKey_secure_key>  <_aKey_token>c3c9f0a65ba37d0027d947fa399ad523</_aKey_token></merchantDatas><transid>653687255D90D257</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 737c4dac03199c3ea7abdc6d42fdd282
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2023-10-23
+                    [time] => 14:46:29 UTC+0000
+                    [origAmount] => 107.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11523
+                    [emailClient] => cinemaya.a@gmail.com
+                    [idClient] => 22884051
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11523
+                            [_aKey_customer_id] => 3834
+                            [_aKey_secure_key] => f9b35f9de600787c9b362a43ee1dac01
+                            [_aKey_token] => c3c9f0a65ba37d0027d947fa399ad523
+                        )
+
+                    [transid] => 653687255D90D257
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11523
+    [3] => 3834
+    [4] => f9b35f9de600787c9b362a43ee1dac01
+    [5] => 107.1
+)
+
+## 2023-10-23 16:46:32 ##
+----> START registerOrder()
+## 2023-10-23 16:46:32 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 16:46:32 ##
+<result><operation>authorization</operation><status>nok</status><date>2023-10-23</date><time>14:46:29 UTC+0000</time><origAmount>107.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11523</idForMerchant><emailClient>cinemaya.a@gmail.com</emailClient><idClient>22884051</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11523</_aKey_cart_id>  <_aKey_customer_id>3834</_aKey_customer_id>  <_aKey_secure_key>f9b35f9de600787c9b362a43ee1dac01</_aKey_secure_key>  <_aKey_token>c3c9f0a65ba37d0027d947fa399ad523</_aKey_token></merchantDatas><transid>653687255D90D257</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-23 16:46:32 ##
+currency : EUR
+## 2023-10-23 16:46:32 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 16:46:32 ##
+callback_salt : 
+## 2023-10-23 16:46:32 ##
+md5 : 737c4dac03199c3ea7abdc6d42fdd282 == md5content : 737c4dac03199c3ea7abdc6d42fdd282
+## 2023-10-23 16:46:32 ##
+Status = nok
+## 2023-10-23 16:46:32 ##
+$currency = EUR
+## 2023-10-23 16:46:32 ##
+id_order_state = 8
+## 2023-10-23 16:46:32 ##
+----> START placeOrder()
+## 2023-10-23 16:46:32 ##
+Treatment status = ERROR
+## 2023-10-23 16:46:32 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2023-10-23
+    [time] =&gt; 14:46:29 UTC+0000
+    [origAmount] =&gt; 107.10
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 11523
+    [emailClient] =&gt; cinemaya.a@gmail.com
+    [idClient] =&gt; 22884051
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 11523
+            [_aKey_customer_id] =&gt; 3834
+            [_aKey_secure_key] =&gt; f9b35f9de600787c9b362a43ee1dac01
+            [_aKey_token] =&gt; c3c9f0a65ba37d0027d947fa399ad523
+        )
+
+    [transid] =&gt; 653687255D90D257
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2023-10-23 16:46:32 ##
+----> END placeOrder()
+## 2023-10-23 16:46:32 ##
+----> END registerOrder()
+## 2023-10-23 16:46:32 ##
+----> Treatment is unlocked for the id_cart = 11523
+## 2023-10-23 16:46:35 ##
+##########################
+## 2023-10-23 16:46:35 ##
+START Validation Callback
+## 2023-10-23 16:46:35 ##
+##########################
+## 2023-10-23 16:46:35 ##
+----> Treatment is locked for the id_cart = 11523
+## 2023-10-23 16:46:35 ##
+data for validation
+## 2023-10-23 16:46:35 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>19474e88143e9044ba2c2af1b333dad5</md5content><result><operation>capture</operation><status>nok</status><date>2023-10-23</date><time>14:46:31 UTC+0000</time><origAmount>107.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11523</idForMerchant><emailClient>cinemaya.a@gmail.com</emailClient><idClient>22884051</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11523</_aKey_cart_id>  <_aKey_customer_id>3834</_aKey_customer_id>  <_aKey_secure_key>f9b35f9de600787c9b362a43ee1dac01</_aKey_secure_key>  <_aKey_token>c3c9f0a65ba37d0027d947fa399ad523</_aKey_token></merchantDatas><transid>653687255D90D257</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 19474e88143e9044ba2c2af1b333dad5
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => nok
+                    [date] => 2023-10-23
+                    [time] => 14:46:31 UTC+0000
+                    [origAmount] => 107.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11523
+                    [emailClient] => cinemaya.a@gmail.com
+                    [idClient] => 22884051
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11523
+                            [_aKey_customer_id] => 3834
+                            [_aKey_secure_key] => f9b35f9de600787c9b362a43ee1dac01
+                            [_aKey_token] => c3c9f0a65ba37d0027d947fa399ad523
+                        )
+
+                    [transid] => 653687255D90D257
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11523
+    [3] => 3834
+    [4] => f9b35f9de600787c9b362a43ee1dac01
+    [5] => 107.1
+)
+
+## 2023-10-23 16:46:35 ##
+----> START registerOrder()
+## 2023-10-23 16:46:35 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 16:46:35 ##
+<result><operation>capture</operation><status>nok</status><date>2023-10-23</date><time>14:46:31 UTC+0000</time><origAmount>107.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11523</idForMerchant><emailClient>cinemaya.a@gmail.com</emailClient><idClient>22884051</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11523</_aKey_cart_id>  <_aKey_customer_id>3834</_aKey_customer_id>  <_aKey_secure_key>f9b35f9de600787c9b362a43ee1dac01</_aKey_secure_key>  <_aKey_token>c3c9f0a65ba37d0027d947fa399ad523</_aKey_token></merchantDatas><transid>653687255D90D257</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-23 16:46:35 ##
+currency : EUR
+## 2023-10-23 16:46:35 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-23 16:46:35 ##
+callback_salt : 
+## 2023-10-23 16:46:35 ##
+md5 : 19474e88143e9044ba2c2af1b333dad5 == md5content : 19474e88143e9044ba2c2af1b333dad5
+## 2023-10-23 16:46:35 ##
+Status = nok
+## 2023-10-23 16:46:35 ##
+$currency = EUR
+## 2023-10-23 16:46:35 ##
+id_order_state = 8
+## 2023-10-23 16:46:35 ##
+----> START placeOrder()
+## 2023-10-23 16:46:35 ##
+Treatment status = ERROR
+## 2023-10-23 16:46:35 ##
+Array
+(
+    [operation] =&gt; capture
+    [status] =&gt; nok
+    [date] =&gt; 2023-10-23
+    [time] =&gt; 14:46:31 UTC+0000
+    [origAmount] =&gt; 107.10
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 11523
+    [emailClient] =&gt; cinemaya.a@gmail.com
+    [idClient] =&gt; 22884051
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 11523
+            [_aKey_customer_id] =&gt; 3834
+            [_aKey_secure_key] =&gt; f9b35f9de600787c9b362a43ee1dac01
+            [_aKey_token] =&gt; c3c9f0a65ba37d0027d947fa399ad523
+        )
+
+    [transid] =&gt; 653687255D90D257
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2023-10-23 16:46:35 ##
+----> END placeOrder()
+## 2023-10-23 16:46:35 ##
+----> END registerOrder()
+## 2023-10-23 16:46:35 ##
+----> Treatment is unlocked for the id_cart = 11523

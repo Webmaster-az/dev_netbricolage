@@ -1,0 +1,259 @@
+## 2022-07-19 15:16:30 ##
+##########################
+## 2022-07-19 15:16:30 ##
+START Validation Callback
+## 2022-07-19 15:16:30 ##
+##########################
+## 2022-07-19 15:16:30 ##
+----> Treatment is locked for the id_cart = 3702
+## 2022-07-19 15:16:30 ##
+data for validation
+## 2022-07-19 15:16:30 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>76d459ec6f24d2c0d7aa9580d84f8d01</md5content><result><operation>authorization</operation><status>ok</status><date>2022-07-19</date><time>13:16:27 UTC+0000</time><origAmount>318.08</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3702</idForMerchant><emailClient>franck.lejeune823@orange.fr</emailClient><idClient>21250535</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3702</_aKey_cart_id>  <_aKey_customer_id>2271</_aKey_customer_id>  <_aKey_secure_key>d7848d448f339cc38082484908082f23</_aKey_secure_key>  <_aKey_token>e5f6182b75d0db1954d6bee00c3f8bf2</_aKey_token></merchantDatas><transid>62D6ADAD82D2F656</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 76d459ec6f24d2c0d7aa9580d84f8d01
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-07-19
+                    [time] => 13:16:27 UTC+0000
+                    [origAmount] => 318.08
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3702
+                    [emailClient] => franck.lejeune823@orange.fr
+                    [idClient] => 21250535
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3702
+                            [_aKey_customer_id] => 2271
+                            [_aKey_secure_key] => d7848d448f339cc38082484908082f23
+                            [_aKey_token] => e5f6182b75d0db1954d6bee00c3f8bf2
+                        )
+
+                    [transid] => 62D6ADAD82D2F656
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3702
+    [3] => 2271
+    [4] => d7848d448f339cc38082484908082f23
+    [5] => 318.08
+)
+
+## 2022-07-19 15:16:30 ##
+----> START registerOrder()
+## 2022-07-19 15:16:30 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-19 15:16:30 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-07-19</date><time>13:16:27 UTC+0000</time><origAmount>318.08</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3702</idForMerchant><emailClient>franck.lejeune823@orange.fr</emailClient><idClient>21250535</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3702</_aKey_cart_id>  <_aKey_customer_id>2271</_aKey_customer_id>  <_aKey_secure_key>d7848d448f339cc38082484908082f23</_aKey_secure_key>  <_aKey_token>e5f6182b75d0db1954d6bee00c3f8bf2</_aKey_token></merchantDatas><transid>62D6ADAD82D2F656</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-07-19 15:16:30 ##
+currency : EUR
+## 2022-07-19 15:16:30 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-19 15:16:30 ##
+callback_salt : 
+## 2022-07-19 15:16:30 ##
+md5 : 76d459ec6f24d2c0d7aa9580d84f8d01 == md5content : 76d459ec6f24d2c0d7aa9580d84f8d01
+## 2022-07-19 15:16:30 ##
+Status = ok
+## 2022-07-19 15:16:30 ##
+$currency = EUR
+## 2022-07-19 15:16:30 ##
+id_order_state = 42
+## 2022-07-19 15:16:30 ##
+----> START placeOrder()
+## 2022-07-19 15:16:30 ##
+Treatment status = 42
+## 2022-07-19 15:16:30 ##
+Validate order
+## 2022-07-19 15:16:30 ##
+Array
+(
+    [0] => 3702
+    [1] => 42
+    [2] => 318.08
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"62D6ADAD82D2F656"}
+    [5] => Array
+        (
+            [transaction_id] => 62D6ADAD82D2F656
+        )
+
+    [6] => 1
+    [7] => d7848d448f339cc38082484908082f23
+)
+
+## 2022-07-19 15:16:30 ##
+ID Shop = 1
+## 2022-07-19 15:16:31 ##
+Order created
+## 2022-07-19 15:16:31 ##
+----> END placeOrder()
+## 2022-07-19 15:16:31 ##
+----> END registerOrder()
+## 2022-07-19 15:16:31 ##
+----> Treatment is unlocked for the id_cart = 3702
+## 2022-07-19 15:16:36 ##
+##########################
+## 2022-07-19 15:16:36 ##
+START Validation Callback
+## 2022-07-19 15:16:36 ##
+##########################
+## 2022-07-19 15:16:36 ##
+----> Treatment is locked for the id_cart = 3702
+## 2022-07-19 15:16:36 ##
+data for validation
+## 2022-07-19 15:16:36 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>778a829fcebea9f1b95f88926df13b49</md5content><result><operation>capture</operation><status>ok</status><date>2022-07-19</date><time>13:16:34 UTC+0000</time><origAmount>318.08</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3702</idForMerchant><emailClient>franck.lejeune823@orange.fr</emailClient><idClient>21250535</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3702</_aKey_cart_id>  <_aKey_customer_id>2271</_aKey_customer_id>  <_aKey_secure_key>d7848d448f339cc38082484908082f23</_aKey_secure_key>  <_aKey_token>e5f6182b75d0db1954d6bee00c3f8bf2</_aKey_token></merchantDatas><transid>62D6ADAD82D2F656</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 778a829fcebea9f1b95f88926df13b49
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-07-19
+                    [time] => 13:16:34 UTC+0000
+                    [origAmount] => 318.08
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3702
+                    [emailClient] => franck.lejeune823@orange.fr
+                    [idClient] => 21250535
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3702
+                            [_aKey_customer_id] => 2271
+                            [_aKey_secure_key] => d7848d448f339cc38082484908082f23
+                            [_aKey_token] => e5f6182b75d0db1954d6bee00c3f8bf2
+                        )
+
+                    [transid] => 62D6ADAD82D2F656
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3702
+    [3] => 2271
+    [4] => d7848d448f339cc38082484908082f23
+    [5] => 318.08
+)
+
+## 2022-07-19 15:16:36 ##
+----> START registerOrder()
+## 2022-07-19 15:16:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-19 15:16:36 ##
+<result><operation>capture</operation><status>ok</status><date>2022-07-19</date><time>13:16:34 UTC+0000</time><origAmount>318.08</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3702</idForMerchant><emailClient>franck.lejeune823@orange.fr</emailClient><idClient>21250535</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3702</_aKey_cart_id>  <_aKey_customer_id>2271</_aKey_customer_id>  <_aKey_secure_key>d7848d448f339cc38082484908082f23</_aKey_secure_key>  <_aKey_token>e5f6182b75d0db1954d6bee00c3f8bf2</_aKey_token></merchantDatas><transid>62D6ADAD82D2F656</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-07-19 15:16:36 ##
+currency : EUR
+## 2022-07-19 15:16:36 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-19 15:16:36 ##
+callback_salt : 
+## 2022-07-19 15:16:36 ##
+md5 : 778a829fcebea9f1b95f88926df13b49 == md5content : 778a829fcebea9f1b95f88926df13b49
+## 2022-07-19 15:16:36 ##
+Status = ok
+## 2022-07-19 15:16:36 ##
+$currency = EUR
+## 2022-07-19 15:16:36 ##
+id_order_state = 2
+## 2022-07-19 15:16:36 ##
+----> START placeOrder()
+## 2022-07-19 15:16:36 ##
+Treatment an existing order
+## 2022-07-19 15:16:36 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-07-19 15:16:36 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-07-19
+    [time] => 13:16:34 UTC+0000
+    [origAmount] => 318.08
+    [origCurrency] => EUR
+    [idForMerchant] => 3702
+    [emailClient] => franck.lejeune823@orange.fr
+    [idClient] => 21250535
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 3702
+            [_aKey_customer_id] => 2271
+            [_aKey_secure_key] => d7848d448f339cc38082484908082f23
+            [_aKey_token] => e5f6182b75d0db1954d6bee00c3f8bf2
+        )
+
+    [transid] => 62D6ADAD82D2F656
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-07-19 15:16:36 ##
+----> END placeOrder()
+## 2022-07-19 15:16:36 ##
+----> END registerOrder()
+## 2022-07-19 15:16:36 ##
+----> Treatment is unlocked for the id_cart = 3702

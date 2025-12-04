@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            max-width: 600px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: left;
+            margin: 20px;
+        }
+        
+        .logo {
+            border-bottom: 4px solid #333333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .message-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .info {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .info a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+<div align="center" class="logo" style="border-bottom: 4px solid #333333;"><a title="{shop_name}" href="{shop_url}" test="{shop_url}" style="color: #337ff1;"> <img src="{shop_logo}" alt="{shop_name}" /> </a></div>
+<p class="title">Ch&egrave;re Cliente,</p>
+<div class="message-box">
+<p>Commande : {order_name} <br />Nous avons le plaisir de vous informer que votre commande est pr&ecirc;te et sera confi&eacute;e &agrave; notre transporteur lors de son prochain passage. Celui-ci assurera la livraison dans les plus brefs d&eacute;lais.</p>
+<p>Les produits seront livr&eacute;s &agrave; l&rsquo;adresse que vous avez indiqu&eacute;e (domicile ou chantier) lors de votre inscription sur notre site Internet.</p>
+<p><strong>Important :</strong> Pour les commandes lourdes et volumineuses, merci de v&eacute;rifier que le lieu de livraison est accessible aux poids lourds. Tous les frais de d&eacute;chargement (grue, chariot &eacute;l&eacute;vateur, main-d&#039;&oelig;uvre, etc.) n&eacute;cessaires seront &agrave; la charge du client.</p>
+<p>Un prochain email vous informera de la prise en charge de votre commande par le transporteur.</p>
+<p>Cordialement,<br />L&rsquo;&eacute;quipe de NetBricolage</p>
+</div>
+<div class="footer">
+<p>{shop_name}</p>
+</div>
+</div>
+</body>
+
+</html>

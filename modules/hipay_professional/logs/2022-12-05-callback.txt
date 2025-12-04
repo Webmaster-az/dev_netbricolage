@@ -1,0 +1,259 @@
+## 2022-12-05 13:06:43 ##
+##########################
+## 2022-12-05 13:06:43 ##
+START Validation Callback
+## 2022-12-05 13:06:43 ##
+##########################
+## 2022-12-05 13:06:43 ##
+----> Treatment is locked for the id_cart = 6329
+## 2022-12-05 13:06:43 ##
+data for validation
+## 2022-12-05 13:06:43 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2bb13e176d13b0d6f0462e035ea93d67</md5content><result><operation>authorization</operation><status>ok</status><date>2022-12-05</date><time>12:06:41 UTC+0000</time><origAmount>40.13</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6329</idForMerchant><emailClient>serge.masin@wanadoo.fr</emailClient><idClient>21773800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6329</_aKey_cart_id>  <_aKey_customer_id>2885</_aKey_customer_id>  <_aKey_secure_key>b74c3bb9b64eaa28ca23056b41dfa7ce</_aKey_secure_key>  <_aKey_token>72a9dd5ad75862beaf3832351631b516</_aKey_token></merchantDatas><transid>638DDE8DA9ACE230</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2bb13e176d13b0d6f0462e035ea93d67
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-12-05
+                    [time] => 12:06:41 UTC+0000
+                    [origAmount] => 40.13
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6329
+                    [emailClient] => serge.masin@wanadoo.fr
+                    [idClient] => 21773800
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6329
+                            [_aKey_customer_id] => 2885
+                            [_aKey_secure_key] => b74c3bb9b64eaa28ca23056b41dfa7ce
+                            [_aKey_token] => 72a9dd5ad75862beaf3832351631b516
+                        )
+
+                    [transid] => 638DDE8DA9ACE230
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6329
+    [3] => 2885
+    [4] => b74c3bb9b64eaa28ca23056b41dfa7ce
+    [5] => 40.13
+)
+
+## 2022-12-05 13:06:43 ##
+----> START registerOrder()
+## 2022-12-05 13:06:43 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-05 13:06:43 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-12-05</date><time>12:06:41 UTC+0000</time><origAmount>40.13</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6329</idForMerchant><emailClient>serge.masin@wanadoo.fr</emailClient><idClient>21773800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6329</_aKey_cart_id>  <_aKey_customer_id>2885</_aKey_customer_id>  <_aKey_secure_key>b74c3bb9b64eaa28ca23056b41dfa7ce</_aKey_secure_key>  <_aKey_token>72a9dd5ad75862beaf3832351631b516</_aKey_token></merchantDatas><transid>638DDE8DA9ACE230</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-05 13:06:43 ##
+currency : EUR
+## 2022-12-05 13:06:43 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-05 13:06:43 ##
+callback_salt : 
+## 2022-12-05 13:06:43 ##
+md5 : 2bb13e176d13b0d6f0462e035ea93d67 == md5content : 2bb13e176d13b0d6f0462e035ea93d67
+## 2022-12-05 13:06:43 ##
+Status = ok
+## 2022-12-05 13:06:43 ##
+$currency = EUR
+## 2022-12-05 13:06:43 ##
+id_order_state = 42
+## 2022-12-05 13:06:43 ##
+----> START placeOrder()
+## 2022-12-05 13:06:43 ##
+Treatment status = 42
+## 2022-12-05 13:06:43 ##
+Validate order
+## 2022-12-05 13:06:43 ##
+Array
+(
+    [0] => 6329
+    [1] => 42
+    [2] => 40.13
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"638DDE8DA9ACE230"}
+    [5] => Array
+        (
+            [transaction_id] => 638DDE8DA9ACE230
+        )
+
+    [6] => 1
+    [7] => b74c3bb9b64eaa28ca23056b41dfa7ce
+)
+
+## 2022-12-05 13:06:43 ##
+ID Shop = 1
+## 2022-12-05 13:06:47 ##
+Order created
+## 2022-12-05 13:06:47 ##
+----> END placeOrder()
+## 2022-12-05 13:06:47 ##
+----> END registerOrder()
+## 2022-12-05 13:06:47 ##
+----> Treatment is unlocked for the id_cart = 6329
+## 2022-12-05 13:06:49 ##
+##########################
+## 2022-12-05 13:06:49 ##
+START Validation Callback
+## 2022-12-05 13:06:49 ##
+##########################
+## 2022-12-05 13:06:49 ##
+----> Treatment is locked for the id_cart = 6329
+## 2022-12-05 13:06:49 ##
+data for validation
+## 2022-12-05 13:06:49 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2ba639f6e9b143e45b71a5e0f9463537</md5content><result><operation>capture</operation><status>ok</status><date>2022-12-05</date><time>12:06:47 UTC+0000</time><origAmount>40.13</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6329</idForMerchant><emailClient>serge.masin@wanadoo.fr</emailClient><idClient>21773800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6329</_aKey_cart_id>  <_aKey_customer_id>2885</_aKey_customer_id>  <_aKey_secure_key>b74c3bb9b64eaa28ca23056b41dfa7ce</_aKey_secure_key>  <_aKey_token>72a9dd5ad75862beaf3832351631b516</_aKey_token></merchantDatas><transid>638DDE8DA9ACE230</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2ba639f6e9b143e45b71a5e0f9463537
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-12-05
+                    [time] => 12:06:47 UTC+0000
+                    [origAmount] => 40.13
+                    [origCurrency] => EUR
+                    [idForMerchant] => 6329
+                    [emailClient] => serge.masin@wanadoo.fr
+                    [idClient] => 21773800
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 6329
+                            [_aKey_customer_id] => 2885
+                            [_aKey_secure_key] => b74c3bb9b64eaa28ca23056b41dfa7ce
+                            [_aKey_token] => 72a9dd5ad75862beaf3832351631b516
+                        )
+
+                    [transid] => 638DDE8DA9ACE230
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 6329
+    [3] => 2885
+    [4] => b74c3bb9b64eaa28ca23056b41dfa7ce
+    [5] => 40.13
+)
+
+## 2022-12-05 13:06:49 ##
+----> START registerOrder()
+## 2022-12-05 13:06:49 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-05 13:06:49 ##
+<result><operation>capture</operation><status>ok</status><date>2022-12-05</date><time>12:06:47 UTC+0000</time><origAmount>40.13</origAmount><origCurrency>EUR</origCurrency><idForMerchant>6329</idForMerchant><emailClient>serge.masin@wanadoo.fr</emailClient><idClient>21773800</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>6329</_aKey_cart_id>  <_aKey_customer_id>2885</_aKey_customer_id>  <_aKey_secure_key>b74c3bb9b64eaa28ca23056b41dfa7ce</_aKey_secure_key>  <_aKey_token>72a9dd5ad75862beaf3832351631b516</_aKey_token></merchantDatas><transid>638DDE8DA9ACE230</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-12-05 13:06:49 ##
+currency : EUR
+## 2022-12-05 13:06:49 ##
+accountID:13248407 / websiteId:418801
+## 2022-12-05 13:06:49 ##
+callback_salt : 
+## 2022-12-05 13:06:49 ##
+md5 : 2ba639f6e9b143e45b71a5e0f9463537 == md5content : 2ba639f6e9b143e45b71a5e0f9463537
+## 2022-12-05 13:06:49 ##
+Status = ok
+## 2022-12-05 13:06:49 ##
+$currency = EUR
+## 2022-12-05 13:06:49 ##
+id_order_state = 2
+## 2022-12-05 13:06:49 ##
+----> START placeOrder()
+## 2022-12-05 13:06:49 ##
+Treatment an existing order
+## 2022-12-05 13:06:49 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-12-05 13:06:49 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-12-05
+    [time] => 12:06:47 UTC+0000
+    [origAmount] => 40.13
+    [origCurrency] => EUR
+    [idForMerchant] => 6329
+    [emailClient] => serge.masin@wanadoo.fr
+    [idClient] => 21773800
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 6329
+            [_aKey_customer_id] => 2885
+            [_aKey_secure_key] => b74c3bb9b64eaa28ca23056b41dfa7ce
+            [_aKey_token] => 72a9dd5ad75862beaf3832351631b516
+        )
+
+    [transid] => 638DDE8DA9ACE230
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-12-05 13:06:50 ##
+----> END placeOrder()
+## 2022-12-05 13:06:50 ##
+----> END registerOrder()
+## 2022-12-05 13:06:50 ##
+----> Treatment is unlocked for the id_cart = 6329

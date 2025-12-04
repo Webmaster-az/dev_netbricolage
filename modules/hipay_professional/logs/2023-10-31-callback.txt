@@ -1,0 +1,259 @@
+## 2023-10-31 19:37:22 ##
+##########################
+## 2023-10-31 19:37:22 ##
+START Validation Callback
+## 2023-10-31 19:37:22 ##
+##########################
+## 2023-10-31 19:37:22 ##
+----> Treatment is locked for the id_cart = 11632
+## 2023-10-31 19:37:22 ##
+data for validation
+## 2023-10-31 19:37:22 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2cd6da921b102504c8132a69a97d8fba</md5content><result><operation>authorization</operation><status>ok</status><date>2023-10-31</date><time>18:37:19 UTC+0000</time><origAmount>346.75</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11632</idForMerchant><emailClient>mihai_sabau@icloud.com</emailClient><idClient>22911345</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11632</_aKey_cart_id>  <_aKey_customer_id>3851</_aKey_customer_id>  <_aKey_secure_key>109e46c78f360f28d1de2374228259c6</_aKey_secure_key>  <_aKey_token>7d6ae2aff7ac2b6ce7ca48f98344ca7f</_aKey_token></merchantDatas><transid>6541490E863C0572</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2cd6da921b102504c8132a69a97d8fba
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-10-31
+                    [time] => 18:37:19 UTC+0000
+                    [origAmount] => 346.75
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11632
+                    [emailClient] => mihai_sabau@icloud.com
+                    [idClient] => 22911345
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11632
+                            [_aKey_customer_id] => 3851
+                            [_aKey_secure_key] => 109e46c78f360f28d1de2374228259c6
+                            [_aKey_token] => 7d6ae2aff7ac2b6ce7ca48f98344ca7f
+                        )
+
+                    [transid] => 6541490E863C0572
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11632
+    [3] => 3851
+    [4] => 109e46c78f360f28d1de2374228259c6
+    [5] => 346.75
+)
+
+## 2023-10-31 19:37:22 ##
+----> START registerOrder()
+## 2023-10-31 19:37:22 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-31 19:37:22 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-10-31</date><time>18:37:19 UTC+0000</time><origAmount>346.75</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11632</idForMerchant><emailClient>mihai_sabau@icloud.com</emailClient><idClient>22911345</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11632</_aKey_cart_id>  <_aKey_customer_id>3851</_aKey_customer_id>  <_aKey_secure_key>109e46c78f360f28d1de2374228259c6</_aKey_secure_key>  <_aKey_token>7d6ae2aff7ac2b6ce7ca48f98344ca7f</_aKey_token></merchantDatas><transid>6541490E863C0572</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-31 19:37:22 ##
+currency : EUR
+## 2023-10-31 19:37:22 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-31 19:37:22 ##
+callback_salt : 
+## 2023-10-31 19:37:22 ##
+md5 : 2cd6da921b102504c8132a69a97d8fba == md5content : 2cd6da921b102504c8132a69a97d8fba
+## 2023-10-31 19:37:22 ##
+Status = ok
+## 2023-10-31 19:37:22 ##
+$currency = EUR
+## 2023-10-31 19:37:22 ##
+id_order_state = 42
+## 2023-10-31 19:37:22 ##
+----> START placeOrder()
+## 2023-10-31 19:37:22 ##
+Treatment status = 42
+## 2023-10-31 19:37:22 ##
+Validate order
+## 2023-10-31 19:37:22 ##
+Array
+(
+    [0] => 11632
+    [1] => 42
+    [2] => 346.75
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"6541490E863C0572"}
+    [5] => Array
+        (
+            [transaction_id] => 6541490E863C0572
+        )
+
+    [6] => 1
+    [7] => 109e46c78f360f28d1de2374228259c6
+)
+
+## 2023-10-31 19:37:22 ##
+ID Shop = 1
+## 2023-10-31 19:37:24 ##
+Order created
+## 2023-10-31 19:37:24 ##
+----> END placeOrder()
+## 2023-10-31 19:37:24 ##
+----> END registerOrder()
+## 2023-10-31 19:37:24 ##
+----> Treatment is unlocked for the id_cart = 11632
+## 2023-10-31 19:37:28 ##
+##########################
+## 2023-10-31 19:37:28 ##
+START Validation Callback
+## 2023-10-31 19:37:28 ##
+##########################
+## 2023-10-31 19:37:28 ##
+----> Treatment is locked for the id_cart = 11632
+## 2023-10-31 19:37:28 ##
+data for validation
+## 2023-10-31 19:37:28 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>2882d0396e1c8e364fce11ed9897ec1f</md5content><result><operation>capture</operation><status>ok</status><date>2023-10-31</date><time>18:37:26 UTC+0000</time><origAmount>346.75</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11632</idForMerchant><emailClient>mihai_sabau@icloud.com</emailClient><idClient>22911345</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11632</_aKey_cart_id>  <_aKey_customer_id>3851</_aKey_customer_id>  <_aKey_secure_key>109e46c78f360f28d1de2374228259c6</_aKey_secure_key>  <_aKey_token>7d6ae2aff7ac2b6ce7ca48f98344ca7f</_aKey_token></merchantDatas><transid>6541490E863C0572</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 2882d0396e1c8e364fce11ed9897ec1f
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-10-31
+                    [time] => 18:37:26 UTC+0000
+                    [origAmount] => 346.75
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11632
+                    [emailClient] => mihai_sabau@icloud.com
+                    [idClient] => 22911345
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11632
+                            [_aKey_customer_id] => 3851
+                            [_aKey_secure_key] => 109e46c78f360f28d1de2374228259c6
+                            [_aKey_token] => 7d6ae2aff7ac2b6ce7ca48f98344ca7f
+                        )
+
+                    [transid] => 6541490E863C0572
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11632
+    [3] => 3851
+    [4] => 109e46c78f360f28d1de2374228259c6
+    [5] => 346.75
+)
+
+## 2023-10-31 19:37:28 ##
+----> START registerOrder()
+## 2023-10-31 19:37:28 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-31 19:37:28 ##
+<result><operation>capture</operation><status>ok</status><date>2023-10-31</date><time>18:37:26 UTC+0000</time><origAmount>346.75</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11632</idForMerchant><emailClient>mihai_sabau@icloud.com</emailClient><idClient>22911345</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11632</_aKey_cart_id>  <_aKey_customer_id>3851</_aKey_customer_id>  <_aKey_secure_key>109e46c78f360f28d1de2374228259c6</_aKey_secure_key>  <_aKey_token>7d6ae2aff7ac2b6ce7ca48f98344ca7f</_aKey_token></merchantDatas><transid>6541490E863C0572</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-31 19:37:28 ##
+currency : EUR
+## 2023-10-31 19:37:28 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-31 19:37:28 ##
+callback_salt : 
+## 2023-10-31 19:37:28 ##
+md5 : 2882d0396e1c8e364fce11ed9897ec1f == md5content : 2882d0396e1c8e364fce11ed9897ec1f
+## 2023-10-31 19:37:28 ##
+Status = ok
+## 2023-10-31 19:37:28 ##
+$currency = EUR
+## 2023-10-31 19:37:28 ##
+id_order_state = 2
+## 2023-10-31 19:37:28 ##
+----> START placeOrder()
+## 2023-10-31 19:37:28 ##
+Treatment an existing order
+## 2023-10-31 19:37:28 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-10-31 19:37:28 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-10-31
+    [time] => 18:37:26 UTC+0000
+    [origAmount] => 346.75
+    [origCurrency] => EUR
+    [idForMerchant] => 11632
+    [emailClient] => mihai_sabau@icloud.com
+    [idClient] => 22911345
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 11632
+            [_aKey_customer_id] => 3851
+            [_aKey_secure_key] => 109e46c78f360f28d1de2374228259c6
+            [_aKey_token] => 7d6ae2aff7ac2b6ce7ca48f98344ca7f
+        )
+
+    [transid] => 6541490E863C0572
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-10-31 19:37:29 ##
+----> END placeOrder()
+## 2023-10-31 19:37:29 ##
+----> END registerOrder()
+## 2023-10-31 19:37:29 ##
+----> Treatment is unlocked for the id_cart = 11632

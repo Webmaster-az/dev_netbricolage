@@ -1,0 +1,259 @@
+## 2025-07-31 15:38:39 ##
+##########################
+## 2025-07-31 15:38:39 ##
+START Validation Callback
+## 2025-07-31 15:38:39 ##
+##########################
+## 2025-07-31 15:38:39 ##
+----> Treatment is locked for the id_cart = 18930
+## 2025-07-31 15:38:39 ##
+data for validation
+## 2025-07-31 15:38:39 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>1dce6bc83fdd92cc72fe4e3a2cddd383</md5content><result><operation>authorization</operation><status>ok</status><date>2025-07-31</date><time>13:38:41 UTC+0000</time><origAmount>65.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18930</idForMerchant><emailClient>romain.bourlhonne@hotmail.fr</emailClient><idClient>24821469</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18930</_aKey_cart_id>  <_aKey_customer_id>5035</_aKey_customer_id>  <_aKey_secure_key>ffeb64e502c53d582364993dcc15563a</_aKey_secure_key>  <_aKey_token>f5274a41d5171d1e8a16fa63f5eb95bf</_aKey_token></merchantDatas><transid>688B71B329DBC321</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 1dce6bc83fdd92cc72fe4e3a2cddd383
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-07-31
+                    [time] => 13:38:41 UTC+0000
+                    [origAmount] => 65.05
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18930
+                    [emailClient] => romain.bourlhonne@hotmail.fr
+                    [idClient] => 24821469
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18930
+                            [_aKey_customer_id] => 5035
+                            [_aKey_secure_key] => ffeb64e502c53d582364993dcc15563a
+                            [_aKey_token] => f5274a41d5171d1e8a16fa63f5eb95bf
+                        )
+
+                    [transid] => 688B71B329DBC321
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18930
+    [3] => 5035
+    [4] => ffeb64e502c53d582364993dcc15563a
+    [5] => 65.05
+)
+
+## 2025-07-31 15:38:39 ##
+----> START registerOrder()
+## 2025-07-31 15:38:39 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-31 15:38:39 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-07-31</date><time>13:38:41 UTC+0000</time><origAmount>65.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18930</idForMerchant><emailClient>romain.bourlhonne@hotmail.fr</emailClient><idClient>24821469</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18930</_aKey_cart_id>  <_aKey_customer_id>5035</_aKey_customer_id>  <_aKey_secure_key>ffeb64e502c53d582364993dcc15563a</_aKey_secure_key>  <_aKey_token>f5274a41d5171d1e8a16fa63f5eb95bf</_aKey_token></merchantDatas><transid>688B71B329DBC321</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-31 15:38:39 ##
+currency : EUR
+## 2025-07-31 15:38:39 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-31 15:38:39 ##
+callback_salt : 
+## 2025-07-31 15:38:39 ##
+md5 : 1dce6bc83fdd92cc72fe4e3a2cddd383 == md5content : 1dce6bc83fdd92cc72fe4e3a2cddd383
+## 2025-07-31 15:38:39 ##
+Status = ok
+## 2025-07-31 15:38:39 ##
+$currency = EUR
+## 2025-07-31 15:38:39 ##
+id_order_state = 42
+## 2025-07-31 15:38:39 ##
+----> START placeOrder()
+## 2025-07-31 15:38:39 ##
+Treatment status = 42
+## 2025-07-31 15:38:39 ##
+Validate order
+## 2025-07-31 15:38:39 ##
+Array
+(
+    [0] => 18930
+    [1] => 42
+    [2] => 65.05
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"688B71B329DBC321"}
+    [5] => Array
+        (
+            [transaction_id] => 688B71B329DBC321
+        )
+
+    [6] => 1
+    [7] => ffeb64e502c53d582364993dcc15563a
+)
+
+## 2025-07-31 15:38:39 ##
+ID Shop = 1
+## 2025-07-31 15:38:42 ##
+Order created
+## 2025-07-31 15:38:42 ##
+----> END placeOrder()
+## 2025-07-31 15:38:42 ##
+----> END registerOrder()
+## 2025-07-31 15:38:42 ##
+----> Treatment is unlocked for the id_cart = 18930
+## 2025-07-31 15:38:46 ##
+##########################
+## 2025-07-31 15:38:46 ##
+START Validation Callback
+## 2025-07-31 15:38:46 ##
+##########################
+## 2025-07-31 15:38:46 ##
+----> Treatment is locked for the id_cart = 18930
+## 2025-07-31 15:38:46 ##
+data for validation
+## 2025-07-31 15:38:46 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>d6e24a946b0f7c6df2687f7d4ab7c3bf</md5content><result><operation>capture</operation><status>ok</status><date>2025-07-31</date><time>13:38:47 UTC+0000</time><origAmount>65.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18930</idForMerchant><emailClient>romain.bourlhonne@hotmail.fr</emailClient><idClient>24821469</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18930</_aKey_cart_id>  <_aKey_customer_id>5035</_aKey_customer_id>  <_aKey_secure_key>ffeb64e502c53d582364993dcc15563a</_aKey_secure_key>  <_aKey_token>f5274a41d5171d1e8a16fa63f5eb95bf</_aKey_token></merchantDatas><transid>688B71B329DBC321</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => d6e24a946b0f7c6df2687f7d4ab7c3bf
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-07-31
+                    [time] => 13:38:47 UTC+0000
+                    [origAmount] => 65.05
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18930
+                    [emailClient] => romain.bourlhonne@hotmail.fr
+                    [idClient] => 24821469
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18930
+                            [_aKey_customer_id] => 5035
+                            [_aKey_secure_key] => ffeb64e502c53d582364993dcc15563a
+                            [_aKey_token] => f5274a41d5171d1e8a16fa63f5eb95bf
+                        )
+
+                    [transid] => 688B71B329DBC321
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18930
+    [3] => 5035
+    [4] => ffeb64e502c53d582364993dcc15563a
+    [5] => 65.05
+)
+
+## 2025-07-31 15:38:46 ##
+----> START registerOrder()
+## 2025-07-31 15:38:46 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-31 15:38:46 ##
+<result><operation>capture</operation><status>ok</status><date>2025-07-31</date><time>13:38:47 UTC+0000</time><origAmount>65.05</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18930</idForMerchant><emailClient>romain.bourlhonne@hotmail.fr</emailClient><idClient>24821469</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18930</_aKey_cart_id>  <_aKey_customer_id>5035</_aKey_customer_id>  <_aKey_secure_key>ffeb64e502c53d582364993dcc15563a</_aKey_secure_key>  <_aKey_token>f5274a41d5171d1e8a16fa63f5eb95bf</_aKey_token></merchantDatas><transid>688B71B329DBC321</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-07-31 15:38:46 ##
+currency : EUR
+## 2025-07-31 15:38:46 ##
+accountID:13248407 / websiteId:417972
+## 2025-07-31 15:38:46 ##
+callback_salt : 
+## 2025-07-31 15:38:46 ##
+md5 : d6e24a946b0f7c6df2687f7d4ab7c3bf == md5content : d6e24a946b0f7c6df2687f7d4ab7c3bf
+## 2025-07-31 15:38:46 ##
+Status = ok
+## 2025-07-31 15:38:46 ##
+$currency = EUR
+## 2025-07-31 15:38:46 ##
+id_order_state = 2
+## 2025-07-31 15:38:46 ##
+----> START placeOrder()
+## 2025-07-31 15:38:46 ##
+Treatment an existing order
+## 2025-07-31 15:38:46 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-07-31 15:38:46 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-07-31
+    [time] => 13:38:47 UTC+0000
+    [origAmount] => 65.05
+    [origCurrency] => EUR
+    [idForMerchant] => 18930
+    [emailClient] => romain.bourlhonne@hotmail.fr
+    [idClient] => 24821469
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 18930
+            [_aKey_customer_id] => 5035
+            [_aKey_secure_key] => ffeb64e502c53d582364993dcc15563a
+            [_aKey_token] => f5274a41d5171d1e8a16fa63f5eb95bf
+        )
+
+    [transid] => 688B71B329DBC321
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-07-31 15:38:47 ##
+----> END placeOrder()
+## 2025-07-31 15:38:47 ##
+----> END registerOrder()
+## 2025-07-31 15:38:47 ##
+----> Treatment is unlocked for the id_cart = 18930

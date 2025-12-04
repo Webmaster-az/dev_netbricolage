@@ -1,0 +1,259 @@
+## 2023-03-07 13:03:09 ##
+##########################
+## 2023-03-07 13:03:09 ##
+START Validation Callback
+## 2023-03-07 13:03:09 ##
+##########################
+## 2023-03-07 13:03:09 ##
+----> Treatment is locked for the id_cart = 7705
+## 2023-03-07 13:03:09 ##
+data for validation
+## 2023-03-07 13:03:09 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>5c15e37e392a4737370b060fc14b55ac</md5content><result><operation>authorization</operation><status>ok</status><date>2023-03-07</date><time>12:03:06 UTC+0000</time><origAmount>34.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7705</idForMerchant><emailClient>acottet@simamoto.fr</emailClient><idClient>22109947</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7705</_aKey_cart_id>  <_aKey_customer_id>3192</_aKey_customer_id>  <_aKey_secure_key>f7b548d5551550439a8cdd9323f5ee0a</_aKey_secure_key>  <_aKey_token>21e926d5548b6f95fca8055ffa054e92</_aKey_token></merchantDatas><transid>640727B210EEF184</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 5c15e37e392a4737370b060fc14b55ac
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-03-07
+                    [time] => 12:03:06 UTC+0000
+                    [origAmount] => 34.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7705
+                    [emailClient] => acottet@simamoto.fr
+                    [idClient] => 22109947
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7705
+                            [_aKey_customer_id] => 3192
+                            [_aKey_secure_key] => f7b548d5551550439a8cdd9323f5ee0a
+                            [_aKey_token] => 21e926d5548b6f95fca8055ffa054e92
+                        )
+
+                    [transid] => 640727B210EEF184
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7705
+    [3] => 3192
+    [4] => f7b548d5551550439a8cdd9323f5ee0a
+    [5] => 34.1
+)
+
+## 2023-03-07 13:03:09 ##
+----> START registerOrder()
+## 2023-03-07 13:03:09 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-07 13:03:09 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-03-07</date><time>12:03:06 UTC+0000</time><origAmount>34.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7705</idForMerchant><emailClient>acottet@simamoto.fr</emailClient><idClient>22109947</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7705</_aKey_cart_id>  <_aKey_customer_id>3192</_aKey_customer_id>  <_aKey_secure_key>f7b548d5551550439a8cdd9323f5ee0a</_aKey_secure_key>  <_aKey_token>21e926d5548b6f95fca8055ffa054e92</_aKey_token></merchantDatas><transid>640727B210EEF184</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-07 13:03:09 ##
+currency : EUR
+## 2023-03-07 13:03:09 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-07 13:03:09 ##
+callback_salt : 
+## 2023-03-07 13:03:09 ##
+md5 : 5c15e37e392a4737370b060fc14b55ac == md5content : 5c15e37e392a4737370b060fc14b55ac
+## 2023-03-07 13:03:09 ##
+Status = ok
+## 2023-03-07 13:03:09 ##
+$currency = EUR
+## 2023-03-07 13:03:09 ##
+id_order_state = 42
+## 2023-03-07 13:03:09 ##
+----> START placeOrder()
+## 2023-03-07 13:03:09 ##
+Treatment status = 42
+## 2023-03-07 13:03:09 ##
+Validate order
+## 2023-03-07 13:03:09 ##
+Array
+(
+    [0] => 7705
+    [1] => 42
+    [2] => 34.1
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"640727B210EEF184"}
+    [5] => Array
+        (
+            [transaction_id] => 640727B210EEF184
+        )
+
+    [6] => 1
+    [7] => f7b548d5551550439a8cdd9323f5ee0a
+)
+
+## 2023-03-07 13:03:09 ##
+ID Shop = 1
+## 2023-03-07 13:03:10 ##
+Order created
+## 2023-03-07 13:03:10 ##
+----> END placeOrder()
+## 2023-03-07 13:03:10 ##
+----> END registerOrder()
+## 2023-03-07 13:03:10 ##
+----> Treatment is unlocked for the id_cart = 7705
+## 2023-03-07 13:03:17 ##
+##########################
+## 2023-03-07 13:03:17 ##
+START Validation Callback
+## 2023-03-07 13:03:17 ##
+##########################
+## 2023-03-07 13:03:17 ##
+----> Treatment is locked for the id_cart = 7705
+## 2023-03-07 13:03:17 ##
+data for validation
+## 2023-03-07 13:03:17 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>62151f8e9e140a0557f32f5f106d7894</md5content><result><operation>capture</operation><status>ok</status><date>2023-03-07</date><time>12:03:13 UTC+0000</time><origAmount>34.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7705</idForMerchant><emailClient>acottet@simamoto.fr</emailClient><idClient>22109947</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7705</_aKey_cart_id>  <_aKey_customer_id>3192</_aKey_customer_id>  <_aKey_secure_key>f7b548d5551550439a8cdd9323f5ee0a</_aKey_secure_key>  <_aKey_token>21e926d5548b6f95fca8055ffa054e92</_aKey_token></merchantDatas><transid>640727B210EEF184</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 62151f8e9e140a0557f32f5f106d7894
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-03-07
+                    [time] => 12:03:13 UTC+0000
+                    [origAmount] => 34.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 7705
+                    [emailClient] => acottet@simamoto.fr
+                    [idClient] => 22109947
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 7705
+                            [_aKey_customer_id] => 3192
+                            [_aKey_secure_key] => f7b548d5551550439a8cdd9323f5ee0a
+                            [_aKey_token] => 21e926d5548b6f95fca8055ffa054e92
+                        )
+
+                    [transid] => 640727B210EEF184
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 7705
+    [3] => 3192
+    [4] => f7b548d5551550439a8cdd9323f5ee0a
+    [5] => 34.1
+)
+
+## 2023-03-07 13:03:17 ##
+----> START registerOrder()
+## 2023-03-07 13:03:17 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-07 13:03:17 ##
+<result><operation>capture</operation><status>ok</status><date>2023-03-07</date><time>12:03:13 UTC+0000</time><origAmount>34.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>7705</idForMerchant><emailClient>acottet@simamoto.fr</emailClient><idClient>22109947</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>7705</_aKey_cart_id>  <_aKey_customer_id>3192</_aKey_customer_id>  <_aKey_secure_key>f7b548d5551550439a8cdd9323f5ee0a</_aKey_secure_key>  <_aKey_token>21e926d5548b6f95fca8055ffa054e92</_aKey_token></merchantDatas><transid>640727B210EEF184</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-03-07 13:03:17 ##
+currency : EUR
+## 2023-03-07 13:03:17 ##
+accountID:13248407 / websiteId:418801
+## 2023-03-07 13:03:17 ##
+callback_salt : 
+## 2023-03-07 13:03:17 ##
+md5 : 62151f8e9e140a0557f32f5f106d7894 == md5content : 62151f8e9e140a0557f32f5f106d7894
+## 2023-03-07 13:03:17 ##
+Status = ok
+## 2023-03-07 13:03:17 ##
+$currency = EUR
+## 2023-03-07 13:03:17 ##
+id_order_state = 2
+## 2023-03-07 13:03:17 ##
+----> START placeOrder()
+## 2023-03-07 13:03:17 ##
+Treatment an existing order
+## 2023-03-07 13:03:17 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-03-07 13:03:17 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-03-07
+    [time] => 12:03:13 UTC+0000
+    [origAmount] => 34.10
+    [origCurrency] => EUR
+    [idForMerchant] => 7705
+    [emailClient] => acottet@simamoto.fr
+    [idClient] => 22109947
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 7705
+            [_aKey_customer_id] => 3192
+            [_aKey_secure_key] => f7b548d5551550439a8cdd9323f5ee0a
+            [_aKey_token] => 21e926d5548b6f95fca8055ffa054e92
+        )
+
+    [transid] => 640727B210EEF184
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-03-07 13:03:18 ##
+----> END placeOrder()
+## 2023-03-07 13:03:18 ##
+----> END registerOrder()
+## 2023-03-07 13:03:18 ##
+----> Treatment is unlocked for the id_cart = 7705

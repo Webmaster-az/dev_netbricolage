@@ -1,0 +1,259 @@
+## 2024-01-08 11:02:22 ##
+##########################
+## 2024-01-08 11:02:22 ##
+START Validation Callback
+## 2024-01-08 11:02:22 ##
+##########################
+## 2024-01-08 11:02:22 ##
+----> Treatment is locked for the id_cart = 12607
+## 2024-01-08 11:02:22 ##
+data for validation
+## 2024-01-08 11:02:22 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>0d516f4fec0272325f176fa26e431c6a</md5content><result><operation>authorization</operation><status>ok</status><date>2024-01-08</date><time>10:02:20 UTC+0000</time><origAmount>32.36</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12607</idForMerchant><emailClient>matthieu.prin@menard-mail.com</emailClient><idClient>23175049</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12607</_aKey_cart_id>  <_aKey_customer_id>4020</_aKey_customer_id>  <_aKey_secure_key>7a54988baa161e17d5732ee1f9c7e536</_aKey_secure_key>  <_aKey_token>e274f2fd89b598463bd637a07e711c4e</_aKey_token></merchantDatas><transid>659BC7F4CE68B261</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 0d516f4fec0272325f176fa26e431c6a
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-01-08
+                    [time] => 10:02:20 UTC+0000
+                    [origAmount] => 32.36
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12607
+                    [emailClient] => matthieu.prin@menard-mail.com
+                    [idClient] => 23175049
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12607
+                            [_aKey_customer_id] => 4020
+                            [_aKey_secure_key] => 7a54988baa161e17d5732ee1f9c7e536
+                            [_aKey_token] => e274f2fd89b598463bd637a07e711c4e
+                        )
+
+                    [transid] => 659BC7F4CE68B261
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12607
+    [3] => 4020
+    [4] => 7a54988baa161e17d5732ee1f9c7e536
+    [5] => 32.36
+)
+
+## 2024-01-08 11:02:22 ##
+----> START registerOrder()
+## 2024-01-08 11:02:22 ##
+accountID:13248407 / websiteId:417972
+## 2024-01-08 11:02:22 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-01-08</date><time>10:02:20 UTC+0000</time><origAmount>32.36</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12607</idForMerchant><emailClient>matthieu.prin@menard-mail.com</emailClient><idClient>23175049</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12607</_aKey_cart_id>  <_aKey_customer_id>4020</_aKey_customer_id>  <_aKey_secure_key>7a54988baa161e17d5732ee1f9c7e536</_aKey_secure_key>  <_aKey_token>e274f2fd89b598463bd637a07e711c4e</_aKey_token></merchantDatas><transid>659BC7F4CE68B261</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-01-08 11:02:22 ##
+currency : EUR
+## 2024-01-08 11:02:22 ##
+accountID:13248407 / websiteId:417972
+## 2024-01-08 11:02:22 ##
+callback_salt : 
+## 2024-01-08 11:02:22 ##
+md5 : 0d516f4fec0272325f176fa26e431c6a == md5content : 0d516f4fec0272325f176fa26e431c6a
+## 2024-01-08 11:02:22 ##
+Status = ok
+## 2024-01-08 11:02:22 ##
+$currency = EUR
+## 2024-01-08 11:02:22 ##
+id_order_state = 42
+## 2024-01-08 11:02:22 ##
+----> START placeOrder()
+## 2024-01-08 11:02:22 ##
+Treatment status = 42
+## 2024-01-08 11:02:22 ##
+Validate order
+## 2024-01-08 11:02:22 ##
+Array
+(
+    [0] => 12607
+    [1] => 42
+    [2] => 32.36
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"659BC7F4CE68B261"}
+    [5] => Array
+        (
+            [transaction_id] => 659BC7F4CE68B261
+        )
+
+    [6] => 1
+    [7] => 7a54988baa161e17d5732ee1f9c7e536
+)
+
+## 2024-01-08 11:02:22 ##
+ID Shop = 1
+## 2024-01-08 11:02:25 ##
+Order created
+## 2024-01-08 11:02:25 ##
+----> END placeOrder()
+## 2024-01-08 11:02:25 ##
+----> END registerOrder()
+## 2024-01-08 11:02:25 ##
+----> Treatment is unlocked for the id_cart = 12607
+## 2024-01-08 11:02:31 ##
+##########################
+## 2024-01-08 11:02:31 ##
+START Validation Callback
+## 2024-01-08 11:02:31 ##
+##########################
+## 2024-01-08 11:02:31 ##
+----> Treatment is locked for the id_cart = 12607
+## 2024-01-08 11:02:31 ##
+data for validation
+## 2024-01-08 11:02:31 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>b92aa005905189d65830b97fcee22a9f</md5content><result><operation>capture</operation><status>ok</status><date>2024-01-08</date><time>10:02:27 UTC+0000</time><origAmount>32.36</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12607</idForMerchant><emailClient>matthieu.prin@menard-mail.com</emailClient><idClient>23175049</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12607</_aKey_cart_id>  <_aKey_customer_id>4020</_aKey_customer_id>  <_aKey_secure_key>7a54988baa161e17d5732ee1f9c7e536</_aKey_secure_key>  <_aKey_token>e274f2fd89b598463bd637a07e711c4e</_aKey_token></merchantDatas><transid>659BC7F4CE68B261</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => b92aa005905189d65830b97fcee22a9f
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-01-08
+                    [time] => 10:02:27 UTC+0000
+                    [origAmount] => 32.36
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12607
+                    [emailClient] => matthieu.prin@menard-mail.com
+                    [idClient] => 23175049
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12607
+                            [_aKey_customer_id] => 4020
+                            [_aKey_secure_key] => 7a54988baa161e17d5732ee1f9c7e536
+                            [_aKey_token] => e274f2fd89b598463bd637a07e711c4e
+                        )
+
+                    [transid] => 659BC7F4CE68B261
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12607
+    [3] => 4020
+    [4] => 7a54988baa161e17d5732ee1f9c7e536
+    [5] => 32.36
+)
+
+## 2024-01-08 11:02:31 ##
+----> START registerOrder()
+## 2024-01-08 11:02:31 ##
+accountID:13248407 / websiteId:417972
+## 2024-01-08 11:02:31 ##
+<result><operation>capture</operation><status>ok</status><date>2024-01-08</date><time>10:02:27 UTC+0000</time><origAmount>32.36</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12607</idForMerchant><emailClient>matthieu.prin@menard-mail.com</emailClient><idClient>23175049</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12607</_aKey_cart_id>  <_aKey_customer_id>4020</_aKey_customer_id>  <_aKey_secure_key>7a54988baa161e17d5732ee1f9c7e536</_aKey_secure_key>  <_aKey_token>e274f2fd89b598463bd637a07e711c4e</_aKey_token></merchantDatas><transid>659BC7F4CE68B261</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-01-08 11:02:31 ##
+currency : EUR
+## 2024-01-08 11:02:31 ##
+accountID:13248407 / websiteId:417972
+## 2024-01-08 11:02:31 ##
+callback_salt : 
+## 2024-01-08 11:02:31 ##
+md5 : b92aa005905189d65830b97fcee22a9f == md5content : b92aa005905189d65830b97fcee22a9f
+## 2024-01-08 11:02:31 ##
+Status = ok
+## 2024-01-08 11:02:31 ##
+$currency = EUR
+## 2024-01-08 11:02:31 ##
+id_order_state = 2
+## 2024-01-08 11:02:31 ##
+----> START placeOrder()
+## 2024-01-08 11:02:31 ##
+Treatment an existing order
+## 2024-01-08 11:02:31 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-01-08 11:02:31 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-01-08
+    [time] => 10:02:27 UTC+0000
+    [origAmount] => 32.36
+    [origCurrency] => EUR
+    [idForMerchant] => 12607
+    [emailClient] => matthieu.prin@menard-mail.com
+    [idClient] => 23175049
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12607
+            [_aKey_customer_id] => 4020
+            [_aKey_secure_key] => 7a54988baa161e17d5732ee1f9c7e536
+            [_aKey_token] => e274f2fd89b598463bd637a07e711c4e
+        )
+
+    [transid] => 659BC7F4CE68B261
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-01-08 11:02:32 ##
+----> END placeOrder()
+## 2024-01-08 11:02:32 ##
+----> END registerOrder()
+## 2024-01-08 11:02:32 ##
+----> Treatment is unlocked for the id_cart = 12607

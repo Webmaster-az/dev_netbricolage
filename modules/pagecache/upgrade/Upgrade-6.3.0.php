@@ -1,0 +1,21 @@
+<?php
+/**
+ * Page Cache Ultimate, Page Cache standard and Speed pack are powered by Jpresta (jpresta . com)
+ *
+ * @author    Jpresta
+ * @copyright Jpresta
+ * @license   You are just allowed to modify this copy for your own use. You must not redistribute it. License
+ *               is permitted for one Prestashop instance only but you can install it on your test instances.
+ */
+
+/*
+ * Set default configuration for cache key concerning taxes
+ */
+function upgrade_module_6_3_0($module)
+{
+    $ret = true;
+    if (Configuration::get('PS_GEOLOCATION_ENABLED') && Tools::version_compare(_PS_VERSION_,'1.6.0.12','<')) {
+        $module->upgradeOverride('FrontController');
+    }
+    return (bool) $ret;
+}

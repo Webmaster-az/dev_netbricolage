@@ -1,0 +1,824 @@
+## 2024-05-26 12:31:22 ##
+##########################
+## 2024-05-26 12:31:22 ##
+START Validation Callback
+## 2024-05-26 12:31:22 ##
+##########################
+## 2024-05-26 12:31:22 ##
+----> Treatment is locked for the id_cart = 14543
+## 2024-05-26 12:31:22 ##
+data for validation
+## 2024-05-26 12:31:22 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>4aa8115f915dff56c05474799aebf411</md5content><result><operation>authorization</operation><status>ok</status><date>2024-05-26</date><time>10:31:19 UTC+0000</time><origAmount>326.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14543</idForMerchant><emailClient>mickael-62@hotmail.fr</emailClient><idClient>23611316</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14543</_aKey_cart_id>  <_aKey_customer_id>4299</_aKey_customer_id>  <_aKey_secure_key>5b0b9f47aa206982ca664f41d206e420</_aKey_secure_key>  <_aKey_token>20f4fccf7db4459aea31c15355c24b3f</_aKey_token></merchantDatas><transid>66530F4335A77492</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 4aa8115f915dff56c05474799aebf411
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-05-26
+                    [time] => 10:31:19 UTC+0000
+                    [origAmount] => 326.32
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14543
+                    [emailClient] => mickael-62@hotmail.fr
+                    [idClient] => 23611316
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14543
+                            [_aKey_customer_id] => 4299
+                            [_aKey_secure_key] => 5b0b9f47aa206982ca664f41d206e420
+                            [_aKey_token] => 20f4fccf7db4459aea31c15355c24b3f
+                        )
+
+                    [transid] => 66530F4335A77492
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 14543
+    [3] => 4299
+    [4] => 5b0b9f47aa206982ca664f41d206e420
+    [5] => 326.32
+)
+
+## 2024-05-26 12:31:22 ##
+----> START registerOrder()
+## 2024-05-26 12:31:22 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 12:31:22 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-05-26</date><time>10:31:19 UTC+0000</time><origAmount>326.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14543</idForMerchant><emailClient>mickael-62@hotmail.fr</emailClient><idClient>23611316</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14543</_aKey_cart_id>  <_aKey_customer_id>4299</_aKey_customer_id>  <_aKey_secure_key>5b0b9f47aa206982ca664f41d206e420</_aKey_secure_key>  <_aKey_token>20f4fccf7db4459aea31c15355c24b3f</_aKey_token></merchantDatas><transid>66530F4335A77492</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-05-26 12:31:22 ##
+currency : EUR
+## 2024-05-26 12:31:22 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 12:31:22 ##
+callback_salt : 
+## 2024-05-26 12:31:22 ##
+md5 : 4aa8115f915dff56c05474799aebf411 == md5content : 4aa8115f915dff56c05474799aebf411
+## 2024-05-26 12:31:22 ##
+Status = ok
+## 2024-05-26 12:31:22 ##
+$currency = EUR
+## 2024-05-26 12:31:22 ##
+id_order_state = 42
+## 2024-05-26 12:31:22 ##
+----> START placeOrder()
+## 2024-05-26 12:31:22 ##
+Treatment status = 42
+## 2024-05-26 12:31:22 ##
+Validate order
+## 2024-05-26 12:31:22 ##
+Array
+(
+    [0] => 14543
+    [1] => 42
+    [2] => 326.32
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"66530F4335A77492"}
+    [5] => Array
+        (
+            [transaction_id] => 66530F4335A77492
+        )
+
+    [6] => 1
+    [7] => 5b0b9f47aa206982ca664f41d206e420
+)
+
+## 2024-05-26 12:31:22 ##
+ID Shop = 1
+## 2024-05-26 12:31:25 ##
+Order created
+## 2024-05-26 12:31:25 ##
+----> END placeOrder()
+## 2024-05-26 12:31:25 ##
+----> END registerOrder()
+## 2024-05-26 12:31:25 ##
+----> Treatment is unlocked for the id_cart = 14543
+## 2024-05-26 12:31:30 ##
+##########################
+## 2024-05-26 12:31:30 ##
+START Validation Callback
+## 2024-05-26 12:31:30 ##
+##########################
+## 2024-05-26 12:31:30 ##
+----> Treatment is locked for the id_cart = 14543
+## 2024-05-26 12:31:30 ##
+data for validation
+## 2024-05-26 12:31:30 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>b4518930a8908eba6e32951d756e8e8f</md5content><result><operation>capture</operation><status>ok</status><date>2024-05-26</date><time>10:31:27 UTC+0000</time><origAmount>326.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14543</idForMerchant><emailClient>mickael-62@hotmail.fr</emailClient><idClient>23611316</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14543</_aKey_cart_id>  <_aKey_customer_id>4299</_aKey_customer_id>  <_aKey_secure_key>5b0b9f47aa206982ca664f41d206e420</_aKey_secure_key>  <_aKey_token>20f4fccf7db4459aea31c15355c24b3f</_aKey_token></merchantDatas><transid>66530F4335A77492</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => b4518930a8908eba6e32951d756e8e8f
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-05-26
+                    [time] => 10:31:27 UTC+0000
+                    [origAmount] => 326.32
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14543
+                    [emailClient] => mickael-62@hotmail.fr
+                    [idClient] => 23611316
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14543
+                            [_aKey_customer_id] => 4299
+                            [_aKey_secure_key] => 5b0b9f47aa206982ca664f41d206e420
+                            [_aKey_token] => 20f4fccf7db4459aea31c15355c24b3f
+                        )
+
+                    [transid] => 66530F4335A77492
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 14543
+    [3] => 4299
+    [4] => 5b0b9f47aa206982ca664f41d206e420
+    [5] => 326.32
+)
+
+## 2024-05-26 12:31:30 ##
+----> START registerOrder()
+## 2024-05-26 12:31:30 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 12:31:30 ##
+<result><operation>capture</operation><status>ok</status><date>2024-05-26</date><time>10:31:27 UTC+0000</time><origAmount>326.32</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14543</idForMerchant><emailClient>mickael-62@hotmail.fr</emailClient><idClient>23611316</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>14543</_aKey_cart_id>  <_aKey_customer_id>4299</_aKey_customer_id>  <_aKey_secure_key>5b0b9f47aa206982ca664f41d206e420</_aKey_secure_key>  <_aKey_token>20f4fccf7db4459aea31c15355c24b3f</_aKey_token></merchantDatas><transid>66530F4335A77492</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-05-26 12:31:30 ##
+currency : EUR
+## 2024-05-26 12:31:30 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 12:31:30 ##
+callback_salt : 
+## 2024-05-26 12:31:30 ##
+md5 : b4518930a8908eba6e32951d756e8e8f == md5content : b4518930a8908eba6e32951d756e8e8f
+## 2024-05-26 12:31:30 ##
+Status = ok
+## 2024-05-26 12:31:30 ##
+$currency = EUR
+## 2024-05-26 12:31:30 ##
+id_order_state = 2
+## 2024-05-26 12:31:30 ##
+----> START placeOrder()
+## 2024-05-26 12:31:30 ##
+Treatment an existing order
+## 2024-05-26 12:31:30 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-05-26 12:31:30 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-05-26
+    [time] => 10:31:27 UTC+0000
+    [origAmount] => 326.32
+    [origCurrency] => EUR
+    [idForMerchant] => 14543
+    [emailClient] => mickael-62@hotmail.fr
+    [idClient] => 23611316
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 14543
+            [_aKey_customer_id] => 4299
+            [_aKey_secure_key] => 5b0b9f47aa206982ca664f41d206e420
+            [_aKey_token] => 20f4fccf7db4459aea31c15355c24b3f
+        )
+
+    [transid] => 66530F4335A77492
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-05-26 12:31:31 ##
+----> END placeOrder()
+## 2024-05-26 12:31:31 ##
+----> END registerOrder()
+## 2024-05-26 12:31:31 ##
+----> Treatment is unlocked for the id_cart = 14543
+## 2024-05-26 19:03:30 ##
+##########################
+## 2024-05-26 19:03:30 ##
+START Validation Callback
+## 2024-05-26 19:03:30 ##
+##########################
+## 2024-05-26 19:03:30 ##
+----> Treatment is locked for the id_cart = 14548
+## 2024-05-26 19:03:30 ##
+data for validation
+## 2024-05-26 19:03:30 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>c36495ab32a27183557bd295f7854c22</md5content><result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:03:28 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536B5E6CB35492</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => c36495ab32a27183557bd295f7854c22
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-05-26
+                    [time] => 17:03:28 UTC+0000
+                    [origAmount] => 256.09
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14548
+                    [emailClient] => paudoie-geraldine@bbox.fr
+                    [idClient] => 23612222
+                    [cardCountry] => FR
+                    [ipCountry] => NL
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14548
+                            [_aKey_customer_id] => 4309
+                            [_aKey_secure_key] => 8ca69789e521762e1a89e3320349d10b
+                            [_aKey_token] => ef67aeeefde912506f3beb37cd3c82ea
+                        )
+
+                    [transid] => 66536B5E6CB35492
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                )
+
+        )
+
+    [2] => 14548
+    [3] => 4309
+    [4] => 8ca69789e521762e1a89e3320349d10b
+    [5] => 256.09
+)
+
+## 2024-05-26 19:03:30 ##
+----> START registerOrder()
+## 2024-05-26 19:03:30 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:03:30 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:03:28 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536B5E6CB35492</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result>
+## 2024-05-26 19:03:30 ##
+currency : EUR
+## 2024-05-26 19:03:30 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:03:30 ##
+callback_salt : 
+## 2024-05-26 19:03:30 ##
+md5 : c36495ab32a27183557bd295f7854c22 == md5content : c36495ab32a27183557bd295f7854c22
+## 2024-05-26 19:03:30 ##
+Status = nok
+## 2024-05-26 19:03:30 ##
+$currency = EUR
+## 2024-05-26 19:03:30 ##
+id_order_state = 8
+## 2024-05-26 19:03:30 ##
+----> START placeOrder()
+## 2024-05-26 19:03:30 ##
+Treatment status = ERROR
+## 2024-05-26 19:03:30 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-05-26
+    [time] =&gt; 17:03:28 UTC+0000
+    [origAmount] =&gt; 256.09
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 14548
+    [emailClient] =&gt; paudoie-geraldine@bbox.fr
+    [idClient] =&gt; 23612222
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; NL
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 14548
+            [_aKey_customer_id] =&gt; 4309
+            [_aKey_secure_key] =&gt; 8ca69789e521762e1a89e3320349d10b
+            [_aKey_token] =&gt; ef67aeeefde912506f3beb37cd3c82ea
+        )
+
+    [transid] =&gt; 66536B5E6CB35492
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+)
+
+## 2024-05-26 19:03:30 ##
+----> END placeOrder()
+## 2024-05-26 19:03:30 ##
+----> END registerOrder()
+## 2024-05-26 19:03:30 ##
+----> Treatment is unlocked for the id_cart = 14548
+## 2024-05-26 19:04:53 ##
+##########################
+## 2024-05-26 19:04:53 ##
+START Validation Callback
+## 2024-05-26 19:04:53 ##
+##########################
+## 2024-05-26 19:04:53 ##
+----> Treatment is locked for the id_cart = 14548
+## 2024-05-26 19:04:53 ##
+data for validation
+## 2024-05-26 19:04:53 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>cc51ffdeaf995c1468f859af9af561ce</md5content><result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:04:51 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536BB0CAA0D888</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => cc51ffdeaf995c1468f859af9af561ce
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-05-26
+                    [time] => 17:04:51 UTC+0000
+                    [origAmount] => 256.09
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14548
+                    [emailClient] => paudoie-geraldine@bbox.fr
+                    [idClient] => 23612222
+                    [cardCountry] => FR
+                    [ipCountry] => NL
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14548
+                            [_aKey_customer_id] => 4309
+                            [_aKey_secure_key] => 8ca69789e521762e1a89e3320349d10b
+                            [_aKey_token] => ef67aeeefde912506f3beb37cd3c82ea
+                        )
+
+                    [transid] => 66536BB0CAA0D888
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                )
+
+        )
+
+    [2] => 14548
+    [3] => 4309
+    [4] => 8ca69789e521762e1a89e3320349d10b
+    [5] => 256.09
+)
+
+## 2024-05-26 19:04:53 ##
+----> START registerOrder()
+## 2024-05-26 19:04:53 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:04:53 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:04:51 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536BB0CAA0D888</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result>
+## 2024-05-26 19:04:53 ##
+currency : EUR
+## 2024-05-26 19:04:53 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:04:53 ##
+callback_salt : 
+## 2024-05-26 19:04:53 ##
+md5 : cc51ffdeaf995c1468f859af9af561ce == md5content : cc51ffdeaf995c1468f859af9af561ce
+## 2024-05-26 19:04:53 ##
+Status = nok
+## 2024-05-26 19:04:53 ##
+$currency = EUR
+## 2024-05-26 19:04:53 ##
+id_order_state = 8
+## 2024-05-26 19:04:53 ##
+----> START placeOrder()
+## 2024-05-26 19:04:53 ##
+Treatment status = ERROR
+## 2024-05-26 19:04:53 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-05-26
+    [time] =&gt; 17:04:51 UTC+0000
+    [origAmount] =&gt; 256.09
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 14548
+    [emailClient] =&gt; paudoie-geraldine@bbox.fr
+    [idClient] =&gt; 23612222
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; NL
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 14548
+            [_aKey_customer_id] =&gt; 4309
+            [_aKey_secure_key] =&gt; 8ca69789e521762e1a89e3320349d10b
+            [_aKey_token] =&gt; ef67aeeefde912506f3beb37cd3c82ea
+        )
+
+    [transid] =&gt; 66536BB0CAA0D888
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+)
+
+## 2024-05-26 19:04:53 ##
+----> END placeOrder()
+## 2024-05-26 19:04:53 ##
+----> END registerOrder()
+## 2024-05-26 19:04:53 ##
+----> Treatment is unlocked for the id_cart = 14548
+## 2024-05-26 19:04:57 ##
+##########################
+## 2024-05-26 19:04:57 ##
+START Validation Callback
+## 2024-05-26 19:04:57 ##
+##########################
+## 2024-05-26 19:04:57 ##
+----> Treatment is locked for the id_cart = 14548
+## 2024-05-26 19:04:57 ##
+data for validation
+## 2024-05-26 19:04:57 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ef9c16a6beb64b4becb922b5a63f06d4</md5content><result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:04:52 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536BB0CAA0D888</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ef9c16a6beb64b4becb922b5a63f06d4
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-05-26
+                    [time] => 17:04:52 UTC+0000
+                    [origAmount] => 256.09
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14548
+                    [emailClient] => paudoie-geraldine@bbox.fr
+                    [idClient] => 23612222
+                    [cardCountry] => FR
+                    [ipCountry] => NL
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14548
+                            [_aKey_customer_id] => 4309
+                            [_aKey_secure_key] => 8ca69789e521762e1a89e3320349d10b
+                            [_aKey_token] => ef67aeeefde912506f3beb37cd3c82ea
+                        )
+
+                    [transid] => 66536BB0CAA0D888
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                )
+
+        )
+
+    [2] => 14548
+    [3] => 4309
+    [4] => 8ca69789e521762e1a89e3320349d10b
+    [5] => 256.09
+)
+
+## 2024-05-26 19:04:57 ##
+----> START registerOrder()
+## 2024-05-26 19:04:57 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:04:57 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:04:52 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536BB0CAA0D888</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result>
+## 2024-05-26 19:04:57 ##
+currency : EUR
+## 2024-05-26 19:04:57 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:04:57 ##
+callback_salt : 
+## 2024-05-26 19:04:57 ##
+md5 : ef9c16a6beb64b4becb922b5a63f06d4 == md5content : ef9c16a6beb64b4becb922b5a63f06d4
+## 2024-05-26 19:04:57 ##
+Status = nok
+## 2024-05-26 19:04:57 ##
+$currency = EUR
+## 2024-05-26 19:04:57 ##
+id_order_state = 8
+## 2024-05-26 19:04:57 ##
+----> START placeOrder()
+## 2024-05-26 19:04:57 ##
+Treatment status = ERROR
+## 2024-05-26 19:04:57 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-05-26
+    [time] =&gt; 17:04:52 UTC+0000
+    [origAmount] =&gt; 256.09
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 14548
+    [emailClient] =&gt; paudoie-geraldine@bbox.fr
+    [idClient] =&gt; 23612222
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; NL
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 14548
+            [_aKey_customer_id] =&gt; 4309
+            [_aKey_secure_key] =&gt; 8ca69789e521762e1a89e3320349d10b
+            [_aKey_token] =&gt; ef67aeeefde912506f3beb37cd3c82ea
+        )
+
+    [transid] =&gt; 66536BB0CAA0D888
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+)
+
+## 2024-05-26 19:04:57 ##
+----> END placeOrder()
+## 2024-05-26 19:04:57 ##
+----> END registerOrder()
+## 2024-05-26 19:04:57 ##
+----> Treatment is unlocked for the id_cart = 14548
+## 2024-05-26 19:06:20 ##
+##########################
+## 2024-05-26 19:06:20 ##
+START Validation Callback
+## 2024-05-26 19:06:20 ##
+##########################
+## 2024-05-26 19:06:20 ##
+----> Treatment is locked for the id_cart = 14548
+## 2024-05-26 19:06:20 ##
+data for validation
+## 2024-05-26 19:06:20 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>5cdc3e3d385b0774c2ea2bc401b799be</md5content><result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:06:17 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536C083C79A107</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 5cdc3e3d385b0774c2ea2bc401b799be
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-05-26
+                    [time] => 17:06:17 UTC+0000
+                    [origAmount] => 256.09
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14548
+                    [emailClient] => paudoie-geraldine@bbox.fr
+                    [idClient] => 23612222
+                    [cardCountry] => FR
+                    [ipCountry] => NL
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14548
+                            [_aKey_customer_id] => 4309
+                            [_aKey_secure_key] => 8ca69789e521762e1a89e3320349d10b
+                            [_aKey_token] => ef67aeeefde912506f3beb37cd3c82ea
+                        )
+
+                    [transid] => 66536C083C79A107
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                )
+
+        )
+
+    [2] => 14548
+    [3] => 4309
+    [4] => 8ca69789e521762e1a89e3320349d10b
+    [5] => 256.09
+)
+
+## 2024-05-26 19:06:20 ##
+----> START registerOrder()
+## 2024-05-26 19:06:20 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:06:20 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:06:17 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536C083C79A107</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result>
+## 2024-05-26 19:06:20 ##
+currency : EUR
+## 2024-05-26 19:06:20 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:06:20 ##
+callback_salt : 
+## 2024-05-26 19:06:20 ##
+md5 : 5cdc3e3d385b0774c2ea2bc401b799be == md5content : 5cdc3e3d385b0774c2ea2bc401b799be
+## 2024-05-26 19:06:20 ##
+Status = nok
+## 2024-05-26 19:06:20 ##
+$currency = EUR
+## 2024-05-26 19:06:20 ##
+id_order_state = 8
+## 2024-05-26 19:06:20 ##
+----> START placeOrder()
+## 2024-05-26 19:06:20 ##
+Treatment status = ERROR
+## 2024-05-26 19:06:20 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-05-26
+    [time] =&gt; 17:06:17 UTC+0000
+    [origAmount] =&gt; 256.09
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 14548
+    [emailClient] =&gt; paudoie-geraldine@bbox.fr
+    [idClient] =&gt; 23612222
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; NL
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 14548
+            [_aKey_customer_id] =&gt; 4309
+            [_aKey_secure_key] =&gt; 8ca69789e521762e1a89e3320349d10b
+            [_aKey_token] =&gt; ef67aeeefde912506f3beb37cd3c82ea
+        )
+
+    [transid] =&gt; 66536C083C79A107
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+)
+
+## 2024-05-26 19:06:20 ##
+----> END placeOrder()
+## 2024-05-26 19:06:20 ##
+----> END registerOrder()
+## 2024-05-26 19:06:20 ##
+----> Treatment is unlocked for the id_cart = 14548
+## 2024-05-26 19:06:22 ##
+##########################
+## 2024-05-26 19:06:22 ##
+START Validation Callback
+## 2024-05-26 19:06:22 ##
+##########################
+## 2024-05-26 19:06:22 ##
+----> Treatment is locked for the id_cart = 14548
+## 2024-05-26 19:06:22 ##
+data for validation
+## 2024-05-26 19:06:22 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>62163861d4a9b8bc66ba5372c565dcb9</md5content><result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:06:18 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536C083C79A107</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 62163861d4a9b8bc66ba5372c565dcb9
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-05-26
+                    [time] => 17:06:18 UTC+0000
+                    [origAmount] => 256.09
+                    [origCurrency] => EUR
+                    [idForMerchant] => 14548
+                    [emailClient] => paudoie-geraldine@bbox.fr
+                    [idClient] => 23612222
+                    [cardCountry] => FR
+                    [ipCountry] => NL
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 14548
+                            [_aKey_customer_id] => 4309
+                            [_aKey_secure_key] => 8ca69789e521762e1a89e3320349d10b
+                            [_aKey_token] => ef67aeeefde912506f3beb37cd3c82ea
+                        )
+
+                    [transid] => 66536C083C79A107
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                )
+
+        )
+
+    [2] => 14548
+    [3] => 4309
+    [4] => 8ca69789e521762e1a89e3320349d10b
+    [5] => 256.09
+)
+
+## 2024-05-26 19:06:22 ##
+----> START registerOrder()
+## 2024-05-26 19:06:22 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:06:22 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-05-26</date><time>17:06:18 UTC+0000</time><origAmount>256.09</origAmount><origCurrency>EUR</origCurrency><idForMerchant>14548</idForMerchant><emailClient>paudoie-geraldine@bbox.fr</emailClient><idClient>23612222</idClient><cardCountry>FR</cardCountry><ipCountry>NL</ipCountry><merchantDatas>  <_aKey_cart_id>14548</_aKey_cart_id>  <_aKey_customer_id>4309</_aKey_customer_id>  <_aKey_secure_key>8ca69789e521762e1a89e3320349d10b</_aKey_secure_key>  <_aKey_token>ef67aeeefde912506f3beb37cd3c82ea</_aKey_token></merchantDatas><transid>66536C083C79A107</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry></result>
+## 2024-05-26 19:06:22 ##
+currency : EUR
+## 2024-05-26 19:06:22 ##
+accountID:13248407 / websiteId:417972
+## 2024-05-26 19:06:22 ##
+callback_salt : 
+## 2024-05-26 19:06:22 ##
+md5 : 62163861d4a9b8bc66ba5372c565dcb9 == md5content : 62163861d4a9b8bc66ba5372c565dcb9
+## 2024-05-26 19:06:22 ##
+Status = nok
+## 2024-05-26 19:06:22 ##
+$currency = EUR
+## 2024-05-26 19:06:22 ##
+id_order_state = 8
+## 2024-05-26 19:06:22 ##
+----> START placeOrder()
+## 2024-05-26 19:06:22 ##
+Treatment status = ERROR
+## 2024-05-26 19:06:22 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-05-26
+    [time] =&gt; 17:06:18 UTC+0000
+    [origAmount] =&gt; 256.09
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 14548
+    [emailClient] =&gt; paudoie-geraldine@bbox.fr
+    [idClient] =&gt; 23612222
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; NL
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 14548
+            [_aKey_customer_id] =&gt; 4309
+            [_aKey_secure_key] =&gt; 8ca69789e521762e1a89e3320349d10b
+            [_aKey_token] =&gt; ef67aeeefde912506f3beb37cd3c82ea
+        )
+
+    [transid] =&gt; 66536C083C79A107
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; CB
+    [customerCountry] =&gt; FR
+)
+
+## 2024-05-26 19:06:22 ##
+----> END placeOrder()
+## 2024-05-26 19:06:22 ##
+----> END registerOrder()
+## 2024-05-26 19:06:22 ##
+----> Treatment is unlocked for the id_cart = 14548

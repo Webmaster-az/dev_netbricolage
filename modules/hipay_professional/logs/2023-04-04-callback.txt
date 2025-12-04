@@ -1,0 +1,518 @@
+## 2023-04-04 09:57:06 ##
+##########################
+## 2023-04-04 09:57:06 ##
+START Validation Callback
+## 2023-04-04 09:57:06 ##
+##########################
+## 2023-04-04 09:57:06 ##
+----> Treatment is locked for the id_cart = 8049
+## 2023-04-04 09:57:06 ##
+data for validation
+## 2023-04-04 09:57:06 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a4bf756aa325ffe66d9c86c19e61a00d</md5content><result><operation>authorization</operation><status>ok</status><date>2023-04-04</date><time>07:57:02 UTC+0000</time><origAmount>273.31</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8049</idForMerchant><emailClient>jean-luc.piton@wanadoo.fr</emailClient><idClient>10496736</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8049</_aKey_cart_id>  <_aKey_customer_id>3289</_aKey_customer_id>  <_aKey_secure_key>52f3cbb5105a3e4e5268ed853626826a</_aKey_secure_key>  <_aKey_token>87a535b24a90fbbdb92b50fcddb9bdea</_aKey_token></merchantDatas><transid>642BD7AA3470C565</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a4bf756aa325ffe66d9c86c19e61a00d
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-04-04
+                    [time] => 07:57:02 UTC+0000
+                    [origAmount] => 273.31
+                    [origCurrency] => EUR
+                    [idForMerchant] => 8049
+                    [emailClient] => jean-luc.piton@wanadoo.fr
+                    [idClient] => 10496736
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 8049
+                            [_aKey_customer_id] => 3289
+                            [_aKey_secure_key] => 52f3cbb5105a3e4e5268ed853626826a
+                            [_aKey_token] => 87a535b24a90fbbdb92b50fcddb9bdea
+                        )
+
+                    [transid] => 642BD7AA3470C565
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 8049
+    [3] => 3289
+    [4] => 52f3cbb5105a3e4e5268ed853626826a
+    [5] => 273.31
+)
+
+## 2023-04-04 09:57:06 ##
+----> START registerOrder()
+## 2023-04-04 09:57:06 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-04 09:57:06 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-04-04</date><time>07:57:02 UTC+0000</time><origAmount>273.31</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8049</idForMerchant><emailClient>jean-luc.piton@wanadoo.fr</emailClient><idClient>10496736</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8049</_aKey_cart_id>  <_aKey_customer_id>3289</_aKey_customer_id>  <_aKey_secure_key>52f3cbb5105a3e4e5268ed853626826a</_aKey_secure_key>  <_aKey_token>87a535b24a90fbbdb92b50fcddb9bdea</_aKey_token></merchantDatas><transid>642BD7AA3470C565</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-04-04 09:57:06 ##
+currency : EUR
+## 2023-04-04 09:57:06 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-04 09:57:06 ##
+callback_salt : 
+## 2023-04-04 09:57:06 ##
+md5 : a4bf756aa325ffe66d9c86c19e61a00d == md5content : a4bf756aa325ffe66d9c86c19e61a00d
+## 2023-04-04 09:57:06 ##
+Status = ok
+## 2023-04-04 09:57:06 ##
+$currency = EUR
+## 2023-04-04 09:57:06 ##
+id_order_state = 42
+## 2023-04-04 09:57:06 ##
+----> START placeOrder()
+## 2023-04-04 09:57:06 ##
+Treatment status = 42
+## 2023-04-04 09:57:06 ##
+Validate order
+## 2023-04-04 09:57:06 ##
+Array
+(
+    [0] => 8049
+    [1] => 42
+    [2] => 273.31
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"642BD7AA3470C565"}
+    [5] => Array
+        (
+            [transaction_id] => 642BD7AA3470C565
+        )
+
+    [6] => 1
+    [7] => 52f3cbb5105a3e4e5268ed853626826a
+)
+
+## 2023-04-04 09:57:06 ##
+ID Shop = 1
+## 2023-04-04 09:57:11 ##
+Order created
+## 2023-04-04 09:57:11 ##
+----> END placeOrder()
+## 2023-04-04 09:57:11 ##
+----> END registerOrder()
+## 2023-04-04 09:57:11 ##
+----> Treatment is unlocked for the id_cart = 8049
+## 2023-04-04 09:57:12 ##
+##########################
+## 2023-04-04 09:57:12 ##
+START Validation Callback
+## 2023-04-04 09:57:12 ##
+##########################
+## 2023-04-04 09:57:12 ##
+----> Treatment is locked for the id_cart = 8049
+## 2023-04-04 09:57:12 ##
+data for validation
+## 2023-04-04 09:57:12 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ae472e2db2772602e5a0f37500750158</md5content><result><operation>capture</operation><status>ok</status><date>2023-04-04</date><time>07:57:09 UTC+0000</time><origAmount>273.31</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8049</idForMerchant><emailClient>jean-luc.piton@wanadoo.fr</emailClient><idClient>10496736</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8049</_aKey_cart_id>  <_aKey_customer_id>3289</_aKey_customer_id>  <_aKey_secure_key>52f3cbb5105a3e4e5268ed853626826a</_aKey_secure_key>  <_aKey_token>87a535b24a90fbbdb92b50fcddb9bdea</_aKey_token></merchantDatas><transid>642BD7AA3470C565</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ae472e2db2772602e5a0f37500750158
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-04-04
+                    [time] => 07:57:09 UTC+0000
+                    [origAmount] => 273.31
+                    [origCurrency] => EUR
+                    [idForMerchant] => 8049
+                    [emailClient] => jean-luc.piton@wanadoo.fr
+                    [idClient] => 10496736
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 8049
+                            [_aKey_customer_id] => 3289
+                            [_aKey_secure_key] => 52f3cbb5105a3e4e5268ed853626826a
+                            [_aKey_token] => 87a535b24a90fbbdb92b50fcddb9bdea
+                        )
+
+                    [transid] => 642BD7AA3470C565
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 8049
+    [3] => 3289
+    [4] => 52f3cbb5105a3e4e5268ed853626826a
+    [5] => 273.31
+)
+
+## 2023-04-04 09:57:12 ##
+----> START registerOrder()
+## 2023-04-04 09:57:12 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-04 09:57:12 ##
+<result><operation>capture</operation><status>ok</status><date>2023-04-04</date><time>07:57:09 UTC+0000</time><origAmount>273.31</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8049</idForMerchant><emailClient>jean-luc.piton@wanadoo.fr</emailClient><idClient>10496736</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8049</_aKey_cart_id>  <_aKey_customer_id>3289</_aKey_customer_id>  <_aKey_secure_key>52f3cbb5105a3e4e5268ed853626826a</_aKey_secure_key>  <_aKey_token>87a535b24a90fbbdb92b50fcddb9bdea</_aKey_token></merchantDatas><transid>642BD7AA3470C565</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-04-04 09:57:12 ##
+currency : EUR
+## 2023-04-04 09:57:12 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-04 09:57:12 ##
+callback_salt : 
+## 2023-04-04 09:57:12 ##
+md5 : ae472e2db2772602e5a0f37500750158 == md5content : ae472e2db2772602e5a0f37500750158
+## 2023-04-04 09:57:12 ##
+Status = ok
+## 2023-04-04 09:57:12 ##
+$currency = EUR
+## 2023-04-04 09:57:12 ##
+id_order_state = 2
+## 2023-04-04 09:57:12 ##
+----> START placeOrder()
+## 2023-04-04 09:57:12 ##
+Treatment an existing order
+## 2023-04-04 09:57:12 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-04-04 09:57:12 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-04-04
+    [time] => 07:57:09 UTC+0000
+    [origAmount] => 273.31
+    [origCurrency] => EUR
+    [idForMerchant] => 8049
+    [emailClient] => jean-luc.piton@wanadoo.fr
+    [idClient] => 10496736
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 8049
+            [_aKey_customer_id] => 3289
+            [_aKey_secure_key] => 52f3cbb5105a3e4e5268ed853626826a
+            [_aKey_token] => 87a535b24a90fbbdb92b50fcddb9bdea
+        )
+
+    [transid] => 642BD7AA3470C565
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-04-04 09:57:12 ##
+----> END placeOrder()
+## 2023-04-04 09:57:12 ##
+----> END registerOrder()
+## 2023-04-04 09:57:12 ##
+----> Treatment is unlocked for the id_cart = 8049
+## 2023-04-04 12:42:40 ##
+##########################
+## 2023-04-04 12:42:40 ##
+START Validation Callback
+## 2023-04-04 12:42:40 ##
+##########################
+## 2023-04-04 12:42:40 ##
+----> Treatment is locked for the id_cart = 8045
+## 2023-04-04 12:42:40 ##
+data for validation
+## 2023-04-04 12:42:40 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>73d2469afb6505e9a658823863dc8b3d</md5content><result><operation>authorization</operation><status>ok</status><date>2023-04-04</date><time>10:42:38 UTC+0000</time><origAmount>79.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8045</idForMerchant><emailClient>william_saintamon@hotmail.fr</emailClient><idClient>22197359</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8045</_aKey_cart_id>  <_aKey_customer_id>3274</_aKey_customer_id>  <_aKey_secure_key>3ef70974659a92859bb8824481d2598f</_aKey_secure_key>  <_aKey_token>eedc8bddf4cd7bee3d606bf659617adb</_aKey_token></merchantDatas><transid>642BFEA754565203</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 73d2469afb6505e9a658823863dc8b3d
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-04-04
+                    [time] => 10:42:38 UTC+0000
+                    [origAmount] => 79.58
+                    [origCurrency] => EUR
+                    [idForMerchant] => 8045
+                    [emailClient] => william_saintamon@hotmail.fr
+                    [idClient] => 22197359
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 8045
+                            [_aKey_customer_id] => 3274
+                            [_aKey_secure_key] => 3ef70974659a92859bb8824481d2598f
+                            [_aKey_token] => eedc8bddf4cd7bee3d606bf659617adb
+                        )
+
+                    [transid] => 642BFEA754565203
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 8045
+    [3] => 3274
+    [4] => 3ef70974659a92859bb8824481d2598f
+    [5] => 79.58
+)
+
+## 2023-04-04 12:42:40 ##
+----> START registerOrder()
+## 2023-04-04 12:42:40 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-04 12:42:40 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-04-04</date><time>10:42:38 UTC+0000</time><origAmount>79.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8045</idForMerchant><emailClient>william_saintamon@hotmail.fr</emailClient><idClient>22197359</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8045</_aKey_cart_id>  <_aKey_customer_id>3274</_aKey_customer_id>  <_aKey_secure_key>3ef70974659a92859bb8824481d2598f</_aKey_secure_key>  <_aKey_token>eedc8bddf4cd7bee3d606bf659617adb</_aKey_token></merchantDatas><transid>642BFEA754565203</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-04-04 12:42:40 ##
+currency : EUR
+## 2023-04-04 12:42:40 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-04 12:42:40 ##
+callback_salt : 
+## 2023-04-04 12:42:40 ##
+md5 : 73d2469afb6505e9a658823863dc8b3d == md5content : 73d2469afb6505e9a658823863dc8b3d
+## 2023-04-04 12:42:40 ##
+Status = ok
+## 2023-04-04 12:42:40 ##
+$currency = EUR
+## 2023-04-04 12:42:40 ##
+id_order_state = 42
+## 2023-04-04 12:42:40 ##
+----> START placeOrder()
+## 2023-04-04 12:42:40 ##
+Treatment status = 42
+## 2023-04-04 12:42:40 ##
+Validate order
+## 2023-04-04 12:42:40 ##
+Array
+(
+    [0] => 8045
+    [1] => 42
+    [2] => 79.58
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"642BFEA754565203"}
+    [5] => Array
+        (
+            [transaction_id] => 642BFEA754565203
+        )
+
+    [6] => 1
+    [7] => 3ef70974659a92859bb8824481d2598f
+)
+
+## 2023-04-04 12:42:40 ##
+ID Shop = 1
+## 2023-04-04 12:42:44 ##
+Order created
+## 2023-04-04 12:42:44 ##
+----> END placeOrder()
+## 2023-04-04 12:42:44 ##
+----> END registerOrder()
+## 2023-04-04 12:42:44 ##
+----> Treatment is unlocked for the id_cart = 8045
+## 2023-04-04 12:42:49 ##
+##########################
+## 2023-04-04 12:42:49 ##
+START Validation Callback
+## 2023-04-04 12:42:49 ##
+##########################
+## 2023-04-04 12:42:49 ##
+----> Treatment is locked for the id_cart = 8045
+## 2023-04-04 12:42:49 ##
+data for validation
+## 2023-04-04 12:42:49 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>695473b4a4f3a356faba5cb980ee21da</md5content><result><operation>capture</operation><status>ok</status><date>2023-04-04</date><time>10:42:45 UTC+0000</time><origAmount>79.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8045</idForMerchant><emailClient>william_saintamon@hotmail.fr</emailClient><idClient>22197359</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8045</_aKey_cart_id>  <_aKey_customer_id>3274</_aKey_customer_id>  <_aKey_secure_key>3ef70974659a92859bb8824481d2598f</_aKey_secure_key>  <_aKey_token>eedc8bddf4cd7bee3d606bf659617adb</_aKey_token></merchantDatas><transid>642BFEA754565203</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 695473b4a4f3a356faba5cb980ee21da
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-04-04
+                    [time] => 10:42:45 UTC+0000
+                    [origAmount] => 79.58
+                    [origCurrency] => EUR
+                    [idForMerchant] => 8045
+                    [emailClient] => william_saintamon@hotmail.fr
+                    [idClient] => 22197359
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 8045
+                            [_aKey_customer_id] => 3274
+                            [_aKey_secure_key] => 3ef70974659a92859bb8824481d2598f
+                            [_aKey_token] => eedc8bddf4cd7bee3d606bf659617adb
+                        )
+
+                    [transid] => 642BFEA754565203
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 8045
+    [3] => 3274
+    [4] => 3ef70974659a92859bb8824481d2598f
+    [5] => 79.58
+)
+
+## 2023-04-04 12:42:49 ##
+----> START registerOrder()
+## 2023-04-04 12:42:49 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-04 12:42:49 ##
+<result><operation>capture</operation><status>ok</status><date>2023-04-04</date><time>10:42:45 UTC+0000</time><origAmount>79.58</origAmount><origCurrency>EUR</origCurrency><idForMerchant>8045</idForMerchant><emailClient>william_saintamon@hotmail.fr</emailClient><idClient>22197359</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>8045</_aKey_cart_id>  <_aKey_customer_id>3274</_aKey_customer_id>  <_aKey_secure_key>3ef70974659a92859bb8824481d2598f</_aKey_secure_key>  <_aKey_token>eedc8bddf4cd7bee3d606bf659617adb</_aKey_token></merchantDatas><transid>642BFEA754565203</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-04-04 12:42:49 ##
+currency : EUR
+## 2023-04-04 12:42:49 ##
+accountID:13248407 / websiteId:418801
+## 2023-04-04 12:42:49 ##
+callback_salt : 
+## 2023-04-04 12:42:49 ##
+md5 : 695473b4a4f3a356faba5cb980ee21da == md5content : 695473b4a4f3a356faba5cb980ee21da
+## 2023-04-04 12:42:49 ##
+Status = ok
+## 2023-04-04 12:42:49 ##
+$currency = EUR
+## 2023-04-04 12:42:49 ##
+id_order_state = 2
+## 2023-04-04 12:42:49 ##
+----> START placeOrder()
+## 2023-04-04 12:42:49 ##
+Treatment an existing order
+## 2023-04-04 12:42:49 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-04-04 12:42:49 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-04-04
+    [time] => 10:42:45 UTC+0000
+    [origAmount] => 79.58
+    [origCurrency] => EUR
+    [idForMerchant] => 8045
+    [emailClient] => william_saintamon@hotmail.fr
+    [idClient] => 22197359
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 8045
+            [_aKey_customer_id] => 3274
+            [_aKey_secure_key] => 3ef70974659a92859bb8824481d2598f
+            [_aKey_token] => eedc8bddf4cd7bee3d606bf659617adb
+        )
+
+    [transid] => 642BFEA754565203
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-04-04 12:42:50 ##
+----> END placeOrder()
+## 2023-04-04 12:42:50 ##
+----> END registerOrder()
+## 2023-04-04 12:42:50 ##
+----> Treatment is unlocked for the id_cart = 8045

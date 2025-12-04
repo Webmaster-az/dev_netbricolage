@@ -1,0 +1,121 @@
+#arlsf-notification{
+    position: fixed;
+    z-index: 10000;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    border-radius: 0px;
+    height: 92px;
+    left: 80px;
+    bottom: 20px;
+    width: 300px;    
+    font-size: 13px;
+    line-height: 19px;
+    visibility: hidden;
+    overflow: visible;
+}
+#arlsf-notification .arlsf-inner{
+    background: #FFFFFF;
+    transition: 0.5s all;
+}
+#arlsf-notification.active{
+
+    visibility: visible;
+}
+#arlsf-notification .arlsf-customer, #arlsf-notification .arlsf-item-name, #arlsf-notification .arlsf-total, #arlsf-notification .arlsf-time{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#arlsf-notification .arlsf-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92px;
+    height: 92px;
+    background-size: cover;
+}
+#arlsf-notification .arlsf-whole-link{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+#arlsf-notification.has-second-image:hover .arlsf-image{
+    opacity: 1;
+}
+#arlsf-notification.has-second-image .arlsf-image.second-image{
+    opacity: 0;
+}
+#arlsf-notification.has-second-image:hover .arlsf-image.second-image{
+    opacity: 1;
+    z-index: 2;
+}
+#arlsf-notification .arlsf-image{
+    transition: 0.5s all;
+}
+#arlsf-notification .arlsf-image a{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+#arlsf-notification .arlsf-content{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+#arlsf-notification.has-no-image .arlsf-content{
+    padding-left: 10px;
+}
+#arlsf-notification .arlsf-content p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+#arlsf-notification .arlsf-close-button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    text-align: center;
+    border: 0 none;
+    outline: none;
+    background: none;
+    z-index: 10;
+}
+#arlsf-notification .arlsf-close-button.arlsf-close-button-outside{
+    right: 0;
+    top: -25px;
+}
+.arlsf-close-button-rounded{
+    border-radius: 50% !important;
+}
+#arlsf-notification .arlsf-close-button svg{
+    display: block;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+}
+#arlsf-notification .arlsf-close-button.arlsf-close-button-rounded svg{
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+}
+#arlsf-notification .arlsf-stars{
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url('../img/5-stars-min.png') no-repeat 50% 50% scroll transparent;
+}

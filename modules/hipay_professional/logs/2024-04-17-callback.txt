@@ -1,0 +1,518 @@
+## 2024-04-17 08:11:25 ##
+##########################
+## 2024-04-17 08:11:25 ##
+START Validation Callback
+## 2024-04-17 08:11:25 ##
+##########################
+## 2024-04-17 08:11:25 ##
+----> Treatment is locked for the id_cart = 13932
+## 2024-04-17 08:11:25 ##
+data for validation
+## 2024-04-17 08:11:25 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>51e14bfea93b27f98d1905b9e127218b</md5content><result><operation>authorization</operation><status>ok</status><date>2024-04-17</date><time>06:11:23 UTC+0000</time><origAmount>99.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13932</idForMerchant><emailClient>franck.hardy15@gmail.com</emailClient><idClient>23465651</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13932</_aKey_cart_id>  <_aKey_customer_id>4204</_aKey_customer_id>  <_aKey_secure_key>9d62945c3c4a5f657b30d572cd80ec19</_aKey_secure_key>  <_aKey_token>281957c9c88b080deba83b29490b7bc2</_aKey_token></merchantDatas><transid>661F67DB56AF5272</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 51e14bfea93b27f98d1905b9e127218b
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-04-17
+                    [time] => 06:11:23 UTC+0000
+                    [origAmount] => 99.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13932
+                    [emailClient] => franck.hardy15@gmail.com
+                    [idClient] => 23465651
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13932
+                            [_aKey_customer_id] => 4204
+                            [_aKey_secure_key] => 9d62945c3c4a5f657b30d572cd80ec19
+                            [_aKey_token] => 281957c9c88b080deba83b29490b7bc2
+                        )
+
+                    [transid] => 661F67DB56AF5272
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13932
+    [3] => 4204
+    [4] => 9d62945c3c4a5f657b30d572cd80ec19
+    [5] => 99
+)
+
+## 2024-04-17 08:11:25 ##
+----> START registerOrder()
+## 2024-04-17 08:11:25 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-17 08:11:25 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-04-17</date><time>06:11:23 UTC+0000</time><origAmount>99.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13932</idForMerchant><emailClient>franck.hardy15@gmail.com</emailClient><idClient>23465651</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13932</_aKey_cart_id>  <_aKey_customer_id>4204</_aKey_customer_id>  <_aKey_secure_key>9d62945c3c4a5f657b30d572cd80ec19</_aKey_secure_key>  <_aKey_token>281957c9c88b080deba83b29490b7bc2</_aKey_token></merchantDatas><transid>661F67DB56AF5272</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-17 08:11:25 ##
+currency : EUR
+## 2024-04-17 08:11:25 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-17 08:11:25 ##
+callback_salt : 
+## 2024-04-17 08:11:25 ##
+md5 : 51e14bfea93b27f98d1905b9e127218b == md5content : 51e14bfea93b27f98d1905b9e127218b
+## 2024-04-17 08:11:25 ##
+Status = ok
+## 2024-04-17 08:11:25 ##
+$currency = EUR
+## 2024-04-17 08:11:25 ##
+id_order_state = 42
+## 2024-04-17 08:11:25 ##
+----> START placeOrder()
+## 2024-04-17 08:11:25 ##
+Treatment status = 42
+## 2024-04-17 08:11:25 ##
+Validate order
+## 2024-04-17 08:11:25 ##
+Array
+(
+    [0] => 13932
+    [1] => 42
+    [2] => 99
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"661F67DB56AF5272"}
+    [5] => Array
+        (
+            [transaction_id] => 661F67DB56AF5272
+        )
+
+    [6] => 1
+    [7] => 9d62945c3c4a5f657b30d572cd80ec19
+)
+
+## 2024-04-17 08:11:25 ##
+ID Shop = 1
+## 2024-04-17 08:11:29 ##
+Order created
+## 2024-04-17 08:11:29 ##
+----> END placeOrder()
+## 2024-04-17 08:11:29 ##
+----> END registerOrder()
+## 2024-04-17 08:11:29 ##
+----> Treatment is unlocked for the id_cart = 13932
+## 2024-04-17 08:11:34 ##
+##########################
+## 2024-04-17 08:11:34 ##
+START Validation Callback
+## 2024-04-17 08:11:34 ##
+##########################
+## 2024-04-17 08:11:34 ##
+----> Treatment is locked for the id_cart = 13932
+## 2024-04-17 08:11:34 ##
+data for validation
+## 2024-04-17 08:11:34 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>223bfdccb8bf04179c1eb480e139910f</md5content><result><operation>capture</operation><status>ok</status><date>2024-04-17</date><time>06:11:30 UTC+0000</time><origAmount>99.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13932</idForMerchant><emailClient>franck.hardy15@gmail.com</emailClient><idClient>23465651</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13932</_aKey_cart_id>  <_aKey_customer_id>4204</_aKey_customer_id>  <_aKey_secure_key>9d62945c3c4a5f657b30d572cd80ec19</_aKey_secure_key>  <_aKey_token>281957c9c88b080deba83b29490b7bc2</_aKey_token></merchantDatas><transid>661F67DB56AF5272</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 223bfdccb8bf04179c1eb480e139910f
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-04-17
+                    [time] => 06:11:30 UTC+0000
+                    [origAmount] => 99.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13932
+                    [emailClient] => franck.hardy15@gmail.com
+                    [idClient] => 23465651
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13932
+                            [_aKey_customer_id] => 4204
+                            [_aKey_secure_key] => 9d62945c3c4a5f657b30d572cd80ec19
+                            [_aKey_token] => 281957c9c88b080deba83b29490b7bc2
+                        )
+
+                    [transid] => 661F67DB56AF5272
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13932
+    [3] => 4204
+    [4] => 9d62945c3c4a5f657b30d572cd80ec19
+    [5] => 99
+)
+
+## 2024-04-17 08:11:34 ##
+----> START registerOrder()
+## 2024-04-17 08:11:34 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-17 08:11:34 ##
+<result><operation>capture</operation><status>ok</status><date>2024-04-17</date><time>06:11:30 UTC+0000</time><origAmount>99.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13932</idForMerchant><emailClient>franck.hardy15@gmail.com</emailClient><idClient>23465651</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13932</_aKey_cart_id>  <_aKey_customer_id>4204</_aKey_customer_id>  <_aKey_secure_key>9d62945c3c4a5f657b30d572cd80ec19</_aKey_secure_key>  <_aKey_token>281957c9c88b080deba83b29490b7bc2</_aKey_token></merchantDatas><transid>661F67DB56AF5272</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-17 08:11:34 ##
+currency : EUR
+## 2024-04-17 08:11:34 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-17 08:11:34 ##
+callback_salt : 
+## 2024-04-17 08:11:34 ##
+md5 : 223bfdccb8bf04179c1eb480e139910f == md5content : 223bfdccb8bf04179c1eb480e139910f
+## 2024-04-17 08:11:34 ##
+Status = ok
+## 2024-04-17 08:11:34 ##
+$currency = EUR
+## 2024-04-17 08:11:34 ##
+id_order_state = 2
+## 2024-04-17 08:11:34 ##
+----> START placeOrder()
+## 2024-04-17 08:11:34 ##
+Treatment an existing order
+## 2024-04-17 08:11:34 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-04-17 08:11:34 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-04-17
+    [time] => 06:11:30 UTC+0000
+    [origAmount] => 99.00
+    [origCurrency] => EUR
+    [idForMerchant] => 13932
+    [emailClient] => franck.hardy15@gmail.com
+    [idClient] => 23465651
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 13932
+            [_aKey_customer_id] => 4204
+            [_aKey_secure_key] => 9d62945c3c4a5f657b30d572cd80ec19
+            [_aKey_token] => 281957c9c88b080deba83b29490b7bc2
+        )
+
+    [transid] => 661F67DB56AF5272
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-04-17 08:11:35 ##
+----> END placeOrder()
+## 2024-04-17 08:11:35 ##
+----> END registerOrder()
+## 2024-04-17 08:11:35 ##
+----> Treatment is unlocked for the id_cart = 13932
+## 2024-04-17 13:36:56 ##
+##########################
+## 2024-04-17 13:36:56 ##
+START Validation Callback
+## 2024-04-17 13:36:56 ##
+##########################
+## 2024-04-17 13:36:56 ##
+----> Treatment is locked for the id_cart = 13938
+## 2024-04-17 13:36:56 ##
+data for validation
+## 2024-04-17 13:36:56 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>6fb10abdea751d9e2e8f88583c41406b</md5content><result><operation>authorization</operation><status>ok</status><date>2024-04-17</date><time>11:36:50 UTC+0000</time><origAmount>172.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13938</idForMerchant><emailClient>brom.cuisine@gmail.com</emailClient><idClient>23492297</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13938</_aKey_cart_id>  <_aKey_customer_id>4219</_aKey_customer_id>  <_aKey_secure_key>68fb2a7a2bb5f263a01c104728ce30d2</_aKey_secure_key>  <_aKey_token>a20676ae23bce1c87f3fa8564ee0e182</_aKey_token></merchantDatas><transid>661FB3FE1E1F7174</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 6fb10abdea751d9e2e8f88583c41406b
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-04-17
+                    [time] => 11:36:50 UTC+0000
+                    [origAmount] => 172.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13938
+                    [emailClient] => brom.cuisine@gmail.com
+                    [idClient] => 23492297
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13938
+                            [_aKey_customer_id] => 4219
+                            [_aKey_secure_key] => 68fb2a7a2bb5f263a01c104728ce30d2
+                            [_aKey_token] => a20676ae23bce1c87f3fa8564ee0e182
+                        )
+
+                    [transid] => 661FB3FE1E1F7174
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13938
+    [3] => 4219
+    [4] => 68fb2a7a2bb5f263a01c104728ce30d2
+    [5] => 172
+)
+
+## 2024-04-17 13:36:56 ##
+----> START registerOrder()
+## 2024-04-17 13:36:56 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-17 13:36:56 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-04-17</date><time>11:36:50 UTC+0000</time><origAmount>172.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13938</idForMerchant><emailClient>brom.cuisine@gmail.com</emailClient><idClient>23492297</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13938</_aKey_cart_id>  <_aKey_customer_id>4219</_aKey_customer_id>  <_aKey_secure_key>68fb2a7a2bb5f263a01c104728ce30d2</_aKey_secure_key>  <_aKey_token>a20676ae23bce1c87f3fa8564ee0e182</_aKey_token></merchantDatas><transid>661FB3FE1E1F7174</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-17 13:36:56 ##
+currency : EUR
+## 2024-04-17 13:36:56 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-17 13:36:56 ##
+callback_salt : 
+## 2024-04-17 13:36:56 ##
+md5 : 6fb10abdea751d9e2e8f88583c41406b == md5content : 6fb10abdea751d9e2e8f88583c41406b
+## 2024-04-17 13:36:56 ##
+Status = ok
+## 2024-04-17 13:36:56 ##
+$currency = EUR
+## 2024-04-17 13:36:56 ##
+id_order_state = 42
+## 2024-04-17 13:36:56 ##
+----> START placeOrder()
+## 2024-04-17 13:36:56 ##
+Treatment status = 42
+## 2024-04-17 13:36:56 ##
+Validate order
+## 2024-04-17 13:36:56 ##
+Array
+(
+    [0] => 13938
+    [1] => 42
+    [2] => 172
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"661FB3FE1E1F7174"}
+    [5] => Array
+        (
+            [transaction_id] => 661FB3FE1E1F7174
+        )
+
+    [6] => 1
+    [7] => 68fb2a7a2bb5f263a01c104728ce30d2
+)
+
+## 2024-04-17 13:36:56 ##
+ID Shop = 1
+## 2024-04-17 13:36:59 ##
+Order created
+## 2024-04-17 13:36:59 ##
+----> END placeOrder()
+## 2024-04-17 13:36:59 ##
+----> END registerOrder()
+## 2024-04-17 13:36:59 ##
+----> Treatment is unlocked for the id_cart = 13938
+## 2024-04-17 13:37:04 ##
+##########################
+## 2024-04-17 13:37:04 ##
+START Validation Callback
+## 2024-04-17 13:37:04 ##
+##########################
+## 2024-04-17 13:37:04 ##
+----> Treatment is locked for the id_cart = 13938
+## 2024-04-17 13:37:04 ##
+data for validation
+## 2024-04-17 13:37:04 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ea7108504f44dff70ec8fdfcb399938b</md5content><result><operation>capture</operation><status>ok</status><date>2024-04-17</date><time>11:36:58 UTC+0000</time><origAmount>172.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13938</idForMerchant><emailClient>brom.cuisine@gmail.com</emailClient><idClient>23492297</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13938</_aKey_cart_id>  <_aKey_customer_id>4219</_aKey_customer_id>  <_aKey_secure_key>68fb2a7a2bb5f263a01c104728ce30d2</_aKey_secure_key>  <_aKey_token>a20676ae23bce1c87f3fa8564ee0e182</_aKey_token></merchantDatas><transid>661FB3FE1E1F7174</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ea7108504f44dff70ec8fdfcb399938b
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-04-17
+                    [time] => 11:36:58 UTC+0000
+                    [origAmount] => 172.00
+                    [origCurrency] => EUR
+                    [idForMerchant] => 13938
+                    [emailClient] => brom.cuisine@gmail.com
+                    [idClient] => 23492297
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 13938
+                            [_aKey_customer_id] => 4219
+                            [_aKey_secure_key] => 68fb2a7a2bb5f263a01c104728ce30d2
+                            [_aKey_token] => a20676ae23bce1c87f3fa8564ee0e182
+                        )
+
+                    [transid] => 661FB3FE1E1F7174
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 13938
+    [3] => 4219
+    [4] => 68fb2a7a2bb5f263a01c104728ce30d2
+    [5] => 172
+)
+
+## 2024-04-17 13:37:04 ##
+----> START registerOrder()
+## 2024-04-17 13:37:04 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-17 13:37:04 ##
+<result><operation>capture</operation><status>ok</status><date>2024-04-17</date><time>11:36:58 UTC+0000</time><origAmount>172.00</origAmount><origCurrency>EUR</origCurrency><idForMerchant>13938</idForMerchant><emailClient>brom.cuisine@gmail.com</emailClient><idClient>23492297</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>13938</_aKey_cart_id>  <_aKey_customer_id>4219</_aKey_customer_id>  <_aKey_secure_key>68fb2a7a2bb5f263a01c104728ce30d2</_aKey_secure_key>  <_aKey_token>a20676ae23bce1c87f3fa8564ee0e182</_aKey_token></merchantDatas><transid>661FB3FE1E1F7174</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-04-17 13:37:04 ##
+currency : EUR
+## 2024-04-17 13:37:04 ##
+accountID:13248407 / websiteId:417972
+## 2024-04-17 13:37:04 ##
+callback_salt : 
+## 2024-04-17 13:37:04 ##
+md5 : ea7108504f44dff70ec8fdfcb399938b == md5content : ea7108504f44dff70ec8fdfcb399938b
+## 2024-04-17 13:37:04 ##
+Status = ok
+## 2024-04-17 13:37:04 ##
+$currency = EUR
+## 2024-04-17 13:37:04 ##
+id_order_state = 2
+## 2024-04-17 13:37:04 ##
+----> START placeOrder()
+## 2024-04-17 13:37:04 ##
+Treatment an existing order
+## 2024-04-17 13:37:04 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-04-17 13:37:04 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-04-17
+    [time] => 11:36:58 UTC+0000
+    [origAmount] => 172.00
+    [origCurrency] => EUR
+    [idForMerchant] => 13938
+    [emailClient] => brom.cuisine@gmail.com
+    [idClient] => 23492297
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 13938
+            [_aKey_customer_id] => 4219
+            [_aKey_secure_key] => 68fb2a7a2bb5f263a01c104728ce30d2
+            [_aKey_token] => a20676ae23bce1c87f3fa8564ee0e182
+        )
+
+    [transid] => 661FB3FE1E1F7174
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-04-17 13:37:04 ##
+----> END placeOrder()
+## 2024-04-17 13:37:04 ##
+----> END registerOrder()
+## 2024-04-17 13:37:04 ##
+----> Treatment is unlocked for the id_cart = 13938

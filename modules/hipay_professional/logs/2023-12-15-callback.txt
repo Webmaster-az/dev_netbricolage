@@ -1,0 +1,259 @@
+## 2023-12-15 13:42:42 ##
+##########################
+## 2023-12-15 13:42:42 ##
+START Validation Callback
+## 2023-12-15 13:42:42 ##
+##########################
+## 2023-12-15 13:42:42 ##
+----> Treatment is locked for the id_cart = 12358
+## 2023-12-15 13:42:42 ##
+data for validation
+## 2023-12-15 13:42:42 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>dffd4cf96fa4d4fa2acdc48955349c3f</md5content><result><operation>authorization</operation><status>ok</status><date>2023-12-15</date><time>12:42:41 UTC+0000</time><origAmount>1874.52</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12358</idForMerchant><emailClient>fchabrier@marshallbio.com</emailClient><idClient>23094444</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12358</_aKey_cart_id>  <_aKey_customer_id>3986</_aKey_customer_id>  <_aKey_secure_key>ff73c4c16dc615d7d94e54954b5948c0</_aKey_secure_key>  <_aKey_token>b5d2f53714f095f173d5456b3a0dabde</_aKey_token></merchantDatas><transid>657C498708F11253</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => dffd4cf96fa4d4fa2acdc48955349c3f
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-12-15
+                    [time] => 12:42:41 UTC+0000
+                    [origAmount] => 1874.52
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12358
+                    [emailClient] => fchabrier@marshallbio.com
+                    [idClient] => 23094444
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12358
+                            [_aKey_customer_id] => 3986
+                            [_aKey_secure_key] => ff73c4c16dc615d7d94e54954b5948c0
+                            [_aKey_token] => b5d2f53714f095f173d5456b3a0dabde
+                        )
+
+                    [transid] => 657C498708F11253
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12358
+    [3] => 3986
+    [4] => ff73c4c16dc615d7d94e54954b5948c0
+    [5] => 1874.52
+)
+
+## 2023-12-15 13:42:42 ##
+----> START registerOrder()
+## 2023-12-15 13:42:42 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-15 13:42:42 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-12-15</date><time>12:42:41 UTC+0000</time><origAmount>1874.52</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12358</idForMerchant><emailClient>fchabrier@marshallbio.com</emailClient><idClient>23094444</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12358</_aKey_cart_id>  <_aKey_customer_id>3986</_aKey_customer_id>  <_aKey_secure_key>ff73c4c16dc615d7d94e54954b5948c0</_aKey_secure_key>  <_aKey_token>b5d2f53714f095f173d5456b3a0dabde</_aKey_token></merchantDatas><transid>657C498708F11253</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-12-15 13:42:42 ##
+currency : EUR
+## 2023-12-15 13:42:42 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-15 13:42:42 ##
+callback_salt : 
+## 2023-12-15 13:42:42 ##
+md5 : dffd4cf96fa4d4fa2acdc48955349c3f == md5content : dffd4cf96fa4d4fa2acdc48955349c3f
+## 2023-12-15 13:42:42 ##
+Status = ok
+## 2023-12-15 13:42:42 ##
+$currency = EUR
+## 2023-12-15 13:42:42 ##
+id_order_state = 42
+## 2023-12-15 13:42:42 ##
+----> START placeOrder()
+## 2023-12-15 13:42:42 ##
+Treatment status = 42
+## 2023-12-15 13:42:42 ##
+Validate order
+## 2023-12-15 13:42:42 ##
+Array
+(
+    [0] => 12358
+    [1] => 42
+    [2] => 1874.52
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"657C498708F11253"}
+    [5] => Array
+        (
+            [transaction_id] => 657C498708F11253
+        )
+
+    [6] => 1
+    [7] => ff73c4c16dc615d7d94e54954b5948c0
+)
+
+## 2023-12-15 13:42:42 ##
+ID Shop = 1
+## 2023-12-15 13:42:45 ##
+Order created
+## 2023-12-15 13:42:45 ##
+----> END placeOrder()
+## 2023-12-15 13:42:45 ##
+----> END registerOrder()
+## 2023-12-15 13:42:45 ##
+----> Treatment is unlocked for the id_cart = 12358
+## 2023-12-15 13:42:49 ##
+##########################
+## 2023-12-15 13:42:49 ##
+START Validation Callback
+## 2023-12-15 13:42:49 ##
+##########################
+## 2023-12-15 13:42:49 ##
+----> Treatment is locked for the id_cart = 12358
+## 2023-12-15 13:42:49 ##
+data for validation
+## 2023-12-15 13:42:49 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a42ccef17d3c43473b46c0927a86867f</md5content><result><operation>capture</operation><status>ok</status><date>2023-12-15</date><time>12:42:47 UTC+0000</time><origAmount>1874.52</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12358</idForMerchant><emailClient>fchabrier@marshallbio.com</emailClient><idClient>23094444</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12358</_aKey_cart_id>  <_aKey_customer_id>3986</_aKey_customer_id>  <_aKey_secure_key>ff73c4c16dc615d7d94e54954b5948c0</_aKey_secure_key>  <_aKey_token>b5d2f53714f095f173d5456b3a0dabde</_aKey_token></merchantDatas><transid>657C498708F11253</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a42ccef17d3c43473b46c0927a86867f
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-12-15
+                    [time] => 12:42:47 UTC+0000
+                    [origAmount] => 1874.52
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12358
+                    [emailClient] => fchabrier@marshallbio.com
+                    [idClient] => 23094444
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12358
+                            [_aKey_customer_id] => 3986
+                            [_aKey_secure_key] => ff73c4c16dc615d7d94e54954b5948c0
+                            [_aKey_token] => b5d2f53714f095f173d5456b3a0dabde
+                        )
+
+                    [transid] => 657C498708F11253
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12358
+    [3] => 3986
+    [4] => ff73c4c16dc615d7d94e54954b5948c0
+    [5] => 1874.52
+)
+
+## 2023-12-15 13:42:49 ##
+----> START registerOrder()
+## 2023-12-15 13:42:49 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-15 13:42:49 ##
+<result><operation>capture</operation><status>ok</status><date>2023-12-15</date><time>12:42:47 UTC+0000</time><origAmount>1874.52</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12358</idForMerchant><emailClient>fchabrier@marshallbio.com</emailClient><idClient>23094444</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12358</_aKey_cart_id>  <_aKey_customer_id>3986</_aKey_customer_id>  <_aKey_secure_key>ff73c4c16dc615d7d94e54954b5948c0</_aKey_secure_key>  <_aKey_token>b5d2f53714f095f173d5456b3a0dabde</_aKey_token></merchantDatas><transid>657C498708F11253</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-12-15 13:42:49 ##
+currency : EUR
+## 2023-12-15 13:42:49 ##
+accountID:13248407 / websiteId:417972
+## 2023-12-15 13:42:49 ##
+callback_salt : 
+## 2023-12-15 13:42:49 ##
+md5 : a42ccef17d3c43473b46c0927a86867f == md5content : a42ccef17d3c43473b46c0927a86867f
+## 2023-12-15 13:42:49 ##
+Status = ok
+## 2023-12-15 13:42:49 ##
+$currency = EUR
+## 2023-12-15 13:42:49 ##
+id_order_state = 2
+## 2023-12-15 13:42:49 ##
+----> START placeOrder()
+## 2023-12-15 13:42:49 ##
+Treatment an existing order
+## 2023-12-15 13:42:49 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-12-15 13:42:49 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-12-15
+    [time] => 12:42:47 UTC+0000
+    [origAmount] => 1874.52
+    [origCurrency] => EUR
+    [idForMerchant] => 12358
+    [emailClient] => fchabrier@marshallbio.com
+    [idClient] => 23094444
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12358
+            [_aKey_customer_id] => 3986
+            [_aKey_secure_key] => ff73c4c16dc615d7d94e54954b5948c0
+            [_aKey_token] => b5d2f53714f095f173d5456b3a0dabde
+        )
+
+    [transid] => 657C498708F11253
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-12-15 13:42:50 ##
+----> END placeOrder()
+## 2023-12-15 13:42:50 ##
+----> END registerOrder()
+## 2023-12-15 13:42:50 ##
+----> Treatment is unlocked for the id_cart = 12358

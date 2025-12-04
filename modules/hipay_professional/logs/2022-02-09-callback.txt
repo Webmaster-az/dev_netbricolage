@@ -1,0 +1,259 @@
+## 2022-02-09 21:36:02 ##
+##########################
+## 2022-02-09 21:36:02 ##
+START Validation Callback
+## 2022-02-09 21:36:02 ##
+##########################
+## 2022-02-09 21:36:02 ##
+----> Treatment is locked for the id_cart = 1543
+## 2022-02-09 21:36:02 ##
+data for validation
+## 2022-02-09 21:36:02 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>ae08180b2b26a6d3ddefc4cb87423da3</md5content><result><operation>authorization</operation><status>ok</status><date>2022-02-09</date><time>20:35:59 UTC+0000</time><origAmount>371.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1543</idForMerchant><emailClient>cardosohenriques@live.fr</emailClient><idClient>20271250</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1543</_aKey_cart_id>  <_aKey_customer_id>1770</_aKey_customer_id>  <_aKey_secure_key>32b9dbc46774fd1f71bd7e675fd1f385</_aKey_secure_key>  <_aKey_token>a482abbc7523db27aedbb3a62be12122</_aKey_token></merchantDatas><transid>6204256C7B94C176</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => ae08180b2b26a6d3ddefc4cb87423da3
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-02-09
+                    [time] => 20:35:59 UTC+0000
+                    [origAmount] => 371.28
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1543
+                    [emailClient] => cardosohenriques@live.fr
+                    [idClient] => 20271250
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1543
+                            [_aKey_customer_id] => 1770
+                            [_aKey_secure_key] => 32b9dbc46774fd1f71bd7e675fd1f385
+                            [_aKey_token] => a482abbc7523db27aedbb3a62be12122
+                        )
+
+                    [transid] => 6204256C7B94C176
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1543
+    [3] => 1770
+    [4] => 32b9dbc46774fd1f71bd7e675fd1f385
+    [5] => 371.28
+)
+
+## 2022-02-09 21:36:02 ##
+----> START registerOrder()
+## 2022-02-09 21:36:02 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-09 21:36:02 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-02-09</date><time>20:35:59 UTC+0000</time><origAmount>371.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1543</idForMerchant><emailClient>cardosohenriques@live.fr</emailClient><idClient>20271250</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1543</_aKey_cart_id>  <_aKey_customer_id>1770</_aKey_customer_id>  <_aKey_secure_key>32b9dbc46774fd1f71bd7e675fd1f385</_aKey_secure_key>  <_aKey_token>a482abbc7523db27aedbb3a62be12122</_aKey_token></merchantDatas><transid>6204256C7B94C176</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-09 21:36:02 ##
+currency : EUR
+## 2022-02-09 21:36:02 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-09 21:36:02 ##
+callback_salt : 
+## 2022-02-09 21:36:02 ##
+md5 : ae08180b2b26a6d3ddefc4cb87423da3 == md5content : ae08180b2b26a6d3ddefc4cb87423da3
+## 2022-02-09 21:36:02 ##
+Status = ok
+## 2022-02-09 21:36:02 ##
+$currency = EUR
+## 2022-02-09 21:36:02 ##
+id_order_state = 42
+## 2022-02-09 21:36:02 ##
+----> START placeOrder()
+## 2022-02-09 21:36:02 ##
+Treatment status = 42
+## 2022-02-09 21:36:02 ##
+Validate order
+## 2022-02-09 21:36:02 ##
+Array
+(
+    [0] => 1543
+    [1] => 42
+    [2] => 371.28
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6204256C7B94C176"}
+    [5] => Array
+        (
+            [transaction_id] => 6204256C7B94C176
+        )
+
+    [6] => 1
+    [7] => 32b9dbc46774fd1f71bd7e675fd1f385
+)
+
+## 2022-02-09 21:36:02 ##
+ID Shop = 1
+## 2022-02-09 21:36:05 ##
+Order created
+## 2022-02-09 21:36:05 ##
+----> END placeOrder()
+## 2022-02-09 21:36:05 ##
+----> END registerOrder()
+## 2022-02-09 21:36:05 ##
+----> Treatment is unlocked for the id_cart = 1543
+## 2022-02-09 21:36:09 ##
+##########################
+## 2022-02-09 21:36:09 ##
+START Validation Callback
+## 2022-02-09 21:36:09 ##
+##########################
+## 2022-02-09 21:36:09 ##
+----> Treatment is locked for the id_cart = 1543
+## 2022-02-09 21:36:09 ##
+data for validation
+## 2022-02-09 21:36:09 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>4fd6b453db353ae8d1678b76e86b5a6e</md5content><result><operation>capture</operation><status>ok</status><date>2022-02-09</date><time>20:36:05 UTC+0000</time><origAmount>371.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1543</idForMerchant><emailClient>cardosohenriques@live.fr</emailClient><idClient>20271250</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1543</_aKey_cart_id>  <_aKey_customer_id>1770</_aKey_customer_id>  <_aKey_secure_key>32b9dbc46774fd1f71bd7e675fd1f385</_aKey_secure_key>  <_aKey_token>a482abbc7523db27aedbb3a62be12122</_aKey_token></merchantDatas><transid>6204256C7B94C176</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 4fd6b453db353ae8d1678b76e86b5a6e
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-02-09
+                    [time] => 20:36:05 UTC+0000
+                    [origAmount] => 371.28
+                    [origCurrency] => EUR
+                    [idForMerchant] => 1543
+                    [emailClient] => cardosohenriques@live.fr
+                    [idClient] => 20271250
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 1543
+                            [_aKey_customer_id] => 1770
+                            [_aKey_secure_key] => 32b9dbc46774fd1f71bd7e675fd1f385
+                            [_aKey_token] => a482abbc7523db27aedbb3a62be12122
+                        )
+
+                    [transid] => 6204256C7B94C176
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 1543
+    [3] => 1770
+    [4] => 32b9dbc46774fd1f71bd7e675fd1f385
+    [5] => 371.28
+)
+
+## 2022-02-09 21:36:09 ##
+----> START registerOrder()
+## 2022-02-09 21:36:09 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-09 21:36:09 ##
+<result><operation>capture</operation><status>ok</status><date>2022-02-09</date><time>20:36:05 UTC+0000</time><origAmount>371.28</origAmount><origCurrency>EUR</origCurrency><idForMerchant>1543</idForMerchant><emailClient>cardosohenriques@live.fr</emailClient><idClient>20271250</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>1543</_aKey_cart_id>  <_aKey_customer_id>1770</_aKey_customer_id>  <_aKey_secure_key>32b9dbc46774fd1f71bd7e675fd1f385</_aKey_secure_key>  <_aKey_token>a482abbc7523db27aedbb3a62be12122</_aKey_token></merchantDatas><transid>6204256C7B94C176</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-02-09 21:36:09 ##
+currency : EUR
+## 2022-02-09 21:36:09 ##
+accountID:13248407 / websiteId:418801
+## 2022-02-09 21:36:09 ##
+callback_salt : 
+## 2022-02-09 21:36:09 ##
+md5 : 4fd6b453db353ae8d1678b76e86b5a6e == md5content : 4fd6b453db353ae8d1678b76e86b5a6e
+## 2022-02-09 21:36:09 ##
+Status = ok
+## 2022-02-09 21:36:09 ##
+$currency = EUR
+## 2022-02-09 21:36:09 ##
+id_order_state = 2
+## 2022-02-09 21:36:09 ##
+----> START placeOrder()
+## 2022-02-09 21:36:09 ##
+Treatment an existing order
+## 2022-02-09 21:36:09 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-02-09 21:36:09 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-02-09
+    [time] => 20:36:05 UTC+0000
+    [origAmount] => 371.28
+    [origCurrency] => EUR
+    [idForMerchant] => 1543
+    [emailClient] => cardosohenriques@live.fr
+    [idClient] => 20271250
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 1543
+            [_aKey_customer_id] => 1770
+            [_aKey_secure_key] => 32b9dbc46774fd1f71bd7e675fd1f385
+            [_aKey_token] => a482abbc7523db27aedbb3a62be12122
+        )
+
+    [transid] => 6204256C7B94C176
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-02-09 21:36:10 ##
+----> END placeOrder()
+## 2022-02-09 21:36:10 ##
+----> END registerOrder()
+## 2022-02-09 21:36:10 ##
+----> Treatment is unlocked for the id_cart = 1543

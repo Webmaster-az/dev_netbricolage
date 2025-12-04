@@ -1,0 +1,48 @@
+services:
+
+  PrestaShop\Module\Microsoft\Repository\LanguageRepository:
+    class: 'PrestaShop\Module\Microsoft\Repository\LanguageRepository'
+    public: true
+    arguments:
+      - '@Microsoft.context'
+
+  PrestaShop\Module\Microsoft\Repository\CurrencyRepository:
+    class: 'PrestaShop\Module\Microsoft\Repository\CurrencyRepository'
+    public: true
+    arguments:
+      - '@Microsoft.currency'
+
+  PrestaShop\Module\Microsoft\Repository\ContactRepository:
+    class: 'PrestaShop\Module\Microsoft\Repository\ContactRepository'
+    public: true
+
+  PrestaShop\Module\Microsoft\Repository\StoresRepository:
+    class: 'PrestaShop\Module\Microsoft\Repository\StoresRepository'
+    public: true
+    arguments:
+      - '@Microsoft.context'
+
+  PrestaShop\Module\Microsoft\Repository\ProductRepository: 
+    class: 'PrestaShop\Module\Microsoft\Repository\ProductRepository'
+    public: true
+    arguments:
+      - '@Microsoft.language'
+      - '@Microsoft.context'
+
+  PrestaShop\Module\Microsoft\Repository\AttributesRepository:
+    class: 'PrestaShop\Module\Microsoft\Repository\AttributesRepository'
+    public: true
+    arguments:
+      - '@Microsoft.context'
+
+  PrestaShop\Module\Microsoft\Repository\CountryRepository:
+    class: 'PrestaShop\Module\Microsoft\Repository\CountryRepository'
+    public: true
+    arguments:
+      - '@Microsoft.context'
+
+  PrestaShop\Module\Microsoft\Repository\EmployeeRepository:
+    class: 'PrestaShop\Module\Microsoft\Repository\EmployeeRepository'
+    public: true
+    arguments:
+      - '@Microsoft.context'

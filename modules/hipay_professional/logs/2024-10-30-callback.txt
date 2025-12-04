@@ -1,0 +1,259 @@
+## 2024-10-30 18:02:43 ##
+##########################
+## 2024-10-30 18:02:43 ##
+START Validation Callback
+## 2024-10-30 18:02:43 ##
+##########################
+## 2024-10-30 18:02:43 ##
+----> Treatment is locked for the id_cart = 16374
+## 2024-10-30 18:02:43 ##
+data for validation
+## 2024-10-30 18:02:43 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>025aaf3790be9b2a4f6c7ecb3cc9dee2</md5content><result><operation>authorization</operation><status>ok</status><date>2024-10-30</date><time>17:02:46 UTC+0000</time><origAmount>45.93</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16374</idForMerchant><emailClient>cw.lavainne@sfr.fr</emailClient><idClient>24117330</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16374</_aKey_cart_id>  <_aKey_customer_id>4583</_aKey_customer_id>  <_aKey_secure_key>de5a51d3918b6e06a3319c7482b43c8d</_aKey_secure_key>  <_aKey_token>39ad64a176dee9ff26ba3cdfbb568c25</_aKey_token></merchantDatas><transid>6722666C76E1F145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 025aaf3790be9b2a4f6c7ecb3cc9dee2
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-10-30
+                    [time] => 17:02:46 UTC+0000
+                    [origAmount] => 45.93
+                    [origCurrency] => EUR
+                    [idForMerchant] => 16374
+                    [emailClient] => cw.lavainne@sfr.fr
+                    [idClient] => 24117330
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 16374
+                            [_aKey_customer_id] => 4583
+                            [_aKey_secure_key] => de5a51d3918b6e06a3319c7482b43c8d
+                            [_aKey_token] => 39ad64a176dee9ff26ba3cdfbb568c25
+                        )
+
+                    [transid] => 6722666C76E1F145
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 16374
+    [3] => 4583
+    [4] => de5a51d3918b6e06a3319c7482b43c8d
+    [5] => 45.93
+)
+
+## 2024-10-30 18:02:43 ##
+----> START registerOrder()
+## 2024-10-30 18:02:43 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-30 18:02:43 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-10-30</date><time>17:02:46 UTC+0000</time><origAmount>45.93</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16374</idForMerchant><emailClient>cw.lavainne@sfr.fr</emailClient><idClient>24117330</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16374</_aKey_cart_id>  <_aKey_customer_id>4583</_aKey_customer_id>  <_aKey_secure_key>de5a51d3918b6e06a3319c7482b43c8d</_aKey_secure_key>  <_aKey_token>39ad64a176dee9ff26ba3cdfbb568c25</_aKey_token></merchantDatas><transid>6722666C76E1F145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-10-30 18:02:43 ##
+currency : EUR
+## 2024-10-30 18:02:43 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-30 18:02:43 ##
+callback_salt : 
+## 2024-10-30 18:02:43 ##
+md5 : 025aaf3790be9b2a4f6c7ecb3cc9dee2 == md5content : 025aaf3790be9b2a4f6c7ecb3cc9dee2
+## 2024-10-30 18:02:43 ##
+Status = ok
+## 2024-10-30 18:02:43 ##
+$currency = EUR
+## 2024-10-30 18:02:43 ##
+id_order_state = 42
+## 2024-10-30 18:02:43 ##
+----> START placeOrder()
+## 2024-10-30 18:02:43 ##
+Treatment status = 42
+## 2024-10-30 18:02:43 ##
+Validate order
+## 2024-10-30 18:02:43 ##
+Array
+(
+    [0] => 16374
+    [1] => 42
+    [2] => 45.93
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6722666C76E1F145"}
+    [5] => Array
+        (
+            [transaction_id] => 6722666C76E1F145
+        )
+
+    [6] => 1
+    [7] => de5a51d3918b6e06a3319c7482b43c8d
+)
+
+## 2024-10-30 18:02:43 ##
+ID Shop = 1
+## 2024-10-30 18:02:45 ##
+Order created
+## 2024-10-30 18:02:45 ##
+----> END placeOrder()
+## 2024-10-30 18:02:45 ##
+----> END registerOrder()
+## 2024-10-30 18:02:45 ##
+----> Treatment is unlocked for the id_cart = 16374
+## 2024-10-30 18:02:53 ##
+##########################
+## 2024-10-30 18:02:53 ##
+START Validation Callback
+## 2024-10-30 18:02:53 ##
+##########################
+## 2024-10-30 18:02:53 ##
+----> Treatment is locked for the id_cart = 16374
+## 2024-10-30 18:02:53 ##
+data for validation
+## 2024-10-30 18:02:53 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>c8d5aab5ad8d36a76aaeaedecf20e526</md5content><result><operation>capture</operation><status>ok</status><date>2024-10-30</date><time>17:02:52 UTC+0000</time><origAmount>45.93</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16374</idForMerchant><emailClient>cw.lavainne@sfr.fr</emailClient><idClient>24117330</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16374</_aKey_cart_id>  <_aKey_customer_id>4583</_aKey_customer_id>  <_aKey_secure_key>de5a51d3918b6e06a3319c7482b43c8d</_aKey_secure_key>  <_aKey_token>39ad64a176dee9ff26ba3cdfbb568c25</_aKey_token></merchantDatas><transid>6722666C76E1F145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => c8d5aab5ad8d36a76aaeaedecf20e526
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-10-30
+                    [time] => 17:02:52 UTC+0000
+                    [origAmount] => 45.93
+                    [origCurrency] => EUR
+                    [idForMerchant] => 16374
+                    [emailClient] => cw.lavainne@sfr.fr
+                    [idClient] => 24117330
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 16374
+                            [_aKey_customer_id] => 4583
+                            [_aKey_secure_key] => de5a51d3918b6e06a3319c7482b43c8d
+                            [_aKey_token] => 39ad64a176dee9ff26ba3cdfbb568c25
+                        )
+
+                    [transid] => 6722666C76E1F145
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 16374
+    [3] => 4583
+    [4] => de5a51d3918b6e06a3319c7482b43c8d
+    [5] => 45.93
+)
+
+## 2024-10-30 18:02:53 ##
+----> START registerOrder()
+## 2024-10-30 18:02:53 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-30 18:02:53 ##
+<result><operation>capture</operation><status>ok</status><date>2024-10-30</date><time>17:02:52 UTC+0000</time><origAmount>45.93</origAmount><origCurrency>EUR</origCurrency><idForMerchant>16374</idForMerchant><emailClient>cw.lavainne@sfr.fr</emailClient><idClient>24117330</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>16374</_aKey_cart_id>  <_aKey_customer_id>4583</_aKey_customer_id>  <_aKey_secure_key>de5a51d3918b6e06a3319c7482b43c8d</_aKey_secure_key>  <_aKey_token>39ad64a176dee9ff26ba3cdfbb568c25</_aKey_token></merchantDatas><transid>6722666C76E1F145</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-10-30 18:02:53 ##
+currency : EUR
+## 2024-10-30 18:02:53 ##
+accountID:13248407 / websiteId:417972
+## 2024-10-30 18:02:53 ##
+callback_salt : 
+## 2024-10-30 18:02:53 ##
+md5 : c8d5aab5ad8d36a76aaeaedecf20e526 == md5content : c8d5aab5ad8d36a76aaeaedecf20e526
+## 2024-10-30 18:02:53 ##
+Status = ok
+## 2024-10-30 18:02:53 ##
+$currency = EUR
+## 2024-10-30 18:02:53 ##
+id_order_state = 2
+## 2024-10-30 18:02:53 ##
+----> START placeOrder()
+## 2024-10-30 18:02:53 ##
+Treatment an existing order
+## 2024-10-30 18:02:53 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-10-30 18:02:53 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-10-30
+    [time] => 17:02:52 UTC+0000
+    [origAmount] => 45.93
+    [origCurrency] => EUR
+    [idForMerchant] => 16374
+    [emailClient] => cw.lavainne@sfr.fr
+    [idClient] => 24117330
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 16374
+            [_aKey_customer_id] => 4583
+            [_aKey_secure_key] => de5a51d3918b6e06a3319c7482b43c8d
+            [_aKey_token] => 39ad64a176dee9ff26ba3cdfbb568c25
+        )
+
+    [transid] => 6722666C76E1F145
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-10-30 18:02:54 ##
+----> END placeOrder()
+## 2024-10-30 18:02:54 ##
+----> END registerOrder()
+## 2024-10-30 18:02:54 ##
+----> Treatment is unlocked for the id_cart = 16374

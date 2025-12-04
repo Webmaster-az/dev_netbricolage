@@ -1,0 +1,259 @@
+## 2021-08-27 00:09:38 ##
+##########################
+## 2021-08-27 00:09:38 ##
+START Validation Callback
+## 2021-08-27 00:09:38 ##
+##########################
+## 2021-08-27 00:09:38 ##
+----> Treatment is locked for the id_cart = 234
+## 2021-08-27 00:09:38 ##
+data for validation
+## 2021-08-27 00:09:38 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>241ef995599623e155dbb611352cf644</md5content><result><operation>authorization</operation><status>ok</status><date>2021-08-26</date><time>22:09:36 UTC+0000</time><origAmount>55.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>234</idForMerchant><emailClient>skandar.bouraiou@gmail.com</emailClient><idClient>19245698</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>234</_aKey_cart_id>  <_aKey_customer_id>1479</_aKey_customer_id>  <_aKey_secure_key>93460524898c08e6eef47800cf8fc95e</_aKey_secure_key>  <_aKey_token>daa77802ecccb843ed9cdc2d22a9a8d6</_aKey_token></merchantDatas><transid>61281067DDBE6181</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 241ef995599623e155dbb611352cf644
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2021-08-26
+                    [time] => 22:09:36 UTC+0000
+                    [origAmount] => 55.99
+                    [origCurrency] => EUR
+                    [idForMerchant] => 234
+                    [emailClient] => skandar.bouraiou@gmail.com
+                    [idClient] => 19245698
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 234
+                            [_aKey_customer_id] => 1479
+                            [_aKey_secure_key] => 93460524898c08e6eef47800cf8fc95e
+                            [_aKey_token] => daa77802ecccb843ed9cdc2d22a9a8d6
+                        )
+
+                    [transid] => 61281067DDBE6181
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 234
+    [3] => 1479
+    [4] => 93460524898c08e6eef47800cf8fc95e
+    [5] => 55.99
+)
+
+## 2021-08-27 00:09:38 ##
+----> START registerOrder()
+## 2021-08-27 00:09:38 ##
+accountID:13248407 / websiteId:418801
+## 2021-08-27 00:09:38 ##
+<result><operation>authorization</operation><status>ok</status><date>2021-08-26</date><time>22:09:36 UTC+0000</time><origAmount>55.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>234</idForMerchant><emailClient>skandar.bouraiou@gmail.com</emailClient><idClient>19245698</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>234</_aKey_cart_id>  <_aKey_customer_id>1479</_aKey_customer_id>  <_aKey_secure_key>93460524898c08e6eef47800cf8fc95e</_aKey_secure_key>  <_aKey_token>daa77802ecccb843ed9cdc2d22a9a8d6</_aKey_token></merchantDatas><transid>61281067DDBE6181</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-08-27 00:09:38 ##
+currency : EUR
+## 2021-08-27 00:09:38 ##
+accountID:13248407 / websiteId:418801
+## 2021-08-27 00:09:38 ##
+callback_salt : 
+## 2021-08-27 00:09:38 ##
+md5 : 241ef995599623e155dbb611352cf644 == md5content : 241ef995599623e155dbb611352cf644
+## 2021-08-27 00:09:38 ##
+Status = ok
+## 2021-08-27 00:09:38 ##
+$currency = EUR
+## 2021-08-27 00:09:38 ##
+id_order_state = 42
+## 2021-08-27 00:09:38 ##
+----> START placeOrder()
+## 2021-08-27 00:09:38 ##
+Treatment status = 42
+## 2021-08-27 00:09:38 ##
+Validate order
+## 2021-08-27 00:09:38 ##
+Array
+(
+    [0] => 234
+    [1] => 42
+    [2] => 55.99
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"61281067DDBE6181"}
+    [5] => Array
+        (
+            [transaction_id] => 61281067DDBE6181
+        )
+
+    [6] => 1
+    [7] => 93460524898c08e6eef47800cf8fc95e
+)
+
+## 2021-08-27 00:09:38 ##
+ID Shop = 1
+## 2021-08-27 00:09:46 ##
+Order created
+## 2021-08-27 00:09:46 ##
+----> END placeOrder()
+## 2021-08-27 00:09:46 ##
+----> END registerOrder()
+## 2021-08-27 00:09:46 ##
+----> Treatment is unlocked for the id_cart = 234
+## 2021-08-27 00:09:47 ##
+##########################
+## 2021-08-27 00:09:47 ##
+START Validation Callback
+## 2021-08-27 00:09:47 ##
+##########################
+## 2021-08-27 00:09:47 ##
+----> Treatment is locked for the id_cart = 234
+## 2021-08-27 00:09:47 ##
+data for validation
+## 2021-08-27 00:09:47 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>6f1ec121645718ca0f7c8a3a51a3b5af</md5content><result><operation>capture</operation><status>ok</status><date>2021-08-26</date><time>22:09:43 UTC+0000</time><origAmount>55.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>234</idForMerchant><emailClient>skandar.bouraiou@gmail.com</emailClient><idClient>19245698</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>234</_aKey_cart_id>  <_aKey_customer_id>1479</_aKey_customer_id>  <_aKey_secure_key>93460524898c08e6eef47800cf8fc95e</_aKey_secure_key>  <_aKey_token>daa77802ecccb843ed9cdc2d22a9a8d6</_aKey_token></merchantDatas><transid>61281067DDBE6181</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 6f1ec121645718ca0f7c8a3a51a3b5af
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2021-08-26
+                    [time] => 22:09:43 UTC+0000
+                    [origAmount] => 55.99
+                    [origCurrency] => EUR
+                    [idForMerchant] => 234
+                    [emailClient] => skandar.bouraiou@gmail.com
+                    [idClient] => 19245698
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 234
+                            [_aKey_customer_id] => 1479
+                            [_aKey_secure_key] => 93460524898c08e6eef47800cf8fc95e
+                            [_aKey_token] => daa77802ecccb843ed9cdc2d22a9a8d6
+                        )
+
+                    [transid] => 61281067DDBE6181
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 234
+    [3] => 1479
+    [4] => 93460524898c08e6eef47800cf8fc95e
+    [5] => 55.99
+)
+
+## 2021-08-27 00:09:47 ##
+----> START registerOrder()
+## 2021-08-27 00:09:47 ##
+accountID:13248407 / websiteId:418801
+## 2021-08-27 00:09:47 ##
+<result><operation>capture</operation><status>ok</status><date>2021-08-26</date><time>22:09:43 UTC+0000</time><origAmount>55.99</origAmount><origCurrency>EUR</origCurrency><idForMerchant>234</idForMerchant><emailClient>skandar.bouraiou@gmail.com</emailClient><idClient>19245698</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>234</_aKey_cart_id>  <_aKey_customer_id>1479</_aKey_customer_id>  <_aKey_secure_key>93460524898c08e6eef47800cf8fc95e</_aKey_secure_key>  <_aKey_token>daa77802ecccb843ed9cdc2d22a9a8d6</_aKey_token></merchantDatas><transid>61281067DDBE6181</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2021-08-27 00:09:47 ##
+currency : EUR
+## 2021-08-27 00:09:47 ##
+accountID:13248407 / websiteId:418801
+## 2021-08-27 00:09:47 ##
+callback_salt : 
+## 2021-08-27 00:09:47 ##
+md5 : 6f1ec121645718ca0f7c8a3a51a3b5af == md5content : 6f1ec121645718ca0f7c8a3a51a3b5af
+## 2021-08-27 00:09:47 ##
+Status = ok
+## 2021-08-27 00:09:47 ##
+$currency = EUR
+## 2021-08-27 00:09:47 ##
+id_order_state = 2
+## 2021-08-27 00:09:47 ##
+----> START placeOrder()
+## 2021-08-27 00:09:47 ##
+Treatment an existing order
+## 2021-08-27 00:09:47 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2021-08-27 00:09:47 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2021-08-26
+    [time] => 22:09:43 UTC+0000
+    [origAmount] => 55.99
+    [origCurrency] => EUR
+    [idForMerchant] => 234
+    [emailClient] => skandar.bouraiou@gmail.com
+    [idClient] => 19245698
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 234
+            [_aKey_customer_id] => 1479
+            [_aKey_secure_key] => 93460524898c08e6eef47800cf8fc95e
+            [_aKey_token] => daa77802ecccb843ed9cdc2d22a9a8d6
+        )
+
+    [transid] => 61281067DDBE6181
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2021-08-27 00:09:47 ##
+----> END placeOrder()
+## 2021-08-27 00:09:47 ##
+----> END registerOrder()
+## 2021-08-27 00:09:47 ##
+----> Treatment is unlocked for the id_cart = 234

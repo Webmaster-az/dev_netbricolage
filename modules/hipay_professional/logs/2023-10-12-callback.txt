@@ -1,0 +1,259 @@
+## 2023-10-12 17:44:35 ##
+##########################
+## 2023-10-12 17:44:35 ##
+START Validation Callback
+## 2023-10-12 17:44:35 ##
+##########################
+## 2023-10-12 17:44:35 ##
+----> Treatment is locked for the id_cart = 11333
+## 2023-10-12 17:44:35 ##
+data for validation
+## 2023-10-12 17:44:35 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>474f641f28bbdaf14f5ee71a477badda</md5content><result><operation>authorization</operation><status>ok</status><date>2023-10-12</date><time>15:44:32 UTC+0000</time><origAmount>245.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11333</idForMerchant><emailClient>corantin.blanchet@orange.fr</emailClient><idClient>21951874</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11333</_aKey_cart_id>  <_aKey_customer_id>3029</_aKey_customer_id>  <_aKey_secure_key>67d45b986a71527b21641b77e7067399</_aKey_secure_key>  <_aKey_token>19a1baf933ec3381865c7886ca2f9d74</_aKey_token></merchantDatas><transid>6528141928AF4727</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 474f641f28bbdaf14f5ee71a477badda
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-10-12
+                    [time] => 15:44:32 UTC+0000
+                    [origAmount] => 245.02
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11333
+                    [emailClient] => corantin.blanchet@orange.fr
+                    [idClient] => 21951874
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11333
+                            [_aKey_customer_id] => 3029
+                            [_aKey_secure_key] => 67d45b986a71527b21641b77e7067399
+                            [_aKey_token] => 19a1baf933ec3381865c7886ca2f9d74
+                        )
+
+                    [transid] => 6528141928AF4727
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11333
+    [3] => 3029
+    [4] => 67d45b986a71527b21641b77e7067399
+    [5] => 245.02
+)
+
+## 2023-10-12 17:44:35 ##
+----> START registerOrder()
+## 2023-10-12 17:44:35 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-12 17:44:35 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-10-12</date><time>15:44:32 UTC+0000</time><origAmount>245.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11333</idForMerchant><emailClient>corantin.blanchet@orange.fr</emailClient><idClient>21951874</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11333</_aKey_cart_id>  <_aKey_customer_id>3029</_aKey_customer_id>  <_aKey_secure_key>67d45b986a71527b21641b77e7067399</_aKey_secure_key>  <_aKey_token>19a1baf933ec3381865c7886ca2f9d74</_aKey_token></merchantDatas><transid>6528141928AF4727</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-12 17:44:35 ##
+currency : EUR
+## 2023-10-12 17:44:35 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-12 17:44:35 ##
+callback_salt : 
+## 2023-10-12 17:44:35 ##
+md5 : 474f641f28bbdaf14f5ee71a477badda == md5content : 474f641f28bbdaf14f5ee71a477badda
+## 2023-10-12 17:44:35 ##
+Status = ok
+## 2023-10-12 17:44:35 ##
+$currency = EUR
+## 2023-10-12 17:44:35 ##
+id_order_state = 42
+## 2023-10-12 17:44:35 ##
+----> START placeOrder()
+## 2023-10-12 17:44:35 ##
+Treatment status = 42
+## 2023-10-12 17:44:35 ##
+Validate order
+## 2023-10-12 17:44:35 ##
+Array
+(
+    [0] => 11333
+    [1] => 42
+    [2] => 245.02
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"6528141928AF4727"}
+    [5] => Array
+        (
+            [transaction_id] => 6528141928AF4727
+        )
+
+    [6] => 1
+    [7] => 67d45b986a71527b21641b77e7067399
+)
+
+## 2023-10-12 17:44:35 ##
+ID Shop = 1
+## 2023-10-12 17:44:39 ##
+Order created
+## 2023-10-12 17:44:39 ##
+----> END placeOrder()
+## 2023-10-12 17:44:39 ##
+----> END registerOrder()
+## 2023-10-12 17:44:39 ##
+----> Treatment is unlocked for the id_cart = 11333
+## 2023-10-12 17:44:41 ##
+##########################
+## 2023-10-12 17:44:41 ##
+START Validation Callback
+## 2023-10-12 17:44:41 ##
+##########################
+## 2023-10-12 17:44:41 ##
+----> Treatment is locked for the id_cart = 11333
+## 2023-10-12 17:44:41 ##
+data for validation
+## 2023-10-12 17:44:41 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>0198401bf50facaf57567c42e1237aec</md5content><result><operation>capture</operation><status>ok</status><date>2023-10-12</date><time>15:44:38 UTC+0000</time><origAmount>245.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11333</idForMerchant><emailClient>corantin.blanchet@orange.fr</emailClient><idClient>21951874</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11333</_aKey_cart_id>  <_aKey_customer_id>3029</_aKey_customer_id>  <_aKey_secure_key>67d45b986a71527b21641b77e7067399</_aKey_secure_key>  <_aKey_token>19a1baf933ec3381865c7886ca2f9d74</_aKey_token></merchantDatas><transid>6528141928AF4727</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 0198401bf50facaf57567c42e1237aec
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-10-12
+                    [time] => 15:44:38 UTC+0000
+                    [origAmount] => 245.02
+                    [origCurrency] => EUR
+                    [idForMerchant] => 11333
+                    [emailClient] => corantin.blanchet@orange.fr
+                    [idClient] => 21951874
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 11333
+                            [_aKey_customer_id] => 3029
+                            [_aKey_secure_key] => 67d45b986a71527b21641b77e7067399
+                            [_aKey_token] => 19a1baf933ec3381865c7886ca2f9d74
+                        )
+
+                    [transid] => 6528141928AF4727
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 11333
+    [3] => 3029
+    [4] => 67d45b986a71527b21641b77e7067399
+    [5] => 245.02
+)
+
+## 2023-10-12 17:44:41 ##
+----> START registerOrder()
+## 2023-10-12 17:44:41 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-12 17:44:41 ##
+<result><operation>capture</operation><status>ok</status><date>2023-10-12</date><time>15:44:38 UTC+0000</time><origAmount>245.02</origAmount><origCurrency>EUR</origCurrency><idForMerchant>11333</idForMerchant><emailClient>corantin.blanchet@orange.fr</emailClient><idClient>21951874</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>11333</_aKey_cart_id>  <_aKey_customer_id>3029</_aKey_customer_id>  <_aKey_secure_key>67d45b986a71527b21641b77e7067399</_aKey_secure_key>  <_aKey_token>19a1baf933ec3381865c7886ca2f9d74</_aKey_token></merchantDatas><transid>6528141928AF4727</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-10-12 17:44:41 ##
+currency : EUR
+## 2023-10-12 17:44:41 ##
+accountID:13248407 / websiteId:417972
+## 2023-10-12 17:44:41 ##
+callback_salt : 
+## 2023-10-12 17:44:41 ##
+md5 : 0198401bf50facaf57567c42e1237aec == md5content : 0198401bf50facaf57567c42e1237aec
+## 2023-10-12 17:44:41 ##
+Status = ok
+## 2023-10-12 17:44:41 ##
+$currency = EUR
+## 2023-10-12 17:44:41 ##
+id_order_state = 2
+## 2023-10-12 17:44:41 ##
+----> START placeOrder()
+## 2023-10-12 17:44:41 ##
+Treatment an existing order
+## 2023-10-12 17:44:41 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-10-12 17:44:41 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-10-12
+    [time] => 15:44:38 UTC+0000
+    [origAmount] => 245.02
+    [origCurrency] => EUR
+    [idForMerchant] => 11333
+    [emailClient] => corantin.blanchet@orange.fr
+    [idClient] => 21951874
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 11333
+            [_aKey_customer_id] => 3029
+            [_aKey_secure_key] => 67d45b986a71527b21641b77e7067399
+            [_aKey_token] => 19a1baf933ec3381865c7886ca2f9d74
+        )
+
+    [transid] => 6528141928AF4727
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-10-12 17:44:42 ##
+----> END placeOrder()
+## 2023-10-12 17:44:42 ##
+----> END registerOrder()
+## 2023-10-12 17:44:42 ##
+----> Treatment is unlocked for the id_cart = 11333

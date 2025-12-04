@@ -1,0 +1,396 @@
+## 2022-07-11 11:16:37 ##
+##########################
+## 2022-07-11 11:16:37 ##
+START Validation Callback
+## 2022-07-11 11:16:37 ##
+##########################
+## 2022-07-11 11:16:37 ##
+----> Treatment is locked for the id_cart = 3591
+## 2022-07-11 11:16:37 ##
+data for validation
+## 2022-07-11 11:16:37 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>be56fe5cbaac6b8182e44aecf3f3fac4</md5content><result><operation>authorization</operation><status>ok</status><date>2022-07-11</date><time>09:16:35 UTC+0000</time><origAmount>234.24</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3591</idForMerchant><emailClient>contact@ascec.fr</emailClient><idClient>21221555</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3591</_aKey_cart_id>  <_aKey_customer_id>2241</_aKey_customer_id>  <_aKey_secure_key>570115b9851376bfd35c19bde686f41a</_aKey_secure_key>  <_aKey_token>2b4cdb36e1ff3fbf62d3a91718bdcb85</_aKey_token></merchantDatas><transid>62CBEA34E71E9344</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => be56fe5cbaac6b8182e44aecf3f3fac4
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-07-11
+                    [time] => 09:16:35 UTC+0000
+                    [origAmount] => 234.24
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3591
+                    [emailClient] => contact@ascec.fr
+                    [idClient] => 21221555
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3591
+                            [_aKey_customer_id] => 2241
+                            [_aKey_secure_key] => 570115b9851376bfd35c19bde686f41a
+                            [_aKey_token] => 2b4cdb36e1ff3fbf62d3a91718bdcb85
+                        )
+
+                    [transid] => 62CBEA34E71E9344
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3591
+    [3] => 2241
+    [4] => 570115b9851376bfd35c19bde686f41a
+    [5] => 234.24
+)
+
+## 2022-07-11 11:16:37 ##
+----> START registerOrder()
+## 2022-07-11 11:16:37 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-11 11:16:37 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-07-11</date><time>09:16:35 UTC+0000</time><origAmount>234.24</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3591</idForMerchant><emailClient>contact@ascec.fr</emailClient><idClient>21221555</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3591</_aKey_cart_id>  <_aKey_customer_id>2241</_aKey_customer_id>  <_aKey_secure_key>570115b9851376bfd35c19bde686f41a</_aKey_secure_key>  <_aKey_token>2b4cdb36e1ff3fbf62d3a91718bdcb85</_aKey_token></merchantDatas><transid>62CBEA34E71E9344</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-07-11 11:16:37 ##
+currency : EUR
+## 2022-07-11 11:16:37 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-11 11:16:37 ##
+callback_salt : 
+## 2022-07-11 11:16:37 ##
+md5 : be56fe5cbaac6b8182e44aecf3f3fac4 == md5content : be56fe5cbaac6b8182e44aecf3f3fac4
+## 2022-07-11 11:16:37 ##
+Status = ok
+## 2022-07-11 11:16:37 ##
+$currency = EUR
+## 2022-07-11 11:16:37 ##
+id_order_state = 42
+## 2022-07-11 11:16:37 ##
+----> START placeOrder()
+## 2022-07-11 11:16:37 ##
+Treatment status = 42
+## 2022-07-11 11:16:37 ##
+Validate order
+## 2022-07-11 11:16:37 ##
+Array
+(
+    [0] => 3591
+    [1] => 42
+    [2] => 234.24
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"62CBEA34E71E9344"}
+    [5] => Array
+        (
+            [transaction_id] => 62CBEA34E71E9344
+        )
+
+    [6] => 1
+    [7] => 570115b9851376bfd35c19bde686f41a
+)
+
+## 2022-07-11 11:16:37 ##
+ID Shop = 1
+## 2022-07-11 11:16:39 ##
+Order created
+## 2022-07-11 11:16:39 ##
+----> END placeOrder()
+## 2022-07-11 11:16:39 ##
+----> END registerOrder()
+## 2022-07-11 11:16:39 ##
+----> Treatment is unlocked for the id_cart = 3591
+## 2022-07-11 11:16:46 ##
+##########################
+## 2022-07-11 11:16:46 ##
+START Validation Callback
+## 2022-07-11 11:16:46 ##
+##########################
+## 2022-07-11 11:16:46 ##
+----> Treatment is locked for the id_cart = 3591
+## 2022-07-11 11:16:46 ##
+data for validation
+## 2022-07-11 11:16:46 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>f76a9f6a07a8b084e8ec6b4e7e293b57</md5content><result><operation>capture</operation><status>ok</status><date>2022-07-11</date><time>09:16:42 UTC+0000</time><origAmount>234.24</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3591</idForMerchant><emailClient>contact@ascec.fr</emailClient><idClient>21221555</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3591</_aKey_cart_id>  <_aKey_customer_id>2241</_aKey_customer_id>  <_aKey_secure_key>570115b9851376bfd35c19bde686f41a</_aKey_secure_key>  <_aKey_token>2b4cdb36e1ff3fbf62d3a91718bdcb85</_aKey_token></merchantDatas><transid>62CBEA34E71E9344</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => f76a9f6a07a8b084e8ec6b4e7e293b57
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-07-11
+                    [time] => 09:16:42 UTC+0000
+                    [origAmount] => 234.24
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3591
+                    [emailClient] => contact@ascec.fr
+                    [idClient] => 21221555
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3591
+                            [_aKey_customer_id] => 2241
+                            [_aKey_secure_key] => 570115b9851376bfd35c19bde686f41a
+                            [_aKey_token] => 2b4cdb36e1ff3fbf62d3a91718bdcb85
+                        )
+
+                    [transid] => 62CBEA34E71E9344
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3591
+    [3] => 2241
+    [4] => 570115b9851376bfd35c19bde686f41a
+    [5] => 234.24
+)
+
+## 2022-07-11 11:16:46 ##
+----> START registerOrder()
+## 2022-07-11 11:16:46 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-11 11:16:46 ##
+<result><operation>capture</operation><status>ok</status><date>2022-07-11</date><time>09:16:42 UTC+0000</time><origAmount>234.24</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3591</idForMerchant><emailClient>contact@ascec.fr</emailClient><idClient>21221555</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3591</_aKey_cart_id>  <_aKey_customer_id>2241</_aKey_customer_id>  <_aKey_secure_key>570115b9851376bfd35c19bde686f41a</_aKey_secure_key>  <_aKey_token>2b4cdb36e1ff3fbf62d3a91718bdcb85</_aKey_token></merchantDatas><transid>62CBEA34E71E9344</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-07-11 11:16:46 ##
+currency : EUR
+## 2022-07-11 11:16:46 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-11 11:16:46 ##
+callback_salt : 
+## 2022-07-11 11:16:46 ##
+md5 : f76a9f6a07a8b084e8ec6b4e7e293b57 == md5content : f76a9f6a07a8b084e8ec6b4e7e293b57
+## 2022-07-11 11:16:46 ##
+Status = ok
+## 2022-07-11 11:16:46 ##
+$currency = EUR
+## 2022-07-11 11:16:46 ##
+id_order_state = 2
+## 2022-07-11 11:16:46 ##
+----> START placeOrder()
+## 2022-07-11 11:16:46 ##
+Treatment an existing order
+## 2022-07-11 11:16:46 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-07-11 11:16:46 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-07-11
+    [time] => 09:16:42 UTC+0000
+    [origAmount] => 234.24
+    [origCurrency] => EUR
+    [idForMerchant] => 3591
+    [emailClient] => contact@ascec.fr
+    [idClient] => 21221555
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 3591
+            [_aKey_customer_id] => 2241
+            [_aKey_secure_key] => 570115b9851376bfd35c19bde686f41a
+            [_aKey_token] => 2b4cdb36e1ff3fbf62d3a91718bdcb85
+        )
+
+    [transid] => 62CBEA34E71E9344
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-07-11 11:16:46 ##
+----> END placeOrder()
+## 2022-07-11 11:16:46 ##
+----> END registerOrder()
+## 2022-07-11 11:16:46 ##
+----> Treatment is unlocked for the id_cart = 3591
+## 2022-07-11 15:52:45 ##
+##########################
+## 2022-07-11 15:52:45 ##
+START Validation Callback
+## 2022-07-11 15:52:45 ##
+##########################
+## 2022-07-11 15:52:45 ##
+----> Treatment is locked for the id_cart = 3596
+## 2022-07-11 15:52:45 ##
+data for validation
+## 2022-07-11 15:52:45 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>13d68e864b8e937c10d1a68bc80237ac</md5content><result><operation>authorization</operation><status>nok</status><date>2022-07-11</date><time>13:52:42 UTC+0000</time><origAmount>162.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3596</idForMerchant><emailClient>naturedecor@orange.fr</emailClient><idClient>21222694</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3596</_aKey_cart_id>  <_aKey_customer_id>2242</_aKey_customer_id>  <_aKey_secure_key>eef580f6299fae2881861c7b74087be0</_aKey_secure_key>  <_aKey_token>9ca6094d4c40fa45a550176cff3734e8</_aKey_token></merchantDatas><transid>62CC29E02EBC5294</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 13d68e864b8e937c10d1a68bc80237ac
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2022-07-11
+                    [time] => 13:52:42 UTC+0000
+                    [origAmount] => 162.26
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3596
+                    [emailClient] => naturedecor@orange.fr
+                    [idClient] => 21222694
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3596
+                            [_aKey_customer_id] => 2242
+                            [_aKey_secure_key] => eef580f6299fae2881861c7b74087be0
+                            [_aKey_token] => 9ca6094d4c40fa45a550176cff3734e8
+                        )
+
+                    [transid] => 62CC29E02EBC5294
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3596
+    [3] => 2242
+    [4] => eef580f6299fae2881861c7b74087be0
+    [5] => 162.26
+)
+
+## 2022-07-11 15:52:45 ##
+----> START registerOrder()
+## 2022-07-11 15:52:45 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-11 15:52:45 ##
+<result><operation>authorization</operation><status>nok</status><date>2022-07-11</date><time>13:52:42 UTC+0000</time><origAmount>162.26</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3596</idForMerchant><emailClient>naturedecor@orange.fr</emailClient><idClient>21222694</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3596</_aKey_cart_id>  <_aKey_customer_id>2242</_aKey_customer_id>  <_aKey_secure_key>eef580f6299fae2881861c7b74087be0</_aKey_secure_key>  <_aKey_token>9ca6094d4c40fa45a550176cff3734e8</_aKey_token></merchantDatas><transid>62CC29E02EBC5294</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-07-11 15:52:45 ##
+currency : EUR
+## 2022-07-11 15:52:45 ##
+accountID:13248407 / websiteId:418801
+## 2022-07-11 15:52:45 ##
+callback_salt : 
+## 2022-07-11 15:52:45 ##
+md5 : 13d68e864b8e937c10d1a68bc80237ac == md5content : 13d68e864b8e937c10d1a68bc80237ac
+## 2022-07-11 15:52:45 ##
+Status = nok
+## 2022-07-11 15:52:45 ##
+$currency = EUR
+## 2022-07-11 15:52:45 ##
+id_order_state = 8
+## 2022-07-11 15:52:45 ##
+----> START placeOrder()
+## 2022-07-11 15:52:45 ##
+Treatment status = ERROR
+## 2022-07-11 15:52:45 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2022-07-11
+    [time] =&gt; 13:52:42 UTC+0000
+    [origAmount] =&gt; 162.26
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 3596
+    [emailClient] =&gt; naturedecor@orange.fr
+    [idClient] =&gt; 21222694
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 3596
+            [_aKey_customer_id] =&gt; 2242
+            [_aKey_secure_key] =&gt; eef580f6299fae2881861c7b74087be0
+            [_aKey_token] =&gt; 9ca6094d4c40fa45a550176cff3734e8
+        )
+
+    [transid] =&gt; 62CC29E02EBC5294
+    [is3ds] =&gt; Yes
+    [paymentMethod] =&gt; VISA
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2022-07-11 15:52:45 ##
+----> END placeOrder()
+## 2022-07-11 15:52:45 ##
+----> END registerOrder()
+## 2022-07-11 15:52:45 ##
+----> Treatment is unlocked for the id_cart = 3596

@@ -1,0 +1,518 @@
+## 2025-06-27 07:36:18 ##
+##########################
+## 2025-06-27 07:36:18 ##
+START Validation Callback
+## 2025-06-27 07:36:18 ##
+##########################
+## 2025-06-27 07:36:18 ##
+----> Treatment is locked for the id_cart = 18581
+## 2025-06-27 07:36:18 ##
+data for validation
+## 2025-06-27 07:36:18 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>fe457939bc7113e475c61e2ec4e6568b</md5content><result><operation>authorization</operation><status>ok</status><date>2025-06-27</date><time>05:36:17 UTC+0000</time><origAmount>88.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18581</idForMerchant><emailClient>dominique.daron@wanadoo.fr</emailClient><idClient>24736347</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18581</_aKey_cart_id>  <_aKey_customer_id>4971</_aKey_customer_id>  <_aKey_secure_key>5b507d871883d6c8420e512b4bc6f142</_aKey_secure_key>  <_aKey_token>609fa999e373f1e9b0fb58ba6bda3452</_aKey_token></merchantDatas><transid>685E2D873E14A241</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => fe457939bc7113e475c61e2ec4e6568b
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-06-27
+                    [time] => 05:36:17 UTC+0000
+                    [origAmount] => 88.56
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18581
+                    [emailClient] => dominique.daron@wanadoo.fr
+                    [idClient] => 24736347
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18581
+                            [_aKey_customer_id] => 4971
+                            [_aKey_secure_key] => 5b507d871883d6c8420e512b4bc6f142
+                            [_aKey_token] => 609fa999e373f1e9b0fb58ba6bda3452
+                        )
+
+                    [transid] => 685E2D873E14A241
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18581
+    [3] => 4971
+    [4] => 5b507d871883d6c8420e512b4bc6f142
+    [5] => 88.56
+)
+
+## 2025-06-27 07:36:18 ##
+----> START registerOrder()
+## 2025-06-27 07:36:18 ##
+accountID:13248407 / websiteId:417972
+## 2025-06-27 07:36:18 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-06-27</date><time>05:36:17 UTC+0000</time><origAmount>88.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18581</idForMerchant><emailClient>dominique.daron@wanadoo.fr</emailClient><idClient>24736347</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18581</_aKey_cart_id>  <_aKey_customer_id>4971</_aKey_customer_id>  <_aKey_secure_key>5b507d871883d6c8420e512b4bc6f142</_aKey_secure_key>  <_aKey_token>609fa999e373f1e9b0fb58ba6bda3452</_aKey_token></merchantDatas><transid>685E2D873E14A241</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-06-27 07:36:18 ##
+currency : EUR
+## 2025-06-27 07:36:18 ##
+accountID:13248407 / websiteId:417972
+## 2025-06-27 07:36:18 ##
+callback_salt : 
+## 2025-06-27 07:36:18 ##
+md5 : fe457939bc7113e475c61e2ec4e6568b == md5content : fe457939bc7113e475c61e2ec4e6568b
+## 2025-06-27 07:36:18 ##
+Status = ok
+## 2025-06-27 07:36:18 ##
+$currency = EUR
+## 2025-06-27 07:36:18 ##
+id_order_state = 42
+## 2025-06-27 07:36:18 ##
+----> START placeOrder()
+## 2025-06-27 07:36:18 ##
+Treatment status = 42
+## 2025-06-27 07:36:18 ##
+Validate order
+## 2025-06-27 07:36:18 ##
+Array
+(
+    [0] => 18581
+    [1] => 42
+    [2] => 88.56
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"VISA","Transaction ID":"685E2D873E14A241"}
+    [5] => Array
+        (
+            [transaction_id] => 685E2D873E14A241
+        )
+
+    [6] => 1
+    [7] => 5b507d871883d6c8420e512b4bc6f142
+)
+
+## 2025-06-27 07:36:18 ##
+ID Shop = 1
+## 2025-06-27 07:36:20 ##
+Order created
+## 2025-06-27 07:36:20 ##
+----> END placeOrder()
+## 2025-06-27 07:36:20 ##
+----> END registerOrder()
+## 2025-06-27 07:36:20 ##
+----> Treatment is unlocked for the id_cart = 18581
+## 2025-06-27 07:36:28 ##
+##########################
+## 2025-06-27 07:36:28 ##
+START Validation Callback
+## 2025-06-27 07:36:28 ##
+##########################
+## 2025-06-27 07:36:28 ##
+----> Treatment is locked for the id_cart = 18581
+## 2025-06-27 07:36:28 ##
+data for validation
+## 2025-06-27 07:36:28 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8acfc895aa71592405f564eb5d411535</md5content><result><operation>capture</operation><status>ok</status><date>2025-06-27</date><time>05:36:24 UTC+0000</time><origAmount>88.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18581</idForMerchant><emailClient>dominique.daron@wanadoo.fr</emailClient><idClient>24736347</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18581</_aKey_cart_id>  <_aKey_customer_id>4971</_aKey_customer_id>  <_aKey_secure_key>5b507d871883d6c8420e512b4bc6f142</_aKey_secure_key>  <_aKey_token>609fa999e373f1e9b0fb58ba6bda3452</_aKey_token></merchantDatas><transid>685E2D873E14A241</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8acfc895aa71592405f564eb5d411535
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-06-27
+                    [time] => 05:36:24 UTC+0000
+                    [origAmount] => 88.56
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18581
+                    [emailClient] => dominique.daron@wanadoo.fr
+                    [idClient] => 24736347
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18581
+                            [_aKey_customer_id] => 4971
+                            [_aKey_secure_key] => 5b507d871883d6c8420e512b4bc6f142
+                            [_aKey_token] => 609fa999e373f1e9b0fb58ba6bda3452
+                        )
+
+                    [transid] => 685E2D873E14A241
+                    [is3ds] => Yes
+                    [paymentMethod] => VISA
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18581
+    [3] => 4971
+    [4] => 5b507d871883d6c8420e512b4bc6f142
+    [5] => 88.56
+)
+
+## 2025-06-27 07:36:28 ##
+----> START registerOrder()
+## 2025-06-27 07:36:28 ##
+accountID:13248407 / websiteId:417972
+## 2025-06-27 07:36:28 ##
+<result><operation>capture</operation><status>ok</status><date>2025-06-27</date><time>05:36:24 UTC+0000</time><origAmount>88.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18581</idForMerchant><emailClient>dominique.daron@wanadoo.fr</emailClient><idClient>24736347</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18581</_aKey_cart_id>  <_aKey_customer_id>4971</_aKey_customer_id>  <_aKey_secure_key>5b507d871883d6c8420e512b4bc6f142</_aKey_secure_key>  <_aKey_token>609fa999e373f1e9b0fb58ba6bda3452</_aKey_token></merchantDatas><transid>685E2D873E14A241</transid><is3ds>Yes</is3ds><paymentMethod>VISA</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-06-27 07:36:28 ##
+currency : EUR
+## 2025-06-27 07:36:28 ##
+accountID:13248407 / websiteId:417972
+## 2025-06-27 07:36:28 ##
+callback_salt : 
+## 2025-06-27 07:36:28 ##
+md5 : 8acfc895aa71592405f564eb5d411535 == md5content : 8acfc895aa71592405f564eb5d411535
+## 2025-06-27 07:36:28 ##
+Status = ok
+## 2025-06-27 07:36:28 ##
+$currency = EUR
+## 2025-06-27 07:36:28 ##
+id_order_state = 2
+## 2025-06-27 07:36:28 ##
+----> START placeOrder()
+## 2025-06-27 07:36:28 ##
+Treatment an existing order
+## 2025-06-27 07:36:28 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-06-27 07:36:28 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-06-27
+    [time] => 05:36:24 UTC+0000
+    [origAmount] => 88.56
+    [origCurrency] => EUR
+    [idForMerchant] => 18581
+    [emailClient] => dominique.daron@wanadoo.fr
+    [idClient] => 24736347
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 18581
+            [_aKey_customer_id] => 4971
+            [_aKey_secure_key] => 5b507d871883d6c8420e512b4bc6f142
+            [_aKey_token] => 609fa999e373f1e9b0fb58ba6bda3452
+        )
+
+    [transid] => 685E2D873E14A241
+    [is3ds] => Yes
+    [paymentMethod] => VISA
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-06-27 07:36:29 ##
+----> END placeOrder()
+## 2025-06-27 07:36:29 ##
+----> END registerOrder()
+## 2025-06-27 07:36:29 ##
+----> Treatment is unlocked for the id_cart = 18581
+## 2025-06-27 11:38:17 ##
+##########################
+## 2025-06-27 11:38:17 ##
+START Validation Callback
+## 2025-06-27 11:38:17 ##
+##########################
+## 2025-06-27 11:38:17 ##
+----> Treatment is locked for the id_cart = 18584
+## 2025-06-27 11:38:17 ##
+data for validation
+## 2025-06-27 11:38:17 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>9ae0a38d6d3b9991276e28db0310b00e</md5content><result><operation>authorization</operation><status>ok</status><date>2025-06-27</date><time>09:38:16 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18584</idForMerchant><emailClient>souchon.christian@gmail.com</emailClient><idClient>24736705</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18584</_aKey_cart_id>  <_aKey_customer_id>4973</_aKey_customer_id>  <_aKey_secure_key>b460bd0eca7395be4103f73d89e7135e</_aKey_secure_key>  <_aKey_token>d555a2533a6b17c8ebde8e7ea053de9a</_aKey_token></merchantDatas><transid>685E6656E5576270</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 9ae0a38d6d3b9991276e28db0310b00e
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2025-06-27
+                    [time] => 09:38:16 UTC+0000
+                    [origAmount] => 51.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18584
+                    [emailClient] => souchon.christian@gmail.com
+                    [idClient] => 24736705
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18584
+                            [_aKey_customer_id] => 4973
+                            [_aKey_secure_key] => b460bd0eca7395be4103f73d89e7135e
+                            [_aKey_token] => d555a2533a6b17c8ebde8e7ea053de9a
+                        )
+
+                    [transid] => 685E6656E5576270
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18584
+    [3] => 4973
+    [4] => b460bd0eca7395be4103f73d89e7135e
+    [5] => 51.6
+)
+
+## 2025-06-27 11:38:17 ##
+----> START registerOrder()
+## 2025-06-27 11:38:17 ##
+accountID:13248407 / websiteId:417972
+## 2025-06-27 11:38:17 ##
+<result><operation>authorization</operation><status>ok</status><date>2025-06-27</date><time>09:38:16 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18584</idForMerchant><emailClient>souchon.christian@gmail.com</emailClient><idClient>24736705</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18584</_aKey_cart_id>  <_aKey_customer_id>4973</_aKey_customer_id>  <_aKey_secure_key>b460bd0eca7395be4103f73d89e7135e</_aKey_secure_key>  <_aKey_token>d555a2533a6b17c8ebde8e7ea053de9a</_aKey_token></merchantDatas><transid>685E6656E5576270</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-06-27 11:38:17 ##
+currency : EUR
+## 2025-06-27 11:38:17 ##
+accountID:13248407 / websiteId:417972
+## 2025-06-27 11:38:17 ##
+callback_salt : 
+## 2025-06-27 11:38:17 ##
+md5 : 9ae0a38d6d3b9991276e28db0310b00e == md5content : 9ae0a38d6d3b9991276e28db0310b00e
+## 2025-06-27 11:38:17 ##
+Status = ok
+## 2025-06-27 11:38:17 ##
+$currency = EUR
+## 2025-06-27 11:38:17 ##
+id_order_state = 42
+## 2025-06-27 11:38:17 ##
+----> START placeOrder()
+## 2025-06-27 11:38:17 ##
+Treatment status = 42
+## 2025-06-27 11:38:17 ##
+Validate order
+## 2025-06-27 11:38:17 ##
+Array
+(
+    [0] => 18584
+    [1] => 42
+    [2] => 51.6
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"685E6656E5576270"}
+    [5] => Array
+        (
+            [transaction_id] => 685E6656E5576270
+        )
+
+    [6] => 1
+    [7] => b460bd0eca7395be4103f73d89e7135e
+)
+
+## 2025-06-27 11:38:17 ##
+ID Shop = 1
+## 2025-06-27 11:38:19 ##
+Order created
+## 2025-06-27 11:38:19 ##
+----> END placeOrder()
+## 2025-06-27 11:38:19 ##
+----> END registerOrder()
+## 2025-06-27 11:38:19 ##
+----> Treatment is unlocked for the id_cart = 18584
+## 2025-06-27 11:38:23 ##
+##########################
+## 2025-06-27 11:38:23 ##
+START Validation Callback
+## 2025-06-27 11:38:23 ##
+##########################
+## 2025-06-27 11:38:23 ##
+----> Treatment is locked for the id_cart = 18584
+## 2025-06-27 11:38:23 ##
+data for validation
+## 2025-06-27 11:38:23 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8d930a2432dffaa9af76a3e7a7c0537d</md5content><result><operation>capture</operation><status>ok</status><date>2025-06-27</date><time>09:38:23 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18584</idForMerchant><emailClient>souchon.christian@gmail.com</emailClient><idClient>24736705</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18584</_aKey_cart_id>  <_aKey_customer_id>4973</_aKey_customer_id>  <_aKey_secure_key>b460bd0eca7395be4103f73d89e7135e</_aKey_secure_key>  <_aKey_token>d555a2533a6b17c8ebde8e7ea053de9a</_aKey_token></merchantDatas><transid>685E6656E5576270</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8d930a2432dffaa9af76a3e7a7c0537d
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2025-06-27
+                    [time] => 09:38:23 UTC+0000
+                    [origAmount] => 51.60
+                    [origCurrency] => EUR
+                    [idForMerchant] => 18584
+                    [emailClient] => souchon.christian@gmail.com
+                    [idClient] => 24736705
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 18584
+                            [_aKey_customer_id] => 4973
+                            [_aKey_secure_key] => b460bd0eca7395be4103f73d89e7135e
+                            [_aKey_token] => d555a2533a6b17c8ebde8e7ea053de9a
+                        )
+
+                    [transid] => 685E6656E5576270
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 18584
+    [3] => 4973
+    [4] => b460bd0eca7395be4103f73d89e7135e
+    [5] => 51.6
+)
+
+## 2025-06-27 11:38:23 ##
+----> START registerOrder()
+## 2025-06-27 11:38:23 ##
+accountID:13248407 / websiteId:417972
+## 2025-06-27 11:38:23 ##
+<result><operation>capture</operation><status>ok</status><date>2025-06-27</date><time>09:38:23 UTC+0000</time><origAmount>51.60</origAmount><origCurrency>EUR</origCurrency><idForMerchant>18584</idForMerchant><emailClient>souchon.christian@gmail.com</emailClient><idClient>24736705</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>18584</_aKey_cart_id>  <_aKey_customer_id>4973</_aKey_customer_id>  <_aKey_secure_key>b460bd0eca7395be4103f73d89e7135e</_aKey_secure_key>  <_aKey_token>d555a2533a6b17c8ebde8e7ea053de9a</_aKey_token></merchantDatas><transid>685E6656E5576270</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2025-06-27 11:38:23 ##
+currency : EUR
+## 2025-06-27 11:38:23 ##
+accountID:13248407 / websiteId:417972
+## 2025-06-27 11:38:23 ##
+callback_salt : 
+## 2025-06-27 11:38:23 ##
+md5 : 8d930a2432dffaa9af76a3e7a7c0537d == md5content : 8d930a2432dffaa9af76a3e7a7c0537d
+## 2025-06-27 11:38:23 ##
+Status = ok
+## 2025-06-27 11:38:23 ##
+$currency = EUR
+## 2025-06-27 11:38:23 ##
+id_order_state = 2
+## 2025-06-27 11:38:23 ##
+----> START placeOrder()
+## 2025-06-27 11:38:23 ##
+Treatment an existing order
+## 2025-06-27 11:38:23 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2025-06-27 11:38:23 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2025-06-27
+    [time] => 09:38:23 UTC+0000
+    [origAmount] => 51.60
+    [origCurrency] => EUR
+    [idForMerchant] => 18584
+    [emailClient] => souchon.christian@gmail.com
+    [idClient] => 24736705
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 18584
+            [_aKey_customer_id] => 4973
+            [_aKey_secure_key] => b460bd0eca7395be4103f73d89e7135e
+            [_aKey_token] => d555a2533a6b17c8ebde8e7ea053de9a
+        )
+
+    [transid] => 685E6656E5576270
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2025-06-27 11:38:25 ##
+----> END placeOrder()
+## 2025-06-27 11:38:25 ##
+----> END registerOrder()
+## 2025-06-27 11:38:25 ##
+----> Treatment is unlocked for the id_cart = 18584

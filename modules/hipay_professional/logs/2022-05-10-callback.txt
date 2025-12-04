@@ -1,0 +1,259 @@
+## 2022-05-10 12:11:55 ##
+##########################
+## 2022-05-10 12:11:55 ##
+START Validation Callback
+## 2022-05-10 12:11:55 ##
+##########################
+## 2022-05-10 12:11:55 ##
+----> Treatment is locked for the id_cart = 2820
+## 2022-05-10 12:11:55 ##
+data for validation
+## 2022-05-10 12:11:55 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>f1d6060f8b872a56b1d8fb992f129387</md5content><result><operation>authorization</operation><status>ok</status><date>2022-05-10</date><time>10:11:52 UTC+0000</time><origAmount>364.80</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2820</idForMerchant><emailClient>id.eau@sfr.fr</emailClient><idClient>20840417</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2820</_aKey_cart_id>  <_aKey_customer_id>2045</_aKey_customer_id>  <_aKey_secure_key>aa619a5b11d1a4ce38cd5ee116b72fa1</_aKey_secure_key>  <_aKey_token>17af2782965a6e1662d0cee1a21d745d</_aKey_token></merchantDatas><transid>627A3A17C98BB795</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => f1d6060f8b872a56b1d8fb992f129387
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-05-10
+                    [time] => 10:11:52 UTC+0000
+                    [origAmount] => 364.80
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2820
+                    [emailClient] => id.eau@sfr.fr
+                    [idClient] => 20840417
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2820
+                            [_aKey_customer_id] => 2045
+                            [_aKey_secure_key] => aa619a5b11d1a4ce38cd5ee116b72fa1
+                            [_aKey_token] => 17af2782965a6e1662d0cee1a21d745d
+                        )
+
+                    [transid] => 627A3A17C98BB795
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2820
+    [3] => 2045
+    [4] => aa619a5b11d1a4ce38cd5ee116b72fa1
+    [5] => 364.8
+)
+
+## 2022-05-10 12:11:55 ##
+----> START registerOrder()
+## 2022-05-10 12:11:55 ##
+accountID:13248407 / websiteId:418801
+## 2022-05-10 12:11:55 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-05-10</date><time>10:11:52 UTC+0000</time><origAmount>364.80</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2820</idForMerchant><emailClient>id.eau@sfr.fr</emailClient><idClient>20840417</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2820</_aKey_cart_id>  <_aKey_customer_id>2045</_aKey_customer_id>  <_aKey_secure_key>aa619a5b11d1a4ce38cd5ee116b72fa1</_aKey_secure_key>  <_aKey_token>17af2782965a6e1662d0cee1a21d745d</_aKey_token></merchantDatas><transid>627A3A17C98BB795</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-05-10 12:11:55 ##
+currency : EUR
+## 2022-05-10 12:11:55 ##
+accountID:13248407 / websiteId:418801
+## 2022-05-10 12:11:55 ##
+callback_salt : 
+## 2022-05-10 12:11:55 ##
+md5 : f1d6060f8b872a56b1d8fb992f129387 == md5content : f1d6060f8b872a56b1d8fb992f129387
+## 2022-05-10 12:11:55 ##
+Status = ok
+## 2022-05-10 12:11:55 ##
+$currency = EUR
+## 2022-05-10 12:11:55 ##
+id_order_state = 42
+## 2022-05-10 12:11:55 ##
+----> START placeOrder()
+## 2022-05-10 12:11:55 ##
+Treatment status = 42
+## 2022-05-10 12:11:55 ##
+Validate order
+## 2022-05-10 12:11:55 ##
+Array
+(
+    [0] => 2820
+    [1] => 42
+    [2] => 364.8
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"627A3A17C98BB795"}
+    [5] => Array
+        (
+            [transaction_id] => 627A3A17C98BB795
+        )
+
+    [6] => 1
+    [7] => aa619a5b11d1a4ce38cd5ee116b72fa1
+)
+
+## 2022-05-10 12:11:55 ##
+ID Shop = 1
+## 2022-05-10 12:11:58 ##
+Order created
+## 2022-05-10 12:11:58 ##
+----> END placeOrder()
+## 2022-05-10 12:11:58 ##
+----> END registerOrder()
+## 2022-05-10 12:11:58 ##
+----> Treatment is unlocked for the id_cart = 2820
+## 2022-05-10 12:12:02 ##
+##########################
+## 2022-05-10 12:12:02 ##
+START Validation Callback
+## 2022-05-10 12:12:02 ##
+##########################
+## 2022-05-10 12:12:02 ##
+----> Treatment is locked for the id_cart = 2820
+## 2022-05-10 12:12:02 ##
+data for validation
+## 2022-05-10 12:12:02 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>581153ae0b3c24ae2c962856ee38a80f</md5content><result><operation>capture</operation><status>ok</status><date>2022-05-10</date><time>10:11:59 UTC+0000</time><origAmount>364.80</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2820</idForMerchant><emailClient>id.eau@sfr.fr</emailClient><idClient>20840417</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2820</_aKey_cart_id>  <_aKey_customer_id>2045</_aKey_customer_id>  <_aKey_secure_key>aa619a5b11d1a4ce38cd5ee116b72fa1</_aKey_secure_key>  <_aKey_token>17af2782965a6e1662d0cee1a21d745d</_aKey_token></merchantDatas><transid>627A3A17C98BB795</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 581153ae0b3c24ae2c962856ee38a80f
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-05-10
+                    [time] => 10:11:59 UTC+0000
+                    [origAmount] => 364.80
+                    [origCurrency] => EUR
+                    [idForMerchant] => 2820
+                    [emailClient] => id.eau@sfr.fr
+                    [idClient] => 20840417
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 2820
+                            [_aKey_customer_id] => 2045
+                            [_aKey_secure_key] => aa619a5b11d1a4ce38cd5ee116b72fa1
+                            [_aKey_token] => 17af2782965a6e1662d0cee1a21d745d
+                        )
+
+                    [transid] => 627A3A17C98BB795
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 2820
+    [3] => 2045
+    [4] => aa619a5b11d1a4ce38cd5ee116b72fa1
+    [5] => 364.8
+)
+
+## 2022-05-10 12:12:02 ##
+----> START registerOrder()
+## 2022-05-10 12:12:02 ##
+accountID:13248407 / websiteId:418801
+## 2022-05-10 12:12:02 ##
+<result><operation>capture</operation><status>ok</status><date>2022-05-10</date><time>10:11:59 UTC+0000</time><origAmount>364.80</origAmount><origCurrency>EUR</origCurrency><idForMerchant>2820</idForMerchant><emailClient>id.eau@sfr.fr</emailClient><idClient>20840417</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>2820</_aKey_cart_id>  <_aKey_customer_id>2045</_aKey_customer_id>  <_aKey_secure_key>aa619a5b11d1a4ce38cd5ee116b72fa1</_aKey_secure_key>  <_aKey_token>17af2782965a6e1662d0cee1a21d745d</_aKey_token></merchantDatas><transid>627A3A17C98BB795</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-05-10 12:12:02 ##
+currency : EUR
+## 2022-05-10 12:12:02 ##
+accountID:13248407 / websiteId:418801
+## 2022-05-10 12:12:02 ##
+callback_salt : 
+## 2022-05-10 12:12:02 ##
+md5 : 581153ae0b3c24ae2c962856ee38a80f == md5content : 581153ae0b3c24ae2c962856ee38a80f
+## 2022-05-10 12:12:02 ##
+Status = ok
+## 2022-05-10 12:12:02 ##
+$currency = EUR
+## 2022-05-10 12:12:02 ##
+id_order_state = 2
+## 2022-05-10 12:12:02 ##
+----> START placeOrder()
+## 2022-05-10 12:12:02 ##
+Treatment an existing order
+## 2022-05-10 12:12:02 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-05-10 12:12:02 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-05-10
+    [time] => 10:11:59 UTC+0000
+    [origAmount] => 364.80
+    [origCurrency] => EUR
+    [idForMerchant] => 2820
+    [emailClient] => id.eau@sfr.fr
+    [idClient] => 20840417
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 2820
+            [_aKey_customer_id] => 2045
+            [_aKey_secure_key] => aa619a5b11d1a4ce38cd5ee116b72fa1
+            [_aKey_token] => 17af2782965a6e1662d0cee1a21d745d
+        )
+
+    [transid] => 627A3A17C98BB795
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-05-10 12:12:03 ##
+----> END placeOrder()
+## 2022-05-10 12:12:03 ##
+----> END registerOrder()
+## 2022-05-10 12:12:03 ##
+----> Treatment is unlocked for the id_cart = 2820

@@ -1,0 +1,259 @@
+## 2022-06-21 08:56:38 ##
+##########################
+## 2022-06-21 08:56:38 ##
+START Validation Callback
+## 2022-06-21 08:56:38 ##
+##########################
+## 2022-06-21 08:56:38 ##
+----> Treatment is locked for the id_cart = 3334
+## 2022-06-21 08:56:38 ##
+data for validation
+## 2022-06-21 08:56:38 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>baab7266e0f62ff9359107b0e2f503e2</md5content><result><operation>authorization</operation><status>ok</status><date>2022-06-21</date><time>06:56:45 UTC+0000</time><origAmount>170.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3334</idForMerchant><emailClient>y.tillum@volx.fr</emailClient><idClient>20796570</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3334</_aKey_cart_id>  <_aKey_customer_id>2023</_aKey_customer_id>  <_aKey_secure_key>4faa76fbd76d002eee71c1febe28cf4c</_aKey_secure_key>  <_aKey_token>ad4d587fbd5502e7635ebb4ecb6256a3</_aKey_token></merchantDatas><transid>62B16BA5684B3294</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => baab7266e0f62ff9359107b0e2f503e2
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2022-06-21
+                    [time] => 06:56:45 UTC+0000
+                    [origAmount] => 170.56
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3334
+                    [emailClient] => y.tillum@volx.fr
+                    [idClient] => 20796570
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3334
+                            [_aKey_customer_id] => 2023
+                            [_aKey_secure_key] => 4faa76fbd76d002eee71c1febe28cf4c
+                            [_aKey_token] => ad4d587fbd5502e7635ebb4ecb6256a3
+                        )
+
+                    [transid] => 62B16BA5684B3294
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3334
+    [3] => 2023
+    [4] => 4faa76fbd76d002eee71c1febe28cf4c
+    [5] => 170.56
+)
+
+## 2022-06-21 08:56:38 ##
+----> START registerOrder()
+## 2022-06-21 08:56:38 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-21 08:56:38 ##
+<result><operation>authorization</operation><status>ok</status><date>2022-06-21</date><time>06:56:45 UTC+0000</time><origAmount>170.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3334</idForMerchant><emailClient>y.tillum@volx.fr</emailClient><idClient>20796570</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3334</_aKey_cart_id>  <_aKey_customer_id>2023</_aKey_customer_id>  <_aKey_secure_key>4faa76fbd76d002eee71c1febe28cf4c</_aKey_secure_key>  <_aKey_token>ad4d587fbd5502e7635ebb4ecb6256a3</_aKey_token></merchantDatas><transid>62B16BA5684B3294</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-21 08:56:38 ##
+currency : EUR
+## 2022-06-21 08:56:38 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-21 08:56:38 ##
+callback_salt : 
+## 2022-06-21 08:56:38 ##
+md5 : baab7266e0f62ff9359107b0e2f503e2 == md5content : baab7266e0f62ff9359107b0e2f503e2
+## 2022-06-21 08:56:38 ##
+Status = ok
+## 2022-06-21 08:56:38 ##
+$currency = EUR
+## 2022-06-21 08:56:38 ##
+id_order_state = 42
+## 2022-06-21 08:56:38 ##
+----> START placeOrder()
+## 2022-06-21 08:56:38 ##
+Treatment status = 42
+## 2022-06-21 08:56:38 ##
+Validate order
+## 2022-06-21 08:56:38 ##
+Array
+(
+    [0] => 3334
+    [1] => 42
+    [2] => 170.56
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"62B16BA5684B3294"}
+    [5] => Array
+        (
+            [transaction_id] => 62B16BA5684B3294
+        )
+
+    [6] => 1
+    [7] => 4faa76fbd76d002eee71c1febe28cf4c
+)
+
+## 2022-06-21 08:56:38 ##
+ID Shop = 1
+## 2022-06-21 08:56:41 ##
+Order created
+## 2022-06-21 08:56:41 ##
+----> END placeOrder()
+## 2022-06-21 08:56:41 ##
+----> END registerOrder()
+## 2022-06-21 08:56:41 ##
+----> Treatment is unlocked for the id_cart = 3334
+## 2022-06-21 08:56:44 ##
+##########################
+## 2022-06-21 08:56:44 ##
+START Validation Callback
+## 2022-06-21 08:56:44 ##
+##########################
+## 2022-06-21 08:56:44 ##
+----> Treatment is locked for the id_cart = 3334
+## 2022-06-21 08:56:44 ##
+data for validation
+## 2022-06-21 08:56:44 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>91e2d3fd6d205472b405663e3921f479</md5content><result><operation>capture</operation><status>ok</status><date>2022-06-21</date><time>06:56:52 UTC+0000</time><origAmount>170.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3334</idForMerchant><emailClient>y.tillum@volx.fr</emailClient><idClient>20796570</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3334</_aKey_cart_id>  <_aKey_customer_id>2023</_aKey_customer_id>  <_aKey_secure_key>4faa76fbd76d002eee71c1febe28cf4c</_aKey_secure_key>  <_aKey_token>ad4d587fbd5502e7635ebb4ecb6256a3</_aKey_token></merchantDatas><transid>62B16BA5684B3294</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 91e2d3fd6d205472b405663e3921f479
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2022-06-21
+                    [time] => 06:56:52 UTC+0000
+                    [origAmount] => 170.56
+                    [origCurrency] => EUR
+                    [idForMerchant] => 3334
+                    [emailClient] => y.tillum@volx.fr
+                    [idClient] => 20796570
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 3334
+                            [_aKey_customer_id] => 2023
+                            [_aKey_secure_key] => 4faa76fbd76d002eee71c1febe28cf4c
+                            [_aKey_token] => ad4d587fbd5502e7635ebb4ecb6256a3
+                        )
+
+                    [transid] => 62B16BA5684B3294
+                    [is3ds] => No
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 3334
+    [3] => 2023
+    [4] => 4faa76fbd76d002eee71c1febe28cf4c
+    [5] => 170.56
+)
+
+## 2022-06-21 08:56:44 ##
+----> START registerOrder()
+## 2022-06-21 08:56:44 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-21 08:56:44 ##
+<result><operation>capture</operation><status>ok</status><date>2022-06-21</date><time>06:56:52 UTC+0000</time><origAmount>170.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>3334</idForMerchant><emailClient>y.tillum@volx.fr</emailClient><idClient>20796570</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>3334</_aKey_cart_id>  <_aKey_customer_id>2023</_aKey_customer_id>  <_aKey_secure_key>4faa76fbd76d002eee71c1febe28cf4c</_aKey_secure_key>  <_aKey_token>ad4d587fbd5502e7635ebb4ecb6256a3</_aKey_token></merchantDatas><transid>62B16BA5684B3294</transid><is3ds>No</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2022-06-21 08:56:44 ##
+currency : EUR
+## 2022-06-21 08:56:44 ##
+accountID:13248407 / websiteId:418801
+## 2022-06-21 08:56:44 ##
+callback_salt : 
+## 2022-06-21 08:56:44 ##
+md5 : 91e2d3fd6d205472b405663e3921f479 == md5content : 91e2d3fd6d205472b405663e3921f479
+## 2022-06-21 08:56:44 ##
+Status = ok
+## 2022-06-21 08:56:44 ##
+$currency = EUR
+## 2022-06-21 08:56:44 ##
+id_order_state = 2
+## 2022-06-21 08:56:44 ##
+----> START placeOrder()
+## 2022-06-21 08:56:44 ##
+Treatment an existing order
+## 2022-06-21 08:56:44 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2022-06-21 08:56:44 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2022-06-21
+    [time] => 06:56:52 UTC+0000
+    [origAmount] => 170.56
+    [origCurrency] => EUR
+    [idForMerchant] => 3334
+    [emailClient] => y.tillum@volx.fr
+    [idClient] => 20796570
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 3334
+            [_aKey_customer_id] => 2023
+            [_aKey_secure_key] => 4faa76fbd76d002eee71c1febe28cf4c
+            [_aKey_token] => ad4d587fbd5502e7635ebb4ecb6256a3
+        )
+
+    [transid] => 62B16BA5684B3294
+    [is3ds] => No
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2022-06-21 08:56:44 ##
+----> END placeOrder()
+## 2022-06-21 08:56:44 ##
+----> END registerOrder()
+## 2022-06-21 08:56:44 ##
+----> Treatment is unlocked for the id_cart = 3334

@@ -1,0 +1,1371 @@
+## 2024-02-06 15:36:36 ##
+##########################
+## 2024-02-06 15:36:36 ##
+START Validation Callback
+## 2024-02-06 15:36:36 ##
+##########################
+## 2024-02-06 15:36:36 ##
+----> Treatment is locked for the id_cart = 12951
+## 2024-02-06 15:36:36 ##
+data for validation
+## 2024-02-06 15:36:36 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>8c32a39529a54f5e971ce5b60c825863</md5content><result><operation>authorization</operation><status>ok</status><date>2024-02-06</date><time>14:36:34 UTC+0000</time><origAmount>40.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12951</idForMerchant><emailClient>ernestjoussemet@orange.fr</emailClient><idClient>23252913</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12951</_aKey_cart_id>  <_aKey_customer_id>4078</_aKey_customer_id>  <_aKey_secure_key>45e6746c3c879712c9440a19e5b5b03f</_aKey_secure_key>  <_aKey_token>65fb8684c294caf28b572311722bc314</_aKey_token></merchantDatas><transid>65C243C3DB76E319</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 8c32a39529a54f5e971ce5b60c825863
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2024-02-06
+                    [time] => 14:36:34 UTC+0000
+                    [origAmount] => 40.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12951
+                    [emailClient] => ernestjoussemet@orange.fr
+                    [idClient] => 23252913
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12951
+                            [_aKey_customer_id] => 4078
+                            [_aKey_secure_key] => 45e6746c3c879712c9440a19e5b5b03f
+                            [_aKey_token] => 65fb8684c294caf28b572311722bc314
+                        )
+
+                    [transid] => 65C243C3DB76E319
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12951
+    [3] => 4078
+    [4] => 45e6746c3c879712c9440a19e5b5b03f
+    [5] => 40.1
+)
+
+## 2024-02-06 15:36:36 ##
+----> START registerOrder()
+## 2024-02-06 15:36:36 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 15:36:36 ##
+<result><operation>authorization</operation><status>ok</status><date>2024-02-06</date><time>14:36:34 UTC+0000</time><origAmount>40.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12951</idForMerchant><emailClient>ernestjoussemet@orange.fr</emailClient><idClient>23252913</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12951</_aKey_cart_id>  <_aKey_customer_id>4078</_aKey_customer_id>  <_aKey_secure_key>45e6746c3c879712c9440a19e5b5b03f</_aKey_secure_key>  <_aKey_token>65fb8684c294caf28b572311722bc314</_aKey_token></merchantDatas><transid>65C243C3DB76E319</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 15:36:36 ##
+currency : EUR
+## 2024-02-06 15:36:36 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 15:36:36 ##
+callback_salt : 
+## 2024-02-06 15:36:36 ##
+md5 : 8c32a39529a54f5e971ce5b60c825863 == md5content : 8c32a39529a54f5e971ce5b60c825863
+## 2024-02-06 15:36:36 ##
+Status = ok
+## 2024-02-06 15:36:36 ##
+$currency = EUR
+## 2024-02-06 15:36:36 ##
+id_order_state = 42
+## 2024-02-06 15:36:36 ##
+----> START placeOrder()
+## 2024-02-06 15:36:36 ##
+Treatment status = 42
+## 2024-02-06 15:36:36 ##
+Validate order
+## 2024-02-06 15:36:36 ##
+Array
+(
+    [0] => 12951
+    [1] => 42
+    [2] => 40.1
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"65C243C3DB76E319"}
+    [5] => Array
+        (
+            [transaction_id] => 65C243C3DB76E319
+        )
+
+    [6] => 1
+    [7] => 45e6746c3c879712c9440a19e5b5b03f
+)
+
+## 2024-02-06 15:36:36 ##
+ID Shop = 1
+## 2024-02-06 15:36:41 ##
+Order created
+## 2024-02-06 15:36:41 ##
+----> END placeOrder()
+## 2024-02-06 15:36:41 ##
+----> END registerOrder()
+## 2024-02-06 15:36:41 ##
+----> Treatment is unlocked for the id_cart = 12951
+## 2024-02-06 15:36:45 ##
+##########################
+## 2024-02-06 15:36:45 ##
+START Validation Callback
+## 2024-02-06 15:36:45 ##
+##########################
+## 2024-02-06 15:36:45 ##
+----> Treatment is locked for the id_cart = 12951
+## 2024-02-06 15:36:45 ##
+data for validation
+## 2024-02-06 15:36:45 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>eecfab210858c1e102c370cc9cd7e67a</md5content><result><operation>capture</operation><status>ok</status><date>2024-02-06</date><time>14:36:41 UTC+0000</time><origAmount>40.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12951</idForMerchant><emailClient>ernestjoussemet@orange.fr</emailClient><idClient>23252913</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12951</_aKey_cart_id>  <_aKey_customer_id>4078</_aKey_customer_id>  <_aKey_secure_key>45e6746c3c879712c9440a19e5b5b03f</_aKey_secure_key>  <_aKey_token>65fb8684c294caf28b572311722bc314</_aKey_token></merchantDatas><transid>65C243C3DB76E319</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => eecfab210858c1e102c370cc9cd7e67a
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2024-02-06
+                    [time] => 14:36:41 UTC+0000
+                    [origAmount] => 40.10
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12951
+                    [emailClient] => ernestjoussemet@orange.fr
+                    [idClient] => 23252913
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12951
+                            [_aKey_customer_id] => 4078
+                            [_aKey_secure_key] => 45e6746c3c879712c9440a19e5b5b03f
+                            [_aKey_token] => 65fb8684c294caf28b572311722bc314
+                        )
+
+                    [transid] => 65C243C3DB76E319
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12951
+    [3] => 4078
+    [4] => 45e6746c3c879712c9440a19e5b5b03f
+    [5] => 40.1
+)
+
+## 2024-02-06 15:36:45 ##
+----> START registerOrder()
+## 2024-02-06 15:36:45 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 15:36:45 ##
+<result><operation>capture</operation><status>ok</status><date>2024-02-06</date><time>14:36:41 UTC+0000</time><origAmount>40.10</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12951</idForMerchant><emailClient>ernestjoussemet@orange.fr</emailClient><idClient>23252913</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12951</_aKey_cart_id>  <_aKey_customer_id>4078</_aKey_customer_id>  <_aKey_secure_key>45e6746c3c879712c9440a19e5b5b03f</_aKey_secure_key>  <_aKey_token>65fb8684c294caf28b572311722bc314</_aKey_token></merchantDatas><transid>65C243C3DB76E319</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 15:36:45 ##
+currency : EUR
+## 2024-02-06 15:36:45 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 15:36:45 ##
+callback_salt : 
+## 2024-02-06 15:36:45 ##
+md5 : eecfab210858c1e102c370cc9cd7e67a == md5content : eecfab210858c1e102c370cc9cd7e67a
+## 2024-02-06 15:36:45 ##
+Status = ok
+## 2024-02-06 15:36:45 ##
+$currency = EUR
+## 2024-02-06 15:36:45 ##
+id_order_state = 2
+## 2024-02-06 15:36:45 ##
+----> START placeOrder()
+## 2024-02-06 15:36:45 ##
+Treatment an existing order
+## 2024-02-06 15:36:45 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2024-02-06 15:36:45 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2024-02-06
+    [time] => 14:36:41 UTC+0000
+    [origAmount] => 40.10
+    [origCurrency] => EUR
+    [idForMerchant] => 12951
+    [emailClient] => ernestjoussemet@orange.fr
+    [idClient] => 23252913
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 12951
+            [_aKey_customer_id] => 4078
+            [_aKey_secure_key] => 45e6746c3c879712c9440a19e5b5b03f
+            [_aKey_token] => 65fb8684c294caf28b572311722bc314
+        )
+
+    [transid] => 65C243C3DB76E319
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2024-02-06 15:36:46 ##
+----> END placeOrder()
+## 2024-02-06 15:36:46 ##
+----> END registerOrder()
+## 2024-02-06 15:36:46 ##
+----> Treatment is unlocked for the id_cart = 12951
+## 2024-02-06 23:45:19 ##
+##########################
+## 2024-02-06 23:45:19 ##
+START Validation Callback
+## 2024-02-06 23:45:19 ##
+##########################
+## 2024-02-06 23:45:19 ##
+----> Treatment is locked for the id_cart = 12955
+## 2024-02-06 23:45:19 ##
+data for validation
+## 2024-02-06 23:45:19 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>23f0ea852f1744d0433e6dcfce6dd9b4</md5content><result><operation>authorization</operation><status>nok</status><date>2024-02-06</date><time>22:45:16 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B671C1401612</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 23f0ea852f1744d0433e6dcfce6dd9b4
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-02-06
+                    [time] => 22:45:16 UTC+0000
+                    [origAmount] => 80.38
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12955
+                    [emailClient] => gj2604@gmail.com
+                    [idClient] => 23270706
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12955
+                            [_aKey_customer_id] => 4086
+                            [_aKey_secure_key] => 68f2868caa0e4715c697121ef1bbabe7
+                            [_aKey_token] => 8845546b825cb611d0d3db29769bbfce
+                        )
+
+                    [transid] => 65C2B671C1401612
+                    [is3ds] => No
+                    [paymentMethod] => MAESTRO
+                    [nok-msg] => Declined
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12955
+    [3] => 4086
+    [4] => 68f2868caa0e4715c697121ef1bbabe7
+    [5] => 80.38
+)
+
+## 2024-02-06 23:45:19 ##
+----> START registerOrder()
+## 2024-02-06 23:45:19 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:45:19 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-02-06</date><time>22:45:16 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B671C1401612</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 23:45:19 ##
+currency : EUR
+## 2024-02-06 23:45:19 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:45:19 ##
+callback_salt : 
+## 2024-02-06 23:45:19 ##
+md5 : 23f0ea852f1744d0433e6dcfce6dd9b4 == md5content : 23f0ea852f1744d0433e6dcfce6dd9b4
+## 2024-02-06 23:45:19 ##
+Status = nok
+## 2024-02-06 23:45:19 ##
+$currency = EUR
+## 2024-02-06 23:45:19 ##
+id_order_state = 8
+## 2024-02-06 23:45:19 ##
+----> START placeOrder()
+## 2024-02-06 23:45:19 ##
+Treatment status = ERROR
+## 2024-02-06 23:45:19 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-02-06
+    [time] =&gt; 22:45:16 UTC+0000
+    [origAmount] =&gt; 80.38
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 12955
+    [emailClient] =&gt; gj2604@gmail.com
+    [idClient] =&gt; 23270706
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 12955
+            [_aKey_customer_id] =&gt; 4086
+            [_aKey_secure_key] =&gt; 68f2868caa0e4715c697121ef1bbabe7
+            [_aKey_token] =&gt; 8845546b825cb611d0d3db29769bbfce
+        )
+
+    [transid] =&gt; 65C2B671C1401612
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; MAESTRO
+    [nok-msg] =&gt; Declined
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-02-06 23:45:19 ##
+----> END placeOrder()
+## 2024-02-06 23:45:19 ##
+----> END registerOrder()
+## 2024-02-06 23:45:19 ##
+----> Treatment is unlocked for the id_cart = 12955
+## 2024-02-06 23:45:21 ##
+##########################
+## 2024-02-06 23:45:21 ##
+START Validation Callback
+## 2024-02-06 23:45:21 ##
+##########################
+## 2024-02-06 23:45:21 ##
+----> Treatment is locked for the id_cart = 12955
+## 2024-02-06 23:45:21 ##
+data for validation
+## 2024-02-06 23:45:21 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>dfcf8eaaf0b4cc1b83655e512f369110</md5content><result><operation>capture</operation><status>nok</status><date>2024-02-06</date><time>22:45:18 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B671C1401612</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => dfcf8eaaf0b4cc1b83655e512f369110
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => nok
+                    [date] => 2024-02-06
+                    [time] => 22:45:18 UTC+0000
+                    [origAmount] => 80.38
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12955
+                    [emailClient] => gj2604@gmail.com
+                    [idClient] => 23270706
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12955
+                            [_aKey_customer_id] => 4086
+                            [_aKey_secure_key] => 68f2868caa0e4715c697121ef1bbabe7
+                            [_aKey_token] => 8845546b825cb611d0d3db29769bbfce
+                        )
+
+                    [transid] => 65C2B671C1401612
+                    [is3ds] => No
+                    [paymentMethod] => MAESTRO
+                    [nok-msg] => Declined
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12955
+    [3] => 4086
+    [4] => 68f2868caa0e4715c697121ef1bbabe7
+    [5] => 80.38
+)
+
+## 2024-02-06 23:45:21 ##
+----> START registerOrder()
+## 2024-02-06 23:45:21 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:45:21 ##
+<result><operation>capture</operation><status>nok</status><date>2024-02-06</date><time>22:45:18 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B671C1401612</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 23:45:21 ##
+currency : EUR
+## 2024-02-06 23:45:21 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:45:21 ##
+callback_salt : 
+## 2024-02-06 23:45:21 ##
+md5 : dfcf8eaaf0b4cc1b83655e512f369110 == md5content : dfcf8eaaf0b4cc1b83655e512f369110
+## 2024-02-06 23:45:21 ##
+Status = nok
+## 2024-02-06 23:45:21 ##
+$currency = EUR
+## 2024-02-06 23:45:21 ##
+id_order_state = 8
+## 2024-02-06 23:45:21 ##
+----> START placeOrder()
+## 2024-02-06 23:45:21 ##
+Treatment status = ERROR
+## 2024-02-06 23:45:21 ##
+Array
+(
+    [operation] =&gt; capture
+    [status] =&gt; nok
+    [date] =&gt; 2024-02-06
+    [time] =&gt; 22:45:18 UTC+0000
+    [origAmount] =&gt; 80.38
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 12955
+    [emailClient] =&gt; gj2604@gmail.com
+    [idClient] =&gt; 23270706
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 12955
+            [_aKey_customer_id] =&gt; 4086
+            [_aKey_secure_key] =&gt; 68f2868caa0e4715c697121ef1bbabe7
+            [_aKey_token] =&gt; 8845546b825cb611d0d3db29769bbfce
+        )
+
+    [transid] =&gt; 65C2B671C1401612
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; MAESTRO
+    [nok-msg] =&gt; Declined
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-02-06 23:45:21 ##
+----> END placeOrder()
+## 2024-02-06 23:45:21 ##
+----> END registerOrder()
+## 2024-02-06 23:45:21 ##
+----> Treatment is unlocked for the id_cart = 12955
+## 2024-02-06 23:47:10 ##
+##########################
+## 2024-02-06 23:47:10 ##
+START Validation Callback
+## 2024-02-06 23:47:10 ##
+##########################
+## 2024-02-06 23:47:10 ##
+----> Treatment is locked for the id_cart = 12955
+## 2024-02-06 23:47:10 ##
+data for validation
+## 2024-02-06 23:47:10 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>686f6a6df320bf0d2a57f3ac4eb1071c</md5content><result><operation>authorization</operation><status>nok</status><date>2024-02-06</date><time>22:47:07 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B6E33F1FE665</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 686f6a6df320bf0d2a57f3ac4eb1071c
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-02-06
+                    [time] => 22:47:07 UTC+0000
+                    [origAmount] => 80.38
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12955
+                    [emailClient] => gj2604@gmail.com
+                    [idClient] => 23270706
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12955
+                            [_aKey_customer_id] => 4086
+                            [_aKey_secure_key] => 68f2868caa0e4715c697121ef1bbabe7
+                            [_aKey_token] => 8845546b825cb611d0d3db29769bbfce
+                        )
+
+                    [transid] => 65C2B6E33F1FE665
+                    [is3ds] => No
+                    [paymentMethod] => MAESTRO
+                    [nok-msg] => Declined
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12955
+    [3] => 4086
+    [4] => 68f2868caa0e4715c697121ef1bbabe7
+    [5] => 80.38
+)
+
+## 2024-02-06 23:47:10 ##
+----> START registerOrder()
+## 2024-02-06 23:47:10 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:47:10 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-02-06</date><time>22:47:07 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B6E33F1FE665</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 23:47:10 ##
+currency : EUR
+## 2024-02-06 23:47:10 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:47:10 ##
+callback_salt : 
+## 2024-02-06 23:47:10 ##
+md5 : 686f6a6df320bf0d2a57f3ac4eb1071c == md5content : 686f6a6df320bf0d2a57f3ac4eb1071c
+## 2024-02-06 23:47:10 ##
+Status = nok
+## 2024-02-06 23:47:10 ##
+$currency = EUR
+## 2024-02-06 23:47:10 ##
+id_order_state = 8
+## 2024-02-06 23:47:10 ##
+----> START placeOrder()
+## 2024-02-06 23:47:10 ##
+Treatment status = ERROR
+## 2024-02-06 23:47:10 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-02-06
+    [time] =&gt; 22:47:07 UTC+0000
+    [origAmount] =&gt; 80.38
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 12955
+    [emailClient] =&gt; gj2604@gmail.com
+    [idClient] =&gt; 23270706
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 12955
+            [_aKey_customer_id] =&gt; 4086
+            [_aKey_secure_key] =&gt; 68f2868caa0e4715c697121ef1bbabe7
+            [_aKey_token] =&gt; 8845546b825cb611d0d3db29769bbfce
+        )
+
+    [transid] =&gt; 65C2B6E33F1FE665
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; MAESTRO
+    [nok-msg] =&gt; Declined
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-02-06 23:47:10 ##
+----> END placeOrder()
+## 2024-02-06 23:47:10 ##
+----> END registerOrder()
+## 2024-02-06 23:47:10 ##
+----> Treatment is unlocked for the id_cart = 12955
+## 2024-02-06 23:47:13 ##
+##########################
+## 2024-02-06 23:47:13 ##
+START Validation Callback
+## 2024-02-06 23:47:13 ##
+##########################
+## 2024-02-06 23:47:13 ##
+----> Treatment is locked for the id_cart = 12955
+## 2024-02-06 23:47:13 ##
+data for validation
+## 2024-02-06 23:47:13 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>a5c0260c1b8ad4f106c26777a202b7b2</md5content><result><operation>capture</operation><status>nok</status><date>2024-02-06</date><time>22:47:11 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B6E33F1FE665</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => a5c0260c1b8ad4f106c26777a202b7b2
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => nok
+                    [date] => 2024-02-06
+                    [time] => 22:47:11 UTC+0000
+                    [origAmount] => 80.38
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12955
+                    [emailClient] => gj2604@gmail.com
+                    [idClient] => 23270706
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12955
+                            [_aKey_customer_id] => 4086
+                            [_aKey_secure_key] => 68f2868caa0e4715c697121ef1bbabe7
+                            [_aKey_token] => 8845546b825cb611d0d3db29769bbfce
+                        )
+
+                    [transid] => 65C2B6E33F1FE665
+                    [is3ds] => No
+                    [paymentMethod] => MAESTRO
+                    [nok-msg] => Declined
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12955
+    [3] => 4086
+    [4] => 68f2868caa0e4715c697121ef1bbabe7
+    [5] => 80.38
+)
+
+## 2024-02-06 23:47:13 ##
+----> START registerOrder()
+## 2024-02-06 23:47:13 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:47:13 ##
+<result><operation>capture</operation><status>nok</status><date>2024-02-06</date><time>22:47:11 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B6E33F1FE665</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 23:47:13 ##
+currency : EUR
+## 2024-02-06 23:47:13 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:47:13 ##
+callback_salt : 
+## 2024-02-06 23:47:13 ##
+md5 : a5c0260c1b8ad4f106c26777a202b7b2 == md5content : a5c0260c1b8ad4f106c26777a202b7b2
+## 2024-02-06 23:47:13 ##
+Status = nok
+## 2024-02-06 23:47:13 ##
+$currency = EUR
+## 2024-02-06 23:47:13 ##
+id_order_state = 8
+## 2024-02-06 23:47:13 ##
+----> START placeOrder()
+## 2024-02-06 23:47:13 ##
+Treatment status = ERROR
+## 2024-02-06 23:47:13 ##
+Array
+(
+    [operation] =&gt; capture
+    [status] =&gt; nok
+    [date] =&gt; 2024-02-06
+    [time] =&gt; 22:47:11 UTC+0000
+    [origAmount] =&gt; 80.38
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 12955
+    [emailClient] =&gt; gj2604@gmail.com
+    [idClient] =&gt; 23270706
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 12955
+            [_aKey_customer_id] =&gt; 4086
+            [_aKey_secure_key] =&gt; 68f2868caa0e4715c697121ef1bbabe7
+            [_aKey_token] =&gt; 8845546b825cb611d0d3db29769bbfce
+        )
+
+    [transid] =&gt; 65C2B6E33F1FE665
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; MAESTRO
+    [nok-msg] =&gt; Declined
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-02-06 23:47:13 ##
+----> END placeOrder()
+## 2024-02-06 23:47:13 ##
+----> END registerOrder()
+## 2024-02-06 23:47:13 ##
+----> Treatment is unlocked for the id_cart = 12955
+## 2024-02-06 23:49:26 ##
+##########################
+## 2024-02-06 23:49:26 ##
+START Validation Callback
+## 2024-02-06 23:49:26 ##
+##########################
+## 2024-02-06 23:49:26 ##
+----> Treatment is locked for the id_cart = 12955
+## 2024-02-06 23:49:26 ##
+data for validation
+## 2024-02-06 23:49:26 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>9551b588c23cf9ed7ba9b335f1c2c039</md5content><result><operation>authorization</operation><status>nok</status><date>2024-02-06</date><time>22:49:24 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B76A376AA260</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 9551b588c23cf9ed7ba9b335f1c2c039
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-02-06
+                    [time] => 22:49:24 UTC+0000
+                    [origAmount] => 80.38
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12955
+                    [emailClient] => gj2604@gmail.com
+                    [idClient] => 23270706
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12955
+                            [_aKey_customer_id] => 4086
+                            [_aKey_secure_key] => 68f2868caa0e4715c697121ef1bbabe7
+                            [_aKey_token] => 8845546b825cb611d0d3db29769bbfce
+                        )
+
+                    [transid] => 65C2B76A376AA260
+                    [is3ds] => No
+                    [paymentMethod] => MAESTRO
+                    [nok-msg] => Declined
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12955
+    [3] => 4086
+    [4] => 68f2868caa0e4715c697121ef1bbabe7
+    [5] => 80.38
+)
+
+## 2024-02-06 23:49:26 ##
+----> START registerOrder()
+## 2024-02-06 23:49:26 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:49:26 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-02-06</date><time>22:49:24 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B76A376AA260</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 23:49:26 ##
+currency : EUR
+## 2024-02-06 23:49:26 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:49:26 ##
+callback_salt : 
+## 2024-02-06 23:49:26 ##
+md5 : 9551b588c23cf9ed7ba9b335f1c2c039 == md5content : 9551b588c23cf9ed7ba9b335f1c2c039
+## 2024-02-06 23:49:26 ##
+Status = nok
+## 2024-02-06 23:49:26 ##
+$currency = EUR
+## 2024-02-06 23:49:26 ##
+id_order_state = 8
+## 2024-02-06 23:49:26 ##
+----> START placeOrder()
+## 2024-02-06 23:49:26 ##
+Treatment status = ERROR
+## 2024-02-06 23:49:26 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-02-06
+    [time] =&gt; 22:49:24 UTC+0000
+    [origAmount] =&gt; 80.38
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 12955
+    [emailClient] =&gt; gj2604@gmail.com
+    [idClient] =&gt; 23270706
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 12955
+            [_aKey_customer_id] =&gt; 4086
+            [_aKey_secure_key] =&gt; 68f2868caa0e4715c697121ef1bbabe7
+            [_aKey_token] =&gt; 8845546b825cb611d0d3db29769bbfce
+        )
+
+    [transid] =&gt; 65C2B76A376AA260
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; MAESTRO
+    [nok-msg] =&gt; Declined
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-02-06 23:49:26 ##
+----> END placeOrder()
+## 2024-02-06 23:49:26 ##
+----> END registerOrder()
+## 2024-02-06 23:49:26 ##
+----> Treatment is unlocked for the id_cart = 12955
+## 2024-02-06 23:49:33 ##
+##########################
+## 2024-02-06 23:49:33 ##
+START Validation Callback
+## 2024-02-06 23:49:33 ##
+##########################
+## 2024-02-06 23:49:33 ##
+----> Treatment is locked for the id_cart = 12955
+## 2024-02-06 23:49:33 ##
+data for validation
+## 2024-02-06 23:49:33 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>c078a33353cfcb41a640c58e54b6cb83</md5content><result><operation>capture</operation><status>nok</status><date>2024-02-06</date><time>22:49:29 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B76A376AA260</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => c078a33353cfcb41a640c58e54b6cb83
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => nok
+                    [date] => 2024-02-06
+                    [time] => 22:49:29 UTC+0000
+                    [origAmount] => 80.38
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12955
+                    [emailClient] => gj2604@gmail.com
+                    [idClient] => 23270706
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12955
+                            [_aKey_customer_id] => 4086
+                            [_aKey_secure_key] => 68f2868caa0e4715c697121ef1bbabe7
+                            [_aKey_token] => 8845546b825cb611d0d3db29769bbfce
+                        )
+
+                    [transid] => 65C2B76A376AA260
+                    [is3ds] => No
+                    [paymentMethod] => MAESTRO
+                    [nok-msg] => Declined
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12955
+    [3] => 4086
+    [4] => 68f2868caa0e4715c697121ef1bbabe7
+    [5] => 80.38
+)
+
+## 2024-02-06 23:49:33 ##
+----> START registerOrder()
+## 2024-02-06 23:49:33 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:49:33 ##
+<result><operation>capture</operation><status>nok</status><date>2024-02-06</date><time>22:49:29 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B76A376AA260</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 23:49:33 ##
+currency : EUR
+## 2024-02-06 23:49:33 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:49:33 ##
+callback_salt : 
+## 2024-02-06 23:49:33 ##
+md5 : c078a33353cfcb41a640c58e54b6cb83 == md5content : c078a33353cfcb41a640c58e54b6cb83
+## 2024-02-06 23:49:33 ##
+Status = nok
+## 2024-02-06 23:49:33 ##
+$currency = EUR
+## 2024-02-06 23:49:33 ##
+id_order_state = 8
+## 2024-02-06 23:49:33 ##
+----> START placeOrder()
+## 2024-02-06 23:49:33 ##
+Treatment status = ERROR
+## 2024-02-06 23:49:33 ##
+Array
+(
+    [operation] =&gt; capture
+    [status] =&gt; nok
+    [date] =&gt; 2024-02-06
+    [time] =&gt; 22:49:29 UTC+0000
+    [origAmount] =&gt; 80.38
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 12955
+    [emailClient] =&gt; gj2604@gmail.com
+    [idClient] =&gt; 23270706
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 12955
+            [_aKey_customer_id] =&gt; 4086
+            [_aKey_secure_key] =&gt; 68f2868caa0e4715c697121ef1bbabe7
+            [_aKey_token] =&gt; 8845546b825cb611d0d3db29769bbfce
+        )
+
+    [transid] =&gt; 65C2B76A376AA260
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; MAESTRO
+    [nok-msg] =&gt; Declined
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-02-06 23:49:33 ##
+----> END placeOrder()
+## 2024-02-06 23:49:33 ##
+----> END registerOrder()
+## 2024-02-06 23:49:33 ##
+----> Treatment is unlocked for the id_cart = 12955
+## 2024-02-06 23:50:52 ##
+##########################
+## 2024-02-06 23:50:52 ##
+START Validation Callback
+## 2024-02-06 23:50:52 ##
+##########################
+## 2024-02-06 23:50:52 ##
+----> Treatment is locked for the id_cart = 12955
+## 2024-02-06 23:50:52 ##
+data for validation
+## 2024-02-06 23:50:52 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>01e7df9559599482cb5fd2d247e66a2c</md5content><result><operation>authorization</operation><status>nok</status><date>2024-02-06</date><time>22:50:50 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B7C0EF338613</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 01e7df9559599482cb5fd2d247e66a2c
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => nok
+                    [date] => 2024-02-06
+                    [time] => 22:50:50 UTC+0000
+                    [origAmount] => 80.38
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12955
+                    [emailClient] => gj2604@gmail.com
+                    [idClient] => 23270706
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12955
+                            [_aKey_customer_id] => 4086
+                            [_aKey_secure_key] => 68f2868caa0e4715c697121ef1bbabe7
+                            [_aKey_token] => 8845546b825cb611d0d3db29769bbfce
+                        )
+
+                    [transid] => 65C2B7C0EF338613
+                    [is3ds] => No
+                    [paymentMethod] => MAESTRO
+                    [nok-msg] => Declined
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12955
+    [3] => 4086
+    [4] => 68f2868caa0e4715c697121ef1bbabe7
+    [5] => 80.38
+)
+
+## 2024-02-06 23:50:52 ##
+----> START registerOrder()
+## 2024-02-06 23:50:52 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:50:52 ##
+<result><operation>authorization</operation><status>nok</status><date>2024-02-06</date><time>22:50:50 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B7C0EF338613</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 23:50:52 ##
+currency : EUR
+## 2024-02-06 23:50:52 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:50:52 ##
+callback_salt : 
+## 2024-02-06 23:50:52 ##
+md5 : 01e7df9559599482cb5fd2d247e66a2c == md5content : 01e7df9559599482cb5fd2d247e66a2c
+## 2024-02-06 23:50:52 ##
+Status = nok
+## 2024-02-06 23:50:52 ##
+$currency = EUR
+## 2024-02-06 23:50:52 ##
+id_order_state = 8
+## 2024-02-06 23:50:52 ##
+----> START placeOrder()
+## 2024-02-06 23:50:52 ##
+Treatment status = ERROR
+## 2024-02-06 23:50:52 ##
+Array
+(
+    [operation] =&gt; authorization
+    [status] =&gt; nok
+    [date] =&gt; 2024-02-06
+    [time] =&gt; 22:50:50 UTC+0000
+    [origAmount] =&gt; 80.38
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 12955
+    [emailClient] =&gt; gj2604@gmail.com
+    [idClient] =&gt; 23270706
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 12955
+            [_aKey_customer_id] =&gt; 4086
+            [_aKey_secure_key] =&gt; 68f2868caa0e4715c697121ef1bbabe7
+            [_aKey_token] =&gt; 8845546b825cb611d0d3db29769bbfce
+        )
+
+    [transid] =&gt; 65C2B7C0EF338613
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; MAESTRO
+    [nok-msg] =&gt; Declined
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-02-06 23:50:52 ##
+----> END placeOrder()
+## 2024-02-06 23:50:52 ##
+----> END registerOrder()
+## 2024-02-06 23:50:52 ##
+----> Treatment is unlocked for the id_cart = 12955
+## 2024-02-06 23:50:57 ##
+##########################
+## 2024-02-06 23:50:57 ##
+START Validation Callback
+## 2024-02-06 23:50:57 ##
+##########################
+## 2024-02-06 23:50:57 ##
+----> Treatment is locked for the id_cart = 12955
+## 2024-02-06 23:50:57 ##
+data for validation
+## 2024-02-06 23:50:57 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>580671d3865cc49cf89ce137e60bc2f3</md5content><result><operation>capture</operation><status>nok</status><date>2024-02-06</date><time>22:50:54 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B7C0EF338613</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 580671d3865cc49cf89ce137e60bc2f3
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => nok
+                    [date] => 2024-02-06
+                    [time] => 22:50:54 UTC+0000
+                    [origAmount] => 80.38
+                    [origCurrency] => EUR
+                    [idForMerchant] => 12955
+                    [emailClient] => gj2604@gmail.com
+                    [idClient] => 23270706
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 12955
+                            [_aKey_customer_id] => 4086
+                            [_aKey_secure_key] => 68f2868caa0e4715c697121ef1bbabe7
+                            [_aKey_token] => 8845546b825cb611d0d3db29769bbfce
+                        )
+
+                    [transid] => 65C2B7C0EF338613
+                    [is3ds] => No
+                    [paymentMethod] => MAESTRO
+                    [nok-msg] => Declined
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 12955
+    [3] => 4086
+    [4] => 68f2868caa0e4715c697121ef1bbabe7
+    [5] => 80.38
+)
+
+## 2024-02-06 23:50:57 ##
+----> START registerOrder()
+## 2024-02-06 23:50:57 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:50:57 ##
+<result><operation>capture</operation><status>nok</status><date>2024-02-06</date><time>22:50:54 UTC+0000</time><origAmount>80.38</origAmount><origCurrency>EUR</origCurrency><idForMerchant>12955</idForMerchant><emailClient>gj2604@gmail.com</emailClient><idClient>23270706</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>12955</_aKey_cart_id>  <_aKey_customer_id>4086</_aKey_customer_id>  <_aKey_secure_key>68f2868caa0e4715c697121ef1bbabe7</_aKey_secure_key>  <_aKey_token>8845546b825cb611d0d3db29769bbfce</_aKey_token></merchantDatas><transid>65C2B7C0EF338613</transid><is3ds>No</is3ds><paymentMethod>MAESTRO</paymentMethod><nok-msg>Declined</nok-msg><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2024-02-06 23:50:57 ##
+currency : EUR
+## 2024-02-06 23:50:57 ##
+accountID:13248407 / websiteId:417972
+## 2024-02-06 23:50:57 ##
+callback_salt : 
+## 2024-02-06 23:50:57 ##
+md5 : 580671d3865cc49cf89ce137e60bc2f3 == md5content : 580671d3865cc49cf89ce137e60bc2f3
+## 2024-02-06 23:50:57 ##
+Status = nok
+## 2024-02-06 23:50:57 ##
+$currency = EUR
+## 2024-02-06 23:50:57 ##
+id_order_state = 8
+## 2024-02-06 23:50:57 ##
+----> START placeOrder()
+## 2024-02-06 23:50:58 ##
+Treatment status = ERROR
+## 2024-02-06 23:50:58 ##
+Array
+(
+    [operation] =&gt; capture
+    [status] =&gt; nok
+    [date] =&gt; 2024-02-06
+    [time] =&gt; 22:50:54 UTC+0000
+    [origAmount] =&gt; 80.38
+    [origCurrency] =&gt; EUR
+    [idForMerchant] =&gt; 12955
+    [emailClient] =&gt; gj2604@gmail.com
+    [idClient] =&gt; 23270706
+    [cardCountry] =&gt; FR
+    [ipCountry] =&gt; FR
+    [merchantDatas] =&gt; Array
+        (
+            [_aKey_cart_id] =&gt; 12955
+            [_aKey_customer_id] =&gt; 4086
+            [_aKey_secure_key] =&gt; 68f2868caa0e4715c697121ef1bbabe7
+            [_aKey_token] =&gt; 8845546b825cb611d0d3db29769bbfce
+        )
+
+    [transid] =&gt; 65C2B7C0EF338613
+    [is3ds] =&gt; No
+    [paymentMethod] =&gt; MAESTRO
+    [nok-msg] =&gt; Declined
+    [customerCountry] =&gt; FR
+    [returnCode] =&gt; Array
+        (
+        )
+
+    [returnDescriptionShort] =&gt; Array
+        (
+        )
+
+    [returnDescriptionLong] =&gt; Array
+        (
+        )
+
+)
+
+## 2024-02-06 23:50:58 ##
+----> END placeOrder()
+## 2024-02-06 23:50:58 ##
+----> END registerOrder()
+## 2024-02-06 23:50:58 ##
+----> Treatment is unlocked for the id_cart = 12955

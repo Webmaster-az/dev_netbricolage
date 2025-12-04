@@ -1,0 +1,259 @@
+## 2023-08-10 10:03:59 ##
+##########################
+## 2023-08-10 10:03:59 ##
+START Validation Callback
+## 2023-08-10 10:03:59 ##
+##########################
+## 2023-08-10 10:03:59 ##
+----> Treatment is locked for the id_cart = 10224
+## 2023-08-10 10:03:59 ##
+data for validation
+## 2023-08-10 10:03:59 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>0b5463ce3ae7cc29523710ae241350d3</md5content><result><operation>authorization</operation><status>ok</status><date>2023-08-10</date><time>08:03:53 UTC+0000</time><origAmount>935.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10224</idForMerchant><emailClient>jerome.lochness@gmail.com</emailClient><idClient>19237184</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10224</_aKey_cart_id>  <_aKey_customer_id>3656</_aKey_customer_id>  <_aKey_secure_key>1d23c26559611dbc21a2865e1576bb55</_aKey_secure_key>  <_aKey_token>c1749e85f70714d5cb4ce85ba2f0d6c8</_aKey_token></merchantDatas><transid>64D49999E68F9181</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 0b5463ce3ae7cc29523710ae241350d3
+            [result] => Array
+                (
+                    [operation] => authorization
+                    [status] => ok
+                    [date] => 2023-08-10
+                    [time] => 08:03:53 UTC+0000
+                    [origAmount] => 935.56
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10224
+                    [emailClient] => jerome.lochness@gmail.com
+                    [idClient] => 19237184
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10224
+                            [_aKey_customer_id] => 3656
+                            [_aKey_secure_key] => 1d23c26559611dbc21a2865e1576bb55
+                            [_aKey_token] => c1749e85f70714d5cb4ce85ba2f0d6c8
+                        )
+
+                    [transid] => 64D49999E68F9181
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10224
+    [3] => 3656
+    [4] => 1d23c26559611dbc21a2865e1576bb55
+    [5] => 935.56
+)
+
+## 2023-08-10 10:03:59 ##
+----> START registerOrder()
+## 2023-08-10 10:03:59 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-10 10:03:59 ##
+<result><operation>authorization</operation><status>ok</status><date>2023-08-10</date><time>08:03:53 UTC+0000</time><origAmount>935.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10224</idForMerchant><emailClient>jerome.lochness@gmail.com</emailClient><idClient>19237184</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10224</_aKey_cart_id>  <_aKey_customer_id>3656</_aKey_customer_id>  <_aKey_secure_key>1d23c26559611dbc21a2865e1576bb55</_aKey_secure_key>  <_aKey_token>c1749e85f70714d5cb4ce85ba2f0d6c8</_aKey_token></merchantDatas><transid>64D49999E68F9181</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-10 10:03:59 ##
+currency : EUR
+## 2023-08-10 10:03:59 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-10 10:03:59 ##
+callback_salt : 
+## 2023-08-10 10:03:59 ##
+md5 : 0b5463ce3ae7cc29523710ae241350d3 == md5content : 0b5463ce3ae7cc29523710ae241350d3
+## 2023-08-10 10:03:59 ##
+Status = ok
+## 2023-08-10 10:03:59 ##
+$currency = EUR
+## 2023-08-10 10:03:59 ##
+id_order_state = 42
+## 2023-08-10 10:03:59 ##
+----> START placeOrder()
+## 2023-08-10 10:03:59 ##
+Treatment status = 42
+## 2023-08-10 10:03:59 ##
+Validate order
+## 2023-08-10 10:03:59 ##
+Array
+(
+    [0] => 10224
+    [1] => 42
+    [2] => 935.56
+    [3] => HiPay Professional
+    [4] => {"Environment":"PRODUCTION","Payment method":"CB","Transaction ID":"64D49999E68F9181"}
+    [5] => Array
+        (
+            [transaction_id] => 64D49999E68F9181
+        )
+
+    [6] => 1
+    [7] => 1d23c26559611dbc21a2865e1576bb55
+)
+
+## 2023-08-10 10:03:59 ##
+ID Shop = 1
+## 2023-08-10 10:04:04 ##
+Order created
+## 2023-08-10 10:04:04 ##
+----> END placeOrder()
+## 2023-08-10 10:04:04 ##
+----> END registerOrder()
+## 2023-08-10 10:04:04 ##
+----> Treatment is unlocked for the id_cart = 10224
+## 2023-08-10 10:04:04 ##
+##########################
+## 2023-08-10 10:04:04 ##
+START Validation Callback
+## 2023-08-10 10:04:04 ##
+##########################
+## 2023-08-10 10:04:04 ##
+----> Treatment is locked for the id_cart = 10224
+## 2023-08-10 10:04:04 ##
+data for validation
+## 2023-08-10 10:04:04 ##
+Array
+(
+    [0] => <?xml version="1.0" encoding="UTF-8"?>
+<mapi><mapiversion>1.0</mapiversion><md5content>52694c39ea29982f0923649181059d50</md5content><result><operation>capture</operation><status>ok</status><date>2023-08-10</date><time>08:04:01 UTC+0000</time><origAmount>935.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10224</idForMerchant><emailClient>jerome.lochness@gmail.com</emailClient><idClient>19237184</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10224</_aKey_cart_id>  <_aKey_customer_id>3656</_aKey_customer_id>  <_aKey_secure_key>1d23c26559611dbc21a2865e1576bb55</_aKey_secure_key>  <_aKey_token>c1749e85f70714d5cb4ce85ba2f0d6c8</_aKey_token></merchantDatas><transid>64D49999E68F9181</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result></mapi>
+
+    [1] => Array
+        (
+            [mapiversion] => 1.0
+            [md5content] => 52694c39ea29982f0923649181059d50
+            [result] => Array
+                (
+                    [operation] => capture
+                    [status] => ok
+                    [date] => 2023-08-10
+                    [time] => 08:04:01 UTC+0000
+                    [origAmount] => 935.56
+                    [origCurrency] => EUR
+                    [idForMerchant] => 10224
+                    [emailClient] => jerome.lochness@gmail.com
+                    [idClient] => 19237184
+                    [cardCountry] => FR
+                    [ipCountry] => FR
+                    [merchantDatas] => Array
+                        (
+                            [_aKey_cart_id] => 10224
+                            [_aKey_customer_id] => 3656
+                            [_aKey_secure_key] => 1d23c26559611dbc21a2865e1576bb55
+                            [_aKey_token] => c1749e85f70714d5cb4ce85ba2f0d6c8
+                        )
+
+                    [transid] => 64D49999E68F9181
+                    [is3ds] => Yes
+                    [paymentMethod] => CB
+                    [customerCountry] => FR
+                    [returnCode] => Array
+                        (
+                        )
+
+                    [returnDescriptionShort] => Array
+                        (
+                        )
+
+                    [returnDescriptionLong] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => 10224
+    [3] => 3656
+    [4] => 1d23c26559611dbc21a2865e1576bb55
+    [5] => 935.56
+)
+
+## 2023-08-10 10:04:04 ##
+----> START registerOrder()
+## 2023-08-10 10:04:04 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-10 10:04:04 ##
+<result><operation>capture</operation><status>ok</status><date>2023-08-10</date><time>08:04:01 UTC+0000</time><origAmount>935.56</origAmount><origCurrency>EUR</origCurrency><idForMerchant>10224</idForMerchant><emailClient>jerome.lochness@gmail.com</emailClient><idClient>19237184</idClient><cardCountry>FR</cardCountry><ipCountry>FR</ipCountry><merchantDatas>  <_aKey_cart_id>10224</_aKey_cart_id>  <_aKey_customer_id>3656</_aKey_customer_id>  <_aKey_secure_key>1d23c26559611dbc21a2865e1576bb55</_aKey_secure_key>  <_aKey_token>c1749e85f70714d5cb4ce85ba2f0d6c8</_aKey_token></merchantDatas><transid>64D49999E68F9181</transid><is3ds>Yes</is3ds><paymentMethod>CB</paymentMethod><customerCountry>FR</customerCountry><returnCode/><returnDescriptionShort/><returnDescriptionLong/></result>
+## 2023-08-10 10:04:04 ##
+currency : EUR
+## 2023-08-10 10:04:04 ##
+accountID:13248407 / websiteId:417972
+## 2023-08-10 10:04:04 ##
+callback_salt : 
+## 2023-08-10 10:04:04 ##
+md5 : 52694c39ea29982f0923649181059d50 == md5content : 52694c39ea29982f0923649181059d50
+## 2023-08-10 10:04:04 ##
+Status = ok
+## 2023-08-10 10:04:04 ##
+$currency = EUR
+## 2023-08-10 10:04:04 ##
+id_order_state = 2
+## 2023-08-10 10:04:04 ##
+----> START placeOrder()
+## 2023-08-10 10:04:04 ##
+Treatment an existing order
+## 2023-08-10 10:04:04 ##
+If current status order = HIPAY_OS_WAITING Then change status with this id_status = 2
+## 2023-08-10 10:04:04 ##
+Array
+(
+    [operation] => capture
+    [status] => ok
+    [date] => 2023-08-10
+    [time] => 08:04:01 UTC+0000
+    [origAmount] => 935.56
+    [origCurrency] => EUR
+    [idForMerchant] => 10224
+    [emailClient] => jerome.lochness@gmail.com
+    [idClient] => 19237184
+    [cardCountry] => FR
+    [ipCountry] => FR
+    [merchantDatas] => Array
+        (
+            [_aKey_cart_id] => 10224
+            [_aKey_customer_id] => 3656
+            [_aKey_secure_key] => 1d23c26559611dbc21a2865e1576bb55
+            [_aKey_token] => c1749e85f70714d5cb4ce85ba2f0d6c8
+        )
+
+    [transid] => 64D49999E68F9181
+    [is3ds] => Yes
+    [paymentMethod] => CB
+    [customerCountry] => FR
+    [returnCode] => Array
+        (
+        )
+
+    [returnDescriptionShort] => Array
+        (
+        )
+
+    [returnDescriptionLong] => Array
+        (
+        )
+
+)
+
+## 2023-08-10 10:04:05 ##
+----> END placeOrder()
+## 2023-08-10 10:04:05 ##
+----> END registerOrder()
+## 2023-08-10 10:04:05 ##
+----> Treatment is unlocked for the id_cart = 10224
