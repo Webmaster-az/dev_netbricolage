@@ -161,7 +161,7 @@
           <div class="col-md-12">
 
             {$HOOK_PAYMENT_RETURN nofilter}
-            <a href="/pdf/rib-santander.pdf" target="">
+            <a href="/pdf/rib-santander.pdf?v=2" target="">
               <i class="fa fa-print" aria-hidden="true" style="font-size: 25px;"></i>
               Imprimé ici un RIB 
             </a>
